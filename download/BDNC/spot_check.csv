@@ -1,0 +1,114 @@
+pair,language,tie_id,sent,sentence,text,cat,sub,ante,conf,reason
+P01,EN,P01-EN-042,S017,"During the most recent drought from 2017 to 2020, dam levels in Sydney dropped by 50 per cent of their full capacity.",dam,L,collocation,S004: reservoirs,low,low confidence
+P01,VI,P01-VI-034,S016,"Khoảng 85% lượng nước của Sydney đến từ nước mưa, trong khi 15% còn lại đến từ nhà máy khử muối – nơi lọc bỏ muối và các",nhà máy,L,collocation,S007: nhà máy xử lý nước tiên tiến,low,low confidence
+P02,EN,P02-EN-013,S006,"""I struggled a lot with shame for a long time ... it still sometimes stings just to say it,"" she said.",it,R,personal,S005: felt embarrassed (the feeling),low,low confidence
+P02,VI,P02-VI-026,S011,"Báo cáo dịch vụ hỗ trợ người vô gia cư năm 2023-24 của Viện Y tế và Phúc lợi Úc (AIHW) cũng cho thấy, riêng nhóm thanh n",người,L,repetition,S010: 122.000 người,low,low confidence
+P02,VI,P02-VI-124,S038,"""Nhiều người buộc phải ở lại những môi trường không an toàn chỉ vì họ hoàn toàn không còn nơi nào để đi,"" cô nói.",người,L,repetition,S037: thanh niên,low,low confidence
+P03,EN,P03-EN-056,S022,Greens senator Larissa Waters has taken aim at the major parties over today's disclosures.,disclosures,L,synonym,S002: Australian Electoral Commission data released,low,low confidence
+P05,EN,P05-EN-005,S005,Small businesses complying with the new Voluntary Small Business Wage Compliance Code will be exempt from penalties for ,the new,L,repetition,S003: the new wage-theft laws,low,low confidence
+P05,EN,P05-EN-028,S016,More details can be found here.,More,R,comparative,S011-S015: details of the changes,low,low confidence
+P05,EN,P05-EN-033,S018,"From 1 January, the cost of a standard 10-year Australian passport will hit $412, up $14 from 2024.",2024,L,repetition,S017: 2025 due to annual indexation,low,low confidence
+P05,EN,P05-EN-054,S030,"A ban on the importation of engineered stone bench tops, panels and slabs — commonly used for kitchen benches — will be ",A ban,L,repetition,S025: new regulations,low,low confidence
+P05,EN,P05-EN-102,S059,South Australia will ditch the co-resident income assessment so more people will be eligible for greater cost of living ,cost of living relief,L,repetition,S002: welfare payment hikes,low,low confidence
+P05,VI,P05-VI-002,S003,"Cá nhân có thể phải đối mặt với án tù lên tới 10 năm và tiền phạt lên tới 1,56 triệu đô la.",Cá nhân,L,repetition,S002: các công ty,low,low confidence
+P05,VI,P05-VI-006,S005,"Cư dân từ Canada, Vương quốc Anh và Hoa Kỳ sẽ có thể nhanh chóng nhập quốc tịch Úc nếu họ tham gia Lực lượng Quốc phòng ",Cư dân,L,repetition,S003: Cá nhân,low,low confidence
+P05,VI,P05-VI-025,S015,Bạn có thể tìm thấy thêm thông tin chi tiết tại đây.,thêm,R,comparative,S010-S014: payment change details,low,low confidence
+P05,VI,P05-VI-029,S017,"Từ ngày 1 tháng 1, chi phí cho hộ chiếu Úc tiêu chuẩn có thời hạn 10 năm sẽ có mức 412 đô la, tăng 14 đô la so với năm 2",2024,L,repetition,S016: năm 2025,low,low confidence
+P06,EN,P06-EN-064,S032,"""Community-driven travel will be a big part of the change; travellers are now seeking human connection and personalised ",travellers,L,repetition,S008: travellers,low,low confidence
+P07,EN,P07-EN-032,S023,One underlying theme in the Australian experience has been rejecting British formality and hierarchy.,British,L,repetition,S022: our history,low,low confidence
+P07,EN,P07-EN-096,S053,Almost certainly.,Almost certainly,L,repetition,S044: almost certainly not true,low,low confidence
+P07,VI,P07-VI-031,S023,Một chủ đề căn bản trong trải nghiệm của người Úc là bác bỏ sự trang trọng và tính thứ bậc của người Anh.,người Anh,L,repetition,S022: (first overt mention),low,low confidence
+P07,VI,P07-VI-094,S053,Gần như chắc chắn rồi.,Gần như chắc chắn,L,repetition,S044: gần như chắc chắn,low,low confidence
+P09,EN,P09-EN-008,S003,"However, the government has rejected the report's findings and insisted that overall bulk billing visit numbers — if con",the government,L,repetition,S001-S002: report context,low,low confidence
+P09,VI,P09-VI-046,S016,"Đáp lại yêu cầu bình luận về báo cáo Cleanbill, Bộ trưởng Y tế Mark Butler nói với SBS News: “Sau khi chúng tôi tăng gấp",SBS News,L,repetition,S001: SBS News (implied source),low,low confidence
+P10,EN,P10-EN-003,S003,"Its value against the United States dollar has dropped by around 10 per cent over the last few months, and it's currentl",the United States dollar,L,collocation,S002: The Australian dollar,low,low confidence
+P10,EN,P10-EN-015,S009,"""Secondly, concerns are growing that China's economic stimulus efforts may not be effective, weakening the Chinese yuan ",the Chinese yuan,L,collocation,S008: other currencies,low,low confidence
+P10,EN,P10-EN-017,S011,Chief economist at the Australia Institute Greg Jericho agreed.,agreed,L,repetition,S006: said several factors,low,low confidence
+P10,VI,P10-VI-002,S002,Giá trị của đồng đô la Úc so với đồng đô la Mỹ đã giảm khoảng 10 phần trăm trong vài tháng qua và hiện tại nó đang mua đ,đồng đô la Mỹ,L,collocation,S001: đồng đô la Úc,low,low confidence
+P10,VI,P10-VI-014,S009,"""Thứ hai, mối lo ngại ngày càng tăng rằng các nỗ lực kích thích kinh tế của Trung Quốc có thể không hiệu quả, làm suy yế",đồng nhân dân tệ,L,collocation,S008: các loại tiền tệ khác,low,low confidence
+P10,VI,P10-VI-016,S011,Nhà kinh tế trưởng tại Viện Úc Greg Jericho đồng ý.,đồng ý,L,repetition,S006: cho biết,low,low confidence
+P11,EN,P11-EN-018,S013,"Today, the transition is a highly elaborate, formalized process, governed as much by tradition and custom as by laws and",tradition,L,repetition,S004: (shadow government tradition implied),low,low confidence
+P11,EN,P11-EN-037,S022,"The Presidential Transition Act of 1963, updated over the years, formalizes some of the processes and mechanisms for a p",updated over the years,L,repetition,S011: used to be even longer,low,low confidence
+P11,EN,P11-EN-079,S038,"Candidates for political positions must be interviewed, vetted and in some cases receive top-secret security clearances.",vetted,L,repetition,S023-S025: succession plans and agreements,low,low confidence
+P11,EN,P11-EN-089,S043,Agency-level teams from both administrations work quietly to share information and orchestrate the complex handover.,share information,L,repetition,S020: shares a copy of his daily intelligence briefing,low,low confidence
+P11,EN,P11-EN-112,S054,This creates a high-stakes chess game in domestic and global affairs.,domestic and global affairs,L,repetition,S008: American democracy,low,low confidence
+P11,VI,P11-VI-011,S007,Chuyển giao tổng thống - 11 tuần quan trọng giữa Ngày bầu cử vào tháng 11 và Ngày nhậm chức vào tháng 1 năm sau - là nền,năm sau,L,repetition,S001: Vào tháng 7 năm nay,low,low confidence
+P11,VI,P11-VI-017,S010,"Theo nhà sử học Russel Riley, thời kỳ chuyển tiếp thậm chí còn dài hơn — bốn tháng — và là một sự kiện khá kín tiếng tro",lịch sử,L,repetition,S007: nền tảng của nền dân chủ,low,low confidence
+P11,VI,P11-VI-021,S012,"Ngày nay, quá trình chuyển tiếp là một quá trình chính thức, phức tạp, được quản lý theo truyền thống và phong tục cũng ",truyền thống,L,repetition,S003: (shadow government implied),low,low confidence
+P13,EN,P13-EN-006,S004,"Fides, the official agency of the Pontifical Mission Societies, said that Park Jie-won made the announcement at a Mass i",the announcement,L,repetition,S001: has said,low,low confidence
+P13,VI,P13-VI-005,S003,"Hiện có ít thông tin về số lượng công dân Triều Tiên là tín đồ Công giáo, hoặc cách họ thực hành đức tin.",Công giáo,L,repetition,S001: (Catholic implied in Vatican agency),low,low confidence
+P13,VI,P13-VI-006,S004,"Fides, hãng tin chính thức của Hiệp hội Truyền giáo Giáo hoàng, cho biết rằng ông Park Jie-won đã đưa ra thông báo này t",thông báo này,L,repetition,S001: cho biết,low,low confidence
+P15,EN,P15-EN-006,S004,"Informed by the attorney that Khalil was in the United States as a permanent resident with a green card, the agent said ",the United States,L,repetition,S001: (U.S. implied),low,low confidence
+P15,VI,P15-VI-001,S002,Luật sư Amy Greer nói với AP rằng Mahmoud Khalil đang ở trong ký túc xá của trường gần khuôn viên Đại học Columbia ở Man,Luật sư,L,repetition,S001: (attorney implied in arrest report),low,low confidence
+P15,VI,P15-VI-011,S005,Vụ bắt giữ này dường như là một trong những hành động đầu tiên được biết đến theo lời cam kết của Tổng thống Donald Trum,Trump,L,repetition,S004: (none),low,low confidence
+P15,VI,P15-VI-026,S011,"""Đây rõ ràng là một sự leo thang.",sự leo thang,L,repetition,S010: (escalation implied in detention details),low,low confidence
+P15,VI,P15-VI-033,S015,"Các tin nhắn yêu cầu bình luận đã được gửi đến Bộ Ngoại giao, Bộ An ninh Nội địa và ICE.",Bộ An ninh Nội địa,L,repetition,S001: (Homeland Security implied),low,low confidence
+P15,VI,P15-VI-036,S017,"Theo Camille Mackler, người sáng lập Immigrant ARC – một liên minh các nhà cung cấp dịch vụ pháp lý tại New York, thẩm p",liên minh,L,repetition,S016: (coalition implied),low,low confidence
+P15,VI,P15-VI-037,S018,"""Đây có vẻ là hành động trả đũa đối với một người đã bày tỏ quan điểm mà chính quyền Trump không thích,"" bà Mackler nói.",hành động trả đũa,L,repetition,S012: các mối đe dọa,low,low confidence
+P15,VI,P15-VI-047,S026,"""Chủ yếu là công việc ngăn chặn các bài phát biểu ủng hộ Palestine"".",công việc,L,repetition,S019: văn phòng (office work),low,low confidence
+P16,EN,P16-EN-002,S002,"With the ruble crashing to record lows against the U.S. dollar and other currencies, Russians are cutting back on spendi",the U.S. dollar,L,collocation,S001: currency,low,low confidence
+P16,EN,P16-EN-010,S005,"Suladda Sarutilavan, director of the Pattaya office of the Tourism Association of Thailand, told VOA News the Russians a",VOA,L,repetition,S001: (VOA dateline excluded),low,low confidence
+P16,EN,P16-EN-030,S015,The Thai resort cities and islands dependent on the Russians are putting into place urgent marketing initiatives to make,marketing,L,repetition,S011: (marketing implied in destinations),low,low confidence
+P16,VI,P16-VI-002,S002,"Trong tình hình đồng rúp sụt xuống các mức thấp kỷ lục so với đồng đôla và các chỉ tệ khác, người Nga đang cắt giảm chi ",đồng đôla,L,collocation,S001: đôla (currency chain),low,low confidence
+P16,VI,P16-VI-005,S003,Sự cắt giảm đó đang thấm vào những nơi như thành phố biển nghỉ mát Pattaya ở bờ đông Vịnh Thái Lan.,Pattaya,L,repetition,S001: (Pattaya implied in tourism industry),low,low confidence
+P16,VI,P16-VI-010,S005,"Bà Suladda Sarutilavan, giám đốc văn phòng ở Pattaya của Hiệp hội Du lịch Thái Lan, cho đài VOA biết người Nga không thu",VOA,L,repetition,S002: (VOA dateline excluded),low,low confidence
+P17,EN,P17-EN-003,S003,"For rubber farmers in Thailand, Malaysia and Indonesia - who supply two-thirds of the $36 billion annual market - this h",supply,L,repetition,S002: Prices ... production costs,low,low confidence
+P17,EN,P17-EN-035,S016,"“Immediate assistance is necessary,"" he said.",said,L,repetition,S012: tells VOA,low,low confidence
+P18,EN,P18-EN-008,S005,"UNICEF said protracted emergencies in Kachin, northern Shan and Rakhine states have placed more than 240,000 children in",placed,L,repetition,S004: (need implied),low,low confidence
+P18,EN,P18-EN-019,S009,We need to remind everyone we are there providing life-saving support.,life-saving support,L,repetition,S008: (support implied),low,low confidence
+P18,EN,P18-EN-021,S010,"We do not take sides,” said van Heese.",van Heese,L,repetition,S008: (speaker implied),low,low confidence
+P18,EN,P18-EN-050,S021,"This is all part of a global appeal totaling $3.1 billion, the largest ever by UNICEF and a $1 billion jump in funding n",a global appeal,L,repetition,S002: (appeal implied),low,low confidence
+P18,VI,P18-VI-013,S008,Các tổ chức cứu trợ đã gặp phải rất nhiều khó khăn trong việc lui tới và hoạt động tại những vùng có bạo động.,hoạt động,L,repetition,S005: (working implied),low,low confidence
+P18,VI,P18-VI-018,S011,"Bà Carmen van Heese, cố vấn của UNICEF về những tình huống khẩn cấp, cho biết như sau: ""Tại nhiều địa điểm trong các cộn",Bà Carmen van Heese,L,repetition,S008: (speaker implied),low,low confidence
+P18,VI,P18-VI-022,S012,Chúng tôi cần nhắc nhở mọi người là chúng tôi tới đó để cung cấp những sự trợ giúp để cứu sống mạng người.,cứu sống,L,repetition,S011: (life-saving implied),low,low confidence
+P19,EN,P19-EN-004,S003,The case involves tickets purchased from a total of 26 airlines.,tickets,L,repetition,S001: (tickets implied),low,low confidence
+P19,EN,P19-EN-011,S006,"Attorney Adam Zapala, who has been working on the case, explains it grew out of numerous U.S. government investigations ",U.S. government,L,repetition,S001: (none),low,low confidence
+P19,EN,P19-EN-013,S007,“Many of the same players in the air passenger industry also are air cargo carriers.,air cargo carriers,L,repetition,S006: (cargo implied in investigations),low,low confidence
+P19,EN,P19-EN-015,S008,In fact a lot of the cargo that's carried day to day throughout the world is carried in the belly of air passenger plane,the world,L,repetition,S001: across the Pacific (world),low,low confidence
+P19,EN,P19-EN-023,S011,Zapala said how much money passengers potentially can get depends on how many of them file applications for claims.,applications,L,repetition,S001: (claims implied),low,low confidence
+P19,EN,P19-EN-046,S021,Information on how to do that can be obtained by visiting the website www.AirlineSettlement.com.,Information,L,repetition,S020: a claim form (info implied),low,low confidence
+P19,VI,P19-VI-006,S004,Vụ kiện liên quan đến vé máy bay của 26 hãng hàng không.,vé máy bay,L,repetition,S003: (tickets implied),low,low confidence
+P19,VI,P19-VI-013,S007,Luật sư Adam Zapala tham gia vụ kiện này giải thích rằng chính phủ Mỹ đã thực hiện vô số các cuộc điều tra về vụ kiện lũ,chính phủ Mỹ,L,repetition,S001: (none),low,low confidence
+P19,VI,P19-VI-014,S007,Luật sư Adam Zapala tham gia vụ kiện này giải thích rằng chính phủ Mỹ đã thực hiện vô số các cuộc điều tra về vụ kiện lũ,Luật sư Adam Zapala,L,repetition,S006: (none),low,low confidence
+P19,VI,P19-VI-017,S008,"Ông Zapala nói: ""Nhiều dịch vụ hàng không trong ngành vận tải hành khách lại làm luôn cả vận tải hàng hóa.",vận tải hàng hóa,L,repetition,S007: (cargo implied),low,low confidence
+P19,VI,P19-VI-019,S009,Trong thực tế có một lượng hàng hóa lớn được chuyên chở hàng ngày trên khắp thế giới ngay trong khoang hàng của các chiế,thế giới,L,repetition,S001: (world implied),low,low confidence
+P19,VI,P19-VI-031,S015,Luật sư Zapala nói rằng phá được một vụ lũng đoạn giá vé như vậy mất rất nhiều thời gian và tiền bạc nhưng hy vọng rằng ,lũng đoạn giá vé,L,repetition,S007: điều tra (price-fixing implied),low,low confidence
+P19,VI,P19-VI-047,S022,Các thông tin của việc này được loan tải trên trang web www.AirlineSettlements.com.,Các thông tin,L,repetition,S021: (info implied),low,low confidence
+P20,VI,P20-VI-004,S003,"Vấn đề này đang gây chú ý nhiều hơn tại Hoa Kỳ, nơi một cuộc nghiên cứu mới cho thấy một phần 3 hải sản nhập khẩu được đ",Hoa Kỳ,L,repetition,S001: (none),low,low confidence
+P02,EN,P02-EN-094,S027,"He believes there should also be more focus on prevention, which can include housing assistance, mental health support, ",also,C,additive,S021-S025: foyers and support,med,random sample
+P01,EN,P01-EN-034,S014,Now efforts are underway in Sydney to educate the public on the prospect of using recycled wastewater.,Now,C,temporal,S011-S013: Singapore history; shift to Sydney present,med,random sample
+P08,EN,P08-EN-064,S029,"In contrast, house prices there surged 4.6 per cent over the quarter.",In contrast,C,adversative,S028: sharpest unit decline,high,random sample
+P03,EN,P03-EN-011,S008,Wagering companies also donated tens of thousands of dollars to Labor as the government mulled reforming sports betting ,also,C,additive,S007: Hancock donation,med,random sample
+P02,EN,P02-EN-147,S042,They said the government was also investing $91.7 million in youth homelessness prevention services through the Reconnec,also,C,additive,S041: $9.3 billion provision,med,random sample
+P19,EN,P19-EN-041,S019,"However, ANA has pled guilty to fixing the prices of certain discounted tickets.",However,C,adversative,S018: those still being sued,high,random sample
+P07,EN,P07-EN-004,S005,Who’s a “mate”?,(ellipsis),E,nominal,S004: asking this question,high,random sample
+P03,EN,P03-EN-002,S003,"The source of ""hidden money"" that's not required to be disclosed was almost $75 million, or 45 per cent, according to an",disclosed,L,repetition,S001: disclosure laws,high,random sample
+P17,EN,P17-EN-045,S020,"The Thai government's support helped temporarily to boost prices, but they have sagged again this month.",prices,L,repetition,S008: prices,high,random sample
+P02,EN,P02-EN-121,S035,"""People are staying in unsafe environments just because they have absolutely nowhere to go,"" she said.",People,L,repetition,S034: young people,med,random sample
+P20,EN,P20-EN-005,S004,"Belize, Cambodia and Guinea, in March of this year, were penalized with the first-ever EU red cards for pirate fishing.",EU red cards,L,repetition,"S001: ""red card""",high,random sample
+P11,EN,P11-EN-019,S014,"“It’s very much the customs and habits that candidates and the federal government do,” said Derek Muller, a Notre Dame l",the customs and habits,L,repetition,S013: tradition and custom,high,random sample
+P01,EN,P01-EN-092,S036,"Unlike Sydney, the Western Australian capital does not have access to large dams, relying instead on groundwater, which ",depleting,L,repetition,S018: depleting,med,random sample
+P01,EN,P01-EN-024,S010,Khan says its success largely comes down to a well-executed education campaign.,its,R,personal,S009: the country / Singapore,high,random sample
+P01,EN,P01-EN-116,S045,"""So it's largely been decommissioned, but it's sitting there as part of Brisbane's or south-east Queensland's future wat",it,R,personal,S044: It (the scheme),high,random sample
+P02,EN,P02-EN-100,S029,"""If we don't act to prevent it and to reduce the flow of people and young people in particular into homelessness, then t",we,R,personal,"S028: he (MacKenzie, quoted speaker)",med,random sample
+P02,EN,P02-EN-113,S033,She said being supported by her case worker and securing a place in a youth foyer for two years changed her life.,her,R,personal,S032: Chan-Hampton,high,random sample
+P07,EN,P07-EN-117,S065,I am not sure that “pink-atoo” will ever catch on.,I,R,personal,S058: I,high,random sample
+P10,EN,P10-EN-028,S016,"Jericho said this most significantly affects petrol prices, which are entirely dependent on global markets.",this,R,demonstrative,S015: imports more expensive,high,random sample
+P01,VI,P01-VI-028,S014,Sydney cũng đang bắt đầu các nỗ lực nâng cao nhận thức về việc sử dụng nước thải tái chế.,cũng,C,additive,S010-S013: Singapore education efforts,med,random sample
+P04,VI,P04-VI-026,S011,Bà Shriane cũng tỏ ra hoài nghi về những người nói rằng họ chỉ cần ngủ 5 tiếng mỗi đêm.,cũng,C,additive,S006: Shriane’s first claim,med,random sample
+P10,VI,P10-VI-028,S017,"Tuy nhiên, ông cho biết, các mặt hàng khác cũng có thể tăng giá.",Tuy nhiên,C,adversative,S016: giá xăng affected most,high,random sample
+P04,VI,P04-VI-054,S027,"Thay vào đó, bà gợi ý áp dụng các biện pháp đơn giản sau: Đi ngủ và thức dậy vào cùng giờ mỗi ngày, kể cả cuối tuần.",Thay vào đó,C,adversative,S026: đa số không hiệu quả,high,random sample
+P17,VI,P17-VI-017,S009,Nhưng các chuyên gia phân tích mà VOA liên lạc hôm thứ Hai nói các nhà buôn đang có thái độ “chờ xem” bởi vì có một sự c,Nhưng,C,adversative,S008: ém giá,high,random sample
+P07,VI,P07-VI-005,S009,Nhưng chắc chắn đó là tiếng Anh.,Nhưng,C,adversative,S008: Đúng là khó hiểu,high,random sample
+P08,VI,P08-VI-001,S003,Thị trường nhà ở Úc đang trải qua những chuyển biến lớn khi áp lực tài chính và sự thay đổi nhu cầu định hình lại giá nh,Thị trường nhà ở Úc,L,repetition,S001: thị trường địa ốc Úc,high,random sample
+P01,VI,P01-VI-020,S010,"Theo Giáo sư Khan, sự thành công của Singapore phần lớn nhờ vào chiến dịch giáo dục cộng đồng bài bản.",Singapore,L,repetition,S008: Singapore,high,random sample
+P03,VI,P03-VI-126,S033,"Trong khi đó, SBS News đã liên hệ với Đảng Lao động và Đảng Tự do để lấy ý kiến phản hồi, nhưng vẫn chưa nhận được bình ",Đảng Lao động và Đảng Tự do,L,repetition,S014: Đảng Lao động và Đảng Tự do,high,random sample
+P11,VI,P11-VI-114,S056,"Trong khi các chính phủ nước ngoài vẫn duy trì quan hệ với các toà đại sứ Hoa Kỳ, ông Muller lưu ý rằng các nhà lãnh đạo",chính quyền mới,L,repetition,S053: chính quyền tương lai,high,random sample
+P09,VI,P09-VI-070,S025,"Ông Wright nói rằng mặc dù các ưu đãi đã giúp tăng tài trợ cho các nhóm này, “nó không giúp được phần lớn nước Úc”.",Ông Wright,L,repetition,S024: Ông (Wright),high,random sample
+P03,VI,P03-VI-117,S030,Các đảng lớn được hưởng lợi từ ngân sách công khi khoản tiền hoàn trả từ AEC được tăng lên.,AEC,L,repetition,S028: Ủy ban Bầu cử Úc (AEC),high,random sample
+P05,VI,P05-VI-025,S015,Bạn có thể tìm thấy thêm thông tin chi tiết tại đây.,thêm,R,comparative,S010-S014: payment change details,low,random sample
+P07,VI,P07-VI-115,S065,"Tôi không chắc từ ""pink-atoo"" sẽ bao giờ được ưa chuộng.",Tôi,R,personal,S058: Tôi,high,random sample
+P02,VI,P02-VI-014,S007,"Chan-Hampton, một phụ nữ Wiradjuri đầy tự hào, cho biết khi còn nhỏ, cô không nghĩ rằng mình đang trong tình trạng vô gi",cô,R,personal,S006: cô (Tyrah),high,random sample
+P02,VI,P02-VI-007,S005,Tyrah chia sẻ rằng cô thường xuyên cảm thấy xấu hổ vì định kiến xã hội gắn liền với tình trạng vô gia cư và bất ổn về nh,cô,R,personal,S004: cô (Tyrah),high,random sample
+P10,VI,P10-VI-010,S008,"Điều này đã dẫn đến việc đồng đô la Mỹ tăng giá so với các loại tiền tệ khác, bao gồm cả đồng đô la Úc"", ông cho biết.",Điều này,R,demonstrative,S007: ít cắt giảm lãi suất hơn,high,random sample
+P02,VI,P02-VI-010,S006,"""Tôi đã vật lộn rất nhiều với cảm giác xấu hổ trong suốt một thời gian dài... đến bây giờ, đôi khi chỉ cần nói ra thôi c",Tôi,R,personal,S002: Tyrah Chan-Hampton (quoted speaker),med,random sample

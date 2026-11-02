@@ -1,0 +1,26 @@
+{
+ "EN": {
+  "R": 246,
+  "S": 0,
+  "E": 1,
+  "C": 65,
+  "L": 1293,
+  "total_ties": 1605,
+  "sentences": 697,
+  "words": 14982,
+  "conf_med": 386,
+  "conf_low": 37
+ },
+ "VI": {
+  "R": 149,
+  "S": 0,
+  "E": 0,
+  "C": 67,
+  "L": 1175,
+  "total_ties": 1391,
+  "sentences": 621,
+  "words": 15939,
+  "conf_med": 276,
+  "conf_low": 39
+ }
+}

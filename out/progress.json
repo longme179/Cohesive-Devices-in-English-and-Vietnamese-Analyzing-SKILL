@@ -453,5 +453,19 @@
    "qc": "PASS"
   }
  },
- "last_updated": "auto"
+ "last_updated": "auto",
+ "status": "complete",
+ "pairs_completed": 20,
+ "artifacts": {
+  "appendix1": [
+   "out/appendix1/Appendix1.md",
+   "out/appendix1/Appendix1.html"
+  ],
+  "appendix2": [
+   "out/appendix2/Appendix2.md",
+   "out/appendix2/stats.csv",
+   "out/appendix2/shifts.csv",
+   "out/appendix2/spot_check.csv"
+  ]
+ }
 }

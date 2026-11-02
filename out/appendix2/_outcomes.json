@@ -1,0 +1,16 @@
+{
+ "outcomes": {
+  "kept": 1126,
+  "shifted": 15,
+  "omitted": 348,
+  "added": 320
+ },
+ "shifts": {
+  "R>L": 9,
+  "R>zero": 72,
+  "L>R": 6,
+  "L>zero": 264,
+  "C>zero": 11,
+  "E>zero": 1
+ }
+}

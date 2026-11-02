@@ -1,0 +1,1810 @@
+pair,st_tie,tt_tie,outcome,shift,note
+P01,P01-EN-001,P01-VI-001,kept,,"city-state -> đảo quốc, synonym re-description in both"
+P01,P01-EN-002,P01-VI-001,shifted,R>L,EN pronoun it rendered as lexical NP đảo quốc này; merged with EN-001 counterpart
+P01,P01-EN-003,P01-VI-003,kept,,But -> Tuy nhiên
+P01,P01-EN-004,P01-VI-005,kept,,also -> cũng
+P01,P01-EN-005,P01-VI-004,kept,,general word the country -> proper name Singapore (same cat L)
+P01,P01-EN-006,P01-VI-006,kept,,recycled water -> tái chế nước thải
+P01,P01-EN-007,P01-VI-006,kept,,sewage water -> nước thải; TT chain marked once
+P01,P01-EN-008,P01-VI-008,kept,,
+P01,P01-EN-009,P01-VI-008,kept,,chain merged in TT marking (one tie per chain per sentence)
+P01,P01-EN-010,P01-VI-008,kept,,chain merged in TT marking
+P01,P01-EN-011,P01-VI-010,kept,,But -> Nhưng
+P01,P01-EN-012,P01-VI-011,kept,,we -> chúng tôi
+P01,P01-EN-013,,omitted,R>zero,"TT drops the object pronoun (thay vì thải ra môi trường, pro-drop)"
+P01,P01-EN-014,P01-VI-012,kept,,environment -> môi trường
+P01,P01-EN-015,,omitted,R>zero,TT renders it as repeated noun nước (đưa nước qua; bare nước unmarked per topic-word convention)
+P01,P01-EN-016,P01-VI-013,kept,,
+P01,P01-EN-017,,omitted,R>zero,TT renders it as repeated noun nước (nơi nước được lọc)
+P01,P01-EN-018,,omitted,R>zero,TT renders it as repeated noun nước / pro-drop (đưa trở lại)
+P01,P01-EN-019,P01-VI-014,kept,,
+P01,P01-EN-020,P01-VI-016,kept,,It -> hệ thống này (general word + demonstrative); both R
+P01,P01-EN-021,P01-VI-017,shifted,L>R,the country -> Họ (pronoun)
+P01,P01-EN-022,P01-VI-018,kept,,
+P01,P01-EN-023,P01-VI-019,kept,,
+P01,P01-EN-024,P01-VI-020,shifted,R>L,its -> của Singapore (repeated proper name)
+P01,P01-EN-025,P01-VI-021,kept,,
+P01,P01-EN-026,P01-VI-022,kept,,
+P01,P01-EN-027,P01-VI-023,kept,,They -> Họ
+P01,P01-EN-028,,omitted,R>zero,TT omits possessive their
+P01,P01-EN-029,,omitted,L>zero,TT reformulates; water recycling scheme not lexicalised
+P01,P01-EN-030,P01-VI-024,kept,,he -> ông (kinship term as pronoun)
+P01,P01-EN-031,P01-VI-025,kept,,
+P01,P01-EN-032,P01-VI-026,shifted,L>R,repeated noun visitor centre -> general word + demonstrative nơi này
+P01,P01-EN-033,P01-VI-027,kept,,
+P01,P01-EN-034,,omitted,C>zero,Now dropped; TT uses đang (progressive) instead
+P01,P01-EN-035,,omitted,L>zero,"educate -> nâng cao nhận thức (different lexis, no TT tie)"
+P01,P01-EN-036,P01-VI-029,kept,,
+P01,P01-EN-037,P01-VI-032,kept,,
+P01,P01-EN-038,P01-VI-031,kept,,cities/Úc echo; TT also marks nguồn cung cấp nước separately (VI-030)
+P01,P01-EN-039,P01-VI-033,kept,,
+P01,P01-EN-040,,omitted,L>zero,supply -> lượng nước (reformulated)
+P01,P01-EN-041,P01-VI-035,kept,,
+P01,P01-EN-042,P01-VI-036,kept,,"EN association (dam~reservoir, conf low) vs TT verbatim repetition hồ chứa"
+P01,P01-EN-043,P01-VI-037,kept,,
+P01,P01-EN-044,P01-VI-038,kept,,
+P01,P01-EN-045,P01-VI-039,kept,,
+P01,P01-EN-046,P01-VI-044,kept,,
+P01,P01-EN-047,,omitted,L>zero,future solution -> giải pháp tiềm năng; future dropped
+P01,P01-EN-048,P01-VI-045,shifted,L>R,the process -> Công nghệ này (demonstrative NP)
+P01,P01-EN-049,P01-VI-046,kept,,
+P01,P01-EN-050,,omitted,L>zero,"TT has no prior công chúng mention, so no cohesive tie"
+P01,P01-EN-051,P01-VI-047,kept,,
+P01,P01-EN-052,P01-VI-048,kept,,
+P01,P01-EN-053,P01-VI-049,kept,,Firstly -> Thứ nhất
+P01,P01-EN-054,,omitted,R>zero,TT omits possessive our
+P01,P01-EN-055,P01-VI-050,kept,,
+P01,P01-EN-056,P01-VI-051,kept,,
+P01,P01-EN-057,P01-VI-052,kept,,
+P01,P01-EN-058,P01-VI-053,kept,,And lastly -> Và cuối cùng
+P01,P01-EN-059,P01-VI-054,kept,,our -> của chúng tôi (full pronoun after của)
+P01,P01-EN-060,P01-VI-055,kept,,
+P01,P01-EN-061,P01-VI-056,kept,,
+P01,P01-EN-062,P01-VI-057,kept,,We -> Chúng tôi
+P01,P01-EN-063,P01-VI-058,kept,,public -> người dân
+P01,P01-EN-064,,omitted,R>zero,here dropped; TT uses tham quan
+P01,P01-EN-065,P01-VI-061,kept,,
+P01,P01-EN-066,P01-VI-062,kept,,verbatim in TT
+P01,P01-EN-067,P01-VI-063,kept,,
+P01,P01-EN-068,P01-VI-064,kept,,
+P01,P01-EN-069,P01-VI-065,kept,,
+P01,P01-EN-070,P01-VI-066,kept,,
+P01,P01-EN-071,P01-VI-067,kept,,
+P01,P01-EN-072,P01-VI-068,kept,,
+P01,P01-EN-073,P01-VI-069,kept,,public -> công chúng
+P01,P01-EN-074,P01-VI-070,kept,,
+P01,P01-EN-075,P01-VI-071,shifted,R>L,"comparative other marked R in EN; TT tie marked on repeated ví dụ (L), khác recorded as alt"
+P01,P01-EN-076,P01-VI-073,kept,,lack of support -> không ủng hộ
+P01,P01-EN-077,P01-VI-074,kept,,
+P01,P01-EN-078,,omitted,L>zero,EN S030 has no TT counterpart (VI omits the sentence)
+P01,P01-EN-079,,omitted,L>zero,EN S030 has no TT counterpart
+P01,P01-EN-080,P01-VI-075,kept,,
+P01,P01-EN-081,P01-VI-076,kept,,
+P01,P01-EN-082,P01-VI-075,kept,,ST sentence duplicated in source table; TT has it once
+P01,P01-EN-083,P01-VI-076,kept,,
+P01,P01-EN-084,P01-VI-078,kept,,
+P01,P01-EN-085,P01-VI-079,kept,,
+P01,P01-EN-086,P01-VI-082,kept,,cities -> general word nơi
+P01,P01-EN-087,,omitted,L>zero,the process dropped; TT uses verb triển khai
+P01,P01-EN-088,P01-VI-084,kept,,
+P01,P01-EN-089,P01-VI-086,shifted,L>R,the Western Australian capital -> Thành phố này (demonstrative NP)
+P01,P01-EN-090,P01-VI-085,kept,,
+P01,P01-EN-091,P01-VI-093,kept,,TT moves Khan attribution to S039
+P01,P01-EN-092,P01-VI-088,kept,,
+P01,P01-EN-093,,omitted,L>zero,"WA first mentioned fresh in TT (Tây Úc S038), no prior link"
+P01,P01-EN-094,,omitted,C>zero,So dropped in TT
+P01,P01-EN-095,P01-VI-090,kept,,
+P01,P01-EN-096,P01-VI-091,kept,,
+P01,P01-EN-097,P01-VI-093,shifted,R>L,he -> Giáo sư Khan (repeated name)
+P01,P01-EN-098,P01-VI-094,kept,,
+P01,P01-EN-099,P01-VI-096,kept,,
+P01,P01-EN-100,P01-VI-097,shifted,R>L,It -> Kế hoạch (repeated noun)
+P01,P01-EN-101,P01-VI-098,kept,,
+P01,P01-EN-102,P01-VI-099,kept,,
+P01,P01-EN-103,,omitted,C>zero,sentence-initial And dropped
+P01,P01-EN-104,,omitted,L>zero,"aquifers -> bể chứa, no prior TT mention"
+P01,P01-EN-105,,omitted,L>zero,purified recycled water -> bare nước in TT
+P01,P01-EN-106,,omitted,R>zero,TT abridges this passage
+P01,P01-EN-107,,omitted,L>zero,TT abridges this passage
+P01,P01-EN-108,P01-VI-100,kept,,
+P01,P01-EN-109,P01-VI-102,kept,,
+P01,P01-EN-110,P01-VI-103,kept,,
+P01,P01-EN-111,P01-VI-105,kept,,
+P01,P01-EN-112,P01-VI-106,kept,,
+P01,P01-EN-113,P01-VI-108,shifted,R>L,It -> dự án (repeated noun)
+P01,P01-EN-114,P01-VI-114,kept,,TT moves Khan to S045
+P01,P01-EN-115,,omitted,C>zero,So dropped; TT uses Hiện tại (temporal) instead
+P01,P01-EN-116,P01-VI-109,kept,,it -> nó
+P01,P01-EN-117,P01-VI-109,kept,,"EN has two its, TT one nó"
+P01,P01-EN-118,P01-VI-111,kept,,
+P01,P01-EN-119,P01-VI-112,kept,,
+P01,P01-EN-120,P01-VI-113,kept,,
+P01,P01-EN-121,P01-VI-110,kept,,
+P01,P01-EN-122,,omitted,L>zero,attribution merged into TT S045 (Giáo sư Khan cho biết)
+P01,P01-EN-123,P01-VI-116,kept,,it -> hệ thống này (demonstrative NP)
+P01,P01-EN-124,P01-VI-115,kept,,
+P01,P01-EN-125,,omitted,R>zero,That's more than a quarter merged as – tương đương 25%; demonstrative dropped
+P01,P01-EN-126,P01-VI-117,kept,,
+P01,P01-EN-127,,omitted,L>zero,EN S047-S049 abridged in TT
+P01,P01-EN-128,,omitted,R>zero,EN S048 abridged in TT
+P01,P01-EN-129,,omitted,L>zero,EN S048 abridged in TT
+P01,P01-EN-130,,omitted,R>zero,EN S048 abridged in TT
+P01,P01-EN-131,,omitted,L>zero,EN S049 abridged in TT
+P01,P01-EN-132,,omitted,L>zero,EN S049 abridged in TT
+P01,P01-EN-133,,omitted,L>zero,EN S049 abridged in TT
+P01,P01-EN-134,,omitted,L>zero,EN S049 abridged in TT
+P01,P01-EN-135,,omitted,L>zero,EN S049 abridged in TT
+P01,,P01-VI-002,added,,"TT repeats thiếu nước verbatim where EN varies wording (water problem -> water-stressed, not marked as tie)"
+P01,,P01-VI-007,added,,"TT introduced nước uống in S002, so S005 nước uống is a repetition; EN drinking water first occurs S005 (no tie)"
+P01,,P01-VI-009,added,,"TT S005 already used xử lý (công nghệ xử lý), creating a tie EN lacks (EN: production of purified recycled water)"
+P01,,P01-VI-015,added,,"EN counterpart embedded in PP (the people of Singapore), unmarked per EN convention"
+P01,,P01-VI-028,added,,TT adds additive cũng where EN uses temporal Now (EN-034 omitted)
+P01,,P01-VI-030,added,,second TT tie for the EN-038 echo (nguồn cung cấp nước part)
+P01,,P01-VI-034,added,,TT creates association via nhà máy repetition (phép liên tưởng); EN desalination is a fresh item
+P01,,P01-VI-040,added,,EN parallel sentence was excluded as a display pull quote (18pt bold); TT keeps it as body text
+P01,,P01-VI-041,added,,EN parallel sentence excluded as display pull quote
+P01,,P01-VI-042,added,,EN parallel sentence excluded as display pull quote
+P01,,P01-VI-043,added,,EN parallel sentence excluded as display pull quote
+P01,,P01-VI-059,added,,"TT repeats tham quan (S021, S026) where EN varies (invited along for the journey / come out here)"
+P01,,P01-VI-060,added,,second occurrence of chúng tôi in TT S026; EN has one We
+P01,,P01-VI-072,added,,TT repeats người dân; EN S030 has no TT counterpart sentence
+P01,,P01-VI-077,added,,TT uses công nghệ here; EN uses technology only in S034
+P01,,P01-VI-080,added,,TT repeats áp dụng from S027; EN varies (looking into / adopted)
+P01,,P01-VI-081,added,,TT adds attribution pronoun ông nói; EN quote block has no separate attribution
+P01,,P01-VI-083,added,,TT adds thành công echoing S010 sự thành công; EN has no success item in S035
+P01,,P01-VI-087,added,,TT links nguồn nước to prior chain; EN groundwater is a fresh item here
+P01,,P01-VI-089,added,,TT adds summarising demonstrative lĩnh vực này; EN has no parallel item
+P01,,P01-VI-092,added,,TT repeats nguồn nước chain; EN water security is a fresh item
+P01,,P01-VI-095,added,,EN they (S039) is intra-sentential (unmarked); TT họ crosses a sentence boundary
+P01,,P01-VI-101,added,,TT marks tái chế repetition; EN chain marked on the NP (treated wastewater) instead
+P01,,P01-VI-104,added,,TT adds additive cũng; EN S043 has no additive
+P01,,P01-VI-107,added,,TT adds adversative Tuy nhiên; EN S044 has no adversative connective
+P01,,P01-VI-118,added,,TT repeats sử dụng from S034; EN varies (using / used)
+P01,,P01-VI-119,added,,TT repeats cư dân from S028 (different referent); EN residents first mention in S047
+P02,P02-EN-001,P02-VI-001,kept,,homeless -> vô gia cư
+P02,P02-EN-002,P02-VI-002,kept,,She -> Cô
+P02,P02-EN-003,P02-VI-002,kept,,"EN has She+she, TT one Cô"
+P02,P02-EN-004,,omitted,R>zero,TT drops possessive (được đưa đến sống cùng dì)
+P02,P02-EN-005,P02-VI-003,kept,,They -> Cả hai (quantified reference)
+P02,P02-EN-006,P02-VI-004,kept,,
+P02,P02-EN-007,P02-VI-005,kept,,
+P02,P02-EN-008,,omitted,R>zero,TT drops possessive
+P02,P02-EN-009,P02-VI-007,kept,,"EN She+she, TT one cô"
+P02,P02-EN-010,P02-VI-007,kept,,
+P02,P02-EN-011,P02-VI-008,kept,,
+P02,P02-EN-012,P02-VI-009,kept,,housing insecurity -> bất ổn về nhà ở
+P02,P02-EN-013,,omitted,R>zero,vague it; TT reformulates (nói ra thôi cũng khiến tôi nhói lòng)
+P02,P02-EN-014,,omitted,R>zero,say it -> nói ra (pro-drop)
+P02,P02-EN-015,P02-VI-010,kept,,I -> Tôi (first person in quote)
+P02,P02-EN-016,P02-VI-012,kept,,she -> cô
+P02,P02-EN-017,P02-VI-017,kept,,family -> người thân
+P02,P02-EN-018,P02-VI-016,kept,,cousins -> anh chị em họ
+P02,P02-EN-019,P02-VI-019,kept,,
+P02,P02-EN-020,,omitted,R>zero,TT chúng tôi has same-sentence antecedent (family just listed); EN we points back to S002
+P02,P02-EN-021,P02-VI-020,kept,,
+P02,P02-EN-022,P02-VI-021,kept,,stigma -> định kiến
+P02,P02-EN-023,P02-VI-022,kept,,shame -> xấu hổ
+P02,P02-EN-024,P02-VI-023,kept,,
+P02,P02-EN-025,P02-VI-025,kept,,sentence-initial And -> mid-sentence cũng
+P02,P02-EN-026,P02-VI-024,kept,,
+P02,P02-EN-027,P02-VI-026,kept,,people -> người (general)
+P02,P02-EN-028,P02-VI-028,kept,,New analysis -> Phân tích mới
+P02,P02-EN-029,,omitted,L>zero,TT marks the compound người vô gia cư as one chain (vô gia cư)
+P02,P02-EN-030,P02-VI-030,kept,,
+P02,P02-EN-031,P02-VI-032,kept,,hotspots echo verbatim in TT
+P02,P02-EN-032,P02-VI-034,kept,,struggling... -> chật vật tìm kiếm
+P02,P02-EN-033,P02-VI-035,kept,,list -> danh sách
+P02,P02-EN-034,P02-VI-036,kept,,
+P02,P02-EN-035,P02-VI-037,kept,,
+P02,P02-EN-036,,omitted,L>zero,TT uses top 5 as a fresh item (no prior top)
+P02,P02-EN-037,,omitted,L>zero,TT khu vực first mention in S015
+P02,P02-EN-038,P02-VI-039,kept,,the top 20 -> Danh sách 20 điểm nóng; điểm nóng tie also marked (VI-040)
+P02,P02-EN-039,P02-VI-042,kept,,
+P02,P02-EN-040,P02-VI-043,kept,,
+P02,P02-EN-041,P02-VI-044,kept,,
+P02,P02-EN-042,P02-VI-044,kept,,merged in TT marking
+P02,P02-EN-043,,omitted,R>zero,"TT chúng ta generic inclusive, unmarked"
+P02,P02-EN-044,,omitted,R>zero,"TT chúng ta generic inclusive, unmarked"
+P02,P02-EN-045,P02-VI-046,kept,,
+P02,P02-EN-046,P02-VI-047,kept,,
+P02,P02-EN-047,P02-VI-048,kept,,that -> này (demonstrative)
+P02,P02-EN-048,P02-VI-049,kept,,
+P02,P02-EN-049,P02-VI-050,kept,,she -> bà (kinship term as pronoun)
+P02,P02-EN-050,,omitted,R>zero,"TT Chúng ta generic inclusive, unmarked"
+P02,P02-EN-051,P02-VI-051,kept,,
+P02,P02-EN-052,,omitted,R>zero,TT clausal demonstrative Điều này is intra-sentential
+P02,P02-EN-053,,omitted,L>zero,TT vấn đề is first mention in S018
+P02,P02-EN-054,P02-VI-053,kept,,
+P02,P02-EN-055,,omitted,L>zero,TT does not repeat thách thức in S018
+P02,P02-EN-056,P02-VI-056,kept,,
+P02,P02-EN-057,P02-VI-058,kept,,
+P02,P02-EN-058,P02-VI-060,kept,,
+P02,P02-EN-059,P02-VI-059,kept,,
+P02,P02-EN-060,P02-VI-062,kept,,
+P02,P02-EN-061,P02-VI-063,kept,,
+P02,P02-EN-062,P02-VI-061,kept,,struggle -> chật vật
+P02,P02-EN-063,P02-VI-064,kept,,
+P02,P02-EN-064,P02-VI-065,kept,,
+P02,P02-EN-065,,omitted,L>zero,TT việc học first mention in S022
+P02,P02-EN-066,P02-VI-068,kept,,
+P02,P02-EN-067,P02-VI-069,kept,,
+P02,P02-EN-068,P02-VI-070,kept,,Now -> Hiện tại
+P02,P02-EN-069,P02-VI-071,kept,,
+P02,P02-EN-070,,omitted,L>zero,TT introduces youth foyers in parentheses with same-sentence apposition
+P02,P02-EN-071,P02-VI-073,kept,,
+P02,P02-EN-072,P02-VI-072,kept,,
+P02,P02-EN-073,P02-VI-074,kept,,
+P02,P02-EN-074,P02-VI-075,kept,,
+P02,P02-EN-075,P02-VI-076,kept,,
+P02,P02-EN-076,P02-VI-077,kept,,
+P02,P02-EN-077,P02-VI-079,kept,,accommodation -> chỗ ở
+P02,P02-EN-078,P02-VI-082,kept,,
+P02,P02-EN-079,P02-VI-083,kept,,
+P02,P02-EN-080,P02-VI-085,kept,,
+P02,P02-EN-081,P02-VI-086,kept,,
+P02,P02-EN-082,P02-VI-087,kept,,
+P02,P02-EN-083,P02-VI-088,kept,,also -> cũng
+P02,P02-EN-084,P02-VI-089,kept,,
+P02,P02-EN-085,P02-VI-090,kept,,
+P02,P02-EN-086,P02-VI-091,kept,,And so -> Vì vậy
+P02,P02-EN-087,,omitted,R>zero,"TT chúng ta generic inclusive, unmarked"
+P02,P02-EN-088,P02-VI-092,kept,,
+P02,P02-EN-089,P02-VI-093,kept,,
+P02,P02-EN-090,,omitted,L>zero,"pathway -> lối thoát (fresh lexis, no TT tie)"
+P02,P02-EN-091,,omitted,L>zero,TT hệ thống first mention
+P02,P02-EN-092,P02-VI-094,kept,,
+P02,P02-EN-093,P02-VI-096,kept,,He -> Ông
+P02,P02-EN-094,,omitted,C>zero,TT S030 has no additive
+P02,P02-EN-095,P02-VI-098,kept,,
+P02,P02-EN-096,P02-VI-097,kept,,
+P02,P02-EN-097,,omitted,L>zero,TT trường học first mention (no prior school item)
+P02,P02-EN-098,P02-VI-100,kept,,prevention -> phòng ngừa
+P02,P02-EN-099,P02-VI-101,kept,,
+P02,P02-EN-100,,omitted,R>zero,"TT chúng ta generic inclusive, unmarked"
+P02,P02-EN-101,P02-VI-102,kept,,prevent -> ngăn chặn
+P02,P02-EN-102,P02-VI-105,kept,,it -> này (vấn đề này)
+P02,P02-EN-103,P02-VI-103,kept,,
+P02,P02-EN-104,P02-VI-103,kept,,merged in TT marking
+P02,P02-EN-105,P02-VI-104,kept,,
+P02,P02-EN-106,P02-VI-105,shifted,L>R,the problem -> vấn đề này (general word -> demonstrative NP)
+P02,P02-EN-107,P02-VI-106,kept,,
+P02,P02-EN-108,P02-VI-107,kept,,
+P02,P02-EN-109,P02-VI-110,kept,,
+P02,P02-EN-110,P02-VI-112,kept,,
+P02,P02-EN-111,P02-VI-113,kept,,
+P02,P02-EN-112,P02-VI-114,kept,,
+P02,P02-EN-113,,omitted,R>zero,TT drops possessive (sự hỗ trợ từ nhân viên...)
+P02,P02-EN-114,P02-VI-116,kept,,
+P02,P02-EN-115,P02-VI-117,kept,,
+P02,P02-EN-116,P02-VI-118,kept,,
+P02,P02-EN-117,P02-VI-120,kept,,
+P02,P02-EN-118,P02-VI-119,shifted,R>L,she -> Tyrah Chan-Hampton (repeated name)
+P02,P02-EN-119,P02-VI-121,kept,,
+P02,P02-EN-120,P02-VI-123,kept,,housing -> chỗ ở
+P02,P02-EN-121,P02-VI-124,kept,,
+P02,P02-EN-122,P02-VI-125,kept,,
+P02,P02-EN-123,P02-VI-126,kept,,
+P02,P02-EN-124,P02-VI-127,kept,,
+P02,P02-EN-125,P02-VI-128,kept,,
+P02,P02-EN-126,P02-VI-131,kept,,
+P02,P02-EN-127,P02-VI-132,kept,,
+P02,P02-EN-128,,omitted,L>zero,TT lâu dài fresh item
+P02,P02-EN-129,P02-VI-133,kept,,government -> Chính phủ
+P02,P02-EN-130,P02-VI-135,kept,,
+P02,P02-EN-131,P02-VI-136,kept,,spokesperson -> người phát ngôn
+P02,P02-EN-132,,omitted,R>zero,TT Những khoản đầu tư này is intra-sentential
+P02,P02-EN-133,P02-VI-137,kept,,
+P02,P02-EN-134,P02-VI-139,kept,,
+P02,P02-EN-135,P02-VI-138,kept,,
+P02,P02-EN-136,,omitted,L>zero,"TT S042 uses giúp, no hỗ trợ item"
+P02,P02-EN-137,,omitted,R>zero,TT merges EN S039-S040; This has no TT counterpart
+P02,P02-EN-138,P02-VI-138,kept,,merged in TT marking
+P02,P02-EN-139,P02-VI-139,kept,,merged in TT marking
+P02,P02-EN-140,,omitted,L>zero,TT S043 has no attribution phrase
+P02,P02-EN-141,,omitted,L>zero,TT S043 chính quyền bang is a fresh variant of chính phủ
+P02,P02-EN-142,P02-VI-141,kept,,
+P02,P02-EN-143,P02-VI-142,kept,,merged in TT marking
+P02,P02-EN-144,P02-VI-142,kept,,merged in TT marking
+P02,P02-EN-145,,omitted,R>zero,"TT drops attribution pronoun (pro-drop: 91,7 triệu AUD đầu tư vào...)"
+P02,P02-EN-146,,omitted,L>zero,TT S044 has no chính phủ item
+P02,P02-EN-147,,omitted,C>zero,TT S044 has no additive
+P02,P02-EN-148,P02-VI-146,kept,,
+P02,P02-EN-149,P02-VI-145,kept,,
+P02,P02-EN-150,,omitted,R>zero,TT drops attribution pronoun (pro-drop)
+P02,P02-EN-151,,omitted,L>zero,TT proper name Nhà ở Quốc gia; tie marked on nhà ở chuyển tiếp instead
+P02,P02-EN-152,,omitted,C>zero,TT cũng như is intra-sentential (connects NPs)
+P02,P02-EN-153,P02-VI-150,kept,,
+P02,P02-EN-154,P02-VI-149,kept,,crisis and transitional accommodation -> nhà ở chuyển tiếp; khẩn cấp tie also marked (VI-151)
+P02,P02-EN-155,P02-VI-152,kept,,
+P02,P02-EN-156,P02-VI-153,kept,,
+P02,P02-EN-157,P02-VI-153,kept,,merged in TT marking
+P02,,P02-VI-006,added,,TT re-names Tyrah where EN uses pronouns (She said...)
+P02,,P02-VI-011,added,,TT xấu hổ echoes S005 cảm thấy xấu hổ; EN shame in S006 is first mention (no tie)
+P02,,P02-VI-013,added,,TT-only sentence (Wiradjuri self-identification); EN column showed none in the source table
+P02,,P02-VI-014,added,,TT-only sentence (Wiradjuri); no ST counterpart
+P02,,P02-VI-015,added,,TT-only sentence (Wiradjuri); no ST counterpart
+P02,,P02-VI-018,added,,no ST counterpart
+P02,,P02-VI-027,added,,no ST counterpart
+P02,,P02-VI-029,added,,TT hỗ trợ echoes S011 dịch vụ hỗ trợ; EN supports (verb) unmarked
+P02,,P02-VI-031,added,,TT nhà ở echoes S002; EN without a home unmarked
+P02,,P02-VI-033,added,,TT thanh niên chain; EN counterpart (people aged 16 to 24) marked on people instead
+P02,,P02-VI-038,added,,TT adds Vùng repetition (semi-generic region word)
+P02,,P02-VI-040,added,,second tie of the EN-038 echo (điểm nóng part)
+P02,,P02-VI-041,added,,TT vô gia cư thanh niên echo; EN S014-015 marks other chains
+P02,,P02-VI-045,added,,TT synonym variation thanh niên / giới trẻ
+P02,,P02-VI-052,added,,TT repeats vô gia cư where EN says the problem
+P02,,P02-VI-054,added,,TT synonym variation thanh niên / giới trẻ (second instance)
+P02,,P02-VI-055,added,,TT repeats trên khắp cả nước; EN across the country unmarked in S017
+P02,,P02-VI-057,added,,TT marks thanh niên separately within the youth-homelessness compound
+P02,,P02-VI-066,added,,EN that (if you don\u2019t have that) is intra-sentential; TT sentence split makes điều đó cross-sentential
+P02,,P02-VI-067,added,,TT adds pronoun họ where EN repeats young people
+P02,,P02-VI-078,added,,TT repeats trung tâm where EN uses them
+P02,,P02-VI-080,added,,no ST counterpart
+P02,,P02-VI-081,added,,TT học echoes S022 việc học; EN education unmarked in S022
+P02,,P02-VI-084,added,,TT trung tâm chain (khủng hoảng centres)
+P02,,P02-VI-095,added,,TT marks thanh niên separately within the compound
+P02,,P02-VI-099,added,,TT demonstrative này summarising the homelessness situation
+P02,,P02-VI-108,added,,TT thiếu niên echoes S033 tuổi thiếu niên; EN has no teenage repetition in S031
+P02,,P02-VI-109,added,,TT giúp đỡ echoes S030; EN help unmarked in S031
+P02,,P02-VI-111,added,,TT bế tắc echoes S022 tình cảnh bế tắc; EN disadvantage instead
+P02,,P02-VI-115,added,,no ST counterpart
+P02,,P02-VI-122,added,,TT bất ổn echoes S005; EN unstable unmarked in S034
+P02,,P02-VI-129,added,,TT sự hỗ trợ echoes S037; EN S036 has no support item
+P02,,P02-VI-130,added,,TT nơi ở ổn định echoes S023; EN S036 has no equivalent chain item
+P02,,P02-VI-134,added,,TT nhà ở chain continues
+P02,,P02-VI-140,added,,TT nhà ở chain continues (lựa chọn nhà ở bền vững)
+P02,,P02-VI-143,added,,TT nhà ở in proper name + hệ thống nhà ở xã hội
+P02,,P02-VI-144,added,,TT đầu tư echoes S042 khoản đầu tư; EN investing (verb) unmarked
+P02,,P02-VI-147,added,,no ST counterpart
+P02,,P02-VI-148,added,,TT hỗ trợ chain continues (sự hỗ trợ từ cộng đồng)
+P02,,P02-VI-151,added,,second part of the EN-154 echo (khẩn cấp part)
+P03,P03-EN-001,,omitted,L>zero,TT has no Centre for Public Integrity sentence (EN S003 unrendered)
+P03,P03-EN-002,,omitted,L>zero,EN S003 unrendered in TT
+P03,P03-EN-003,,omitted,L>zero,EN S004 threshold sentence unrendered; TT S022 renders EN S029 instead
+P03,P03-EN-004,,omitted,L>zero,EN S004 unrendered
+P03,P03-EN-005,P03-VI-003,kept,,donations -> nhà tài trợ (TT uses agent noun)
+P03,P03-EN-006,P03-VI-004,kept,,Labor -> Đảng Lao động Liên bang
+P03,P03-EN-007,P03-VI-005,kept,,
+P03,P03-EN-008,P03-VI-006,kept,,
+P03,P03-EN-009,P03-VI-007,kept,,
+P03,P03-EN-010,P03-VI-008,kept,,billionaire -> tỷ phú
+P03,P03-EN-011,P03-VI-009,kept,,also -> cũng (TT S005 also thêm)
+P03,P03-EN-012,P03-VI-009,kept,,merged in TT marking (quyên góp)
+P03,P03-EN-013,P03-VI-010,kept,,tens of thousands -> hàng chục nghìn (partial echo kept in both)
+P03,P03-EN-014,P03-VI-012,kept,,donated -> quyên góp
+P03,P03-EN-015,P03-VI-013,kept,,wagering -> cá cược
+P03,P03-EN-016,P03-VI-015,kept,,Sportbet's -> Sportsbet (TT regularises spelling)
+P03,P03-EN-017,P03-VI-014,kept,,donation -> quyên góp
+P03,P03-EN-018,P03-VI-016,kept,,
+P03,P03-EN-019,P03-VI-017,kept,,
+P03,P03-EN-020,P03-VI-018,kept,,
+P03,P03-EN-021,P03-VI-019,kept,,rejected -> từ chối (TT marks cấm... phrase tie instead)
+P03,P03-EN-022,P03-VI-019,kept,,recommendation -> đề xuất cấm hoàn toàn (compound echo)
+P03,P03-EN-023,P03-VI-020,kept,,We -> Chúng tôi
+P03,P03-EN-024,P03-VI-021,kept,,
+P03,P03-EN-025,P03-VI-022,kept,,as well -> cũng
+P03,P03-EN-026,P03-VI-023,kept,,gambling -> cờ bạc (EN chain gambling splits into cá cược + cờ bạc in TT)
+P03,P03-EN-027,P03-VI-024,kept,,he -> ông
+P03,P03-EN-028,P03-VI-026,kept,,
+P03,P03-EN-029,P03-VI-025,kept,,also -> cũng
+P03,P03-EN-030,P03-VI-025,kept,,merged in TT marking
+P03,P03-EN-031,P03-VI-027,kept,,the Liberals -> Đảng Tự do
+P03,P03-EN-032,P03-VI-028,kept,,
+P03,P03-EN-033,P03-VI-029,kept,,verbatim echo kept in TT (hàng chục nghìn đô la)
+P03,P03-EN-034,P03-VI-030,kept,,Labor's state divisions -> chi nhánh tiểu bang của Đảng Lao động
+P03,P03-EN-035,P03-VI-031,kept,,
+P03,P03-EN-036,P03-VI-032,kept,,state branches -> chi nhánh
+P03,P03-EN-037,,omitted,L>zero,TT has no McIntosh block (EN S016-S021 unrendered)
+P03,P03-EN-038,,omitted,L>zero,EN S016 unrendered
+P03,P03-EN-039,,omitted,L>zero,EN S017 unrendered
+P03,P03-EN-040,,omitted,L>zero,EN S017 unrendered
+P03,P03-EN-041,,omitted,L>zero,EN S018 unrendered
+P03,P03-EN-042,,omitted,L>zero,EN S018 unrendered
+P03,P03-EN-043,,omitted,R>zero,EN S018 unrendered
+P03,P03-EN-044,,omitted,L>zero,EN S019 unrendered
+P03,P03-EN-045,,omitted,L>zero,EN S019 unrendered
+P03,P03-EN-046,,omitted,L>zero,EN S019 unrendered
+P03,P03-EN-047,,omitted,L>zero,EN S019 unrendered
+P03,P03-EN-048,,omitted,R>zero,EN S019 unrendered
+P03,P03-EN-049,,omitted,L>zero,EN S020 unrendered
+P03,P03-EN-050,P03-VI-033,kept,,gambling industry donations -> tài trợ từ ngành công nghiệp cá cược (EN S020 ~ TT S013 paraphrase)
+P03,P03-EN-051,P03-VI-034,kept,,the Labor party -> Đảng Lao động (TT S011)
+P03,P03-EN-052,P03-VI-061,kept,,SBS News -> SBS News (TT S033 renders EN S021)
+P03,P03-EN-053,P03-VI-061,kept,,comment -> ý kiến phản hồi (TT marks SBS News tie; comment unmarked in TT S033)
+P03,P03-EN-054,P03-VI-034,kept,,Greens -> Đảng Xanh
+P03,P03-EN-055,P03-VI-036,kept,,major parties -> hai đảng lớn
+P03,P03-EN-056,,omitted,L>zero,today's disclosures has no TT counterpart
+P03,P03-EN-057,P03-VI-035,kept,,The Labor government -> Đảng Lao động và Đảng Tự do (TT S014 merges both subjects)
+P03,P03-EN-058,P03-VI-035,kept,,
+P03,P03-EN-059,P03-VI-033,kept,,donations -> tài trợ
+P03,P03-EN-060,P03-VI-037,kept,,gambling companies -> công ty cá cược / công ty cờ bạc
+P03,P03-EN-061,P03-VI-038,kept,,
+P03,P03-EN-062,P03-VI-039,kept,,However -> Tuy nhiên
+P03,P03-EN-063,P03-VI-040,kept,,the Greens' -> Đảng Xanh
+P03,P03-EN-064,P03-VI-041,kept,,gambler -> tay chơi cờ bạc
+P03,P03-EN-065,P03-VI-041,kept,,merged in TT marking (tài trợ)
+P03,P03-EN-066,P03-VI-042,kept,,Turpie -> Turpie
+P03,P03-EN-067,P03-VI-043,kept,,
+P03,P03-EN-068,P03-VI-044,kept,,the party -> Đảng Xanh
+P03,P03-EN-069,,omitted,L>zero,EN S026 Waters quote reformulated in TT S018 with different source (Brisbane Times)
+P03,P03-EN-070,P03-VI-045,kept,,donation -> tài trợ (TT S018)
+P03,P03-EN-071,,omitted,L>zero,Waters quote attributed to Sriranganathan in TT S018
+P03,P03-EN-072,P03-VI-045,kept,,merged in TT marking
+P03,P03-EN-073,,omitted,L>zero,TT S018 has máy đánh bạc / sòng bạc instead of gambling companies
+P03,P03-EN-074,P03-VI-046,kept,,the Greens' position -> lập trường của Đảng Xanh (TT S019)
+P03,P03-EN-075,P03-VI-047,kept,,"gambling -> máy đánh bạc (L>L, different lexical item)"
+P03,P03-EN-076,,omitted,L>zero,TT S019 has no major-parties item
+P03,P03-EN-077,P03-VI-048,kept,,Electoral donations reform -> cải cách quyên góp bầu cử
+P03,P03-EN-078,P03-VI-049,kept,,federal election -> tổng tuyển cử liên bang
+P03,P03-EN-079,P03-VI-050,kept,,The government -> chính phủ
+P03,P03-EN-080,P03-VI-051,kept,,Opposition -> phe đối lập
+P03,P03-EN-081,P03-VI-052,kept,,
+P03,P03-EN-082,P03-VI-053,kept,,the proposed changes -> Những thay đổi được đề xuất
+P03,P03-EN-083,P03-VI-054,kept,,donation disclosure -> công bố quyên góp
+P03,P03-EN-084,P03-VI-055,kept,,election campaign -> chiến dịch tranh cử
+P03,P03-EN-085,P03-VI-056,kept,,
+P03,P03-EN-086,P03-VI-058,kept,,also -> cũng
+P03,P03-EN-087,P03-VI-057,kept,,cap -> giới hạn (TT S026)
+P03,P03-EN-088,P03-VI-057,kept,,merged in TT marking (giới hạn chi tiêu)
+P03,P03-EN-089,,omitted,L>zero,TT defers unions (công đoàn) to S026 as first mention; no prior link
+P03,P03-EN-090,P03-VI-059,kept,,political parties -> các đảng chính trị (TT S027)
+P03,P03-EN-091,P03-VI-058,kept,,the proposed legislation -> Dự luật ... cũng sẽ (TT S026)
+P03,P03-EN-092,,omitted,L>zero,TT has no Senate mention before S032 (first mention there)
+P03,P03-EN-093,P03-VI-060,kept,,
+P03,P03-EN-094,P03-VI-058,kept,,merged in TT marking (cũng)
+P03,P03-EN-095,P03-VI-062,kept,,the AEC -> Ủy ban Bầu cử Úc (AEC)
+P03,P03-EN-096,P03-VI-063,kept,,But -> TT S029 has no adversative; TT marks này demonstrative instead
+P03,P03-EN-097,P03-VI-064,kept,,the proposal -> đề xuất này
+P03,P03-EN-098,P03-VI-065,kept,,major party -> các đảng lớn
+P03,P03-EN-099,P03-VI-065,kept,,Labor and Liberal -> các đảng lớn (TT generalises; names in parentheses)
+P03,P03-EN-100,P03-VI-062,kept,,merged in TT marking (AEC chain)
+P03,P03-EN-101,P03-VI-066,kept,,The caps -> giới hạn chi tiêu (TT S031)
+P03,P03-EN-102,P03-VI-066,kept,,merged in TT marking
+P03,P03-EN-103,P03-VI-067,kept,,independents -> Các ứng viên độc lập
+P03,P03-EN-104,P03-VI-068,kept,,
+P03,P03-EN-105,P03-VI-069,kept,,tens of millions of dollars -> hàng chục triệu đô la (verbatim in both)
+P03,P03-EN-106,P03-VI-070,kept,,advertising -> quảng cáo
+P03,P03-EN-107,,omitted,L>zero,EN S035 (teal independents) unrendered in TT
+P03,P03-EN-108,,omitted,R>zero,EN S035-S037 (Climate200 donations) unrendered in TT
+P03,P03-EN-109,,omitted,L>zero,EN S036 unrendered
+P03,P03-EN-110,,omitted,L>zero,EN S037 unrendered
+P03,P03-EN-111,,omitted,L>zero,EN S037 unrendered
+P03,P03-EN-112,,omitted,L>zero,EN S037 unrendered
+P03,P03-EN-113,,omitted,L>zero,EN S037 unrendered
+P03,P03-EN-114,,omitted,L>zero,EN S037 unrendered
+P03,P03-EN-115,,omitted,L>zero,EN S037 unrendered
+P03,,P03-VI-001,added,,TT introduces tài trợ synonym where EN S002 has no tie (Labor/C Coalition/Greens first mentions)
+P03,,P03-VI-002,added,,TT repeats đảng chain where EN S002 lists parties as first mentions
+P03,,P03-VI-011,added,,TT các đảng liên bang chain (S002 part)
+P03,,P03-VI-071,added,,TT vận động tranh cử morphological echo
+P03,,P03-VI-072,added,,TT near-verbatim title echo of S026 bill compound
+P03,,P03-VI-073,added,,TT Đảng Lao động và Đảng Tự do chain
+P03,,P03-VI-074,added,,"TT financial-detail sentence (quỹ, số liệu các đảng) restructured from EN S002; TT splits figures differently"
+P03,,P03-VI-075,added,,TT financial-detail sentence part 2
+P03,,P03-VI-076,added,,TT financial-detail sentence part 3
+P03,,P03-VI-077,added,,no ST counterpart
+P03,,P03-VI-078,added,,no ST counterpart
+P03,,P03-VI-079,added,,no ST counterpart
+P03,,P03-VI-080,added,,no ST counterpart
+P03,,P03-VI-081,added,,no ST counterpart
+P03,,P03-VI-082,added,,no ST counterpart
+P03,,P03-VI-083,added,,no ST counterpart
+P03,,P03-VI-084,added,,no ST counterpart
+P03,,P03-VI-085,added,,no ST counterpart
+P03,,P03-VI-086,added,,no ST counterpart
+P03,,P03-VI-087,added,,no ST counterpart
+P03,,P03-VI-088,added,,no ST counterpart
+P03,,P03-VI-089,added,,no ST counterpart
+P03,,P03-VI-090,added,,no ST counterpart
+P03,,P03-VI-091,added,,no ST counterpart
+P03,,P03-VI-092,added,,no ST counterpart
+P03,,P03-VI-093,added,,no ST counterpart
+P03,,P03-VI-094,added,,no ST counterpart
+P03,,P03-VI-095,added,,no ST counterpart
+P03,,P03-VI-096,added,,no ST counterpart
+P03,,P03-VI-097,added,,no ST counterpart
+P03,,P03-VI-098,added,,no ST counterpart
+P03,,P03-VI-099,added,,no ST counterpart
+P03,,P03-VI-100,added,,no ST counterpart
+P03,,P03-VI-101,added,,no ST counterpart
+P03,,P03-VI-102,added,,no ST counterpart
+P03,,P03-VI-103,added,,no ST counterpart
+P03,,P03-VI-104,added,,no ST counterpart
+P03,,P03-VI-105,added,,no ST counterpart
+P03,,P03-VI-106,added,,no ST counterpart
+P03,,P03-VI-107,added,,no ST counterpart
+P03,,P03-VI-108,added,,no ST counterpart
+P03,,P03-VI-109,added,,no ST counterpart
+P03,,P03-VI-110,added,,no ST counterpart
+P03,,P03-VI-111,added,,no ST counterpart
+P03,,P03-VI-112,added,,no ST counterpart
+P03,,P03-VI-113,added,,no ST counterpart
+P03,,P03-VI-114,added,,no ST counterpart
+P03,,P03-VI-115,added,,no ST counterpart
+P03,,P03-VI-116,added,,no ST counterpart
+P03,,P03-VI-117,added,,no ST counterpart
+P03,,P03-VI-118,added,,no ST counterpart
+P03,,P03-VI-119,added,,no ST counterpart
+P03,,P03-VI-120,added,,no ST counterpart
+P03,,P03-VI-121,added,,no ST counterpart
+P03,,P03-VI-122,added,,no ST counterpart
+P03,,P03-VI-123,added,,no ST counterpart
+P03,,P03-VI-124,added,,no ST counterpart
+P03,,P03-VI-125,added,,no ST counterpart
+P03,,P03-VI-126,added,,no ST counterpart
+P04,P04-EN-001,P04-VI-001,kept,,That's -> Nói cách khác (both reformulation pointers)
+P04,P04-EN-002,P04-VI-003,kept,,struggling -> chật vật (TT marks the sleep NP instead)
+P04,P04-EN-003,P04-VI-003,kept,,merged in TT marking
+P04,P04-EN-004,P04-VI-004,kept,,those surveyed -> người tham gia khảo sát
+P04,P04-EN-005,P04-VI-005,kept,,struggled -> khó ngủ
+P04,P04-EN-006,,omitted,L>zero,"TT drops ""during the night"""
+P04,P04-EN-007,,omitted,L>zero,TT drops the own-snoring category
+P04,P04-EN-008,P04-VI-005,kept,,sleep (apnea) -> ngủ (compound kept via khó ngủ / ngưng thở khi ngủ)
+P04,P04-EN-009,P04-VI-006,kept,,sleep issues -> vấn đề gì về giấc ngủ
+P04,P04-EN-010,,omitted,L>zero,"TT drops ""during the night"""
+P04,P04-EN-011,P04-VI-007,kept,,To top it off -> Cũng theo khảo sát
+P04,P04-EN-012,P04-VI-008,kept,,
+P04,P04-EN-013,P04-VI-009,kept,,
+P04,P04-EN-014,P04-VI-010,kept,,
+P04,P04-EN-015,P04-VI-015,kept,,sleep researcher -> nhà nghiên cứu giấc ngủ
+P04,P04-EN-016,P04-VI-013,kept,,
+P04,P04-EN-017,P04-VI-012,kept,,
+P04,P04-EN-018,P04-VI-011,kept,,study -> khảo sát (survey ~ study kept as L)
+P04,P04-EN-019,P04-VI-014,kept,,sleep-deprived -> thiếu ngủ
+P04,P04-EN-020,,omitted,L>zero,TT names Shriane in S006 as first mention (no prior tie)
+P04,P04-EN-021,,omitted,L>zero,"TT drops ""suffering"""
+P04,P04-EN-022,P04-VI-017,kept,,
+P04,P04-EN-023,P04-VI-017,kept,,asleep -> ngủ (merged in TT marking)
+P04,P04-EN-024,P04-VI-018,kept,,she -> bà
+P04,P04-EN-025,,omitted,R>zero,EN S011 (AIHW other research) unrendered in TT
+P04,P04-EN-026,,omitted,L>zero,EN S011 unrendered
+P04,P04-EN-027,,omitted,L>zero,TT S008 người trưởng thành is first mention (no prior adults tie)
+P04,P04-EN-028,P04-VI-019,kept,,quality sleep -> ngủ (TT marks verb only)
+P04,P04-EN-029,,omitted,L>zero,TT drops attribution (bare statement)
+P04,P04-EN-030,,omitted,L>zero,"TT drops ""each night"""
+P04,P04-EN-031,P04-VI-020,kept,,This figure -> Con số này
+P04,P04-EN-032,,omitted,L>zero,TT has no prior nghiên cứu for S009 studies
+P04,P04-EN-033,P04-VI-021,kept,,
+P04,P04-EN-034,,omitted,L>zero,"TT marks only ngủ, not the hour figure"
+P04,P04-EN-035,,omitted,L>zero,TT S009 sức khỏe is first mention
+P04,P04-EN-036,P04-VI-022,kept,,On the contrary -> Ngược lại
+P04,P04-EN-037,P04-VI-023,kept,,
+P04,P04-EN-038,,omitted,L>zero,TT marks only ngủ
+P04,P04-EN-039,,omitted,R>zero,TT drops attribution
+P04,P04-EN-040,P04-VI-025,kept,,She's -> Bà Shriane (full name reiteration)
+P04,P04-EN-041,P04-VI-026,kept,,also -> cũng
+P04,P04-EN-042,P04-VI-031,kept,,sleep deprivation -> thiếu ngủ (TT S013)
+P04,P04-EN-043,P04-VI-029,kept,,she -> bà
+P04,P04-EN-044,,omitted,L>zero,EN S017 quote condensed; TT S013 keeps only the body/brain clause
+P04,P04-EN-045,P04-VI-030,kept,,these people -> họ
+P04,P04-EN-046,P04-VI-031,kept,,merged in TT marking (thiếu ngủ mãn tính)
+P04,P04-EN-047,,omitted,L>zero,EN S018 rhetorical question unrendered
+P04,P04-EN-048,,omitted,L>zero,EN S018 unrendered
+P04,P04-EN-049,P04-VI-032,kept,,adults -> người lớn
+P04,P04-EN-050,P04-VI-032,kept,,merged in TT marking (ngủ)
+P04,P04-EN-051,P04-VI-033,kept,,Shriane -> bà Shriane
+P04,P04-EN-052,,omitted,L>zero,EN S021 (AIHW 65+) -> TT S016 drops AIHW mention
+P04,P04-EN-053,,omitted,L>zero,TT S016 has no sleep item (chỉ cần 7-8 tiếng)
+P04,P04-EN-054,P04-VI-044,kept,,Shriane -> bà Shriane (TT S020)
+P04,P04-EN-055,,omitted,L>zero,TT drops the snooze wordplay
+P04,P04-EN-056,,omitted,R>zero,EN S023 (They quote) unrendered in TT
+P04,P04-EN-057,,omitted,L>zero,EN S023 unrendered
+P04,P04-EN-058,,omitted,L>zero,EN S023 unrendered
+P04,P04-EN-059,,omitted,L>zero,EN S023 unrendered
+P04,P04-EN-060,,omitted,L>zero,EN S023 unrendered
+P04,P04-EN-061,,omitted,R>zero,"EN S024 Those -> TT S018 Những người (first mention, no prior link)"
+P04,P04-EN-062,,omitted,L>zero,TT S018 sức khỏe is first mention
+P04,P04-EN-063,P04-VI-041,kept,,sleep quality -> chất lượng giấc ngủ
+P04,P04-EN-064,,omitted,L>zero,EN S026 unrendered in TT
+P04,P04-EN-065,,omitted,L>zero,EN S026 unrendered
+P04,P04-EN-066,,omitted,L>zero,EN S026 unrendered
+P04,P04-EN-067,,omitted,L>zero,EN S026 unrendered
+P04,P04-EN-068,,omitted,L>zero,EN S027 (indicators sentence) unrendered
+P04,P04-EN-069,P04-VI-044,kept,,TT S020 keeps the Shriane attribution
+P04,P04-EN-070,P04-VI-042,kept,,"struggle to stay awake -> buồn ngủ (different lexis, same function)"
+P04,P04-EN-071,P04-VI-043,kept,,
+P04,P04-EN-072,P04-VI-044,kept,,she -> bà Shriane
+P04,P04-EN-073,,omitted,L>zero,EN S029 (indicators) unrendered
+P04,P04-EN-074,P04-VI-045,kept,,sleep needs -> ngủ chưa đủ giấc
+P04,P04-EN-075,,omitted,L>zero,EN S030 unrendered
+P04,P04-EN-076,P04-VI-046,kept,,sleep deprivation -> Thiếu ngủ
+P04,P04-EN-077,P04-VI-046,kept,,merged in TT marking
+P04,P04-EN-078,,omitted,L>zero,TT S022 drops food cravings? no: TT S022 has thèm ăn dữ dội but EN S031 intense food cravings <- EN S029; TT has no prior thèm ăn -> no tie
+P04,P04-EN-079,P04-VI-047,kept,,chronically deprived -> tình trạng (general word)
+P04,P04-EN-080,P04-VI-047,kept,,these impacts -> (hậu quả) tình trạng; TT marks general word
+P04,P04-EN-081,P04-VI-048,kept,,quality sleep -> thiếu ngủ (negated reiteration)
+P04,P04-EN-082,,omitted,L>zero,TT S024 has no struggle item
+P04,P04-EN-083,P04-VI-049,kept,,
+P04,P04-EN-084,P04-VI-050,kept,,Sleep -> Giấc ngủ
+P04,P04-EN-085,P04-VI-051,kept,,health -> sức khỏe
+P04,P04-EN-086,,omitted,L>zero,TT paraphrases flow-on effects as tác động lớn
+P04,P04-EN-087,P04-VI-052,kept,,
+P04,P04-EN-088,P04-VI-053,kept,,
+P04,P04-EN-089,P04-VI-054,kept,,Instead -> Thay vào đó
+P04,P04-EN-090,P04-VI-055,kept,,she -> bà
+P04,P04-EN-091,P04-VI-058,kept,,sleep -> ngủ (before sleep -> trước khi ngủ)
+P04,P04-EN-092,P04-VI-059,kept,,
+P04,P04-EN-093,P04-VI-060,kept,,
+P04,P04-EN-094,P04-VI-061,kept,,bed -> giường
+P04,P04-EN-095,P04-VI-065,kept,,struggling with sleep -> khó ngủ (verbatim echo kept in both)
+P04,,P04-VI-002,added,,TT repeats người Úc where EN S003 repeats adults implicitly
+P04,,P04-VI-016,added,,"TT con số chain from S005 (con số này), EN has no parallel tie"
+P04,,P04-VI-024,added,,"TT giấc ngủ chain (rối loạn giấc ngủ), EN S014 marked on sleeping"
+P04,,P04-VI-027,added,,TT ngủ chain (5 tiếng sentence)
+P04,,P04-VI-028,added,,TT ngủ chain (quote)
+P04,,P04-VI-034,added,,TT Trẻ nhỏ echoes Trẻ em; EN toddlers is first mention
+P04,,P04-VI-035,added,,TT ngủ chain
+P04,,P04-VI-036,added,,TT adds additive Ngoài ra (women) with no EN counterpart
+P04,,P04-VI-037,added,,TT ngủ chain
+P04,,P04-VI-038,added,,"TT adds additive cũng (health conditions), EN S024 has no additive"
+P04,,P04-VI-039,added,,TT ngủ chain
+P04,,P04-VI-040,added,,TT ngủ chain (số giờ ngủ)
+P04,,P04-VI-056,added,,TT Đi ngủ echoes the sleep chain; EN S036 go to bed unmarked
+P04,,P04-VI-057,added,,TT ngủ trưa echoes Đi ngủ; EN nap unmarked
+P04,,P04-VI-062,added,,"TT ngủ chain (để ngủ), EN S041 intimacy sentence reworded"
+P04,,P04-VI-063,added,,TT phòng ngủ echoes the sleep chain; EN bedroom unmarked
+P04,,P04-VI-064,added,,"TT giường chain (ra khỏi giường), EN get up unmarked"
+P05,P05-EN-001,,omitted,L>zero,EN intro (wave of changes) unrendered; TT starts at the wage-theft section
+P05,P05-EN-002,P05-VI-001,kept,,wage-theft laws -> luật trộm cắp tiền lương mới
+P05,P05-EN-003,P05-VI-003,kept,,underpayment -> trả thiếu tiền lương
+P05,P05-EN-004,P05-VI-003,kept,,fines -> merged in TT marking (tiền phạt unmarked; tiền lương chain marked)
+P05,P05-EN-005,P05-VI-005,kept,,the new -> mới (demonstrative-like new in both)
+P05,P05-EN-006,P05-VI-003,kept,,merged in TT marking
+P05,P05-EN-007,,omitted,L>zero,TT uses hình phạt (S001 cáo buộc hình sự) but no penalties tie
+P05,P05-EN-008,P05-VI-012,kept,,Australian (citizenship) -> quốc tịch Úc
+P05,P05-EN-009,P05-VI-007,kept,,Applicants -> Người nộp đơn
+P05,P05-EN-010,P05-VI-008,kept,,The change -> Sự thay đổi này
+P05,P05-EN-011,P05-VI-009,kept,,applications -> đơn đăng ký
+P05,P05-EN-012,P05-VI-010,kept,,
+P05,P05-EN-013,P05-VI-011,kept,,
+P05,P05-EN-014,P05-VI-011,kept,,apply -> nộp đơn (merged in TT marking)
+P05,P05-EN-015,P05-VI-012,kept,,
+P05,P05-EN-016,P05-VI-013,kept,,
+P05,P05-EN-017,P05-VI-014,kept,,
+P05,P05-EN-018,P05-VI-015,kept,,date echo kept in both
+P05,P05-EN-019,P05-VI-016,kept,,Youth Allowance -> Trợ cấp thanh thiếu niên
+P05,P05-EN-020,P05-VI-017,kept,,
+P05,P05-EN-021,P05-VI-018,kept,,
+P05,P05-EN-022,P05-VI-019,kept,,
+P05,P05-EN-023,P05-VI-020,kept,,a fortnight -> mỗi hai tuần (first overt use in TT)
+P05,P05-EN-024,P05-VI-021,kept,,Those -> Những người hưởng
+P05,P05-EN-025,P05-VI-022,kept,,
+P05,P05-EN-026,P05-VI-023,kept,,also -> cũng
+P05,P05-EN-027,P05-VI-024,kept,,
+P05,P05-EN-028,P05-VI-025,kept,,More details -> thêm thông tin
+P05,P05-EN-029,P05-VI-026,kept,,
+P05,P05-EN-030,,omitted,L>zero,TT drops the increase verb tie (tăng is first use in this section)
+P05,P05-EN-031,P05-VI-027,kept,,
+P05,P05-EN-032,P05-VI-028,kept,,
+P05,P05-EN-033,P05-VI-029,kept,,
+P05,P05-EN-034,P05-VI-030,kept,,This -> Điều này
+P05,P05-EN-035,P05-VI-031,kept,,Australia's -> nước Úc
+P05,P05-EN-036,P05-VI-032,kept,,
+P05,P05-EN-037,P05-VI-033,kept,,
+P05,P05-EN-038,P05-VI-034,kept,,
+P05,P05-EN-039,,omitted,L>zero,TT S021 has no prior chơi game mention (first overt use)
+P05,P05-EN-040,P05-VI-035,kept,,also -> cũng
+P05,P05-EN-041,P05-VI-036,kept,,gaming rooms -> phòng chơi game
+P05,P05-EN-042,P05-VI-037,kept,,Additionally -> Ngoài ra
+P05,P05-EN-043,P05-VI-038,kept,,
+P05,P05-EN-044,P05-VI-039,kept,,
+P05,P05-EN-045,,omitted,L>zero,EN S025 (sustainability reports) unrendered in TT
+P05,P05-EN-046,,omitted,L>zero,EN S025 unrendered
+P05,P05-EN-047,,omitted,L>zero,EN S026-S027 (classifications) unrendered in TT
+P05,P05-EN-048,,omitted,L>zero,EN S026-S027 unrendered
+P05,P05-EN-049,,omitted,L>zero,EN S028 unrendered
+P05,P05-EN-050,,omitted,R>zero,EN S028 unrendered
+P05,P05-EN-051,,omitted,R>zero,EN S029 unrendered
+P05,P05-EN-052,,omitted,L>zero,EN S029 unrendered
+P05,P05-EN-053,,omitted,L>zero,EN S029 unrendered
+P05,P05-EN-054,,omitted,L>zero,EN S030-S032 (engineered stone) unrendered in TT
+P05,P05-EN-055,,omitted,R>zero,EN S031 unrendered
+P05,P05-EN-056,,omitted,L>zero,EN S031 unrendered
+P05,P05-EN-057,,omitted,L>zero,EN S031 unrendered
+P05,P05-EN-058,,omitted,L>zero,EN S031 unrendered
+P05,P05-EN-059,,omitted,L>zero,EN S032 unrendered
+P05,P05-EN-060,,omitted,L>zero,EN S032 unrendered
+P05,P05-EN-061,,omitted,L>zero,EN S033 (clearance certificate) unrendered in TT
+P05,P05-EN-062,,omitted,C>zero,EN S034 unrendered (TT omits the whole section)
+P05,P05-EN-063,,omitted,L>zero,EN S034 unrendered
+P05,P05-EN-064,,omitted,L>zero,EN S034 unrendered
+P05,P05-EN-065,,omitted,L>zero,EN S034 unrendered
+P05,P05-EN-066,P05-VI-048,kept,,date echo (Centrelink section)
+P05,P05-EN-067,P05-VI-040,kept,,
+P05,P05-EN-068,P05-VI-041,kept,,The change -> Thay đổi này
+P05,P05-EN-069,,omitted,L>zero,TT drops welfare echo (nhóm người hưởng phúc lợi fresh)
+P05,P05-EN-070,P05-VI-042,kept,,those -> những người
+P05,P05-EN-071,P05-VI-043,kept,,
+P05,P05-EN-072,P05-VI-044,kept,,This change -> Thay đổi này
+P05,P05-EN-073,P05-VI-045,kept,,study -> học
+P05,P05-EN-074,P05-VI-046,kept,,applications -> đơn
+P05,P05-EN-075,P05-VI-047,kept,,
+P05,P05-EN-076,,omitted,L>zero,EN S040-S041 (PBS expansion) unrendered in TT
+P05,P05-EN-077,,omitted,L>zero,EN S041 unrendered
+P05,P05-EN-078,P05-VI-048,kept,,date echo (Medicare section)
+P05,P05-EN-079,,omitted,L>zero,TT S029 chi phí y tế has no prior y tế mention
+P05,P05-EN-080,,omitted,L>zero,TT S030 names both safety nets fresh (no prior threshold tie)
+P05,P05-EN-081,,omitted,L>zero,TT S030 Medicare is first mention
+P05,P05-EN-082,P05-VI-049,kept,,PBS co-payment -> Đồng thanh toán (TT S032); TT S031 is first mention (added)
+P05,P05-EN-083,,omitted,L>zero,TT S032 Đồng thanh toán is first overt co-payment use (added)
+P05,P05-EN-084,P05-VI-050,kept,,Wage changes -> Thay đổi tiền lương
+P05,P05-EN-085,P05-VI-051,kept,,
+P05,P05-EN-086,,omitted,L>zero,TT drops awards echo
+P05,P05-EN-087,P05-VI-052,kept,,
+P05,P05-EN-088,P05-VI-053,kept,,Aged Care Award -> chăm sóc người cao tuổi (TT paraphrases)
+P05,P05-EN-089,P05-VI-054,kept,,
+P05,P05-EN-090,P05-VI-055,kept,,
+P05,P05-EN-091,,omitted,L>zero,EN S049-S050 (health insurance) unrendered in TT
+P05,P05-EN-092,,omitted,L>zero,EN S050 unrendered
+P05,P05-EN-093,,omitted,L>zero,EN S051-S052 (vehicle standard) unrendered in TT
+P05,P05-EN-094,,omitted,L>zero,EN S052 unrendered
+P05,P05-EN-095,P05-VI-056,kept,,date echo (Victoria levy section)
+P05,P05-EN-096,P05-VI-057,kept,,The levy -> Khoản thuế này
+P05,P05-EN-097,P05-VI-058,kept,,Those -> Những người
+P05,P05-EN-098,P05-VI-060,kept,,Victoria's -> Victoria
+P05,P05-EN-099,P05-VI-062,kept,,The tax -> Thuế này
+P05,P05-EN-100,P05-VI-063,kept,,
+P05,P05-EN-101,P05-VI-064,kept,,holiday houses -> nhà nghỉ
+P05,P05-EN-102,,omitted,L>zero,EN S059 (South Australia) unrendered in TT
+P05,,P05-VI-002,added,,"TT Cá nhân contrasts with các công ty (phép đối, opposition); EN S004 Individuals is first mention"
+P05,,P05-VI-004,added,,TT Bộ luật echoes S001 luật; EN S005 has no law-tie (Voluntary Code is fresh)
+P05,,P05-VI-006,added,,TT Cư dân continues the person chain; EN S006 Residents is first mention
+P05,,P05-VI-059,added,,no ST counterpart
+P05,,P05-VI-061,added,,TT Thuế (S039) continues the tax chain
+P06,P06-EN-001,P06-VI-002,kept,,The program -> Chương trình
+P06,P06-EN-002,P06-VI-003,kept,,Australians -> người Úc
+P06,P06-EN-003,,omitted,L>zero,TT drops the travel verb in S003 (thường xuyên đến Hoa Kỳ)
+P06,P06-EN-004,P06-VI-004,kept,,the US -> Hoa Kỳ
+P06,P06-EN-005,P06-VI-007,kept,,
+P06,P06-EN-006,P06-VI-008,kept,,
+P06,P06-EN-007,P06-VI-011,kept,,Australian passport holders -> hộ chiếu Úc
+P06,P06-EN-008,P06-VI-012,kept,,
+P06,P06-EN-009,P06-VI-013,kept,,
+P06,P06-EN-010,P06-VI-013,kept,,merged in TT marking
+P06,P06-EN-011,P06-VI-015,kept,,
+P06,P06-EN-012,P06-VI-016,kept,,travellers -> du khách
+P06,P06-EN-013,P06-VI-017,kept,,It's -> Đây là
+P06,P06-EN-014,P06-VI-018,kept,,
+P06,P06-EN-015,,omitted,L>zero,TT drops travelling (đi lại)
+P06,P06-EN-016,P06-VI-019,kept,,European -> châu Âu
+P06,P06-EN-017,P06-VI-021,kept,,The airline -> Hãng hàng không
+P06,P06-EN-018,P06-VI-022,kept,,Meanwhile -> Trong khi đó
+P06,P06-EN-019,P06-VI-024,kept,,also -> cũng
+P06,P06-EN-020,,omitted,L>zero,TT drops the daily echo (dịch vụ hàng ngày unmarked)
+P06,P06-EN-021,P06-VI-026,kept,,
+P06,P06-EN-022,P06-VI-027,kept,,the route -> dịch vụ
+P06,P06-EN-023,P06-VI-029,kept,,travelling -> du khách
+P06,P06-EN-024,P06-VI-030,kept,,
+P06,P06-EN-025,P06-VI-031,kept,,
+P06,P06-EN-026,P06-VI-033,kept,,
+P06,P06-EN-027,P06-VI-034,kept,,
+P06,P06-EN-028,P06-VI-034,kept,,merged in TT marking
+P06,P06-EN-029,P06-VI-036,kept,,
+P06,P06-EN-030,P06-VI-037,kept,,increased -> tăng
+P06,P06-EN-031,P06-VI-039,kept,,airline -> hàng không (partial)
+P06,P06-EN-032,P06-VI-040,kept,,
+P06,P06-EN-033,P06-VI-041,kept,,However -> Tuy nhiên
+P06,P06-EN-034,P06-VI-042,kept,,
+P06,P06-EN-035,P06-VI-043,kept,,
+P06,P06-EN-036,P06-VI-044,kept,,
+P06,P06-EN-037,P06-VI-045,kept,,
+P06,P06-EN-038,,omitted,L>zero,TT S022 tuyến bay is first mention (no prior route tie)
+P06,P06-EN-039,P06-VI-046,kept,,
+P06,P06-EN-040,P06-VI-049,kept,,airline's -> hãng hàng không
+P06,P06-EN-041,P06-VI-050,kept,,However -> Tuy nhiên
+P06,P06-EN-042,P06-VI-052,kept,,our -> chúng tôi
+P06,P06-EN-043,P06-VI-051,kept,,report -> báo cáo
+P06,P06-EN-044,P06-VI-053,kept,,verbatim in both
+P06,P06-EN-045,,omitted,L>zero,EN S024-S038 (travel trends section) unrendered in TT
+P06,P06-EN-046,,omitted,L>zero,EN S025 unrendered
+P06,P06-EN-047,,omitted,L>zero,EN S025 unrendered
+P06,P06-EN-048,,omitted,L>zero,EN S025 unrendered
+P06,P06-EN-049,,omitted,L>zero,EN S025 unrendered
+P06,P06-EN-050,,omitted,L>zero,EN S026 unrendered
+P06,P06-EN-051,,omitted,L>zero,EN S027 unrendered
+P06,P06-EN-052,,omitted,L>zero,EN S027 unrendered
+P06,P06-EN-053,,omitted,L>zero,EN S027 unrendered
+P06,P06-EN-054,,omitted,L>zero,EN S028 unrendered
+P06,P06-EN-055,,omitted,L>zero,EN S029 unrendered
+P06,P06-EN-056,,omitted,L>zero,EN S029 unrendered
+P06,P06-EN-057,,omitted,L>zero,EN S029 unrendered
+P06,P06-EN-058,,omitted,L>zero,EN S029 unrendered
+P06,P06-EN-059,,omitted,L>zero,EN S030 unrendered
+P06,P06-EN-060,,omitted,L>zero,EN S030 unrendered
+P06,P06-EN-061,,omitted,R>zero,EN S031 unrendered
+P06,P06-EN-062,,omitted,R>zero,EN S031 unrendered
+P06,P06-EN-063,,omitted,L>zero,EN S032 unrendered
+P06,P06-EN-064,,omitted,L>zero,EN S032 unrendered
+P06,P06-EN-065,,omitted,L>zero,EN S032 unrendered
+P06,P06-EN-066,,omitted,L>zero,EN S032 unrendered
+P06,P06-EN-067,,omitted,R>zero,EN S033 unrendered
+P06,P06-EN-068,,omitted,L>zero,EN S034 unrendered
+P06,P06-EN-069,,omitted,L>zero,EN S034 unrendered
+P06,P06-EN-070,,omitted,L>zero,EN S035 unrendered
+P06,P06-EN-071,,omitted,R>zero,EN S035 unrendered
+P06,P06-EN-072,,omitted,L>zero,EN S035 unrendered
+P06,P06-EN-073,,omitted,L>zero,EN S036 unrendered
+P06,P06-EN-074,,omitted,L>zero,EN S036 unrendered
+P06,P06-EN-075,,omitted,L>zero,EN S037 unrendered
+P06,P06-EN-076,,omitted,L>zero,EN S037 unrendered
+P06,P06-EN-077,,omitted,L>zero,EN S037 unrendered
+P06,P06-EN-078,,omitted,L>zero,EN S037 unrendered
+P06,P06-EN-079,,omitted,C>zero,EN S038 unrendered
+P06,P06-EN-080,,omitted,L>zero,EN S038 unrendered
+P06,P06-EN-081,,omitted,L>zero,EN S038 unrendered
+P06,,P06-VI-001,added,,TT repeats Hoa Kỳ where EN S002 uses US (first EN tie at S003)
+P06,,P06-VI-005,added,,TT adds adversative Tuy nhiên (S004) with no EN counterpart (EN S003 is one sentence)
+P06,,P06-VI-006,added,,no ST counterpart
+P06,,P06-VI-009,added,,TT repeats Hoa Kỳ (S005) where EN S004 has no US item
+P06,,P06-VI-010,added,,TT người Úc chain continues
+P06,,P06-VI-014,added,,"TT đơn xin chain starts (S008), EN S007 application unmarked"
+P06,,P06-VI-020,added,,TT khách du lịch word-order variant of du khách
+P06,,P06-VI-023,added,,"TT cắt giảm echoes ngừng bay (synonym), EN S012 axe unmarked"
+P06,,P06-VI-025,added,,TT cắt giảm chain (S014)
+P06,,P06-VI-028,added,,TT verbatim route echo
+P06,,P06-VI-032,added,,TT date echo năm 2025
+P06,,P06-VI-035,added,,no ST counterpart
+P06,,P06-VI-038,added,,TT nội địa chain (S020)
+P06,,P06-VI-047,added,,TT giảm chain (S022)
+P06,,P06-VI-048,added,,TT yếu tố chain (S023)
+P07,P07-EN-001,P07-VI-001,kept,,
+P07,P07-EN-002,P07-VI-002,kept,,
+P07,P07-EN-003,P07-VI-003,kept,,
+P07,P07-EN-004,,omitted,E>zero,"TT renders the fragment as a full question (Mate là ai?), no ellipsis"
+P07,P07-EN-005,,omitted,R>zero,This is confusing -> Đúng là khó hiểu thật (no demonstrative in TT)
+P07,P07-EN-006,P07-VI-005,kept,,
+P07,P07-EN-007,P07-VI-006,kept,,
+P07,P07-EN-008,P07-VI-007,kept,,
+P07,P07-EN-009,P07-VI-008,kept,,
+P07,P07-EN-010,P07-VI-009,kept,,
+P07,P07-EN-011,P07-VI-010,kept,,
+P07,P07-EN-012,P07-VI-011,kept,,
+P07,P07-EN-013,P07-VI-012,kept,,
+P07,P07-EN-014,P07-VI-013,kept,,
+P07,P07-EN-015,P07-VI-015,kept,,
+P07,P07-EN-016,P07-VI-016,kept,,
+P07,P07-EN-017,P07-VI-017,kept,,
+P07,P07-EN-018,P07-VI-018,kept,,
+P07,P07-EN-019,P07-VI-019,kept,,
+P07,P07-EN-020,P07-VI-020,kept,,
+P07,P07-EN-021,P07-VI-021,kept,,
+P07,P07-EN-022,P07-VI-022,kept,,
+P07,P07-EN-023,P07-VI-023,kept,,
+P07,P07-EN-024,P07-VI-024,kept,,
+P07,P07-EN-025,P07-VI-025,kept,,
+P07,P07-EN-026,,omitted,L>zero,merged in TT marking (tiếng Anh Úc covers words + English)
+P07,P07-EN-027,P07-VI-026,kept,,
+P07,P07-EN-028,P07-VI-027,kept,,
+P07,P07-EN-029,P07-VI-028,kept,,
+P07,P07-EN-030,,omitted,R>zero,TT drops possessive (Cách nói chuyện của người Úc gắn liền với lịch sử)
+P07,P07-EN-031,P07-VI-029,kept,,
+P07,P07-EN-032,P07-VI-030,kept,,
+P07,P07-EN-033,P07-VI-031,kept,,
+P07,P07-EN-034,P07-VI-032,kept,,
+P07,P07-EN-034,P07-VI-033,kept,,
+P07,P07-EN-035,P07-VI-034,kept,,
+P07,P07-EN-036,P07-VI-035,kept,,
+P07,P07-EN-037,P07-VI-036,kept,,
+P07,P07-EN-038,P07-VI-037,kept,,
+P07,P07-EN-039,P07-VI-038,kept,,
+P07,P07-EN-040,P07-VI-039,kept,,
+P07,P07-EN-041,P07-VI-040,kept,,
+P07,P07-EN-042,P07-VI-041,kept,,
+P07,P07-EN-043,P07-VI-042,kept,,
+P07,P07-EN-044,P07-VI-043,kept,,
+P07,P07-EN-045,P07-VI-044,kept,,
+P07,P07-EN-046,P07-VI-045,kept,,
+P07,P07-EN-047,P07-VI-046,kept,,
+P07,P07-EN-048,P07-VI-047,kept,,
+P07,P07-EN-049,P07-VI-048,kept,,
+P07,P07-EN-050,P07-VI-049,kept,,
+P07,P07-EN-051,P07-VI-050,kept,,
+P07,P07-EN-052,P07-VI-051,kept,,
+P07,P07-EN-053,P07-VI-052,kept,,
+P07,P07-EN-054,P07-VI-053,kept,,
+P07,P07-EN-055,P07-VI-054,kept,,
+P07,P07-EN-056,P07-VI-055,kept,,
+P07,P07-EN-057,P07-VI-056,kept,,
+P07,P07-EN-058,P07-VI-057,kept,,
+P07,P07-EN-059,P07-VI-058,kept,,
+P07,P07-EN-060,P07-VI-059,kept,,
+P07,P07-EN-061,P07-VI-060,kept,,
+P07,P07-EN-062,P07-VI-061,kept,,
+P07,P07-EN-063,P07-VI-062,kept,,
+P07,P07-EN-064,P07-VI-063,kept,,
+P07,P07-EN-065,P07-VI-064,kept,,
+P07,P07-EN-066,P07-VI-065,kept,,
+P07,P07-EN-067,P07-VI-066,kept,,
+P07,P07-EN-068,P07-VI-067,kept,,
+P07,P07-EN-069,P07-VI-068,kept,,
+P07,P07-EN-070,P07-VI-069,shifted,R>L,it -> từ này (pronoun becomes demonstrative NP)
+P07,P07-EN-071,P07-VI-070,kept,,
+P07,P07-EN-072,P07-VI-071,kept,,
+P07,P07-EN-073,P07-VI-072,shifted,R>L,it -> từ này (pronoun becomes demonstrative NP)
+P07,P07-EN-074,P07-VI-073,kept,,
+P07,P07-EN-075,P07-VI-074,kept,,
+P07,P07-EN-076,P07-VI-075,kept,,
+P07,P07-EN-077,P07-VI-076,kept,,
+P07,P07-EN-078,P07-VI-077,kept,,
+P07,P07-EN-079,P07-VI-078,kept,,
+P07,P07-EN-080,P07-VI-079,kept,,
+P07,P07-EN-081,P07-VI-080,kept,,
+P07,P07-EN-082,P07-VI-081,kept,,
+P07,P07-EN-083,P07-VI-082,kept,,
+P07,P07-EN-084,P07-VI-083,kept,,
+P07,P07-EN-085,P07-VI-084,kept,,
+P07,P07-EN-086,P07-VI-085,kept,,
+P07,P07-EN-087,P07-VI-086,kept,,
+P07,P07-EN-088,P07-VI-087,kept,,
+P07,P07-EN-089,P07-VI-088,kept,,
+P07,P07-EN-090,P07-VI-089,kept,,
+P07,P07-EN-091,,omitted,R>zero,merged in TT marking (Những thành ngữ hài hước này covers These + idioms)
+P07,P07-EN-092,P07-VI-090,kept,,
+P07,P07-EN-093,P07-VI-091,kept,,
+P07,P07-EN-094,P07-VI-092,kept,,
+P07,P07-EN-095,P07-VI-093,kept,,
+P07,P07-EN-096,P07-VI-094,kept,,
+P07,P07-EN-097,P07-VI-095,kept,,
+P07,P07-EN-098,P07-VI-096,kept,,
+P07,P07-EN-099,,omitted,L>zero,"merged in TT marking (kiểu cách Anh overlapped, removed)"
+P07,P07-EN-100,P07-VI-098,kept,,
+P07,P07-EN-101,P07-VI-099,kept,,
+P07,P07-EN-102,P07-VI-100,kept,,
+P07,P07-EN-103,P07-VI-101,kept,,
+P07,P07-EN-104,P07-VI-102,kept,,
+P07,P07-EN-105,P07-VI-103,kept,,
+P07,P07-EN-106,P07-VI-104,kept,,
+P07,P07-EN-107,P07-VI-105,kept,,
+P07,P07-EN-108,P07-VI-106,kept,,
+P07,P07-EN-109,P07-VI-107,kept,,
+P07,P07-EN-110,P07-VI-108,kept,,
+P07,P07-EN-111,P07-VI-109,kept,,
+P07,P07-EN-112,P07-VI-110,kept,,
+P07,P07-EN-113,P07-VI-111,kept,,
+P07,P07-EN-114,P07-VI-112,kept,,
+P07,P07-EN-115,P07-VI-113,kept,,
+P07,P07-EN-116,P07-VI-114,kept,,
+P07,P07-EN-117,P07-VI-115,kept,,
+P07,P07-EN-118,P07-VI-116,kept,,
+P07,P07-EN-119,P07-VI-117,kept,,
+P07,P07-EN-120,P07-VI-118,kept,,
+P07,P07-EN-121,P07-VI-119,kept,,
+P07,,P07-VI-004,added,,TT Đúng affirms the examples; EN This is confusing has no demonstrative counterpart
+P07,,P07-VI-014,added,,TT ngôn ngữ này (general word + demonstrative) where EN its words is unmarked
+P07,,P07-VI-097,added,,"TT adds adversative Tuy nhiên for EN And, yet (unmarked in EN)"
+P08,P08-EN-001,P08-VI-001,kept,,Australia's housing market -> Thị trường nhà ở Úc
+P08,P08-EN-002,P08-VI-002,kept,,property values -> giá nhà
+P08,P08-EN-003,P08-VI-003,kept,,
+P08,P08-EN-004,P08-VI-004,kept,,
+P08,P08-EN-005,P08-VI-005,shifted,L>R,the data shows -> dữ liệu phản ảnh; TT marks người mua nhà NP instead
+P08,P08-EN-006,P08-VI-005,kept,,buyer -> người mua nhà
+P08,P08-EN-007,P08-VI-007,kept,,
+P08,P08-EN-008,P08-VI-006,kept,,we -> chúng tôi
+P08,P08-EN-009,P08-VI-007,kept,,
+P08,P08-EN-010,P08-VI-008,kept,,That doesn't mean -> Điều đó không có nghĩa
+P08,P08-EN-011,P08-VI-009,kept,,
+P08,P08-EN-012,P08-VI-011,kept,,Powell said -> bà nói
+P08,P08-EN-013,P08-VI-012,kept,,This delay -> Sự trì hoãn này
+P08,P08-EN-014,P08-VI-013,kept,,affordability pressures -> áp lực giá nhà (affordability ~ áp lực)
+P08,P08-EN-015,P08-VI-013,kept,,merged in TT marking
+P08,P08-EN-016,P08-VI-014,kept,,
+P08,P08-EN-017,,omitted,C>zero,TT S009 has no adversative (mà connects clauses internally)
+P08,P08-EN-018,P08-VI-017,kept,,
+P08,P08-EN-019,P08-VI-018,kept,,the quarter -> trong quý
+P08,P08-EN-020,P08-VI-019,kept,,"Sydney chain (TT first overt mention S009, tie at S010)"
+P08,P08-EN-021,P08-VI-016,kept,,Australia's -> Úc
+P08,P08-EN-022,P08-VI-015,kept,,
+P08,P08-EN-023,P08-VI-019,kept,,It's -> tại đây (locative) in TT S009; chain via Sydney tie
+P08,P08-EN-024,P08-VI-019,kept,,merged in TT marking
+P08,P08-EN-025,P08-VI-021,kept,,quarterly decline -> hai quý (TT marks hai quý)
+P08,P08-EN-026,P08-VI-022,kept,,Data -> Dữ liệu
+P08,P08-EN-027,P08-VI-023,kept,,Domain's recent report -> Domain
+P08,P08-EN-028,P08-VI-025,kept,,the city's -> Sydney (repeated proper name)
+P08,P08-EN-029,,omitted,L>zero,TT drops median (mức trung vị unmarked in S011)
+P08,P08-EN-030,P08-VI-026,kept,,property price -> giá bất động sản
+P08,P08-EN-031,P08-VI-027,kept,,houses prices -> giá nhà (source typo houses kept in ST)
+P08,P08-EN-032,P08-VI-028,kept,,Similarly -> Tương tự
+P08,P08-EN-033,P08-VI-029,kept,,
+P08,P08-EN-034,P08-VI-030,kept,,unit prices -> căn hộ
+P08,P08-EN-035,P08-VI-031,kept,,the December quarter -> quý 4
+P08,P08-EN-036,P08-VI-034,kept,,
+P08,P08-EN-037,P08-VI-035,kept,,
+P08,P08-EN-038,P08-VI-036,kept,,
+P08,P08-EN-039,,omitted,R>zero,TT drops It's (Thị trường ở đây hoạt động kém)
+P08,P08-EN-040,P08-VI-037,kept,,a market -> Thị trường
+P08,P08-EN-041,P08-VI-038,kept,,we -> chúng tôi
+P08,P08-EN-042,P08-VI-039,kept,,Powell said -> bà Powell nhận xét
+P08,P08-EN-043,P08-VI-040,kept,,This -> Sự tăng trưởng này
+P08,P08-EN-044,P08-VI-041,kept,,
+P08,P08-EN-045,P08-VI-042,kept,,
+P08,P08-EN-046,,omitted,L>zero,EN S021 (Sydney-Melbourne cycles) unrendered in TT
+P08,P08-EN-047,,omitted,L>zero,EN S021-S022 unrendered
+P08,P08-EN-048,,omitted,R>zero,EN S022 unrendered
+P08,P08-EN-049,,omitted,R>zero,EN S022 unrendered
+P08,P08-EN-050,,omitted,L>zero,EN S022 unrendered
+P08,P08-EN-051,P08-VI-043,kept,,housing affordability -> khả năng chi trả nhà ở
+P08,P08-EN-052,P08-VI-044,kept,,
+P08,P08-EN-053,P08-VI-045,kept,,also -> cũng
+P08,P08-EN-054,P08-VI-046,kept,,a fall -> giảm giá
+P08,P08-EN-055,P08-VI-046,kept,,merged in TT marking
+P08,P08-EN-056,P08-VI-047,kept,,over the same period -> trong cùng giai đoạn
+P08,P08-EN-057,P08-VI-048,kept,,Meanwhile -> Trong khi đó
+P08,P08-EN-058,P08-VI-049,kept,,
+P08,P08-EN-059,P08-VI-051,kept,,Regional and smaller markets -> Các thị trường nhỏ hơn
+P08,P08-EN-060,P08-VI-050,kept,,these changes -> những thay đổi này
+P08,P08-EN-061,P08-VI-052,kept,,
+P08,P08-EN-062,P08-VI-053,kept,,
+P08,P08-EN-063,,omitted,L>zero,TT has no prior thủ phủ mention (first use at S026)
+P08,P08-EN-064,P08-VI-054,kept,,In contrast -> Tuy nhiên
+P08,P08-EN-065,P08-VI-055,kept,,
+P08,P08-EN-066,P08-VI-056,kept,,the quarter -> trong quý 4
+P08,P08-EN-067,P08-VI-058,kept,,Canberra's housing market -> thị trường Canberra
+P08,P08-EN-068,P08-VI-060,kept,,
+P08,P08-EN-069,P08-VI-059,kept,,
+P08,P08-EN-070,P08-VI-061,kept,,But -> Tuy nhiên
+P08,P08-EN-071,P08-VI-062,kept,,
+P08,P08-EN-072,,omitted,L>zero,TT drops the median (xuống còn $ amounts)
+P08,P08-EN-073,P08-VI-063,kept,,it -> (buyer's market) người mua nhà
+P08,P08-EN-074,P08-VI-065,kept,,the market -> thị trường địa ốc
+P08,P08-EN-075,P08-VI-066,kept,,
+P08,P08-EN-076,P08-VI-067,kept,,
+P08,P08-EN-077,P08-VI-068,kept,,
+P08,P08-EN-078,P08-VI-069,kept,,But -> Nhưng
+P08,P08-EN-079,P08-VI-070,kept,,this trend -> xu hướng này
+P08,P08-EN-080,P08-VI-071,kept,,Powell -> bà Powell
+P08,P08-EN-081,P08-VI-072,kept,,interesting -> thú vị (echo of the lede in both)
+P08,P08-EN-082,P08-VI-073,kept,,she -> bà
+P08,P08-EN-083,P08-VI-074,kept,,
+P08,P08-EN-084,P08-VI-075,kept,,
+P08,P08-EN-085,,omitted,L>zero,TT reformulates the change as RBA cutting rates
+P08,P08-EN-086,P08-VI-077,kept,,we -> chúng ta
+P08,,P08-VI-010,added,,TT họ refers to người mua where EN uses people (intra-sentential in EN)
+P08,,P08-VI-020,added,,TT giá nhà chain continues
+P08,,P08-VI-024,added,,"TT giá căn hộ vs giá nhà (units vs houses, related-term association)"
+P08,,P08-VI-032,added,,TT Giá nhà chain (S016)
+P08,,P08-VI-033,added,,TT trong cùng giai đoạn chain
+P08,,P08-VI-057,added,,TT Trong khi đó (S028) with no EN additive there
+P08,,P08-VI-064,added,,no ST counterpart
+P08,,P08-VI-076,added,,no ST counterpart
+P09,P09-EN-001,P09-VI-001,kept,,A new report -> Một báo cáo mới (verbatim echo in both)
+P09,P09-EN-002,P09-VI-002,kept,,GP clinics -> phòng khám bác sĩ gia đình
+P09,P09-EN-003,P09-VI-003,kept,,bulk billing -> bulk-billing (loanword kept in TT)
+P09,P09-EN-004,P09-VI-044,kept,,patients -> bệnh nhân (TT S016)
+P09,P09-EN-005,,omitted,L>zero,TT S003 renders it without out-of-pocket (nhiều tiền hơn)
+P09,P09-EN-006,P09-VI-002,kept,,general practitioner -> bác sĩ gia đình (merged in TT marking)
+P09,P09-EN-007,P09-VI-005,kept,,However -> Tuy nhiên
+P09,P09-EN-008,P09-VI-031,kept,,the government -> chính phủ
+P09,P09-EN-009,P09-VI-006,kept,,the report's findings -> những phát hiện (TT marks báo cáo tie too)
+P09,P09-EN-010,P09-VI-007,kept,,
+P09,P09-EN-011,P09-VI-034,kept,,concession card holders -> thẻ ưu đãi
+P09,P09-EN-012,P09-VI-008,kept,,The national Blue Report -> Báo cáo
+P09,P09-EN-013,P09-VI-009,kept,,
+P09,P09-EN-014,,omitted,L>zero,the country -> trên toàn quốc (TT marks toàn quốc at S006 instead)
+P09,P09-EN-015,P09-VI-010,kept,,
+P09,P09-EN-016,P09-VI-012,kept,,nationally -> toàn quốc
+P09,P09-EN-017,P09-VI-013,kept,,
+P09,P09-EN-018,P09-VI-014,kept,,
+P09,P09-EN-019,P09-VI-015,kept,,
+P09,P09-EN-020,P09-VI-014,kept,,merged in TT marking
+P09,P09-EN-021,P09-VI-016,kept,,
+P09,P09-EN-022,P09-VI-017,kept,,
+P09,P09-EN-023,P09-VI-018,kept,,this data -> dữ liệu này
+P09,P09-EN-024,P09-VI-019,kept,,
+P09,P09-EN-025,P09-VI-020,kept,,
+P09,P09-EN-026,P09-VI-021,kept,,
+P09,P09-EN-027,,omitted,R>zero,"It says -> Báo cáo cho biết (TT uses noun, marked as L tie VI-022)"
+P09,P09-EN-028,P09-VI-023,kept,,its data -> dữ liệu của họ
+P09,P09-EN-029,P09-VI-024,kept,,
+P09,P09-EN-030,,omitted,L>zero,TT drops without concessions (không cần trả thêm phí reformulated)
+P09,P09-EN-031,,omitted,L>zero,TT has no prior states mention (first overt use S010)
+P09,P09-EN-032,P09-VI-026,kept,,
+P09,P09-EN-033,P09-VI-027,kept,,
+P09,P09-EN-034,P09-VI-028,kept,,
+P09,P09-EN-035,P09-VI-029,kept,,
+P09,P09-EN-036,P09-VI-030,kept,,
+P09,P09-EN-037,P09-VI-031,kept,,
+P09,P09-EN-038,P09-VI-032,kept,,
+P09,P09-EN-039,,omitted,L>zero,TT drops the concession-card echo here (marked at S012 instead)
+P09,P09-EN-040,P09-VI-028,kept,,Cleanbill's -> báo cáo Cleanbill (merged)
+P09,P09-EN-041,P09-VI-035,kept,,The government's data -> Dữ liệu của chính phủ
+P09,P09-EN-042,P09-VI-036,kept,,
+P09,P09-EN-043,P09-VI-033,kept,,
+P09,P09-EN-044,P09-VI-037,kept,,
+P09,P09-EN-045,P09-VI-038,kept,,the increase -> sự gia tăng này
+P09,P09-EN-046,P09-VI-039,kept,,
+P09,P09-EN-047,P09-VI-040,kept,,
+P09,P09-EN-048,P09-VI-041,kept,,patient rebates -> bệnh nhân (TT marks the NP differently)
+P09,P09-EN-049,,omitted,L>zero,TT drops bulk billed in S015
+P09,P09-EN-050,,omitted,L>zero,TT drops the under-16s echo in S015
+P09,P09-EN-051,P09-VI-042,kept,,
+P09,P09-EN-052,P09-VI-045,kept,,the bulk billing incentive -> thanh toán bulk-bill (TT S016)
+P09,P09-EN-053,P09-VI-045,kept,,merged in TT marking
+P09,P09-EN-054,,omitted,L>zero,merged in TT marking
+P09,P09-EN-055,,omitted,L>zero,TT states chain starts S016 (first overt mention)
+P09,P09-EN-056,P09-VI-047,kept,,
+P09,P09-EN-057,P09-VI-048,kept,,bulk billing -> bulk-billing
+P09,P09-EN-058,P09-VI-049,kept,,the largest rise -> mức tăng lớn nhất
+P09,P09-EN-059,P09-VI-050,kept,,The Cleanbill report -> Báo cáo Cleanbill
+P09,P09-EN-060,P09-VI-043,kept,,also -> cũng
+P09,P09-EN-061,P09-VI-051,kept,,
+P09,P09-EN-062,P09-VI-052,kept,,
+P09,P09-EN-063,P09-VI-053,kept,,
+P09,P09-EN-064,P09-VI-056,kept,,visiting a doctor -> bác sĩ
+P09,P09-EN-065,P09-VI-055,kept,,The rising cost of GP visits -> Chi phí
+P09,P09-EN-066,P09-VI-057,kept,,
+P09,P09-EN-067,,omitted,L>zero,TT drops appointments echo (lịch hẹn bác sĩ fresh)
+P09,P09-EN-068,P09-VI-058,kept,,
+P09,P09-EN-069,P09-VI-059,kept,,
+P09,P09-EN-070,P09-VI-061,kept,,
+P09,P09-EN-071,P09-VI-060,kept,,
+P09,P09-EN-072,P09-VI-064,kept,,
+P09,P09-EN-073,,omitted,L>zero,"TT reformulates patients' avoidance (bệnh nhân tránh gặp bác sĩ, no tie marked)"
+P09,P09-EN-074,P09-VI-062,kept,,
+P09,P09-EN-075,P09-VI-067,kept,,the healthcare system -> sức khỏe
+P09,P09-EN-076,,omitted,L>zero,anyone's health -> sức khỏe (merged with EN-075 in TT marking)
+P09,P09-EN-077,P09-VI-068,kept,,
+P09,P09-EN-078,P09-VI-070,kept,,
+P09,P09-EN-079,P09-VI-071,kept,,the incentives -> ưu đãi
+P09,P09-EN-080,,omitted,L>zero,TT drops funding (tài trợ fresh)
+P09,P09-EN-081,P09-VI-073,kept,,Data -> thanh toán bulk-billing (TT marks payment chain instead)
+P09,P09-EN-082,P09-VI-073,kept,,merged in TT marking
+P09,P09-EN-083,P09-VI-074,kept,,a person lives -> người
+P09,P09-EN-084,P09-VI-076,kept,,
+P09,P09-EN-085,,omitted,L>zero,TT drops GP visits in S026
+P09,P09-EN-086,P09-VI-075,kept,,
+P09,P09-EN-087,P09-VI-076,kept,,weren't bulk billed -> không được thanh toán toàn bộ (merged)
+P09,P09-EN-088,,omitted,L>zero,TT drops out-of-pocket costs in S027 (tự trả trung bình)
+P09,P09-EN-089,P09-VI-077,kept,,
+P09,P09-EN-090,P09-VI-078,kept,,
+P09,P09-EN-091,,omitted,L>zero,TT names Breadon fresh at S028 (no prior tie)
+P09,P09-EN-092,P09-VI-078,kept,,
+P09,P09-EN-093,P09-VI-079,kept,,
+P09,P09-EN-094,P09-VI-080,kept,,This cost of living crisis -> Cuộc khủng hoảng chi phí sinh hoạt
+P09,P09-EN-095,P09-VI-082,kept,,
+P09,P09-EN-096,,omitted,R>zero,TT drops he (quote attribution merged)
+P09,P09-EN-097,P09-VI-083,kept,,
+P09,P09-EN-098,P09-VI-084,kept,,
+P09,P09-EN-099,P09-VI-085,kept,,
+P09,P09-EN-100,P09-VI-087,kept,,
+P09,P09-EN-101,P09-VI-090,kept,,rising costs -> chi phí gia tăng
+P09,P09-EN-102,P09-VI-091,kept,,
+P09,P09-EN-103,P09-VI-092,kept,,
+P09,P09-EN-104,P09-VI-093,kept,,
+P09,P09-EN-105,,omitted,L>zero,TT drops GP mental health items
+P09,P09-EN-106,,omitted,L>zero,EN S033 (Wright consultations) unrendered in TT
+P09,P09-EN-107,,omitted,L>zero,EN S033 unrendered
+P09,P09-EN-108,,omitted,L>zero,EN S033 unrendered
+P09,P09-EN-109,,omitted,L>zero,EN S033 unrendered
+P09,P09-EN-110,,omitted,L>zero,EN S033 unrendered
+P09,P09-EN-111,,omitted,L>zero,EN S033 unrendered
+P09,P09-EN-112,,omitted,L>zero,EN S034-S035 (Breadon factors) unrendered in TT
+P09,P09-EN-113,,omitted,L>zero,EN S034 unrendered
+P09,P09-EN-114,,omitted,L>zero,EN S035 unrendered
+P09,P09-EN-115,,omitted,L>zero,EN S035 unrendered
+P09,P09-EN-116,,omitted,L>zero,EN S035 unrendered
+P09,P09-EN-117,,omitted,L>zero,EN S035 unrendered
+P09,P09-EN-118,P09-VI-094,kept,,the NSW government -> chính phủ NSW
+P09,P09-EN-119,P09-VI-095,kept,,
+P09,P09-EN-120,P09-VI-096,kept,,
+P09,P09-EN-121,P09-VI-097,kept,,
+P09,P09-EN-122,P09-VI-098,kept,,
+P09,,P09-VI-004,added,,TT bác sĩ gia đình chain (S003)
+P09,,P09-VI-011,added,,TT thanh toán chain (S006)
+P09,,P09-VI-022,added,,"TT Báo cáo cho biết uses noun where EN uses pronoun It (R>L shift, marked as added)"
+P09,,P09-VI-025,added,,TT bạn addressee chain (S009)
+P09,,P09-VI-046,added,,TT SBS News first overt mention (EN S022 tie has no TT counterpart at this position)
+P09,,P09-VI-054,added,,no ST counterpart
+P09,,P09-VI-063,added,,no ST counterpart
+P09,,P09-VI-065,added,,no ST counterpart
+P09,,P09-VI-066,added,,TT Ông (Wright) pronoun chain
+P09,,P09-VI-069,added,,TT bác sĩ gia đình chain (S024)
+P09,,P09-VI-072,added,,TT nước Úc chain
+P09,,P09-VI-081,added,,no ST counterpart
+P09,,P09-VI-086,added,,TT bác sĩ chain (S030)
+P09,,P09-VI-088,added,,TT bác sĩ gia đình chain (S031)
+P09,,P09-VI-089,added,,TT cô (Hoffman) pronoun
+P10,P10-EN-001,P10-VI-001,kept,,The Australian dollar -> đồng đô la Úc
+P10,P10-EN-002,,omitted,R>zero,Its -> (TT S002 drops pronoun: giá trị của đồng đô la Úc)
+P10,P10-EN-003,P10-VI-002,kept,,the United States dollar -> đồng đô la Mỹ (currency association in both)
+P10,P10-EN-004,,omitted,R>zero,it's -> nó removed after same-sentence check (TT reformulates)
+P10,P10-EN-005,P10-VI-004,kept,,a weaker dollar -> đồng đô la
+P10,P10-EN-006,P10-VI-005,kept,,
+P10,P10-EN-007,P10-VI-006,kept,,
+P10,P10-EN-008,P10-VI-008,kept,,the dollar's value -> giá trị của đồng đô la
+P10,P10-EN-009,P10-VI-007,kept,,factors -> yếu tố
+P10,P10-EN-010,P10-VI-009,kept,,the US -> Hoa Kỳ
+P10,P10-EN-011,P10-VI-010,kept,,This -> Điều này
+P10,P10-EN-012,P10-VI-011,kept,,
+P10,P10-EN-013,P10-VI-012,kept,,
+P10,P10-EN-014,P10-VI-013,kept,,he -> ông
+P10,P10-EN-015,P10-VI-014,kept,,the Chinese yuan -> đồng nhân dân tệ (association kept in both)
+P10,P10-EN-016,P10-VI-015,kept,,declining prices -> giá cả giảm
+P10,P10-EN-017,P10-VI-016,kept,,agreed -> đồng ý
+P10,P10-EN-018,P10-VI-017,kept,,
+P10,P10-EN-019,P10-VI-018,kept,,That -> Điều đó
+P10,P10-EN-020,P10-VI-019,kept,,
+P10,P10-EN-021,P10-VI-020,kept,,
+P10,P10-EN-022,P10-VI-021,kept,,
+P10,P10-EN-023,P10-VI-022,kept,,
+P10,P10-EN-024,P10-VI-023,kept,,our -> chúng ta
+P10,P10-EN-025,P10-VI-024,kept,,
+P10,P10-EN-026,P10-VI-025,kept,,
+P10,P10-EN-027,P10-VI-026,kept,,
+P10,P10-EN-028,P10-VI-027,kept,,this -> điều này
+P10,P10-EN-029,P10-VI-028,kept,,However -> Tuy nhiên
+P10,P10-EN-030,P10-VI-030,kept,,also -> cũng
+P10,P10-EN-031,P10-VI-029,kept,,he -> ông
+P10,P10-EN-032,P10-VI-031,kept,,the dollar -> Đồng đô la giảm giá
+P10,P10-EN-033,P10-VI-031,kept,,merged in TT marking
+P10,P10-EN-034,P10-VI-032,kept,,the cost of living -> chi phí sinh hoạt
+P10,P10-EN-035,P10-VI-033,kept,,
+P10,P10-EN-036,P10-VI-034,kept,,
+P10,P10-EN-037,P10-VI-035,kept,,a falling dollar -> đồng đô la giảm giá
+P10,P10-EN-038,P10-VI-036,kept,,
+P10,P10-EN-039,P10-VI-037,kept,,However -> Tuy nhiên
+P10,P10-EN-040,P10-VI-038,kept,,
+P10,P10-EN-041,P10-VI-041,kept,,Hughes -> Ông Hughes
+P10,P10-EN-042,P10-VI-042,kept,,
+P10,P10-EN-043,P10-VI-043,kept,,
+P10,P10-EN-044,P10-VI-044,kept,,
+P10,P10-EN-045,P10-VI-045,kept,,the situation -> tình hình
+P10,,P10-VI-003,added,,TT repeats đồng đô la Úc where EN uses possessive Its
+P10,,P10-VI-039,added,,TT adds adversative Tuy nhiên (S022 AUD-strength remark) with no EN counterpart
+P10,,P10-VI-040,added,,TT đồng AUD abbreviation variant of the currency chain
+P11,P11-EN-001,P11-VI-001,kept,,
+P11,P11-EN-002,P11-VI-003,kept,,
+P11,P11-EN-003,P11-VI-004,kept,,
+P11,P11-EN-004,P11-VI-005,kept,,such -> hệ thống như vậy
+P11,P11-EN-005,P11-VI-006,kept,,America's -> (của) Hoa Kỳ inside the NP
+P11,P11-EN-006,P11-VI-007,kept,,
+P11,P11-EN-007,P11-VI-008,kept,,
+P11,P11-EN-008,P11-VI-009,kept,,
+P11,P11-EN-009,P11-VI-010,kept,,
+P11,P11-EN-010,,omitted,L>zero,TT S007 uses nền dân chủ Mỹ (Mỹ unmarked)
+P11,P11-EN-011,P11-VI-012,kept,,
+P11,P11-EN-012,P11-VI-014,kept,,
+P11,P11-EN-013,P11-VI-016,kept,,The transition period -> thời kỳ chuyển tiếp
+P11,P11-EN-014,P11-VI-017,kept,,
+P11,P11-EN-015,P11-VI-019,kept,,
+P11,P11-EN-016,P11-VI-018,kept,,
+P11,P11-EN-017,P11-VI-020,kept,,
+P11,P11-EN-018,P11-VI-021,kept,,
+P11,P11-EN-019,P11-VI-022,kept,,customs -> phong tục
+P11,P11-EN-020,P11-VI-023,kept,,
+P11,P11-EN-021,P11-VI-024,kept,,
+P11,P11-EN-022,P11-VI-025,kept,,
+P11,P11-EN-023,P11-VI-026,kept,,
+P11,P11-EN-024,P11-VI-027,kept,,this tradition -> truyền thống này
+P11,P11-EN-025,P11-VI-028,kept,,The example -> tấm gương này
+P11,P11-EN-026,P11-VI-029,kept,,
+P11,P11-EN-027,P11-VI-030,kept,,
+P11,P11-EN-028,,omitted,R>zero,EN S019 (Other practices) unrendered in TT
+P11,P11-EN-029,,omitted,L>zero,EN S019 unrendered
+P11,P11-EN-030,P11-VI-031,kept,,
+P11,P11-EN-031,P11-VI-032,kept,,
+P11,P11-EN-032,,omitted,L>zero,TT drops the incoming commander-in-chief
+P11,P11-EN-033,,omitted,R>zero,Neither -> Không có hoạt động nào (unmarked in TT)
+P11,P11-EN-034,,omitted,L>zero,practice -> hoạt động (unmarked in TT)
+P11,P11-EN-035,P11-VI-033,kept,,
+P11,P11-EN-036,P11-VI-035,kept,,
+P11,P11-EN-037,,omitted,L>zero,TT drops updated over the years tie (được cập nhật unmarked)
+P11,P11-EN-038,P11-VI-037,kept,,
+P11,P11-EN-039,P11-VI-038,kept,,
+P11,P11-EN-040,P11-VI-039,kept,,
+P11,P11-EN-041,P11-VI-040,kept,,
+P11,P11-EN-042,P11-VI-041,kept,,
+P11,P11-EN-043,,omitted,L>zero,TT drops the federal government item
+P11,P11-EN-044,P11-VI-042,kept,,
+P11,P11-EN-045,P11-VI-043,kept,,these -> những bổ sung
+P11,P11-EN-046,P11-VI-044,kept,,
+P11,P11-EN-047,P11-VI-045,kept,,
+P11,P11-EN-048,P11-VI-046,kept,,Then -> Rồi
+P11,P11-EN-049,P11-VI-047,kept,,
+P11,P11-EN-050,P11-VI-048,kept,,
+P11,P11-EN-051,P11-VI-049,kept,,
+P11,P11-EN-052,P11-VI-050,kept,,
+P11,P11-EN-053,P11-VI-051,kept,,
+P11,P11-EN-054,P11-VI-052,kept,,
+P11,P11-EN-055,P11-VI-053,kept,,
+P11,P11-EN-056,P11-VI-054,kept,,
+P11,P11-EN-057,P11-VI-055,kept,,
+P11,P11-EN-058,P11-VI-056,kept,,
+P11,P11-EN-059,P11-VI-057,kept,,
+P11,P11-EN-060,,omitted,L>zero,TT drops established protocol (con lắc metaphor instead)
+P11,P11-EN-061,P11-VI-058,kept,,
+P11,P11-EN-062,P11-VI-059,kept,,
+P11,P11-EN-063,P11-VI-060,kept,,
+P11,P11-EN-064,P11-VI-061,kept,,
+P11,P11-EN-065,P11-VI-062,kept,,
+P11,P11-EN-066,,omitted,R>zero,their -> (TT S030 này unmarked)
+P11,P11-EN-067,P11-VI-063,kept,,
+P11,P11-EN-068,P11-VI-064,kept,,White House meet-and-greet -> Tòa Bạch Ốc
+P11,P11-EN-069,P11-VI-065,kept,,
+P11,P11-EN-070,P11-VI-067,kept,,
+P11,P11-EN-071,P11-VI-066,kept,,
+P11,P11-EN-072,P11-VI-068,kept,,
+P11,P11-EN-073,P11-VI-069,kept,,
+P11,P11-EN-074,P11-VI-071,kept,,
+P11,P11-EN-075,,omitted,L>zero,TT drops inaugurated tie (tuyên thệ nhậm chức unmarked)
+P11,P11-EN-076,,omitted,R>zero,This -> Nỗ lực tuyển dụng lớn này (merged into TT L tie)
+P11,P11-EN-077,P11-VI-072,kept,,
+P11,P11-EN-078,P11-VI-073,kept,,
+P11,P11-EN-079,,omitted,L>zero,TT drops vetted (sàng lọc unmarked)
+P11,P11-EN-080,P11-VI-075,kept,,
+P11,P11-EN-081,P11-VI-076,kept,,
+P11,P11-EN-082,,omitted,L>zero,TT drops appointments tie (chỉ định unmarked)
+P11,P11-EN-083,P11-VI-077,kept,,
+P11,P11-EN-084,P11-VI-078,kept,,
+P11,P11-EN-085,P11-VI-079,kept,,
+P11,P11-EN-086,P11-VI-080,kept,,
+P11,P11-EN-087,P11-VI-081,kept,,
+P11,P11-EN-088,P11-VI-082,kept,,
+P11,P11-EN-089,P11-VI-083,kept,,
+P11,P11-EN-090,P11-VI-085,kept,,
+P11,P11-EN-091,,omitted,L>zero,TT drops time and time again (het lần này đến lần khác unmarked)
+P11,P11-EN-092,P11-VI-086,kept,,
+P11,P11-EN-093,P11-VI-087,kept,,
+P11,P11-EN-094,P11-VI-088,kept,,your job -> Công việc của bạn
+P11,P11-EN-095,P11-VI-089,kept,,
+P11,P11-EN-096,P11-VI-090,kept,,
+P11,P11-EN-097,P11-VI-091,kept,,
+P11,P11-EN-098,P11-VI-092,kept,,
+P11,P11-EN-099,P11-VI-093,kept,,
+P11,P11-EN-100,,omitted,L>zero,TT drops the GSA mention in S047
+P11,P11-EN-101,P11-VI-094,kept,,
+P11,P11-EN-102,P11-VI-095,kept,,
+P11,P11-EN-103,P11-VI-096,kept,,
+P11,P11-EN-104,P11-VI-097,kept,,you -> bạn
+P11,P11-EN-105,P11-VI-098,kept,,
+P11,P11-EN-106,P11-VI-099,kept,,
+P11,P11-EN-107,P11-VI-100,kept,,
+P11,P11-EN-108,,omitted,L>zero,TT drops the incoming president in S050
+P11,P11-EN-109,P11-VI-101,kept,,
+P11,P11-EN-110,P11-VI-102,kept,,
+P11,P11-EN-111,P11-VI-103,kept,,This -> Điều này
+P11,P11-EN-112,,omitted,L>zero,TT drops domestic and global affairs
+P11,P11-EN-113,P11-VI-104,kept,,
+P11,P11-EN-114,P11-VI-105,kept,,
+P11,P11-EN-115,P11-VI-106,kept,,
+P11,P11-EN-116,P11-VI-107,kept,,
+P11,P11-EN-117,P11-VI-108,kept,,
+P11,P11-EN-118,P11-VI-109,kept,,
+P11,P11-EN-119,P11-VI-110,kept,,
+P11,P11-EN-120,P11-VI-111,kept,,
+P11,P11-EN-121,P11-VI-112,kept,,
+P11,P11-EN-122,P11-VI-113,kept,,
+P11,P11-EN-123,P11-VI-114,kept,,
+P11,P11-EN-124,P11-VI-115,kept,,Earlier this week -> Đầu tuần này
+P11,P11-EN-125,P11-VI-116,kept,,
+P11,P11-EN-126,P11-VI-117,kept,,
+P11,P11-EN-127,P11-VI-118,kept,,
+P11,P11-EN-128,,omitted,L>zero,TT drops the Muller attribution in the final quote
+P11,,P11-VI-002,added,,TT tổng thống head-of-government chain (phép đối with thủ tướng); EN has no tie at S002
+P11,,P11-VI-011,added,,TT năm sau temporal echo (EN unmarked)
+P11,,P11-VI-013,added,,no ST counterpart
+P11,,P11-VI-015,added,,TT họ refers to the incoming teams where EN S010 their jobs was intra-sentential
+P11,,P11-VI-034,added,,no ST counterpart
+P11,,P11-VI-036,added,,TT chuyển chain (S020)
+P11,,P11-VI-070,added,,TT lấp đầy repeats the S005 verb; EN fill at S035 unmarked
+P11,,P11-VI-074,added,,no ST counterpart
+P11,,P11-VI-084,added,,TT chuyển giao chain (S041)
+P12,P12-EN-001,,omitted,R>zero,the two politicians -> TT has no counterpart (VOA dateline sentence reworked)
+P12,,P12-VI-001,added,,"TT reorders: Trump named first (S001), Kennedy second (S002); Trump tie added"
+P13,P13-EN-001,P13-VI-001,kept,,Any visit -> Bất kỳ chuyến thăm nào
+P13,P13-EN-002,P13-VI-002,kept,,a pope -> một vị giáo hoàng
+P13,P13-EN-003,P13-VI-003,kept,,the reclusive state -> Triều Tiên (TT keeps the name)
+P13,P13-EN-004,P13-VI-004,kept,,its -> (TT repeats Triều Tiên)
+P13,P13-EN-005,P13-VI-005,kept,,
+P13,P13-EN-006,P13-VI-006,kept,,the announcement -> thông báo này
+P13,P13-EN-007,P13-VI-007,kept,,
+P13,P13-EN-008,,omitted,L>zero,TT S004 has no prior Fides mention (chain anchor removed)
+P13,P13-EN-009,P13-VI-009,kept,,
+P13,P13-EN-010,P13-VI-010,kept,,
+P13,P13-EN-011,P13-VI-011,kept,,
+P13,P13-EN-012,P13-VI-012,kept,,
+P13,P13-EN-013,P13-VI-013,kept,,a possible papal visit -> Giáo hoàng Francis ... tới Bình Nhưỡng
+P13,P13-EN-014,P13-VI-014,kept,,
+P13,P13-EN-015,P13-VI-015,kept,,
+P13,P13-EN-016,P13-VI-016,kept,,
+P13,P13-EN-017,P13-VI-017,kept,,his attendance -> sự tham dự của ông
+P13,P13-EN-018,P13-VI-018,kept,,
+P13,P13-EN-019,P13-VI-019,kept,,
+P13,P13-EN-020,,omitted,L>zero,EN S009-S013 (2018 background) unrendered in TT
+P13,P13-EN-021,,omitted,L>zero,EN S009 unrendered
+P13,P13-EN-022,,omitted,L>zero,EN S010 unrendered
+P13,P13-EN-023,,omitted,L>zero,EN S011 unrendered
+P13,P13-EN-024,,omitted,L>zero,EN S011 unrendered
+P13,P13-EN-025,,omitted,R>zero,EN S012 unrendered
+P13,P13-EN-026,,omitted,L>zero,EN S012 unrendered
+P13,P13-EN-027,,omitted,R>zero,EN S013 unrendered
+P13,P13-EN-028,,omitted,L>zero,EN S013 unrendered
+P13,P13-EN-029,,omitted,L>zero,EN S013 unrendered
+P13,P13-EN-030,,omitted,R>zero,EN S013 unrendered
+P13,,P13-VI-008,added,,TT Fides first mention at S005 (EN S004 tie has prior S001-S002 links TT lacks)
+P14,P14-EN-001,P14-VI-001,kept,,The U.S. Customs and Border Protection app -> Ứng dụng của Cơ quan Bảo vệ Biên giới và Hải quan Mỹ
+P14,P14-EN-002,P14-VI-002,kept,,The CBP Home app -> Ứng dụng CBP Home
+P14,P14-EN-003,P14-VI-003,kept,,aliens -> người nhập cư (synonym kept in both)
+P14,P14-EN-004,P14-VI-004,kept,,they -> họ
+P14,P14-EN-005,P14-VI-005,kept,,we -> chúng tôi
+P14,P14-EN-006,P14-VI-006,kept,,them -> họ
+P14,P14-EN-007,P14-VI-007,kept,,
+P14,P14-EN-008,P14-VI-008,kept,,
+P14,P14-EN-009,P14-VI-009,kept,,
+P14,P14-EN-010,P14-VI-010,kept,,migrants -> di dân
+P14,P14-EN-011,P14-VI-012,kept,,Trump's -> ông Trump
+P14,P14-EN-012,P14-VI-011,kept,,deportation -> Số liệu trục xuất
+P14,P14-EN-013,P14-VI-013,kept,,
+P14,P14-EN-014,P14-VI-015,kept,,
+P14,P14-EN-015,P14-VI-016,kept,,
+P14,P14-EN-016,,omitted,L>zero,TT drops legal status tie (không có địa vị hợp pháp fresh)
+P14,P14-EN-017,P14-VI-017,kept,,
+P14,P14-EN-018,,omitted,L>zero,TT ứng dụng chain starts S002 (no prior at S009)
+P14,P14-EN-019,P14-VI-018,kept,,
+P14,P14-EN-020,P14-VI-019,kept,,The Biden-era app -> Ứng dụng CBP One
+P14,P14-EN-021,P14-VI-021,kept,,
+P14,P14-EN-022,P14-VI-022,kept,,
+P14,P14-EN-023,P14-VI-023,kept,,
+P14,P14-EN-024,,omitted,L>zero,TT drops the United States item in S011 (Mỹ fresh)
+P14,P14-EN-025,P14-VI-025,kept,,
+P14,P14-EN-026,P14-VI-026,kept,,
+P14,P14-EN-027,P14-VI-027,kept,,
+P14,,P14-VI-014,added,,TT adds additive cũng (S007); EN S007 has no additive
+P14,,P14-VI-020,added,,TT thời Biden chain (S010)
+P14,,P14-VI-024,added,,TT di cư echoes di dân (morphological reiteration)
+P15,P15-EN-001,P15-VI-001,kept,,his university-owned -> ký túc xá của trường
+P15,P15-EN-002,P15-VI-003,kept,,
+P15,P15-EN-003,P15-VI-005,kept,,
+P15,P15-EN-004,P15-VI-007,kept,,the attorney -> luật sư
+P15,P15-EN-005,P15-VI-008,kept,,
+P15,P15-EN-006,P15-VI-009,kept,,
+P15,P15-EN-007,P15-VI-010,kept,,Khalil's arrest -> Vụ bắt giữ này
+P15,P15-EN-008,,omitted,L>zero,TT states the arrest once (merged with EN-007)
+P15,P15-EN-009,P15-VI-011,kept,,
+P15,P15-EN-010,P15-VI-012,kept,,
+P15,P15-EN-011,P15-VI-013,kept,,
+P15,P15-EN-012,P15-VI-014,kept,,the country -> đất nước này
+P15,P15-EN-013,,omitted,L>zero,EN S008 (McLaughlin) unrendered in TT
+P15,P15-EN-014,,omitted,L>zero,EN S008 unrendered
+P15,P15-EN-015,,omitted,R>zero,EN S008 unrendered
+P15,P15-EN-016,,omitted,L>zero,EN S008 unrendered
+P15,P15-EN-017,P15-VI-004,kept,,ICE agents -> nhân viên của ICE
+P15,P15-EN-018,P15-VI-020,kept,,Khalil's -> Khalil (TT repeats the name)
+P15,P15-EN-019,P15-VI-018,kept,,Khalil's attorney -> Luật sư Greer
+P15,P15-EN-020,P15-VI-024,kept,,he -> anh ấy
+P15,P15-EN-021,P15-VI-019,kept,,his wife -> vợ của Khalil (TT front-loads the wife)
+P15,P15-EN-022,,omitted,R>zero,TT merges the detention discovery
+P15,P15-EN-023,P15-VI-025,kept,,
+P15,P15-EN-024,,omitted,R>zero,Khalil's whereabouts -> TT drops the whereabouts detail
+P15,P15-EN-025,P15-VI-023,kept,,We -> Chúng tôi
+P15,P15-EN-026,P15-VI-024,kept,,merged in TT marking (anh ấy)
+P15,P15-EN-027,,omitted,L>zero,merged in TT marking (luật sư Greer tie)
+P15,P15-EN-028,P15-VI-027,kept,,The administration -> Chính quyền
+P15,P15-EN-029,P15-VI-028,kept,,
+P15,P15-EN-030,P15-VI-029,kept,,
+P15,P15-EN-031,P15-VI-030,kept,,
+P15,P15-EN-032,P15-VI-031,kept,,Khalil's detention -> việc giam giữ Khalil
+P15,P15-EN-033,P15-VI-038,kept,,the administration -> chính quyền Trump
+P15,P15-EN-034,P15-VI-034,kept,,
+P15,P15-EN-035,P15-VI-035,kept,,green card holders -> thẻ xanh
+P15,P15-EN-036,,omitted,C>zero,TT drops the adversative (Mackler passage reformulated)
+P15,P15-EN-037,,omitted,L>zero,TT drops the detention tie
+P15,P15-EN-038,,omitted,L>zero,TT drops the legal permanent resident tie
+P15,P15-EN-039,P15-VI-037,kept,,This -> hành động trả đũa (TT marks the NP)
+P15,P15-EN-040,P15-VI-038,kept,,the Trump -> chính quyền Trump
+P15,P15-EN-041,P15-VI-039,kept,,
+P15,P15-EN-042,P15-VI-040,kept,,
+P15,P15-EN-043,,omitted,L>zero,TT drops The role tie
+P15,P15-EN-044,P15-VI-015,kept,,him -> Khalil (name repeated)
+P15,P15-EN-045,,omitted,L>zero,TT drops the movement tie
+P15,P15-EN-046,P15-VI-039,kept,,
+P15,P15-EN-047,P15-VI-040,kept,,
+P15,P15-EN-048,P15-VI-042,kept,,The investigations -> Những cuộc điều tra đó
+P15,P15-EN-049,P15-VI-043,kept,,
+P15,P15-EN-050,,omitted,R>zero,The university's -> TT drops the possessive
+P15,P15-EN-051,P15-VI-045,kept,,
+P15,P15-EN-052,,omitted,L>zero,TT drops the coalition-name repetition
+P15,P15-EN-053,,omitted,R>zero,EN S027 (He faced sanctions) unrendered
+P15,P15-EN-054,P15-VI-046,kept,,They -> Họ
+P15,P15-EN-055,,omitted,R>zero,It's -> TT drops the pronoun (công việc subject)
+P15,,P15-VI-002,added,,TT names Mahmoud Khalil where EN S002 uses pronoun his (name specification)
+P15,,P15-VI-006,added,,TT bà Greer pronoun chain
+P15,,P15-VI-016,added,,TT sinh viên echoes S001 sinh viên sau đại học
+P15,,P15-VI-017,added,,TT các giới chức trường đại học echoes S002 trường (EN unmarked)
+P15,,P15-VI-021,added,,TT adds temporal Kể từ đó with no EN counterpart
+P15,,P15-VI-022,added,,TT giam giữ người nhập cư echoes S001 di trú (EN unmarked)
+P15,,P15-VI-026,added,,TT sự leo thang renders EN S014 escalation (EN unmarked there)
+P15,,P15-VI-032,added,,TT bình luận chain (S015)
+P15,,P15-VI-033,added,,TT Bộ An ninh Nội địa first overt mention (EN S005 tie omitted)
+P15,,P15-VI-036,added,,TT liên minh (Mackler passage) has no EN counterpart sentence
+P15,,P15-VI-041,added,,TT cáo buộc chain (S020)
+P15,,P15-VI-044,added,,TT Đại học Columbia chain (S021)
+P15,,P15-VI-047,added,,TT công việc renders EN S031 office-work sense (EN It tie omitted)
+P16,P16-EN-001,P16-VI-001,kept,,the ruble -> đồng rúp
+P16,P16-EN-002,P16-VI-002,kept,,the U.S. dollar -> đồng đôla (currency association in both)
+P16,P16-EN-003,P16-VI-003,kept,,
+P16,P16-EN-004,P16-VI-004,kept,,That cutback -> Sự cắt giảm đó
+P16,P16-EN-005,P16-VI-005,kept,,Pattaya chain (TT first overt mention S003)
+P16,P16-EN-006,P16-VI-006,kept,,
+P16,P16-EN-007,P16-VI-007,kept,,Thai -> Thái
+P16,P16-EN-008,P16-VI-008,kept,,
+P16,P16-EN-009,P16-VI-009,kept,,association chain in both
+P16,P16-EN-010,P16-VI-010,kept,,"VOA chain (both weak, dateline-excluded)"
+P16,P16-EN-011,P16-VI-011,kept,,it's -> đó
+P16,P16-EN-012,P16-VI-012,kept,,
+P16,P16-EN-013,P16-VI-013,kept,,
+P16,P16-EN-014,P16-VI-014,kept,,verbatim in both
+P16,P16-EN-015,,omitted,L>zero,TT drops the Suladda attribution in S008 (name at S005)
+P16,P16-EN-016,P16-VI-017,kept,,
+P16,P16-EN-017,P16-VI-018,kept,,
+P16,P16-EN-018,P16-VI-019,kept,,But -> Nhưng
+P16,P16-EN-019,P16-VI-020,kept,,
+P16,P16-EN-020,P16-VI-021,kept,,
+P16,P16-EN-021,P16-VI-023,kept,,
+P16,P16-EN-022,P16-VI-024,kept,,
+P16,P16-EN-023,P16-VI-026,kept,,
+P16,P16-EN-024,P16-VI-027,kept,,But -> Nhưng
+P16,P16-EN-025,P16-VI-028,kept,,they -> họ
+P16,P16-EN-026,P16-VI-029,kept,,
+P16,P16-EN-027,P16-VI-030,kept,,
+P16,P16-EN-028,P16-VI-031,kept,,
+P16,P16-EN-029,P16-VI-033,kept,,
+P16,P16-EN-030,,omitted,L>zero,TT drops the marketing tie (tiếp thị fresh)
+P16,P16-EN-031,P16-VI-034,kept,,
+P16,P16-EN-032,P16-VI-035,kept,,
+P16,P16-EN-033,P16-VI-036,kept,,
+P16,P16-EN-034,P16-VI-037,kept,,
+P16,P16-EN-035,P16-VI-038,kept,,
+P16,P16-EN-036,P16-VI-039,kept,,the unfavorable situation -> tình hình
+P16,,P16-VI-015,added,,TT adds chúng tôi (Suladda quote) where EN S008 attribution was dropped
+P16,,P16-VI-016,added,,TT repeats Pattaya in the quote (EN unmarked)
+P16,,P16-VI-022,added,,TT hiệp hội này demonstrative NP (EN S011 the association unmarked)
+P16,,P16-VI-025,added,,TT tình trạng này summarising the situation (EN S012 quote unmarked)
+P16,,P16-VI-032,added,,TT repeats Thái Lan (EN S015 Thai chain continues)
+P17,P17-EN-001,P17-VI-001,kept,,
+P17,P17-EN-002,P17-VI-002,kept,,
+P17,P17-EN-003,P17-VI-003,kept,,supply -> thị trường (supply-demand chain)
+P17,P17-EN-004,P17-VI-004,kept,,
+P17,P17-EN-005,P17-VI-005,kept,,
+P17,P17-EN-006,P17-VI-006,kept,,
+P17,P17-EN-007,P17-VI-007,kept,,
+P17,P17-EN-008,P17-VI-008,kept,,
+P17,P17-EN-009,P17-VI-009,kept,,
+P17,P17-EN-010,P17-VI-011,kept,,They -> Họ
+P17,P17-EN-011,P17-VI-012,kept,,
+P17,P17-EN-012,,omitted,R>zero,he -> TT S006 drops the pronoun (Ông Yium repeated)
+P17,P17-EN-013,P17-VI-013,kept,,
+P17,P17-EN-014,P17-VI-014,kept,,
+P17,P17-EN-015,P17-VI-015,kept,,
+P17,P17-EN-016,P17-VI-016,kept,,
+P17,P17-EN-017,P17-VI-017,kept,,
+P17,P17-EN-018,P17-VI-018,kept,,
+P17,P17-EN-019,P17-VI-019,kept,,
+P17,P17-EN-020,P17-VI-020,kept,,
+P17,P17-EN-021,,omitted,L>zero,Tokyo -> TT S011 Tokyo is first mention (no prior link)
+P17,P17-EN-022,P17-VI-021,kept,,he -> Nhân vật này (general word)
+P17,P17-EN-023,P17-VI-022,kept,,
+P17,P17-EN-024,P17-VI-023,kept,,
+P17,P17-EN-025,P17-VI-025,kept,,
+P17,P17-EN-026,P17-VI-026,kept,,
+P17,P17-EN-027,P17-VI-027,kept,,
+P17,P17-EN-028,P17-VI-028,kept,,
+P17,P17-EN-029,P17-VI-029,kept,,
+P17,P17-EN-030,P17-VI-030,kept,,
+P17,P17-EN-031,P17-VI-031,kept,,
+P17,P17-EN-032,P17-VI-032,kept,,
+P17,P17-EN-033,,omitted,L>zero,rubber producers unmarked in TT S015
+P17,P17-EN-034,P17-VI-033,kept,,he -> Ông Yium (name repeated)
+P17,P17-EN-035,,omitted,L>zero,said -> nói unmarked
+P17,P17-EN-036,P17-VI-034,kept,,
+P17,P17-EN-037,P17-VI-035,kept,,
+P17,P17-EN-038,P17-VI-036,kept,,
+P17,P17-EN-039,P17-VI-037,kept,,
+P17,P17-EN-040,P17-VI-038,kept,,
+P17,P17-EN-041,P17-VI-039,kept,,
+P17,P17-EN-042,P17-VI-040,kept,,
+P17,P17-EN-043,,omitted,L>zero,TT drops the rubber item in S019 (giá cao su unmarked)
+P17,P17-EN-044,P17-VI-041,kept,,
+P17,P17-EN-045,P17-VI-042,kept,,
+P17,P17-EN-046,P17-VI-043,kept,,
+P17,P17-EN-047,P17-VI-044,kept,,
+P17,P17-EN-048,P17-VI-045,kept,,
+P17,P17-EN-049,P17-VI-046,kept,,
+P17,,P17-VI-010,added,,no ST counterpart
+P17,,P17-VI-024,added,,no ST counterpart
+P18,P18-EN-001,P18-VI-004,kept,,UNICEF abbreviation kept
+P18,P18-EN-002,P18-VI-004,kept,,Myanmar -> Myanmar (merged in TT marking)
+P18,P18-EN-003,P18-VI-005,kept,,the U.N. organization -> Quỹ Nhi đồng Liên hiệp quốc
+P18,P18-EN-004,P18-VI-005,kept,,
+P18,P18-EN-005,P18-VI-006,kept,,
+P18,P18-EN-006,P18-VI-007,kept,,
+P18,P18-EN-007,P18-VI-008,kept,,
+P18,P18-EN-008,P18-VI-011,kept,,
+P18,P18-EN-009,P18-VI-012,kept,,
+P18,P18-EN-010,P18-VI-013,kept,,
+P18,P18-EN-011,P18-VI-011,kept,,
+P18,P18-EN-012,P18-VI-014,kept,,
+P18,P18-EN-013,P18-VI-015,kept,,
+P18,P18-EN-014,P18-VI-016,kept,,
+P18,P18-EN-015,P18-VI-017,kept,,
+P18,P18-EN-016,P18-VI-018,kept,,
+P18,P18-EN-017,P18-VI-019,kept,,
+P18,P18-EN-018,P18-VI-009,kept,,Philippines -> TT S009 (source-duplicated sentence)
+P18,P18-EN-019,P18-VI-021,kept,,
+P18,P18-EN-020,P18-VI-022,kept,,
+P18,P18-EN-021,P18-VI-023,kept,,
+P18,P18-EN-022,P18-VI-024,kept,,
+P18,,P18-VI-001,added,,TT S002 tổ chức này general word (EN S002 tie covered by abbreviation)
+P18,,P18-VI-002,added,,TT Myanmar chain
+P18,,P18-VI-003,added,,TT S003 is a VOA credit line with no EN counterpart
+P18,,P18-VI-010,added,,TT source-duplicated Philippines sentence (S010 = S009)
+P18,,P18-VI-020,added,,TT source-duplicated Philippines sentence (S020 = S009)
+P18,,P18-VI-025,added,,no ST counterpart
+P18,,P18-VI-026,added,,no ST counterpart
+P18,,P18-VI-027,added,,no ST counterpart
+P18,,P18-VI-028,added,,no ST counterpart
+P18,,P18-VI-029,added,,no ST counterpart
+P18,,P18-VI-030,added,,no ST counterpart
+P18,,P18-VI-031,added,,no ST counterpart
+P18,,P18-VI-032,added,,no ST counterpart
+P18,,P18-VI-033,added,,no ST counterpart
+P18,,P18-VI-034,added,,no ST counterpart
+P18,,P18-VI-035,added,,no ST counterpart
+P18,,P18-VI-036,added,,no ST counterpart
+P18,,P18-VI-037,added,,no ST counterpart
+P18,,P18-VI-038,added,,no ST counterpart
+P18,,P18-VI-039,added,,no ST counterpart
+P18,,P18-VI-040,added,,no ST counterpart
+P18,,P18-VI-041,added,,no ST counterpart
+P18,,P18-VI-042,added,,no ST counterpart
+P18,,P18-VI-043,added,,no ST counterpart
+P18,,P18-VI-044,added,,no ST counterpart
+P19,P19-EN-001,P19-VI-001,kept,,
+P19,P19-EN-002,P19-VI-002,kept,,
+P19,P19-EN-003,P19-VI-004,kept,,
+P19,P19-EN-004,P19-VI-005,kept,,
+P19,P19-EN-005,P19-VI-006,kept,,
+P19,P19-EN-006,P19-VI-007,kept,,
+P19,P19-EN-007,P19-VI-008,kept,,
+P19,P19-EN-008,P19-VI-009,kept,,
+P19,P19-EN-009,P19-VI-010,kept,,
+P19,P19-EN-010,P19-VI-011,kept,,
+P19,P19-EN-011,P19-VI-012,kept,,
+P19,P19-EN-012,P19-VI-013,kept,,
+P19,P19-EN-013,P19-VI-014,kept,,
+P19,P19-EN-014,P19-VI-015,kept,,
+P19,P19-EN-015,P19-VI-016,kept,,
+P19,P19-EN-016,P19-VI-017,kept,,
+P19,P19-EN-017,P19-VI-018,kept,,
+P19,P19-EN-018,P19-VI-019,kept,,
+P19,P19-EN-019,P19-VI-020,kept,,
+P19,P19-EN-020,P19-VI-021,kept,,
+P19,P19-EN-021,P19-VI-022,kept,,
+P19,,P19-VI-003,added,,TT S003 restates the lede (Hành khách của các chuyến bay...); EN has no counterpart
+P19,,P19-VI-023,added,,no ST counterpart
+P19,,P19-VI-024,added,,no ST counterpart
+P19,,P19-VI-025,added,,no ST counterpart
+P19,,P19-VI-026,added,,no ST counterpart
+P19,,P19-VI-027,added,,no ST counterpart
+P19,,P19-VI-028,added,,no ST counterpart
+P19,,P19-VI-029,added,,no ST counterpart
+P19,,P19-VI-030,added,,no ST counterpart
+P19,,P19-VI-031,added,,no ST counterpart
+P19,,P19-VI-032,added,,no ST counterpart
+P19,,P19-VI-033,added,,no ST counterpart
+P19,,P19-VI-034,added,,no ST counterpart
+P19,,P19-VI-035,added,,no ST counterpart
+P19,,P19-VI-036,added,,no ST counterpart
+P19,,P19-VI-037,added,,no ST counterpart
+P19,,P19-VI-038,added,,no ST counterpart
+P19,,P19-VI-039,added,,no ST counterpart
+P19,,P19-VI-040,added,,no ST counterpart
+P19,,P19-VI-041,added,,no ST counterpart
+P19,,P19-VI-042,added,,no ST counterpart
+P19,,P19-VI-043,added,,no ST counterpart
+P19,,P19-VI-044,added,,no ST counterpart
+P19,,P19-VI-045,added,,no ST counterpart
+P19,,P19-VI-046,added,,no ST counterpart
+P19,,P19-VI-047,added,,no ST counterpart
+P19,,P19-VI-048,added,,no ST counterpart
+P20,P20-EN-001,P20-VI-004,kept,,South Korea -> Nam Triều Tiên
+P20,P20-EN-002,P20-VI-005,kept,,
+P20,P20-EN-003,P20-VI-006,kept,,
+P20,P20-EN-004,P20-VI-007,kept,,
+P20,P20-EN-005,,omitted,L>zero,EN S005 (red card meaning) unrendered; TT S007 covers it
+P20,P20-EN-006,P20-VI-008,kept,,
+P20,P20-EN-007,P20-VI-009,kept,,
+P20,P20-EN-008,P20-VI-010,kept,,
+P20,P20-EN-009,P20-VI-011,kept,,
+P20,P20-EN-010,P20-VI-012,kept,,
+P20,P20-EN-011,P20-VI-013,kept,,
+P20,P20-EN-012,P20-VI-014,kept,,
+P20,P20-EN-013,P20-VI-015,kept,,
+P20,P20-EN-014,P20-VI-016,kept,,
+P20,P20-EN-015,,omitted,L>zero,EN S015 (repercussions) unrendered in TT
+P20,P20-EN-016,,omitted,L>zero,EN S016-S020 (brand Korea quotes) unrendered in TT
+P20,P20-EN-017,,omitted,R>zero,EN S017 unrendered
+P20,P20-EN-018,,omitted,R>zero,EN S018 unrendered
+P20,P20-EN-019,,omitted,R>zero,EN S019 unrendered
+P20,P20-EN-020,,omitted,R>zero,EN S020 unrendered
+P20,P20-EN-021,P20-VI-017,kept,,
+P20,P20-EN-022,P20-VI-018,kept,,
+P20,P20-EN-023,P20-VI-019,kept,,
+P20,P20-EN-024,P20-VI-020,kept,,
+P20,P20-EN-025,P20-VI-022,kept,,
+P20,P20-EN-026,P20-VI-023,kept,,
+P20,P20-EN-027,P20-VI-024,kept,,
+P20,P20-EN-028,P20-VI-025,kept,,
+P20,P20-EN-029,P20-VI-026,kept,,
+P20,P20-EN-030,P20-VI-027,kept,,
+P20,P20-EN-031,P20-VI-028,kept,,
+P20,P20-EN-032,P20-VI-029,kept,,
+P20,P20-EN-033,P20-VI-030,kept,,
+P20,P20-EN-034,P20-VI-031,kept,,
+P20,P20-EN-035,P20-VI-032,kept,,
+P20,P20-EN-036,P20-VI-033,kept,,
+P20,P20-EN-037,P20-VI-034,kept,,
+P20,P20-EN-038,,omitted,L>zero,EN S038-S043 (Long supply-chain quotes) unrendered in TT
+P20,P20-EN-039,,omitted,L>zero,EN S038-S043 unrendered
+P20,P20-EN-040,P20-VI-021,kept,,"The U.S., EU, Japan -> Hoa Kỳ và những thị trường nhập khẩu (TT S021)"
+P20,P20-EN-041,,omitted,L>zero,EN S041 unrendered
+P20,P20-EN-042,,omitted,L>zero,EN S042 unrendered
+P20,P20-EN-043,,omitted,R>zero,EN S043 unrendered
+P20,P20-EN-044,P20-VI-035,kept,,
+P20,P20-EN-045,P20-VI-036,kept,,
+P20,P20-EN-046,P20-VI-037,kept,,
+P20,P20-EN-047,P20-VI-038,kept,,
+P20,P20-EN-048,,omitted,L>zero,EN S048-S052 (Ganapathiraju quotes) unrendered in TT
+P20,P20-EN-049,,omitted,L>zero,EN S049 unrendered
+P20,P20-EN-050,,omitted,L>zero,EN S050 unrendered
+P20,P20-EN-051,,omitted,L>zero,EN S051 unrendered
+P20,P20-EN-052,,omitted,R>zero,EN S052 unrendered
+P20,P20-EN-053,P20-VI-039,kept,,
+P20,P20-EN-054,P20-VI-040,kept,,
+P20,P20-EN-055,,omitted,L>zero,EN S055-S056 (Conniff warnings) unrendered in TT
+P20,P20-EN-056,,omitted,L>zero,EN S056 unrendered
+P20,P20-EN-057,P20-VI-041,kept,,
+P20,P20-EN-058,P20-VI-042,kept,,
+P20,P20-EN-059,P20-VI-043,kept,,
+P20,P20-EN-060,P20-VI-044,kept,,
+P20,,P20-VI-001,added,,"TT S001-S003 are a condensed lede (crackdown, US study) with no direct EN counterpart at that position"
+P20,,P20-VI-002,added,,TT Điều này demonstrative (lede)
+P20,,P20-VI-003,added,,TT Vấn đề này demonstrative (lede)
+P20,,P20-VI-045,added,,no ST counterpart
+P20,,P20-VI-046,added,,no ST counterpart
+P20,,P20-VI-047,added,,no ST counterpart
+P20,,P20-VI-048,added,,no ST counterpart
+P20,,P20-VI-049,added,,no ST counterpart
+P20,,P20-VI-050,added,,no ST counterpart
+P20,,P20-VI-051,added,,no ST counterpart
+P20,,P20-VI-052,added,,no ST counterpart
+P20,,P20-VI-053,added,,no ST counterpart
+P20,,P20-VI-054,added,,no ST counterpart
+P20,,P20-VI-055,added,,no ST counterpart
+P20,,P20-VI-056,added,,no ST counterpart
+P20,,P20-VI-057,added,,no ST counterpart
+P20,,P20-VI-058,added,,no ST counterpart
+P20,,P20-VI-059,added,,no ST counterpart
+P20,,P20-VI-060,added,,no ST counterpart
+P20,,P20-VI-061,added,,no ST counterpart
+P20,,P20-VI-062,added,,no ST counterpart
+P20,,P20-VI-063,added,,no ST counterpart
+P20,,P20-VI-064,added,,no ST counterpart
+P20,,P20-VI-065,added,,no ST counterpart
+P20,,P20-VI-066,added,,no ST counterpart
+P20,,P20-VI-067,added,,no ST counterpart
+P20,,P20-VI-068,added,,no ST counterpart
+P20,,P20-VI-069,added,,no ST counterpart
+P20,,P20-VI-070,added,,no ST counterpart
+P20,,P20-VI-071,added,,no ST counterpart
+P20,,P20-VI-072,added,,no ST counterpart
+P20,,P20-VI-073,added,,no ST counterpart
+P20,,P20-VI-074,added,,no ST counterpart
+P20,,P20-VI-075,added,,no ST counterpart
+P20,,P20-VI-076,added,,no ST counterpart
+P20,,P20-VI-077,added,,no ST counterpart
+P20,,P20-VI-078,added,,no ST counterpart
+P20,,P20-VI-079,added,,no ST counterpart
+P20,,P20-VI-080,added,,no ST counterpart
+P20,,P20-VI-081,added,,no ST counterpart
+P20,,P20-VI-082,added,,no ST counterpart
+P20,,P20-VI-083,added,,no ST counterpart
