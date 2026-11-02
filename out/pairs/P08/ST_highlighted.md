@@ -1,0 +1,37 @@
+# P08 — Source text (ST, English)
+
+**Title:** Revealed: Australian suburbs with the biggest home price falls
+
+**Framework:** Halliday & Hasan (1976)
+
+**Legend:** 🟨 Reference (`R`) | 🟩 Substitution (`S`) | 🟦 Ellipsis (`E`) | 🟧 Conjunction (`C`) | 🟪 Lexical cohesion (`L`) — ellipsis gap: 🟦⟦∅⟧
+
+---
+
+This year will be an "interesting" one for Australia's property market, according to an economist. Could the scales be tipped in favour of buyers?
+🟪⟦Australia's housing market⟧ is said to be at a crossroads, as affordability pressures and shifting demand reshape 🟪⟦property values⟧ nationwide.
+In addition to revealing where 🟪⟦home prices⟧ have fallen the most, this week's Domain's house price report for the December quarter showed an increase in housing stock in 2024 led to a December with the highest number of homes for sale across the combined capitals in three years.
+According to Nicola Powell, 🟪⟦Domain⟧'s chief of research and economics, 🟪⟦the data⟧ shows a shift in 🟪⟦buyer⟧ behaviour rather than a fall in 🟪⟦demand⟧.
+"What 🟨⟦we⟧ have seen is a pullback in 🟪⟦buyer demand⟧. 🟨⟦That⟧ doesn't mean 🟪⟦demand⟧ goes away — it means people delay their decisions," 🟪⟦Powell said⟧.
+"🟪⟦This delay⟧ is primarily driven by 🟪⟦affordability pressures⟧, as rising 🟪⟦prices⟧ make it increasingly difficult for many 🟪⟦buyers⟧ to keep up."
+🟧⟦But⟧ 🟪⟦house prices⟧ dropped by 0.1 per cent over 🟪⟦the quarter⟧ to a median of $1,645,444, marking the second consecutive decline and making it the only capital city to record a decline in house prices.   🟪⟦Sydney⟧ remains 🟪⟦Australia's⟧ most expensive 🟪⟦housing market⟧.
+🟨⟦It's⟧ the first time in two years that 🟪⟦Sydney⟧ has experienced back-to-back 🟪⟦quarterly decline⟧. 🟪⟦Data⟧ from 🟪⟦Domain's recent report⟧ shows that units in 🟨⟦the city's⟧ inner northern suburb of Crows Nest have become more accessible, with 🟪⟦median⟧ prices decreasing by 22.1 per cent to $818,000.
+Some Queensland suburbs have also experienced significant 🟪⟦property price⟧ changes.
+Biggera Waters, a popular suburb on the Gold Coast has become more affordable, with 🟪⟦houses prices⟧ at $660,000, following a 22.4 per cent year-on-year decrease.
+🟧⟦Similarly⟧, nearby Clear Island Waters has seen 🟪⟦house prices⟧ fall by 21.1 per cent to $1,400,000.
+Melbourne 🟪⟦unit prices⟧ had their strongest quarterly increase in 1.5 years — up 2.1 per cent over 🟪⟦the December quarter⟧, while house prices increase 1.6 per cent over the same period.
+🟪⟦Powell⟧ said first-home buyer activity was likely behind the 🟪⟦unit price⟧ growth.
+"🟪⟦Melbourne⟧ has been the surprise. 🟨⟦It's⟧ underperformed as 🟪⟦a market⟧ since 2020, but in the final quarter of 2024, 🟨⟦we⟧ saw growth," 🟪⟦Powell said⟧.
+"🟨⟦This⟧ reflects value building up over time and activating 🟪⟦buyers⟧, particularly 🟪⟦first-home buyers⟧.
+"You tend to see 🟪⟦Sydney and Melbourne⟧ 🟪⟦price cycles⟧ follow one another closely. There is a strong relationship between 🟨⟦those two movements in price⟧ but 🟨⟦this⟧ hasn't been the case really since 2020 and we've seen 🟪⟦Melbourne⟧ really struggle to move into an established recovery."
+In terms of 🟪⟦housing affordability⟧, Chadstone has seen the most dramatic improvement with 🟪⟦unit prices⟧ dropping by 33.3 per cent year-on-year to $505,000.
+Sunshine 🟧⟦also⟧ experienced 🟪⟦a fall⟧ resulting in a median 🟪⟦unit price⟧ of $450,000 after an 18.9 per cent decline 🟪⟦over the same period⟧.
+🟧⟦Meanwhile⟧, 🟪⟦house prices⟧ in the Victorian seaside town of Barwon Heads dropped 20.5 per cent. 🟪⟦Regional and smaller markets⟧ have not been immune to 🟨⟦these changes⟧ either.
+In the north-western Victorian town of Warracknabeal 🟪⟦the median house price⟧ is now $198,000 after a 19.6 per cent decline.
+Hobart recorded the sharpest decline in 🟪⟦unit prices⟧ among all 🟪⟦capital cities⟧, falling 1.5 per cent to $528,220. 🟧⟦In contrast⟧, 🟪⟦house prices⟧ there surged 4.6 per cent over 🟪⟦the quarter⟧.
+🟪⟦Canberra's housing market⟧ was stagnant over 🟪⟦the same period⟧, with no change in 🟪⟦house or unit prices⟧ at a capital level. 🟧⟦But⟧ the ACT suburb of Denman Prospect recorded a 22.2 per cent drop in 🟪⟦house prices⟧, bringing 🟪⟦the median⟧ to $1,015,000.
+Will 🟨⟦it⟧ be a buyer's market in 2025? While 🟪⟦the market⟧ overall has seen annual growth slow to its lowest level since September 2023, 🟪⟦affordability⟧ and the prospect of interest rate adjustments may tip the scales in favour of buyers this year.
+🟪⟦Increased supply⟧, particularly in major cities, is offering more opportunities to negotiate on 🟪⟦price⟧.
+🟧⟦But⟧ will 🟪⟦this trend⟧ hold? According to 🟪⟦Powell⟧, it depends.
+"2025 is going to be an 🟪⟦interesting⟧ year," 🟨⟦she⟧ said.
+"🟪⟦Weak conditions⟧ have gathered pace over 2024, and that is going to flow into the early parts of 🟪⟦2025⟧. But what could be 🟪⟦the change⟧ is when 🟨⟦we⟧ start to see a rate-lifting cycle from the RBA (Reserve Bank of Australia)."

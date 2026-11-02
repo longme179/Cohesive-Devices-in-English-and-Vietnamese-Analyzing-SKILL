@@ -30,11 +30,67 @@
    "text": "State-by-state: These are the suburbs where home prices have had the biggest falls"
   },
   {
+   "lang": "EN",
+   "idx": 7,
+   "action": "strip_mid",
+   "reason": "merged photo caption",
+   "text": "Sydney slows down"
+  },
+  {
+   "lang": "EN",
+   "idx": 9,
+   "action": "strip_mid",
+   "reason": "merged photo caption",
+   "text": "Gold Coast prices take a dip"
+  },
+  {
+   "lang": "EN",
+   "idx": 12,
+   "action": "strip_mid",
+   "reason": "merged photo caption",
+   "text": "First-home buyers in Melbourne"
+  },
+  {
+   "lang": "EN",
+   "idx": 21,
+   "action": "strip_mid",
+   "reason": "merged photo caption",
+   "text": "Hobart and Canberra: Mixed results"
+  },
+  {
    "lang": "VI",
    "idx": 0,
    "action": "exclude",
    "reason": "title row",
    "text": "Những khu vực có giá nhà giảm mạnh nhất tại Úc trong năm 2024"
+  },
+  {
+   "lang": "VI",
+   "idx": 7,
+   "action": "strip_mid",
+   "reason": "merged photo caption",
+   "text": "Giá nhà Sydney giảm"
+  },
+  {
+   "lang": "VI",
+   "idx": 9,
+   "action": "strip_mid",
+   "reason": "merged photo caption",
+   "text": "Giá nhà Gold Coast hạ nhiệt"
+  },
+  {
+   "lang": "VI",
+   "idx": 12,
+   "action": "strip_mid",
+   "reason": "merged photo caption",
+   "text": "Người mua nhà lần đầu ở Melbourne"
+  },
+  {
+   "lang": "VI",
+   "idx": 20,
+   "action": "strip_mid",
+   "reason": "merged photo caption",
+   "text": "Hobart và Canberra: Kết quả trái chiều"
   }
  ]
 }

@@ -6,12 +6,12 @@
   "Theo bà Nicola Powell, trưởng bộ phận nghiên cứu và kinh tế của Domain, dữ liệu phản ảnh sự thay đổi trong hành vi của người mua nhà.",
   "“Những gì chúng tôi thấy là nhu cầu của người mua giảm. Điều đó không có nghĩa là nhu cầu biến mất – họ chỉ đang trì hoãn việc ra quyết định,” bà nói.",
   "“Sự trì hoãn này chủ yếu là do áp lực giá nhà, khi giá cả tăng cao khiến nhiều người mua gặp khó khăn trong việc chi trả.”",
-  "Giá nhà Sydney giảm Sydney vẫn là thị trường nhà ở đắt đỏ nhất nước Úc, nhưng giá nhà tại đây đã giảm 0,1% trong quý, với mức trung bình hiện tại là $1.645.444.",
+  "Sydney vẫn là thị trường nhà ở đắt đỏ nhất nước Úc, nhưng giá nhà tại đây đã giảm 0,1% trong quý, với mức trung bình hiện tại là $1.645.444.",
   "Lần đầu tiên trong hai năm qua, Sydney chứng kiến sự sụt giảm giá nhà liên tiếp trong hai quý. Dữ liệu từ Domain cho thấy giá căn hộ ở Crows Nest phía bắc Sydney đã giảm 22,1% xuống còn $818.000.",
-  "Giá nhà Gold Coast hạ nhiệt Một số khu vực ở Queensland cũng ghi nhận sự thay đổi lớn về giá bất động sản.",
+  "Một số khu vực ở Queensland cũng ghi nhận sự thay đổi lớn về giá bất động sản.",
   "Tại Biggera Waters, giá nhà giảm 22,4% so với năm trước, còn $660.000.",
   "Tương tự, giá nhà ở Clear Island Waters giảm 21,1% xuống còn $1.400.000.",
-  "Người mua nhà lần đầu ở Melbourne Giá căn hộ ở Melbourne tăng mạnh nhất trong 1,5 năm qua, với mức tăng 2,1% trong quý 4. Giá nhà cũng tăng 1,6% trong cùng giai đoạn.",
+  "Giá căn hộ ở Melbourne tăng mạnh nhất trong 1,5 năm qua, với mức tăng 2,1% trong quý 4. Giá nhà cũng tăng 1,6% trong cùng giai đoạn.",
   "Bà Powell cho rằng sự gia tăng này là nhờ vào hoạt động tích cực của những người mua nhà lần đầu.",
   "“Melbourne thật sự gây bất ngờ. Thị trường ở đây hoạt động kém từ năm 2020, nhưng trong quý cuối năm 2024, chúng tôi lại ghi nhận sự tăng trưởng,” bà Powell nhận xét.",
   "“Sự tăng trưởng này phản ảnh giá trị tích lũy theo thời gian, thu hút người mua, đặc biệt là những người mua nhà lần đầu.”",
@@ -19,7 +19,7 @@
   "Sunshine cũng trải qua một đợt giảm giá căn hộ 18,9% xuống còn $450.000 trong cùng giai đoạn.",
   "Trong khi đó, giá nhà tại thị trấn ven biển Barwon Heads giảm 20,5%. Các thị trường nhỏ hơn cũng không tránh khỏi những thay đổi này.",
   "Tại thị trấn Warracknabeal ở phía tây bắc Victoria, giá nhà trung bình hiện là $198.000 sau khi giảm 19,6%.",
-  "Hobart và Canberra: Kết quả trái chiều Hobart ghi nhận mức giảm giá căn hộ mạnh nhất trong các thủ phủ, giảm 1,5% còn $528.220. Tuy nhiên, giá nhà ở đây lại tăng 4,6% trong quý 4.",
+  "Hobart ghi nhận mức giảm giá căn hộ mạnh nhất trong các thủ phủ, giảm 1,5% còn $528.220. Tuy nhiên, giá nhà ở đây lại tăng 4,6% trong quý 4.",
   "Trong khi đó, thị trường Canberra giữ nguyên giá nhà và căn hộ trong cùng giai đoạn. Tuy nhiên, tại khu vực Denman Prospect, giá nhà giảm 22,2% xuống còn $1.015.000.",
   "Liệu năm 2025 có phải là thị trường của người mua nhà? Mặc dù thị trường địa ốc đã chứng kiến mức tăng trưởng hàng năm chậm lại ở mức thấp nhất kể từ tháng 9/2023, khả năng chi trả và triển vọng điều chỉnh lãi suất có thể tạo điều kiện thuận lợi cho người mua nhà trong năm nay.",
   "Nguồn cung gia tăng, đặc biệt là ở các thành phố lớn, đang mang lại nhiều cơ hội để thương lượng về giá.",
@@ -86,205 +86,205 @@
   },
   {
    "para": 6,
-   "text": "Giá nhà Sydney giảm Sydney vẫn là thị trường nhà ở đắt đỏ nhất nước Úc, nhưng giá nhà tại đây đã giảm 0,1% trong quý, với mức trung bình hiện tại là $1.645.444.",
+   "text": "Sydney vẫn là thị trường nhà ở đắt đỏ nhất nước Úc, nhưng giá nhà tại đây đã giảm 0,1% trong quý, với mức trung bình hiện tại là $1.645.444.",
    "fa": 792,
-   "fb": 952,
+   "fb": 932,
    "id": "S009"
   },
   {
    "para": 7,
    "text": "Lần đầu tiên trong hai năm qua, Sydney chứng kiến sự sụt giảm giá nhà liên tiếp trong hai quý.",
-   "fa": 953,
-   "fb": 1047,
+   "fa": 933,
+   "fb": 1027,
    "id": "S010"
   },
   {
    "para": 7,
    "text": "Dữ liệu từ Domain cho thấy giá căn hộ ở Crows Nest phía bắc Sydney đã giảm 22,1% xuống còn $818.000.",
-   "fa": 1048,
-   "fb": 1148,
+   "fa": 1028,
+   "fb": 1128,
    "id": "S011"
   },
   {
    "para": 8,
-   "text": "Giá nhà Gold Coast hạ nhiệt Một số khu vực ở Queensland cũng ghi nhận sự thay đổi lớn về giá bất động sản.",
-   "fa": 1149,
-   "fb": 1255,
+   "text": "Một số khu vực ở Queensland cũng ghi nhận sự thay đổi lớn về giá bất động sản.",
+   "fa": 1129,
+   "fb": 1207,
    "id": "S012"
   },
   {
    "para": 9,
    "text": "Tại Biggera Waters, giá nhà giảm 22,4% so với năm trước, còn $660.000.",
-   "fa": 1256,
-   "fb": 1326,
+   "fa": 1208,
+   "fb": 1278,
    "id": "S013"
   },
   {
    "para": 10,
    "text": "Tương tự, giá nhà ở Clear Island Waters giảm 21,1% xuống còn $1.400.000.",
-   "fa": 1327,
-   "fb": 1399,
+   "fa": 1279,
+   "fb": 1351,
    "id": "S014"
   },
   {
    "para": 11,
-   "text": "Người mua nhà lần đầu ở Melbourne Giá căn hộ ở Melbourne tăng mạnh nhất trong 1,5 năm qua, với mức tăng 2,1% trong quý 4.",
-   "fa": 1400,
-   "fb": 1521,
+   "text": "Giá căn hộ ở Melbourne tăng mạnh nhất trong 1,5 năm qua, với mức tăng 2,1% trong quý 4.",
+   "fa": 1352,
+   "fb": 1439,
    "id": "S015"
   },
   {
    "para": 11,
    "text": "Giá nhà cũng tăng 1,6% trong cùng giai đoạn.",
-   "fa": 1522,
-   "fb": 1566,
+   "fa": 1440,
+   "fb": 1484,
    "id": "S016"
   },
   {
    "para": 12,
    "text": "Bà Powell cho rằng sự gia tăng này là nhờ vào hoạt động tích cực của những người mua nhà lần đầu.",
-   "fa": 1567,
-   "fb": 1664,
+   "fa": 1485,
+   "fb": 1582,
    "id": "S017"
   },
   {
    "para": 13,
    "text": "“Melbourne thật sự gây bất ngờ.",
-   "fa": 1665,
-   "fb": 1696,
+   "fa": 1583,
+   "fb": 1614,
    "id": "S018"
   },
   {
    "para": 13,
    "text": "Thị trường ở đây hoạt động kém từ năm 2020, nhưng trong quý cuối năm 2024, chúng tôi lại ghi nhận sự tăng trưởng,” bà Powell nhận xét.",
-   "fa": 1697,
-   "fb": 1831,
+   "fa": 1615,
+   "fb": 1749,
    "id": "S019"
   },
   {
    "para": 14,
    "text": "“Sự tăng trưởng này phản ảnh giá trị tích lũy theo thời gian, thu hút người mua, đặc biệt là những người mua nhà lần đầu.”",
-   "fa": 1832,
-   "fb": 1954,
+   "fa": 1750,
+   "fb": 1872,
    "id": "S020"
   },
   {
    "para": 15,
    "text": "Về khả năng chi trả nhà ở, Chadstone chứng kiến sự cải thiện đáng kể nhất với giá căn hộ giảm 33,3%xuống còn $505.000.",
-   "fa": 1955,
-   "fb": 2073,
+   "fa": 1873,
+   "fb": 1991,
    "id": "S021"
   },
   {
    "para": 16,
    "text": "Sunshine cũng trải qua một đợt giảm giá căn hộ 18,9% xuống còn $450.000 trong cùng giai đoạn.",
-   "fa": 2074,
-   "fb": 2167,
+   "fa": 1992,
+   "fb": 2085,
    "id": "S022"
   },
   {
    "para": 17,
    "text": "Trong khi đó, giá nhà tại thị trấn ven biển Barwon Heads giảm 20,5%.",
-   "fa": 2168,
-   "fb": 2236,
+   "fa": 2086,
+   "fb": 2154,
    "id": "S023"
   },
   {
    "para": 17,
    "text": "Các thị trường nhỏ hơn cũng không tránh khỏi những thay đổi này.",
-   "fa": 2237,
-   "fb": 2301,
+   "fa": 2155,
+   "fb": 2219,
    "id": "S024"
   },
   {
    "para": 18,
    "text": "Tại thị trấn Warracknabeal ở phía tây bắc Victoria, giá nhà trung bình hiện là $198.000 sau khi giảm 19,6%.",
-   "fa": 2302,
-   "fb": 2409,
+   "fa": 2220,
+   "fb": 2327,
    "id": "S025"
   },
   {
    "para": 19,
-   "text": "Hobart và Canberra: Kết quả trái chiều Hobart ghi nhận mức giảm giá căn hộ mạnh nhất trong các thủ phủ, giảm 1,5% còn $528.220.",
-   "fa": 2410,
-   "fb": 2537,
+   "text": "Hobart ghi nhận mức giảm giá căn hộ mạnh nhất trong các thủ phủ, giảm 1,5% còn $528.220.",
+   "fa": 2328,
+   "fb": 2416,
    "id": "S026"
   },
   {
    "para": 19,
    "text": "Tuy nhiên, giá nhà ở đây lại tăng 4,6% trong quý 4.",
-   "fa": 2538,
-   "fb": 2589,
+   "fa": 2417,
+   "fb": 2468,
    "id": "S027"
   },
   {
    "para": 20,
    "text": "Trong khi đó, thị trường Canberra giữ nguyên giá nhà và căn hộ trong cùng giai đoạn.",
-   "fa": 2590,
-   "fb": 2674,
+   "fa": 2469,
+   "fb": 2553,
    "id": "S028"
   },
   {
    "para": 20,
    "text": "Tuy nhiên, tại khu vực Denman Prospect, giá nhà giảm 22,2% xuống còn $1.015.000.",
-   "fa": 2675,
-   "fb": 2755,
+   "fa": 2554,
+   "fb": 2634,
    "id": "S029"
   },
   {
    "para": 21,
    "text": "Liệu năm 2025 có phải là thị trường của người mua nhà?",
-   "fa": 2756,
-   "fb": 2810,
+   "fa": 2635,
+   "fb": 2689,
    "id": "S030"
   },
   {
    "para": 21,
    "text": "Mặc dù thị trường địa ốc đã chứng kiến mức tăng trưởng hàng năm chậm lại ở mức thấp nhất kể từ tháng 9/2023, khả năng chi trả và triển vọng điều chỉnh lãi suất có thể tạo điều kiện thuận lợi cho người mua nhà trong năm nay.",
-   "fa": 2811,
-   "fb": 3034,
+   "fa": 2690,
+   "fb": 2913,
    "id": "S031"
   },
   {
    "para": 22,
    "text": "Nguồn cung gia tăng, đặc biệt là ở các thành phố lớn, đang mang lại nhiều cơ hội để thương lượng về giá.",
-   "fa": 3035,
-   "fb": 3139,
+   "fa": 2914,
+   "fb": 3018,
    "id": "S032"
   },
   {
    "para": 23,
    "text": "Nhưng liệu xu hướng này có tiếp diễn?",
-   "fa": 3140,
-   "fb": 3177,
+   "fa": 3019,
+   "fb": 3056,
    "id": "S033"
   },
   {
    "para": 23,
    "text": "Theo bà Powell, điều này còn phụ thuộc vào một số yếu tố.",
-   "fa": 3178,
-   "fb": 3235,
+   "fa": 3057,
+   "fb": 3114,
    "id": "S034"
   },
   {
    "para": 24,
    "text": "“Năm 2025 sẽ là một năm thú vị,” bà nói.",
-   "fa": 3236,
-   "fb": 3276,
+   "fa": 3115,
+   "fb": 3155,
    "id": "S035"
   },
   {
    "para": 25,
    "text": "“Các điều kiện yếu đã tích lũy trong năm 2024 và sẽ ảnh hưởng đến đầu năm 2025.",
-   "fa": 3277,
-   "fb": 3356,
+   "fa": 3156,
+   "fb": 3235,
    "id": "S036"
   },
   {
    "para": 25,
    "text": "Tuy nhiên, điều có thể thay đổi là khi chúng ta bắt đầu thấy RBA giảm lãi suất.”",
-   "fa": 3357,
-   "fb": 3437,
+   "fa": 3236,
+   "fb": 3316,
    "id": "S037"
   }
  ]

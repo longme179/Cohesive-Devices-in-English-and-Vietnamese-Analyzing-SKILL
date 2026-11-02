@@ -1,0 +1,4 @@
+QC P08 EN (ST): PASS
+(e) counts: {'C': 7, 'L': 66, 'R': 13}
+confidence: {'high': 72, 'med': 14}
+sentences: 39, ties: 86

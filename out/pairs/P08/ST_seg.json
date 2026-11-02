@@ -6,12 +6,12 @@
   "According to Nicola Powell, Domain's chief of research and economics, the data shows a shift in buyer behaviour rather than a fall in demand.",
   "\"What we have seen is a pullback in buyer demand. That doesn't mean demand goes away — it means people delay their decisions,\" Powell said.",
   "\"This delay is primarily driven by affordability pressures, as rising prices make it increasingly difficult for many buyers to keep up.\"",
-  "But house prices dropped by 0.1 per cent over the quarter to a median of $1,645,444, marking the second consecutive decline and making it the only capital city to record a decline in house prices. Sydney slows down Sydney remains Australia's most expensive housing market.",
+  "But house prices dropped by 0.1 per cent over the quarter to a median of $1,645,444, marking the second consecutive decline and making it the only capital city to record a decline in house prices.   Sydney remains Australia's most expensive housing market.",
   "It's the first time in two years that Sydney has experienced back-to-back quarterly decline. Data from Domain's recent report shows that units in the city's inner northern suburb of Crows Nest have become more accessible, with median prices decreasing by 22.1 per cent to $818,000.",
-  "Gold Coast prices take a dip Some Queensland suburbs have also experienced significant property price changes.",
+  "Some Queensland suburbs have also experienced significant property price changes.",
   "Biggera Waters, a popular suburb on the Gold Coast has become more affordable, with houses prices at $660,000, following a 22.4 per cent year-on-year decrease.",
   "Similarly, nearby Clear Island Waters has seen house prices fall by 21.1 per cent to $1,400,000.",
-  "First-home buyers in Melbourne Melbourne unit prices had their strongest quarterly increase in 1.5 years — up 2.1 per cent over the December quarter, while house prices increase 1.6 per cent over the same period.",
+  "Melbourne unit prices had their strongest quarterly increase in 1.5 years — up 2.1 per cent over the December quarter, while house prices increase 1.6 per cent over the same period.",
   "Powell said first-home buyer activity was likely behind the unit price growth.",
   "\"Melbourne has been the surprise. It's underperformed as a market since 2020, but in the final quarter of 2024, we saw growth,\" Powell said.",
   "\"This reflects value building up over time and activating buyers, particularly first-home buyers.",
@@ -20,7 +20,7 @@
   "Sunshine also experienced a fall resulting in a median unit price of $450,000 after an 18.9 per cent decline over the same period.",
   "Meanwhile, house prices in the Victorian seaside town of Barwon Heads dropped 20.5 per cent. Regional and smaller markets have not been immune to these changes either.",
   "In the north-western Victorian town of Warracknabeal the median house price is now $198,000 after a 19.6 per cent decline.",
-  "Hobart and Canberra: Mixed results Hobart recorded the sharpest decline in unit prices among all capital cities, falling 1.5 per cent to $528,220. In contrast, house prices there surged 4.6 per cent over the quarter.",
+  "Hobart recorded the sharpest decline in unit prices among all capital cities, falling 1.5 per cent to $528,220. In contrast, house prices there surged 4.6 per cent over the quarter.",
   "Canberra's housing market was stagnant over the same period, with no change in house or unit prices at a capital level. But the ACT suburb of Denman Prospect recorded a 22.2 per cent drop in house prices, bringing the median to $1,015,000.",
   "Will it be a buyer's market in 2025? While the market overall has seen annual growth slow to its lowest level since September 2023, affordability and the prospect of interest rate adjustments may tip the scales in favour of buyers this year.",
   "Increased supply, particularly in major cities, is offering more opportunities to negotiate on price.",
@@ -94,212 +94,212 @@
   },
   {
    "para": 6,
-   "text": "Sydney slows down Sydney remains Australia's most expensive housing market.",
-   "fa": 1183,
-   "fb": 1258,
+   "text": "Sydney remains Australia's most expensive housing market.",
+   "fa": 1185,
+   "fb": 1242,
    "id": "S010"
   },
   {
    "para": 7,
    "text": "It's the first time in two years that Sydney has experienced back-to-back quarterly decline.",
-   "fa": 1259,
-   "fb": 1351,
+   "fa": 1243,
+   "fb": 1335,
    "id": "S011"
   },
   {
    "para": 7,
    "text": "Data from Domain's recent report shows that units in the city's inner northern suburb of Crows Nest have become more accessible, with median prices decreasing by 22.1 per cent to $818,000.",
-   "fa": 1352,
-   "fb": 1540,
+   "fa": 1336,
+   "fb": 1524,
    "id": "S012"
   },
   {
    "para": 8,
-   "text": "Gold Coast prices take a dip Some Queensland suburbs have also experienced significant property price changes.",
-   "fa": 1541,
-   "fb": 1651,
+   "text": "Some Queensland suburbs have also experienced significant property price changes.",
+   "fa": 1525,
+   "fb": 1606,
    "id": "S013"
   },
   {
    "para": 9,
    "text": "Biggera Waters, a popular suburb on the Gold Coast has become more affordable, with houses prices at $660,000, following a 22.4 per cent year-on-year decrease.",
-   "fa": 1652,
-   "fb": 1811,
+   "fa": 1607,
+   "fb": 1766,
    "id": "S014"
   },
   {
    "para": 10,
    "text": "Similarly, nearby Clear Island Waters has seen house prices fall by 21.1 per cent to $1,400,000.",
-   "fa": 1812,
-   "fb": 1908,
+   "fa": 1767,
+   "fb": 1863,
    "id": "S015"
   },
   {
    "para": 11,
-   "text": "First-home buyers in Melbourne Melbourne unit prices had their strongest quarterly increase in 1.5 years — up 2.1 per cent over the December quarter, while house prices increase 1.6 per cent over the same period.",
-   "fa": 1909,
-   "fb": 2121,
+   "text": "Melbourne unit prices had their strongest quarterly increase in 1.5 years — up 2.1 per cent over the December quarter, while house prices increase 1.6 per cent over the same period.",
+   "fa": 1864,
+   "fb": 2045,
    "id": "S016"
   },
   {
    "para": 12,
    "text": "Powell said first-home buyer activity was likely behind the unit price growth.",
-   "fa": 2122,
-   "fb": 2200,
+   "fa": 2046,
+   "fb": 2124,
    "id": "S017"
   },
   {
    "para": 13,
    "text": "\"Melbourne has been the surprise.",
-   "fa": 2201,
-   "fb": 2234,
+   "fa": 2125,
+   "fb": 2158,
    "id": "S018"
   },
   {
    "para": 13,
    "text": "It's underperformed as a market since 2020, but in the final quarter of 2024, we saw growth,\" Powell said.",
-   "fa": 2235,
-   "fb": 2341,
+   "fa": 2159,
+   "fb": 2265,
    "id": "S019"
   },
   {
    "para": 14,
    "text": "\"This reflects value building up over time and activating buyers, particularly first-home buyers.",
-   "fa": 2342,
-   "fb": 2439,
+   "fa": 2266,
+   "fb": 2363,
    "id": "S020"
   },
   {
    "para": 15,
    "text": "\"You tend to see Sydney and Melbourne price cycles follow one another closely.",
-   "fa": 2440,
-   "fb": 2518,
+   "fa": 2364,
+   "fb": 2442,
    "id": "S021"
   },
   {
    "para": 15,
    "text": "There is a strong relationship between those two movements in price but this hasn't been the case really since 2020 and we've seen Melbourne really struggle to move into an established recovery.\"",
-   "fa": 2519,
-   "fb": 2714,
+   "fa": 2443,
+   "fb": 2638,
    "id": "S022"
   },
   {
    "para": 16,
    "text": "In terms of housing affordability, Chadstone has seen the most dramatic improvement with unit prices dropping by 33.3 per cent year-on-year to $505,000.",
-   "fa": 2715,
-   "fb": 2867,
+   "fa": 2639,
+   "fb": 2791,
    "id": "S023"
   },
   {
    "para": 17,
    "text": "Sunshine also experienced a fall resulting in a median unit price of $450,000 after an 18.9 per cent decline over the same period.",
-   "fa": 2868,
-   "fb": 2998,
+   "fa": 2792,
+   "fb": 2922,
    "id": "S024"
   },
   {
    "para": 18,
    "text": "Meanwhile, house prices in the Victorian seaside town of Barwon Heads dropped 20.5 per cent.",
-   "fa": 2999,
-   "fb": 3091,
+   "fa": 2923,
+   "fb": 3015,
    "id": "S025"
   },
   {
    "para": 18,
    "text": "Regional and smaller markets have not been immune to these changes either.",
-   "fa": 3092,
-   "fb": 3166,
+   "fa": 3016,
+   "fb": 3090,
    "id": "S026"
   },
   {
    "para": 19,
    "text": "In the north-western Victorian town of Warracknabeal the median house price is now $198,000 after a 19.6 per cent decline.",
-   "fa": 3167,
-   "fb": 3289,
+   "fa": 3091,
+   "fb": 3213,
    "id": "S027"
   },
   {
    "para": 20,
-   "text": "Hobart and Canberra: Mixed results Hobart recorded the sharpest decline in unit prices among all capital cities, falling 1.5 per cent to $528,220.",
-   "fa": 3290,
-   "fb": 3436,
+   "text": "Hobart recorded the sharpest decline in unit prices among all capital cities, falling 1.5 per cent to $528,220.",
+   "fa": 3214,
+   "fb": 3325,
    "id": "S028"
   },
   {
    "para": 20,
    "text": "In contrast, house prices there surged 4.6 per cent over the quarter.",
-   "fa": 3437,
-   "fb": 3506,
+   "fa": 3326,
+   "fb": 3395,
    "id": "S029"
   },
   {
    "para": 21,
    "text": "Canberra's housing market was stagnant over the same period, with no change in house or unit prices at a capital level.",
-   "fa": 3507,
-   "fb": 3626,
+   "fa": 3396,
+   "fb": 3515,
    "id": "S030"
   },
   {
    "para": 21,
    "text": "But the ACT suburb of Denman Prospect recorded a 22.2 per cent drop in house prices, bringing the median to $1,015,000.",
-   "fa": 3627,
-   "fb": 3746,
+   "fa": 3516,
+   "fb": 3635,
    "id": "S031"
   },
   {
    "para": 22,
    "text": "Will it be a buyer's market in 2025?",
-   "fa": 3747,
-   "fb": 3783,
+   "fa": 3636,
+   "fb": 3672,
    "id": "S032"
   },
   {
    "para": 22,
    "text": "While the market overall has seen annual growth slow to its lowest level since September 2023, affordability and the prospect of interest rate adjustments may tip the scales in favour of buyers this year.",
-   "fa": 3784,
-   "fb": 3988,
+   "fa": 3673,
+   "fb": 3877,
    "id": "S033"
   },
   {
    "para": 23,
    "text": "Increased supply, particularly in major cities, is offering more opportunities to negotiate on price.",
-   "fa": 3989,
-   "fb": 4090,
+   "fa": 3878,
+   "fb": 3979,
    "id": "S034"
   },
   {
    "para": 24,
    "text": "But will this trend hold?",
-   "fa": 4091,
-   "fb": 4116,
+   "fa": 3980,
+   "fb": 4005,
    "id": "S035"
   },
   {
    "para": 24,
    "text": "According to Powell, it depends.",
-   "fa": 4117,
-   "fb": 4149,
+   "fa": 4006,
+   "fb": 4038,
    "id": "S036"
   },
   {
    "para": 25,
    "text": "\"2025 is going to be an interesting year,\" she said.",
-   "fa": 4150,
-   "fb": 4202,
+   "fa": 4039,
+   "fb": 4091,
    "id": "S037"
   },
   {
    "para": 26,
    "text": "\"Weak conditions have gathered pace over 2024, and that is going to flow into the early parts of 2025.",
-   "fa": 4203,
-   "fb": 4305,
+   "fa": 4092,
+   "fb": 4194,
    "id": "S038"
   },
   {
    "para": 26,
    "text": "But what could be the change is when we start to see a rate-lifting cycle from the RBA (Reserve Bank of Australia).\"",
-   "fa": 4306,
-   "fb": 4422,
+   "fa": 4195,
+   "fb": 4311,
    "id": "S039"
   }
  ]

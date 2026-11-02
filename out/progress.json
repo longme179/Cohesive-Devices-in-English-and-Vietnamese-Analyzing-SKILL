@@ -164,6 +164,30 @@
     "added": 3
    },
    "qc": "PASS"
+  },
+  "P08": {
+   "status": "done",
+   "st_sentences": 39,
+   "tt_sentences": 37,
+   "st_ties": 86,
+   "tt_ties": 77,
+   "st_counts": {
+    "L": 66,
+    "R": 13,
+    "C": 7
+   },
+   "tt_counts": {
+    "L": 62,
+    "R": 7,
+    "C": 8
+   },
+   "alignment": {
+    "kept": 74,
+    "shifted": 1,
+    "omitted": 11,
+    "added": 8
+   },
+   "qc": "PASS"
   }
  },
  "last_updated": "auto"

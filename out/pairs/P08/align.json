@@ -1,0 +1,663 @@
+{
+ "pair": "P08",
+ "alignments": [
+  {
+   "st_tie": "P08-EN-001",
+   "tt_tie": "P08-VI-001",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Australia's housing market -> Thị trường nhà ở Úc"
+  },
+  {
+   "st_tie": "P08-EN-002",
+   "tt_tie": "P08-VI-002",
+   "outcome": "kept",
+   "shift": null,
+   "note": "property values -> giá nhà"
+  },
+  {
+   "st_tie": "P08-EN-003",
+   "tt_tie": "P08-VI-003",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P08-EN-004",
+   "tt_tie": "P08-VI-004",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P08-EN-005",
+   "tt_tie": "P08-VI-005",
+   "outcome": "shifted",
+   "shift": "L>R",
+   "note": "the data shows -> dữ liệu phản ảnh; TT marks người mua nhà NP instead"
+  },
+  {
+   "st_tie": "P08-EN-006",
+   "tt_tie": "P08-VI-005",
+   "outcome": "kept",
+   "shift": null,
+   "note": "buyer -> người mua nhà"
+  },
+  {
+   "st_tie": "P08-EN-007",
+   "tt_tie": "P08-VI-007",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P08-EN-008",
+   "tt_tie": "P08-VI-006",
+   "outcome": "kept",
+   "shift": null,
+   "note": "we -> chúng tôi"
+  },
+  {
+   "st_tie": "P08-EN-009",
+   "tt_tie": "P08-VI-007",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P08-EN-010",
+   "tt_tie": "P08-VI-008",
+   "outcome": "kept",
+   "shift": null,
+   "note": "That doesn't mean -> Điều đó không có nghĩa"
+  },
+  {
+   "st_tie": "P08-EN-011",
+   "tt_tie": "P08-VI-009",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P08-EN-012",
+   "tt_tie": "P08-VI-011",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Powell said -> bà nói"
+  },
+  {
+   "st_tie": "P08-EN-013",
+   "tt_tie": "P08-VI-012",
+   "outcome": "kept",
+   "shift": null,
+   "note": "This delay -> Sự trì hoãn này"
+  },
+  {
+   "st_tie": "P08-EN-014",
+   "tt_tie": "P08-VI-013",
+   "outcome": "kept",
+   "shift": null,
+   "note": "affordability pressures -> áp lực giá nhà (affordability ~ áp lực)"
+  },
+  {
+   "st_tie": "P08-EN-015",
+   "tt_tie": "P08-VI-013",
+   "outcome": "kept",
+   "shift": null,
+   "note": "merged in TT marking"
+  },
+  {
+   "st_tie": "P08-EN-016",
+   "tt_tie": "P08-VI-014",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P08-EN-017",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "C>zero",
+   "note": "TT S009 has no adversative (mà connects clauses internally)"
+  },
+  {
+   "st_tie": "P08-EN-018",
+   "tt_tie": "P08-VI-017",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P08-EN-019",
+   "tt_tie": "P08-VI-018",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the quarter -> trong quý"
+  },
+  {
+   "st_tie": "P08-EN-020",
+   "tt_tie": "P08-VI-019",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Sydney chain (TT first overt mention S009, tie at S010)"
+  },
+  {
+   "st_tie": "P08-EN-021",
+   "tt_tie": "P08-VI-016",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Australia's -> Úc"
+  },
+  {
+   "st_tie": "P08-EN-022",
+   "tt_tie": "P08-VI-015",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P08-EN-023",
+   "tt_tie": "P08-VI-019",
+   "outcome": "kept",
+   "shift": null,
+   "note": "It's -> tại đây (locative) in TT S009; chain via Sydney tie"
+  },
+  {
+   "st_tie": "P08-EN-024",
+   "tt_tie": "P08-VI-019",
+   "outcome": "kept",
+   "shift": null,
+   "note": "merged in TT marking"
+  },
+  {
+   "st_tie": "P08-EN-025",
+   "tt_tie": "P08-VI-021",
+   "outcome": "kept",
+   "shift": null,
+   "note": "quarterly decline -> hai quý (TT marks hai quý)"
+  },
+  {
+   "st_tie": "P08-EN-026",
+   "tt_tie": "P08-VI-022",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Data -> Dữ liệu"
+  },
+  {
+   "st_tie": "P08-EN-027",
+   "tt_tie": "P08-VI-023",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Domain's recent report -> Domain"
+  },
+  {
+   "st_tie": "P08-EN-028",
+   "tt_tie": "P08-VI-025",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the city's -> Sydney (repeated proper name)"
+  },
+  {
+   "st_tie": "P08-EN-029",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT drops median (mức trung vị unmarked in S011)"
+  },
+  {
+   "st_tie": "P08-EN-030",
+   "tt_tie": "P08-VI-026",
+   "outcome": "kept",
+   "shift": null,
+   "note": "property price -> giá bất động sản"
+  },
+  {
+   "st_tie": "P08-EN-031",
+   "tt_tie": "P08-VI-027",
+   "outcome": "kept",
+   "shift": null,
+   "note": "houses prices -> giá nhà (source typo houses kept in ST)"
+  },
+  {
+   "st_tie": "P08-EN-032",
+   "tt_tie": "P08-VI-028",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Similarly -> Tương tự"
+  },
+  {
+   "st_tie": "P08-EN-033",
+   "tt_tie": "P08-VI-029",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P08-EN-034",
+   "tt_tie": "P08-VI-030",
+   "outcome": "kept",
+   "shift": null,
+   "note": "unit prices -> căn hộ"
+  },
+  {
+   "st_tie": "P08-EN-035",
+   "tt_tie": "P08-VI-031",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the December quarter -> quý 4"
+  },
+  {
+   "st_tie": "P08-EN-036",
+   "tt_tie": "P08-VI-034",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P08-EN-037",
+   "tt_tie": "P08-VI-035",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P08-EN-038",
+   "tt_tie": "P08-VI-036",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P08-EN-039",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "TT drops It's (Thị trường ở đây hoạt động kém)"
+  },
+  {
+   "st_tie": "P08-EN-040",
+   "tt_tie": "P08-VI-037",
+   "outcome": "kept",
+   "shift": null,
+   "note": "a market -> Thị trường"
+  },
+  {
+   "st_tie": "P08-EN-041",
+   "tt_tie": "P08-VI-038",
+   "outcome": "kept",
+   "shift": null,
+   "note": "we -> chúng tôi"
+  },
+  {
+   "st_tie": "P08-EN-042",
+   "tt_tie": "P08-VI-039",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Powell said -> bà Powell nhận xét"
+  },
+  {
+   "st_tie": "P08-EN-043",
+   "tt_tie": "P08-VI-040",
+   "outcome": "kept",
+   "shift": null,
+   "note": "This -> Sự tăng trưởng này"
+  },
+  {
+   "st_tie": "P08-EN-044",
+   "tt_tie": "P08-VI-041",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P08-EN-045",
+   "tt_tie": "P08-VI-042",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P08-EN-046",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S021 (Sydney-Melbourne cycles) unrendered in TT"
+  },
+  {
+   "st_tie": "P08-EN-047",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S021-S022 unrendered"
+  },
+  {
+   "st_tie": "P08-EN-048",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "EN S022 unrendered"
+  },
+  {
+   "st_tie": "P08-EN-049",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "EN S022 unrendered"
+  },
+  {
+   "st_tie": "P08-EN-050",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S022 unrendered"
+  },
+  {
+   "st_tie": "P08-EN-051",
+   "tt_tie": "P08-VI-043",
+   "outcome": "kept",
+   "shift": null,
+   "note": "housing affordability -> khả năng chi trả nhà ở"
+  },
+  {
+   "st_tie": "P08-EN-052",
+   "tt_tie": "P08-VI-044",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P08-EN-053",
+   "tt_tie": "P08-VI-045",
+   "outcome": "kept",
+   "shift": null,
+   "note": "also -> cũng"
+  },
+  {
+   "st_tie": "P08-EN-054",
+   "tt_tie": "P08-VI-046",
+   "outcome": "kept",
+   "shift": null,
+   "note": "a fall -> giảm giá"
+  },
+  {
+   "st_tie": "P08-EN-055",
+   "tt_tie": "P08-VI-046",
+   "outcome": "kept",
+   "shift": null,
+   "note": "merged in TT marking"
+  },
+  {
+   "st_tie": "P08-EN-056",
+   "tt_tie": "P08-VI-047",
+   "outcome": "kept",
+   "shift": null,
+   "note": "over the same period -> trong cùng giai đoạn"
+  },
+  {
+   "st_tie": "P08-EN-057",
+   "tt_tie": "P08-VI-048",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Meanwhile -> Trong khi đó"
+  },
+  {
+   "st_tie": "P08-EN-058",
+   "tt_tie": "P08-VI-049",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P08-EN-059",
+   "tt_tie": "P08-VI-051",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Regional and smaller markets -> Các thị trường nhỏ hơn"
+  },
+  {
+   "st_tie": "P08-EN-060",
+   "tt_tie": "P08-VI-050",
+   "outcome": "kept",
+   "shift": null,
+   "note": "these changes -> những thay đổi này"
+  },
+  {
+   "st_tie": "P08-EN-061",
+   "tt_tie": "P08-VI-052",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P08-EN-062",
+   "tt_tie": "P08-VI-053",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P08-EN-063",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT has no prior thủ phủ mention (first use at S026)"
+  },
+  {
+   "st_tie": "P08-EN-064",
+   "tt_tie": "P08-VI-054",
+   "outcome": "kept",
+   "shift": null,
+   "note": "In contrast -> Tuy nhiên"
+  },
+  {
+   "st_tie": "P08-EN-065",
+   "tt_tie": "P08-VI-055",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P08-EN-066",
+   "tt_tie": "P08-VI-056",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the quarter -> trong quý 4"
+  },
+  {
+   "st_tie": "P08-EN-067",
+   "tt_tie": "P08-VI-058",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Canberra's housing market -> thị trường Canberra"
+  },
+  {
+   "st_tie": "P08-EN-068",
+   "tt_tie": "P08-VI-060",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P08-EN-069",
+   "tt_tie": "P08-VI-059",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P08-EN-070",
+   "tt_tie": "P08-VI-061",
+   "outcome": "kept",
+   "shift": null,
+   "note": "But -> Tuy nhiên"
+  },
+  {
+   "st_tie": "P08-EN-071",
+   "tt_tie": "P08-VI-062",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P08-EN-072",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT drops the median (xuống còn $ amounts)"
+  },
+  {
+   "st_tie": "P08-EN-073",
+   "tt_tie": "P08-VI-063",
+   "outcome": "kept",
+   "shift": null,
+   "note": "it -> (buyer's market) người mua nhà"
+  },
+  {
+   "st_tie": "P08-EN-074",
+   "tt_tie": "P08-VI-065",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the market -> thị trường địa ốc"
+  },
+  {
+   "st_tie": "P08-EN-075",
+   "tt_tie": "P08-VI-066",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P08-EN-076",
+   "tt_tie": "P08-VI-067",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P08-EN-077",
+   "tt_tie": "P08-VI-068",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P08-EN-078",
+   "tt_tie": "P08-VI-069",
+   "outcome": "kept",
+   "shift": null,
+   "note": "But -> Nhưng"
+  },
+  {
+   "st_tie": "P08-EN-079",
+   "tt_tie": "P08-VI-070",
+   "outcome": "kept",
+   "shift": null,
+   "note": "this trend -> xu hướng này"
+  },
+  {
+   "st_tie": "P08-EN-080",
+   "tt_tie": "P08-VI-071",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Powell -> bà Powell"
+  },
+  {
+   "st_tie": "P08-EN-081",
+   "tt_tie": "P08-VI-072",
+   "outcome": "kept",
+   "shift": null,
+   "note": "interesting -> thú vị (echo of the lede in both)"
+  },
+  {
+   "st_tie": "P08-EN-082",
+   "tt_tie": "P08-VI-073",
+   "outcome": "kept",
+   "shift": null,
+   "note": "she -> bà"
+  },
+  {
+   "st_tie": "P08-EN-083",
+   "tt_tie": "P08-VI-074",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P08-EN-084",
+   "tt_tie": "P08-VI-075",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P08-EN-085",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT reformulates the change as RBA cutting rates"
+  },
+  {
+   "st_tie": "P08-EN-086",
+   "tt_tie": "P08-VI-077",
+   "outcome": "kept",
+   "shift": null,
+   "note": "we -> chúng ta"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P08-VI-010",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT họ refers to người mua where EN uses people (intra-sentential in EN)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P08-VI-020",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT giá nhà chain continues"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P08-VI-024",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT giá căn hộ vs giá nhà (units vs houses, related-term association)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P08-VI-032",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT Giá nhà chain (S016)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P08-VI-033",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT trong cùng giai đoạn chain"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P08-VI-057",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT Trong khi đó (S028) with no EN additive there"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P08-VI-064",
+   "outcome": "added",
+   "shift": null,
+   "note": "no ST counterpart"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P08-VI-076",
+   "outcome": "added",
+   "shift": null,
+   "note": "no ST counterpart"
+  }
+ ]
+}
