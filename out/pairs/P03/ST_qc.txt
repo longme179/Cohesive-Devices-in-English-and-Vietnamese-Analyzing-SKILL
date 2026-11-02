@@ -1,0 +1,4 @@
+QC P03 EN (ST): PASS
+(e) counts: {'C': 8, 'L': 101, 'R': 6}
+confidence: {'high': 92, 'low': 1, 'med': 22}
+sentences: 37, ties: 115
