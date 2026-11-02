@@ -1,0 +1,754 @@
+{
+ "pair": "P05",
+ "alignments": [
+  {
+   "st_tie": "P05-EN-001",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN intro (wave of changes) unrendered; TT starts at the wage-theft section"
+  },
+  {
+   "st_tie": "P05-EN-002",
+   "tt_tie": "P05-VI-001",
+   "outcome": "kept",
+   "shift": null,
+   "note": "wage-theft laws -> luật trộm cắp tiền lương mới"
+  },
+  {
+   "st_tie": "P05-EN-003",
+   "tt_tie": "P05-VI-003",
+   "outcome": "kept",
+   "shift": null,
+   "note": "underpayment -> trả thiếu tiền lương"
+  },
+  {
+   "st_tie": "P05-EN-004",
+   "tt_tie": "P05-VI-003",
+   "outcome": "kept",
+   "shift": null,
+   "note": "fines -> merged in TT marking (tiền phạt unmarked; tiền lương chain marked)"
+  },
+  {
+   "st_tie": "P05-EN-005",
+   "tt_tie": "P05-VI-005",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the new -> mới (demonstrative-like new in both)"
+  },
+  {
+   "st_tie": "P05-EN-006",
+   "tt_tie": "P05-VI-003",
+   "outcome": "kept",
+   "shift": null,
+   "note": "merged in TT marking"
+  },
+  {
+   "st_tie": "P05-EN-007",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT uses hình phạt (S001 cáo buộc hình sự) but no penalties tie"
+  },
+  {
+   "st_tie": "P05-EN-008",
+   "tt_tie": "P05-VI-012",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Australian (citizenship) -> quốc tịch Úc"
+  },
+  {
+   "st_tie": "P05-EN-009",
+   "tt_tie": "P05-VI-007",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Applicants -> Người nộp đơn"
+  },
+  {
+   "st_tie": "P05-EN-010",
+   "tt_tie": "P05-VI-008",
+   "outcome": "kept",
+   "shift": null,
+   "note": "The change -> Sự thay đổi này"
+  },
+  {
+   "st_tie": "P05-EN-011",
+   "tt_tie": "P05-VI-009",
+   "outcome": "kept",
+   "shift": null,
+   "note": "applications -> đơn đăng ký"
+  },
+  {
+   "st_tie": "P05-EN-012",
+   "tt_tie": "P05-VI-010",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P05-EN-013",
+   "tt_tie": "P05-VI-011",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P05-EN-014",
+   "tt_tie": "P05-VI-011",
+   "outcome": "kept",
+   "shift": null,
+   "note": "apply -> nộp đơn (merged in TT marking)"
+  },
+  {
+   "st_tie": "P05-EN-015",
+   "tt_tie": "P05-VI-012",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P05-EN-016",
+   "tt_tie": "P05-VI-013",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P05-EN-017",
+   "tt_tie": "P05-VI-014",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P05-EN-018",
+   "tt_tie": "P05-VI-015",
+   "outcome": "kept",
+   "shift": null,
+   "note": "date echo kept in both"
+  },
+  {
+   "st_tie": "P05-EN-019",
+   "tt_tie": "P05-VI-016",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Youth Allowance -> Trợ cấp thanh thiếu niên"
+  },
+  {
+   "st_tie": "P05-EN-020",
+   "tt_tie": "P05-VI-017",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P05-EN-021",
+   "tt_tie": "P05-VI-018",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P05-EN-022",
+   "tt_tie": "P05-VI-019",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P05-EN-023",
+   "tt_tie": "P05-VI-020",
+   "outcome": "kept",
+   "shift": null,
+   "note": "a fortnight -> mỗi hai tuần (first overt use in TT)"
+  },
+  {
+   "st_tie": "P05-EN-024",
+   "tt_tie": "P05-VI-021",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Those -> Những người hưởng"
+  },
+  {
+   "st_tie": "P05-EN-025",
+   "tt_tie": "P05-VI-022",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P05-EN-026",
+   "tt_tie": "P05-VI-023",
+   "outcome": "kept",
+   "shift": null,
+   "note": "also -> cũng"
+  },
+  {
+   "st_tie": "P05-EN-027",
+   "tt_tie": "P05-VI-024",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P05-EN-028",
+   "tt_tie": "P05-VI-025",
+   "outcome": "kept",
+   "shift": null,
+   "note": "More details -> thêm thông tin"
+  },
+  {
+   "st_tie": "P05-EN-029",
+   "tt_tie": "P05-VI-026",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P05-EN-030",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT drops the increase verb tie (tăng is first use in this section)"
+  },
+  {
+   "st_tie": "P05-EN-031",
+   "tt_tie": "P05-VI-027",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P05-EN-032",
+   "tt_tie": "P05-VI-028",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P05-EN-033",
+   "tt_tie": "P05-VI-029",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P05-EN-034",
+   "tt_tie": "P05-VI-030",
+   "outcome": "kept",
+   "shift": null,
+   "note": "This -> Điều này"
+  },
+  {
+   "st_tie": "P05-EN-035",
+   "tt_tie": "P05-VI-031",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Australia's -> nước Úc"
+  },
+  {
+   "st_tie": "P05-EN-036",
+   "tt_tie": "P05-VI-032",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P05-EN-037",
+   "tt_tie": "P05-VI-033",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P05-EN-038",
+   "tt_tie": "P05-VI-034",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P05-EN-039",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT S021 has no prior chơi game mention (first overt use)"
+  },
+  {
+   "st_tie": "P05-EN-040",
+   "tt_tie": "P05-VI-035",
+   "outcome": "kept",
+   "shift": null,
+   "note": "also -> cũng"
+  },
+  {
+   "st_tie": "P05-EN-041",
+   "tt_tie": "P05-VI-036",
+   "outcome": "kept",
+   "shift": null,
+   "note": "gaming rooms -> phòng chơi game"
+  },
+  {
+   "st_tie": "P05-EN-042",
+   "tt_tie": "P05-VI-037",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Additionally -> Ngoài ra"
+  },
+  {
+   "st_tie": "P05-EN-043",
+   "tt_tie": "P05-VI-038",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P05-EN-044",
+   "tt_tie": "P05-VI-039",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P05-EN-045",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S025 (sustainability reports) unrendered in TT"
+  },
+  {
+   "st_tie": "P05-EN-046",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S025 unrendered"
+  },
+  {
+   "st_tie": "P05-EN-047",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S026-S027 (classifications) unrendered in TT"
+  },
+  {
+   "st_tie": "P05-EN-048",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S026-S027 unrendered"
+  },
+  {
+   "st_tie": "P05-EN-049",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S028 unrendered"
+  },
+  {
+   "st_tie": "P05-EN-050",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "EN S028 unrendered"
+  },
+  {
+   "st_tie": "P05-EN-051",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "EN S029 unrendered"
+  },
+  {
+   "st_tie": "P05-EN-052",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S029 unrendered"
+  },
+  {
+   "st_tie": "P05-EN-053",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S029 unrendered"
+  },
+  {
+   "st_tie": "P05-EN-054",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S030-S032 (engineered stone) unrendered in TT"
+  },
+  {
+   "st_tie": "P05-EN-055",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "EN S031 unrendered"
+  },
+  {
+   "st_tie": "P05-EN-056",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S031 unrendered"
+  },
+  {
+   "st_tie": "P05-EN-057",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S031 unrendered"
+  },
+  {
+   "st_tie": "P05-EN-058",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S031 unrendered"
+  },
+  {
+   "st_tie": "P05-EN-059",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S032 unrendered"
+  },
+  {
+   "st_tie": "P05-EN-060",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S032 unrendered"
+  },
+  {
+   "st_tie": "P05-EN-061",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S033 (clearance certificate) unrendered in TT"
+  },
+  {
+   "st_tie": "P05-EN-062",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "C>zero",
+   "note": "EN S034 unrendered (TT omits the whole section)"
+  },
+  {
+   "st_tie": "P05-EN-063",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S034 unrendered"
+  },
+  {
+   "st_tie": "P05-EN-064",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S034 unrendered"
+  },
+  {
+   "st_tie": "P05-EN-065",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S034 unrendered"
+  },
+  {
+   "st_tie": "P05-EN-066",
+   "tt_tie": "P05-VI-048",
+   "outcome": "kept",
+   "shift": null,
+   "note": "date echo (Centrelink section)"
+  },
+  {
+   "st_tie": "P05-EN-067",
+   "tt_tie": "P05-VI-040",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P05-EN-068",
+   "tt_tie": "P05-VI-041",
+   "outcome": "kept",
+   "shift": null,
+   "note": "The change -> Thay đổi này"
+  },
+  {
+   "st_tie": "P05-EN-069",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT drops welfare echo (nhóm người hưởng phúc lợi fresh)"
+  },
+  {
+   "st_tie": "P05-EN-070",
+   "tt_tie": "P05-VI-042",
+   "outcome": "kept",
+   "shift": null,
+   "note": "those -> những người"
+  },
+  {
+   "st_tie": "P05-EN-071",
+   "tt_tie": "P05-VI-043",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P05-EN-072",
+   "tt_tie": "P05-VI-044",
+   "outcome": "kept",
+   "shift": null,
+   "note": "This change -> Thay đổi này"
+  },
+  {
+   "st_tie": "P05-EN-073",
+   "tt_tie": "P05-VI-045",
+   "outcome": "kept",
+   "shift": null,
+   "note": "study -> học"
+  },
+  {
+   "st_tie": "P05-EN-074",
+   "tt_tie": "P05-VI-046",
+   "outcome": "kept",
+   "shift": null,
+   "note": "applications -> đơn"
+  },
+  {
+   "st_tie": "P05-EN-075",
+   "tt_tie": "P05-VI-047",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P05-EN-076",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S040-S041 (PBS expansion) unrendered in TT"
+  },
+  {
+   "st_tie": "P05-EN-077",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S041 unrendered"
+  },
+  {
+   "st_tie": "P05-EN-078",
+   "tt_tie": "P05-VI-048",
+   "outcome": "kept",
+   "shift": null,
+   "note": "date echo (Medicare section)"
+  },
+  {
+   "st_tie": "P05-EN-079",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT S029 chi phí y tế has no prior y tế mention"
+  },
+  {
+   "st_tie": "P05-EN-080",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT S030 names both safety nets fresh (no prior threshold tie)"
+  },
+  {
+   "st_tie": "P05-EN-081",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT S030 Medicare is first mention"
+  },
+  {
+   "st_tie": "P05-EN-082",
+   "tt_tie": "P05-VI-049",
+   "outcome": "kept",
+   "shift": null,
+   "note": "PBS co-payment -> Đồng thanh toán (TT S032); TT S031 is first mention (added)"
+  },
+  {
+   "st_tie": "P05-EN-083",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT S032 Đồng thanh toán is first overt co-payment use (added)"
+  },
+  {
+   "st_tie": "P05-EN-084",
+   "tt_tie": "P05-VI-050",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Wage changes -> Thay đổi tiền lương"
+  },
+  {
+   "st_tie": "P05-EN-085",
+   "tt_tie": "P05-VI-051",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P05-EN-086",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT drops awards echo"
+  },
+  {
+   "st_tie": "P05-EN-087",
+   "tt_tie": "P05-VI-052",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P05-EN-088",
+   "tt_tie": "P05-VI-053",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Aged Care Award -> chăm sóc người cao tuổi (TT paraphrases)"
+  },
+  {
+   "st_tie": "P05-EN-089",
+   "tt_tie": "P05-VI-054",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P05-EN-090",
+   "tt_tie": "P05-VI-055",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P05-EN-091",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S049-S050 (health insurance) unrendered in TT"
+  },
+  {
+   "st_tie": "P05-EN-092",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S050 unrendered"
+  },
+  {
+   "st_tie": "P05-EN-093",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S051-S052 (vehicle standard) unrendered in TT"
+  },
+  {
+   "st_tie": "P05-EN-094",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S052 unrendered"
+  },
+  {
+   "st_tie": "P05-EN-095",
+   "tt_tie": "P05-VI-056",
+   "outcome": "kept",
+   "shift": null,
+   "note": "date echo (Victoria levy section)"
+  },
+  {
+   "st_tie": "P05-EN-096",
+   "tt_tie": "P05-VI-057",
+   "outcome": "kept",
+   "shift": null,
+   "note": "The levy -> Khoản thuế này"
+  },
+  {
+   "st_tie": "P05-EN-097",
+   "tt_tie": "P05-VI-058",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Those -> Những người"
+  },
+  {
+   "st_tie": "P05-EN-098",
+   "tt_tie": "P05-VI-060",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Victoria's -> Victoria"
+  },
+  {
+   "st_tie": "P05-EN-099",
+   "tt_tie": "P05-VI-062",
+   "outcome": "kept",
+   "shift": null,
+   "note": "The tax -> Thuế này"
+  },
+  {
+   "st_tie": "P05-EN-100",
+   "tt_tie": "P05-VI-063",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P05-EN-101",
+   "tt_tie": "P05-VI-064",
+   "outcome": "kept",
+   "shift": null,
+   "note": "holiday houses -> nhà nghỉ"
+  },
+  {
+   "st_tie": "P05-EN-102",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S059 (South Australia) unrendered in TT"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P05-VI-002",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT Cá nhân contrasts with các công ty (phép đối, opposition); EN S004 Individuals is first mention"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P05-VI-004",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT Bộ luật echoes S001 luật; EN S005 has no law-tie (Voluntary Code is fresh)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P05-VI-006",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT Cư dân continues the person chain; EN S006 Residents is first mention"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P05-VI-059",
+   "outcome": "added",
+   "shift": null,
+   "note": "no ST counterpart"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P05-VI-061",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT Thuế (S039) continues the tax chain"
+  }
+ ]
+}

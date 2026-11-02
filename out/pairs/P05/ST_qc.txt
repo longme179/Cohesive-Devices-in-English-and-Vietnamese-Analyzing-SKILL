@@ -1,0 +1,4 @@
+QC P05 EN (ST): PASS
+(e) counts: {'C': 4, 'L': 90, 'R': 8}
+confidence: {'high': 60, 'low': 5, 'med': 37}
+sentences: 59, ties: 102

@@ -93,6 +93,29 @@
     "added": 17
    },
    "qc": "PASS"
+  },
+  "P05": {
+   "status": "done",
+   "st_sentences": 59,
+   "tt_sentences": 41,
+   "st_ties": 102,
+   "tt_ties": 64,
+   "st_counts": {
+    "L": 90,
+    "R": 8,
+    "C": 4
+   },
+   "tt_counts": {
+    "L": 57,
+    "R": 4,
+    "C": 3
+   },
+   "alignment": {
+    "omitted": 38,
+    "kept": 64,
+    "added": 5
+   },
+   "qc": "PASS"
   }
  },
  "last_updated": "auto"
