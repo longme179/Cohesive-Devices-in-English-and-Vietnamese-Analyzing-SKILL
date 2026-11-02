@@ -1,0 +1,21 @@
+# P19 — Target text (TT, Vietnamese)
+
+**Title:** Hành khách sẽ chia tiền thắng kiện vụ ‘lũng đoạn giá vé’ máy bay
+
+**Framework:** Trần Ngọc Thêm (2006), as cited in Nguyễn Thanh Tùng (2020)
+
+**Legend:** 🟨 Reference (`R`) | 🟩 Substitution (`S`) | 🟦 Ellipsis (`E`) | 🟧 Conjunction (`C`) | 🟪 Lexical cohesion (`L`) — ellipsis gap: 🟦⟦∅⟧
+
+---
+
+BANGKOK — Hành khách của 8 hãng hàng không bay xuyên Thái Bình Dương trong khoảng thời gian từ năm 2000 đến nay sẽ được chia tiền thắng kiện từ một vụ kiện tập thể liên quan đến vụ lũng đoạn giá vé. Từ Bangkok, thông tín viên Steve Herman của đài VOA tường trình rằng 🟪⟦vụ kiện⟧ đang tiếp tục với 🟪⟦5 hãng máy bay⟧ khác về một hành vi tương tự.
+🟪⟦Hành khách⟧ của các chuyến bay 🟪⟦xuyên Thái Bình Dương⟧ trong khoảng thời gian từ năm 2000 cho đến nay có thể được bồi thường từ một vụ kiện tập thể.
+🟪⟦Vụ kiện⟧ liên quan đến 🟪⟦vé máy bay⟧ của 26 🟪⟦hãng hàng không⟧. 🟪⟦8 hãng hàng không⟧ đã thỏa thuận giải quyết, và 🟪⟦vụ kiện⟧ vẫn tiếp tục với thêm 🟪⟦5 hãng máy bay⟧ nữa.
+🟪⟦Các hãng⟧ Air France, Cathay Pacific, Japan Airlines, Malaysia Airlines, Qantas, Singapore Airlines, Thai Airways và Vietnam Airlines đồng ý trả lại gần 40 triệu đôla.
+🟪⟦Luật sư Adam Zapala⟧ tham gia 🟪⟦vụ kiện này⟧ giải thích rằng 🟪⟦chính phủ Mỹ⟧ đã thực hiện vô số các cuộc điều tra về vụ kiện lũng đoạn giá cả trong ngành công nghiệp vận tải hàng không này.
+🟪⟦Ông Zapala⟧ nói: "Nhiều dịch vụ hàng không trong 🟪⟦ngành vận tải hành khách⟧ lại làm luôn cả 🟪⟦vận tải hàng hóa⟧. Trong thực tế có một lượng 🟪⟦hàng hóa⟧ lớn được chuyên chở hàng ngày trên khắp 🟪⟦thế giới⟧ ngay trong khoang hàng của các chiếc máy bay hành khách. Và có 🟪⟦một vụ kiện tập thể⟧ lớn đang được thụ lý ở quận đông của New York gắn liền với vụ thay đổi giá cước vận chuyển hàng hóa. Và 🟪⟦nhiều bị cáo⟧ trong 🟨⟦vụ này⟧ lại cũng chính là các bị cáo trong 🟨⟦vụ kiện của chúng tôi⟧." 🟪⟦Luật sư Zapala⟧ nói rằng số tiền được chia cho 🟪⟦hành khách⟧ là bao nhiêu tùy thuộc vào số người nộp hồ sơ đòi bồi thường.
+🟪⟦Ông Zapala⟧ cho biết: Tiền bồi thường được trả cho 🟪⟦hành khách⟧ theo tỉ lệ số chuyến bay mà họ đã đi trong thời gian đó. Nếu chỉ có 20% 🟪⟦hành khách⟧ trong 🟪⟦vụ kiện tập thể⟧ nộp hồ sơ đòi đền bù, thì 40 triệu đôla đền bù sẽ được chia cho số hành khách chiếm 20% đó.
+🟪⟦Luật sư Zapala⟧ nói rằng phá được một vụ 🟪⟦lũng đoạn giá vé⟧ như vậy mất rất nhiều thời gian và tiền bạc nhưng hy vọng rằng những vụ kiện như vậy sẽ có tác dụng răn đe đối với các doanh nghiệp có những hoạt động bất lợi cho sự cạnh tranh.
+🟪⟦Các hãng hàng không⟧ bị kiện đã thông đồng để 🟪⟦định giá vé⟧ cho các chuyến bay 🟪⟦xuyên Thái Bình Dương⟧, mà rốt cuộc là 🟪⟦hành khách⟧ phải trả nhiều tiền hơn mức cần thiết. 🟪⟦Các tuyến bay⟧ trong 🟪⟦vụ kiện này⟧ bao gồm các tuyến giữa 🟪⟦Hoa Kỳ⟧ với Á châu, Australia, New Zealand và một số đảo Thái Bình Dương.
+🟪⟦Các hãng hàng không⟧ đồng ý giải quyết đã bác bỏ 🟪⟦cáo buộc⟧ và phủ nhận trách nhiệm. 🟪⟦Những hãng vẫn đang bị kiện⟧ gồm có - Air New Zealand, All Nippon Airways (ANA), China Airlines (of Taiwan), Eva Airways và Philippines Airlines, cũng phủ nhận trách nhiệm. 🟧⟦Riêng⟧ hãng 🟪⟦ANA⟧ thừa nhận sai phạm về việc 🟪⟦lũng đoạn giá cả⟧ của những loại vé giảm giá.
+🟨⟦Những hành khách⟧ nào tin có thể đủ điều kiện để nhận bồi thường có thể nộp 🟪⟦hồ sơ đòi bồi thường⟧ trên mạng hoặc gởi qua bưu điện. 🟪⟦Các thông tin⟧ của việc này được loan tải trên 🟪⟦trang web⟧ www.AirlineSettlements.com.

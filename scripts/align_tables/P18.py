@@ -1,0 +1,32 @@
+# P18 sentence mapping: EN n <-> TT (n+1) for n>=2 roughly; explicit pairs below.
+A = [
+ ('P18-EN-001', 'P18-VI-004', 'kept', None, 'UNICEF abbreviation kept'),
+ ('P18-EN-002', 'P18-VI-004', 'kept', None, 'Myanmar -> Myanmar (merged in TT marking)'),
+ ('P18-EN-003', 'P18-VI-005', 'kept', None, 'the U.N. organization -> Quỹ Nhi đồng Liên hiệp quốc'),
+ ('P18-EN-004', 'P18-VI-005', 'kept', None, None),
+ ('P18-EN-005', 'P18-VI-006', 'kept', None, None),
+ ('P18-EN-006', 'P18-VI-007', 'kept', None, None),
+ ('P18-EN-007', 'P18-VI-008', 'kept', None, None),
+ ('P18-EN-008', 'P18-VI-011', 'kept', None, None),
+ ('P18-EN-009', 'P18-VI-012', 'kept', None, None),
+ ('P18-EN-010', 'P18-VI-013', 'kept', None, None),
+ ('P18-EN-011', 'P18-VI-011', 'kept', None, None),
+ ('P18-EN-012', 'P18-VI-014', 'kept', None, None),
+ ('P18-EN-013', 'P18-VI-015', 'kept', None, None),
+ ('P18-EN-014', 'P18-VI-016', 'kept', None, None),
+ ('P18-EN-015', 'P18-VI-017', 'kept', None, None),
+ ('P18-EN-016', 'P18-VI-018', 'kept', None, None),
+ ('P18-EN-017', 'P18-VI-019', 'kept', None, None),
+ ('P18-EN-018', 'P18-VI-009', 'kept', None, 'Philippines -> TT S009 (source-duplicated sentence)'),
+ ('P18-EN-019', 'P18-VI-021', 'kept', None, None),
+ ('P18-EN-020', 'P18-VI-022', 'kept', None, None),
+ ('P18-EN-021', 'P18-VI-023', 'kept', None, None),
+ ('P18-EN-022', 'P18-VI-024', 'kept', None, None),
+]
+ADDED_NOTES = {
+ 'P18-VI-001': 'TT S002 tổ chức này general word (EN S002 tie covered by abbreviation)',
+ 'P18-VI-002': 'TT Myanmar chain',
+ 'P18-VI-003': 'TT S003 is a VOA credit line with no EN counterpart',
+ 'P18-VI-010': 'TT source-duplicated Philippines sentence (S010 = S009)',
+ 'P18-VI-020': 'TT source-duplicated Philippines sentence (S020 = S009)',
+}

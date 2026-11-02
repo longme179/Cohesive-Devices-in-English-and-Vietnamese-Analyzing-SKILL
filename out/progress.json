@@ -364,6 +364,93 @@
     "added": 5
    },
    "qc": "PASS"
+  },
+  "P17": {
+   "status": "done",
+   "st_sentences": 22,
+   "tt_sentences": 22,
+   "st_ties": 49,
+   "tt_ties": 46,
+   "st_counts": {
+    "L": 41,
+    "R": 5,
+    "C": 3
+   },
+   "tt_counts": {
+    "L": 41,
+    "R": 2,
+    "C": 3
+   },
+   "alignment": {
+    "kept": 44,
+    "omitted": 5,
+    "added": 2
+   },
+   "qc": "PASS"
+  },
+  "P18": {
+   "status": "done",
+   "st_sentences": 22,
+   "tt_sentences": 24,
+   "st_ties": 53,
+   "tt_ties": 44,
+   "st_counts": {
+    "L": 41,
+    "R": 11,
+    "C": 1
+   },
+   "tt_counts": {
+    "L": 37,
+    "R": 7
+   },
+   "alignment": {
+    "kept": 22,
+    "added": 25
+   },
+   "qc": "PASS"
+  },
+  "P19": {
+   "status": "done",
+   "st_sentences": 21,
+   "tt_sentences": 22,
+   "st_ties": 47,
+   "tt_ties": 48,
+   "st_counts": {
+    "L": 43,
+    "R": 3,
+    "C": 1
+   },
+   "tt_counts": {
+    "L": 44,
+    "R": 3,
+    "C": 1
+   },
+   "alignment": {
+    "kept": 21,
+    "added": 27
+   },
+   "qc": "PASS"
+  },
+  "P20": {
+   "status": "done",
+   "st_sentences": 60,
+   "tt_sentences": 44,
+   "st_ties": 120,
+   "tt_ties": 83,
+   "st_counts": {
+    "L": 88,
+    "R": 32
+   },
+   "tt_counts": {
+    "R": 14,
+    "L": 69
+   },
+   "alignment": {
+    "kept": 41,
+    "omitted": 19,
+    "added": 42
+   },
+   "qc": "PASS"
   }
  },
  "last_updated": "auto"

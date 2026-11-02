@@ -1,0 +1,4 @@
+QC P17 VI (TT): PASS
+(e) counts: {'C': 3, 'L': 41, 'R': 2}
+confidence: {'high': 36, 'med': 10}
+sentences: 22, ties: 46

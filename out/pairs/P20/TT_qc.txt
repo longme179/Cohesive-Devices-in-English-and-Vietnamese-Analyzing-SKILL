@@ -1,0 +1,4 @@
+QC P20 VI (TT): PASS
+(e) counts: {'L': 69, 'R': 14}
+confidence: {'high': 73, 'low': 1, 'med': 9}
+sentences: 44, ties: 83

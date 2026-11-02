@@ -1,0 +1,341 @@
+{
+ "pair": "P19",
+ "alignments": [
+  {
+   "st_tie": "P19-EN-001",
+   "tt_tie": "P19-VI-001",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P19-EN-002",
+   "tt_tie": "P19-VI-002",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P19-EN-003",
+   "tt_tie": "P19-VI-004",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P19-EN-004",
+   "tt_tie": "P19-VI-005",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P19-EN-005",
+   "tt_tie": "P19-VI-006",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P19-EN-006",
+   "tt_tie": "P19-VI-007",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P19-EN-007",
+   "tt_tie": "P19-VI-008",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P19-EN-008",
+   "tt_tie": "P19-VI-009",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P19-EN-009",
+   "tt_tie": "P19-VI-010",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P19-EN-010",
+   "tt_tie": "P19-VI-011",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P19-EN-011",
+   "tt_tie": "P19-VI-012",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P19-EN-012",
+   "tt_tie": "P19-VI-013",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P19-EN-013",
+   "tt_tie": "P19-VI-014",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P19-EN-014",
+   "tt_tie": "P19-VI-015",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P19-EN-015",
+   "tt_tie": "P19-VI-016",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P19-EN-016",
+   "tt_tie": "P19-VI-017",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P19-EN-017",
+   "tt_tie": "P19-VI-018",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P19-EN-018",
+   "tt_tie": "P19-VI-019",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P19-EN-019",
+   "tt_tie": "P19-VI-020",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P19-EN-020",
+   "tt_tie": "P19-VI-021",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P19-EN-021",
+   "tt_tie": "P19-VI-022",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P19-VI-003",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT S003 restates the lede (Hành khách của các chuyến bay...); EN has no counterpart"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P19-VI-023",
+   "outcome": "added",
+   "shift": null,
+   "note": "no ST counterpart"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P19-VI-024",
+   "outcome": "added",
+   "shift": null,
+   "note": "no ST counterpart"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P19-VI-025",
+   "outcome": "added",
+   "shift": null,
+   "note": "no ST counterpart"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P19-VI-026",
+   "outcome": "added",
+   "shift": null,
+   "note": "no ST counterpart"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P19-VI-027",
+   "outcome": "added",
+   "shift": null,
+   "note": "no ST counterpart"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P19-VI-028",
+   "outcome": "added",
+   "shift": null,
+   "note": "no ST counterpart"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P19-VI-029",
+   "outcome": "added",
+   "shift": null,
+   "note": "no ST counterpart"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P19-VI-030",
+   "outcome": "added",
+   "shift": null,
+   "note": "no ST counterpart"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P19-VI-031",
+   "outcome": "added",
+   "shift": null,
+   "note": "no ST counterpart"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P19-VI-032",
+   "outcome": "added",
+   "shift": null,
+   "note": "no ST counterpart"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P19-VI-033",
+   "outcome": "added",
+   "shift": null,
+   "note": "no ST counterpart"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P19-VI-034",
+   "outcome": "added",
+   "shift": null,
+   "note": "no ST counterpart"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P19-VI-035",
+   "outcome": "added",
+   "shift": null,
+   "note": "no ST counterpart"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P19-VI-036",
+   "outcome": "added",
+   "shift": null,
+   "note": "no ST counterpart"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P19-VI-037",
+   "outcome": "added",
+   "shift": null,
+   "note": "no ST counterpart"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P19-VI-038",
+   "outcome": "added",
+   "shift": null,
+   "note": "no ST counterpart"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P19-VI-039",
+   "outcome": "added",
+   "shift": null,
+   "note": "no ST counterpart"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P19-VI-040",
+   "outcome": "added",
+   "shift": null,
+   "note": "no ST counterpart"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P19-VI-041",
+   "outcome": "added",
+   "shift": null,
+   "note": "no ST counterpart"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P19-VI-042",
+   "outcome": "added",
+   "shift": null,
+   "note": "no ST counterpart"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P19-VI-043",
+   "outcome": "added",
+   "shift": null,
+   "note": "no ST counterpart"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P19-VI-044",
+   "outcome": "added",
+   "shift": null,
+   "note": "no ST counterpart"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P19-VI-045",
+   "outcome": "added",
+   "shift": null,
+   "note": "no ST counterpart"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P19-VI-046",
+   "outcome": "added",
+   "shift": null,
+   "note": "no ST counterpart"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P19-VI-047",
+   "outcome": "added",
+   "shift": null,
+   "note": "no ST counterpart"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P19-VI-048",
+   "outcome": "added",
+   "shift": null,
+   "note": "no ST counterpart"
+  }
+ ]
+}
