@@ -2,7 +2,7 @@
 
 Tài liệu này giúp một AI agent (hoặc người) **tái lập toàn bộ quy trình** của repo này với **20 cặp bài báo khác** để ra sản phẩm tương đương **Appendix 1** (phụ lục highlight 5 màu + chữ mũ A/C/E, 20 bảng 2 cột EN|VI).
 
-> **Phạm vi vòng này: APPENDIX 1.** Phần Appendix 2 (báo cáo phát hiện + `stats.csv` / `shifts.csv` / `spot_check.csv`) **chưa được tái lập trong vòng này**; tuy nhiên **bảng align đã được DỰNG LẠI theo giao thức mới** (Giai đoạn D hoàn tất, cổng kiểm 13 PASS 20/20 — xem §9 và `out/align_v2/`), sản phẩm giao người dùng: `download/BDNC/Appendix1_Align.docx|.pdf`. Appendix 2 sẽ dựng từ dữ liệu align v2 này ở vòng sau.
+> **Phạm vi vòng này: APPENDIX 1.** Phần Appendix 2 (báo cáo phát hiện + `stats.csv` / `shifts.csv` / `spot_check.csv`) **chưa được tái lập trong vòng này**; tuy nhiên **bảng align đã được DỰNG LẠI theo giao thức mới** (Giai đoạn D hoàn tất, cổng kiểm 13 PASS 20/20 — xem §9 và `out/align_v2/`) và **Appendix 1 đã được TÔ LẠI từ align v2** (Giai đoạn E v2: giữ nguyên định dạng 2 cột E–V + marking 5 màu + mũ A/C/E, cộng annotation kết quả căn cặp + 2.996 comment Word — xem Bước 15 và §9). Sản phẩm giao người dùng: `download/BDNC/Appendix1.docx|.pdf` (bản chuẩn) và `download/BDNC/Appendix1_Align.docx|.pdf` (bảng căn cặp chi tiết). Appendix 2 sẽ dựng từ dữ liệu align v2 này ở vòng sau.
 
 ## 0. Nguyên tắc nền tảng — PHÂN TÍCH THỦ CÔNG TỪNG CẶP TRƯỚC, MARKING THÀNH PHẨM SAU
 
@@ -120,6 +120,8 @@ Mọi tie phải truy vết được về một nhận định trong bản phân
 
 **Bước 15 — Xuất DOCX.** `export_docx.py` → `Appendix1.docx` (bảng 2 cột, tô màu run-level `w:shd`, chữ mũ A/C/E superscript). Xuất PDF qua `soffice` nếu cần bản in.
 
+**Bước 15b — (v2, sau khi có align qua cổng 13) Tô lại Appendix 1 từ bảng align.** `scripts/rebuild/export_appendix1_v2.py`: giữ NGUYÊN định dạng và marking của Bước 14–15 (đối chiếu ký tự: 606/606 hàng bảng pair giống hệt bản cũ sau khi bỏ các run mũ), cộng trên MỖI khối đánh dấu: (i) annotation kết quả căn cặp — mũ nhỏ màu ngay sau khối (→ giữ · » dịch chuyển · ~ giữ-không-đánh-dấu · × bỏ—khối cắt/vi-lược · + thêm—tự sinh/bất đối xứng kiểm kê; 2.996 tag, tổng khớp đúng từng loại với align v2); (ii) comment Word đầy đủ (id tie, danh mục/loại phụ, hướng A/C/E, tiền trạm, conf, kết quả + đối tác EN/VI — điểm gộp liệt kê đủ các tie EN, ghi chú) qua `python-docx ≥ 1.2` `Document.add_comment`. Quy tắc phía VI: khối VI là điểm gộp của nhiều tie EN thì ưu tiên hiển thị → (giữ), chi tiết trong comment. Trang đầu thêm bảng chú giải 7 kết quả căn cặp. QC inbuilt: đếm run theo màu (phải khớp marking gốc), đếm run mũ (395 A/C/E + 2.996 tag), đếm comment (2.996).
+
 ### GIAI ĐOẠN F — Tổng hợp & giao
 
 **Bước 16 — Thống kê.** `stats.py` → `stats.csv`, `shifts.csv`, `spot_check.csv`; `summarize.py PXX` → `summary.md` + `progress.json`. ⚠ Chỉ chạy sau khi align qua cổng bước 13 (vòng cũ chạy với align zip → thống kê cấp alignment lỗi).
@@ -203,7 +205,7 @@ download/BDNC/semantic_analysis/   ★ 20 bản phân tích thủ công từng c
 
 - **Tầng tie (tin cậy):** tổng tie EN 1.605 / VI 1.391. R: 246/149 (A: 234/135, E: 12/14, C: 0/0). S: 0/0. Ellipsis: 1/0. C: 65/67. L: 1.293/1.175. L-sub chủ đạo: repetition (EN 1.240, VI 1.146). Marker coverage render: 100/100%. Tie conf=low: 76 (bridging).
 - **Tầng câu (tin cậy khi có bản đồ):** vd P20 = 41 giữ / 19 bỏ / 3+byline tự sinh; P19 = 21↔21 1–1 + 1 câu VI tự sinh.
-- **Tầng alignment (ĐÃ DỰNG LẠI — tin cậy sau cổng 13, 20/20 PASS):** giữ 1.097 · dịch chuyển 28 · giữ-không-đánh-dấu 176 · bỏ-khối-cắt 201 · bỏ-vi-lược 103 (tổng ST 1.605 ✓) · thêm-thật 48 · thêm-bất-đối-xứng-kiểm-kê 260. Đối chiếu độc lập với phân tích tay: P20 = 80 giữ (59 kept + 21 kept_unmarked) / 40 bỏ / 4 thêm-thật — khớp chính xác §8.6; P12 1 bỏ/1 thêm ✓; P13 18 giữ/11 bỏ ✓; P16 2 bỏ ✓; P17 1 bỏ ✓; P18–P19 0 bỏ ✓. Số liệu align CŨ (kept 1126/omitted 348/added 320) chỉ còn giá trị lịch sử. Cảnh báo tồn tại: P03 (biên tập lại — link chỉ tham khảo), P15 (1 đảo khối). Chi tiết: `out/align_v2/`, giao người dùng: `download/BDNC/Appendix1_Align.docx|.pdf` (marking 5 màu + mũ A/C/E + annotation kết quả + bảng căn cặp chi tiết từng tie).
+- **Tầng alignment (ĐÃ DỰNG LẠI — tin cậy sau cổng 13, 20/20 PASS):** giữ 1.097 · dịch chuyển 28 · giữ-không-đánh-dấu 176 · bỏ-khối-cắt 201 · bỏ-vi-lược 103 (tổng ST 1.605 ✓) · thêm-thật 48 · thêm-bất-đối-xứng-kiểm-kê 260. Đối chiếu độc lập với phân tích tay: P20 = 80 giữ (59 kept + 21 kept_unmarked) / 40 bỏ / 4 thêm-thật — khớp chính xác §8.6; P12 1 bỏ/1 thêm ✓; P13 18 giữ/11 bỏ ✓; P16 2 bỏ ✓; P17 1 bỏ ✓; P18–P19 0 bỏ ✓. Số liệu align CŨ (kept 1126/omitted 348/added 320) chỉ còn giá trị lịch sử. Cảnh báo tồn tại: P03 (biên tập lại — link chỉ tham khảo), P15 (1 đảo khối). Chi tiết: `out/align_v2/`, giao người dùng: `download/BDNC/Appendix1_Align.docx|.pdf` (marking 5 màu + mũ A/C/E + annotation kết quả + bảng căn cặp chi tiết từng tie) và `download/BDNC/Appendix1.docx|.pdf` — **Appendix 1 bản tô lại (v5)**: định dạng 2 cột E–V + marking như vòng trước, mỗi khối thêm annotation kết quả căn cặp (tag phân bố: EN → 1097 · » 28 · ~ 176 · × 304; VI → 1058 · » 25 · + 308) + 2.996 comment Word note đầy đủ từng tie.
 
 ## 10. Hồ sơ 20 cặp (địa hình — kết quả của việc phân tích thủ công từng cặp)
 
