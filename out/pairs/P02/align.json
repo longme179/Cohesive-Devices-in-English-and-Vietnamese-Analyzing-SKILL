@@ -1,0 +1,1384 @@
+{
+ "pair": "P02",
+ "alignments": [
+  {
+   "st_tie": "P02-EN-001",
+   "tt_tie": "P02-VI-001",
+   "outcome": "kept",
+   "shift": null,
+   "note": "homeless -> vô gia cư"
+  },
+  {
+   "st_tie": "P02-EN-002",
+   "tt_tie": "P02-VI-002",
+   "outcome": "kept",
+   "shift": null,
+   "note": "She -> Cô"
+  },
+  {
+   "st_tie": "P02-EN-003",
+   "tt_tie": "P02-VI-002",
+   "outcome": "kept",
+   "shift": null,
+   "note": "EN has She+she, TT one Cô"
+  },
+  {
+   "st_tie": "P02-EN-004",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "TT drops possessive (được đưa đến sống cùng dì)"
+  },
+  {
+   "st_tie": "P02-EN-005",
+   "tt_tie": "P02-VI-003",
+   "outcome": "kept",
+   "shift": null,
+   "note": "They -> Cả hai (quantified reference)"
+  },
+  {
+   "st_tie": "P02-EN-006",
+   "tt_tie": "P02-VI-004",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-007",
+   "tt_tie": "P02-VI-005",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-008",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "TT drops possessive"
+  },
+  {
+   "st_tie": "P02-EN-009",
+   "tt_tie": "P02-VI-007",
+   "outcome": "kept",
+   "shift": null,
+   "note": "EN She+she, TT one cô"
+  },
+  {
+   "st_tie": "P02-EN-010",
+   "tt_tie": "P02-VI-007",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-011",
+   "tt_tie": "P02-VI-008",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-012",
+   "tt_tie": "P02-VI-009",
+   "outcome": "kept",
+   "shift": null,
+   "note": "housing insecurity -> bất ổn về nhà ở"
+  },
+  {
+   "st_tie": "P02-EN-013",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "vague it; TT reformulates (nói ra thôi cũng khiến tôi nhói lòng)"
+  },
+  {
+   "st_tie": "P02-EN-014",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "say it -> nói ra (pro-drop)"
+  },
+  {
+   "st_tie": "P02-EN-015",
+   "tt_tie": "P02-VI-010",
+   "outcome": "kept",
+   "shift": null,
+   "note": "I -> Tôi (first person in quote)"
+  },
+  {
+   "st_tie": "P02-EN-016",
+   "tt_tie": "P02-VI-012",
+   "outcome": "kept",
+   "shift": null,
+   "note": "she -> cô"
+  },
+  {
+   "st_tie": "P02-EN-017",
+   "tt_tie": "P02-VI-017",
+   "outcome": "kept",
+   "shift": null,
+   "note": "family -> người thân"
+  },
+  {
+   "st_tie": "P02-EN-018",
+   "tt_tie": "P02-VI-016",
+   "outcome": "kept",
+   "shift": null,
+   "note": "cousins -> anh chị em họ"
+  },
+  {
+   "st_tie": "P02-EN-019",
+   "tt_tie": "P02-VI-019",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-020",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "TT chúng tôi has same-sentence antecedent (family just listed); EN we points back to S002"
+  },
+  {
+   "st_tie": "P02-EN-021",
+   "tt_tie": "P02-VI-020",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-022",
+   "tt_tie": "P02-VI-021",
+   "outcome": "kept",
+   "shift": null,
+   "note": "stigma -> định kiến"
+  },
+  {
+   "st_tie": "P02-EN-023",
+   "tt_tie": "P02-VI-022",
+   "outcome": "kept",
+   "shift": null,
+   "note": "shame -> xấu hổ"
+  },
+  {
+   "st_tie": "P02-EN-024",
+   "tt_tie": "P02-VI-023",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-025",
+   "tt_tie": "P02-VI-025",
+   "outcome": "kept",
+   "shift": null,
+   "note": "sentence-initial And -> mid-sentence cũng"
+  },
+  {
+   "st_tie": "P02-EN-026",
+   "tt_tie": "P02-VI-024",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-027",
+   "tt_tie": "P02-VI-026",
+   "outcome": "kept",
+   "shift": null,
+   "note": "people -> người (general)"
+  },
+  {
+   "st_tie": "P02-EN-028",
+   "tt_tie": "P02-VI-028",
+   "outcome": "kept",
+   "shift": null,
+   "note": "New analysis -> Phân tích mới"
+  },
+  {
+   "st_tie": "P02-EN-029",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT marks the compound người vô gia cư as one chain (vô gia cư)"
+  },
+  {
+   "st_tie": "P02-EN-030",
+   "tt_tie": "P02-VI-030",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-031",
+   "tt_tie": "P02-VI-032",
+   "outcome": "kept",
+   "shift": null,
+   "note": "hotspots echo verbatim in TT"
+  },
+  {
+   "st_tie": "P02-EN-032",
+   "tt_tie": "P02-VI-034",
+   "outcome": "kept",
+   "shift": null,
+   "note": "struggling... -> chật vật tìm kiếm"
+  },
+  {
+   "st_tie": "P02-EN-033",
+   "tt_tie": "P02-VI-035",
+   "outcome": "kept",
+   "shift": null,
+   "note": "list -> danh sách"
+  },
+  {
+   "st_tie": "P02-EN-034",
+   "tt_tie": "P02-VI-036",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-035",
+   "tt_tie": "P02-VI-037",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-036",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT uses top 5 as a fresh item (no prior top)"
+  },
+  {
+   "st_tie": "P02-EN-037",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT khu vực first mention in S015"
+  },
+  {
+   "st_tie": "P02-EN-038",
+   "tt_tie": "P02-VI-039",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the top 20 -> Danh sách 20 điểm nóng; điểm nóng tie also marked (VI-040)"
+  },
+  {
+   "st_tie": "P02-EN-039",
+   "tt_tie": "P02-VI-042",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-040",
+   "tt_tie": "P02-VI-043",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-041",
+   "tt_tie": "P02-VI-044",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-042",
+   "tt_tie": "P02-VI-044",
+   "outcome": "kept",
+   "shift": null,
+   "note": "merged in TT marking"
+  },
+  {
+   "st_tie": "P02-EN-043",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "TT chúng ta generic inclusive, unmarked"
+  },
+  {
+   "st_tie": "P02-EN-044",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "TT chúng ta generic inclusive, unmarked"
+  },
+  {
+   "st_tie": "P02-EN-045",
+   "tt_tie": "P02-VI-046",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-046",
+   "tt_tie": "P02-VI-047",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-047",
+   "tt_tie": "P02-VI-048",
+   "outcome": "kept",
+   "shift": null,
+   "note": "that -> này (demonstrative)"
+  },
+  {
+   "st_tie": "P02-EN-048",
+   "tt_tie": "P02-VI-049",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-049",
+   "tt_tie": "P02-VI-050",
+   "outcome": "kept",
+   "shift": null,
+   "note": "she -> bà (kinship term as pronoun)"
+  },
+  {
+   "st_tie": "P02-EN-050",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "TT Chúng ta generic inclusive, unmarked"
+  },
+  {
+   "st_tie": "P02-EN-051",
+   "tt_tie": "P02-VI-051",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-052",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "TT clausal demonstrative Điều này is intra-sentential"
+  },
+  {
+   "st_tie": "P02-EN-053",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT vấn đề is first mention in S018"
+  },
+  {
+   "st_tie": "P02-EN-054",
+   "tt_tie": "P02-VI-053",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-055",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT does not repeat thách thức in S018"
+  },
+  {
+   "st_tie": "P02-EN-056",
+   "tt_tie": "P02-VI-056",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-057",
+   "tt_tie": "P02-VI-058",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-058",
+   "tt_tie": "P02-VI-060",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-059",
+   "tt_tie": "P02-VI-059",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-060",
+   "tt_tie": "P02-VI-062",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-061",
+   "tt_tie": "P02-VI-063",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-062",
+   "tt_tie": "P02-VI-061",
+   "outcome": "kept",
+   "shift": null,
+   "note": "struggle -> chật vật"
+  },
+  {
+   "st_tie": "P02-EN-063",
+   "tt_tie": "P02-VI-064",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-064",
+   "tt_tie": "P02-VI-065",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-065",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT việc học first mention in S022"
+  },
+  {
+   "st_tie": "P02-EN-066",
+   "tt_tie": "P02-VI-068",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-067",
+   "tt_tie": "P02-VI-069",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-068",
+   "tt_tie": "P02-VI-070",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Now -> Hiện tại"
+  },
+  {
+   "st_tie": "P02-EN-069",
+   "tt_tie": "P02-VI-071",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-070",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT introduces youth foyers in parentheses with same-sentence apposition"
+  },
+  {
+   "st_tie": "P02-EN-071",
+   "tt_tie": "P02-VI-073",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-072",
+   "tt_tie": "P02-VI-072",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-073",
+   "tt_tie": "P02-VI-074",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-074",
+   "tt_tie": "P02-VI-075",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-075",
+   "tt_tie": "P02-VI-076",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-076",
+   "tt_tie": "P02-VI-077",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-077",
+   "tt_tie": "P02-VI-079",
+   "outcome": "kept",
+   "shift": null,
+   "note": "accommodation -> chỗ ở"
+  },
+  {
+   "st_tie": "P02-EN-078",
+   "tt_tie": "P02-VI-082",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-079",
+   "tt_tie": "P02-VI-083",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-080",
+   "tt_tie": "P02-VI-085",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-081",
+   "tt_tie": "P02-VI-086",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-082",
+   "tt_tie": "P02-VI-087",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-083",
+   "tt_tie": "P02-VI-088",
+   "outcome": "kept",
+   "shift": null,
+   "note": "also -> cũng"
+  },
+  {
+   "st_tie": "P02-EN-084",
+   "tt_tie": "P02-VI-089",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-085",
+   "tt_tie": "P02-VI-090",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-086",
+   "tt_tie": "P02-VI-091",
+   "outcome": "kept",
+   "shift": null,
+   "note": "And so -> Vì vậy"
+  },
+  {
+   "st_tie": "P02-EN-087",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "TT chúng ta generic inclusive, unmarked"
+  },
+  {
+   "st_tie": "P02-EN-088",
+   "tt_tie": "P02-VI-092",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-089",
+   "tt_tie": "P02-VI-093",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-090",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "pathway -> lối thoát (fresh lexis, no TT tie)"
+  },
+  {
+   "st_tie": "P02-EN-091",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT hệ thống first mention"
+  },
+  {
+   "st_tie": "P02-EN-092",
+   "tt_tie": "P02-VI-094",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-093",
+   "tt_tie": "P02-VI-096",
+   "outcome": "kept",
+   "shift": null,
+   "note": "He -> Ông"
+  },
+  {
+   "st_tie": "P02-EN-094",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "C>zero",
+   "note": "TT S030 has no additive"
+  },
+  {
+   "st_tie": "P02-EN-095",
+   "tt_tie": "P02-VI-098",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-096",
+   "tt_tie": "P02-VI-097",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-097",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT trường học first mention (no prior school item)"
+  },
+  {
+   "st_tie": "P02-EN-098",
+   "tt_tie": "P02-VI-100",
+   "outcome": "kept",
+   "shift": null,
+   "note": "prevention -> phòng ngừa"
+  },
+  {
+   "st_tie": "P02-EN-099",
+   "tt_tie": "P02-VI-101",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-100",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "TT chúng ta generic inclusive, unmarked"
+  },
+  {
+   "st_tie": "P02-EN-101",
+   "tt_tie": "P02-VI-102",
+   "outcome": "kept",
+   "shift": null,
+   "note": "prevent -> ngăn chặn"
+  },
+  {
+   "st_tie": "P02-EN-102",
+   "tt_tie": "P02-VI-105",
+   "outcome": "kept",
+   "shift": null,
+   "note": "it -> này (vấn đề này)"
+  },
+  {
+   "st_tie": "P02-EN-103",
+   "tt_tie": "P02-VI-103",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-104",
+   "tt_tie": "P02-VI-103",
+   "outcome": "kept",
+   "shift": null,
+   "note": "merged in TT marking"
+  },
+  {
+   "st_tie": "P02-EN-105",
+   "tt_tie": "P02-VI-104",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-106",
+   "tt_tie": "P02-VI-105",
+   "outcome": "shifted",
+   "shift": "L>R",
+   "note": "the problem -> vấn đề này (general word -> demonstrative NP)"
+  },
+  {
+   "st_tie": "P02-EN-107",
+   "tt_tie": "P02-VI-106",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-108",
+   "tt_tie": "P02-VI-107",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-109",
+   "tt_tie": "P02-VI-110",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-110",
+   "tt_tie": "P02-VI-112",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-111",
+   "tt_tie": "P02-VI-113",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-112",
+   "tt_tie": "P02-VI-114",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-113",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "TT drops possessive (sự hỗ trợ từ nhân viên...)"
+  },
+  {
+   "st_tie": "P02-EN-114",
+   "tt_tie": "P02-VI-116",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-115",
+   "tt_tie": "P02-VI-117",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-116",
+   "tt_tie": "P02-VI-118",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-117",
+   "tt_tie": "P02-VI-120",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-118",
+   "tt_tie": "P02-VI-119",
+   "outcome": "shifted",
+   "shift": "R>L",
+   "note": "she -> Tyrah Chan-Hampton (repeated name)"
+  },
+  {
+   "st_tie": "P02-EN-119",
+   "tt_tie": "P02-VI-121",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-120",
+   "tt_tie": "P02-VI-123",
+   "outcome": "kept",
+   "shift": null,
+   "note": "housing -> chỗ ở"
+  },
+  {
+   "st_tie": "P02-EN-121",
+   "tt_tie": "P02-VI-124",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-122",
+   "tt_tie": "P02-VI-125",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-123",
+   "tt_tie": "P02-VI-126",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-124",
+   "tt_tie": "P02-VI-127",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-125",
+   "tt_tie": "P02-VI-128",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-126",
+   "tt_tie": "P02-VI-131",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-127",
+   "tt_tie": "P02-VI-132",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-128",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT lâu dài fresh item"
+  },
+  {
+   "st_tie": "P02-EN-129",
+   "tt_tie": "P02-VI-133",
+   "outcome": "kept",
+   "shift": null,
+   "note": "government -> Chính phủ"
+  },
+  {
+   "st_tie": "P02-EN-130",
+   "tt_tie": "P02-VI-135",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-131",
+   "tt_tie": "P02-VI-136",
+   "outcome": "kept",
+   "shift": null,
+   "note": "spokesperson -> người phát ngôn"
+  },
+  {
+   "st_tie": "P02-EN-132",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "TT Những khoản đầu tư này is intra-sentential"
+  },
+  {
+   "st_tie": "P02-EN-133",
+   "tt_tie": "P02-VI-137",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-134",
+   "tt_tie": "P02-VI-139",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-135",
+   "tt_tie": "P02-VI-138",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-136",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT S042 uses giúp, no hỗ trợ item"
+  },
+  {
+   "st_tie": "P02-EN-137",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "TT merges EN S039-S040; This has no TT counterpart"
+  },
+  {
+   "st_tie": "P02-EN-138",
+   "tt_tie": "P02-VI-138",
+   "outcome": "kept",
+   "shift": null,
+   "note": "merged in TT marking"
+  },
+  {
+   "st_tie": "P02-EN-139",
+   "tt_tie": "P02-VI-139",
+   "outcome": "kept",
+   "shift": null,
+   "note": "merged in TT marking"
+  },
+  {
+   "st_tie": "P02-EN-140",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT S043 has no attribution phrase"
+  },
+  {
+   "st_tie": "P02-EN-141",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT S043 chính quyền bang is a fresh variant of chính phủ"
+  },
+  {
+   "st_tie": "P02-EN-142",
+   "tt_tie": "P02-VI-141",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-143",
+   "tt_tie": "P02-VI-142",
+   "outcome": "kept",
+   "shift": null,
+   "note": "merged in TT marking"
+  },
+  {
+   "st_tie": "P02-EN-144",
+   "tt_tie": "P02-VI-142",
+   "outcome": "kept",
+   "shift": null,
+   "note": "merged in TT marking"
+  },
+  {
+   "st_tie": "P02-EN-145",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "TT drops attribution pronoun (pro-drop: 91,7 triệu AUD đầu tư vào...)"
+  },
+  {
+   "st_tie": "P02-EN-146",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT S044 has no chính phủ item"
+  },
+  {
+   "st_tie": "P02-EN-147",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "C>zero",
+   "note": "TT S044 has no additive"
+  },
+  {
+   "st_tie": "P02-EN-148",
+   "tt_tie": "P02-VI-146",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-149",
+   "tt_tie": "P02-VI-145",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-150",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "TT drops attribution pronoun (pro-drop)"
+  },
+  {
+   "st_tie": "P02-EN-151",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT proper name Nhà ở Quốc gia; tie marked on nhà ở chuyển tiếp instead"
+  },
+  {
+   "st_tie": "P02-EN-152",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "C>zero",
+   "note": "TT cũng như is intra-sentential (connects NPs)"
+  },
+  {
+   "st_tie": "P02-EN-153",
+   "tt_tie": "P02-VI-150",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-154",
+   "tt_tie": "P02-VI-149",
+   "outcome": "kept",
+   "shift": null,
+   "note": "crisis and transitional accommodation -> nhà ở chuyển tiếp; khẩn cấp tie also marked (VI-151)"
+  },
+  {
+   "st_tie": "P02-EN-155",
+   "tt_tie": "P02-VI-152",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-156",
+   "tt_tie": "P02-VI-153",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P02-EN-157",
+   "tt_tie": "P02-VI-153",
+   "outcome": "kept",
+   "shift": null,
+   "note": "merged in TT marking"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-006",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT re-names Tyrah where EN uses pronouns (She said...)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-011",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT xấu hổ echoes S005 cảm thấy xấu hổ; EN shame in S006 is first mention (no tie)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-013",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT-only sentence (Wiradjuri self-identification); EN column showed none in the source table"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-014",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT-only sentence (Wiradjuri); no ST counterpart"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-015",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT-only sentence (Wiradjuri); no ST counterpart"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-018",
+   "outcome": "added",
+   "shift": null,
+   "note": "no ST counterpart"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-027",
+   "outcome": "added",
+   "shift": null,
+   "note": "no ST counterpart"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-029",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT hỗ trợ echoes S011 dịch vụ hỗ trợ; EN supports (verb) unmarked"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-031",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT nhà ở echoes S002; EN without a home unmarked"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-033",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT thanh niên chain; EN counterpart (people aged 16 to 24) marked on people instead"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-038",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT adds Vùng repetition (semi-generic region word)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-040",
+   "outcome": "added",
+   "shift": null,
+   "note": "second tie of the EN-038 echo (điểm nóng part)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-041",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT vô gia cư thanh niên echo; EN S014-015 marks other chains"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-045",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT synonym variation thanh niên / giới trẻ"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-052",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT repeats vô gia cư where EN says the problem"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-054",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT synonym variation thanh niên / giới trẻ (second instance)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-055",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT repeats trên khắp cả nước; EN across the country unmarked in S017"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-057",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT marks thanh niên separately within the youth-homelessness compound"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-066",
+   "outcome": "added",
+   "shift": null,
+   "note": "EN that (if you don\\u2019t have that) is intra-sentential; TT sentence split makes điều đó cross-sentential"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-067",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT adds pronoun họ where EN repeats young people"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-078",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT repeats trung tâm where EN uses them"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-080",
+   "outcome": "added",
+   "shift": null,
+   "note": "no ST counterpart"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-081",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT học echoes S022 việc học; EN education unmarked in S022"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-084",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT trung tâm chain (khủng hoảng centres)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-095",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT marks thanh niên separately within the compound"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-099",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT demonstrative này summarising the homelessness situation"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-108",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT thiếu niên echoes S033 tuổi thiếu niên; EN has no teenage repetition in S031"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-109",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT giúp đỡ echoes S030; EN help unmarked in S031"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-111",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT bế tắc echoes S022 tình cảnh bế tắc; EN disadvantage instead"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-115",
+   "outcome": "added",
+   "shift": null,
+   "note": "no ST counterpart"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-122",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT bất ổn echoes S005; EN unstable unmarked in S034"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-129",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT sự hỗ trợ echoes S037; EN S036 has no support item"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-130",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT nơi ở ổn định echoes S023; EN S036 has no equivalent chain item"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-134",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT nhà ở chain continues"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-140",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT nhà ở chain continues (lựa chọn nhà ở bền vững)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-143",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT nhà ở in proper name + hệ thống nhà ở xã hội"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-144",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT đầu tư echoes S042 khoản đầu tư; EN investing (verb) unmarked"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-147",
+   "outcome": "added",
+   "shift": null,
+   "note": "no ST counterpart"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-148",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT hỗ trợ chain continues (sự hỗ trợ từ cộng đồng)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P02-VI-151",
+   "outcome": "added",
+   "shift": null,
+   "note": "second part of the EN-154 echo (khẩn cấp part)"
+  }
+ ]
+}

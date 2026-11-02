@@ -26,6 +26,13 @@
   },
   {
    "lang": "EN",
+   "idx": 7,
+   "action": "strip_suffix",
+   "reason": "source defect: VI text inside EN cell",
+   "text": "Youth homelessness across Australia"
+  },
+  {
+   "lang": "EN",
    "idx": 15,
    "action": "exclude",
    "reason": "subheading",
@@ -54,6 +61,13 @@
   },
   {
    "lang": "VI",
+   "idx": 8,
+   "action": "strip_suffix",
+   "reason": "source defect: VI text inside EN cell",
+   "text": "Tình trạng vô gia cư ở thanh niên trên khắp nước Úc"
+  },
+  {
+   "lang": "VI",
    "idx": 12,
    "action": "strip_prefix",
    "reason": "merged subheading/stray fragment",
@@ -72,6 +86,13 @@
    "action": "exclude",
    "reason": "subheading",
    "text": "Nguyên nhân đằng sau cuộc khủng hoảng vô gia cư ở thanh niên"
+  },
+  {
+   "lang": "VI",
+   "idx": 20,
+   "action": "strip_suffix",
+   "reason": "source defect: VI text inside EN cell",
+   "text": "Youth Foyers – Mô hình hỗ trợ nhà ở chuyển tiếp cho thanh niên"
   },
   {
    "lang": "VI",

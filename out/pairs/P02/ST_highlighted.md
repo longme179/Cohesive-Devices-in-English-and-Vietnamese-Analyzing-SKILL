@@ -1,0 +1,47 @@
+# P02 — Source text (ST, English)
+
+**Title:** Australia is in a youth homelessness 'crisis'. These are the most affected areas
+
+**Framework:** Halliday & Hasan (1976)
+
+**Legend:** 🟨 Reference (`R`) | 🟩 Substitution (`S`) | 🟦 Ellipsis (`E`) | 🟧 Conjunction (`C`) | 🟪 Lexical cohesion (`L`) — ellipsis gap: 🟦⟦∅⟧
+
+---
+
+New analysis has identified the top 20 'hotspots' across the country where young people are experiencing homelessness or struggling to find a place to live.
+Tyrah Chan-Hampton experienced housing insecurity throughout her youth, but it took her a long time to identify with the word '🟪⟦homeless⟧'.
+🟨⟦She⟧ entered the care sector when 🟨⟦she⟧ was 11 and was placed in kinship care with 🟨⟦her⟧ aunt. 🟨⟦They⟧ experienced 🟪⟦homelessness⟧, lived in a refuge, and then with extended family, where 🟨⟦she⟧ shared a bed with 🟨⟦her⟧ sister and cousin.
+🟨⟦She⟧ said 🟨⟦she⟧ had often felt embarrassed due to the stigma attached to 🟪⟦homelessness⟧ and 🟪⟦housing insecurity⟧.
+"🟨⟦I⟧ struggled a lot with shame for a long time ... 🟨⟦it⟧ still sometimes stings just to say 🟨⟦it⟧," 🟨⟦she⟧ said.
+"When you think about First Nations households, it's very common for you to be living with your 🟪⟦cousins⟧ or living with 🟪⟦family⟧ members," 🟨⟦she⟧ said.
+"Even when my mum struggled with domestic violence and had to leave her house with me and my siblings, 🟨⟦we⟧ never thought that was experiencing 🟪⟦homelessness⟧ ... there's so much 🟪⟦stigma⟧ around it and so much 🟪⟦shame⟧ [surrounding] the word homelessness that many of us didn't want to identify with that."
+More than 122,000 people experience 🟪⟦homelessness⟧ on any given night in Australia each year, according to the Australian Bureau of Statistics.
+🟧⟦And⟧ according to the Australian Institute of Health and Welfare's 2023-24 🟪⟦homelessness⟧ services report, 38,600 🟪⟦people⟧ aged 16-24 sought help from homelessness services alone.
+🟪⟦New analysis⟧ by the Foyer Foundation, an organisation that supports 🟪⟦people⟧ experiencing or at risk of 🟪⟦homelessness⟧, has 🟪⟦identified the 20 hotspots across the country⟧ where people aged 16 to 24 are without a home or 🟪⟦struggling to find a place to live⟧.
+The Latrobe-Gippsland region in Victoria topped the 🟪⟦list⟧, with more than 1,000 🟪⟦young people⟧ experiencing 🟪⟦homelessness⟧.
+The Northern Territory outback, New England and North West NSW, Illawarra, and Western Australia outback (north) rounded out the 🟪⟦top five⟧. 🟪⟦Areas⟧ from all states and territories were included in 🟪⟦the top 20⟧.
+Corin Moffatt, co-CEO of the 🟪⟦Foyer Foundation⟧, said the 🟪⟦analysis⟧ considered the number of 🟪⟦young people⟧ experiencing 🟪⟦homelessness⟧, rates of youth unemployment, and rates of finishing high school.
+"What 🟨⟦we⟧ see when 🟨⟦we⟧ look at that 🟪⟦list⟧ is quite a diversity of 🟪⟦areas⟧ that are experiencing 🟨⟦that⟧ combination of challenges for 🟪⟦young people⟧," 🟨⟦she⟧ said. "🟨⟦We⟧ see a mix of regional centres, some more remote communities, and some inner metropolitan 🟪⟦areas⟧ ... so I think what 🟨⟦it⟧ shows is that the 🟪⟦problem⟧ is very widespread and 🟪⟦young people⟧ across the country are facing these 🟪⟦challenges⟧."
+🟪⟦Moffat⟧ said there are several factors contributing to 🟪⟦youth homelessness⟧ in Australia, including the soaring cost of living, lack of affordable 🟪⟦housing⟧, and high rates of 🟪⟦domestic violence⟧.
+"Adults on double incomes are struggling to afford 🟪⟦housing⟧, let alone 🟪⟦young people⟧ who 🟪⟦struggle⟧ to earn a livable income in many instances," 🟨⟦she⟧ said.
+"It's very hard for many 🟪⟦young people⟧ to have safe and secure accommodation, and if you don't have that, you can't finish 🟪⟦school⟧, you can't study, you can't hold down a job ... when those 🟪⟦factors⟧ come together, it makes it very hard for far too many 🟪⟦young people⟧ at the moment."
+🟧⟦Now⟧, 🟪⟦Foyer⟧ is calling on the government to fund additional 🟪⟦youth foyers⟧ and medium-term 🟪⟦housing⟧ to support 🟪⟦young people⟧ and provide a pathway out of 🟪⟦homelessness⟧.
+🟪⟦Youth foyers⟧ offer transitional 🟪⟦housing⟧ for 🟪⟦people⟧ aged 16 to 25 for up to two years and provide them with stable 🟪⟦accommodation⟧, access to youth workers, and support pursuing education or employment. 🟪⟦Moffat⟧ said while many 🟪⟦young people⟧ access crisis centres or emergency 🟪⟦support⟧ services, there is not enough ongoing support.
+"Beyond 🟪⟦crisis services⟧, 🟪⟦young people⟧ 🟧⟦also⟧ need 🟪⟦medium and longer-term housing⟧ options and there are not enough services there," 🟨⟦she⟧ said.
+"🟧⟦And so⟧ what 🟨⟦we⟧ see too often is 🟪⟦young people⟧ cycling through 🟪⟦crisis services⟧ because there's no 🟪⟦pathway⟧ for them out of the 🟪⟦system⟧."
+David MacKenzie is an associate professor at the University of South Australia and CEO of Upstream Australia, a change agency with a focus on 🟪⟦youth homelessness⟧.
+🟨⟦He⟧ believes there should 🟧⟦also⟧ be more focus on prevention, which can include 🟪⟦housing⟧ assistance, mental health 🟪⟦support⟧, and working with 🟪⟦schools⟧ to support vulnerable students.
+"The work you do at an early stage, 🟪⟦prevention⟧, that's better than having to fight to do the cure later on," 🟨⟦he⟧ said.
+"If 🟨⟦we⟧ don't act to 🟪⟦prevent⟧ 🟨⟦it⟧ and to reduce the flow of 🟪⟦people⟧ and 🟪⟦young people⟧ in particular into 🟪⟦homelessness⟧, then the 🟪⟦problem⟧ continues."
+🟪⟦MacKenzie⟧ said experiencing 🟪⟦homelessness⟧ in teenage years or early adulthood can have lifelong impacts.
+"If you're a 15-year-old and things start to go wrong for you and there's no one there to help you, no one there to 🟪⟦support⟧ you, no one to help you get your life back in order, you may well face long-term disadvantage in so many ways," 🟨⟦he⟧ said.
+Now 23, 🟪⟦Chan-Hampton⟧ has graduated from university with a degree in social work, and does advocacy across Australia.
+🟨⟦She⟧ said being supported by 🟨⟦her⟧ case worker and securing a place in a 🟪⟦youth foyer⟧ for 🟪⟦two years⟧ changed 🟨⟦her⟧ life.
+Without 🟪⟦support services⟧, 🟨⟦she⟧ believes it is virtually impossible for 🟪⟦young people⟧ living in unstable or unsafe environments to find secure 🟪⟦housing⟧.
+"🟪⟦People⟧ are staying in 🟪⟦unsafe environments⟧ just because they have absolutely nowhere to go," 🟨⟦she⟧ said.
+"You have 🟪⟦young people⟧ living in their cars and living on the street, living in 🟪⟦crisis accommodation⟧, trying so hard to get out of it, but there's just genuinely nothing available for that young person to go to."
+In a statement to SBS News, a Department of Social Services spokesperson said addressing 🟪⟦homelessness⟧ required 🟪⟦long-term⟧, systematic effort across all levels of government, the 🟪⟦housing⟧ and homelessness support sectors and the broader community.
+"The 🟪⟦government⟧ is committed to an ambitious 🟪⟦housing and homelessness⟧ reform agenda," the 🟪⟦spokesperson⟧ said.
+"As part of 🟨⟦this⟧, the 🟪⟦government⟧ is making significant investments to 🟪⟦support⟧ 🟪⟦people⟧ who are 🟪⟦homeless⟧ or at risk of homelessness. 🟨⟦This⟧ includes 🟪⟦young people⟧ who are at risk of, or who are experiencing, 🟪⟦homelessness⟧." 🟪⟦The spokesperson⟧ said the 🟪⟦government⟧, under the National Agreement on Social 🟪⟦Housing and Homelessness⟧, was providing $9.3 billion to state and territory governments to help 🟪⟦people⟧ experiencing or at risk of 🟪⟦homelessness⟧, and to support the operation of Australia's social housing and homelessness services sectors.
+🟨⟦They⟧ said the 🟪⟦government⟧ was 🟧⟦also⟧ investing $91.7 million in 🟪⟦youth homelessness⟧ 🟪⟦prevention⟧ services through the Reconnect Program, a community-based early intervention and prevention program.
+🟨⟦They⟧ added that the National 🟪⟦Housing⟧ Infrastructure Facility has 🟧⟦also⟧ received an additional $1 billion in federal funding to 🟪⟦support⟧ 🟪⟦crisis and transitional accommodation⟧ for women and children experiencing 🟪⟦domestic violence⟧, and for 🟪⟦youth⟧ experiencing or at risk of 🟪⟦homelessness⟧.
