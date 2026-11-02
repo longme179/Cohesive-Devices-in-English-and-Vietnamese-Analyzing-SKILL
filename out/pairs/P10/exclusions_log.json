@@ -101,6 +101,13 @@
   },
   {
    "lang": "EN",
+   "idx": 4,
+   "action": "exclude",
+   "reason": "duplicated standfirst (source table repeats the intro)",
+   "text": "Beyond making overseas travel more expensive, a weaker Aussie dollar can impact any part of the Australian economy depen"
+  },
+  {
+   "lang": "EN",
    "idx": 7,
    "action": "exclude",
    "reason": "subheading",
@@ -112,6 +119,20 @@
    "action": "exclude",
    "reason": "subheading",
    "text": "How does a weak dollar affect the cost of living?"
+  },
+  {
+   "lang": "EN",
+   "idx": 20,
+   "action": "strip_mid",
+   "reason": "merged photo caption",
+   "text": "Is now a good time to exchange currency?"
+  },
+  {
+   "lang": "EN",
+   "idx": 23,
+   "action": "strip_mid",
+   "reason": "merged photo caption",
+   "text": "What is the prediction for the Australian dollar?"
   },
   {
    "lang": "VI",
@@ -129,6 +150,13 @@
   },
   {
    "lang": "VI",
+   "idx": 11,
+   "action": "exclude",
+   "reason": "duplicate paragraph (repeats VI[10] quote + VI[12] attribution)",
+   "text": "Nhà kinh tế trưởng tại Viện Úc Greg Jericho đồng ý. \"Và giá cả giảm đối với các mặt hàng chủ chốt như quặng sắt và than "
+  },
+  {
+   "lang": "VI",
    "idx": 15,
    "action": "exclude",
    "reason": "subheading",
@@ -137,9 +165,65 @@
   {
    "lang": "VI",
    "idx": 20,
-   "action": "strip_prefix",
-   "reason": "merged subheading/stray fragment",
-   "text": "Một số biện pháp hỗ trợ chi phí sinh hoạt của chính phủ Úc"
+   "action": "exclude",
+   "reason": "misplaced cost-of-living content (belongs to P05; subhead + PBS freeze)",
+   "text": "Một số biện pháp hỗ trợ chi phí sinh hoạt của chính phủ Úc Trong số các biện pháp có việc đóng băng chỉ số đồng thanh to"
+  },
+  {
+   "lang": "VI",
+   "idx": 21,
+   "action": "exclude",
+   "reason": "misplaced cost-of-living content (PBS)",
+   "text": "Theo thông tin từ Bộ y tế và chăm sóc người cao tuổi, điều này có nghĩa là số tiền người Úc phải trả cho các loại thuốc "
+  },
+  {
+   "lang": "VI",
+   "idx": 22,
+   "action": "exclude",
+   "reason": "misplaced cost-of-living content (PBS)",
+   "text": "Lệnh đóng băng sẽ áp dụng trong một năm đối với bệnh nhân nói chung, áp dụng cho tất cả mọi người có thẻ Medicare. Sẽ có"
+  },
+  {
+   "lang": "VI",
+   "idx": 23,
+   "action": "exclude",
+   "reason": "misplaced cost-of-living content (PBS)",
+   "text": "Biện pháp này nhằm giúp giảm bớt áp lực về chi phí sinh hoạt và khuyến khích bệnh nhân không trì hoãn việc mua thuốc the"
+  },
+  {
+   "lang": "VI",
+   "idx": 24,
+   "action": "exclude",
+   "reason": "misplaced cost-of-living content (Centrelink)",
+   "text": "Bên cạnh đó, hơn một triệu người Úc — nhưng đặc biệt là sinh viên — sẽ được hưởng lợi từ khoản tăng thanh toán Centrelin"
+  },
+  {
+   "lang": "VI",
+   "idx": 25,
+   "action": "exclude",
+   "reason": "misplaced cost-of-living content (Centrelink)",
+   "text": "Trợ cấp thanh niên và các khoản thanh toán Austudy sẽ tăng lên tới 30,60 đô la mỗi hai tuần."
+  },
+  {
+   "lang": "VI",
+   "idx": 26,
+   "action": "exclude",
+   "reason": "misplaced cost-of-living content (Centrelink)",
+   "text": "Người Úc nhận ABSTUDY đang theo học Thạc sĩ hoặc Tiến sĩ sẽ được thêm 54 đô la mỗi hai tuần."
+  },
+  {
+   "lang": "VI",
+   "idx": 27,
+   "action": "exclude",
+   "reason": "misplaced cost-of-living content (Centrelink)",
+   "text": "Những người nhận Trợ cấp hỗ trợ khuyết tật sẽ được tăng thêm 30,10 đô la mỗi hai tuần."
+  },
+  {
+   "lang": "VI",
+   "idx": 28,
+   "action": "exclude",
+   "reason": "misplaced cost-of-living content (aged-care pay)",
+   "text": "Hàng trăm nghìn nhân viên chăm sóc người già cũng sẽ được tăng 50 phần trăm tiền lương theo thỏa thuận, và 50 phần trăm "
   },
   {
    "lang": "VI",
