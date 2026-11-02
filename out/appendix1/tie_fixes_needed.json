@@ -1,0 +1,102 @@
+[
+  {
+    "pair": "P03",
+    "lang": "EN",
+    "id": "P03-EN-027",
+    "text": "he",
+    "current_occ": 1,
+    "correct_occ": 2,
+    "word_occs_count": 1,
+    "context": "We've banned the use of credit cards onli"
+  },
+  {
+    "pair": "P03",
+    "lang": "EN",
+    "id": "P03-EN-048",
+    "text": "it",
+    "current_occ": 2,
+    "correct_occ": 3,
+    "word_occs_count": 1,
+    "context": "ambling advertising, despite a Labor-led report call"
+  },
+  {
+    "pair": "P09",
+    "lang": "VI",
+    "id": "P09-VI-045",
+    "text": "thanh toán bulk-bill",
+    "current_occ": 1,
+    "correct_occ": null,
+    "word_occs_count": 0,
+    "context": "i tăng gấp ba lần ưu đãi thanh toán bulk-billing cho bác sĩ, thanh toá"
+  },
+  {
+    "pair": "P10",
+    "lang": "EN",
+    "id": "P10-EN-014",
+    "text": "he",
+    "current_occ": 2,
+    "correct_occ": 4,
+    "word_occs_count": 1,
+    "context": " the US dollar against other currencies, including t"
+  },
+  {
+    "pair": "P10",
+    "lang": "EN",
+    "id": "P10-EN-031",
+    "text": "he",
+    "current_occ": 1,
+    "correct_occ": 2,
+    "word_occs_count": 1,
+    "context": "However, other items can also increase"
+  },
+  {
+    "pair": "P15",
+    "lang": "EN",
+    "id": "P15-EN-001",
+    "text": "his",
+    "current_occ": 1,
+    "correct_occ": 2,
+    "word_occs_count": 2,
+    "context": "udent at Columbia until this past December, was insid"
+  },
+  {
+    "pair": "P15",
+    "lang": "EN",
+    "id": "P15-EN-020",
+    "text": "he",
+    "current_occ": 1,
+    "correct_occ": 2,
+    "word_occs_count": 1,
+    "context": "Khalil’s attorney said they were initially informed"
+  },
+  {
+    "pair": "P15",
+    "lang": "EN",
+    "id": "P15-EN-022",
+    "text": "he",
+    "current_occ": 1,
+    "correct_occ": 3,
+    "word_occs_count": 1,
+    "context": "But when his wife tried to visit"
+  },
+  {
+    "pair": "P17",
+    "lang": "EN",
+    "id": "P17-EN-022",
+    "text": "he",
+    "current_occ": 1,
+    "correct_occ": 2,
+    "word_occs_count": 1,
+    "context": "What the Thai government actually"
+  },
+  {
+    "pair": "P18",
+    "lang": "EN",
+    "id": "P18-EN-030",
+    "text": "life-savin",
+    "current_occ": 1,
+    "correct_occ": null,
+    "word_occs_count": 0,
+    "context": "hich we can deliver this life-saving support that we as an o"
+  }
+]
