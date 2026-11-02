@@ -1,0 +1,18 @@
+{
+ "pair": "P12",
+ "en2vi": {
+  "S001": [
+   "S002"
+  ]
+ },
+ "cut_en": [
+  "S002"
+ ],
+ "selfgen_vi": [
+  "S001"
+ ],
+ "n_en": 2,
+ "n_vi": 2,
+ "n_skeleton": 1,
+ "inferred_gap_blocks": []
+}

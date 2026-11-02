@@ -1,0 +1,1421 @@
+{
+ "pair": "P03",
+ "protocol": "v2 — semantic align per sent_map (gate 13)",
+ "counts": {
+  "st_ties": 115,
+  "tt_ties": 126,
+  "kept": 57,
+  "shifted": 0,
+  "kept_unmarked": 22,
+  "omitted_cut": 21,
+  "omitted_drop": 15,
+  "added_real": 18,
+  "added_inventory": 52
+ },
+ "alignments": [
+  {
+   "st_tie": "P03-EN-001",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "drop",
+   "shift": null,
+   "note": "TT has no Centre for Public Integrity sentence (EN S003 unrendered)"
+  },
+  {
+   "st_tie": "P03-EN-002",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "drop",
+   "shift": null,
+   "note": "EN S003 unrendered in TT"
+  },
+  {
+   "st_tie": "P03-EN-003",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "hiện thực hóa khác/gộp marker: EN S004 threshold sentence unrendered; TT S022 renders EN S029 instead"
+  },
+  {
+   "st_tie": "P03-EN-004",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "drop",
+   "shift": null,
+   "note": "EN S004 unrendered"
+  },
+  {
+   "st_tie": "P03-EN-005",
+   "tt_tie": "P03-VI-003",
+   "outcome": "kept",
+   "shift": null,
+   "note": "donations -> nhà tài trợ (TT uses agent noun)"
+  },
+  {
+   "st_tie": "P03-EN-006",
+   "tt_tie": "P03-VI-004",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Labor -> Đảng Lao động Liên bang"
+  },
+  {
+   "st_tie": "P03-EN-007",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — Labor"
+  },
+  {
+   "st_tie": "P03-EN-008",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — donated"
+  },
+  {
+   "st_tie": "P03-EN-009",
+   "tt_tie": "P03-VI-007",
+   "outcome": "kept",
+   "shift": null,
+   "note": "donated → tỷ phú (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-010",
+   "tt_tie": "P03-VI-008",
+   "outcome": "kept",
+   "shift": null,
+   "note": "billionaire -> tỷ phú"
+  },
+  {
+   "st_tie": "P03-EN-011",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "câu VI có dịch; không có tie VI đối ứng (hiện thực hóa bằng cụm không đánh dấu / hấp thụ)"
+  },
+  {
+   "st_tie": "P03-EN-012",
+   "tt_tie": "P03-VI-013",
+   "outcome": "kept",
+   "shift": null,
+   "note": "donated → quyên góp (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-013",
+   "tt_tie": "P03-VI-014",
+   "outcome": "kept",
+   "shift": null,
+   "note": "tens of thousands of dollars → hàng chục nghìn đô la (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-014",
+   "tt_tie": "P03-VI-021",
+   "outcome": "kept",
+   "shift": null,
+   "note": "donated → quyên góp (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-015",
+   "tt_tie": "P03-VI-020",
+   "outcome": "kept",
+   "shift": null,
+   "note": "wagering → cá cược (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-016",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — Sportbet's"
+  },
+  {
+   "st_tie": "P03-EN-017",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — donation"
+  },
+  {
+   "st_tie": "P03-EN-018",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — Labor"
+  },
+  {
+   "st_tie": "P03-EN-019",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — the government"
+  },
+  {
+   "st_tie": "P03-EN-020",
+   "tt_tie": "P03-VI-025",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the government → chính phủ (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-021",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "câu VI có dịch; không có tie VI đối ứng (hiện thực hóa bằng cụm không đánh dấu / hấp thụ)"
+  },
+  {
+   "st_tie": "P03-EN-022",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "câu VI có dịch; không có tie VI đối ứng (hiện thực hóa bằng cụm không đánh dấu / hấp thụ)"
+  },
+  {
+   "st_tie": "P03-EN-023",
+   "tt_tie": "P03-VI-026",
+   "outcome": "kept",
+   "shift": null,
+   "note": "We → Chúng tôi (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-024",
+   "tt_tie": "P03-VI-028",
+   "outcome": "kept",
+   "shift": null,
+   "note": "We → Chúng tôi (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-025",
+   "tt_tie": "P03-VI-029",
+   "outcome": "kept",
+   "shift": null,
+   "note": "as well → cũng (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-026",
+   "tt_tie": "P03-VI-031",
+   "outcome": "kept",
+   "shift": null,
+   "note": "gambling → cờ bạc (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-027",
+   "tt_tie": "P03-VI-032",
+   "outcome": "kept",
+   "shift": null,
+   "note": "he → ông (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-028",
+   "tt_tie": "P03-VI-039",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Sportsbet → Đảng Lao động (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-029",
+   "tt_tie": "P03-VI-040",
+   "outcome": "kept",
+   "shift": null,
+   "note": "also → Bên cạnh (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-030",
+   "tt_tie": "P03-VI-042",
+   "outcome": "kept",
+   "shift": null,
+   "note": "donated → tài trợ (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-031",
+   "tt_tie": "P03-VI-045",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the Liberals → Đảng Tự do (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-032",
+   "tt_tie": "P03-VI-047",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Tabcorp → Tabcorp (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-033",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "câu VI có dịch; không có tie VI đối ứng (hiện thực hóa bằng cụm không đánh dấu / hấp thụ)"
+  },
+  {
+   "st_tie": "P03-EN-034",
+   "tt_tie": "P03-VI-050",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Labor's state divisions → Đảng Lao động (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-035",
+   "tt_tie": "P03-VI-051",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the Liberals and Nationals → hàng chục nghìn đô la (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-036",
+   "tt_tie": "P03-VI-053",
+   "outcome": "kept",
+   "shift": null,
+   "note": "state branches → chi nhánh (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-037",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — Coalition"
+  },
+  {
+   "st_tie": "P03-EN-038",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — gambling"
+  },
+  {
+   "st_tie": "P03-EN-039",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — the Coalition"
+  },
+  {
+   "st_tie": "P03-EN-040",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — gambling"
+  },
+  {
+   "st_tie": "P03-EN-041",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — Labor and the Greens"
+  },
+  {
+   "st_tie": "P03-EN-042",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — the bill"
+  },
+  {
+   "st_tie": "P03-EN-043",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — she"
+  },
+  {
+   "st_tie": "P03-EN-044",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — Opposition Leader"
+  },
+  {
+   "st_tie": "P03-EN-045",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — the prime minister"
+  },
+  {
+   "st_tie": "P03-EN-046",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — gambling advertising"
+  },
+  {
+   "st_tie": "P03-EN-047",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — Labor"
+  },
+  {
+   "st_tie": "P03-EN-048",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — it"
+  },
+  {
+   "st_tie": "P03-EN-049",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "drop",
+   "shift": null,
+   "note": "EN S020 unrendered"
+  },
+  {
+   "st_tie": "P03-EN-050",
+   "tt_tie": "P03-VI-055",
+   "outcome": "kept",
+   "shift": null,
+   "note": "gambling industry donations → tài trợ (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-051",
+   "tt_tie": "P03-VI-058",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the Labor party → các công ty cờ bạc (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-052",
+   "tt_tie": "P03-VI-061",
+   "outcome": "kept",
+   "shift": null,
+   "note": "SBS News -> SBS News (TT S033 renders EN S021)"
+  },
+  {
+   "st_tie": "P03-EN-053",
+   "tt_tie": "P03-VI-061",
+   "outcome": "kept",
+   "shift": null,
+   "note": "comment -> ý kiến phản hồi (TT marks SBS News tie; comment unmarked in TT S033)"
+  },
+  {
+   "st_tie": "P03-EN-054",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — Greens"
+  },
+  {
+   "st_tie": "P03-EN-055",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — major parties"
+  },
+  {
+   "st_tie": "P03-EN-056",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — disclosures"
+  },
+  {
+   "st_tie": "P03-EN-057",
+   "tt_tie": "P03-VI-064",
+   "outcome": "kept",
+   "shift": null,
+   "note": "The Labor government → các đảng lớn (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-058",
+   "tt_tie": "P03-VI-065",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the Liberals → quyên góp (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-059",
+   "tt_tie": "P03-VI-066",
+   "outcome": "kept",
+   "shift": null,
+   "note": "donations → cờ bạc (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-060",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "câu VI có dịch; không có tie VI đối ứng (hiện thực hóa bằng cụm không đánh dấu / hấp thụ)"
+  },
+  {
+   "st_tie": "P03-EN-061",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "câu VI có dịch; không có tie VI đối ứng (hiện thực hóa bằng cụm không đánh dấu / hấp thụ)"
+  },
+  {
+   "st_tie": "P03-EN-062",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "câu VI có dịch; không có tie VI đối ứng (hiện thực hóa bằng cụm không đánh dấu / hấp thụ)"
+  },
+  {
+   "st_tie": "P03-EN-063",
+   "tt_tie": "P03-VI-069",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the Greens' → Đảng Xanh (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-064",
+   "tt_tie": "P03-VI-067",
+   "outcome": "kept",
+   "shift": null,
+   "note": "gambler → cờ bạc (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-065",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "câu VI có dịch; không có tie VI đối ứng (hiện thực hóa bằng cụm không đánh dấu / hấp thụ)"
+  },
+  {
+   "st_tie": "P03-EN-066",
+   "tt_tie": "P03-VI-071",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Turpie → Turpie (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-067",
+   "tt_tie": "P03-VI-072",
+   "outcome": "kept",
+   "shift": null,
+   "note": "donated → đóng góp (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-068",
+   "tt_tie": "P03-VI-073",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the party → Đảng Xanh (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-069",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "hiện thực hóa khác/gộp marker: EN S026 Waters quote reformulated in TT S018 with different source (Brisbane Times)"
+  },
+  {
+   "st_tie": "P03-EN-070",
+   "tt_tie": "P03-VI-080",
+   "outcome": "kept",
+   "shift": null,
+   "note": "donation → quyên góp (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-071",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "drop",
+   "shift": null,
+   "note": "Waters quote attributed to Sriranganathan in TT S018"
+  },
+  {
+   "st_tie": "P03-EN-072",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "câu VI có dịch; không có tie VI đối ứng (hiện thực hóa bằng cụm không đánh dấu / hấp thụ)"
+  },
+  {
+   "st_tie": "P03-EN-073",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "hiện thực hóa khác/gộp marker: TT S018 has máy đánh bạc / sòng bạc instead of gambling companies"
+  },
+  {
+   "st_tie": "P03-EN-074",
+   "tt_tie": "P03-VI-078",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the Greens' position → Đảng Xanh (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-075",
+   "tt_tie": "P03-VI-079",
+   "outcome": "kept",
+   "shift": null,
+   "note": "gambling → máy đánh bạc (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-076",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "drop",
+   "shift": null,
+   "note": "TT S019 has no major-parties item"
+  },
+  {
+   "st_tie": "P03-EN-077",
+   "tt_tie": "P03-VI-081",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Electoral donations reform → cải cách quyên góp bầu cử (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-078",
+   "tt_tie": "P03-VI-082",
+   "outcome": "kept",
+   "shift": null,
+   "note": "federal election → tổng tuyển cử liên bang (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-079",
+   "tt_tie": "P03-VI-084",
+   "outcome": "kept",
+   "shift": null,
+   "note": "The government → chính phủ (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-080",
+   "tt_tie": "P03-VI-085",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Opposition → giới hạn (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-081",
+   "tt_tie": "P03-VI-086",
+   "outcome": "kept",
+   "shift": null,
+   "note": "donations → quyên góp (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-082",
+   "tt_tie": "P03-VI-088",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the proposed changes → thay đổi (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-083",
+   "tt_tie": "P03-VI-089",
+   "outcome": "kept",
+   "shift": null,
+   "note": "donation disclosure → công bố (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-084",
+   "tt_tie": "P03-VI-094",
+   "outcome": "kept",
+   "shift": null,
+   "note": "election campaign → Giới hạn (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-085",
+   "tt_tie": "P03-VI-095",
+   "outcome": "kept",
+   "shift": null,
+   "note": "donations → quyên góp (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-086",
+   "tt_tie": "P03-VI-103",
+   "outcome": "kept",
+   "shift": null,
+   "note": "also → cũng (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-087",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "câu VI có dịch; không có tie VI đối ứng (hiện thực hóa bằng cụm không đánh dấu / hấp thụ)"
+  },
+  {
+   "st_tie": "P03-EN-088",
+   "tt_tie": "P03-VI-102",
+   "outcome": "kept",
+   "shift": null,
+   "note": "spending → cải cách quyên góp bầu cử (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-089",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "hiện thực hóa khác/gộp marker: TT defers unions (công đoàn) to S026 as first mention; no prior link"
+  },
+  {
+   "st_tie": "P03-EN-090",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "câu VI có dịch; không có tie VI đối ứng (hiện thực hóa bằng cụm không đánh dấu / hấp thụ)"
+  },
+  {
+   "st_tie": "P03-EN-091",
+   "tt_tie": "P03-VI-108",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the proposed legislation → các đảng chính trị (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-092",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "hiện thực hóa khác/gộp marker: TT has no Senate mention before S032 (first mention there)"
+  },
+  {
+   "st_tie": "P03-EN-093",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "câu VI có dịch; không có tie VI đối ứng (hiện thực hóa bằng cụm không đánh dấu / hấp thụ)"
+  },
+  {
+   "st_tie": "P03-EN-094",
+   "tt_tie": "P03-VI-107",
+   "outcome": "kept",
+   "shift": null,
+   "note": "also → Ngoài ra (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-095",
+   "tt_tie": "P03-VI-109",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the AEC → Ủy ban Bầu cử Úc (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-096",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "câu VI có dịch; không có tie VI đối ứng (hiện thực hóa bằng cụm không đánh dấu / hấp thụ)"
+  },
+  {
+   "st_tie": "P03-EN-097",
+   "tt_tie": "P03-VI-111",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the proposal → các đảng lớn (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-098",
+   "tt_tie": "P03-VI-112",
+   "outcome": "kept",
+   "shift": null,
+   "note": "major party → tài trợ (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-099",
+   "tt_tie": "P03-VI-113",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Labor and Liberal → chiến dịch tranh cử (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-100",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "câu VI có dịch; không có tie VI đối ứng (hiện thực hóa bằng cụm không đánh dấu / hấp thụ)"
+  },
+  {
+   "st_tie": "P03-EN-101",
+   "tt_tie": "P03-VI-114",
+   "outcome": "kept",
+   "shift": null,
+   "note": "The caps → Các đảng lớn (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-102",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "câu VI có dịch; không có tie VI đối ứng (hiện thực hóa bằng cụm không đánh dấu / hấp thụ)"
+  },
+  {
+   "st_tie": "P03-EN-103",
+   "tt_tie": "P03-VI-115",
+   "outcome": "kept",
+   "shift": null,
+   "note": "independents → hưởng lợi (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-104",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "câu VI có dịch; không có tie VI đối ứng (hiện thực hóa bằng cụm không đánh dấu / hấp thụ)"
+  },
+  {
+   "st_tie": "P03-EN-105",
+   "tt_tie": "P03-VI-117",
+   "outcome": "kept",
+   "shift": null,
+   "note": "tens of millions of dollars → AEC (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P03-EN-106",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "câu VI có dịch; không có tie VI đối ứng (hiện thực hóa bằng cụm không đánh dấu / hấp thụ)"
+  },
+  {
+   "st_tie": "P03-EN-107",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "drop",
+   "shift": null,
+   "note": "EN S035 (teal independents) unrendered in TT"
+  },
+  {
+   "st_tie": "P03-EN-108",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "drop",
+   "shift": null,
+   "note": "EN S035-S037 (Climate200 donations) unrendered in TT"
+  },
+  {
+   "st_tie": "P03-EN-109",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "drop",
+   "shift": null,
+   "note": "EN S036 unrendered"
+  },
+  {
+   "st_tie": "P03-EN-110",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "drop",
+   "shift": null,
+   "note": "EN S037 unrendered"
+  },
+  {
+   "st_tie": "P03-EN-111",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "drop",
+   "shift": null,
+   "note": "EN S037 unrendered"
+  },
+  {
+   "st_tie": "P03-EN-112",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "drop",
+   "shift": null,
+   "note": "EN S037 unrendered"
+  },
+  {
+   "st_tie": "P03-EN-113",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "drop",
+   "shift": null,
+   "note": "EN S037 unrendered"
+  },
+  {
+   "st_tie": "P03-EN-114",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "drop",
+   "shift": null,
+   "note": "EN S037 unrendered"
+  },
+  {
+   "st_tie": "P03-EN-115",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "drop",
+   "shift": null,
+   "note": "EN S037 unrendered"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-001",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-002",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-005",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-006",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-009",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-010",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-011",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-012",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-015",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-016",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-017",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-018",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-019",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-022",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-023",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-024",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-027",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-030",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-033",
+   "outcome": "added",
+   "added_kind": "added_real",
+   "shift": null,
+   "note": "câu VI tự sinh (lede/byline/paraphrase)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-034",
+   "outcome": "added",
+   "added_kind": "added_real",
+   "shift": null,
+   "note": "câu VI tự sinh (lede/byline/paraphrase)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-035",
+   "outcome": "added",
+   "added_kind": "added_real",
+   "shift": null,
+   "note": "câu VI tự sinh (lede/byline/paraphrase)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-036",
+   "outcome": "added",
+   "added_kind": "added_real",
+   "shift": null,
+   "note": "câu VI tự sinh (lede/byline/paraphrase)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-037",
+   "outcome": "added",
+   "added_kind": "added_real",
+   "shift": null,
+   "note": "câu VI tự sinh (lede/byline/paraphrase)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-038",
+   "outcome": "added",
+   "added_kind": "added_real",
+   "shift": null,
+   "note": "câu VI tự sinh (lede/byline/paraphrase)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-041",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-043",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-044",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-046",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-048",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-049",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-052",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-054",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-056",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-057",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-059",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-060",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-062",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-063",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-068",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-070",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-074",
+   "outcome": "added",
+   "added_kind": "added_real",
+   "shift": null,
+   "note": "câu VI tự sinh (lede/byline/paraphrase)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-075",
+   "outcome": "added",
+   "added_kind": "added_real",
+   "shift": null,
+   "note": "câu VI tự sinh (lede/byline/paraphrase)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-076",
+   "outcome": "added",
+   "added_kind": "added_real",
+   "shift": null,
+   "note": "câu VI tự sinh (lede/byline/paraphrase)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-077",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-083",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-087",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-090",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-091",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-092",
+   "outcome": "added",
+   "added_kind": "added_real",
+   "shift": null,
+   "note": "câu VI tự sinh (lede/byline/paraphrase)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-093",
+   "outcome": "added",
+   "added_kind": "added_real",
+   "shift": null,
+   "note": "câu VI tự sinh (lede/byline/paraphrase)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-096",
+   "outcome": "added",
+   "added_kind": "added_real",
+   "shift": null,
+   "note": "câu VI tự sinh (lede/byline/paraphrase)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-097",
+   "outcome": "added",
+   "added_kind": "added_real",
+   "shift": null,
+   "note": "câu VI tự sinh (lede/byline/paraphrase)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-098",
+   "outcome": "added",
+   "added_kind": "added_real",
+   "shift": null,
+   "note": "câu VI tự sinh (lede/byline/paraphrase)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-099",
+   "outcome": "added",
+   "added_kind": "added_real",
+   "shift": null,
+   "note": "câu VI tự sinh (lede/byline/paraphrase)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-100",
+   "outcome": "added",
+   "added_kind": "added_real",
+   "shift": null,
+   "note": "câu VI tự sinh (lede/byline/paraphrase)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-101",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-104",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-105",
+   "outcome": "added",
+   "added_kind": "added_real",
+   "shift": null,
+   "note": "câu VI tự sinh (lede/byline/paraphrase)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-106",
+   "outcome": "added",
+   "added_kind": "added_real",
+   "shift": null,
+   "note": "câu VI tự sinh (lede/byline/paraphrase)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-110",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-116",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-118",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-119",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-120",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-121",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-122",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-123",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-124",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-125",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P03-VI-126",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  }
+ ],
+ "suspicious_links": [],
+ "gate13_errors": [],
+ "caveat": "cặp biên tập lại (adaptation) — phân tích khuyến cáo KHÔNG dùng cấp câu"
+}

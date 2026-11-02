@@ -31,6 +31,28 @@ Halliday & Hasan (1976) ↔ Trần Ngọc Thêm (2006).
 Độ phủ: **2996/2996 liên kết liên-câu đã render (EN 1605 + VI 1391, 100%)**,
 0 straddle / 0 orphan / 0 deferred (xem `out/appendix1/match_stats.json`).
 
+## Appendix 1 — bảng align dựng lại theo giao thức mới (v4)
+
+- `BDNC/Appendix1_Align.docx` / `.pdf` — **bản dựng lại Giai đoạn D**: marking
+  chuẩn như Appendix 1 (5 màu + chữ mũ A/C/E trên Reference) **+ annotation
+  kết quả căn cặp** ngay sau mỗi khối đánh dấu (mũ nhỏ: → giữ · » dịch chuyển
+  · ~ giữ-không-đánh-dấu · × bỏ · + thêm), kèm **bảng căn cặp chi tiết từng
+  tie** (tiền trạm, kết quả có màu, ghi chú) cho cả 20 cặp và **bảng tổng hợp
+  20 cặp** ở đầu.
+- Bảng align được dựng từ **bản đồ câu** của 20 bản phân tích thủ công
+  (`BDNC/semantic_analysis/`), không phải ghép thứ tự; đã qua **cổng kiểm 13**
+  toàn bộ (0 lỗi): tổng giữ + dịch chuyển + giữ-không-đd + bỏ = 1605 ST tie;
+  cờ bỏ gắn theo tie trong câu không dịch (không theo mã câu); link chỉ nhận
+  khi câu VI nằm trong bản đồ câu của câu EN.
+- Số liệu v4 (tin cậy, thay cho thống kê align cũ): giữ 1097 · dịch chuyển 28
+  · giữ-không-đánh-dấu 176 · bỏ-khối-cắt 201 · bỏ-vi-lược 103 · thêm-thật 48
+  · thêm-bất-đối-xứng-kiểm-kê 260. Đối chiếu độc lập với phân tích tay:
+  P20 = 80 giữ / 40 bỏ / 4 thêm-thật (khớp chính xác §8.6); P12, P13, P16–P19
+  khớp; P03 (biên tập lại) và P15 (đảo khối) dùng kèm cảnh báo.
+- Dữ liệu: `out/align_v2/PXX_sent_map.json` (bản đồ câu) +
+  `out/align_v2/PXX_align_v2.json` (align v2); pipeline:
+  `scripts/rebuild/{sent_map,finalize_sent_maps,rebuild_align,export_align_docx}.py`.
+
 ## Appendix 2 — findings report
 
 - `BDNC/Appendix2.md` — báo cáo phát hiện (A2.1–A2.7), kiểm định 5 tuyên bố

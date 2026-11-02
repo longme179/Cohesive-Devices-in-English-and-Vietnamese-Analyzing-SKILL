@@ -1,0 +1,314 @@
+{
+ "pair": "P16",
+ "protocol": "v2 — semantic align per sent_map (gate 13)",
+ "counts": {
+  "st_ties": 36,
+  "tt_ties": 39,
+  "kept": 34,
+  "shifted": 0,
+  "kept_unmarked": 0,
+  "omitted_cut": 0,
+  "omitted_drop": 2,
+  "added_real": 1,
+  "added_inventory": 4
+ },
+ "alignments": [
+  {
+   "st_tie": "P16-EN-001",
+   "tt_tie": "P16-VI-001",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the ruble -> đồng rúp"
+  },
+  {
+   "st_tie": "P16-EN-002",
+   "tt_tie": "P16-VI-002",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the U.S. dollar -> đồng đôla (currency association in both)"
+  },
+  {
+   "st_tie": "P16-EN-003",
+   "tt_tie": "P16-VI-003",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Russians → người Nga (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P16-EN-004",
+   "tt_tie": "P16-VI-004",
+   "outcome": "kept",
+   "shift": null,
+   "note": "That cutback -> Sự cắt giảm đó"
+  },
+  {
+   "st_tie": "P16-EN-005",
+   "tt_tie": "P16-VI-005",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Pattaya chain (TT first overt mention S003)"
+  },
+  {
+   "st_tie": "P16-EN-006",
+   "tt_tie": "P16-VI-006",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the Russians → du khách Nga (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P16-EN-007",
+   "tt_tie": "P16-VI-007",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Thai -> Thái"
+  },
+  {
+   "st_tie": "P16-EN-008",
+   "tt_tie": "P16-VI-008",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the Pattaya office → Pattaya (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P16-EN-009",
+   "tt_tie": "P16-VI-009",
+   "outcome": "kept",
+   "shift": null,
+   "note": "association chain in both"
+  },
+  {
+   "st_tie": "P16-EN-010",
+   "tt_tie": "P16-VI-010",
+   "outcome": "kept",
+   "shift": null,
+   "note": "VOA chain (both weak, dateline-excluded)"
+  },
+  {
+   "st_tie": "P16-EN-011",
+   "tt_tie": "P16-VI-011",
+   "outcome": "kept",
+   "shift": null,
+   "note": "it's -> đó"
+  },
+  {
+   "st_tie": "P16-EN-012",
+   "tt_tie": "P16-VI-012",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Pattaya → Pattaya (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P16-EN-013",
+   "tt_tie": "P16-VI-013",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Russian tourists → Du khách Nga (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P16-EN-014",
+   "tt_tie": "P16-VI-014",
+   "outcome": "kept",
+   "shift": null,
+   "note": "verbatim in both"
+  },
+  {
+   "st_tie": "P16-EN-015",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "drop",
+   "shift": null,
+   "note": "TT drops the Suladda attribution in S008 (name at S005)"
+  },
+  {
+   "st_tie": "P16-EN-016",
+   "tt_tie": "P16-VI-017",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Russian visitors → du khách Nga (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P16-EN-017",
+   "tt_tie": "P16-VI-018",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Thailand → Thái Lan (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P16-EN-018",
+   "tt_tie": "P16-VI-019",
+   "outcome": "kept",
+   "shift": null,
+   "note": "But -> Nhưng"
+  },
+  {
+   "st_tie": "P16-EN-019",
+   "tt_tie": "P16-VI-020",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the national hotel operators' association → hiệp hội điều hành khách sạn quốc gia (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P16-EN-020",
+   "tt_tie": "P16-VI-021",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Suladda → Bà Suladda (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P16-EN-021",
+   "tt_tie": "P16-VI-023",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Pattaya → Pattaya (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P16-EN-022",
+   "tt_tie": "P16-VI-024",
+   "outcome": "kept",
+   "shift": null,
+   "note": "visitors → du khách (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P16-EN-023",
+   "tt_tie": "P16-VI-026",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the Russian market → thị trường Nga (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P16-EN-024",
+   "tt_tie": "P16-VI-027",
+   "outcome": "kept",
+   "shift": null,
+   "note": "But -> Nhưng"
+  },
+  {
+   "st_tie": "P16-EN-025",
+   "tt_tie": "P16-VI-028",
+   "outcome": "kept",
+   "shift": null,
+   "note": "they -> họ"
+  },
+  {
+   "st_tie": "P16-EN-026",
+   "tt_tie": "P16-VI-029",
+   "outcome": "kept",
+   "shift": null,
+   "note": "other markets → các thị trường khác (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P16-EN-027",
+   "tt_tie": "P16-VI-030",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the decreasing number of Russian → du khách Nga (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P16-EN-028",
+   "tt_tie": "P16-VI-031",
+   "outcome": "kept",
+   "shift": null,
+   "note": "The Thai resort cities → Các thành phố nghỉ mát (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P16-EN-029",
+   "tt_tie": "P16-VI-033",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the Russians → người Nga (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P16-EN-030",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "drop",
+   "shift": null,
+   "note": "TT drops the marketing tie (tiếp thị fresh)"
+  },
+  {
+   "st_tie": "P16-EN-031",
+   "tt_tie": "P16-VI-034",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the Russian market → thị trường Nga (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P16-EN-032",
+   "tt_tie": "P16-VI-035",
+   "outcome": "kept",
+   "shift": null,
+   "note": "tourists → du khách (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P16-EN-033",
+   "tt_tie": "P16-VI-036",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Thailand → Thái Lan (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P16-EN-034",
+   "tt_tie": "P16-VI-037",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Russian → Nga (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P16-EN-035",
+   "tt_tie": "P16-VI-038",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Russian President Vladimir Putin → Tổng thống Nga (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P16-EN-036",
+   "tt_tie": "P16-VI-039",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the unfavorable situation -> tình hình"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P16-VI-015",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P16-VI-016",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P16-VI-022",
+   "shift": null,
+   "outcome": "added",
+   "added_kind": "added_real",
+   "note": "quy chiếu TỰ SINH trong câu đã dịch: 'thuộc hiệp hội này' — EN S011 không nhắc hiệp hội nào (phân tích P16 §8: nguy cơ gán nhầm hội của Suladda)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P16-VI-025",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P16-VI-032",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  }
+ ],
+ "suspicious_links": [],
+ "gate13_errors": [],
+ "caveat": null
+}

@@ -1,0 +1,1258 @@
+{
+ "pair": "P01",
+ "protocol": "v2 — semantic align per sent_map (gate 13)",
+ "counts": {
+  "st_ties": 135,
+  "tt_ties": 119,
+  "kept": 86,
+  "shifted": 7,
+  "kept_unmarked": 18,
+  "omitted_cut": 17,
+  "omitted_drop": 7,
+  "added_real": 4,
+  "added_inventory": 28
+ },
+ "alignments": [
+  {
+   "st_tie": "P01-EN-001",
+   "tt_tie": "P01-VI-001",
+   "outcome": "kept",
+   "shift": null,
+   "note": "city-state -> đảo quốc, synonym re-description in both"
+  },
+  {
+   "st_tie": "P01-EN-002",
+   "tt_tie": "P01-VI-001",
+   "outcome": "shifted",
+   "shift": "R>L",
+   "note": "EN pronoun it rendered as lexical NP đảo quốc này; merged with EN-001 counterpart"
+  },
+  {
+   "st_tie": "P01-EN-003",
+   "tt_tie": "P01-VI-003",
+   "outcome": "kept",
+   "shift": null,
+   "note": "But -> Tuy nhiên"
+  },
+  {
+   "st_tie": "P01-EN-004",
+   "tt_tie": "P01-VI-005",
+   "outcome": "kept",
+   "shift": null,
+   "note": "also -> cũng"
+  },
+  {
+   "st_tie": "P01-EN-005",
+   "tt_tie": "P01-VI-004",
+   "outcome": "kept",
+   "shift": null,
+   "note": "general word the country -> proper name Singapore (same cat L)"
+  },
+  {
+   "st_tie": "P01-EN-006",
+   "tt_tie": "P01-VI-006",
+   "outcome": "kept",
+   "shift": null,
+   "note": "recycled water -> tái chế nước thải"
+  },
+  {
+   "st_tie": "P01-EN-007",
+   "tt_tie": "P01-VI-006",
+   "outcome": "kept",
+   "shift": null,
+   "note": "sewage water -> nước thải; TT chain marked once"
+  },
+  {
+   "st_tie": "P01-EN-008",
+   "tt_tie": "P01-VI-008",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Purified recycled water → Tái chế nước thải (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-009",
+   "tt_tie": "P01-VI-008",
+   "outcome": "kept",
+   "shift": null,
+   "note": "chain merged in TT marking (one tie per chain per sentence)"
+  },
+  {
+   "st_tie": "P01-EN-010",
+   "tt_tie": "P01-VI-008",
+   "outcome": "kept",
+   "shift": null,
+   "note": "chain merged in TT marking"
+  },
+  {
+   "st_tie": "P01-EN-011",
+   "tt_tie": "P01-VI-010",
+   "outcome": "kept",
+   "shift": null,
+   "note": "But -> Nhưng"
+  },
+  {
+   "st_tie": "P01-EN-012",
+   "tt_tie": "P01-VI-011",
+   "outcome": "kept",
+   "shift": null,
+   "note": "we -> chúng tôi"
+  },
+  {
+   "st_tie": "P01-EN-013",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "drop",
+   "shift": null,
+   "note": "TT drops the object pronoun (thay vì thải ra môi trường, pro-drop)"
+  },
+  {
+   "st_tie": "P01-EN-014",
+   "tt_tie": "P01-VI-012",
+   "outcome": "kept",
+   "shift": null,
+   "note": "environment -> môi trường"
+  },
+  {
+   "st_tie": "P01-EN-015",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "hiện thực hóa khác/gộp marker: TT renders it as repeated noun nước (đưa nước qua; bare nước unmarked per topic-word convention)"
+  },
+  {
+   "st_tie": "P01-EN-016",
+   "tt_tie": "P01-VI-013",
+   "outcome": "kept",
+   "shift": null,
+   "note": "water treatment plant → nhà máy xử lý nước (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-017",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "hiện thực hóa khác/gộp marker: TT renders it as repeated noun nước (nơi nước được lọc)"
+  },
+  {
+   "st_tie": "P01-EN-018",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "hiện thực hóa khác/gộp marker: TT renders it as repeated noun nước / pro-drop (đưa trở lại)"
+  },
+  {
+   "st_tie": "P01-EN-019",
+   "tt_tie": "P01-VI-014",
+   "outcome": "kept",
+   "shift": null,
+   "note": "drinking water → nước uống (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-020",
+   "tt_tie": "P01-VI-016",
+   "outcome": "kept",
+   "shift": null,
+   "note": "It -> hệ thống này (general word + demonstrative); both R"
+  },
+  {
+   "st_tie": "P01-EN-021",
+   "tt_tie": "P01-VI-017",
+   "outcome": "shifted",
+   "shift": "L>R",
+   "note": "the country -> Họ (pronoun)"
+  },
+  {
+   "st_tie": "P01-EN-022",
+   "tt_tie": "P01-VI-018",
+   "outcome": "kept",
+   "shift": null,
+   "note": "treated wastewater → nước thải đã qua xử lý (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-023",
+   "tt_tie": "P01-VI-019",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Khan → Khan (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-024",
+   "tt_tie": "P01-VI-020",
+   "outcome": "shifted",
+   "shift": "R>L",
+   "note": "its -> của Singapore (repeated proper name)"
+  },
+  {
+   "st_tie": "P01-EN-025",
+   "tt_tie": "P01-VI-021",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Singapore → Singapore (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-026",
+   "tt_tie": "P01-VI-022",
+   "outcome": "kept",
+   "shift": null,
+   "note": "community education → giáo dục cộng đồng (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-027",
+   "tt_tie": "P01-VI-023",
+   "outcome": "kept",
+   "shift": null,
+   "note": "They -> Họ"
+  },
+  {
+   "st_tie": "P01-EN-028",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "drop",
+   "shift": null,
+   "note": "TT omits possessive their"
+  },
+  {
+   "st_tie": "P01-EN-029",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "hiện thực hóa khác/gộp marker: TT reformulates; water recycling scheme not lexicalised"
+  },
+  {
+   "st_tie": "P01-EN-030",
+   "tt_tie": "P01-VI-024",
+   "outcome": "kept",
+   "shift": null,
+   "note": "he -> ông (kinship term as pronoun)"
+  },
+  {
+   "st_tie": "P01-EN-031",
+   "tt_tie": "P01-VI-025",
+   "outcome": "kept",
+   "shift": null,
+   "note": "They → Họ (relink theo bản đồ câu)"
+  },
+  {
+   "outcome": "kept_unmarked",
+   "tt_tie": null,
+   "shift": null,
+   "note": "visitor centre — VI S013 'Trung tâm Khám phá Nước Tái chế' không đánh dấu; 'tái chế nước' là đối ứng của 'water recycling' (EN-033)",
+   "st_tie": "P01-EN-032"
+  },
+  {
+   "st_tie": "P01-EN-033",
+   "tt_tie": "P01-VI-027",
+   "outcome": "kept",
+   "shift": null,
+   "note": "water recycling → tái chế nước (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-034",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "hiện thực hóa khác/gộp marker: Now dropped; TT uses đang (progressive) instead"
+  },
+  {
+   "st_tie": "P01-EN-035",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "drop",
+   "shift": null,
+   "note": "educate -> nâng cao nhận thức (different lexis, no TT tie)"
+  },
+  {
+   "st_tie": "P01-EN-036",
+   "tt_tie": "P01-VI-029",
+   "outcome": "kept",
+   "shift": null,
+   "note": "recycled wastewater → nước thải tái chế (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-037",
+   "tt_tie": "P01-VI-032",
+   "outcome": "kept",
+   "shift": null,
+   "note": "pressure → áp lực (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-038",
+   "tt_tie": "P01-VI-031",
+   "outcome": "kept",
+   "shift": null,
+   "note": "cities/Úc echo; TT also marks nguồn cung cấp nước separately (VI-030)"
+  },
+  {
+   "st_tie": "P01-EN-039",
+   "tt_tie": "P01-VI-033",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Sydney → Sydney (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-040",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "hiện thực hóa khác/gộp marker: supply -> lượng nước (reformulated)"
+  },
+  {
+   "st_tie": "P01-EN-041",
+   "tt_tie": "P01-VI-035",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Sydney → Sydney (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-042",
+   "tt_tie": "P01-VI-036",
+   "outcome": "kept",
+   "shift": null,
+   "note": "EN association (dam~reservoir, conf low) vs TT verbatim repetition hồ chứa"
+  },
+  {
+   "st_tie": "P01-EN-043",
+   "tt_tie": "P01-VI-037",
+   "outcome": "kept",
+   "shift": null,
+   "note": "water supply → nguồn nước (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-044",
+   "tt_tie": "P01-VI-038",
+   "outcome": "kept",
+   "shift": null,
+   "note": "dams → hồ chứa (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-045",
+   "tt_tie": "P01-VI-039",
+   "outcome": "kept",
+   "shift": null,
+   "note": "drought → hạn hán (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-046",
+   "tt_tie": "P01-VI-044",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Recycled purified water → Nước thải tái chế (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-047",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "drop",
+   "shift": null,
+   "note": "future solution -> giải pháp tiềm năng; future dropped"
+  },
+  {
+   "st_tie": "P01-EN-048",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "câu VI có dịch; không có tie VI đối ứng (hiện thực hóa bằng cụm không đánh dấu / hấp thụ)"
+  },
+  {
+   "st_tie": "P01-EN-049",
+   "tt_tie": "P01-VI-046",
+   "outcome": "kept",
+   "shift": null,
+   "note": "sewage plant → nhà máy xử lý nước thải (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-050",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "hiện thực hóa khác/gộp marker: TT has no prior công chúng mention, so no cohesive tie"
+  },
+  {
+   "st_tie": "P01-EN-051",
+   "tt_tie": "P01-VI-047",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Harrington → Harrington (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-052",
+   "tt_tie": "P01-VI-048",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Purified Recycled Water → Tái chế (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-053",
+   "tt_tie": "P01-VI-049",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Firstly -> Thứ nhất"
+  },
+  {
+   "st_tie": "P01-EN-054",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "drop",
+   "shift": null,
+   "note": "TT omits possessive our"
+  },
+  {
+   "st_tie": "P01-EN-055",
+   "tt_tie": "P01-VI-050",
+   "outcome": "kept",
+   "shift": null,
+   "note": "technology → công nghệ (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-056",
+   "tt_tie": "P01-VI-051",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Secondly → Thứ hai (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-057",
+   "tt_tie": "P01-VI-052",
+   "outcome": "kept",
+   "shift": null,
+   "note": "technology → công nghệ (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-058",
+   "tt_tie": "P01-VI-053",
+   "outcome": "kept",
+   "shift": null,
+   "note": "And lastly -> Và cuối cùng"
+  },
+  {
+   "st_tie": "P01-EN-059",
+   "tt_tie": "P01-VI-054",
+   "outcome": "kept",
+   "shift": null,
+   "note": "our -> của chúng tôi (full pronoun after của)"
+  },
+  {
+   "st_tie": "P01-EN-060",
+   "tt_tie": "P01-VI-055",
+   "outcome": "kept",
+   "shift": null,
+   "note": "testing → thử nghiệm (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-061",
+   "tt_tie": "P01-VI-056",
+   "outcome": "kept",
+   "shift": null,
+   "note": "he → ông (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-062",
+   "tt_tie": "P01-VI-057",
+   "outcome": "kept",
+   "shift": null,
+   "note": "We -> Chúng tôi"
+  },
+  {
+   "st_tie": "P01-EN-063",
+   "tt_tie": "P01-VI-058",
+   "outcome": "kept",
+   "shift": null,
+   "note": "public -> người dân"
+  },
+  {
+   "st_tie": "P01-EN-064",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "hiện thực hóa khác/gộp marker: here dropped; TT uses tham quan"
+  },
+  {
+   "st_tie": "P01-EN-065",
+   "tt_tie": "P01-VI-061",
+   "outcome": "kept",
+   "shift": null,
+   "note": "technology → công nghệ (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-066",
+   "tt_tie": "P01-VI-062",
+   "outcome": "kept",
+   "shift": null,
+   "note": "verbatim in TT"
+  },
+  {
+   "st_tie": "P01-EN-067",
+   "tt_tie": "P01-VI-063",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Khan → Khan (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-068",
+   "tt_tie": "P01-VI-064",
+   "outcome": "kept",
+   "shift": null,
+   "note": "purified recycled water → nước tái chế (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-069",
+   "tt_tie": "P01-VI-065",
+   "outcome": "kept",
+   "shift": null,
+   "note": "drought-stricken → hạn hán (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-070",
+   "tt_tie": "P01-VI-066",
+   "outcome": "kept",
+   "shift": null,
+   "note": "recycled sewage → nước thải tái chế (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-071",
+   "tt_tie": "P01-VI-067",
+   "outcome": "kept",
+   "shift": null,
+   "note": "drinking water → nước uống (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-072",
+   "tt_tie": "P01-VI-068",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Toowoomba → Toowoomba (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-073",
+   "tt_tie": "P01-VI-069",
+   "outcome": "kept",
+   "shift": null,
+   "note": "public -> công chúng"
+  },
+  {
+   "st_tie": "P01-EN-074",
+   "tt_tie": "P01-VI-070",
+   "outcome": "kept",
+   "shift": null,
+   "note": "he → ông (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-075",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "câu VI có dịch; không có tie VI đối ứng (hiện thực hóa bằng cụm không đánh dấu / hấp thụ)"
+  },
+  {
+   "st_tie": "P01-EN-076",
+   "tt_tie": "P01-VI-073",
+   "outcome": "kept",
+   "shift": null,
+   "note": "lack of support -> không ủng hộ"
+  },
+  {
+   "st_tie": "P01-EN-077",
+   "tt_tie": "P01-VI-074",
+   "outcome": "kept",
+   "shift": null,
+   "note": "project → dự án (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-078",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — projects"
+  },
+  {
+   "st_tie": "P01-EN-079",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — public support"
+  },
+  {
+   "st_tie": "P01-EN-080",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "pull-quote trùng nguồn (artifact trích xuất) — Harrington"
+  },
+  {
+   "st_tie": "P01-EN-081",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "pull-quote trùng nguồn (artifact trích xuất) — purified recycled water"
+  },
+  {
+   "st_tie": "P01-EN-082",
+   "tt_tie": "P01-VI-075",
+   "outcome": "kept",
+   "shift": null,
+   "note": "ST sentence duplicated in source table; TT has it once"
+  },
+  {
+   "st_tie": "P01-EN-083",
+   "tt_tie": "P01-VI-076",
+   "outcome": "kept",
+   "shift": null,
+   "note": "purified recycled water → tái chế nước thải (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-084",
+   "tt_tie": "P01-VI-078",
+   "outcome": "kept",
+   "shift": null,
+   "note": "purified recycled water → dự án tái chế nước thải (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-085",
+   "tt_tie": "P01-VI-079",
+   "outcome": "kept",
+   "shift": null,
+   "note": "technology → công nghệ (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-086",
+   "tt_tie": "P01-VI-082",
+   "outcome": "kept",
+   "shift": null,
+   "note": "cities -> general word nơi"
+  },
+  {
+   "st_tie": "P01-EN-087",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "hiện thực hóa khác/gộp marker: the process dropped; TT uses verb triển khai"
+  },
+  {
+   "st_tie": "P01-EN-088",
+   "tt_tie": "P01-VI-084",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Sydney → Sydney (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-089",
+   "tt_tie": "P01-VI-086",
+   "outcome": "shifted",
+   "shift": "L>R",
+   "note": "the Western Australian capital -> Thành phố này (demonstrative NP)"
+  },
+  {
+   "st_tie": "P01-EN-090",
+   "tt_tie": "P01-VI-085",
+   "outcome": "kept",
+   "shift": null,
+   "note": "dams → hồ chứa (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-091",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "câu VI có dịch; không có tie VI đối ứng (hiện thực hóa bằng cụm không đánh dấu / hấp thụ)"
+  },
+  {
+   "st_tie": "P01-EN-092",
+   "tt_tie": "P01-VI-088",
+   "outcome": "kept",
+   "shift": null,
+   "note": "depleting → suy giảm (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-093",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "hiện thực hóa khác/gộp marker: WA first mentioned fresh in TT (Tây Úc S038), no prior link"
+  },
+  {
+   "st_tie": "P01-EN-094",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "drop",
+   "shift": null,
+   "note": "So dropped in TT"
+  },
+  {
+   "st_tie": "P01-EN-095",
+   "tt_tie": "P01-VI-090",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Perth → Perth (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-096",
+   "tt_tie": "P01-VI-091",
+   "outcome": "kept",
+   "shift": null,
+   "note": "climate change → biến đổi khí hậu (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-097",
+   "tt_tie": "P01-VI-093",
+   "outcome": "shifted",
+   "shift": "R>L",
+   "note": "he -> Giáo sư Khan (repeated name)"
+  },
+  {
+   "st_tie": "P01-EN-098",
+   "tt_tie": "P01-VI-094",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Perth → Perth (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-099",
+   "tt_tie": "P01-VI-096",
+   "outcome": "kept",
+   "shift": null,
+   "note": "groundwater → nước ngầm (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-100",
+   "tt_tie": "P01-VI-097",
+   "outcome": "shifted",
+   "shift": "R>L",
+   "note": "It -> Kế hoạch (repeated noun)"
+  },
+  {
+   "st_tie": "P01-EN-101",
+   "tt_tie": "P01-VI-098",
+   "outcome": "kept",
+   "shift": null,
+   "note": "wastewater treatment plant → nhà máy xử lý nước thải (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-102",
+   "tt_tie": "P01-VI-099",
+   "outcome": "kept",
+   "shift": null,
+   "note": "advanced water treatment → xử lý (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-103",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — And"
+  },
+  {
+   "st_tie": "P01-EN-104",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — aquifers"
+  },
+  {
+   "st_tie": "P01-EN-105",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — purified recycled water"
+  },
+  {
+   "st_tie": "P01-EN-106",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — their"
+  },
+  {
+   "st_tie": "P01-EN-107",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — drinking water"
+  },
+  {
+   "st_tie": "P01-EN-108",
+   "tt_tie": "P01-VI-100",
+   "outcome": "kept",
+   "shift": null,
+   "note": "WA → Tây Úc (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-109",
+   "tt_tie": "P01-VI-102",
+   "outcome": "kept",
+   "shift": null,
+   "note": "treated wastewater → nước thải đã qua xử lý (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-110",
+   "tt_tie": "P01-VI-103",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Queensland → Queensland (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-111",
+   "tt_tie": "P01-VI-105",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Recycled Water → dự án tái chế nước (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-112",
+   "tt_tie": "P01-VI-106",
+   "outcome": "kept",
+   "shift": null,
+   "note": "drought → hạn hán (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-113",
+   "tt_tie": "P01-VI-108",
+   "outcome": "shifted",
+   "shift": "R>L",
+   "note": "It -> dự án (repeated noun)"
+  },
+  {
+   "outcome": "kept_unmarked",
+   "tt_tie": null,
+   "shift": null,
+   "note": "khung dẫn dịch chỗ: 'Khan says' ở EN S044 → 'Giáo sư Khan cho biết' cuối VI S045; S044 không còn mention",
+   "st_tie": "P01-EN-114"
+  },
+  {
+   "st_tie": "P01-EN-115",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "hiện thực hóa khác/gộp marker: So dropped; TT uses Hiện tại (temporal) instead"
+  },
+  {
+   "st_tie": "P01-EN-116",
+   "tt_tie": "P01-VI-109",
+   "outcome": "kept",
+   "shift": null,
+   "note": "it -> nó"
+  },
+  {
+   "st_tie": "P01-EN-117",
+   "tt_tie": "P01-VI-109",
+   "outcome": "kept",
+   "shift": null,
+   "note": "EN has two its, TT one nó"
+  },
+  {
+   "st_tie": "P01-EN-118",
+   "tt_tie": "P01-VI-111",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Brisbane → Brisbane (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-119",
+   "tt_tie": "P01-VI-112",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Queensland → Queensland (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-120",
+   "tt_tie": "P01-VI-113",
+   "outcome": "kept",
+   "shift": null,
+   "note": "future → tương lai (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-121",
+   "tt_tie": "P01-VI-110",
+   "outcome": "kept",
+   "shift": null,
+   "note": "water supply → cung cấp nước (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-122",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "hiện thực hóa khác/gộp marker: attribution merged into TT S045 (Giáo sư Khan cho biết)"
+  },
+  {
+   "st_tie": "P01-EN-123",
+   "tt_tie": "P01-VI-116",
+   "outcome": "kept",
+   "shift": null,
+   "note": "it -> hệ thống này (demonstrative NP)"
+  },
+  {
+   "st_tie": "P01-EN-124",
+   "tt_tie": "P01-VI-115",
+   "outcome": "kept",
+   "shift": null,
+   "note": "drinking water → nước uống (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-125",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "hiện thực hóa khác/gộp marker: That's more than a quarter merged as – tương đương 25%; demonstrative dropped"
+  },
+  {
+   "st_tie": "P01-EN-126",
+   "tt_tie": "P01-VI-116",
+   "outcome": "kept",
+   "shift": null,
+   "note": "That → này (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P01-EN-127",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "drop",
+   "shift": null,
+   "note": "EN S047-S049 abridged in TT"
+  },
+  {
+   "st_tie": "P01-EN-128",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — their"
+  },
+  {
+   "st_tie": "P01-EN-129",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — water supply strategy"
+  },
+  {
+   "st_tie": "P01-EN-130",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — their"
+  },
+  {
+   "st_tie": "P01-EN-131",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — dams"
+  },
+  {
+   "st_tie": "P01-EN-132",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — purified recycled water scheme"
+  },
+  {
+   "st_tie": "P01-EN-133",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — Brisbane"
+  },
+  {
+   "st_tie": "P01-EN-134",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — storage"
+  },
+  {
+   "st_tie": "P01-EN-135",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — drinking water"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-002",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-007",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-009",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-015",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-026",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-028",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-030",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-034",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-040",
+   "outcome": "added",
+   "added_kind": "added_real",
+   "shift": null,
+   "note": "câu VI tự sinh (lede/byline/paraphrase)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-041",
+   "outcome": "added",
+   "added_kind": "added_real",
+   "shift": null,
+   "note": "câu VI tự sinh (lede/byline/paraphrase)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-042",
+   "outcome": "added",
+   "added_kind": "added_real",
+   "shift": null,
+   "note": "câu VI tự sinh (lede/byline/paraphrase)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-043",
+   "outcome": "added",
+   "added_kind": "added_real",
+   "shift": null,
+   "note": "câu VI tự sinh (lede/byline/paraphrase)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-045",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-059",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-060",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-071",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-072",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-077",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-080",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-081",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-083",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-087",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-089",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-092",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-095",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-101",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-104",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-107",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-114",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-117",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-118",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-119",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  }
+ ],
+ "suspicious_links": [
+  {
+   "st": "P01-EN-100",
+   "tt": "P01-VI-097",
+   "st_text": "It",
+   "tt_text": "Kế hoạch"
+  },
+  {
+   "st": "P01-EN-113",
+   "tt": "P01-VI-108",
+   "st_text": "It",
+   "tt_text": "dự án"
+  }
+ ],
+ "gate13_errors": [],
+ "caveat": null
+}

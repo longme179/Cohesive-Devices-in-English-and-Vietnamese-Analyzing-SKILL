@@ -1,0 +1,36 @@
+{
+ "pair": "P12",
+ "protocol": "v2 — semantic align per sent_map (gate 13)",
+ "counts": {
+  "st_ties": 1,
+  "tt_ties": 1,
+  "kept": 0,
+  "shifted": 0,
+  "kept_unmarked": 0,
+  "omitted_cut": 1,
+  "omitted_drop": 0,
+  "added_real": 0,
+  "added_inventory": 1
+ },
+ "alignments": [
+  {
+   "st_tie": "P12-EN-001",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — the two politicians"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P12-VI-001",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  }
+ ],
+ "suspicious_links": [],
+ "gate13_errors": [],
+ "caveat": null
+}

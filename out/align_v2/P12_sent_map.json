@@ -1,0 +1,22 @@
+{
+ "pair": "P12",
+ "en2vi": {
+  "S001": [
+   "S002"
+  ]
+ },
+ "cut_en": [
+  "S002"
+ ],
+ "selfgen_vi": [
+  "S001"
+ ],
+ "dup_vi": {},
+ "cut_notes": {},
+ "caveat": null,
+ "n_en": 2,
+ "n_vi": 2,
+ "source": "draft-auto",
+ "errors": [],
+ "warnings": []
+}

@@ -2,7 +2,7 @@
 
 Tài liệu này giúp một AI agent (hoặc người) **tái lập toàn bộ quy trình** của repo này với **20 cặp bài báo khác** để ra sản phẩm tương đương **Appendix 1** (phụ lục highlight 5 màu + chữ mũ A/C/E, 20 bảng 2 cột EN|VI).
 
-> **Phạm vi vòng này: APPENDIX 1.** Phần Appendix 2 (báo cáo phát hiện + `stats.csv` / `shifts.csv` / `spot_check.csv`) **chưa được tái lập trong vòng này** vì tầng alignment của pipeline cũ có lỗi hệ thống (xem §6, bẫy 9–11); sẽ làm lại sau khi xây lại bảng align theo ngữ nghĩa. Mọi số liệu cấp alignment của vòng cũ **không dùng được cho đến khi xây lại**.
+> **Phạm vi vòng này: APPENDIX 1.** Phần Appendix 2 (báo cáo phát hiện + `stats.csv` / `shifts.csv` / `spot_check.csv`) **chưa được tái lập trong vòng này**; tuy nhiên **bảng align đã được DỰNG LẠI theo giao thức mới** (Giai đoạn D hoàn tất, cổng kiểm 13 PASS 20/20 — xem §9 và `out/align_v2/`), sản phẩm giao người dùng: `download/BDNC/Appendix1_Align.docx|.pdf`. Appendix 2 sẽ dựng từ dữ liệu align v2 này ở vòng sau.
 
 ## 0. Nguyên tắc nền tảng — PHÂN TÍCH THỦ CÔNG TỪNG CẶP TRƯỚC, MARKING THÀNH PHẨM SAU
 
@@ -98,7 +98,9 @@ Mọi tie phải truy vết được về một nhận định trong bản phân
 
 **Bước 11 — Render + QC từng pair.** `render.py PXX` sinh `ST/TT_highlighted.md`, `PXX.html` (tooltip), `*_qc.txt`. **QC gates:** (a) text nằm đúng occurrence trong câu; (b) marker không chồng lấn; (c) bỏ marker → ra đúng .txt từng ký tự; (d) tiền trạm `ana` nằm trước (tie ref='E' miễn); (e) in phân bố danh mục; (f) mọi R phải có ref ∈ {A,C,E}.
 
-### GIAI ĐOẠN D — Căn cặp theo NGỮ NGHĨA (chỉ sau khi có bản đồ câu)
+### GIAI ĐOẠN D — Căn cặp theo NGỮ NGHĨA (chỉ sau khi có bản đồ câu) — ✅ ĐÃ THỰC HIỆN VÒNG NÀY (20/20, cổng 13 PASS)
+
+**Cách đã làm (tái lập được):** `scripts/rebuild/` gồm 4 bước: (1) `sent_map.py` dựng bản nháp bản đồ câu bằng neo số liệu/tên riêng + phiếu bầu align cũ + DP đơn điệu; (2) hiệu chỉnh thủ công từng cặp từ bản phân tích (`finalize_sent_maps.py`, phần `OVERRIDES` ghi rõ căn cứ từng cặp — vd P20 4 khối cắt, P18 0 cắt + byline + câu trùng); (3) `rebuild_align.py` dựng align v2: link cũ chỉ được giữ khi qua cửa bản đồ câu VÀ hợp loại/tham chiếu; link mới tìm trong phạm vi cặp câu (điểm loại + loại phụ + trùng tiền trạm + hạng vị trí + bảng cụm đối dịch trích từ note cũ); note omitted cũ được PHÂN LOẠI trước khi tìm đối tác (drop / realized / false-flag theo từ khóa + tham chiếu câu); (4) `export_align_docx.py` xuất DOCX marking + annotation. Output `out/align_v2/PXX_sent_map.json` + `PXX_align_v2.json`.
 
 **Bước 12 — Viết bảng align thủ công.** `scripts/align_tables/PXX.py` với quy tắc:
 - Link `st_tie → tt_tie` chỉ được ghi khi **hai tie cùng tham chiếu một tiền thể** (dịch đúng referent), kiểm tra bằng việc đọc hai câu chứa chúng;
@@ -201,7 +203,7 @@ download/BDNC/semantic_analysis/   ★ 20 bản phân tích thủ công từng c
 
 - **Tầng tie (tin cậy):** tổng tie EN 1.605 / VI 1.391. R: 246/149 (A: 234/135, E: 12/14, C: 0/0). S: 0/0. Ellipsis: 1/0. C: 65/67. L: 1.293/1.175. L-sub chủ đạo: repetition (EN 1.240, VI 1.146). Marker coverage render: 100/100%. Tie conf=low: 76 (bridging).
 - **Tầng câu (tin cậy khi có bản đồ):** vd P20 = 41 giữ / 19 bỏ / 3+byline tự sinh; P19 = 21↔21 1–1 + 1 câu VI tự sinh.
-- **Tầng alignment (CHƯA tin cậy):** số liệu kept/omitted/added của vòng cũ mang tính tham khảo — phải dựng lại qua Giai đoạn D + cổng bước 13 trước khi dùng.
+- **Tầng alignment (ĐÃ DỰNG LẠI — tin cậy sau cổng 13, 20/20 PASS):** giữ 1.097 · dịch chuyển 28 · giữ-không-đánh-dấu 176 · bỏ-khối-cắt 201 · bỏ-vi-lược 103 (tổng ST 1.605 ✓) · thêm-thật 48 · thêm-bất-đối-xứng-kiểm-kê 260. Đối chiếu độc lập với phân tích tay: P20 = 80 giữ (59 kept + 21 kept_unmarked) / 40 bỏ / 4 thêm-thật — khớp chính xác §8.6; P12 1 bỏ/1 thêm ✓; P13 18 giữ/11 bỏ ✓; P16 2 bỏ ✓; P17 1 bỏ ✓; P18–P19 0 bỏ ✓. Số liệu align CŨ (kept 1126/omitted 348/added 320) chỉ còn giá trị lịch sử. Cảnh báo tồn tại: P03 (biên tập lại — link chỉ tham khảo), P15 (1 đảo khối). Chi tiết: `out/align_v2/`, giao người dùng: `download/BDNC/Appendix1_Align.docx|.pdf` (marking 5 màu + mũ A/C/E + annotation kết quả + bảng căn cặp chi tiết từng tie).
 
 ## 10. Hồ sơ 20 cặp (địa hình — kết quả của việc phân tích thủ công từng cặp)
 

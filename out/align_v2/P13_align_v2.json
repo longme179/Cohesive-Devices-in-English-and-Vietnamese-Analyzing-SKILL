@@ -1,0 +1,256 @@
+{
+ "pair": "P13",
+ "protocol": "v2 — semantic align per sent_map (gate 13)",
+ "counts": {
+  "st_ties": 30,
+  "tt_ties": 19,
+  "kept": 17,
+  "shifted": 1,
+  "kept_unmarked": 1,
+  "omitted_cut": 11,
+  "omitted_drop": 0,
+  "added_real": 0,
+  "added_inventory": 1
+ },
+ "alignments": [
+  {
+   "st_tie": "P13-EN-001",
+   "tt_tie": "P13-VI-001",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Any visit -> Bất kỳ chuyến thăm nào"
+  },
+  {
+   "st_tie": "P13-EN-002",
+   "tt_tie": "P13-VI-002",
+   "outcome": "kept",
+   "shift": null,
+   "note": "a pope -> một vị giáo hoàng"
+  },
+  {
+   "st_tie": "P13-EN-003",
+   "tt_tie": "P13-VI-003",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the reclusive state -> Triều Tiên (TT keeps the name)"
+  },
+  {
+   "st_tie": "P13-EN-004",
+   "tt_tie": "P13-VI-004",
+   "outcome": "shifted",
+   "shift": "R>L",
+   "note": "its -> (TT repeats Triều Tiên)"
+  },
+  {
+   "st_tie": "P13-EN-005",
+   "tt_tie": "P13-VI-005",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Catholic → Công giáo (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P13-EN-006",
+   "tt_tie": "P13-VI-006",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the announcement -> thông báo này"
+  },
+  {
+   "st_tie": "P13-EN-007",
+   "tt_tie": "P13-VI-007",
+   "outcome": "kept",
+   "shift": null,
+   "note": "South Korea → Hàn Quốc (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P13-EN-008",
+   "tt_tie": null,
+   "outcome": "kept_unmarked",
+   "shift": null,
+   "note": "hiện thực hóa khác/gộp marker: TT S004 has no prior Fides mention (chain anchor removed)"
+  },
+  {
+   "st_tie": "P13-EN-009",
+   "tt_tie": "P13-VI-009",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Park → ông Park (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P13-EN-010",
+   "tt_tie": "P13-VI-010",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the Mass → Thánh lễ (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P13-EN-011",
+   "tt_tie": "P13-VI-011",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the Vatican's → Vatican (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P13-EN-012",
+   "tt_tie": "P13-VI-012",
+   "outcome": "kept",
+   "shift": null,
+   "note": "South Korea → Hàn Quốc (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P13-EN-013",
+   "tt_tie": "P13-VI-013",
+   "outcome": "kept",
+   "shift": null,
+   "note": "a possible papal visit -> Giáo hoàng Francis ... tới Bình Nhưỡng"
+  },
+  {
+   "st_tie": "P13-EN-014",
+   "tt_tie": "P13-VI-014",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Park → Ông Park (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P13-EN-015",
+   "tt_tie": "P13-VI-015",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the National Intelligence Service → Cơ quan Tình báo Quốc gia (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P13-EN-016",
+   "tt_tie": "P13-VI-016",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Park → ông Park (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P13-EN-017",
+   "tt_tie": "P13-VI-017",
+   "outcome": "kept",
+   "shift": null,
+   "note": "his attendance -> sự tham dự của ông"
+  },
+  {
+   "st_tie": "P13-EN-018",
+   "tt_tie": "P13-VI-018",
+   "outcome": "kept",
+   "shift": null,
+   "note": "The intelligence agency → Cơ quan tình báo (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P13-EN-019",
+   "tt_tie": "P13-VI-019",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Park's comments → ông Park (relink theo bản đồ câu)"
+  },
+  {
+   "st_tie": "P13-EN-020",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — North Korean"
+  },
+  {
+   "st_tie": "P13-EN-021",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — the pope"
+  },
+  {
+   "st_tie": "P13-EN-022",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — Kim and Moon"
+  },
+  {
+   "st_tie": "P13-EN-023",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — Vatican officials"
+  },
+  {
+   "st_tie": "P13-EN-024",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — invitation"
+  },
+  {
+   "st_tie": "P13-EN-025",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — It"
+  },
+  {
+   "st_tie": "P13-EN-026",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — invitation"
+  },
+  {
+   "st_tie": "P13-EN-027",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — They"
+  },
+  {
+   "st_tie": "P13-EN-028",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — the pope"
+  },
+  {
+   "st_tie": "P13-EN-029",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — the two Koreas"
+  },
+  {
+   "st_tie": "P13-EN-030",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "om_kind": "cut",
+   "shift": null,
+   "note": "câu EN không có bản dịch (khối cắt) — such a trip"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P13-VI-008",
+   "outcome": "added",
+   "added_kind": "added_inventory",
+   "shift": null,
+   "note": "bất đối xứng kiểm kê: đối ứng EN tồn tại nhưng không được đánh dấu (first-mention / quy ước từng ngôn ngữ)"
+  }
+ ],
+ "suspicious_links": [
+  {
+   "st": "P13-EN-004",
+   "tt": "P13-VI-004",
+   "st_text": "its",
+   "tt_text": "Triều Tiên"
+  }
+ ],
+ "gate13_errors": [],
+ "caveat": null
+}

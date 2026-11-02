@@ -33,6 +33,18 @@
 | P19 | ✅ xong | `Pair_19/P19_phan-tich-ngu-nghia.md` — **cặp same-service VOA EN → VOA VI (lần 5), tin lạnh lần 4, trật tự 1–1 tuyệt đối 21↔21, 1 người nói duy nhất (luật sư Zapala)**: [+người] 4/4 (lần 8); E_LC = 0 lần 7; ⚠ **URL VI sai (thừa "s" — AirlineSettlements.com)** + **mất khung cáo buộc** (claims → trần thuật) + "price-fixing" → "thay đổi giá" (trong quote) / "lũng đoạn" (nâng sắc thái 4/6); B19 hoàn thiện 3 số phận chỗ trống (copy/tan biến/lấp đầy); B2 điều khoản mới: "the same" → "tương tự" (xuống cấp đồng nhất) trong khi such → "như vậy" giữ; byline Steve Herman lần 3 liên tiếp + lần đầu hấp thụ nội dung tin (B28); phản chứng giả thuyết mật độ hạt P18 |
 | P20 | ✅ xong | `Pair_20/P20_phan-tich-ngu-nghia.md` — **cặp same-service VOA EN → VOA VI (lần 6), tin lạnh lần 5, bài dài nhất nhánh (60 câu EN ~1.218 từ), độ phủ ~68% THẤP NHẤT nhánh VOA — cắt 4 khối theo lượt phát biểu thứ hai của 4 nhân vật (19 câu, 40 tie)**: TT tự sinh lede 3 câu (+2 thông tin EN không có: "quốc gia đã phát triển đầu tiên", "một phần 3"); [+người] 4/4 (lần 9); E_LC = 0 lần 8; nối sạch trở lại ~8/9 (0 lược/0 tự sinh/0 đổi loại); ⚠ **chuỗi VI-thêm-ẩn dụ ĐỨT sau 4 cặp (0 trường hợp)** + 2 lỗi đọc thuật ngữ ("chống lại qui định đánh bắt của IUU" — IUU thành chủ thể; "switch off" → "thay đổi") + mất allegedly/so-called + truyền bê typo IIU; byline Steve Herman lần 4 (B28, dính thiếu space vào lede); **alignment pipeline hỏng nặng nhất bộ dữ liệu** (zip vị trí + cờ omitted nhầm tầng ID) |
 
+### ✅ Hậu kiểm 20/20 — bảng align dựng lại theo giao thức mới (v4)
+
+Sau khi đủ 20 bản phân tích, **bảng align 20 cặp đã được dựng lại từ các bản đồ câu**
+(không phải ghép thứ tự): `out/align_v2/` + sản phẩm `download/BDNC/Appendix1_Align.docx|.pdf`
+(marking 5 màu + mũ A/C/E + annotation kết quả căn cặp trên mỗi khối + bảng căn cặp
+chi tiết từng tie). Cổng kiểm 13 PASS 20/20 (0 lỗi): giữ 1.097 · dịch chuyển 28 ·
+giữ-không-đánh-dấu 176 · bỏ-khối-cắt 201 · bỏ-vi-lược 103 · thêm-thật 48 ·
+thêm-bất-đối-xứng-kiểm-kê 260 (tổng ST 1.605 ✓). Đối chiếu độc lập với các bản phân
+tích tay: **P20 = 80 giữ / 40 bỏ / 4 thêm-thật — khớp chính xác §8.6** (số cũ 41/19/42
+là zip vị trí + trùng ngẫu nhiên); P12 1 bỏ/1 thêm ✓; P13 18/11 ✓; P16 2 bỏ ✓;
+P17 1 bỏ ✓; P18–P19 0 bỏ ✓. Còn cảnh báo: P03 (biên tập lại), P15 (đảo khối).
+
 ---
 
 ## Các phát hiện xuyên cặp (cập nhật sau mỗi cặp)
