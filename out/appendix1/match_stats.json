@@ -1,182 +1,465 @@
 {
-  "P01": {
-    "rows": 39,
-    "en_total": 39,
-    "en_matched": 35,
-    "vi_total": 35,
-    "vi_matched": 32,
-    "en_dups": 0,
-    "vi_dups": 0
+  "grand": {
+    "en_markers": 1605,
+    "en_rendered": 1597,
+    "vi_markers": 1391,
+    "vi_rendered": 1380,
+    "en_straddle": 1,
+    "vi_straddle": 1,
+    "en_orphan": 0,
+    "vi_orphan": 0
   },
-  "P02": {
-    "rows": 46,
-    "en_total": 44,
-    "en_matched": 40,
-    "vi_total": 46,
-    "vi_matched": 42,
-    "en_dups": 0,
-    "vi_dups": 0
-  },
-  "P03": {
-    "rows": 46,
-    "en_total": 33,
-    "en_matched": 33,
-    "vi_total": 39,
-    "vi_matched": 39,
-    "en_dups": 0,
-    "vi_dups": 0
-  },
-  "P04": {
-    "rows": 42,
-    "en_total": 42,
-    "en_matched": 42,
-    "vi_total": 35,
-    "vi_matched": 35,
-    "en_dups": 0,
-    "vi_dups": 0
-  },
-  "P05": {
-    "rows": 64,
-    "en_total": 58,
-    "en_matched": 58,
-    "vi_total": 46,
-    "vi_matched": 39,
-    "en_dups": 0,
-    "vi_dups": 0
-  },
-  "P06": {
-    "rows": 30,
-    "en_total": 30,
-    "en_matched": 30,
-    "vi_total": 19,
-    "vi_matched": 19,
-    "en_dups": 0,
-    "vi_dups": 0
-  },
-  "P07": {
-    "rows": 33,
-    "en_total": 33,
-    "en_matched": 29,
-    "vi_total": 33,
-    "vi_matched": 28,
-    "en_dups": 0,
-    "vi_dups": 0
-  },
-  "P08": {
-    "rows": 30,
-    "en_total": 30,
-    "en_matched": 29,
-    "vi_total": 29,
-    "vi_matched": 28,
-    "en_dups": 0,
-    "vi_dups": 0
-  },
-  "P09": {
-    "rows": 39,
-    "en_total": 39,
-    "en_matched": 35,
-    "vi_total": 36,
-    "vi_matched": 32,
-    "en_dups": 0,
-    "vi_dups": 0
-  },
-  "P10": {
-    "rows": 41,
-    "en_total": 29,
-    "en_matched": 23,
-    "vi_total": 39,
-    "vi_matched": 22,
-    "en_dups": 1,
-    "vi_dups": 1
-  },
-  "P11": {
-    "rows": 42,
-    "en_total": 42,
-    "en_matched": 39,
-    "vi_total": 39,
-    "vi_matched": 36,
-    "en_dups": 0,
-    "vi_dups": 0
-  },
-  "P12": {
-    "rows": 1,
-    "en_total": 1,
-    "en_matched": 1,
-    "vi_total": 1,
-    "vi_matched": 1,
-    "en_dups": 0,
-    "vi_dups": 0
-  },
-  "P13": {
-    "rows": 11,
-    "en_total": 11,
-    "en_matched": 11,
-    "vi_total": 8,
-    "vi_matched": 8,
-    "en_dups": 0,
-    "vi_dups": 0
-  },
-  "P14": {
-    "rows": 9,
-    "en_total": 9,
-    "en_matched": 9,
-    "vi_total": 9,
-    "vi_matched": 9,
-    "en_dups": 0,
-    "vi_dups": 0
-  },
-  "P15": {
-    "rows": 22,
-    "en_total": 22,
-    "en_matched": 18,
-    "vi_total": 21,
-    "vi_matched": 17,
-    "en_dups": 0,
-    "vi_dups": 0
-  },
-  "P16": {
-    "rows": 12,
-    "en_total": 12,
-    "en_matched": 12,
-    "vi_total": 12,
-    "vi_matched": 12,
-    "en_dups": 0,
-    "vi_dups": 0
-  },
-  "P17": {
-    "rows": 19,
-    "en_total": 19,
-    "en_matched": 17,
-    "vi_total": 17,
-    "vi_matched": 17,
-    "en_dups": 0,
-    "vi_dups": 0
-  },
-  "P18": {
-    "rows": 12,
-    "en_total": 12,
-    "en_matched": 12,
-    "vi_total": 12,
-    "vi_matched": 11,
-    "en_dups": 0,
-    "vi_dups": 1
-  },
-  "P19": {
-    "rows": 14,
-    "en_total": 13,
-    "en_matched": 12,
-    "vi_total": 13,
-    "vi_matched": 12,
-    "en_dups": 0,
-    "vi_dups": 0
-  },
-  "P20": {
-    "rows": 35,
-    "en_total": 34,
-    "en_matched": 30,
-    "vi_total": 21,
-    "vi_matched": 21,
-    "en_dups": 0,
-    "vi_dups": 0
+  "pairs": {
+    "P01": {
+      "rows": 39,
+      "en_total": 39,
+      "en_matched": 35,
+      "vi_total": 35,
+      "vi_matched": 32,
+      "en_markers": 135,
+      "en_rendered": 133,
+      "en_rendered_by_cat": {
+        "L": 93,
+        "R": 30,
+        "C": 10
+      },
+      "vi_markers": 119,
+      "vi_rendered": 119,
+      "vi_rendered_by_cat": {
+        "L": 90,
+        "C": 9,
+        "R": 20
+      },
+      "straddles": 0,
+      "orphan_markers": 0
+    },
+    "P02": {
+      "rows": 46,
+      "en_total": 44,
+      "en_matched": 40,
+      "vi_total": 46,
+      "vi_matched": 42,
+      "en_markers": 157,
+      "en_rendered": 157,
+      "en_rendered_by_cat": {
+        "L": 113,
+        "R": 37,
+        "C": 7
+      },
+      "vi_markers": 153,
+      "vi_rendered": 153,
+      "vi_rendered_by_cat": {
+        "L": 127,
+        "R": 22,
+        "C": 4
+      },
+      "straddles": 1,
+      "orphan_markers": 0
+    },
+    "P03": {
+      "rows": 46,
+      "en_total": 33,
+      "en_matched": 33,
+      "vi_total": 39,
+      "vi_matched": 39,
+      "en_markers": 115,
+      "en_rendered": 115,
+      "en_rendered_by_cat": {
+        "L": 101,
+        "C": 8,
+        "R": 6
+      },
+      "vi_markers": 126,
+      "vi_rendered": 126,
+      "vi_rendered_by_cat": {
+        "L": 110,
+        "R": 7,
+        "C": 9
+      },
+      "straddles": 0,
+      "orphan_markers": 0
+    },
+    "P04": {
+      "rows": 42,
+      "en_total": 42,
+      "en_matched": 42,
+      "vi_total": 35,
+      "vi_matched": 35,
+      "en_markers": 95,
+      "en_rendered": 95,
+      "en_rendered_by_cat": {
+        "R": 12,
+        "L": 79,
+        "C": 4
+      },
+      "vi_markers": 65,
+      "vi_rendered": 65,
+      "vi_rendered_by_cat": {
+        "C": 7,
+        "L": 53,
+        "R": 5
+      },
+      "straddles": 0,
+      "orphan_markers": 0
+    },
+    "P05": {
+      "rows": 64,
+      "en_total": 58,
+      "en_matched": 58,
+      "vi_total": 46,
+      "vi_matched": 39,
+      "en_markers": 102,
+      "en_rendered": 102,
+      "en_rendered_by_cat": {
+        "L": 90,
+        "R": 8,
+        "C": 4
+      },
+      "vi_markers": 64,
+      "vi_rendered": 64,
+      "vi_rendered_by_cat": {
+        "L": 57,
+        "R": 4,
+        "C": 3
+      },
+      "straddles": 0,
+      "orphan_markers": 0
+    },
+    "P06": {
+      "rows": 30,
+      "en_total": 30,
+      "en_matched": 30,
+      "vi_total": 19,
+      "vi_matched": 19,
+      "en_markers": 81,
+      "en_rendered": 81,
+      "en_rendered_by_cat": {
+        "L": 70,
+        "R": 6,
+        "C": 5
+      },
+      "vi_markers": 53,
+      "vi_rendered": 53,
+      "vi_rendered_by_cat": {
+        "L": 46,
+        "C": 5,
+        "R": 2
+      },
+      "straddles": 0,
+      "orphan_markers": 0
+    },
+    "P07": {
+      "rows": 33,
+      "en_total": 33,
+      "en_matched": 29,
+      "vi_total": 33,
+      "vi_matched": 28,
+      "en_markers": 121,
+      "en_rendered": 119,
+      "en_rendered_by_cat": {
+        "R": 31,
+        "L": 82,
+        "E": 1,
+        "C": 5
+      },
+      "vi_markers": 119,
+      "vi_rendered": 116,
+      "vi_rendered_by_cat": {
+        "R": 27,
+        "L": 83,
+        "C": 6
+      },
+      "straddles": 0,
+      "orphan_markers": 0
+    },
+    "P08": {
+      "rows": 30,
+      "en_total": 30,
+      "en_matched": 29,
+      "vi_total": 29,
+      "vi_matched": 28,
+      "en_markers": 86,
+      "en_rendered": 84,
+      "en_rendered_by_cat": {
+        "L": 64,
+        "R": 13,
+        "C": 7
+      },
+      "vi_markers": 77,
+      "vi_rendered": 74,
+      "vi_rendered_by_cat": {
+        "L": 59,
+        "R": 7,
+        "C": 8
+      },
+      "straddles": 0,
+      "orphan_markers": 0
+    },
+    "P09": {
+      "rows": 39,
+      "en_total": 39,
+      "en_matched": 35,
+      "vi_total": 36,
+      "vi_matched": 32,
+      "en_markers": 122,
+      "en_rendered": 122,
+      "en_rendered_by_cat": {
+        "L": 116,
+        "C": 2,
+        "R": 4
+      },
+      "vi_markers": 98,
+      "vi_rendered": 98,
+      "vi_rendered_by_cat": {
+        "L": 93,
+        "C": 2,
+        "R": 3
+      },
+      "straddles": 0,
+      "orphan_markers": 0
+    },
+    "P10": {
+      "rows": 41,
+      "en_total": 29,
+      "en_matched": 23,
+      "vi_total": 39,
+      "vi_matched": 22,
+      "en_markers": 45,
+      "en_rendered": 45,
+      "en_rendered_by_cat": {
+        "L": 33,
+        "R": 9,
+        "C": 3
+      },
+      "vi_markers": 45,
+      "vi_rendered": 42,
+      "vi_rendered_by_cat": {
+        "L": 33,
+        "R": 5,
+        "C": 4
+      },
+      "straddles": 1,
+      "orphan_markers": 0
+    },
+    "P11": {
+      "rows": 42,
+      "en_total": 42,
+      "en_matched": 39,
+      "vi_total": 39,
+      "vi_matched": 36,
+      "en_markers": 128,
+      "en_rendered": 128,
+      "en_rendered_by_cat": {
+        "L": 115,
+        "R": 11,
+        "C": 2
+      },
+      "vi_markers": 118,
+      "vi_rendered": 118,
+      "vi_rendered_by_cat": {
+        "L": 111,
+        "R": 5,
+        "C": 2
+      },
+      "straddles": 0,
+      "orphan_markers": 0
+    },
+    "P12": {
+      "rows": 1,
+      "en_total": 1,
+      "en_matched": 1,
+      "vi_total": 1,
+      "vi_matched": 1,
+      "en_markers": 1,
+      "en_rendered": 1,
+      "en_rendered_by_cat": {
+        "R": 1
+      },
+      "vi_markers": 1,
+      "vi_rendered": 1,
+      "vi_rendered_by_cat": {
+        "L": 1
+      },
+      "straddles": 0,
+      "orphan_markers": 0
+    },
+    "P13": {
+      "rows": 11,
+      "en_total": 11,
+      "en_matched": 11,
+      "vi_total": 8,
+      "vi_matched": 8,
+      "en_markers": 30,
+      "en_rendered": 30,
+      "en_rendered_by_cat": {
+        "L": 25,
+        "R": 5
+      },
+      "vi_markers": 19,
+      "vi_rendered": 19,
+      "vi_rendered_by_cat": {
+        "L": 18,
+        "R": 1
+      },
+      "straddles": 0,
+      "orphan_markers": 0
+    },
+    "P14": {
+      "rows": 9,
+      "en_total": 9,
+      "en_matched": 9,
+      "vi_total": 9,
+      "vi_matched": 9,
+      "en_markers": 27,
+      "en_rendered": 27,
+      "en_rendered_by_cat": {
+        "L": 23,
+        "R": 4
+      },
+      "vi_markers": 27,
+      "vi_rendered": 27,
+      "vi_rendered_by_cat": {
+        "L": 22,
+        "R": 4,
+        "C": 1
+      },
+      "straddles": 0,
+      "orphan_markers": 0
+    },
+    "P15": {
+      "rows": 22,
+      "en_total": 22,
+      "en_matched": 18,
+      "vi_total": 21,
+      "vi_matched": 17,
+      "en_markers": 55,
+      "en_rendered": 53,
+      "en_rendered_by_cat": {
+        "R": 14,
+        "L": 38,
+        "C": 1
+      },
+      "vi_markers": 47,
+      "vi_rendered": 47,
+      "vi_rendered_by_cat": {
+        "L": 40,
+        "R": 6,
+        "C": 1
+      },
+      "straddles": 0,
+      "orphan_markers": 0
+    },
+    "P16": {
+      "rows": 12,
+      "en_total": 12,
+      "en_matched": 12,
+      "vi_total": 12,
+      "vi_matched": 12,
+      "en_markers": 36,
+      "en_rendered": 36,
+      "en_rendered_by_cat": {
+        "L": 32,
+        "R": 2,
+        "C": 2
+      },
+      "vi_markers": 39,
+      "vi_rendered": 39,
+      "vi_rendered_by_cat": {
+        "L": 34,
+        "R": 3,
+        "C": 2
+      },
+      "straddles": 0,
+      "orphan_markers": 0
+    },
+    "P17": {
+      "rows": 19,
+      "en_total": 19,
+      "en_matched": 17,
+      "vi_total": 17,
+      "vi_matched": 17,
+      "en_markers": 49,
+      "en_rendered": 49,
+      "en_rendered_by_cat": {
+        "L": 41,
+        "R": 5,
+        "C": 3
+      },
+      "vi_markers": 46,
+      "vi_rendered": 46,
+      "vi_rendered_by_cat": {
+        "L": 41,
+        "R": 2,
+        "C": 3
+      },
+      "straddles": 0,
+      "orphan_markers": 0
+    },
+    "P18": {
+      "rows": 12,
+      "en_total": 12,
+      "en_matched": 12,
+      "vi_total": 12,
+      "vi_matched": 11,
+      "en_markers": 53,
+      "en_rendered": 53,
+      "en_rendered_by_cat": {
+        "L": 41,
+        "R": 11,
+        "C": 1
+      },
+      "vi_markers": 44,
+      "vi_rendered": 42,
+      "vi_rendered_by_cat": {
+        "L": 35,
+        "R": 7
+      },
+      "straddles": 0,
+      "orphan_markers": 0
+    },
+    "P19": {
+      "rows": 14,
+      "en_total": 13,
+      "en_matched": 12,
+      "vi_total": 13,
+      "vi_matched": 12,
+      "en_markers": 47,
+      "en_rendered": 47,
+      "en_rendered_by_cat": {
+        "L": 43,
+        "R": 3,
+        "C": 1
+      },
+      "vi_markers": 48,
+      "vi_rendered": 48,
+      "vi_rendered_by_cat": {
+        "L": 44,
+        "R": 3,
+        "C": 1
+      },
+      "straddles": 0,
+      "orphan_markers": 0
+    },
+    "P20": {
+      "rows": 35,
+      "en_total": 34,
+      "en_matched": 30,
+      "vi_total": 21,
+      "vi_matched": 21,
+      "en_markers": 120,
+      "en_rendered": 120,
+      "en_rendered_by_cat": {
+        "L": 88,
+        "R": 32
+      },
+      "vi_markers": 83,
+      "vi_rendered": 83,
+      "vi_rendered_by_cat": {
+        "R": 14,
+        "L": 69
+      },
+      "straddles": 0,
+      "orphan_markers": 0
+    }
   }
 }

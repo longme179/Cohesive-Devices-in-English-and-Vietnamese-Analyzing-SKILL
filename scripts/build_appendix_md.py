@@ -1,40 +1,62 @@
 #!/usr/bin/env python3
 """
-Build clean Appendix 1 markdown with <mark> HTML highlighting.
-V2: Position-based matching (start/end in plain text), boundary fixes.
+Appendix 1 builder — V3 (multi-colour <span> highlighting).
+
+Inputs
+  upload/Appendix 1 - 20 pairs.md          reference layout (2-col EN|VI rows)
+  out/pairs/PXX/ST_highlighted.md          emoji+⟦⟧ marked ST (from render.py)
+  out/pairs/PXX/TT_highlighted.md          emoji+⟦⟧ marked TT
+  out/pairs/PXX/{ST,TT}_{seg,ties}.json    sentence segments + tie tables (tooltips)
+
+Outputs (out/appendix1/)
+  Appendix1.md              markdown, 5-colour <span style> highlights, 2-col tables
+  Appendix1.html            standalone HTML, 2-col tables, colours + tie tooltips
+  appendix1_segments.json   intermediate representation (consumed by export_docx.py)
+  match_stats.json          row matching + marker coverage statistics
+
+Position model: markers parsed from the emoji markup live in *plain* coordinates
+(plain text == ST.txt/TT.txt flow, since markers are pure insertions), which are
+identical to the flow coordinates used by render.py — so a marker's start
+position maps 1:1 onto its tie's computed (fa) position for tooltips.
 """
 import re
 import json
 import os
+import html as H
 
 BASE = '/home/z/my-project'
 RAW_MD = os.path.join(BASE, 'upload', 'Appendix 1 - 20 pairs.md')
 PAIRS_DIR = os.path.join(BASE, 'out', 'pairs')
 OUT_DIR = os.path.join(BASE, 'out', 'appendix1')
 
-CAT_COLORS = {
-    'R': '#FFF3B0',   # yellow - Reference
-    'S': '#C8E6C9',   # green  - Substitution
-    'E': '#BBDEFB',   # blue   - Ellipsis
-    'C': '#FFE0B2',   # orange - Conjunction
-    'L': '#E1BEE7',   # purple - Lexical
+CATS = {
+    'R': {'bg': '#FFF3B0', 'fg': '#664D03', 'emoji': '🟨', 'en': 'Reference',
+          'vi': 'tham chiếu (đại từ, chỉ từ)'},
+    'S': {'bg': '#C8E6C9', 'fg': '#14532D', 'emoji': '🟩', 'en': 'Substitution',
+          'vi': 'thay thế'},
+    'E': {'bg': '#BBDEFB', 'fg': '#1E3A8A', 'emoji': '🟦', 'en': 'Ellipsis',
+          'vi': 'lược bỏ (∅ = vị trí trống)'},
+    'C': {'bg': '#FFE0B2', 'fg': '#7C2D12', 'emoji': '🟧', 'en': 'Conjunction',
+          'vi': 'liên kết'},
+    'L': {'bg': '#E1BEE7', 'fg': '#581C87', 'emoji': '🟪', 'en': 'Lexical cohesion',
+          'vi': 'liên kết từ vựng'},
 }
-CAT_EMOJI = {'R': '🟨', 'S': '🟩', 'E': '🟦', 'C': '🟧', 'L': '🟪'}
-EMOJI_CLASS = '🟪🟨🟩🟦🟧'
+CAT_EMOJI = {c['emoji']: k for k, c in CATS.items()}
+EMOJI_CLASS = ''.join(CAT_EMOJI)
+
+DOC_TITLE = 'Appendix 1 — 20 cặp bài báo EN–VI (có đánh dấu ngữ nghĩa)'
+INTRO = ('Bản tiếng Anh (EN) đánh dấu theo Halliday & Hasan (1976); bản tiếng Việt (VI) '
+         'đánh dấu theo Trần Ngọc Thêm (2006, dẫn theo Nguyễn Thanh Tùng 2020), quy về '
+         'cùng thang 5 màu. Chỉ đánh dấu các liên kết liên-câu (intersentential ties).')
+MD_NOTE = ('> **Lưu ý hiển thị:** GitHub lọc bỏ thuộc tính `style` inline nên trên GitHub '
+           'các đoạn đánh dấu trong file `.md` có thể không hiện màu. Bản màu đầy đủ: xem '
+           'file **`.html`** (rê chuột để xem chi tiết liên kết) hoặc **`.docx`** đính kèm. '
+           'Ký hiệu ∅ (nền xanh) = vị trí trống của phép lược bỏ (E).')
 
 
-def convert_to_mark(hl_text):
-    """Convert emoji markup to <mark> HTML tags."""
-    def repl(m):
-        emoji = m.group(1)
-        inner = m.group(2)
-        for cat, e in CAT_EMOJI.items():
-            if e == emoji:
-                color = CAT_COLORS[cat]
-                return f'<mark style="background-color:{color}">{inner}</mark>'
-        return inner
-    return re.sub(r'([' + EMOJI_CLASS + r'])⟦([^⟧]*)⟧', repl, hl_text)
-
+# ============================================================
+# Marked-text scanning (emoji + ⟦⟧  ->  plain text + markers)
+# ============================================================
 
 def load_highlighted_body(filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
@@ -45,49 +67,111 @@ def load_highlighted_body(filepath):
     return content.lstrip('\n')
 
 
-def build_plain_and_map(hl_text):
+def scan_marked(hl_text):
+    """Scan emoji+⟦⟧ markup -> (plain_text, markers in plain coordinates).
+
+    Text markers: {'fa', 'fb', 'cat', 'point': False}
+    Ellipsis points: {'fa' == 'fb', 'cat': 'E', 'point': True}
     """
-    Strip markup -> plain text + pos_map (plain_pos -> hl_pos).
-    Ellipsis markers (inner == '∅') are skipped entirely.
-    """
-    plain_chars = []
-    pos_map = []
-    i = 0
-    n = len(hl_text)
+    plain = []
+    markers = []
+    i, n = 0, len(hl_text)
     while i < n:
         ch = hl_text[i]
-        if ch in EMOJI_CLASS and i + 1 < n and hl_text[i+1] == '⟦':
+        if ch in EMOJI_CLASS and i + 1 < n and hl_text[i + 1] == '⟦':
             j = hl_text.find('⟧', i + 2)
             if j == -1:
                 j = n
-            inner = hl_text[i+2:j]
-            if inner != '∅':
-                for k, c in enumerate(inner):
-                    plain_chars.append(c)
-                    pos_map.append(i + 2 + k)
+            inner = hl_text[i + 2:j]
+            cat = CAT_EMOJI[ch]
+            if inner == '∅':
+                markers.append({'fa': len(plain), 'fb': len(plain),
+                                'cat': cat, 'point': True})
+            else:
+                fa = len(plain)
+                plain.extend(inner)
+                markers.append({'fa': fa, 'fb': len(plain),
+                                'cat': cat, 'point': False})
             i = j + 1
         else:
-            plain_chars.append(ch)
-            pos_map.append(i)
+            plain.append(ch)
             i += 1
-    pos_map.append(n)
-    return ''.join(plain_chars), pos_map
+    return ''.join(plain), markers
 
+
+# ============================================================
+# Tie positions (flow coordinates) for tooltips
+# ============================================================
+
+def load_ties_with_positions(pair_id, pref):
+    """Replicates render.py's position computation.
+
+    Returns (text_ties_by_fa, point_ties_by_pos, n_ties).
+    """
+    d = os.path.join(PAIRS_DIR, pair_id)
+    seg = json.load(open(f'{d}/{pref}_seg.json'))
+    ties = json.load(open(f'{d}/{pref}_ties.json'))['ties']
+    sents = {s['id']: s for s in seg['sentences']}
+    text_map, point_map = {}, {}
+    for t in ties:
+        s = sents.get(t['sent'])
+        if s is None:
+            continue
+        if t['text'] is None:
+            pos, found, p = -1, 0, -1
+            while True:
+                p = s['text'].find(t['gap_after'], p + 1)
+                if p < 0:
+                    break
+                found += 1
+                if found == t['occ']:
+                    pos = p + len(t['gap_after'])
+                    break
+            if pos >= 0:
+                point_map.setdefault(s['fa'] + pos, t)
+        else:
+            p, found, a = -1, 0, -1
+            while True:
+                p = s['text'].find(t['text'], p + 1)
+                if p < 0:
+                    break
+                found += 1
+                if found == t['occ']:
+                    a = p
+                    break
+            if a >= 0:
+                text_map.setdefault(s['fa'] + a, t)
+    return text_map, point_map, len(ties)
+
+
+def tie_tip(t):
+    if t is None:
+        return None
+    c = CATS[t['cat']]
+    if t.get('text') is None:
+        tip = (f"{c['en']} ({t['cat']}/{t.get('sub', '')}) | gap after: "
+               f"{t.get('gap_after', '')} | recovered: {t.get('recovered', '')} | "
+               f"ante: {t.get('ante', '')}")
+    else:
+        tip = (f"{c['en']} ({t['cat']}/{t.get('sub', '')}) | ante: "
+               f"{t.get('ante', '')} | conf={t.get('conf', '')}")
+        if t.get('alt'):
+            tip += f" | alt: {t['alt']}"
+    if t.get('note'):
+        tip += f" | note: {t['note']}"
+    return tip
+
+
+# ============================================================
+# Normalisation / matching (unchanged from V2)
+# ============================================================
 
 def build_norm_index(text):
-    """
-    Collapse whitespace -> norm_text + norm_to_orig mapping.
-    norm_to_orig[i] = orig position of norm char i; extra sentinel at end.
-    Also normalizes curly quotes to straight (1:1 replacement, positions preserved).
-    """
-    # 1:1 character replacements (positions preserved)
+    """Collapse whitespace -> norm_text + norm_to_orig mapping."""
     text = text.replace('\u201c', '"').replace('\u201d', '"')
     text = text.replace('\u2018', "'").replace('\u2019', "'")
-
-    norm_chars = []
-    norm_to_orig = []
-    i = 0
-    n = len(text)
+    norm_chars, norm_to_orig = [], []
+    i, n = 0, len(text)
     while i < n:
         if text[i].isspace():
             j = i
@@ -106,51 +190,48 @@ def build_norm_index(text):
 
 def normalize_for_match(text):
     """Normalize text for comparison. Strips markdown links first."""
-    # Strip markdown links: [text](url) -> text
     text = re.sub(r'\[([^\]]*)\]\(([^)]*)\)', r'\1', text)
-    # Strip orphan link remnants: ](url)
     text = re.sub(r'\]\([^)]*\)', '', text)
-    # Remove markdown escapes
     text = text.replace('\\[', '[').replace('\\]', ']').replace('\\|', '|')
-    # Remove bold/italic markers
     text = re.sub(r'\*\*([^*]*)\*\*', r'\1', text)
     text = re.sub(r'\*([^*]*)\*', r'\1', text)
-    # Normalize quotes
     text = text.replace('\u201c', '"').replace('\u201d', '"')
     text = text.replace('\u2018', "'").replace('\u2019', "'")
-    # Collapse whitespace
     text = re.sub(r'\s+', ' ', text).strip()
     return text
 
 
 class HighlightExtractor:
-    """Manages position mapping and extraction for one highlighted file."""
+    """Row matching + segment extraction for one highlighted file."""
 
-    def __init__(self, hl_path):
+    def __init__(self, hl_path, pair_id, pref):
         self.hl_body = load_highlighted_body(hl_path)
-        self.plain, self.pos_map = build_plain_and_map(self.hl_body)
+        self.plain, self.markers = scan_marked(self.hl_body)
         self.norm_text, self.norm_to_orig = build_norm_index(self.plain)
-        self.search_pos = 0  # in norm_text
-        self.covered_end = 0  # track what's been covered
+        self.search_pos = 0
+        self.text_ties, self.point_ties, self.n_ties = \
+            load_ties_with_positions(pair_id, pref)
+        self.consumed = set()
+        self.rendered = 0
+        self.rendered_by_cat = {}
+        self.straddles = 0
+        self.orphan_markers = 0
+
+    # ---------- duplicate / range finding (V2 logic) ----------
 
     def is_duplicate(self, raw_text):
-        """Check if raw_text content was already covered by a previous match."""
         q = normalize_for_match(raw_text)
         if not q or len(q) < 20:
             return False
-        # Check if query appears entirely before current search_pos
-        # (i.e., in already-covered territory)
         check_limit = min(self.search_pos, len(self.norm_text))
         if check_limit <= 0:
             return False
-        # Search in the covered region [0, search_pos)
         prefix = q[:min(60, len(q))]
         if len(prefix) < 15:
             return False
         idx = self.norm_text.find(prefix, 0, check_limit)
         if idx == -1:
             return False
-        # Verify with suffix if possible
         if len(q) > 80:
             suffix = q[-40:]
             sidx = self.norm_text.find(suffix, idx, min(idx + len(q) + 200, check_limit))
@@ -159,31 +240,19 @@ class HighlightExtractor:
         return True
 
     def find_range(self, raw_text):
-        """
-        Find raw_text in norm_text starting from self.search_pos.
-        Returns (norm_start, norm_end) or None.
-        Updates self.search_pos on success.
-        Handles: heading+content merged, markdown links, minor text differences.
-        """
         q = normalize_for_match(raw_text)
         if not q or len(q) < 10:
             return None
-
-        # Strategy 1: full match
         idx = self.norm_text.find(q, self.search_pos)
         if idx != -1:
             self.search_pos = idx + len(q)
             return idx, idx + len(q)
-
-        # Strategy 2: heading+content - try suffixes at sentence boundaries
-        # Split by '. ' or '.**' or '?' to find where content starts
         for start_off in self._heading_offsets(q):
             sub = q[start_off:]
             if len(sub) < 30:
                 continue
             idx = self.norm_text.find(sub[:80], self.search_pos)
             if idx != -1:
-                # Verify: check suffix too
                 suffix = sub[-40:]
                 if len(suffix) > 15:
                     end_idx = self.norm_text.find(suffix, idx)
@@ -195,8 +264,6 @@ class HighlightExtractor:
                 if end <= len(self.norm_text):
                     self.search_pos = end
                     return idx, end
-
-        # Strategy 3: prefix match with suffix verification
         prefix = q[:60]
         if len(prefix) > 25:
             idx = self.norm_text.find(prefix, self.search_pos)
@@ -209,10 +276,9 @@ class HighlightExtractor:
                         self.search_pos = end
                         return idx, end
                 end = idx + len(q)
-                self.search_pos = end
-                return idx, end
-
-        # Strategy 4: shorter prefix
+                if end <= len(self.norm_text):
+                    self.search_pos = end
+                    return idx, end
         prefix = q[:35]
         if len(prefix) > 15:
             idx = self.norm_text.find(prefix, self.search_pos)
@@ -221,8 +287,6 @@ class HighlightExtractor:
                 if end <= len(self.norm_text):
                     self.search_pos = end
                     return idx, end
-
-        # Strategy 5: word-by-word heading skip (skip up to 8 words from start)
         words = q.split(' ')
         for skip in range(2, min(12, len(words))):
             sub = ' '.join(words[skip:])
@@ -239,9 +303,6 @@ class HighlightExtractor:
                 if end <= len(self.norm_text):
                     self.search_pos = max(end, idx + 30)
                     return idx, end
-
-        # Strategy 6: search for END of query to advance position (for cascading fix)
-        # If we can find the LAST sentence of the query, use that
         if len(q) > 100:
             last_sentence = q[-80:]
             idx = self.norm_text.find(last_sentence, self.search_pos)
@@ -249,126 +310,85 @@ class HighlightExtractor:
                 end = idx + len(last_sentence)
                 self.search_pos = end
                 return idx, end
-
         return None
 
     def _heading_offsets(self, q):
-        """Generate candidate offsets where heading ends and content begins."""
         offsets = []
-        # After bold close: **Heading** Content
         for m in re.finditer(r'\*\*([^*]+)\*\*\s', q[:200]):
             offsets.append(m.end())
-        # After ? or : followed by space (in first 150 chars - typical heading)
         for m in re.finditer(r'[?:.]\s', q[:150]):
             if m.start() > 10:
                 offsets.append(m.end())
-        # After first sentence
         m = re.search(r'\.\s', q[:150])
         if m and m.start() > 15:
             offsets.append(m.end())
         return sorted(set(o for o in offsets if 0 < o < len(q)))
 
-    def extract(self, norm_start, norm_end):
-        """Extract highlighted text for norm range [norm_start, norm_end)."""
-        if norm_start >= len(self.norm_to_orig):
-            return None
-        plain_start = self.norm_to_orig[norm_start]
+    # ---------- segment extraction (V3) ----------
+
+    def segments(self, norm_start, norm_end):
+        """Build the segment list for a norm-text range [norm_start, norm_end)."""
+        ps = self.norm_to_orig[norm_start]
         if norm_end < len(self.norm_to_orig):
-            plain_end = self.norm_to_orig[norm_end]
+            pe = self.norm_to_orig[norm_end]
         else:
-            plain_end = self.norm_to_orig[-1]
+            pe = self.norm_to_orig[-1]
+        while ps > 0 and ps < len(self.plain) and \
+                self.plain[ps].isalnum() and self.plain[ps - 1].isalnum():
+            ps -= 1
+        while pe < len(self.plain) - 1 and pe > 0 and \
+                self.plain[pe].isalnum() and self.plain[pe - 1].isalnum():
+            pe += 1
 
-        # Word-boundary fix: if plain_start is mid-word, back up to word start
-        while plain_start > 0 and plain_start < len(self.plain) and \
-              self.plain[plain_start].isalnum() and self.plain[plain_start - 1].isalnum():
-            plain_start -= 1
-
-        # Word-boundary fix: if plain_end is mid-word, advance to word end
-        while plain_end < len(self.plain) - 1 and \
-              plain_end > 0 and self.plain[plain_end].isalnum() and self.plain[plain_end - 1].isalnum():
-            plain_end += 1
-
-        if plain_start >= len(self.pos_map) - 1:
-            return None
-
-        hl_start = self.pos_map[plain_start]
-        hl_end = self.pos_map[plain_end] if plain_end < len(self.pos_map) - 1 else len(self.hl_body)
-
-        # Boundary fix: back up hl_start to include markup opening if inside markup
-        while hl_start > 0:
-            prev = self.hl_body[hl_start - 1]
-            if prev == '⟦':
-                hl_start -= 2  # include ⟦ and emoji
-                # Continue backing up over emoji
+        ms = []
+        for idx, m in enumerate(self.markers):
+            if idx in self.consumed:
                 continue
-            elif prev in EMOJI_CLASS:
-                hl_start -= 1
-                # Check if char before emoji is ⟧ (end of previous markup) - stop
-                if hl_start > 0 and self.hl_body[hl_start - 1] == '⟧':
-                    hl_start += 1  # undo, we were at markup start already
-                    break
-                continue
+            if m['point']:
+                if ps <= m['fa'] <= pe:
+                    ms.append(m)
+                    self.consumed.add(idx)
             else:
-                break
+                if ps <= m['fa'] < pe:
+                    ms.append(m)
+                    self.consumed.add(idx)
+                    if m['fb'] > pe:
+                        self.straddles += 1
+        ms.sort(key=lambda m: (m['fa'], m['fb']))
 
-        # Boundary fix: extend hl_end to close any unclosed markup
-        seg = self.hl_body[hl_start:hl_end]
-        open_count = seg.count('⟦')
-        close_count = seg.count('⟧')
-        if open_count > close_count:
-            # Extend to find closing ⟧
-            j = self.hl_body.find('⟧', hl_end)
-            if j != -1:
-                hl_end = j + 1
-
-        result = self.hl_body[hl_start:hl_end].strip()
-        if not result:
-            return None
-
-        # Clean up any orphan ⟧ at start (shouldn't happen after fix, but just in case)
-        while result.startswith('⟧'):
-            result = result[1:]
-        # Clean orphan emoji at end
-        while result and result[-1] in EMOJI_CLASS:
-            result = result[:-1]
-        # If result has orphan ⟦ at end (unclosed), remove it
-        if result.endswith('⟦'):
-            result = result[:-1]
-        if result.endswith('⟦'.replace('⟦', '')):
-            pass
-
-        # Final cleanup: check for balanced markup
-        # Remove any stray ⟧ or ⟦ that are unbalanced
-        result = self._clean_orphan_markers(result)
-
-        return result if result else None
-
-    def _clean_orphan_markers(self, text):
-        """Remove orphan ⟧ markers (closing without opening)."""
-        result = []
-        depth = 0
-        for ch in text:
-            if ch == '⟦':
-                depth += 1
-                result.append(ch)
-            elif ch == '⟧':
-                if depth > 0:
-                    depth -= 1
-                    result.append(ch)
-                # else: orphan, skip
+        segs, last = [], ps
+        for m in ms:
+            if m['fa'] > last:
+                segs.append({'t': self.plain[last:m['fa']]})
+            if m['point']:
+                tie = self.point_ties.get(m['fa'])
+                if tie is None:
+                    self.orphan_markers += 1
+                segs.append({'t': '∅', 'cat': m['cat'], 'point': True,
+                             'tip': tie_tip(tie),
+                             'id': tie['id'] if tie else None})
             else:
-                result.append(ch)
-        # Remove unclosed ⟦ and preceding emoji
-        result_str = ''.join(result)
-        while result_str.endswith('⟦'):
-            result_str = result_str[:-1]
-            if result_str and result_str[-1] in EMOJI_CLASS:
-                result_str = result_str[:-1]
-        return result_str
+                tie = self.text_ties.get(m['fa'])
+                if tie is None:
+                    self.orphan_markers += 1
+                text = self.plain[m['fa']:min(m['fb'], pe)]
+                segs.append({'t': text, 'cat': m['cat'], 'point': False,
+                             'tip': tie_tip(tie),
+                             'id': tie['id'] if tie else None})
+            last = max(last, m['fb'])
+            self.rendered += 1
+            self.rendered_by_cat[m['cat']] = self.rendered_by_cat.get(m['cat'], 0) + 1
+        if pe > last:
+            segs.append({'t': self.plain[last:pe]})
+        if segs:
+            segs[0]['t'] = segs[0]['t'].lstrip()
+            segs[-1]['t'] = segs[-1]['t'].rstrip()
+            segs = [s for s in segs if s['t']]
+        return segs
 
 
 # ============================================================
-# Raw file parsing
+# Raw reference-file parsing (unchanged from V2)
 # ============================================================
 
 PAIR_BOUNDARIES = [
@@ -387,34 +407,22 @@ URL_LINES = {
     'P17': (616, 617), 'P18': (642, 643), 'P19': (661, 662), 'P20': (None, None),
 }
 
-
-def extract_url_from_line(line):
-    m = re.search(r'\]\((https?://[^)]+)\)', line)
-    if m:
-        return m.group(1)
-    m = re.search(r'(https?://\S+)', line)
-    if m:
-        return m.group(1).rstrip('\\').rstrip('.').rstrip(')')
-    return None
+HEADER_PATTERNS = {
+    'tiếng anh', 'en', 'eng', 'english', 'anh', 'tieng anh',
+}
+HEADER_PATTERNS_VI = {
+    'tiếng việt', 'vi', 'vie', 'vietnamese', 'việt', 'tieng viet',
+}
 
 
 def extract_urls_pair_from_line(line):
-    """
-    Extract (en_url, vi_url) from a line.
-    If line is a table row with 2 cells, extract URL from each cell.
-    Otherwise, extract URLs in order of appearance (EN first, VI second).
-    """
-    # Try table row parsing first
     cells = None
     s = line.strip()
     if s.startswith('|') and s.endswith('|') and s.count('|') >= 2:
         inner = s[1:s.rfind('|')]
-        # Split by unescaped |
-        parts = []
-        current = ''
-        i = 0
+        parts, current, i = [], '', 0
         while i < len(inner):
-            if inner[i] == '\\' and i + 1 < len(inner) and inner[i+1] == '|':
+            if inner[i] == '\\' and i + 1 < len(inner) and inner[i + 1] == '|':
                 current += '|'
                 i += 2
             elif inner[i] == '|':
@@ -427,10 +435,8 @@ def extract_urls_pair_from_line(line):
         parts.append(current.strip())
         if len(parts) >= 2:
             cells = parts[:2]
-
     if cells:
-        en_url = None
-        vi_url = None
+        en_url, vi_url = None, None
         for cell in cells:
             m = re.search(r'\]\((https?://[^)]+)\)', cell)
             if not m:
@@ -446,12 +452,10 @@ def extract_urls_pair_from_line(line):
             else:
                 en_url = en_url or url
         return en_url, vi_url
-
-    # Not a table row: extract URLs in order
-    urls = re.findall(r'\]\((https?://[^)]+)\)', line) or re.findall(r'(https?://\S+)', line)
+    urls = re.findall(r'\]\((https?://[^)]+)\)', line) or \
+        re.findall(r'(https?://\S+)', line)
     urls = [u.rstrip('\\').rstrip('.').rstrip(')') for u in urls]
-    en_url = None
-    vi_url = None
+    en_url, vi_url = None, None
     for url in urls:
         if is_vi_url(url):
             vi_url = vi_url or url
@@ -461,22 +465,18 @@ def extract_urls_pair_from_line(line):
 
 
 def is_vi_url(url):
-    """Check if URL is a Vietnamese-language article."""
     return ('voatiengviet' in url or '/language/vietnamese/' in url or
             '/vi/article/' in url or 'tieng-viet' in url or 'vietnamese' in url)
 
 
 def parse_table_cells(line):
-    """Parse a markdown table row into cells, handling escaped pipes."""
     s = line.strip()
     if not (s.startswith('|') and s.endswith('|')):
         return None
     inner = s[1:-1]
-    cells = []
-    current = ''
-    i = 0
+    cells, current, i = [], '', 0
     while i < len(inner):
-        if inner[i] == '\\' and i + 1 < len(inner) and inner[i+1] == '|':
+        if inner[i] == '\\' and i + 1 < len(inner) and inner[i + 1] == '|':
             current += '|'
             i += 2
         elif inner[i] == '|':
@@ -490,38 +490,25 @@ def parse_table_cells(line):
     return cells if len(cells) >= 2 else None
 
 
-HEADER_PATTERNS = {
-    'tiếng anh', 'en', 'eng', 'english', 'anh', 'tieng anh',
-}
-HEADER_PATTERNS_VI = {
-    'tiếng việt', 'vi', 'vie', 'vietnamese', 'việt', 'tieng viet',
-}
-
-
 def parse_raw_file():
     with open(RAW_MD, 'r', encoding='utf-8') as f:
         lines = f.readlines()
-
     pairs = {}
     for pair_id, start, end in PAIR_BOUNDARIES:
-        section = lines[start-1:end]
-
+        section = lines[start - 1:end]
         en_url, vi_url = None, None
         url_lines = URL_LINES.get(pair_id, (None, None))
-        # If both URLs are on the same line, extract as pair
         if url_lines[0] and url_lines[0] == url_lines[1]:
-            en_url, vi_url = extract_urls_pair_from_line(lines[url_lines[0]-1])
+            en_url, vi_url = extract_urls_pair_from_line(lines[url_lines[0] - 1])
         else:
             if url_lines[0]:
-                # EN line: extract pair (in case both on same line)
-                e, v = extract_urls_pair_from_line(lines[url_lines[0]-1])
+                e, v = extract_urls_pair_from_line(lines[url_lines[0] - 1])
                 en_url = en_url or e
                 vi_url = vi_url or v
             if url_lines[1]:
-                e, v = extract_urls_pair_from_line(lines[url_lines[1]-1])
+                e, v = extract_urls_pair_from_line(lines[url_lines[1] - 1])
                 en_url = en_url or e
                 vi_url = vi_url or v
-
         rows = []
         for line in section:
             s = line.strip()
@@ -533,61 +520,180 @@ def parse_raw_file():
             if not cells or len(cells) != 2:
                 continue
             en, vi = cells
-            # Skip header rows
             en_l = normalize_for_match(en).lower()
             vi_l = normalize_for_match(vi).lower()
             if en_l in HEADER_PATTERNS and vi_l in HEADER_PATTERNS_VI:
                 continue
-            # Skip URL-only rows
             if en.startswith('https://') or vi.startswith('https://'):
                 continue
-            # Skip title rows
             if en.startswith('[**') and '**]' in en:
                 continue
             if en == 'none' and vi == 'none':
                 continue
             rows.append((en, vi))
-
         pairs[pair_id] = {'en_url': en_url, 'vi_url': vi_url, 'rows': rows}
     return pairs
+
+
+# ============================================================
+# Renderers
+# ============================================================
+
+def span_open_md(cat):
+    c = CATS[cat]
+    return (f'<span style="background-color:{c["bg"]};color:{c["fg"]};'
+            f'padding:1px 4px;border-radius:3px">')
+
+
+def clean_cell(c):
+    c = c.replace('\n', ' ')
+    c = re.sub(r'  +', ' ', c)
+    c = c.replace('|', '\\|')
+    return c.strip()
+
+
+def md_side(side):
+    """Render one table cell (markdown) from a side IR."""
+    if side['kind'] in ('none', 'dup'):
+        return ''
+    if side['kind'] == 'raw':
+        return clean_cell(side['text'])
+    parts = []
+    for s in side['segs']:
+        if s.get('cat'):
+            parts.append(span_open_md(s['cat']) + s['t'] + '</span>')
+        else:
+            parts.append(s['t'])
+    return clean_cell(''.join(parts))
+
+
+MD_INLINE_PAT = re.compile(r'(\[[^\]]+\]\([^)]+\))|(\*\*[^*]+\*\*)')
+
+
+def md_inline_html(text):
+    """Minimal markdown inline -> HTML for raw fallback cells."""
+    out, i = [], 0
+    for m in MD_INLINE_PAT.finditer(text):
+        out.append(H.escape(text[i:m.start()]))
+        tok = m.group(0)
+        if tok.startswith('['):
+            mm = re.match(r'\[([^\]]+)\]\(([^)]+)\)', tok)
+            out.append(f'<a href="{H.escape(mm.group(2), quote=True)}">'
+                       f'{H.escape(mm.group(1))}</a>')
+        else:
+            out.append('<b>' + H.escape(tok[2:-2]) + '</b>')
+        i = m.end()
+    out.append(H.escape(text[i:]))
+    return ''.join(out).replace('\\|', '|').replace('\n', ' ')
+
+
+def html_side(side):
+    """Render one table cell (HTML) from a side IR."""
+    if side['kind'] in ('none', 'dup'):
+        return ''
+    if side['kind'] == 'raw':
+        return md_inline_html(side['text'])
+    parts = []
+    for s in side['segs']:
+        if s.get('cat'):
+            c = CATS[s['cat']]
+            attrs = (f'class="tie" style="background-color:{c["bg"]};'
+                     f'color:{c["fg"]}"')
+            if s.get('tip'):
+                attrs += f' title="{H.escape(s["tip"], quote=True)}"'
+            parts.append(f'<span {attrs}>{H.escape(s["t"])}</span>')
+        else:
+            parts.append(H.escape(s['t']))
+    return ''.join(parts).replace('\n', ' ')
+
+
+HTML_CSS = '''<!DOCTYPE html>
+<html lang="vi">
+<head><meta charset="utf-8">
+<title>__TITLE__</title>
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; max-width: 1150px;
+       margin: 2em auto; padding: 0 1.5em; line-height: 1.75; color: #1b1b1b; }
+h1 { font-size: 1.45em; }
+h2 { font-size: 1.15em; border-bottom: 2px solid #444; padding-bottom: .25em;
+     margin-top: 2.8em; }
+p.note { color: #555; font-size: .93em; }
+table { border-collapse: collapse; width: 100%; table-layout: fixed;
+        margin: 1em 0 2.5em; }
+th, td { border: 1px solid #c9c9c9; vertical-align: top; padding: 6px 10px;
+         width: 50%; }
+th { background: #efefef; text-align: center; font-family: Arial, sans-serif; }
+tr.titles td { background: #fafafa; }
+span.tie { padding: 0 3px; border-radius: 3px; cursor: help; }
+.legend { margin: 1.2em 0; }
+.legend span.tie { margin-right: .6em; padding: 1px 6px; }
+a { color: #0b57d0; }
+</style></head>
+<body>
+<h1>__TITLE__</h1>
+<p>__INTRO__ Rê chuột lên đoạn được đánh dấu để xem chi tiết (danh mục, tiền trạm, độ tin cậy).</p>
+<p class="legend">__LEGEND__</p>
+<p class="note">Ký hiệu ∅ với nền xanh = vị trí trống của phép lược bỏ (E).</p>
+'''
+
+
+def build_html_doc(pair_sections):
+    legend = ' '.join(
+        f'<span class="tie" style="background-color:{c["bg"]};color:{c["fg"]}">'
+        f'{k} — {c["en"]} ({c["vi"]})</span>'
+        for k, c in CATS.items())
+    head = (HTML_CSS
+            .replace('__TITLE__', H.escape(DOC_TITLE))
+            .replace('__INTRO__', H.escape(INTRO))
+            .replace('__LEGEND__', legend))
+    return head + '\n'.join(pair_sections) + '\n</body>\n</html>\n'
 
 
 # ============================================================
 # Main build
 # ============================================================
 
+def side_ir(raw, ext):
+    if raw == 'none':
+        return {'kind': 'none'}
+    if ext.is_duplicate(raw):
+        return {'kind': 'dup'}
+    rng = ext.find_range(raw)
+    if rng:
+        segs = ext.segments(rng[0], rng[1])
+        if segs:
+            return {'kind': 'segs', 'segs': segs}
+    return {'kind': 'raw', 'text': raw}
+
+
 def main():
     os.makedirs(OUT_DIR, exist_ok=True)
-    print("Parsing raw markdown...")
+    print('Parsing raw markdown...')
     raw_pairs = parse_raw_file()
 
-    print("Processing highlights...")
-    all_output = []
+    md_out = [f'# {DOC_TITLE}', '', INTRO, '', '**Chú giải màu (Legend):**', '',
+              '| Màu | Ký hiệu | Danh mục (Halliday & Hasan 1976 / Trần Ngọc Thêm 2006) |',
+              '| :--- | :--- | :--- |']
+    for k, c in CATS.items():
+        swatch = (f'<span style="background-color:{c["bg"]};color:{c["fg"]};'
+                  f'padding:1px 8px;border-radius:3px">&nbsp;{k}&nbsp;</span>')
+        md_out.append(f'| {swatch} | {k} {c["emoji"]} | {c["en"]} — {c["vi"]} |')
+    md_out += ['', MD_NOTE, '']
+
+    html_sections = []
+    all_pairs_ir = []
     stats = {}
     issues = []
-
-    # Document header
-    all_output.append('# Appendix 1 — 20 cặp bài báo EN–VI (có đánh dấu ngữ nghĩa)')
-    all_output.append('')
-    all_output.append('**Chú giải màu (Legend):**')
-    all_output.append('')
-    all_output.append('| Màu | Ký hiệu | Danh mục (Halliday & Hasan 1976 / Trần Ngọc Thêm 2006) |')
-    all_output.append('| :--- | :--- | :--- |')
-    all_output.append('| <mark style="background-color:#FFF3B0">&nbsp;</mark> | R | Reference — tham chiếu (đại từ, chỉ từ) |')
-    all_output.append('| <mark style="background-color:#C8E6C9">&nbsp;</mark> | S | Substitution — thay thế |')
-    all_output.append('| <mark style="background-color:#BBDEFB">&nbsp;</mark> | E | Ellipsis — lược bỏ (∅ = vị trí trống) |')
-    all_output.append('| <mark style="background-color:#FFE0B2">&nbsp;</mark> | C | Conjunction — liên kết |')
-    all_output.append('| <mark style="background-color:#E1BEE7">&nbsp;</mark> | L | Lexical cohesion — liên kết từ vựng |')
-    all_output.append('')
+    grand = {'en_markers': 0, 'en_rendered': 0, 'vi_markers': 0, 'vi_rendered': 0,
+             'en_straddle': 0, 'vi_straddle': 0, 'en_orphan': 0, 'vi_orphan': 0}
 
     for pair_num in range(1, 21):
         pair_id = f'P{pair_num:02d}'
         raw = raw_pairs[pair_id]
-
-        with open(os.path.join(PAIRS_DIR, pair_id, 'meta.json'), 'r', encoding='utf-8') as f:
+        with open(os.path.join(PAIRS_DIR, pair_id, 'meta.json'), 'r',
+                  encoding='utf-8') as f:
             meta = json.load(f)
 
-        # Filter out title-duplicate rows
         title_en_norm = normalize_for_match(meta.get('title_en', ''))
         title_vi_norm = normalize_for_match(meta.get('title_vi', ''))
         filtered_rows = []
@@ -595,139 +701,152 @@ def main():
             en_n = normalize_for_match(en_raw) if en_raw != 'none' else ''
             vi_n = normalize_for_match(vi_raw) if vi_raw != 'none' else ''
             en_is_title = bool(title_en_norm) and len(en_n) > 10 and \
-                (en_n == title_en_norm or title_en_norm.startswith(en_n) or en_n.startswith(title_en_norm))
+                (en_n == title_en_norm or title_en_norm.startswith(en_n)
+                 or en_n.startswith(title_en_norm))
             vi_is_title = bool(title_vi_norm) and len(vi_n) > 10 and \
-                (vi_n == title_vi_norm or title_vi_norm.startswith(vi_n) or vi_n.startswith(title_vi_norm))
+                (vi_n == title_vi_norm or title_vi_norm.startswith(vi_n)
+                 or vi_n.startswith(title_vi_norm))
             if en_is_title and vi_is_title:
                 continue
-            if (en_is_title and vi_raw == 'none') or (vi_is_title and en_raw == 'none'):
+            if (en_is_title and vi_raw == 'none') or \
+                    (vi_is_title and en_raw == 'none'):
                 continue
             filtered_rows.append((en_raw, vi_raw))
 
-        # Create extractors
-        st_ext = HighlightExtractor(os.path.join(PAIRS_DIR, pair_id, 'ST_highlighted.md'))
-        tt_ext = HighlightExtractor(os.path.join(PAIRS_DIR, pair_id, 'TT_highlighted.md'))
+        st_ext = HighlightExtractor(os.path.join(PAIRS_DIR, pair_id,
+                                                 'ST_highlighted.md'),
+                                    pair_id, 'ST')
+        tt_ext = HighlightExtractor(os.path.join(PAIRS_DIR, pair_id,
+                                                 'TT_highlighted.md'),
+                                    pair_id, 'TT')
 
-        # Process rows
-        processed = []
-        en_match_count = 0
-        vi_match_count = 0
-        en_dup_count = 0
-        vi_dup_count = 0
+        rows_ir = []
         for en_raw, vi_raw in filtered_rows:
-            en_hl = None
-            vi_hl = None
-            skip_row = True
-
-            if en_raw != 'none':
-                if st_ext.is_duplicate(en_raw):
-                    en_dup_count += 1
-                    en_hl = '__DUPLICATE__'
-                else:
-                    rng = st_ext.find_range(en_raw)
-                    if rng:
-                        en_hl = st_ext.extract(rng[0], rng[1])
-                        if en_hl:
-                            en_match_count += 1
-            if vi_raw != 'none':
-                if tt_ext.is_duplicate(vi_raw):
-                    vi_dup_count += 1
-                    vi_hl = '__DUPLICATE__'
-                else:
-                    rng = tt_ext.find_range(vi_raw)
-                    if rng:
-                        vi_hl = tt_ext.extract(rng[0], rng[1])
-                        if vi_hl:
-                            vi_match_count += 1
-
-            # Skip row if BOTH sides are duplicates
-            if en_hl == '__DUPLICATE__' and vi_hl == '__DUPLICATE__':
+            en_side = side_ir(en_raw, st_ext)
+            vi_side = side_ir(vi_raw, tt_ext)
+            if en_side['kind'] == 'dup' and vi_side['kind'] == 'dup':
                 continue
-            # Skip if one side is duplicate and other is 'none'
-            if (en_hl == '__DUPLICATE__' and vi_raw == 'none') or \
-               (vi_hl == '__DUPLICATE__' and en_raw == 'none'):
+            if (en_side['kind'] == 'dup' and vi_raw == 'none') or \
+                    (vi_side['kind'] == 'dup' and en_raw == 'none'):
                 continue
+            rows_ir.append({'en': en_side, 'vi': vi_side})
 
-            processed.append((en_raw, vi_raw, en_hl, vi_hl))
+        total_en = sum(1 for r in rows_ir if r['en']['kind'] != 'none')
+        total_vi = sum(1 for r in rows_ir if r['vi']['kind'] != 'none')
+        en_match = sum(1 for r in rows_ir if r['en']['kind'] == 'segs')
+        vi_match = sum(1 for r in rows_ir if r['vi']['kind'] == 'segs')
 
-        total_en = sum(1 for e, v, _, _ in processed if e != 'none')
-        total_vi = sum(1 for e, v, _, _ in processed if v != 'none')
         stats[pair_id] = {
-            'rows': len(processed),
-            'en_total': total_en, 'en_matched': en_match_count,
-            'vi_total': total_vi, 'vi_matched': vi_match_count,
-            'en_dups': en_dup_count, 'vi_dups': vi_dup_count,
+            'rows': len(rows_ir),
+            'en_total': total_en, 'en_matched': en_match,
+            'vi_total': total_vi, 'vi_matched': vi_match,
+            'en_markers': len(st_ext.markers), 'en_rendered': st_ext.rendered,
+            'en_rendered_by_cat': st_ext.rendered_by_cat,
+            'vi_markers': len(tt_ext.markers), 'vi_rendered': tt_ext.rendered,
+            'vi_rendered_by_cat': tt_ext.rendered_by_cat,
+            'straddles': st_ext.straddles + tt_ext.straddles,
+            'orphan_markers': st_ext.orphan_markers + tt_ext.orphan_markers,
         }
+        grand['en_markers'] += len(st_ext.markers)
+        grand['en_rendered'] += st_ext.rendered
+        grand['vi_markers'] += len(tt_ext.markers)
+        grand['vi_rendered'] += tt_ext.rendered
+        grand['en_straddle'] += st_ext.straddles
+        grand['vi_straddle'] += tt_ext.straddles
+        grand['en_orphan'] += st_ext.orphan_markers
+        grand['vi_orphan'] += tt_ext.orphan_markers
 
-        if en_match_count < total_en * 0.8 or vi_match_count < total_vi * 0.8:
-            issues.append(f"{pair_id}: EN {en_match_count}/{total_en}, VI {vi_match_count}/{total_vi}")
+        if en_match < total_en * 0.8 or vi_match < total_vi * 0.8:
+            issues.append(f'{pair_id}: EN {en_match}/{total_en}, '
+                          f'VI {vi_match}/{total_vi}')
+        print(f'  {pair_id}: rows {len(rows_ir)} | EN segs {en_match}/{total_en}, '
+              f'markers {st_ext.rendered}/{len(st_ext.markers)} | '
+              f'VI segs {vi_match}/{total_vi}, '
+              f'markers {tt_ext.rendered}/{len(tt_ext.markers)}'
+              + (f' | STRADDLE {st_ext.straddles + tt_ext.straddles}'
+                 if st_ext.straddles + tt_ext.straddles else '')
+              + (f' | ORPHAN {st_ext.orphan_markers + tt_ext.orphan_markers}'
+                 if st_ext.orphan_markers + tt_ext.orphan_markers else ''))
 
-        print(f"  {pair_id}: EN {en_match_count}/{total_en}, VI {vi_match_count}/{total_vi}")
-
-        # Generate markdown
-        all_output.append(f'## Pair {pair_num:02d}')
-        all_output.append('')
-
+        # ---- markdown ----
+        md_out.append(f'## Pair {pair_num:02d}')
+        md_out.append('')
         en_url = raw['en_url'] or ''
         vi_url = raw['vi_url'] or ''
         en_header = f'[EN]({en_url})' if en_url else 'EN'
         vi_header = f'[VI]({vi_url})' if vi_url else 'VI'
-
-        all_output.append(f'| {en_header} | {vi_header} |')
-        all_output.append('| :--- | :--- |')
-
+        md_out.append(f'| {en_header} | {vi_header} |')
+        md_out.append('| :--- | :--- |')
         title_en = meta.get('title_en', '')
         title_vi = meta.get('title_vi', '')
         if title_en or title_vi:
-            te = title_en.replace('|', '\\|')
-            tv = title_vi.replace('|', '\\|')
-            all_output.append(f'| **{te}** | **{tv}** |')
-
-        for en_raw, vi_raw, en_hl, vi_hl in processed:
-            # Use highlighted if available; duplicates become empty (content shown elsewhere)
-            if en_hl == '__DUPLICATE__':
-                en_cell = ''
-            else:
-                en_cell = en_hl if en_hl else (en_raw if en_raw != 'none' else '')
-            if vi_hl == '__DUPLICATE__':
-                vi_cell = ''
-            else:
-                vi_cell = vi_hl if vi_hl else (vi_raw if vi_raw != 'none' else '')
-
-            # Convert emoji markup to <mark>
-            en_cell = convert_to_mark(en_cell)
-            vi_cell = convert_to_mark(vi_cell)
-
-            # Clean for table cell
-            def clean_cell(c):
-                c = c.replace('\n', ' ')
-                c = re.sub(r'  +', ' ', c)
-                # Escape pipes (but not inside <mark> tags - there are no pipes in tags)
-                c = c.replace('|', '\\|')
-                return c.strip()
-
-            en_cell = clean_cell(en_cell)
-            vi_cell = clean_cell(vi_cell)
-
+            md_out.append(f'| **{title_en.replace("|", "\\\\|")}** | '
+                          f'**{title_vi.replace("|", "\\\\|")}** |')
+        for r in rows_ir:
+            en_cell = md_side(r['en'])
+            vi_cell = md_side(r['vi'])
             if en_cell or vi_cell:
-                all_output.append(f'| {en_cell} | {vi_cell} |')
+                md_out.append(f'| {en_cell} | {vi_cell} |')
+        md_out.append('')
 
-        all_output.append('')
+        # ---- html ----
+        en_th = f'<a href="{H.escape(en_url, quote=True)}">EN</a>' if en_url else 'EN'
+        vi_th = f'<a href="{H.escape(vi_url, quote=True)}">VI</a>' if vi_url else 'VI'
+        h = [f'<h2 id="{pair_id}">Pair {pair_num:02d}</h2>', '<table>',
+             f'<tr><th>{en_th}</th><th>{vi_th}</th></tr>']
+        if title_en or title_vi:
+            h.append(f'<tr class="titles"><td><b>{H.escape(title_en)}</b></td>'
+                     f'<td><b>{H.escape(title_vi)}</b></td></tr>')
+        for r in rows_ir:
+            h.append(f'<tr><td>{html_side(r["en"])}</td>'
+                     f'<td>{html_side(r["vi"])}</td></tr>')
+        h.append('</table>')
+        html_sections.append('\n'.join(h))
 
-    # Write
-    output_path = os.path.join(OUT_DIR, 'Appendix1_marked.md')
-    with open(output_path, 'w', encoding='utf-8') as f:
-        f.write('\n'.join(all_output))
+        # ---- IR ----
+        all_pairs_ir.append({
+            'id': pair_id, 'num': pair_num,
+            'en_url': en_url, 'vi_url': vi_url,
+            'title_en': title_en, 'title_vi': title_vi,
+            'rows': rows_ir,
+        })
 
-    print(f"\nOutput: {output_path} ({len(all_output)} lines)")
+    # ---- write outputs ----
+    md_path = os.path.join(OUT_DIR, 'Appendix1.md')
+    with open(md_path, 'w', encoding='utf-8') as f:
+        f.write('\n'.join(md_out) + '\n')
 
-    if issues:
-        print("\nPairs with low match rates:")
-        for iss in issues:
-            print(f"  {iss}")
+    html_path = os.path.join(OUT_DIR, 'Appendix1.html')
+    with open(html_path, 'w', encoding='utf-8') as f:
+        f.write(build_html_doc(html_sections))
+
+    ir = {
+        'title': DOC_TITLE, 'intro': INTRO,
+        'cats': {k: {'bg': c['bg'], 'fg': c['fg'], 'en': c['en'], 'vi': c['vi']}
+                 for k, c in CATS.items()},
+        'totals': grand,
+        'pairs': all_pairs_ir,
+    }
+    ir_path = os.path.join(OUT_DIR, 'appendix1_segments.json')
+    with open(ir_path, 'w', encoding='utf-8') as f:
+        json.dump(ir, f, ensure_ascii=False)
 
     with open(os.path.join(OUT_DIR, 'match_stats.json'), 'w', encoding='utf-8') as f:
-        json.dump(stats, f, ensure_ascii=False, indent=2)
+        json.dump({'grand': grand, 'pairs': stats}, f, ensure_ascii=False, indent=2)
+
+    print(f'\nOutput: {md_path} ({os.path.getsize(md_path)} bytes)')
+    print(f'Output: {html_path} ({os.path.getsize(html_path)} bytes)')
+    print(f'Output: {ir_path} ({os.path.getsize(ir_path)} bytes)')
+    print(f"\nMarker coverage: EN {grand['en_rendered']}/{grand['en_markers']} "
+          f"({100 * grand['en_rendered'] / max(1, grand['en_markers']):.1f}%), "
+          f"VI {grand['vi_rendered']}/{grand['vi_markers']} "
+          f"({100 * grand['vi_rendered'] / max(1, grand['vi_markers']):.1f}%)")
+    print(f"Straddles: {grand['en_straddle'] + grand['vi_straddle']}, "
+          f"orphans: {grand['en_orphan'] + grand['vi_orphan']}")
+    if issues:
+        print('\nPairs with low ROW match rates (markers may be missing there):')
+        for iss in issues:
+            print(f'  {iss}')
 
 
 if __name__ == '__main__':
