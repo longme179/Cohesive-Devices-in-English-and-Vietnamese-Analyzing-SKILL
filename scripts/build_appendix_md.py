@@ -23,6 +23,7 @@ import re
 import json
 import os
 import html as H
+import difflib
 
 BASE = '/home/z/my-project'
 RAW_MD = os.path.join(BASE, 'upload', 'Appendix 1 - 20 pairs.md')
@@ -216,6 +217,7 @@ class HighlightExtractor:
         self.rendered_by_cat = {}
         self.straddles = 0
         self.orphan_markers = 0
+        self.deferred = 0
 
     # ---------- duplicate / range finding (V2 logic) ----------
 
@@ -239,81 +241,207 @@ class HighlightExtractor:
                 return False
         return True
 
+    # ---------- range finding (V3: validated candidates + fuzzy) ----------
+
     def find_range(self, raw_text):
+        """Find the norm-text range covering a raw reference cell.
+
+        Returns (norm_start, norm_end, q_offset, raw_prefix) or None.
+        PURE: does not mutate self.search_pos (side_ir commits it).
+
+        q_offset  – char offset in the normalized query where the match starts
+                    (>0 when a leading part of the cell – typically a subhead
+                    merged into the cell – is absent from the plain text)
+        raw_prefix– the skipped query head, rendered as plain text so the
+                    reference layout is preserved
+        """
         q = normalize_for_match(raw_text)
         if not q or len(q) < 10:
             return None
-        idx = self.norm_text.find(q, self.search_pos)
+        sp = self.search_pos
+        N = self.norm_text
+
+        # 1) exact verbatim match
+        idx = N.find(q, sp)
         if idx != -1:
-            self.search_pos = idx + len(q)
-            return idx, idx + len(q)
-        for start_off in self._heading_offsets(q):
-            sub = q[start_off:]
+            return idx, idx + len(q), 0, ''
+
+        # 2) heading offsets (bold subhead from the raw cell + punctuation)
+        for off in self._heading_offsets(raw_text, q):
+            sub = q[off:]
             if len(sub) < 30:
                 continue
-            idx = self.norm_text.find(sub[:80], self.search_pos)
-            if idx != -1:
-                suffix = sub[-40:]
-                if len(suffix) > 15:
-                    end_idx = self.norm_text.find(suffix, idx)
-                    if end_idx != -1:
-                        end = end_idx + len(suffix)
-                        self.search_pos = end
-                        return idx, end
-                end = idx + len(sub)
-                if end <= len(self.norm_text):
-                    self.search_pos = end
-                    return idx, end
-        prefix = q[:60]
-        if len(prefix) > 25:
-            idx = self.norm_text.find(prefix, self.search_pos)
-            if idx != -1:
-                suffix = q[-40:]
-                if len(suffix) > 15:
-                    end_idx = self.norm_text.find(suffix, idx)
-                    if end_idx != -1:
-                        end = end_idx + len(suffix)
-                        self.search_pos = end
-                        return idx, end
-                end = idx + len(q)
-                if end <= len(self.norm_text):
-                    self.search_pos = end
-                    return idx, end
-        prefix = q[:35]
-        if len(prefix) > 15:
-            idx = self.norm_text.find(prefix, self.search_pos)
-            if idx != -1:
-                end = idx + len(q)
-                if end <= len(self.norm_text):
-                    self.search_pos = end
-                    return idx, end
+            cand = self._match_sub(sub, sp, off)
+            if cand:
+                return cand
+
+        # 3) skip leading words (merged heading+content cells; subheads were
+        #    stripped from the plain text during extraction)
         words = q.split(' ')
-        for skip in range(2, min(12, len(words))):
+        offs, acc = [], 0
+        for w in words:
+            offs.append(acc)
+            acc += len(w) + 1
+        for skip in range(2, min(17, len(words))):
             sub = ' '.join(words[skip:])
             if len(sub) < 40:
                 break
-            idx = self.norm_text.find(sub[:60], self.search_pos)
+            cand = self._match_sub(sub, sp, offs[skip])
+            if cand:
+                return cand
+
+        # 4) whole-query prefixes (short anchor, end via suffix/alignment)
+        for plen in (60, 35):
+            prefix = q[:plen]
+            if len(q) <= plen or len(prefix) <= 15:
+                continue
+            idx = N.find(prefix, sp)
             if idx != -1:
-                suffix = sub[-30:]
-                end_idx = self.norm_text.find(suffix, idx) if len(suffix) > 12 else -1
-                if end_idx != -1:
-                    end = end_idx + len(suffix)
-                else:
-                    end = idx + len(sub)
-                if end <= len(self.norm_text):
-                    self.search_pos = max(end, idx + 30)
-                    return idx, end
+                cand = self._match_from(idx, q, 0)
+                if cand:
+                    return cand
+
+        # 5) trailing sentence
         if len(q) > 100:
-            last_sentence = q[-80:]
-            idx = self.norm_text.find(last_sentence, self.search_pos)
+            tail = q[-80:]
+            idx = N.find(tail, sp)
             if idx != -1:
-                end = idx + len(last_sentence)
-                self.search_pos = end
-                return idx, end
+                return idx, idx + len(tail), len(q) - len(tail), ''
+
+        # 6) fuzzy word-walk (PDF lost characters in the plain text)
+        cand = self._fuzzy_find(q, sp)
+        if cand:
+            return cand
         return None
 
-    def _heading_offsets(self, q):
+    def _match_sub(self, sub, sp, off):
+        """Anchor on the first ~80 chars of sub; end via suffix + alignment."""
+        N = self.norm_text
+        idx = N.find(sub[:80], sp)
+        if idx == -1:
+            return None
+        end, confirmed = self._sub_end(idx, sub)
+        end = self._align_validate(idx, end, sub, confirmed)
+        if end is None:
+            return None
+        return idx, end, off, ''
+
+    def _match_from(self, idx, q, off):
+        portion = q[off:]
+        end, confirmed = self._sub_end(idx, portion)
+        end = self._align_validate(idx, end, portion, confirmed)
+        if end is None:
+            return None
+        return idx, end, off, ''
+
+    def _sub_end(self, idx, portion):
+        N = self.norm_text
+        suffix = portion[-40:]
+        if len(suffix) > 15:
+            eidx = N.find(suffix, idx)
+            if eidx != -1 and eidx < idx + len(portion) + 200:
+                return eidx + len(suffix), True
+        return idx + len(portion), False
+
+    def _align_validate(self, a, end, portion, end_confirmed):
+        """Align `portion` against norm_text[a:...].
+
+        Rejects gross mismatches (coverage < 0.55 — e.g. a prefix that landed
+        on unrelated text), and trims ends that ran past the true content
+        (blind idx+len(q) ends, or a suffix that matched far too late).
+        """
+        N = self.norm_text
+        window_end = min(a + len(portion) + 250, len(N))
+        window = N[a:window_end]
+        sm = difflib.SequenceMatcher(None, window, portion, autojunk=False)
+        blocks = sm.get_matching_blocks()
+        cov = sum(b.size for b in blocks) / max(1, len(portion))
+        if cov < 0.55:
+            return None
+        # a valid row match must contain one substantial verbatim stretch —
+        # scattered short matches (shared function words) are a false hit
+        largest = max((b.size for b in blocks), default=0)
+        if largest < max(20, 0.35 * len(portion)):
+            return None
+        solid = [b for b in blocks if b.size >= 5]
+        if solid:
+            trim_end = min(a + max(b.a + b.size for b in solid), window_end)
+            if trim_end + 30 <= end:
+                end = trim_end          # end ran well past the aligned content
+            elif not end_confirmed and a + 20 <= trim_end < end:
+                end = trim_end          # blind end: snap to alignment end
+        return min(end, window_end)
+
+    def _fuzzy_find(self, q, sp):
+        """Word-walk alignment for PDF character loss (plain text is missing
+        characters that the reference cell still has). Anchors on the longest
+        verbatim word run, then walks word by word allowing fuzzy words."""
+        N = self.norm_text
+        words = q.split(' ')
+        n = len(words)
+        if n < 8 or len(q) < 60:
+            return None
+        offs, acc = [], 0
+        for w in words:
+            offs.append(acc)
+            acc += len(w) + 1
+        max_skip = min(16, max(0, n - 6))
+        for skip in range(0, max_skip + 1):
+            rem = words[skip:]
+            for k in range(min(len(rem), 14), 3, -1):
+                anchor = ' '.join(rem[:k])
+                idx = N.find(anchor, sp)
+                if idx == -1:
+                    continue
+                p = idx + len(anchor)
+                wi = skip + k
+                matched = k
+                miss = 0
+                while wi < n:
+                    m = re.match(r'\s*(\S+)', N[p:])
+                    if not m:
+                        break
+                    pw = m.group(1)
+                    if pw == words[wi] or self._word_close(pw, words[wi]):
+                        p += len(m.group(0))
+                        matched += 1
+                        miss = 0
+                        wi += 1
+                    else:
+                        miss += 1
+                        if miss > 2:
+                            break
+                        p += len(m.group(0))
+                if wi >= n - 1 and matched >= n * 0.8:
+                    m = re.match(r'[.,;:!?"”\')]*', N[p:])
+                    if m:
+                        p += len(m.group(0))
+                    return idx, min(p, len(N)), offs[skip], \
+                        q[:offs[skip]].rstrip()
+        return None
+
+    @staticmethod
+    def _word_close(pw, w):
+        """Fuzzy word equality tolerating lost characters on one side."""
+        if not pw or not w:
+            return False
+        lo, hi = (pw, w) if len(pw) <= len(w) else (w, pw)
+        if len(lo) < 2 or len(lo) / len(hi) < 0.6:
+            return False
+        if difflib.SequenceMatcher(None, lo, hi).ratio() >= 0.8:
+            return True
+        if len(lo) >= 4:                      # subsequence = char loss
+            it = iter(hi)
+            return all(c in it for c in lo)
+        return False
+
+    def _heading_offsets(self, raw_text, q):
         offsets = []
+        m = re.match(r'\s*\*\*([^*]+)\*\*\s', raw_text)
+        if m:
+            h = normalize_for_match(m.group(1))
+            if h and len(h) < 120:
+                offsets.append(len(h) + 1)
         for m in re.finditer(r'\*\*([^*]+)\*\*\s', q[:200]):
             offsets.append(m.end())
         for m in re.finditer(r'[?:.]\s', q[:150]):
@@ -323,6 +451,49 @@ class HighlightExtractor:
         if m and m.start() > 15:
             offsets.append(m.end())
         return sorted(set(o for o in offsets if 0 < o < len(q)))
+
+    # ---------- gap repair & duplicate retry (V3) ----------
+
+    def plain_of(self, norm_pos):
+        return self.norm_to_orig[min(norm_pos, len(self.norm_to_orig) - 1)]
+
+    def markers_in(self, norm_a, norm_b):
+        """Unconsumed markers whose start lies in [norm_a, norm_b)."""
+        pa, pb = self.plain_of(norm_a), self.plain_of(norm_b)
+        return [(i, m) for i, m in enumerate(self.markers)
+                if i not in self.consumed and pa <= m['fa'] < pb]
+
+    def repair_gap(self, rng, raw_text):
+        """A fallback match landed at `a` but left unconsumed markers in the
+        gap [search_pos, a). If the gap fuzzily matches the skipped query
+        prefix, extend the range start over the gap so the markers render.
+
+        Returns (new_start, raw_prefix) or None.
+        """
+        a, b, off, q_raw_prefix = rng
+        q = normalize_for_match(raw_text)
+        sp = self.search_pos
+        if off <= 0 or a <= sp or (a - sp) > 350:
+            return None
+        if not self.markers_in(sp, a):
+            return None
+        gap = self.norm_text[sp:a]
+        q_prefix = q[:off]
+        sm = difflib.SequenceMatcher(None, gap, q_prefix, autojunk=False)
+        blocks = sm.get_matching_blocks()
+        cov = sum(bl.size for bl in blocks) / max(1, len(gap))
+        # the gap must connect seamlessly to the match start; the joining
+        # block scales with the gap size (small gaps: small blocks)
+        need = min(15, max(4, int(len(gap) * 0.5)))
+        junction = any(bl.a + bl.size >= len(gap) - 2 and bl.size >= need
+                       for bl in blocks)
+        if not junction or cov < 0.6:
+            return None
+        raw_prefix = ''
+        first = next((bl for bl in blocks if bl.size >= 4), None)
+        if first is not None and first.a == 0 and first.b > 0:
+            raw_prefix = q[:first.b]
+        return sp, raw_prefix.rstrip()
 
     # ---------- segment extraction (V3) ----------
 
@@ -350,10 +521,21 @@ class HighlightExtractor:
                     self.consumed.add(idx)
             else:
                 if ps <= m['fa'] < pe:
-                    ms.append(m)
-                    self.consumed.add(idx)
-                    if m['fb'] > pe:
-                        self.straddles += 1
+                    inside = pe - m['fa']
+                    total = m['fb'] - m['fa']
+                    if m['fb'] <= pe or inside >= max(3, (total + 1) // 2):
+                        ms.append(m)
+                        self.consumed.add(idx)
+                        if m['fb'] > pe:
+                            # marker text runs past the range end: complete it
+                            if m['fb'] <= pe + 60:
+                                pe = m['fb']
+                            else:
+                                self.straddles += 1
+                    else:
+                        # barely inside (range end stuck into the next row's
+                        # marker) — leave it for the row that owns it
+                        self.deferred += 1
         ms.sort(key=lambda m: (m['fa'], m['fb']))
 
         segs, last = [], ps
@@ -657,13 +839,45 @@ def side_ir(raw, ext):
     if raw == 'none':
         return {'kind': 'none'}
     if ext.is_duplicate(raw):
+        # The cell text occurred earlier — but if a LATER occurrence carries
+        # unconsumed markers (annotated second instance), render that one.
+        rng = ext.find_range(raw)
+        if rng and ext.markers_in(rng[0], rng[1]):
+            saved_sp = ext.search_pos
+            ext.search_pos = rng[1]
+            segs = ext.segments(rng[0], rng[1])
+            if segs:
+                return {'kind': 'segs', 'segs': segs}
+            ext.search_pos = saved_sp
         return {'kind': 'dup'}
     rng = ext.find_range(raw)
     if rng:
-        segs = ext.segments(rng[0], rng[1])
+        a, b, off, raw_prefix = rng
+        rep = ext.repair_gap(rng, raw)
+        ext.search_pos = b
+        if rep:
+            a2, rp = rep
+            segs = ext.segments(a2, b)
+            if segs:
+                if rp:
+                    segs.insert(0, {'t': rp + ' '})
+                return {'kind': 'segs', 'segs': segs}
+        segs = ext.segments(a, b)
         if segs:
+            if raw_prefix:
+                segs.insert(0, {'t': raw_prefix + ' '})
             return {'kind': 'segs', 'segs': segs}
     return {'kind': 'raw', 'text': raw}
+
+
+def _title_match(candidate, title):
+    """Loose title equality (prefix or high similarity)."""
+    if not candidate or not title or len(candidate) <= 10:
+        return False
+    if candidate == title or title.startswith(candidate) \
+            or candidate.startswith(title):
+        return True
+    return difflib.SequenceMatcher(None, candidate, title).ratio() >= 0.88
 
 
 def main():
@@ -685,7 +899,8 @@ def main():
     stats = {}
     issues = []
     grand = {'en_markers': 0, 'en_rendered': 0, 'vi_markers': 0, 'vi_rendered': 0,
-             'en_straddle': 0, 'vi_straddle': 0, 'en_orphan': 0, 'vi_orphan': 0}
+             'en_straddle': 0, 'vi_straddle': 0, 'en_orphan': 0, 'vi_orphan': 0,
+             'en_deferred': 0, 'vi_deferred': 0}
 
     for pair_num in range(1, 21):
         pair_id = f'P{pair_num:02d}'
@@ -700,12 +915,8 @@ def main():
         for en_raw, vi_raw in raw['rows']:
             en_n = normalize_for_match(en_raw) if en_raw != 'none' else ''
             vi_n = normalize_for_match(vi_raw) if vi_raw != 'none' else ''
-            en_is_title = bool(title_en_norm) and len(en_n) > 10 and \
-                (en_n == title_en_norm or title_en_norm.startswith(en_n)
-                 or en_n.startswith(title_en_norm))
-            vi_is_title = bool(title_vi_norm) and len(vi_n) > 10 and \
-                (vi_n == title_vi_norm or title_vi_norm.startswith(vi_n)
-                 or vi_n.startswith(title_vi_norm))
+            en_is_title = len(en_n) > 10 and _title_match(en_n, title_en_norm)
+            vi_is_title = len(vi_n) > 10 and _title_match(vi_n, title_vi_norm)
             if en_is_title and vi_is_title:
                 continue
             if (en_is_title and vi_raw == 'none') or \
@@ -746,6 +957,7 @@ def main():
             'vi_rendered_by_cat': tt_ext.rendered_by_cat,
             'straddles': st_ext.straddles + tt_ext.straddles,
             'orphan_markers': st_ext.orphan_markers + tt_ext.orphan_markers,
+            'deferred': st_ext.deferred + tt_ext.deferred,
         }
         grand['en_markers'] += len(st_ext.markers)
         grand['en_rendered'] += st_ext.rendered
@@ -755,6 +967,8 @@ def main():
         grand['vi_straddle'] += tt_ext.straddles
         grand['en_orphan'] += st_ext.orphan_markers
         grand['vi_orphan'] += tt_ext.orphan_markers
+        grand['en_deferred'] += st_ext.deferred
+        grand['vi_deferred'] += tt_ext.deferred
 
         if en_match < total_en * 0.8 or vi_match < total_vi * 0.8:
             issues.append(f'{pair_id}: EN {en_match}/{total_en}, '
@@ -842,7 +1056,8 @@ def main():
           f"VI {grand['vi_rendered']}/{grand['vi_markers']} "
           f"({100 * grand['vi_rendered'] / max(1, grand['vi_markers']):.1f}%)")
     print(f"Straddles: {grand['en_straddle'] + grand['vi_straddle']}, "
-          f"orphans: {grand['en_orphan'] + grand['vi_orphan']}")
+          f"orphans: {grand['en_orphan'] + grand['vi_orphan']}, "
+          f"deferred: {grand['en_deferred'] + grand['vi_deferred']}")
     if issues:
         print('\nPairs with low ROW match rates (markers may be missing there):')
         for iss in issues:
