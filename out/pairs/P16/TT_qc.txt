@@ -1,0 +1,4 @@
+QC P16 VI (TT): PASS
+(e) counts: {'C': 2, 'L': 34, 'R': 3}
+confidence: {'high': 32, 'low': 3, 'med': 4}
+sentences: 18, ties: 39

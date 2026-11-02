@@ -318,6 +318,52 @@
     "added": 3
    },
    "qc": "PASS"
+  },
+  "P15": {
+   "status": "done",
+   "st_sentences": 31,
+   "tt_sentences": 26,
+   "st_ties": 55,
+   "tt_ties": 47,
+   "st_counts": {
+    "R": 16,
+    "L": 38,
+    "C": 1
+   },
+   "tt_counts": {
+    "L": 40,
+    "R": 6,
+    "C": 1
+   },
+   "alignment": {
+    "kept": 38,
+    "omitted": 17,
+    "added": 13
+   },
+   "qc": "PASS"
+  },
+  "P16": {
+   "status": "done",
+   "st_sentences": 18,
+   "tt_sentences": 18,
+   "st_ties": 36,
+   "tt_ties": 39,
+   "st_counts": {
+    "L": 32,
+    "R": 2,
+    "C": 2
+   },
+   "tt_counts": {
+    "L": 34,
+    "R": 3,
+    "C": 2
+   },
+   "alignment": {
+    "kept": 34,
+    "omitted": 2,
+    "added": 5
+   },
+   "qc": "PASS"
   }
  },
  "last_updated": "auto"

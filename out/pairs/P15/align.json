@@ -1,0 +1,481 @@
+{
+ "pair": "P15",
+ "alignments": [
+  {
+   "st_tie": "P15-EN-001",
+   "tt_tie": "P15-VI-001",
+   "outcome": "kept",
+   "shift": null,
+   "note": "his university-owned -> ký túc xá của trường"
+  },
+  {
+   "st_tie": "P15-EN-002",
+   "tt_tie": "P15-VI-003",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P15-EN-003",
+   "tt_tie": "P15-VI-005",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P15-EN-004",
+   "tt_tie": "P15-VI-007",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the attorney -> luật sư"
+  },
+  {
+   "st_tie": "P15-EN-005",
+   "tt_tie": "P15-VI-008",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P15-EN-006",
+   "tt_tie": "P15-VI-009",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P15-EN-007",
+   "tt_tie": "P15-VI-010",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Khalil's arrest -> Vụ bắt giữ này"
+  },
+  {
+   "st_tie": "P15-EN-008",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT states the arrest once (merged with EN-007)"
+  },
+  {
+   "st_tie": "P15-EN-009",
+   "tt_tie": "P15-VI-011",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P15-EN-010",
+   "tt_tie": "P15-VI-012",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P15-EN-011",
+   "tt_tie": "P15-VI-013",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P15-EN-012",
+   "tt_tie": "P15-VI-014",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the country -> đất nước này"
+  },
+  {
+   "st_tie": "P15-EN-013",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S008 (McLaughlin) unrendered in TT"
+  },
+  {
+   "st_tie": "P15-EN-014",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S008 unrendered"
+  },
+  {
+   "st_tie": "P15-EN-015",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "EN S008 unrendered"
+  },
+  {
+   "st_tie": "P15-EN-016",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S008 unrendered"
+  },
+  {
+   "st_tie": "P15-EN-017",
+   "tt_tie": "P15-VI-004",
+   "outcome": "kept",
+   "shift": null,
+   "note": "ICE agents -> nhân viên của ICE"
+  },
+  {
+   "st_tie": "P15-EN-018",
+   "tt_tie": "P15-VI-020",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Khalil's -> Khalil (TT repeats the name)"
+  },
+  {
+   "st_tie": "P15-EN-019",
+   "tt_tie": "P15-VI-018",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Khalil's attorney -> Luật sư Greer"
+  },
+  {
+   "st_tie": "P15-EN-020",
+   "tt_tie": "P15-VI-024",
+   "outcome": "kept",
+   "shift": null,
+   "note": "he -> anh ấy"
+  },
+  {
+   "st_tie": "P15-EN-021",
+   "tt_tie": "P15-VI-019",
+   "outcome": "kept",
+   "shift": null,
+   "note": "his wife -> vợ của Khalil (TT front-loads the wife)"
+  },
+  {
+   "st_tie": "P15-EN-022",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "TT merges the detention discovery"
+  },
+  {
+   "st_tie": "P15-EN-023",
+   "tt_tie": "P15-VI-025",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P15-EN-024",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "Khalil's whereabouts -> TT drops the whereabouts detail"
+  },
+  {
+   "st_tie": "P15-EN-025",
+   "tt_tie": "P15-VI-023",
+   "outcome": "kept",
+   "shift": null,
+   "note": "We -> Chúng tôi"
+  },
+  {
+   "st_tie": "P15-EN-026",
+   "tt_tie": "P15-VI-024",
+   "outcome": "kept",
+   "shift": null,
+   "note": "merged in TT marking (anh ấy)"
+  },
+  {
+   "st_tie": "P15-EN-027",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "merged in TT marking (luật sư Greer tie)"
+  },
+  {
+   "st_tie": "P15-EN-028",
+   "tt_tie": "P15-VI-027",
+   "outcome": "kept",
+   "shift": null,
+   "note": "The administration -> Chính quyền"
+  },
+  {
+   "st_tie": "P15-EN-029",
+   "tt_tie": "P15-VI-028",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P15-EN-030",
+   "tt_tie": "P15-VI-029",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P15-EN-031",
+   "tt_tie": "P15-VI-030",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P15-EN-032",
+   "tt_tie": "P15-VI-031",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Khalil's detention -> việc giam giữ Khalil"
+  },
+  {
+   "st_tie": "P15-EN-033",
+   "tt_tie": "P15-VI-038",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the administration -> chính quyền Trump"
+  },
+  {
+   "st_tie": "P15-EN-034",
+   "tt_tie": "P15-VI-034",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P15-EN-035",
+   "tt_tie": "P15-VI-035",
+   "outcome": "kept",
+   "shift": null,
+   "note": "green card holders -> thẻ xanh"
+  },
+  {
+   "st_tie": "P15-EN-036",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "C>zero",
+   "note": "TT drops the adversative (Mackler passage reformulated)"
+  },
+  {
+   "st_tie": "P15-EN-037",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT drops the detention tie"
+  },
+  {
+   "st_tie": "P15-EN-038",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT drops the legal permanent resident tie"
+  },
+  {
+   "st_tie": "P15-EN-039",
+   "tt_tie": "P15-VI-037",
+   "outcome": "kept",
+   "shift": null,
+   "note": "This -> hành động trả đũa (TT marks the NP)"
+  },
+  {
+   "st_tie": "P15-EN-040",
+   "tt_tie": "P15-VI-038",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the Trump -> chính quyền Trump"
+  },
+  {
+   "st_tie": "P15-EN-041",
+   "tt_tie": "P15-VI-039",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P15-EN-042",
+   "tt_tie": "P15-VI-040",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P15-EN-043",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT drops The role tie"
+  },
+  {
+   "st_tie": "P15-EN-044",
+   "tt_tie": "P15-VI-015",
+   "outcome": "kept",
+   "shift": null,
+   "note": "him -> Khalil (name repeated)"
+  },
+  {
+   "st_tie": "P15-EN-045",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT drops the movement tie"
+  },
+  {
+   "st_tie": "P15-EN-046",
+   "tt_tie": "P15-VI-039",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P15-EN-047",
+   "tt_tie": "P15-VI-040",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P15-EN-048",
+   "tt_tie": "P15-VI-042",
+   "outcome": "kept",
+   "shift": null,
+   "note": "The investigations -> Những cuộc điều tra đó"
+  },
+  {
+   "st_tie": "P15-EN-049",
+   "tt_tie": "P15-VI-043",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P15-EN-050",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "The university's -> TT drops the possessive"
+  },
+  {
+   "st_tie": "P15-EN-051",
+   "tt_tie": "P15-VI-045",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P15-EN-052",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT drops the coalition-name repetition"
+  },
+  {
+   "st_tie": "P15-EN-053",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "EN S027 (He faced sanctions) unrendered"
+  },
+  {
+   "st_tie": "P15-EN-054",
+   "tt_tie": "P15-VI-046",
+   "outcome": "kept",
+   "shift": null,
+   "note": "They -> Họ"
+  },
+  {
+   "st_tie": "P15-EN-055",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "It's -> TT drops the pronoun (công việc subject)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P15-VI-002",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT names Mahmoud Khalil where EN S002 uses pronoun his (name specification)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P15-VI-006",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT bà Greer pronoun chain"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P15-VI-016",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT sinh viên echoes S001 sinh viên sau đại học"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P15-VI-017",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT các giới chức trường đại học echoes S002 trường (EN unmarked)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P15-VI-021",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT adds temporal Kể từ đó with no EN counterpart"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P15-VI-022",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT giam giữ người nhập cư echoes S001 di trú (EN unmarked)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P15-VI-026",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT sự leo thang renders EN S014 escalation (EN unmarked there)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P15-VI-032",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT bình luận chain (S015)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P15-VI-033",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT Bộ An ninh Nội địa first overt mention (EN S005 tie omitted)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P15-VI-036",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT liên minh (Mackler passage) has no EN counterpart sentence"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P15-VI-041",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT cáo buộc chain (S020)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P15-VI-044",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT Đại học Columbia chain (S021)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P15-VI-047",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT công việc renders EN S031 office-work sense (EN It tie omitted)"
+  }
+ ]
+}
