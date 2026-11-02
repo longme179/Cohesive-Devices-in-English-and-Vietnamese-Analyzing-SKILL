@@ -15,8 +15,14 @@ Corpus linguistics working session: annotation of grammatical cohesion over
 ## Điểm bắt đầu
 
 - **`REPLICATION_GUIDE.md`** — hướng dẫn tái lập toàn bộ quy trình với 20 cặp
-  bài báo **khác** (quy ước gán nhãn, 8 bước pipeline, schema dữ liệu, bẫy đã
-  gặp, audit checklist). Đây là tài liệu dành cho AI agent / người muốn replicate.
+  bài báo **khác** (quy ước gán nhãn, 6 giai đoạn / 22 bước, schema dữ liệu,
+  14 bẫy đã gặp, audit checklist). Nguyên tắc lõi: **phân tích thủ công từng cặp
+  trước — marking thành phẩm sau**; phạm vi vòng này là Appendix 1 (tầng
+  alignment/Appendix 2 cần dựng lại theo ngữ nghĩa — xem §0, §6 của guide).
+- `download/BDNC/semantic_analysis/` — **20 bản phân tích ngữ nghĩa thủ công
+  từng cặp** (P01–P20 + `INDEX.md` giữ sổ cái quy luật B1–B28): bản đồ câu,
+  chuỗi từ vựng, nhân vật, sai lệch dịch, đối chiếu số đếm với pipeline —
+  lớp kiểm chứng của marking.
 - `out/audit/AUDIT.md` — báo cáo audit nội dung v3.1 (phân loại A/C/E, đính
   chính dữ liệu, bất đối xứng EN–VI, khuyến nghị).
 - `download/BDNC/` — sản phẩm giao: `Appendix1.{html,docx,pdf,md}` (phụ lục
@@ -28,10 +34,12 @@ Corpus linguistics working session: annotation of grammatical cohesion over
 
 ```
 upload/      đầu vào (PDF song ngữ + markdown tham chiếu) — không sửa
-scripts/     pipeline: extract → build_texts → segment → annotate → align
-             → render (QC) → build_appendix_md → export_docx → stats
+scripts/     pipeline: extract → build_texts → segment → phân tích từng cặp
+             → annotate → align (ngữ nghĩa) → render (QC) → build_appendix_md
+             → export_docx → stats
 out/pairs/   P01–P20: văn bản chuẩn, câu, tie tables, alignment, QC, highlight
 out/audit/   audit v3.1: dump R-tie, kiểm tra tự động, thống kê A/C/E
+download/BDNC/semantic_analysis/  20 bản phân tích thủ công từng cặp + INDEX.md
 ```
 
 ## Chỉ số chính (vòng hiện tại)
