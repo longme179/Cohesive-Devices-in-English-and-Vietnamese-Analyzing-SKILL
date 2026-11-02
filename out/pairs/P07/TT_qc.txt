@@ -1,0 +1,4 @@
+QC P07 VI (TT): PASS
+(e) counts: {'C': 6, 'L': 86, 'R': 27}
+confidence: {'high': 89, 'low': 2, 'med': 28}
+sentences: 66, ties: 119

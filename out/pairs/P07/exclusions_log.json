@@ -40,6 +40,13 @@
   },
   {
    "lang": "EN",
+   "idx": 12,
+   "action": "strip_mid",
+   "reason": "merged photo caption",
+   "text": "Mark Twain"
+  },
+  {
+   "lang": "EN",
    "idx": 13,
    "action": "strip_prefix",
    "reason": "merged subheading/stray fragment",
@@ -86,6 +93,13 @@
    "action": "exclude",
    "reason": "subheading",
    "text": "Những hạn chế của tiếng Anh và các câu chuyện"
+  },
+  {
+   "lang": "VI",
+   "idx": 12,
+   "action": "strip_mid",
+   "reason": "merged photo caption",
+   "text": "Mark Twain"
   },
   {
    "lang": "VI",

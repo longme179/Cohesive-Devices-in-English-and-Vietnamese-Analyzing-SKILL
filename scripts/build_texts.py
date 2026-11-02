@@ -41,11 +41,13 @@ CFG = {
    'EN': {'exclude': {0: 'title row', 3: 'subheading', 6: 'subheading',
                        29: 'series credit note', 30: 'author bio (byline)'},
           'strip_prefix': {13: 'Embracing and creating Australia’s English stories',
-                            22: 'The future of Australian English'}},
+                            22: 'The future of Australian English'},
+          'strip_mid': {12: 'Mark Twain'}},
    'VI': {'exclude': {0: 'title row', 3: 'subheading', 6: 'subheading',
                        29: 'series credit note', 30: 'author bio (byline)'},
           'strip_prefix': {13: 'Nắm bắt và tạo ra những câu chuyện tiếng Anh của Úc',
-                            22: 'Tương lai của tiếng Anh Úc'}},
+                            22: 'Tương lai của tiếng Anh Úc'},
+          'strip_mid': {12: 'Mark Twain'}},
  },
  'P08': {'EN': {'exclude': {0: 'title row'}}, 'VI': {'exclude': {0: 'title row'}}},
  'P09': {
@@ -148,6 +150,12 @@ for i in range(1, 21):
                 p = p[len(pre):].strip()
                 log['manual'].append({'lang': lang, 'idx': idx, 'action': 'strip_prefix',
                                       'reason': 'merged subheading/stray fragment', 'text': pre})
+            if idx in cfg.get('strip_mid', {}):
+                mid = cfg['strip_mid'][idx]
+                assert mid in p, f'{pid} {lang}[{idx}] does not contain {mid!r}'
+                p = p.replace(mid, ' ')
+                log['manual'].append({'lang': lang, 'idx': idx, 'action': 'strip_mid',
+                                      'reason': 'merged photo caption', 'text': mid})
             if idx in cfg.get('strip_suffix', {}):
                 suf = cfg['strip_suffix'][idx]
                 assert p.endswith(suf), f'{pid} {lang}[{idx}] does not end with {suf!r}: {p[-80:]!r}'

@@ -125,6 +125,7 @@ def render_side(pid, pref, lang):
 
     # ---- QC (c): strip markers, compare ----
     stripped = out
+    stripped = stripped.replace(CATS['E']['emoji'] + '\u27E6\u2205\u27E7', '')
     for c in CATS.values():
         stripped = stripped.replace(c['emoji'] + '\u27E6', '')
     stripped = stripped.replace('\u27E7', '')
