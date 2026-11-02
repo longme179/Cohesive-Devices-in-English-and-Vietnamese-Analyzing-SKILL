@@ -43,6 +43,13 @@
    "action": "exclude",
    "reason": "pull-quote attribution (caption)",
    "text": "James Harrington, Sydney Water project manager"
+  },
+  {
+   "lang": "EN",
+   "idx": 27,
+   "action": "strip_suffix",
+   "reason": "source defect: VI text inside EN cell",
+   "text": " - James Harrington, Sydney Water project manager"
   }
  ]
 }

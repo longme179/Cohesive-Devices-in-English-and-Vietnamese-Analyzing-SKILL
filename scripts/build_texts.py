@@ -13,7 +13,8 @@ OUT = '/home/z/my-project/out'
 
 CFG = {
  'P01': {
-   'EN': {'exclude': {17: 'pull-quote attribution (caption)'}},
+   'EN': {'exclude': {17: 'pull-quote attribution (caption)'},
+          'strip_suffix': {27: ' - James Harrington, Sydney Water project manager'}},
    'VI': {},
  },
  'P02': {

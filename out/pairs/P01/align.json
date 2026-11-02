@@ -1,0 +1,1139 @@
+{
+ "pair": "P01",
+ "alignments": [
+  {
+   "st_tie": "P01-EN-001",
+   "tt_tie": "P01-VI-001",
+   "outcome": "kept",
+   "shift": null,
+   "note": "city-state -> đảo quốc, synonym re-description in both"
+  },
+  {
+   "st_tie": "P01-EN-002",
+   "tt_tie": "P01-VI-001",
+   "outcome": "shifted",
+   "shift": "R>L",
+   "note": "EN pronoun it rendered as lexical NP đảo quốc này; merged with EN-001 counterpart"
+  },
+  {
+   "st_tie": "P01-EN-003",
+   "tt_tie": "P01-VI-003",
+   "outcome": "kept",
+   "shift": null,
+   "note": "But -> Tuy nhiên"
+  },
+  {
+   "st_tie": "P01-EN-004",
+   "tt_tie": "P01-VI-005",
+   "outcome": "kept",
+   "shift": null,
+   "note": "also -> cũng"
+  },
+  {
+   "st_tie": "P01-EN-005",
+   "tt_tie": "P01-VI-004",
+   "outcome": "kept",
+   "shift": null,
+   "note": "general word the country -> proper name Singapore (same cat L)"
+  },
+  {
+   "st_tie": "P01-EN-006",
+   "tt_tie": "P01-VI-006",
+   "outcome": "kept",
+   "shift": null,
+   "note": "recycled water -> tái chế nước thải"
+  },
+  {
+   "st_tie": "P01-EN-007",
+   "tt_tie": "P01-VI-006",
+   "outcome": "kept",
+   "shift": null,
+   "note": "sewage water -> nước thải; TT chain marked once"
+  },
+  {
+   "st_tie": "P01-EN-008",
+   "tt_tie": "P01-VI-008",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-009",
+   "tt_tie": "P01-VI-008",
+   "outcome": "kept",
+   "shift": null,
+   "note": "chain merged in TT marking (one tie per chain per sentence)"
+  },
+  {
+   "st_tie": "P01-EN-010",
+   "tt_tie": "P01-VI-008",
+   "outcome": "kept",
+   "shift": null,
+   "note": "chain merged in TT marking"
+  },
+  {
+   "st_tie": "P01-EN-011",
+   "tt_tie": "P01-VI-010",
+   "outcome": "kept",
+   "shift": null,
+   "note": "But -> Nhưng"
+  },
+  {
+   "st_tie": "P01-EN-012",
+   "tt_tie": "P01-VI-011",
+   "outcome": "kept",
+   "shift": null,
+   "note": "we -> chúng tôi"
+  },
+  {
+   "st_tie": "P01-EN-013",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "TT drops the object pronoun (thay vì thải ra môi trường, pro-drop)"
+  },
+  {
+   "st_tie": "P01-EN-014",
+   "tt_tie": "P01-VI-012",
+   "outcome": "kept",
+   "shift": null,
+   "note": "environment -> môi trường"
+  },
+  {
+   "st_tie": "P01-EN-015",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "TT renders it as repeated noun nước (đưa nước qua; bare nước unmarked per topic-word convention)"
+  },
+  {
+   "st_tie": "P01-EN-016",
+   "tt_tie": "P01-VI-013",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-017",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "TT renders it as repeated noun nước (nơi nước được lọc)"
+  },
+  {
+   "st_tie": "P01-EN-018",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "TT renders it as repeated noun nước / pro-drop (đưa trở lại)"
+  },
+  {
+   "st_tie": "P01-EN-019",
+   "tt_tie": "P01-VI-014",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-020",
+   "tt_tie": "P01-VI-016",
+   "outcome": "kept",
+   "shift": null,
+   "note": "It -> hệ thống này (general word + demonstrative); both R"
+  },
+  {
+   "st_tie": "P01-EN-021",
+   "tt_tie": "P01-VI-017",
+   "outcome": "shifted",
+   "shift": "L>R",
+   "note": "the country -> Họ (pronoun)"
+  },
+  {
+   "st_tie": "P01-EN-022",
+   "tt_tie": "P01-VI-018",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-023",
+   "tt_tie": "P01-VI-019",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-024",
+   "tt_tie": "P01-VI-020",
+   "outcome": "shifted",
+   "shift": "R>L",
+   "note": "its -> của Singapore (repeated proper name)"
+  },
+  {
+   "st_tie": "P01-EN-025",
+   "tt_tie": "P01-VI-021",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-026",
+   "tt_tie": "P01-VI-022",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-027",
+   "tt_tie": "P01-VI-023",
+   "outcome": "kept",
+   "shift": null,
+   "note": "They -> Họ"
+  },
+  {
+   "st_tie": "P01-EN-028",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "TT omits possessive their"
+  },
+  {
+   "st_tie": "P01-EN-029",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT reformulates; water recycling scheme not lexicalised"
+  },
+  {
+   "st_tie": "P01-EN-030",
+   "tt_tie": "P01-VI-024",
+   "outcome": "kept",
+   "shift": null,
+   "note": "he -> ông (kinship term as pronoun)"
+  },
+  {
+   "st_tie": "P01-EN-031",
+   "tt_tie": "P01-VI-025",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-032",
+   "tt_tie": "P01-VI-026",
+   "outcome": "shifted",
+   "shift": "L>R",
+   "note": "repeated noun visitor centre -> general word + demonstrative nơi này"
+  },
+  {
+   "st_tie": "P01-EN-033",
+   "tt_tie": "P01-VI-027",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-034",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "C>zero",
+   "note": "Now dropped; TT uses đang (progressive) instead"
+  },
+  {
+   "st_tie": "P01-EN-035",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "educate -> nâng cao nhận thức (different lexis, no TT tie)"
+  },
+  {
+   "st_tie": "P01-EN-036",
+   "tt_tie": "P01-VI-029",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-037",
+   "tt_tie": "P01-VI-032",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-038",
+   "tt_tie": "P01-VI-031",
+   "outcome": "kept",
+   "shift": null,
+   "note": "cities/Úc echo; TT also marks nguồn cung cấp nước separately (VI-030)"
+  },
+  {
+   "st_tie": "P01-EN-039",
+   "tt_tie": "P01-VI-033",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-040",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "supply -> lượng nước (reformulated)"
+  },
+  {
+   "st_tie": "P01-EN-041",
+   "tt_tie": "P01-VI-035",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-042",
+   "tt_tie": "P01-VI-036",
+   "outcome": "kept",
+   "shift": null,
+   "note": "EN association (dam~reservoir, conf low) vs TT verbatim repetition hồ chứa"
+  },
+  {
+   "st_tie": "P01-EN-043",
+   "tt_tie": "P01-VI-037",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-044",
+   "tt_tie": "P01-VI-038",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-045",
+   "tt_tie": "P01-VI-039",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-046",
+   "tt_tie": "P01-VI-044",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-047",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "future solution -> giải pháp tiềm năng; future dropped"
+  },
+  {
+   "st_tie": "P01-EN-048",
+   "tt_tie": "P01-VI-045",
+   "outcome": "shifted",
+   "shift": "L>R",
+   "note": "the process -> Công nghệ này (demonstrative NP)"
+  },
+  {
+   "st_tie": "P01-EN-049",
+   "tt_tie": "P01-VI-046",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-050",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT has no prior công chúng mention, so no cohesive tie"
+  },
+  {
+   "st_tie": "P01-EN-051",
+   "tt_tie": "P01-VI-047",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-052",
+   "tt_tie": "P01-VI-048",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-053",
+   "tt_tie": "P01-VI-049",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Firstly -> Thứ nhất"
+  },
+  {
+   "st_tie": "P01-EN-054",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "TT omits possessive our"
+  },
+  {
+   "st_tie": "P01-EN-055",
+   "tt_tie": "P01-VI-050",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-056",
+   "tt_tie": "P01-VI-051",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-057",
+   "tt_tie": "P01-VI-052",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-058",
+   "tt_tie": "P01-VI-053",
+   "outcome": "kept",
+   "shift": null,
+   "note": "And lastly -> Và cuối cùng"
+  },
+  {
+   "st_tie": "P01-EN-059",
+   "tt_tie": "P01-VI-054",
+   "outcome": "kept",
+   "shift": null,
+   "note": "our -> của chúng tôi (full pronoun after của)"
+  },
+  {
+   "st_tie": "P01-EN-060",
+   "tt_tie": "P01-VI-055",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-061",
+   "tt_tie": "P01-VI-056",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-062",
+   "tt_tie": "P01-VI-057",
+   "outcome": "kept",
+   "shift": null,
+   "note": "We -> Chúng tôi"
+  },
+  {
+   "st_tie": "P01-EN-063",
+   "tt_tie": "P01-VI-058",
+   "outcome": "kept",
+   "shift": null,
+   "note": "public -> người dân"
+  },
+  {
+   "st_tie": "P01-EN-064",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "here dropped; TT uses tham quan"
+  },
+  {
+   "st_tie": "P01-EN-065",
+   "tt_tie": "P01-VI-061",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-066",
+   "tt_tie": "P01-VI-062",
+   "outcome": "kept",
+   "shift": null,
+   "note": "verbatim in TT"
+  },
+  {
+   "st_tie": "P01-EN-067",
+   "tt_tie": "P01-VI-063",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-068",
+   "tt_tie": "P01-VI-064",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-069",
+   "tt_tie": "P01-VI-065",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-070",
+   "tt_tie": "P01-VI-066",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-071",
+   "tt_tie": "P01-VI-067",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-072",
+   "tt_tie": "P01-VI-068",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-073",
+   "tt_tie": "P01-VI-069",
+   "outcome": "kept",
+   "shift": null,
+   "note": "public -> công chúng"
+  },
+  {
+   "st_tie": "P01-EN-074",
+   "tt_tie": "P01-VI-070",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-075",
+   "tt_tie": "P01-VI-071",
+   "outcome": "shifted",
+   "shift": "R>L",
+   "note": "comparative other marked R in EN; TT tie marked on repeated ví dụ (L), khác recorded as alt"
+  },
+  {
+   "st_tie": "P01-EN-076",
+   "tt_tie": "P01-VI-073",
+   "outcome": "kept",
+   "shift": null,
+   "note": "lack of support -> không ủng hộ"
+  },
+  {
+   "st_tie": "P01-EN-077",
+   "tt_tie": "P01-VI-074",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-078",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S030 has no TT counterpart (VI omits the sentence)"
+  },
+  {
+   "st_tie": "P01-EN-079",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S030 has no TT counterpart"
+  },
+  {
+   "st_tie": "P01-EN-080",
+   "tt_tie": "P01-VI-075",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-081",
+   "tt_tie": "P01-VI-076",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-082",
+   "tt_tie": "P01-VI-075",
+   "outcome": "kept",
+   "shift": null,
+   "note": "ST sentence duplicated in source table; TT has it once"
+  },
+  {
+   "st_tie": "P01-EN-083",
+   "tt_tie": "P01-VI-076",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-084",
+   "tt_tie": "P01-VI-078",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-085",
+   "tt_tie": "P01-VI-079",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-086",
+   "tt_tie": "P01-VI-082",
+   "outcome": "kept",
+   "shift": null,
+   "note": "cities -> general word nơi"
+  },
+  {
+   "st_tie": "P01-EN-087",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "the process dropped; TT uses verb triển khai"
+  },
+  {
+   "st_tie": "P01-EN-088",
+   "tt_tie": "P01-VI-084",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-089",
+   "tt_tie": "P01-VI-086",
+   "outcome": "shifted",
+   "shift": "L>R",
+   "note": "the Western Australian capital -> Thành phố này (demonstrative NP)"
+  },
+  {
+   "st_tie": "P01-EN-090",
+   "tt_tie": "P01-VI-085",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-091",
+   "tt_tie": "P01-VI-093",
+   "outcome": "kept",
+   "shift": null,
+   "note": "TT moves Khan attribution to S039"
+  },
+  {
+   "st_tie": "P01-EN-092",
+   "tt_tie": "P01-VI-088",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-093",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "WA first mentioned fresh in TT (Tây Úc S038), no prior link"
+  },
+  {
+   "st_tie": "P01-EN-094",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "C>zero",
+   "note": "So dropped in TT"
+  },
+  {
+   "st_tie": "P01-EN-095",
+   "tt_tie": "P01-VI-090",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-096",
+   "tt_tie": "P01-VI-091",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-097",
+   "tt_tie": "P01-VI-093",
+   "outcome": "shifted",
+   "shift": "R>L",
+   "note": "he -> Giáo sư Khan (repeated name)"
+  },
+  {
+   "st_tie": "P01-EN-098",
+   "tt_tie": "P01-VI-094",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-099",
+   "tt_tie": "P01-VI-096",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-100",
+   "tt_tie": "P01-VI-097",
+   "outcome": "shifted",
+   "shift": "R>L",
+   "note": "It -> Kế hoạch (repeated noun)"
+  },
+  {
+   "st_tie": "P01-EN-101",
+   "tt_tie": "P01-VI-098",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-102",
+   "tt_tie": "P01-VI-099",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-103",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "C>zero",
+   "note": "sentence-initial And dropped"
+  },
+  {
+   "st_tie": "P01-EN-104",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "aquifers -> bể chứa, no prior TT mention"
+  },
+  {
+   "st_tie": "P01-EN-105",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "purified recycled water -> bare nước in TT"
+  },
+  {
+   "st_tie": "P01-EN-106",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "TT abridges this passage"
+  },
+  {
+   "st_tie": "P01-EN-107",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT abridges this passage"
+  },
+  {
+   "st_tie": "P01-EN-108",
+   "tt_tie": "P01-VI-100",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-109",
+   "tt_tie": "P01-VI-102",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-110",
+   "tt_tie": "P01-VI-103",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-111",
+   "tt_tie": "P01-VI-105",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-112",
+   "tt_tie": "P01-VI-106",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-113",
+   "tt_tie": "P01-VI-108",
+   "outcome": "shifted",
+   "shift": "R>L",
+   "note": "It -> dự án (repeated noun)"
+  },
+  {
+   "st_tie": "P01-EN-114",
+   "tt_tie": "P01-VI-114",
+   "outcome": "kept",
+   "shift": null,
+   "note": "TT moves Khan to S045"
+  },
+  {
+   "st_tie": "P01-EN-115",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "C>zero",
+   "note": "So dropped; TT uses Hiện tại (temporal) instead"
+  },
+  {
+   "st_tie": "P01-EN-116",
+   "tt_tie": "P01-VI-109",
+   "outcome": "kept",
+   "shift": null,
+   "note": "it -> nó"
+  },
+  {
+   "st_tie": "P01-EN-117",
+   "tt_tie": "P01-VI-109",
+   "outcome": "kept",
+   "shift": null,
+   "note": "EN has two its, TT one nó"
+  },
+  {
+   "st_tie": "P01-EN-118",
+   "tt_tie": "P01-VI-111",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-119",
+   "tt_tie": "P01-VI-112",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-120",
+   "tt_tie": "P01-VI-113",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-121",
+   "tt_tie": "P01-VI-110",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-122",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "attribution merged into TT S045 (Giáo sư Khan cho biết)"
+  },
+  {
+   "st_tie": "P01-EN-123",
+   "tt_tie": "P01-VI-116",
+   "outcome": "kept",
+   "shift": null,
+   "note": "it -> hệ thống này (demonstrative NP)"
+  },
+  {
+   "st_tie": "P01-EN-124",
+   "tt_tie": "P01-VI-115",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-125",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "That's more than a quarter merged as – tương đương 25%; demonstrative dropped"
+  },
+  {
+   "st_tie": "P01-EN-126",
+   "tt_tie": "P01-VI-117",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P01-EN-127",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S047-S049 abridged in TT"
+  },
+  {
+   "st_tie": "P01-EN-128",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "EN S048 abridged in TT"
+  },
+  {
+   "st_tie": "P01-EN-129",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S048 abridged in TT"
+  },
+  {
+   "st_tie": "P01-EN-130",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "EN S048 abridged in TT"
+  },
+  {
+   "st_tie": "P01-EN-131",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S049 abridged in TT"
+  },
+  {
+   "st_tie": "P01-EN-132",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S049 abridged in TT"
+  },
+  {
+   "st_tie": "P01-EN-133",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S049 abridged in TT"
+  },
+  {
+   "st_tie": "P01-EN-134",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S049 abridged in TT"
+  },
+  {
+   "st_tie": "P01-EN-135",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S049 abridged in TT"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-002",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT repeats thiếu nước verbatim where EN varies wording (water problem -> water-stressed, not marked as tie)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-007",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT introduced nước uống in S002, so S005 nước uống is a repetition; EN drinking water first occurs S005 (no tie)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-009",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT S005 already used xử lý (công nghệ xử lý), creating a tie EN lacks (EN: production of purified recycled water)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-015",
+   "outcome": "added",
+   "shift": null,
+   "note": "EN counterpart embedded in PP (the people of Singapore), unmarked per EN convention"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-028",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT adds additive cũng where EN uses temporal Now (EN-034 omitted)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-030",
+   "outcome": "added",
+   "shift": null,
+   "note": "second TT tie for the EN-038 echo (nguồn cung cấp nước part)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-034",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT creates association via nhà máy repetition (phép liên tưởng); EN desalination is a fresh item"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-040",
+   "outcome": "added",
+   "shift": null,
+   "note": "EN parallel sentence was excluded as a display pull quote (18pt bold); TT keeps it as body text"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-041",
+   "outcome": "added",
+   "shift": null,
+   "note": "EN parallel sentence excluded as display pull quote"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-042",
+   "outcome": "added",
+   "shift": null,
+   "note": "EN parallel sentence excluded as display pull quote"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-043",
+   "outcome": "added",
+   "shift": null,
+   "note": "EN parallel sentence excluded as display pull quote"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-059",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT repeats tham quan (S021, S026) where EN varies (invited along for the journey / come out here)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-060",
+   "outcome": "added",
+   "shift": null,
+   "note": "second occurrence of chúng tôi in TT S026; EN has one We"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-072",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT repeats người dân; EN S030 has no TT counterpart sentence"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-077",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT uses công nghệ here; EN uses technology only in S034"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-080",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT repeats áp dụng from S027; EN varies (looking into / adopted)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-081",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT adds attribution pronoun ông nói; EN quote block has no separate attribution"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-083",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT adds thành công echoing S010 sự thành công; EN has no success item in S035"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-087",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT links nguồn nước to prior chain; EN groundwater is a fresh item here"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-089",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT adds summarising demonstrative lĩnh vực này; EN has no parallel item"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-092",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT repeats nguồn nước chain; EN water security is a fresh item"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-095",
+   "outcome": "added",
+   "shift": null,
+   "note": "EN they (S039) is intra-sentential (unmarked); TT họ crosses a sentence boundary"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-101",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT marks tái chế repetition; EN chain marked on the NP (treated wastewater) instead"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-104",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT adds additive cũng; EN S043 has no additive"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-107",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT adds adversative Tuy nhiên; EN S044 has no adversative connective"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-118",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT repeats sử dụng from S034; EN varies (using / used)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P01-VI-119",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT repeats cư dân from S028 (different referent); EN residents first mention in S047"
+  }
+ ]
+}

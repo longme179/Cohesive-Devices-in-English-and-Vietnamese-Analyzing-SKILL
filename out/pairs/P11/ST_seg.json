@@ -39,301 +39,421 @@
   {
    "para": 0,
    "text": "WASHINGTON — In July, Keir Starmer became British prime minister just one day after his party swept parliamentary elections.",
+   "fa": 0,
+   "fb": 124,
    "id": "S001"
   },
   {
    "para": 1,
    "text": "Donald Trump, who won the November 5 U.S. election, must wait 76 days to become president again.",
+   "fa": 125,
+   "fb": 221,
    "id": "S002"
   },
   {
    "para": 2,
    "text": "What gives?",
+   "fa": 222,
+   "fb": 233,
    "id": "S003"
   },
   {
    "para": 3,
    "text": "Britain’s opposition party, like its counterparts in some parliamentary democracies, runs a “shadow government\" that is ready to seize power after winning an election.",
+   "fa": 234,
+   "fb": 401,
    "id": "S004"
   },
   {
    "para": 4,
    "text": "The United States has no such system.",
+   "fa": 402,
+   "fb": 439,
    "id": "S005"
   },
   {
    "para": 4,
    "text": "America’s president-to-be starts from scratch, tasked with filling posts for a sprawling government bureaucracy with a nearly $7 trillion budget and 3.5 million civilian and military personnel, including thousands of presidential appointees.",
+   "fa": 440,
+   "fb": 681,
    "id": "S006"
   },
   {
    "para": 5,
    "text": "“It is a mammoth task to get ready to govern,” said Valerie Smith Boyd, president of the Center for Presidential Transition.",
+   "fa": 682,
+   "fb": 806,
    "id": "S007"
   },
   {
    "para": 5,
    "text": "The presidential transition — those critical 11 weeks between Election Day in November and Inauguration Day in January — is a cornerstone of American democracy.",
+   "fa": 807,
+   "fb": 967,
    "id": "S008"
   },
   {
    "para": 5,
    "text": "The period is designed to ensure a seamless and peaceful transfer of power from one administration to another.",
+   "fa": 968,
+   "fb": 1078,
    "id": "S009"
   },
   {
    "para": 6,
    "text": "“The idea is that they should come into their jobs and be ready to work on day one,” said Michael Shurkin, a director at consultancy 14 North Strategies who worked as a CIA analyst during the transition from George W. Bush to Barack Obama in 2008-09.",
+   "fa": 1079,
+   "fb": 1329,
    "id": "S010"
   },
   {
    "para": 7,
    "text": "The transition period used to be even longer — four months — and a rather low-key event throughout most of America’s history, according to historian Russel Riley.",
+   "fa": 1330,
+   "fb": 1492,
    "id": "S011"
   },
   {
    "para": 8,
    "text": "Riley has traced the earliest mention of the phrase “presidential transition” to 1948, arguing in The Washington Post that the process took on greater significance in the 1960s because of “the risks to a presidency — and indeed to the nation — of not having the newcomer and his team fully prepared from day one to meet the world’s challenges.”",
+   "fa": 1493,
+   "fb": 1837,
    "id": "S012"
   },
   {
    "para": 9,
    "text": "Today, the transition is a highly elaborate, formalized process, governed as much by tradition and custom as by laws and regulations.",
+   "fa": 1838,
+   "fb": 1971,
    "id": "S013"
   },
   {
    "para": 10,
    "text": "“It’s very much the customs and habits that candidates and the federal government do,” said Derek Muller, a Notre Dame law professor and expert on presidential transition.",
+   "fa": 1972,
+   "fb": 2143,
    "id": "S014"
   },
   {
    "para": 11,
    "text": "Some of the traditions are largely symbolic.",
+   "fa": 2144,
+   "fb": 2188,
    "id": "S015"
   },
   {
    "para": 12,
    "text": "For example, there's the post-election White House meeting between a sitting president and a president-elect.",
+   "fa": 2189,
+   "fb": 2298,
    "id": "S016"
   },
   {
    "para": 12,
    "text": "President Harry Truman is credited with encouraging this tradition by inviting Dwight Eisenhower, a bitter political rival, to the White House after Eisenhower’s 1952 victory.",
+   "fa": 2299,
+   "fb": 2474,
    "id": "S017"
   },
   {
    "para": 12,
    "text": "The example was followed by every president since, except for Trump after his 2020 defeat.",
+   "fa": 2475,
+   "fb": 2565,
    "id": "S018"
   },
   {
    "para": 13,
    "text": "Other practices are more consequential.",
+   "fa": 2566,
+   "fb": 2605,
    "id": "S019"
   },
   {
    "para": 14,
    "text": "In a tradition that dates to 1968, the president shares a copy of his daily intelligence briefing document — the President’s Daily Brief — with the incoming commander-in-chief.",
+   "fa": 2606,
+   "fb": 2782,
    "id": "S020"
   },
   {
    "para": 15,
    "text": "Neither practice is written into law, but much else about the transition is legally mandated.",
+   "fa": 2783,
+   "fb": 2876,
    "id": "S021"
   },
   {
    "para": 15,
    "text": "The Presidential Transition Act of 1963, updated over the years, formalizes some of the processes and mechanisms for a peaceful transfer of power.",
+   "fa": 2877,
+   "fb": 3023,
    "id": "S022"
   },
   {
    "para": 16,
    "text": "Among other things: Six months before the election, the president establishes a transition coordinating council, while each federal agency designates a transition director.",
+   "fa": 3024,
+   "fb": 3196,
    "id": "S023"
   },
   {
    "para": 18,
    "text": "By September 15, agency heads must lock in succession plans for noncareer employees.",
+   "fa": 3197,
+   "fb": 3281,
    "id": "S024"
   },
   {
    "para": 19,
    "text": "By October 1, the General Services Administration — the federal government’s landlord — enters into agreements with transition teams before providing them with office space and other resources.",
+   "fa": 3282,
+   "fb": 3475,
    "id": "S025"
   },
   {
    "para": 20,
    "text": "Although these are recent additions to the law, an orderly presidential succession has been the norm through most of American history.",
+   "fa": 3476,
+   "fb": 3610,
    "id": "S026"
   },
   {
    "para": 20,
    "text": "Then came the rupture of 2020: Trump, then running for reelection, claimed voter fraud and refused to concede.",
+   "fa": 3611,
+   "fb": 3721,
    "id": "S027"
   },
   {
    "para": 20,
    "text": "President Joe Biden was initially denied the daily intelligence briefing, and it took the GSA three weeks to “ascertain” him as the winner.",
+   "fa": 3722,
+   "fb": 3861,
    "id": "S028"
   },
   {
    "para": 20,
    "text": "Breaking with tradition, Trump didn’t invite Biden to the White House and left Washington without attending his inauguration.",
+   "fa": 3862,
+   "fb": 3987,
    "id": "S029"
   },
   {
    "para": 21,
    "text": "With Trump swiftly declared the winner of this year’s election, the pendulum has swung back toward established protocol.",
+   "fa": 3988,
+   "fb": 4108,
    "id": "S030"
   },
   {
    "para": 22,
    "text": "On Wednesday, Biden hosted Trump at the White House, where they posed for the cameras and pledged a smooth transition.",
+   "fa": 4109,
+   "fb": 4227,
    "id": "S031"
   },
   {
    "para": 22,
    "text": "The White House called their two-hour meeting “very cordial, very gracious and substantive.\"",
+   "fa": 4228,
+   "fb": 4320,
    "id": "S032"
   },
   {
    "para": 23,
    "text": "A White House meet-and-greet isn’t the president-elect’s main mission.",
+   "fa": 4321,
+   "fb": 4391,
    "id": "S033"
   },
   {
    "para": 24,
    "text": "Topping the list of priorities: staffing a new administration.",
+   "fa": 4392,
+   "fb": 4454,
    "id": "S034"
   },
   {
    "para": 24,
    "text": "The incoming administration must fill more than 4,000 positions, with 1,200 requiring Senate confirmation, according to the Center for Presidential Transition.",
+   "fa": 4455,
+   "fb": 4614,
    "id": "S035"
   },
   {
    "para": 24,
    "text": "Current political appointees typically resign before or on the day the incoming president is inaugurated.",
+   "fa": 4615,
+   "fb": 4720,
    "id": "S036"
   },
   {
    "para": 25,
    "text": "This massive recruitment effort takes time and resources.",
+   "fa": 4721,
+   "fb": 4778,
    "id": "S037"
   },
   {
    "para": 25,
    "text": "Candidates for political positions must be interviewed, vetted and in some cases receive top-secret security clearances.",
+   "fa": 4779,
+   "fb": 4899,
    "id": "S038"
   },
   {
    "para": 25,
    "text": "While presidents-elect typically name a few dozen key players by Inauguration Day, most appointments come after they take office.",
+   "fa": 4900,
+   "fb": 5029,
    "id": "S039"
   },
   {
    "para": 26,
    "text": "Trump has already picked key administration officials: chief of staff, national security adviser, CIA director, director of national intelligence, attorney general, secretary of defense and secretary of state.",
+   "fa": 5030,
+   "fb": 5239,
    "id": "S040"
   },
   {
    "para": 26,
    "text": "More top-level personnel announcements are expected in the coming days and weeks.",
+   "fa": 5240,
+   "fb": 5321,
    "id": "S041"
   },
   {
    "para": 26,
    "text": "But while these announcements dominate the news cycle, the real work of presidential succession often takes place behind closed doors.",
+   "fa": 5322,
+   "fb": 5456,
    "id": "S042"
   },
   {
    "para": 26,
    "text": "Agency-level teams from both administrations work quietly to share information and orchestrate the complex handover.",
+   "fa": 5457,
+   "fb": 5573,
    "id": "S043"
   },
   {
    "para": 27,
    "text": "“This is what’s happened time and time again, with the Republican exception of 2020-2021,” Shurkin said in an interview with VOA.",
+   "fa": 5574,
+   "fb": 5703,
    "id": "S044"
   },
   {
    "para": 27,
    "text": "“The intention is to make sure that certainly people in, let’s say, the more vital elements of the government, particularly, say, Defense or CIA … don’t show up looking around and asking, 'What is this?",
+   "fa": 5704,
+   "fb": 5906,
    "id": "S045"
   },
   {
    "para": 27,
    "text": "What’s your job?",
+   "fa": 5907,
+   "fb": 5923,
    "id": "S046"
   },
   {
    "para": 27,
    "text": "How does anything work?'",
+   "fa": 5924,
+   "fb": 5948,
    "id": "S047"
   },
   {
    "para": 27,
    "text": "” The extent of ongoing coordination between the Trump and Biden teams remains uncertain.",
+   "fa": 5949,
+   "fb": 6038,
    "id": "S048"
   },
   {
    "para": 27,
    "text": "Biden has ordered his administration to facilitate a smooth handover, but Trump's team has missed key deadlines for agreements with the White House and GSA, making it difficult for federal agencies to fully share information with it.",
+   "fa": 6039,
+   "fb": 6272,
    "id": "S049"
   },
   {
    "para": 27,
    "text": "Muller said that while Trump's team might have privacy concerns, these delays carry real risks.",
+   "fa": 6273,
+   "fb": 6368,
    "id": "S050"
   },
   {
    "para": 29,
    "text": "“If you’re not able to access those federal agencies, you might come in a step slow about how you’re supposed to take over the apparatus of the federal government,” Muller said in an interview.",
+   "fa": 6369,
+   "fb": 6562,
    "id": "S051"
   },
   {
    "para": 30,
    "text": "The presidential transition is sometimes called the “lame duck” period because the outgoing president has diminished influence as he awaits the incoming president's inauguration.",
+   "fa": 6563,
+   "fb": 6741,
    "id": "S052"
   },
   {
    "para": 30,
    "text": "While the sitting president keeps full powers, including the pardon power, until January 20, the ability to implement major policies and decisions is limited.",
+   "fa": 6742,
+   "fb": 6900,
    "id": "S053"
   },
   {
    "para": 30,
    "text": "This creates a high-stakes chess game in domestic and global affairs.",
+   "fa": 6901,
+   "fb": 6970,
    "id": "S054"
   },
   {
    "para": 30,
    "text": "Allies and rivals alike must thread the needle between current and future administrations.",
+   "fa": 6971,
+   "fb": 7061,
    "id": "S055"
   },
   {
    "para": 30,
    "text": "Foreign governments, especially those with critical ties with the U.S., must walk a diplomatic tightrope.",
+   "fa": 7062,
+   "fb": 7167,
    "id": "S056"
   },
   {
    "para": 31,
    "text": "The diplomatic dance has already begun.",
+   "fa": 7168,
+   "fb": 7207,
    "id": "S057"
   },
   {
    "para": 31,
    "text": "While foreign governments maintain relations with U.S. embassies, Muller noted that foreign leaders are already reaching out to Trump “to feel him out in some of his positions, to think about how things might look under a new administration.”",
+   "fa": 7208,
+   "fb": 7450,
    "id": "S058"
   },
   {
    "para": 32,
    "text": "Earlier this week, Indonesian President Prabowo Subianto called Trump and suggested the two meet in person.",
+   "fa": 7451,
+   "fb": 7558,
    "id": "S059"
   },
   {
    "para": 33,
    "text": "“You’re dealing with some significant changes about how the United States is going to govern, and so it’s a delicate balancing act for those foreign government leaders in the international context,” Muller said.",
+   "fa": 7559,
+   "fb": 7770,
    "id": "S060"
   }
  ]

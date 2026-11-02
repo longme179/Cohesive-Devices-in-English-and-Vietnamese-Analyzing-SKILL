@@ -40,231 +40,323 @@
   {
    "para": 0,
    "text": "Nguồn nước ở một số thành phố trên thế giới, bao gồm cả Úc, đang chịu áp lực ngày càng lớn.",
+   "fa": 0,
+   "fb": 91,
    "id": "S001"
   },
   {
    "para": 0,
    "text": "Một số quốc gia đã bắt đầu tái chế nước thải làm nước uống, và nhiều ý kiến cho rằng Úc cũng nên làm như vậy.",
+   "fa": 92,
+   "fb": 201,
    "id": "S002"
   },
   {
    "para": 6,
    "text": "Singapore đang phải đối mặt với vấn đề thiếu nước.",
+   "fa": 202,
+   "fb": 252,
    "id": "S003"
   },
   {
    "para": 6,
    "text": "Với mật độ dân số dày đặc, ít tài nguyên nước tự nhiên,và không có nhiều diện tích để xây hồ chứa, đảo quốc này là một trong những nơi có nguy cơ thiếu nước nghiêm trọng nhất thế giới.",
+   "fa": 253,
+   "fb": 437,
    "id": "S004"
   },
   {
    "para": 7,
    "text": "Tuy nhiên, Singapore cũng là một trong những nước đi đầu trong công nghệ xử lý và tái chế nước thải, hay nói cách khác, biến nước thải thành nước uống.",
+   "fa": 438,
+   "fb": 589,
    "id": "S005"
   },
   {
    "para": 7,
    "text": "“Tái chế nước thải là quá trình lấy nước từ các nhà máy xử lý nước thải – vốn đã qua xử lý và chuẩn bị thải ra môi trường,” Giáo sư Stuart Khan, Trưởng khoa Kỹ thuật Xây dựng tại Đại học Sydney, giải thích.",
+   "fa": 590,
+   "fb": 796,
    "id": "S006"
   },
   {
    "para": 8,
    "text": "“Nhưng thay vì thải ra môi trường, chúng tôi đưa nước qua một nhà máy xử lý nước tiên tiến, nơi nước được lọc kỹ càng để có thể đưa trở lại nguồn cung cấp nước uống một cách an toàn và đáng tin cậy.”",
+   "fa": 797,
+   "fb": 996,
    "id": "S007"
   },
   {
    "para": 9,
    "text": "Người dân Singapore từ lâu đã quen với hệ thống này.",
+   "fa": 997,
+   "fb": 1049,
    "id": "S008"
   },
   {
    "para": 9,
    "text": "Họ thậm chí còn sản xuất bia từ nước thải đã qua xử lý.",
+   "fa": 1050,
+   "fb": 1105,
    "id": "S009"
   },
   {
    "para": 10,
    "text": "Theo Giáo sư Khan, sự thành công của Singapore phần lớn nhờ vào chiến dịch giáo dục cộng đồng bài bản.",
+   "fa": 1106,
+   "fb": 1208,
    "id": "S010"
   },
   {
    "para": 11,
    "text": "“Singapore rất nghiêm túc trong việc giáo dục cộng đồng.",
+   "fa": 1209,
+   "fb": 1265,
    "id": "S011"
   },
   {
    "para": 11,
    "text": "Họ xây dựng một trung tâm giới thiệu từ năm 2003,hơn 20 năm trước,” ông nói.",
+   "fa": 1266,
+   "fb": 1342,
    "id": "S012"
   },
   {
    "para": 12,
    "text": "“Họ có kế hoạch đưa mọi học sinh ở Singapore đến thăm nơi này để tìm hiểu về tái chế nước và tầm quan trọng của việc sử dụng nước bền vững ở Singapore.”",
+   "fa": 1343,
+   "fb": 1495,
    "id": "S013"
   },
   {
    "para": 12,
    "text": "Sydney cũng đang bắt đầu các nỗ lực nâng cao nhận thức về việc sử dụng nước thải tái chế.",
+   "fa": 1496,
+   "fb": 1585,
    "id": "S014"
   },
   {
    "para": 13,
    "text": "Gia tăng dân số và biến đổi khí hậu đang khiến nguồn cung cấp nước tại nhiều thành phố trên thế giới, bao gồm cả Úc, chịu áp lực lớn.",
+   "fa": 1586,
+   "fb": 1719,
    "id": "S015"
   },
   {
    "para": 14,
    "text": "Khoảng 85% lượng nước của Sydney đến từ nước mưa, trong khi 15% còn lại đến từ nhà máy khử muối – nơi lọc bỏ muối và các khoáng chất khác từ nước biển để tạo ra nước ngọt.",
+   "fa": 1720,
+   "fb": 1891,
    "id": "S016"
   },
   {
    "para": 15,
    "text": "Trong đợt hạn hán gần đây nhất (2017-2020), mực nước trong các hồ chứa của Sydney đã giảm xuống chỉ còn một nửa dung tích.",
+   "fa": 1892,
+   "fb": 2014,
    "id": "S017"
   },
   {
    "para": 16,
    "text": "“Chúng ta đang ở một bước ngoặt quan trọng, cần suy nghĩ về tương lai nguồn nước của mình … khi các hồ chứa cạn kiệt nhanh chóng trong những đợt hạn hán,” ông James Harrington, quản lý dự án của Sydney Water, nhận định.",
+   "fa": 2015,
+   "fb": 2234,
    "id": "S018"
   },
   {
    "para": 17,
    "text": "“Chúng ta cần phải chuẩn bị và chủ động trong việc quản lý nguồn cung cấp nước để không còn phụ thuộc vào lượng mưa và nhà máy khử muối duy nhất ở Sydney nữa.”",
+   "fa": 2235,
+   "fb": 2394,
    "id": "S019"
   },
   {
    "para": 18,
    "text": "Nước thải tái chế đang được xem xét như một giải pháp tiềm năng.",
+   "fa": 2395,
+   "fb": 2459,
    "id": "S020"
   },
   {
    "para": 18,
    "text": "Công nghệ này hiện được thử nghiệm tại nhà máy xử lý nước thải Quakers Hill ở phía tây bắc Sydney, nơi công chúng được mời đến tham quan.",
+   "fa": 2460,
+   "fb": 2597,
    "id": "S021"
   },
   {
    "para": 19,
    "text": "Ông Harrington cho biết Trung tâm Khám phá Nước Tái chế Tinh khiết, hoạt động từ cuối năm 2023, có ba mục tiêu chính.",
+   "fa": 2598,
+   "fb": 2715,
    "id": "S022"
   },
   {
    "para": 19,
    "text": "“Thứ nhất là để thử nghiệm công nghệ và chứng minh công nghệ hoạt động tốt như thế nào.",
+   "fa": 2716,
+   "fb": 2803,
    "id": "S023"
   },
   {
    "para": 19,
    "text": "Thứ hai là để cho phép các bên liên quan, cộng đồng và khách hàng tham gia và hiểu công nghệ là gì.",
+   "fa": 2804,
+   "fb": 2903,
    "id": "S024"
   },
   {
    "para": 19,
    "text": "Và cuối cùng, để nhóm vận hành của chúng tôi có cơ hội đào tạo và học hỏi tại một cơ sở thử nghiệm,” ông nói.",
+   "fa": 2904,
+   "fb": 3013,
    "id": "S025"
   },
   {
    "para": 20,
    "text": "“Chúng tôi hoan nghênh người dân đến tham quan và trò chuyện với chúng tôi về công nghệ này, cũng như quy trình bảo đảm nước được xử lý an toàn và đáng tin cậy.”",
+   "fa": 3014,
+   "fb": 3175,
    "id": "S026"
   },
   {
    "para": 21,
    "text": "Giáo sư Khan cho biết các đề nghị áp dụng nước tái chế từng gây tranh cãi trong quá khứ.",
+   "fa": 3176,
+   "fb": 3264,
    "id": "S027"
   },
   {
    "para": 22,
    "text": "Vào năm 2006, cư dân thành phố Toowoomba, Queensland – nơi bị hạn hán nghiêm trọng vào thời điểm đó – đã bỏ phiếu phản đối kế hoạch sử dụng nước thải tái chế làm nước uống.",
+   "fa": 3265,
+   "fb": 3437,
    "id": "S028"
   },
   {
    "para": 23,
    "text": "“Toowoomba là một ví dụ về một dự án thất bại vì thiếu sự ủng hộ của công chúng và không xây dựng được sự hiểu biết và đồng thuận trong cộng đồng,” ông nói.",
+   "fa": 3438,
+   "fb": 3594,
    "id": "S029"
   },
   {
    "para": 24,
    "text": "“Có những ví dụ khác ở San Diego cách đây 20 năm.",
+   "fa": 3595,
+   "fb": 3644,
    "id": "S030"
   },
   {
    "para": 24,
    "text": "Khi người dân không ủng hộ, dự án không thể tiếp tục.”",
+   "fa": 3645,
+   "fb": 3699,
    "id": "S031"
   },
   {
    "para": 24,
    "text": "Ông Harrington khẳng định tái chế nước thải có thể là điều mới mẻ đối với Sydney, nhưng trên thế giới, công nghệ này đã có từ lâu.",
+   "fa": 3700,
+   "fb": 3830,
    "id": "S032"
   },
   {
    "para": 25,
    "text": "“Các dự án tái chế nước thải đã hoạt động từ những năm 1960.",
+   "fa": 3831,
+   "fb": 3891,
    "id": "S033"
   },
   {
    "para": 25,
    "text": "Hiện tại, có khoảng 35 thành phố đang sử dụng công nghệ này, và khoảng 60 thành phố khác đang xem xét áp dụng,” ông nói.",
+   "fa": 3892,
+   "fb": 4012,
    "id": "S034"
   },
   {
    "para": 26,
    "text": "Los Angeles, Barcelona, Cape Town và Perth là một số nơi đã triển khai thành công.",
+   "fa": 4013,
+   "fb": 4095,
    "id": "S035"
   },
   {
    "para": 27,
    "text": "Khác với Sydney, Perth không có nhiều hồ chứa nước lớn.",
+   "fa": 4096,
+   "fb": 4151,
    "id": "S036"
   },
   {
    "para": 27,
    "text": "Thành phố này chủ yếu dựa vào nguồn nước ngầm, nhưng nguồn nước này đã suy giảm trong suốt 30 năm qua.",
+   "fa": 4152,
+   "fb": 4254,
    "id": "S037"
   },
   {
    "para": 28,
    "text": "“Tây Úc là nơi tiên phong trong lĩnh vực này vì nhu cầu cấp bách.",
+   "fa": 4255,
+   "fb": 4320,
    "id": "S038"
   },
   {
    "para": 28,
    "text": "Người dân Perth nhận thấy biến đổi khí hậu đang ảnh hưởng rõ rệt đến nguồn nước của họ,” Giáo sư Khan nói.",
+   "fa": 4321,
+   "fb": 4427,
    "id": "S039"
   },
   {
    "para": 29,
    "text": "“Perth đã phát triển, trong một thời gian khá dài, một kế hoạch mà họ gọi là kế hoạch bổ sung nước ngầm.",
+   "fa": 4428,
+   "fb": 4532,
    "id": "S040"
   },
   {
    "para": 29,
    "text": "Kế hoạch bao gồm việc lấy nước từ một nhà máy xử lý nước thải… làm sạch nước thông qua các quy trình xử lý tiên tiến như thẩm thấu ngược, khử trùng bằng tia cực tím, sau đó đưa nước trở lại các bể chứa quan trọng.”",
+   "fa": 4533,
+   "fb": 4747,
    "id": "S041"
   },
   {
    "para": 30,
    "text": "Mục tiêu của Water Corporation – nhà cung cấp nước chính của Tây Úc – là tái chế 35% lượng nước thải đã qua xử lý ở Perth vào năm 2035.",
+   "fa": 4748,
+   "fb": 4883,
    "id": "S042"
   },
   {
    "para": 31,
    "text": "Queensland cũng có dự án tái chế nước mang tên Western Corridor Recycled Water Scheme, được xây dựng vào năm 2009 để đối phó với hạn hán.",
+   "fa": 4884,
+   "fb": 5021,
    "id": "S043"
   },
   {
    "para": 32,
    "text": "Tuy nhiên, do khu vực Brisbane bị lũ lụt trong những năm sau đó nên dự án chưa bao giờ hoạt động hết công suất.",
+   "fa": 5022,
+   "fb": 5133,
    "id": "S044"
   },
   {
    "para": 33,
    "text": "“Hiện tại, nó đang bị tạm dừng, nhưng vẫn là một phần trong chiến lược cung cấp nước của Brisbane hoặc đông nam Queensland trong tương lai,” Giáo sư Khan cho biết.",
+   "fa": 5134,
+   "fb": 5297,
    "id": "S045"
   },
   {
    "para": 34,
    "text": "Nếu đưa vào sử dụng cho nước uống và công nghiệp, hệ thống này có thể bổ sung thêm 80 gigalitre nước mỗi năm – tương đương 25% tổng lượng nước mà 3,8 triệu cư dân ở đông nam Queensland đang sử dụng.",
+   "fa": 5298,
+   "fb": 5496,
    "id": "S046"
   }
  ]

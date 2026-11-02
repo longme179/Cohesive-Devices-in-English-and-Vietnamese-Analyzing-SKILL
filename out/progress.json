@@ -1,0 +1,29 @@
+{
+ "pairs": {
+  "P01": {
+   "status": "done",
+   "st_sentences": 49,
+   "tt_sentences": 46,
+   "st_ties": 135,
+   "tt_ties": 119,
+   "st_counts": {
+    "L": 95,
+    "R": 30,
+    "C": 10
+   },
+   "tt_counts": {
+    "L": 90,
+    "C": 9,
+    "R": 20
+   },
+   "alignment": {
+    "kept": 90,
+    "shifted": 10,
+    "omitted": 35,
+    "added": 27
+   },
+   "qc": "PASS"
+  }
+ },
+ "last_updated": "auto"
+}
