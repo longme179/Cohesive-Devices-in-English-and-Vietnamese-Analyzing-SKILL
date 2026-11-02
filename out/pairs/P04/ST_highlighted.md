@@ -1,0 +1,49 @@
+# P04 — Source text (ST, English)
+
+**Title:** 'Major flow-on effects': Australia's sleep struggle — and how much you need
+
+**Framework:** Halliday & Hasan (1976)
+
+**Legend:** 🟨 Reference (`R`) | 🟩 Substitution (`S`) | 🟦 Ellipsis (`E`) | 🟧 Conjunction (`C`) | 🟪 Lexical cohesion (`L`) — ellipsis gap: 🟦⟦∅⟧
+
+---
+
+If you wake up in the morning wishing you could hit the snooze alarm and get a few more snoozes, you're not alone.
+Almost 3 in 4 (71 per cent) Australians struggle to get a good night's sleep, according to a new survey from financial comparison site Finder based on responses from 1,010 participants.
+🟨⟦That⟧'s an estimated 14.8 million adults who are 🟪⟦struggling⟧ with their 🟪⟦sleep⟧.
+Of those 🟪⟦surveyed⟧ in December 2024, 33 per cent 🟪⟦struggled⟧ to fall asleep, 33 per cent struggled to stay asleep, 18 per cent needed a bathroom break during the 🟪⟦night⟧, and 11 per cent were kept up by their partner snoring.
+At least 10 per cent were awoken by their own 🟪⟦snoring⟧, 8 per cent suffered from 🟪⟦sleep⟧ apnea, 8 per cent were woken by their pets, and 6 per cent were woken by their kids.
+Only 29 per cent didn't record having any 🟪⟦sleep⟧ issues during the 🟪⟦night⟧.
+🟧⟦To top it off⟧, according to 🟪⟦the survey⟧, the average 🟪⟦Australian⟧ gets 6.9 hours of 🟪⟦sleep⟧ each night, but one expert says that even this number might be inflated — and it's got her worried about "major flow-on effects" for our health.
+Alexandra Shriane, a 🟪⟦sleep⟧ researcher and PhD candidate at the Appleton Institute at Central Queensland University, says it's "safe to assume that the majority of 🟪⟦Australian⟧ adults aren't getting enough quality sleep".
+While the 🟪⟦Finder⟧ 🟪⟦study⟧ suggests 75 per cent of us are 🟪⟦sleep-deprived⟧, 🟪⟦Shriane⟧ believes there may be even more of us 🟪⟦suffering⟧. Many people may be overestimating the amount of 🟪⟦sleep⟧ they're getting — the time you spend in bed isn't the same as the time you spend 🟪⟦asleep⟧, 🟨⟦she⟧ told SBS News.
+🟨⟦Other⟧ research from the Australian Institute of Health and Welfare (AIHW) suggests a more conservative number, with a 2016 study estimating that 66 per cent of adults had at least one 🟪⟦sleep problem⟧, and almost half (48 per cent) had at least two sleep-related problems.
+The general recommendation is that healthy 🟪⟦adults⟧ aim for seven to nine hours of 🟪⟦quality sleep⟧ 🟪⟦each night⟧, 🟪⟦Shriane⟧ said.
+🟨⟦This⟧ figure is based on thousands of 🟪⟦studies⟧ from across the world, which have found people who regularly get less than 🟪⟦seven hours⟧ of 🟪⟦sleep⟧ are much more likely to develop a wide range of poor 🟪⟦health⟧ and wellbeing outcomes.
+🟧⟦On the contrary⟧, those 🟪⟦sleeping⟧ more than 🟪⟦nine hours⟧ may have an underlying health problem or sleep disorder, 🟨⟦she⟧ said.
+🟨⟦She⟧'s 🟧⟦also⟧ sceptical of people who are regularly running on fumes.
+Sometimes we glorify 🟪⟦sleep deprivation⟧, and you'll hear people say that they get by just fine on five hours a night, 🟨⟦she⟧ said. "The likelihood that the 🟪⟦seven to nine-hour recommendation⟧ doesn't apply to these 🟪⟦people⟧ and that their bodies and brains aren't negatively impacted by chronic 🟪⟦sleep deprivation⟧ is slim to none."
+If the magical 🟪⟦seven to nine-hour recommendation⟧ applies to 🟪⟦healthy adults⟧, what about other groups?
+Children need more 🟪⟦sleep⟧ than 🟪⟦adults⟧, and this amount changes across their development stages, 🟪⟦Shriane⟧ said.
+Toddlers need 11 to 14 hours every 24 hours, while teenagers need eight to 10 hours a night.
+If you're older than 65, 🟪⟦AIHW⟧ says you only need seven to eight hours of 🟪⟦sleep⟧. 🟪⟦Shriane⟧ said there's evidence suggesting women may need to 🟪⟦snooze⟧ more than men. "🟨⟦They⟧ may sit at the higher end of the 🟪⟦recommendation⟧ range towards 🟪⟦nine hours⟧ a night, while 🟪⟦men⟧ might sit more toward the lower end at 🟪⟦seven hours⟧ a night."
+🟨⟦Those⟧ with some 🟪⟦health⟧ conditions that cause fatigue will likely need more hours too.
+It can be easy to focus on the hours we're in bed and lose sight of the importance of 🟪⟦sleep quality⟧, which is just as crucial.
+We know that most 🟪⟦adults⟧ aren't getting enough 🟪⟦sleep⟧, but many people aren't getting good 🟪⟦quality sleep⟧ either, 🟪⟦Shriane⟧ said.
+While it's hard to measure our 🟪⟦quality of sleep⟧ outside of a lab, 🟪⟦Shriane⟧ said there are some indicators you can follow to determine whether your sleep is actually topnotch — and the easiest is gauging how you feel when you're awake.
+If you're always really tired, have low energy, or regularly 🟪⟦struggle⟧ to stay awake in the afternoon, this could mean you're not getting 🟪⟦quality sleep⟧, 🟨⟦she⟧ said. "Even subtle signs, like frequent minor illnesses like colds, having really intense food cravings, or extreme fluctuations in mood, can be 🟪⟦indicators⟧ that you're not meeting your 🟪⟦sleep⟧ needs."
+While it can be easy to brush off 🟪⟦sleep⟧ as life gets frantic, the effects of 🟪⟦sleep deprivation⟧ can be dangerous.
+Short-term 🟪⟦sleep deprivation⟧ can affect our immune systems, how our brain processes information, our ability to regulate our mood and stress, and might cause 🟪⟦intense food cravings⟧.
+For those who are 🟪⟦chronically deprived⟧, 🟨⟦these⟧ impacts can build up over time and can be hard to reverse. Some things to consider if you're routinely not getting enough 🟪⟦quality sleep⟧ — you're going to 🟪⟦struggle⟧ to maintain a healthy weight, you're more likely to develop diabetes, heart disease, high blood pressure, cognitive problems like dementia, and even some forms of cancer, 🟪⟦Shriane⟧ said.
+🟪⟦Sleep⟧ is a pillar of 🟪⟦health⟧ alongside your nutrition and physical activity — when you don't look after it, it has 🟪⟦major flow-on effects⟧ for health and wellbeing.
+While there might be lots of gadgets and supplements on the market that claim to improve your 🟪⟦sleep⟧, 🟪⟦Shriane⟧ said many of these aren't backed by science and will only dent your hip pocket.
+🟧⟦Instead⟧, 🟨⟦she⟧ recommends simpler measures:
+Go to bed and wake up at roughly the same time each day (yes, even on weekends).
+Try not to nap during the day — and if you do, do it early and keep it to 15 to 20 minutes.
+Don't consume caffeine six to eight hours before 🟪⟦sleep⟧.
+Limit alcohol and nicotine as much as possible, and avoid them four hours before 🟪⟦sleep⟧.
+Practice a wind-down routine and avoid bright lights one to two hours before 🟪⟦sleep⟧.
+Only use your 🟪⟦bed⟧ for intimacy (no work calls, thanks).
+Keep your bedroom dark, quiet, well-ventilated and cold (16 to 20 degrees, ideally).
+If you don't fall asleep in 20 minutes, get up and do something relaxing in a dimly lit environment until you feel sleepy.
+Of course, if you're regularly 🟪⟦struggling with sleep⟧, consider speaking with a professional.

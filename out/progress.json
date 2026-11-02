@@ -70,6 +70,29 @@
     "added": 59
    },
    "qc": "PASS"
+  },
+  "P04": {
+   "status": "done",
+   "st_sentences": 44,
+   "tt_sentences": 35,
+   "st_ties": 95,
+   "tt_ties": 65,
+   "st_counts": {
+    "R": 12,
+    "L": 79,
+    "C": 4
+   },
+   "tt_counts": {
+    "C": 7,
+    "L": 53,
+    "R": 5
+   },
+   "alignment": {
+    "kept": 57,
+    "omitted": 38,
+    "added": 17
+   },
+   "qc": "PASS"
   }
  },
  "last_updated": "auto"

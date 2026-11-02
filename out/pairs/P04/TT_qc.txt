@@ -1,0 +1,4 @@
+QC P04 VI (TT): PASS
+(e) counts: {'C': 7, 'L': 53, 'R': 5}
+confidence: {'high': 52, 'med': 13}
+sentences: 35, ties: 65
