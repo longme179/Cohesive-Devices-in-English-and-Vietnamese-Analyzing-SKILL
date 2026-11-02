@@ -1,0 +1,4 @@
+QC P06 EN (ST): PASS
+(e) counts: {'C': 5, 'L': 70, 'R': 6}
+confidence: {'high': 40, 'low': 1, 'med': 40}
+sentences: 38, ties: 81

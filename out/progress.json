@@ -116,6 +116,29 @@
     "added": 5
    },
    "qc": "PASS"
+  },
+  "P06": {
+   "status": "done",
+   "st_sentences": 38,
+   "tt_sentences": 24,
+   "st_ties": 81,
+   "tt_ties": 53,
+   "st_counts": {
+    "L": 70,
+    "R": 6,
+    "C": 5
+   },
+   "tt_counts": {
+    "L": 46,
+    "C": 5,
+    "R": 2
+   },
+   "alignment": {
+    "kept": 40,
+    "omitted": 41,
+    "added": 15
+   },
+   "qc": "PASS"
   }
  },
  "last_updated": "auto"
