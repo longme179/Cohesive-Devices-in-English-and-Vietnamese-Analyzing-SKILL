@@ -17,11 +17,11 @@ Mining giant Hancock Prospecting, headed by 🟪⟦billionaire⟧ Gina Rinehart,
 Sportsbet 🟪⟦donated⟧ $88,000, Tabcorp $60,500, the Lottery Corporation $44,000 and Responsible Wagering Australia, the peak body for Australian-licensed 🟪⟦wagering⟧ service providers, $66,000.
 🟪⟦Sportbet's⟧ 🟪⟦donation⟧ to 🟪⟦Labor⟧ on 26 June 2024 came weeks before news leaked 🟪⟦the government⟧ had decided to reject a recommended blanket advertising ban in favour of caps.
 When asked earlier today why 🟪⟦the government⟧ had 🟪⟦rejected⟧ this 🟪⟦recommendation⟧, Prime Minister Anthony Albanese said his government had "taken more action on problem gambling than any government since Federation".
-"🟨⟦We⟧'ve introduced BetStop, which has helped people substantially. 🟨⟦We⟧'ve banned t🟨⟦he⟧ use of credit cards online 🟧⟦as well⟧, which was a big issue of sport 🟪⟦gambling⟧," he told the Daily Aus podcast.
+"🟨⟦We⟧'ve introduced BetStop, which has helped people substantially. 🟨⟦We⟧'ve banned the use of credit cards online 🟧⟦as well⟧, which was a big issue of sport 🟪⟦gambling⟧," 🟨⟦he⟧ told the Daily Aus podcast.
 🟪⟦Sportsbet⟧ 🟧⟦also⟧ 🟪⟦donated⟧ $60,000 to 🟪⟦the Liberals⟧ and $15,000 to the Nationals. 🟪⟦Tabcorp⟧ 🟪⟦donated tens of thousands of dollars⟧ more to 🟪⟦Labor's state divisions⟧, on top of more than $90,000 to 🟪⟦the Liberals and Nationals⟧ and their associated 🟪⟦state branches⟧.
 In response to a request for comment, Opposition communications spokesperson Melissa McIntosh said: "It has been almost two years since Opposition leader Peter Dutton made it clear that a 🟪⟦Coalition⟧ government would prioritise protecting Australians from 🟪⟦gambling⟧ harm."
 "In June 2023, 🟪⟦the Coalition⟧ introduced a bill to the Senate that would stop 🟪⟦gambling⟧ ads for live sport one hour before, during and one hour after the television and radio broadcasting and live streaming of matches. 🟪⟦Labor and the Greens⟧ voted against 🟪⟦the bill⟧," 🟨⟦she⟧ said.
-"Since the 🟪⟦Opposition Leader⟧’s announcement, 🟪⟦the prime minister⟧ has been unable to make a stand on 🟪⟦gambling advertising⟧, desp🟨⟦it⟧e a 🟪⟦Labor⟧-led report calling for it, and pressure from his own backbench and the teals and advocacy groups."
+"Since the 🟪⟦Opposition Leader⟧’s announcement, 🟪⟦the prime minister⟧ has been unable to make a stand on 🟪⟦gambling advertising⟧, despite a 🟪⟦Labor⟧-led report calling for 🟨⟦it⟧, and pressure from his own backbench and the teals and advocacy groups."
 🟪⟦McIntosh⟧ gave no response to SBS News' inquiry about the 🟪⟦gambling industry donations⟧ accepted by her party.
 🟪⟦SBS News⟧ has contacted 🟪⟦the Labor party⟧ for 🟪⟦comment⟧ but is yet to receive a reply.
 🟪⟦Greens⟧ senator Larissa Waters has taken aim at the 🟪⟦major parties⟧ over today's 🟪⟦disclosures⟧.

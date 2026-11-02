@@ -9,14 +9,14 @@
 ---
 
 Federal immigration authorities arrested a Palestinian activist Saturday who played a prominent role in Columbia University’s protests against Israel, a significant escalation in the Trump administration’s pledge to detain and deport student activists.
-Mahmoud Khalil, a graduate student at Columbia until t🟨⟦his⟧ past December,
-was inside his university-owned apartment Saturday night when several Immigration and Customs Enforcement agents entered and took him into custody, his attorney, Amy Greer, told The Associated Press.
+Mahmoud Khalil, a graduate student at Columbia until this past December,
+was inside 🟨⟦his⟧ university-owned apartment Saturday night when several Immigration and Customs Enforcement agents entered and took him into custody, his attorney, Amy Greer, told The Associated Press.
 🟪⟦Greer⟧ said she spoke by phone with one of the ICE agents during 🟪⟦the arrest⟧, who said they were acting on State Department orders to revoke Khalil’s student visa. Informed by 🟪⟦the attorney⟧ that 🟪⟦Khalil⟧ was in 🟪⟦the United States⟧ as a permanent resident with a green card, the agent said they were revoking that instead, according to the lawyer.
 A spokesperson for the Department of Homeland Security, Tricia McLaughlin, confirmed 🟪⟦Khalil’s arrest⟧ in a statement Sunday, describing it as being “in support of President Trump’s executive orders prohibiting anti-Semitism.”
 🟪⟦Khalil’s arrest⟧ is the first publicly known deportation effort under 🟪⟦Trump’s⟧ promised crackdown on students who joined protests against the war in Gaza that swept college campuses last spring. 🟪⟦The administration⟧ has claimed 🟪⟦participants⟧ forfeited their rights to remain in 🟪⟦the country⟧ by supporting Hamas.
 🟪⟦McLaughlin⟧ signaled 🟪⟦the arrest⟧ was directly connected to 🟨⟦Khalil’s role⟧ in 🟪⟦the protests⟧, alleging he “led activities aligned to Hamas, a designated terrorist organization.”
 As 🟪⟦ICE agents⟧ arrived at 🟨⟦Khalil’s⟧ Manhattan residence Saturday night, they also threatened to arrest Khalil’s wife, an American citizen who is eight months pregnant, Greer said.
-🟪⟦Khalil’s attorney⟧ said t🟨⟦he⟧y were initially informed that he was being held at an immigration detention facility in Elizabeth, New Jersey. But w🟨⟦he⟧n 🟨⟦his wife⟧ tried to visit Sunday, she learned he was not there. 🟪⟦Greer⟧ said she still did not know 🟨⟦Khalil’s whereabouts⟧ as of Sunday night.
+🟪⟦Khalil’s attorney⟧ said they were initially informed that 🟨⟦he⟧ was being held at an immigration detention facility in Elizabeth, New Jersey. But when 🟨⟦his wife⟧ tried to visit Sunday, she learned 🟨⟦he⟧ was not there. 🟪⟦Greer⟧ said she still did not know 🟨⟦Khalil’s whereabouts⟧ as of Sunday night.
 “🟨⟦We⟧ have not been able to get any more details about why 🟨⟦he⟧ is being detained,” 🟪⟦Greer⟧ told the AP. “This is a clear escalation. 🟪⟦The administration⟧ is following through on its threats.”
 🟪⟦A Columbia University spokesperson⟧ said 🟪⟦law enforcement agents⟧ must produce a warrant before entering university property, but declined to say if the school had received one ahead of Khalil’s arrest. 🟪⟦The spokesperson⟧ declined to comment on 🟨⟦Khalil’s detention⟧.
 In a message shared on X Sunday evening, Secretary of State Marco Rubio said 🟪⟦the administration⟧ “will be revoking the visas and/or green cards of Hamas supporters in America so they can be deported.”

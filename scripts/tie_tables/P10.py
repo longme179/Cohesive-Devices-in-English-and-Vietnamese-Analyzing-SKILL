@@ -47,7 +47,7 @@ ST = [
  # S017
  ('S017', 'However', 'C', 'adversative', 'S016: petrol prices most affected', 'high', None, None, 1),
  ('S017', 'also', 'C', 'additive', 'S016: petrol prices', 'med', None, None, 1),
- ('S017', 'he', 'R', 'personal', 'S016: Jericho', 'high', None, None, 1),
+ ('S017', 'he', 'R', 'personal', 'S016: Jericho', 'high', None, None, 2),
  # S018
  ('S018', 'the dollar', 'L', 'repetition', 'S015: A weak Australian dollar', 'high', None, None, 1),
  # S019

@@ -14,7 +14,7 @@ Beyond making overseas travel more expensive, a weaker Aussie dollar can impact 
 On the flipside, 🟪⟦Australian⟧ exporters generally enjoy 🟪⟦a weaker dollar⟧ as this can make prices more competitive to international buyers.
 A number of elements have contributed to 🟪⟦the weakening of the Australian dollar⟧.
 Consumer expert and director of executive education at Griffith University Graeme Hughes said several 🟪⟦factors⟧ influence 🟪⟦the dollar's value⟧ against other currencies.
-"The market now expects fewer interest rate cuts in 🟪⟦the US⟧, making US assets more attractive to investors. 🟨⟦This⟧ has led to an appreciation of 🟪⟦the US dollar⟧ against ot🟨⟦he⟧r currencies, including 🟪⟦the Australian dollar⟧," he said.
+"The market now expects fewer interest rate cuts in 🟪⟦the US⟧, making US assets more attractive to investors. 🟨⟦This⟧ has led to an appreciation of 🟪⟦the US dollar⟧ against other currencies, including 🟪⟦the Australian dollar⟧," 🟨⟦he⟧ said.
 "Secondly, concerns are growing that China's economic stimulus efforts may not be effective, weakening 🟪⟦the Chinese yuan⟧ and consequently impacting the Australian dollar.
 "And 🟪⟦declining prices⟧ for key commodities like iron ore and coal, coupled with rising geopolitical risks and the potential for trade wars, have also weighed on the Australian dollar."
 Chief economist at the Australia Institute Greg Jericho 🟪⟦agreed⟧.
@@ -22,7 +22,7 @@ Chief economist at the Australia Institute Greg Jericho 🟪⟦agreed⟧.
 "🟪⟦The Australian dollar⟧ is often viewed as a bit of a proxy for 🟪⟦the Chinese economy⟧ due to 🟨⟦our⟧ exports."
 🟪⟦A weak Australian dollar⟧ makes 🟪⟦imports⟧ more expensive, which can make things tough for household budgets.
 🟪⟦Jericho⟧ said 🟨⟦this⟧ most significantly affects petrol prices, which are entirely dependent on global markets.
-🟧⟦However⟧, ot🟨⟦he⟧r items can 🟧⟦also⟧ increase in cost, he said.
+🟧⟦However⟧, other items can 🟧⟦also⟧ increase in cost, 🟨⟦he⟧ said.
 "If the value of 🟪⟦the dollar⟧ falls from US 0.60, that would mean, for example, that the cost of buying a book that costs US 30.80 to A$33.33," he said.
 "So 🟪⟦a falling dollar⟧ will hurt 🟪⟦the cost of living⟧ of 🟪⟦households⟧ that consume a high level of 🟪⟦imports⟧, but it won't have an impact on things like fees and charges, rent and childcare."
 If you have an upcoming overseas trip, 🟪⟦a falling dollar⟧ could impact how far your money will go.

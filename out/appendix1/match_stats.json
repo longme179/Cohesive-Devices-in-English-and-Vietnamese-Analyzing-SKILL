@@ -1,0 +1,182 @@
+{
+  "P01": {
+    "rows": 39,
+    "en_total": 39,
+    "en_matched": 35,
+    "vi_total": 35,
+    "vi_matched": 32,
+    "en_dups": 0,
+    "vi_dups": 0
+  },
+  "P02": {
+    "rows": 46,
+    "en_total": 44,
+    "en_matched": 40,
+    "vi_total": 46,
+    "vi_matched": 42,
+    "en_dups": 0,
+    "vi_dups": 0
+  },
+  "P03": {
+    "rows": 46,
+    "en_total": 33,
+    "en_matched": 33,
+    "vi_total": 39,
+    "vi_matched": 39,
+    "en_dups": 0,
+    "vi_dups": 0
+  },
+  "P04": {
+    "rows": 42,
+    "en_total": 42,
+    "en_matched": 42,
+    "vi_total": 35,
+    "vi_matched": 35,
+    "en_dups": 0,
+    "vi_dups": 0
+  },
+  "P05": {
+    "rows": 64,
+    "en_total": 58,
+    "en_matched": 58,
+    "vi_total": 46,
+    "vi_matched": 39,
+    "en_dups": 0,
+    "vi_dups": 0
+  },
+  "P06": {
+    "rows": 30,
+    "en_total": 30,
+    "en_matched": 30,
+    "vi_total": 19,
+    "vi_matched": 19,
+    "en_dups": 0,
+    "vi_dups": 0
+  },
+  "P07": {
+    "rows": 33,
+    "en_total": 33,
+    "en_matched": 29,
+    "vi_total": 33,
+    "vi_matched": 28,
+    "en_dups": 0,
+    "vi_dups": 0
+  },
+  "P08": {
+    "rows": 30,
+    "en_total": 30,
+    "en_matched": 29,
+    "vi_total": 29,
+    "vi_matched": 28,
+    "en_dups": 0,
+    "vi_dups": 0
+  },
+  "P09": {
+    "rows": 39,
+    "en_total": 39,
+    "en_matched": 35,
+    "vi_total": 36,
+    "vi_matched": 32,
+    "en_dups": 0,
+    "vi_dups": 0
+  },
+  "P10": {
+    "rows": 41,
+    "en_total": 29,
+    "en_matched": 23,
+    "vi_total": 39,
+    "vi_matched": 22,
+    "en_dups": 1,
+    "vi_dups": 1
+  },
+  "P11": {
+    "rows": 42,
+    "en_total": 42,
+    "en_matched": 39,
+    "vi_total": 39,
+    "vi_matched": 36,
+    "en_dups": 0,
+    "vi_dups": 0
+  },
+  "P12": {
+    "rows": 1,
+    "en_total": 1,
+    "en_matched": 1,
+    "vi_total": 1,
+    "vi_matched": 1,
+    "en_dups": 0,
+    "vi_dups": 0
+  },
+  "P13": {
+    "rows": 11,
+    "en_total": 11,
+    "en_matched": 11,
+    "vi_total": 8,
+    "vi_matched": 8,
+    "en_dups": 0,
+    "vi_dups": 0
+  },
+  "P14": {
+    "rows": 9,
+    "en_total": 9,
+    "en_matched": 9,
+    "vi_total": 9,
+    "vi_matched": 9,
+    "en_dups": 0,
+    "vi_dups": 0
+  },
+  "P15": {
+    "rows": 22,
+    "en_total": 22,
+    "en_matched": 18,
+    "vi_total": 21,
+    "vi_matched": 17,
+    "en_dups": 0,
+    "vi_dups": 0
+  },
+  "P16": {
+    "rows": 12,
+    "en_total": 12,
+    "en_matched": 12,
+    "vi_total": 12,
+    "vi_matched": 12,
+    "en_dups": 0,
+    "vi_dups": 0
+  },
+  "P17": {
+    "rows": 19,
+    "en_total": 19,
+    "en_matched": 17,
+    "vi_total": 17,
+    "vi_matched": 17,
+    "en_dups": 0,
+    "vi_dups": 0
+  },
+  "P18": {
+    "rows": 12,
+    "en_total": 12,
+    "en_matched": 12,
+    "vi_total": 12,
+    "vi_matched": 11,
+    "en_dups": 0,
+    "vi_dups": 1
+  },
+  "P19": {
+    "rows": 14,
+    "en_total": 13,
+    "en_matched": 12,
+    "vi_total": 13,
+    "vi_matched": 12,
+    "en_dups": 0,
+    "vi_dups": 0
+  },
+  "P20": {
+    "rows": 35,
+    "en_total": 34,
+    "en_matched": 30,
+    "vi_total": 21,
+    "vi_matched": 21,
+    "en_dups": 0,
+    "vi_dups": 0
+  }
+}

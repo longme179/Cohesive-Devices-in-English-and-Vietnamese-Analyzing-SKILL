@@ -38,7 +38,7 @@ ST = [
  ('S013', 'We', 'R', 'personal', 'S012: We', 'high', None, None, 1),
  ('S013', 'as well', 'C', 'additive', 'S012: introduced BetStop', 'med', None, None, 1),
  ('S013', 'gambling', 'L', 'repetition', 'S011: problem gambling', 'high', None, 'sport gambling', 1),
- ('S013', 'he', 'R', 'personal', 'S011: Prime Minister Anthony Albanese', 'high', None, None, 1),
+ ('S013', 'he', 'R', 'personal', 'S011: Prime Minister Anthony Albanese', 'high', None, None, 2),
  # S014
  ('S014', 'Sportsbet', 'L', 'repetition', 'S010: Sportbet\u2019s', 'high', None, None, 1),
  ('S014', 'also', 'C', 'additive', 'S008: also donated to Labor', 'med', None, None, 1),
@@ -65,7 +65,7 @@ ST = [
  ('S019', 'the prime minister', 'L', 'repetition', 'S011: Prime Minister Anthony Albanese', 'high', None, 'case variant', 1),
  ('S019', 'gambling advertising', 'L', 'repetition', 'S017: gambling ads', 'high', None, None, 1),
  ('S019', 'Labor', 'L', 'repetition', 'S018: Labor', 'high', None, 'Labor-led', 1),
- ('S019', 'it', 'R', 'personal', 'S017: a bill to stop gambling ads', 'med', None, 'calling for it', 2),
+ ('S019', 'it', 'R', 'personal', 'S017: a bill to stop gambling ads', 'med', None, 'calling for it', 3),
  # S020
  ('S020', 'McIntosh', 'L', 'repetition', 'S018: she (S016 McIntosh)', 'high', None, 'subject reintroduction', 1),
  ('S020', 'gambling industry donations', 'L', 'repetition', 'S008: Wagering companies also donated', 'med', None, 'synonym gambling=wagering + donations', 1),
