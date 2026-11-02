@@ -1,0 +1,182 @@
+[
+ {
+  "pair": "P01",
+  "pages": "0-8",
+  "en_paras": 39,
+  "vi_paras": 35,
+  "en_chars": 6697,
+  "vi_chars": 5462,
+  "dropped": 6
+ },
+ {
+  "pair": "P02",
+  "pages": "9-14",
+  "en_paras": 40,
+  "vi_paras": 42,
+  "en_chars": 7210,
+  "vi_chars": 7900,
+  "dropped": 2
+ },
+ {
+  "pair": "P03",
+  "pages": "15-20",
+  "en_paras": 28,
+  "vi_paras": 35,
+  "en_chars": 5970,
+  "vi_chars": 5976,
+  "dropped": 25
+ },
+ {
+  "pair": "P04",
+  "pages": "21-24",
+  "en_paras": 39,
+  "vi_paras": 32,
+  "en_chars": 6060,
+  "vi_chars": 3713,
+  "dropped": 11
+ },
+ {
+  "pair": "P05",
+  "pages": "25-30",
+  "en_paras": 53,
+  "vi_paras": 41,
+  "en_chars": 6994,
+  "vi_chars": 5145,
+  "dropped": 28
+ },
+ {
+  "pair": "P06",
+  "pages": "31-34",
+  "en_paras": 27,
+  "vi_paras": 17,
+  "en_chars": 5895,
+  "vi_chars": 3765,
+  "dropped": 13
+ },
+ {
+  "pair": "P07",
+  "pages": "35-39",
+  "en_paras": 31,
+  "vi_paras": 31,
+  "en_chars": 5851,
+  "vi_chars": 7199,
+  "dropped": 2
+ },
+ {
+  "pair": "P08",
+  "pages": "40-42",
+  "en_paras": 28,
+  "vi_paras": 27,
+  "en_chars": 4478,
+  "vi_chars": 3473,
+  "dropped": 3
+ },
+ {
+  "pair": "P09",
+  "pages": "43-47",
+  "en_paras": 37,
+  "vi_paras": 33,
+  "en_chars": 6579,
+  "vi_chars": 6085,
+  "dropped": 7
+ },
+ {
+  "pair": "P10",
+  "pages": "48-51",
+  "en_paras": 27,
+  "vi_paras": 37,
+  "en_chars": 3505,
+  "vi_chars": 5329,
+  "dropped": 17
+ },
+ {
+  "pair": "P11",
+  "pages": "52-57",
+  "en_paras": 38,
+  "vi_paras": 35,
+  "en_chars": 7893,
+  "vi_chars": 8420,
+  "dropped": 7
+ },
+ {
+  "pair": "P12",
+  "pages": "58-58",
+  "en_paras": 2,
+  "vi_paras": 2,
+  "en_chars": 279,
+  "vi_chars": 254,
+  "dropped": 3
+ },
+ {
+  "pair": "P13",
+  "pages": "59-61",
+  "en_paras": 10,
+  "vi_paras": 7,
+  "en_chars": 1520,
+  "vi_chars": 1134,
+  "dropped": 9
+ },
+ {
+  "pair": "P14",
+  "pages": "62-64",
+  "en_paras": 8,
+  "vi_paras": 9,
+  "en_chars": 1748,
+  "vi_chars": 1924,
+  "dropped": 6
+ },
+ {
+  "pair": "P15",
+  "pages": "65-72",
+  "en_paras": 22,
+  "vi_paras": 16,
+  "en_chars": 4947,
+  "vi_chars": 4228,
+  "dropped": 13
+ },
+ {
+  "pair": "P16",
+  "pages": "73-74",
+  "en_paras": 12,
+  "vi_paras": 12,
+  "en_chars": 2639,
+  "vi_chars": 2552,
+  "dropped": 2
+ },
+ {
+  "pair": "P17",
+  "pages": "75-77",
+  "en_paras": 18,
+  "vi_paras": 16,
+  "en_chars": 2947,
+  "vi_chars": 3049,
+  "dropped": 4
+ },
+ {
+  "pair": "P18",
+  "pages": "78-80",
+  "en_paras": 11,
+  "vi_paras": 11,
+  "en_chars": 2887,
+  "vi_chars": 3473,
+  "dropped": 2
+ },
+ {
+  "pair": "P19",
+  "pages": "81-82",
+  "en_paras": 12,
+  "vi_paras": 12,
+  "en_chars": 2577,
+  "vi_chars": 2964,
+  "dropped": 4
+ },
+ {
+  "pair": "P20",
+  "pages": "83-88",
+  "en_paras": 32,
+  "vi_paras": 17,
+  "en_chars": 7522,
+  "vi_chars": 5820,
+  "dropped": 15
+ }
+]

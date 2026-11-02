@@ -1,0 +1,289 @@
+{
+ "paras": [
+  "There's growing pressure on the water",
+  "supply in cities around the world,",
+  "including Australia. One country has",
+  "embraced recycled wastewater, and",
+  "some says we should do the same.",
+  "Singapore is a small nation with a big water problem. The densely populated island city-state has few natural water resources and limited land for reservoirs, making it one of the most water-stressed places in the world.",
+  "But the country is also a global leader in the production of purified recycled water, which turns sewage water into drinking water. Professor Stuart Khan, head of the School of Civil Engineering at the University of Sydney, explains: \"Purified recycled water is the practice of taking water from wastewater treatment plants, treated sewage that would otherwise have been discharged to the environment.\"",
+  "\"But instead of discharging it to the environment, we take it through an advanced water treatment plant where it is purified to a very high degree so that it can be safely and reliably put back into drinking water supplies.\"",
+  "It's a system that's long been accepted by the people of Singapore. The country even makes beer from treated wastewater.",
+  "Khan says its success largely comes down to a well-executed education campaign.",
+  "\"Singapore took that community education aspect very, very seriously. They built a visitor centre at their first water recycling scheme back in 2003, more than 20 years ago now,\" he says.",
+  "\"They had a plan to bring every school child in Singapore through that visitor centre to learn about water recycling, to learn about the need for sustainable water use in Singapore.\"",
+  "Now efforts are underway in Sydney to educate the public on the prospect of using recycled wastewater.",
+  "The growing population and climate change are increasingly putting pressure on the water supply in cities around the world, including Australia.",
+  "Sydney relies on rainfall for around 85 per cent of its supply and the other 15 per cent comes from desalination — the process of removing salt and other minerals from water to create fresh water.",
+  "During the most recent drought from 2017 to 2020, dam levels in Sydney dropped by 50 per cent of their full capacity.",
+  "Sydney Water project manager James Harrington says: \"We're at a tipping point where we need to start looking at what is the future of our water supply … with our dams depleting quite quickly in drought.\"",
+  "Recycled purified water is being considered as a possible future solution. The process is being tried and tested at the Quakers Hill sewage plant in north-west Sydney and the public is being invited along for the journey.",
+  "Harrington says the Purified Recycled Water Discovery Centre, which opened at the end of 2023, has three main objectives. \"Firstly, to test the technology and prove how well it works in our scenario. Secondly, to allow stakeholders, community and customers to come in and understand what the technology is. And lastly, to give our operations team the opportunity to train and learn on a testing facility,\" he says.",
+  "\"We love having the public come out here and have the conversation with us about what the technology is, and all the work that goes into it to ensure that the water is safe and reliable.\"",
+  "Khan says proposals to implement purified recycled water have been politicised in the past.",
+  "In 2006, residents of Toowoomba, which was drought-stricken at the time, voted no in a referendum over whether the regional Queensland city should use recycled sewage for drinking water.",
+  "\"Toowoomba is an example of one that failed due to lack of public support [and] lack of being able to build an understanding and support for the project in the community,\" he says.",
+  "\"There are other examples in San Diego [in California] going back 20 years as well: There was a lack of support that led to a project not going ahead.",
+  "\"When you look at the differences between the projects that have been successful and those that haven't been successful, generating public support is a really important factor.\" Harrington says the use of purified recycled water is \"new to [Sydney], but it's by no means new to the world\".",
+  "Harrington says the use of purified recycled water is \"new to [Sydney], but it's by no means new to the world\".",
+  "There's been purified recycled water schemes operating since the 1960s. Currently, 35 cities (around the world) are already using this technology and about 60 more cities are looking into it right now. - James Harrington, Sydney Water project manager",
+  "Los Angeles, Barcelona, Cape Town and Perth are among the cities that have already adopted the process.",
+  "Unlike Sydney, the Western Australian capital does not have access to large dams, relying instead on groundwater, which Khan says has been slowly depleting over the past three decades.",
+  "\"WA has absolutely been leading the way out of necessity. So people in Perth, I think, have recognised that climate change really has very visibly affected their water security,\" he says.",
+  "\"Perth developed, over quite a long period of time, a scheme that they call the groundwater replenishment scheme. [It] involves taking water from a wastewater treatment plant … purifying that water through advanced water treatment processes, [including] reverse osmosis, ultraviolet disinfection, and then putting that water back down into the important aquifers.",
+  "\"And those aquifers now contain part of the water that occurs there naturally, but also the purified recycled water, and then that becomes their drinking water supply going into the future.\"",
+  "WA's water supplier, Water Corporation, has a goal to recycle 35 per cent of treated wastewater in the Perth metropolitan area by 2035.",
+  "Queensland has what's known as the Western Corridor Recycled Water Scheme, which was built in the south-east of the state in 2009 towards the end of the Millennium drought. It never fully got off the ground, Khan says, because of floods experienced in the Brisbane area over the ensuing years.",
+  "\"So it's largely been decommissioned, but it's sitting there as part of Brisbane's or south-east Queensland's future water supply strategy.\"",
+  "Khan says if it was used for drinking water as well as industrial use, it could add 80 gigalitres a year to supply. That's more than a quarter of the water used by south-east Queensland's 3.8 million residents.",
+  "\"There's a chart in their future water supply strategy that shows various triggers that get switched as storages in their dams start to drop.",
+  "\"When we get to about 40 per cent of the capacity of storage in Brisbane is when that purified recycled water scheme would start generating water gain back into Lake Wivenhoe (source of more than half of the region's drinking water) as part of Brisbane's drinking water supply.\""
+ ],
+ "sentences": [
+  {
+   "para": 0,
+   "text": "There's growing pressure on the water supply in cities around the world, including Australia.",
+   "id": "S001"
+  },
+  {
+   "para": 0,
+   "text": "One country has embraced recycled wastewater, and some says we should do the same.",
+   "id": "S002"
+  },
+  {
+   "para": 5,
+   "text": "Singapore is a small nation with a big water problem.",
+   "id": "S003"
+  },
+  {
+   "para": 5,
+   "text": "The densely populated island city-state has few natural water resources and limited land for reservoirs, making it one of the most water-stressed places in the world.",
+   "id": "S004"
+  },
+  {
+   "para": 6,
+   "text": "But the country is also a global leader in the production of purified recycled water, which turns sewage water into drinking water.",
+   "id": "S005"
+  },
+  {
+   "para": 6,
+   "text": "Professor Stuart Khan, head of the School of Civil Engineering at the University of Sydney, explains: \"Purified recycled water is the practice of taking water from wastewater treatment plants, treated sewage that would otherwise have been discharged to the environment.\"",
+   "id": "S006"
+  },
+  {
+   "para": 7,
+   "text": "\"But instead of discharging it to the environment, we take it through an advanced water treatment plant where it is purified to a very high degree so that it can be safely and reliably put back into drinking water supplies.\"",
+   "id": "S007"
+  },
+  {
+   "para": 8,
+   "text": "It's a system that's long been accepted by the people of Singapore.",
+   "id": "S008"
+  },
+  {
+   "para": 8,
+   "text": "The country even makes beer from treated wastewater.",
+   "id": "S009"
+  },
+  {
+   "para": 9,
+   "text": "Khan says its success largely comes down to a well-executed education campaign.",
+   "id": "S010"
+  },
+  {
+   "para": 10,
+   "text": "\"Singapore took that community education aspect very, very seriously.",
+   "id": "S011"
+  },
+  {
+   "para": 10,
+   "text": "They built a visitor centre at their first water recycling scheme back in 2003, more than 20 years ago now,\" he says.",
+   "id": "S012"
+  },
+  {
+   "para": 11,
+   "text": "\"They had a plan to bring every school child in Singapore through that visitor centre to learn about water recycling, to learn about the need for sustainable water use in Singapore.\"",
+   "id": "S013"
+  },
+  {
+   "para": 12,
+   "text": "Now efforts are underway in Sydney to educate the public on the prospect of using recycled wastewater.",
+   "id": "S014"
+  },
+  {
+   "para": 13,
+   "text": "The growing population and climate change are increasingly putting pressure on the water supply in cities around the world, including Australia.",
+   "id": "S015"
+  },
+  {
+   "para": 14,
+   "text": "Sydney relies on rainfall for around 85 per cent of its supply and the other 15 per cent comes from desalination — the process of removing salt and other minerals from water to create fresh water.",
+   "id": "S016"
+  },
+  {
+   "para": 15,
+   "text": "During the most recent drought from 2017 to 2020, dam levels in Sydney dropped by 50 per cent of their full capacity.",
+   "id": "S017"
+  },
+  {
+   "para": 16,
+   "text": "Sydney Water project manager James Harrington says: \"We're at a tipping point where we need to start looking at what is the future of our water supply … with our dams depleting quite quickly in drought.\"",
+   "id": "S018"
+  },
+  {
+   "para": 17,
+   "text": "Recycled purified water is being considered as a possible future solution.",
+   "id": "S019"
+  },
+  {
+   "para": 17,
+   "text": "The process is being tried and tested at the Quakers Hill sewage plant in north-west Sydney and the public is being invited along for the journey.",
+   "id": "S020"
+  },
+  {
+   "para": 18,
+   "text": "Harrington says the Purified Recycled Water Discovery Centre, which opened at the end of 2023, has three main objectives.",
+   "id": "S021"
+  },
+  {
+   "para": 18,
+   "text": "\"Firstly, to test the technology and prove how well it works in our scenario.",
+   "id": "S022"
+  },
+  {
+   "para": 18,
+   "text": "Secondly, to allow stakeholders, community and customers to come in and understand what the technology is.",
+   "id": "S023"
+  },
+  {
+   "para": 18,
+   "text": "And lastly, to give our operations team the opportunity to train and learn on a testing facility,\" he says.",
+   "id": "S024"
+  },
+  {
+   "para": 19,
+   "text": "\"We love having the public come out here and have the conversation with us about what the technology is, and all the work that goes into it to ensure that the water is safe and reliable.\"",
+   "id": "S025"
+  },
+  {
+   "para": 20,
+   "text": "Khan says proposals to implement purified recycled water have been politicised in the past.",
+   "id": "S026"
+  },
+  {
+   "para": 21,
+   "text": "In 2006, residents of Toowoomba, which was drought-stricken at the time, voted no in a referendum over whether the regional Queensland city should use recycled sewage for drinking water.",
+   "id": "S027"
+  },
+  {
+   "para": 22,
+   "text": "\"Toowoomba is an example of one that failed due to lack of public support [and] lack of being able to build an understanding and support for the project in the community,\" he says.",
+   "id": "S028"
+  },
+  {
+   "para": 23,
+   "text": "\"There are other examples in San Diego [in California] going back 20 years as well: There was a lack of support that led to a project not going ahead.",
+   "id": "S029"
+  },
+  {
+   "para": 24,
+   "text": "\"When you look at the differences between the projects that have been successful and those that haven't been successful, generating public support is a really important factor.\"",
+   "id": "S030"
+  },
+  {
+   "para": 24,
+   "text": "Harrington says the use of purified recycled water is \"new to [Sydney], but it's by no means new to the world\".",
+   "id": "S031"
+  },
+  {
+   "para": 25,
+   "text": "Harrington says the use of purified recycled water is \"new to [Sydney], but it's by no means new to the world\".",
+   "id": "S032"
+  },
+  {
+   "para": 26,
+   "text": "There's been purified recycled water schemes operating since the 1960s.",
+   "id": "S033"
+  },
+  {
+   "para": 26,
+   "text": "Currently, 35 cities (around the world) are already using this technology and about 60 more cities are looking into it right now.",
+   "id": "S034"
+  },
+  {
+   "para": 26,
+   "text": "- James Harrington, Sydney Water project manager Los Angeles, Barcelona, Cape Town and Perth are among the cities that have already adopted the process.",
+   "id": "S035"
+  },
+  {
+   "para": 28,
+   "text": "Unlike Sydney, the Western Australian capital does not have access to large dams, relying instead on groundwater, which Khan says has been slowly depleting over the past three decades.",
+   "id": "S036"
+  },
+  {
+   "para": 29,
+   "text": "\"WA has absolutely been leading the way out of necessity.",
+   "id": "S037"
+  },
+  {
+   "para": 29,
+   "text": "So people in Perth, I think, have recognised that climate change really has very visibly affected their water security,\" he says.",
+   "id": "S038"
+  },
+  {
+   "para": 30,
+   "text": "\"Perth developed, over quite a long period of time, a scheme that they call the groundwater replenishment scheme.",
+   "id": "S039"
+  },
+  {
+   "para": 30,
+   "text": "[It] involves taking water from a wastewater treatment plant … purifying that water through advanced water treatment processes, [including] reverse osmosis, ultraviolet disinfection, and then putting that water back down into the important aquifers.",
+   "id": "S040"
+  },
+  {
+   "para": 31,
+   "text": "\"And those aquifers now contain part of the water that occurs there naturally, but also the purified recycled water, and then that becomes their drinking water supply going into the future.\"",
+   "id": "S041"
+  },
+  {
+   "para": 32,
+   "text": "WA's water supplier, Water Corporation, has a goal to recycle 35 per cent of treated wastewater in the Perth metropolitan area by 2035.",
+   "id": "S042"
+  },
+  {
+   "para": 33,
+   "text": "Queensland has what's known as the Western Corridor Recycled Water Scheme, which was built in the south-east of the state in 2009 towards the end of the Millennium drought.",
+   "id": "S043"
+  },
+  {
+   "para": 33,
+   "text": "It never fully got off the ground, Khan says, because of floods experienced in the Brisbane area over the ensuing years.",
+   "id": "S044"
+  },
+  {
+   "para": 34,
+   "text": "\"So it's largely been decommissioned, but it's sitting there as part of Brisbane's or south-east Queensland's future water supply strategy.\"",
+   "id": "S045"
+  },
+  {
+   "para": 35,
+   "text": "Khan says if it was used for drinking water as well as industrial use, it could add 80 gigalitres a year to supply.",
+   "id": "S046"
+  },
+  {
+   "para": 35,
+   "text": "That's more than a quarter of the water used by south-east Queensland's 3.8 million residents.",
+   "id": "S047"
+  },
+  {
+   "para": 36,
+   "text": "\"There's a chart in their future water supply strategy that shows various triggers that get switched as storages in their dams start to drop.",
+   "id": "S048"
+  },
+  {
+   "para": 37,
+   "text": "\"When we get to about 40 per cent of the capacity of storage in Brisbane is when that purified recycled water scheme would start generating water gain back into Lake Wivenhoe (source of more than half of the region's drinking water) as part of Brisbane's drinking water supply.\"",
+   "id": "S049"
+  }
+ ]
+}

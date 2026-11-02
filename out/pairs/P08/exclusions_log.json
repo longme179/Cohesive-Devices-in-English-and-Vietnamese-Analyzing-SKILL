@@ -1,0 +1,40 @@
+{
+ "pair": "P08",
+ "titles": [
+  "Revealed: Australian suburbs with the biggest home price falls",
+  "Những khu vực có giá nhà giảm mạnh nhất tại Úc trong năm 2024"
+ ],
+ "extractor_dropped": [
+  {
+   "page": 40,
+   "kind": "above-table headline",
+   "text": "Revealed: Australian suburbs with the biggest home price falls"
+  },
+  {
+   "page": 40,
+   "kind": "above-table headline",
+   "text": "Những khu vực có giá nhà giảm mạnh nhất tại Úc trong năm 2024 | SBS Tiếng Việt"
+  },
+  {
+   "page": 41,
+   "kind": "none-cell",
+   "text": "none"
+  }
+ ],
+ "manual": [
+  {
+   "lang": "EN",
+   "idx": 0,
+   "action": "exclude",
+   "reason": "title row",
+   "text": "State-by-state: These are the suburbs where home prices have had the biggest falls"
+  },
+  {
+   "lang": "VI",
+   "idx": 0,
+   "action": "exclude",
+   "reason": "title row",
+   "text": "Những khu vực có giá nhà giảm mạnh nhất tại Úc trong năm 2024"
+  }
+ ]
+}

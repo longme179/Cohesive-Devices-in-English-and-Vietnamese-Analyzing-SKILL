@@ -1,0 +1,90 @@
+{
+ "pair": "P15",
+ "titles": [
+  "ICE arrests Palestinian activist Mahmoud Khalil",
+  "Mỹ bắt giữ nhà hoạt động Palestine ủng hộ biểu tình phản chiến"
+ ],
+ "extractor_dropped": [
+  {
+   "page": 65,
+   "kind": "above-table headline",
+   "text": "SL:"
+  },
+  {
+   "page": 65,
+   "kind": "above-table headline",
+   "text": "ICE arrests Palestinian activist Mahmoud Khalil | AP News"
+  },
+  {
+   "page": 65,
+   "kind": "above-table headline",
+   "text": "TL:"
+  },
+  {
+   "page": 65,
+   "kind": "above-table headline",
+   "text": "Nhà hoạt động Palestine hỗ trợ biểu tình tại Đại học Columbia bị các nhân viên di trú Mỹ"
+  },
+  {
+   "page": 65,
+   "kind": "above-table headline",
+   "text": "bắt giữ"
+  },
+  {
+   "page": 65,
+   "kind": "table-header",
+   "text": "Eng"
+  },
+  {
+   "page": 65,
+   "kind": "table-header",
+   "text": "Vie"
+  },
+  {
+   "page": 66,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 66,
+   "kind": "table-header",
+   "text": "vi"
+  },
+  {
+   "page": 67,
+   "kind": "table-header",
+   "text": "vi"
+  },
+  {
+   "page": 68,
+   "kind": "table-header",
+   "text": "vi"
+  },
+  {
+   "page": 69,
+   "kind": "table-header",
+   "text": "vi"
+  },
+  {
+   "page": 70,
+   "kind": "none-cell",
+   "text": "(?)"
+  }
+ ],
+ "manual": [
+  {
+   "lang": "EN",
+   "idx": 7,
+   "action": "exclude",
+   "reason": "footnote marker (1)",
+   "text": "(1)"
+  },
+  {
+   "lang": "VI",
+   "idx": 10,
+   "action": "exclude",
+   "reason": "footnote marker (1)",
+   "text": "(1)"
+  }
+ ]
+}

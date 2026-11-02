@@ -1,0 +1,200 @@
+{
+ "pair": "P05",
+ "titles": [
+  "Fast-tracked citizenship to anti-wage theft laws: What's changing in Australia from 1 January",
+  "Những thay đổi tại Úc từ ngày 1 tháng 1"
+ ],
+ "extractor_dropped": [
+  {
+   "page": 25,
+   "kind": "above-table headline",
+   "text": "Fast-tracked citizenship to anti-wage theft laws: What's changing in Australia from 1 Janu"
+  },
+  {
+   "page": 25,
+   "kind": "above-table headline",
+   "text": "Những thay đổi tác động đến người dân Úc có hiệu lực từ tháng 1/2025 | SBS Tiếng Việt"
+  },
+  {
+   "page": 25,
+   "kind": "table-header",
+   "text": "ENG"
+  },
+  {
+   "page": 25,
+   "kind": "table-header",
+   "text": "VIE"
+  },
+  {
+   "page": 25,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 25,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 25,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 25,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 26,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 27,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 27,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 27,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 27,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 27,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 27,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 27,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 27,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 28,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 28,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 28,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 28,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 28,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 29,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 29,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 29,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 29,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 29,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 30,
+   "kind": "none-cell",
+   "text": "none"
+  }
+ ],
+ "manual": [
+  {
+   "lang": "VI",
+   "idx": 0,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "Hình phạt cho việc bóc lột tiền lương"
+  },
+  {
+   "lang": "VI",
+   "idx": 5,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "ADF mở cửa cho công dân nước ngoài"
+  },
+  {
+   "lang": "VI",
+   "idx": 19,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "Cấm thu phí khi thanh toán bằng thẻ ghi nợ"
+  },
+  {
+   "lang": "VI",
+   "idx": 25,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "Đơn xin thị thực du học trong nước"
+  },
+  {
+   "lang": "VI",
+   "idx": 30,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "Tăng lương cho nhân viên chăm sóc người cao tuổi"
+  },
+  {
+   "lang": "VI",
+   "idx": 34,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "Thuế lưu trú ngắn hạn tại Victoria"
+  },
+  {
+   "lang": "VI",
+   "idx": 38,
+   "action": "strip_prefix",
+   "reason": "merged subheading/stray fragment",
+   "text": "Thuế đất được gia hạn tại Victoria"
+  }
+ ]
+}

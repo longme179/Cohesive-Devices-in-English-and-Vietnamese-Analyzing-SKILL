@@ -1,0 +1,117 @@
+{
+ "pair": "P11",
+ "titles": [
+  "How America hands power from one president to the next",
+  "Nước Mỹ trao quyền lực từ tổng thống này sang tổng thống kia ra sao?"
+ ],
+ "extractor_dropped": [
+  {
+   "page": 52,
+   "kind": "above-table headline",
+   "text": "How America hands power from one president to"
+  },
+  {
+   "page": 52,
+   "kind": "above-table headline",
+   "text": "the next"
+  },
+  {
+   "page": 52,
+   "kind": "above-table headline",
+   "text": "Nước Mỹ trao quyền lực từ tổng thống này sang"
+  },
+  {
+   "page": 52,
+   "kind": "above-table headline",
+   "text": "tổng thống kia ra sao?"
+  },
+  {
+   "page": 52,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 54,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 54,
+   "kind": "none-cell",
+   "text": "none"
+  }
+ ],
+ "manual": [
+  {
+   "lang": "EN",
+   "idx": 0,
+   "action": "exclude",
+   "reason": "title row",
+   "text": "How America hands power from one president to the next"
+  },
+  {
+   "lang": "EN",
+   "idx": 10,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "Tradition and law"
+  },
+  {
+   "lang": "EN",
+   "idx": 13,
+   "action": "strip_suffix",
+   "reason": "source defect: VI text inside EN cell",
+   "text": "Một số truyền thống phần lớn mang tính biểu"
+  },
+  {
+   "lang": "EN",
+   "idx": 25,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "Filling 4,000-plus jobs"
+  },
+  {
+   "lang": "EN",
+   "idx": 33,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "'Lame duck' period"
+  },
+  {
+   "lang": "VI",
+   "idx": 0,
+   "action": "exclude",
+   "reason": "title row",
+   "text": "Nước Mỹ trao quyền lực từ tổng thống này sang tổng thống kia ra sao?"
+  },
+  {
+   "lang": "VI",
+   "idx": 9,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "Truyền thống và luật pháp"
+  },
+  {
+   "lang": "VI",
+   "idx": 12,
+   "action": "replace",
+   "reason": "source defect: repair fragmented sentence",
+   "text": "tượng.",
+   "with": "Một số truyền thống phần lớn mang tính biểu tượng."
+  },
+  {
+   "lang": "VI",
+   "idx": 22,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "Lấp đầy hơn 4.000 việc làm"
+  },
+  {
+   "lang": "VI",
+   "idx": 30,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "Thời kỳ ‘vịt què’"
+  }
+ ]
+}

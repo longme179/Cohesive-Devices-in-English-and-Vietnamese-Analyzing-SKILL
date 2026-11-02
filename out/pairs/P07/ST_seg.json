@@ -1,0 +1,362 @@
+{
+ "paras": [
+  "This article explores how Aussie slang and idioms reflect national identity and challenge traditional ideas of what counts as “English”. From “larrikin” to “dinkum”, this is the tale of how Australians have made the English language their own.",
+  "Is Australian English really English? The unique way Australians communicate has led to many people, particularly new Australians, asking this question.",
+  "Who’s a “mate”? (in Australia, anyone can be).",
+  "“Crikey” (wow)! This is confusing. But it is definitely English.",
+  "English is not just a language - it is a collection of stories.",
+  "If we listen closely enough to English, we hear the clashing and clanging of Viking axes and swords. We hear the rowdy revelry of fancy French feasts. We hear a galloping American cowboy yell “hee-haw”.",
+  "The people who meet English leave traces of themselves in its words.",
+  "Rampaging Vikings gave English speakers a “scare” (originally a Viking word). “Fancy” French “nobles” gave us “cuisine” (all French words). American cowboys gave us “tall tales” - colourful stories too outlandish to be true. Like tall tales, new English words test the limits of what we are willing to accept as true. Australia and its words have stretched the credibility of English more than most.",
+  "US writer Mark Twain once wrote,",
+  "Australian history...does not read like history, but like the most beautiful lies. Mark Twain If Aussie words tell stories, those stories are told with a sly wink and smile.",
+  "Aussie ways of speaking are wrapped up in our history and our relationships.",
+  "One underlying theme in the Australian experience has been rejecting British formality and hierarchy. At first, the British mocked those born in the Australian colony. The British called them “currency” (a unit of money that had no value outside of the colony). The British called themselves “sterling” (a unit of money valuable throughout the British Empire).",
+  "But Aussies soon took pride in their status as “currency lads”. Over the next 100 years, this obsession with being informal was embedded in Australia. The word “afternoon”? Too long - Australians say “arvo”. The word “Australian”? - it’s “Aussie”.",
+  "Many British words got swept up into the Aussie experience. Where a word like “bloody” was a rude insult in Britain, it became so commonly used in Australia to describe things, both good and bad, that it became known as “the great Australian adjective”. In Britain, the “larrikin” was “a mischievous or frolicsome youth”. In Australia, the “larrikin” started off as an awful gang member, but soon evolved into a fun, likeable person who disregarded rules and authority. This embrace of the “larrikin” represents how Aussies love an underdog story. These stories - or yarns - have been key to the Aussie experience. We even tell yarns about our English words to give them a more Aussie feel.",
+  "“Dinkum”, meaning genuine, honest, or true, started off as British word meaning “hard work”. Not content with these British origins, Aussies made up a few yarns linking “dinkum” to the goldfields. One story links it to the Chinese goldminers - by some accounts deriving from a Cantonese phrase “ding kam” ( ) meaning “real gold”.",
+  "Another story attributes it to drinking practices among goldfields gamblers, who would agree to engage in “fair drinking”, or “fair dinkum”, as it was reputedly said in migrant-accented English. These goldfields stories are almost certainly not true - Aussie slang “dinkum” isn’t noted until the 1890s.",
+  "However, we’ve come to learn that sometimes that accuracy of a story is not that important. Sometimes the more stories about a word, accurate or not, the more likely it is to survive. And Aussie words and stories - even when they are humorous or improbable - are important to how we relate to one another.",
+  "Aussie relationships are forged - idealistically at least - through a sense of fairness, dry wit and colourful idioms. Aussies celebrate the “fair go”, which has evolved into a “fair crack of the whip”, “fair suck of the sav” or “fair shake of the sauce bottle” (if you ask former Prime Minister, Kevin Rudd).",
+  "These humorous idioms are important to the way Aussies interact. Aussies may not say directly that a person is being “silly” or “stupid”, but they might say that person is “a sanger short of a picnic” or “three Tim Tams short of a packet” (“sanger” is a classic Aussie shortening for sandwich; “Tim Tams” a classic Aussie product).",
+  "Is Australian English really English? Almost certainly. Australian English is defined by its past stories which are fun, fair and funny - but most of all, not British.",
+  "And, yet, Australian English is also defined by us - new Australians and old, and the way we relate to one another.",
+  "A few years ago, my young son spotted a “galah”. He asked, “Isn’t galah a way of saying stupid?” I laughed and said, “Yep”.",
+  "He asked, “Do Americans know that?”.",
+  "“Most of them wouldn’t”.",
+  "My 9-year-old smiled, “That’s the best thing about Australian words. They’re our words and other people don’t know them”. But he also added, “I think that bird should be called a ‘pink-atoo’. It looks like a pink ‘cockatoo’”.",
+  "I am not sure that “pink-atoo” will ever catch on. But Australia English - and its collection of stories - is bound to keep growing."
+ ],
+ "sentences": [
+  {
+   "para": 0,
+   "text": "This article explores how Aussie slang and idioms reflect national identity and challenge traditional ideas of what counts as “English”.",
+   "id": "S001"
+  },
+  {
+   "para": 0,
+   "text": "From “larrikin” to “dinkum”, this is the tale of how Australians have made the English language their own.",
+   "id": "S002"
+  },
+  {
+   "para": 1,
+   "text": "Is Australian English really English?",
+   "id": "S003"
+  },
+  {
+   "para": 1,
+   "text": "The unique way Australians communicate has led to many people, particularly new Australians, asking this question.",
+   "id": "S004"
+  },
+  {
+   "para": 2,
+   "text": "Who’s a “mate”?",
+   "id": "S005"
+  },
+  {
+   "para": 2,
+   "text": "(in Australia, anyone can be).",
+   "id": "S006"
+  },
+  {
+   "para": 3,
+   "text": "“Crikey” (wow)!",
+   "id": "S007"
+  },
+  {
+   "para": 3,
+   "text": "This is confusing.",
+   "id": "S008"
+  },
+  {
+   "para": 3,
+   "text": "But it is definitely English.",
+   "id": "S009"
+  },
+  {
+   "para": 4,
+   "text": "English is not just a language - it is a collection of stories.",
+   "id": "S010"
+  },
+  {
+   "para": 5,
+   "text": "If we listen closely enough to English, we hear the clashing and clanging of Viking axes and swords.",
+   "id": "S011"
+  },
+  {
+   "para": 5,
+   "text": "We hear the rowdy revelry of fancy French feasts.",
+   "id": "S012"
+  },
+  {
+   "para": 5,
+   "text": "We hear a galloping American cowboy yell “hee-haw”.",
+   "id": "S013"
+  },
+  {
+   "para": 6,
+   "text": "The people who meet English leave traces of themselves in its words.",
+   "id": "S014"
+  },
+  {
+   "para": 7,
+   "text": "Rampaging Vikings gave English speakers a “scare” (originally a Viking word).",
+   "id": "S015"
+  },
+  {
+   "para": 7,
+   "text": "“Fancy” French “nobles” gave us “cuisine” (all French words).",
+   "id": "S016"
+  },
+  {
+   "para": 7,
+   "text": "American cowboys gave us “tall tales” - colourful stories too outlandish to be true.",
+   "id": "S017"
+  },
+  {
+   "para": 7,
+   "text": "Like tall tales, new English words test the limits of what we are willing to accept as true.",
+   "id": "S018"
+  },
+  {
+   "para": 7,
+   "text": "Australia and its words have stretched the credibility of English more than most.",
+   "id": "S019"
+  },
+  {
+   "para": 8,
+   "text": "US writer Mark Twain once wrote, Australian history...does not read like history, but like the most beautiful lies.",
+   "id": "S020"
+  },
+  {
+   "para": 8,
+   "text": "Mark Twain If Aussie words tell stories, those stories are told with a sly wink and smile.",
+   "id": "S021"
+  },
+  {
+   "para": 10,
+   "text": "Aussie ways of speaking are wrapped up in our history and our relationships.",
+   "id": "S022"
+  },
+  {
+   "para": 11,
+   "text": "One underlying theme in the Australian experience has been rejecting British formality and hierarchy.",
+   "id": "S023"
+  },
+  {
+   "para": 11,
+   "text": "At first, the British mocked those born in the Australian colony.",
+   "id": "S024"
+  },
+  {
+   "para": 11,
+   "text": "The British called them “currency” (a unit of money that had no value outside of the colony).",
+   "id": "S025"
+  },
+  {
+   "para": 11,
+   "text": "The British called themselves “sterling” (a unit of money valuable throughout the British Empire).",
+   "id": "S026"
+  },
+  {
+   "para": 12,
+   "text": "But Aussies soon took pride in their status as “currency lads”.",
+   "id": "S027"
+  },
+  {
+   "para": 12,
+   "text": "Over the next 100 years, this obsession with being informal was embedded in Australia.",
+   "id": "S028"
+  },
+  {
+   "para": 12,
+   "text": "The word “afternoon”?",
+   "id": "S029"
+  },
+  {
+   "para": 12,
+   "text": "Too long - Australians say “arvo”.",
+   "id": "S030"
+  },
+  {
+   "para": 12,
+   "text": "The word “Australian”?",
+   "id": "S031"
+  },
+  {
+   "para": 12,
+   "text": "- it’s “Aussie”.",
+   "id": "S032"
+  },
+  {
+   "para": 13,
+   "text": "Many British words got swept up into the Aussie experience.",
+   "id": "S033"
+  },
+  {
+   "para": 13,
+   "text": "Where a word like “bloody” was a rude insult in Britain, it became so commonly used in Australia to describe things, both good and bad, that it became known as “the great Australian adjective”.",
+   "id": "S034"
+  },
+  {
+   "para": 13,
+   "text": "In Britain, the “larrikin” was “a mischievous or frolicsome youth”.",
+   "id": "S035"
+  },
+  {
+   "para": 13,
+   "text": "In Australia, the “larrikin” started off as an awful gang member, but soon evolved into a fun, likeable person who disregarded rules and authority.",
+   "id": "S036"
+  },
+  {
+   "para": 13,
+   "text": "This embrace of the “larrikin” represents how Aussies love an underdog story.",
+   "id": "S037"
+  },
+  {
+   "para": 13,
+   "text": "These stories - or yarns - have been key to the Aussie experience.",
+   "id": "S038"
+  },
+  {
+   "para": 13,
+   "text": "We even tell yarns about our English words to give them a more Aussie feel.",
+   "id": "S039"
+  },
+  {
+   "para": 14,
+   "text": "“Dinkum”, meaning genuine, honest, or true, started off as British word meaning “hard work”.",
+   "id": "S040"
+  },
+  {
+   "para": 14,
+   "text": "Not content with these British origins, Aussies made up a few yarns linking “dinkum” to the goldfields.",
+   "id": "S041"
+  },
+  {
+   "para": 14,
+   "text": "One story links it to the Chinese goldminers - by some accounts deriving from a Cantonese phrase “ding kam” ( ) meaning “real gold”.",
+   "id": "S042"
+  },
+  {
+   "para": 15,
+   "text": "Another story attributes it to drinking practices among goldfields gamblers, who would agree to engage in “fair drinking”, or “fair dinkum”, as it was reputedly said in migrant-accented English.",
+   "id": "S043"
+  },
+  {
+   "para": 15,
+   "text": "These goldfields stories are almost certainly not true - Aussie slang “dinkum” isn’t noted until the 1890s.",
+   "id": "S044"
+  },
+  {
+   "para": 16,
+   "text": "However, we’ve come to learn that sometimes that accuracy of a story is not that important.",
+   "id": "S045"
+  },
+  {
+   "para": 16,
+   "text": "Sometimes the more stories about a word, accurate or not, the more likely it is to survive.",
+   "id": "S046"
+  },
+  {
+   "para": 16,
+   "text": "And Aussie words and stories - even when they are humorous or improbable - are important to how we relate to one another.",
+   "id": "S047"
+  },
+  {
+   "para": 17,
+   "text": "Aussie relationships are forged - idealistically at least - through a sense of fairness, dry wit and colourful idioms.",
+   "id": "S048"
+  },
+  {
+   "para": 17,
+   "text": "Aussies celebrate the “fair go”, which has evolved into a “fair crack of the whip”, “fair suck of the sav” or “fair shake of the sauce bottle” (if you ask former Prime Minister, Kevin Rudd).",
+   "id": "S049"
+  },
+  {
+   "para": 18,
+   "text": "These humorous idioms are important to the way Aussies interact.",
+   "id": "S050"
+  },
+  {
+   "para": 18,
+   "text": "Aussies may not say directly that a person is being “silly” or “stupid”, but they might say that person is “a sanger short of a picnic” or “three Tim Tams short of a packet” (“sanger” is a classic Aussie shortening for sandwich; “Tim Tams” a classic Aussie product).",
+   "id": "S051"
+  },
+  {
+   "para": 19,
+   "text": "Is Australian English really English?",
+   "id": "S052"
+  },
+  {
+   "para": 19,
+   "text": "Almost certainly.",
+   "id": "S053"
+  },
+  {
+   "para": 19,
+   "text": "Australian English is defined by its past stories which are fun, fair and funny - but most of all, not British.",
+   "id": "S054"
+  },
+  {
+   "para": 20,
+   "text": "And, yet, Australian English is also defined by us - new Australians and old, and the way we relate to one another.",
+   "id": "S055"
+  },
+  {
+   "para": 21,
+   "text": "A few years ago, my young son spotted a “galah”.",
+   "id": "S056"
+  },
+  {
+   "para": 21,
+   "text": "He asked, “Isn’t galah a way of saying stupid?”",
+   "id": "S057"
+  },
+  {
+   "para": 21,
+   "text": "I laughed and said, “Yep”.",
+   "id": "S058"
+  },
+  {
+   "para": 22,
+   "text": "He asked, “Do Americans know that?”.",
+   "id": "S059"
+  },
+  {
+   "para": 23,
+   "text": "“Most of them wouldn’t”.",
+   "id": "S060"
+  },
+  {
+   "para": 24,
+   "text": "My 9-year-old smiled, “That’s the best thing about Australian words.",
+   "id": "S061"
+  },
+  {
+   "para": 24,
+   "text": "They’re our words and other people don’t know them”.",
+   "id": "S062"
+  },
+  {
+   "para": 24,
+   "text": "But he also added, “I think that bird should be called a ‘pink-atoo’.",
+   "id": "S063"
+  },
+  {
+   "para": 24,
+   "text": "It looks like a pink ‘cockatoo’”.",
+   "id": "S064"
+  },
+  {
+   "para": 25,
+   "text": "I am not sure that “pink-atoo” will ever catch on.",
+   "id": "S065"
+  },
+  {
+   "para": 25,
+   "text": "But Australia English - and its collection of stories - is bound to keep growing.",
+   "id": "S066"
+  }
+ ]
+}

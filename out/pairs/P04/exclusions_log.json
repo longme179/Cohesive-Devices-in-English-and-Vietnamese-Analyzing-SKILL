@@ -1,0 +1,65 @@
+{
+ "pair": "P04",
+ "titles": [
+  "'Major flow-on effects': Australia's sleep struggle — and how much you need",
+  "Ngủ bao nhiêu tiếng là đủ, và hậu quả của việc thiếu ngủ là gì?"
+ ],
+ "extractor_dropped": [
+  {
+   "page": 21,
+   "kind": "above-table headline",
+   "text": "'Major flow-on effects': Australia's sleep struggle — and how much you need"
+  },
+  {
+   "page": 21,
+   "kind": "above-table headline",
+   "text": "Ngủ bao nhiêu tiếng là đủ, và hậu quả của việc thiếu ngủ là gì? | SBS Tiếng Việt"
+  },
+  {
+   "page": 21,
+   "kind": "table-header",
+   "text": "ENG"
+  },
+  {
+   "page": 21,
+   "kind": "table-header",
+   "text": "VIE"
+  },
+  {
+   "page": 21,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 21,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 21,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 22,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 22,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 23,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 23,
+   "kind": "none-cell",
+   "text": "none"
+  }
+ ],
+ "manual": []
+}

@@ -1,0 +1,159 @@
+{
+ "pair": "P10",
+ "titles": [
+  "How the falling Aussie dollar could impact you",
+  "Đồng đô la Úc giảm giá có thể ảnh hưởng đến túi tiền của bạn"
+ ],
+ "extractor_dropped": [
+  {
+   "page": 48,
+   "kind": "above-table headline",
+   "text": "How the falling Aussie dollar could impact you"
+  },
+  {
+   "page": 48,
+   "kind": "above-table headline",
+   "text": "Đồng đô la Úc giảm giá có thể ảnh hưởng đến túi tiền của bạn ngay cả khi bạn không đi nước"
+  },
+  {
+   "page": 48,
+   "kind": "above-table headline",
+   "text": "ngoài | SBS Tiếng Việt"
+  },
+  {
+   "page": 48,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 49,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 49,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 49,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 50,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 50,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 50,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 50,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 50,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 50,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 50,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 50,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 50,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 51,
+   "kind": "none-cell",
+   "text": "none"
+  }
+ ],
+ "manual": [
+  {
+   "lang": "EN",
+   "idx": 0,
+   "action": "exclude",
+   "reason": "title row",
+   "text": "How the falling Aussie dollar could hit your hip pocket even if you're not going overseas"
+  },
+  {
+   "lang": "EN",
+   "idx": 7,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "Why has the Australian dollar dropped so much?"
+  },
+  {
+   "lang": "EN",
+   "idx": 15,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "How does a weak dollar affect the cost of living?"
+  },
+  {
+   "lang": "VI",
+   "idx": 0,
+   "action": "exclude",
+   "reason": "title row",
+   "text": "Đồng đô la Úc giảm giá có thể ảnh hưởng đến túi tiền của bạn ngay cả khi bạn không đi nước ngoài"
+  },
+  {
+   "lang": "VI",
+   "idx": 6,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "Tại sao đồng đô la Úc lại giảm mạnh như vậy?"
+  },
+  {
+   "lang": "VI",
+   "idx": 15,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "Đồng đô la yếu ảnh hưởng đến chi phí sinh hoạt như thế nào?"
+  },
+  {
+   "lang": "VI",
+   "idx": 20,
+   "action": "strip_prefix",
+   "reason": "merged subheading/stray fragment",
+   "text": "Một số biện pháp hỗ trợ chi phí sinh hoạt của chính phủ Úc"
+  },
+  {
+   "lang": "VI",
+   "idx": 29,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "Bây giờ có phải là thời điểm tốt để đổi tiền không?"
+  },
+  {
+   "lang": "VI",
+   "idx": 33,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "Dự đoán về đồng đô la Úc trong tương lai"
+  }
+ ]
+}

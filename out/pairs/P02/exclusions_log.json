@@ -1,0 +1,91 @@
+{
+ "pair": "P02",
+ "titles": [
+  "Australia is in a youth homelessness 'crisis'. These are the most affected areas",
+  "Úc đang đối mặt với một \"cuộc khủng hoảng\" vô gia cư ở giới trẻ"
+ ],
+ "extractor_dropped": [
+  {
+   "page": 9,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 13,
+   "kind": "none-cell",
+   "text": "none"
+  }
+ ],
+ "manual": [
+  {
+   "lang": "EN",
+   "idx": 0,
+   "action": "exclude",
+   "reason": "title row",
+   "text": "Australia is in a youth homelessness 'crisis'. These are the most affected areas"
+  },
+  {
+   "lang": "EN",
+   "idx": 15,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "What is behind the youth homelessness crisis?"
+  },
+  {
+   "lang": "EN",
+   "idx": 29,
+   "action": "strip_prefix",
+   "reason": "merged subheading/stray fragment",
+   "text": "'Absolutely nowhere to go'"
+  },
+  {
+   "lang": "EN",
+   "idx": 34,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "What is the government doing?"
+  },
+  {
+   "lang": "VI",
+   "idx": 0,
+   "action": "exclude",
+   "reason": "title row",
+   "text": "Úc đang đối mặt với một \"cuộc khủng hoảng\" vô gia cư ở giới trẻ"
+  },
+  {
+   "lang": "VI",
+   "idx": 12,
+   "action": "strip_prefix",
+   "reason": "merged subheading/stray fragment",
+   "text": "Khu vực Latrobe-Gippsland đứng đầu danh sách"
+  },
+  {
+   "lang": "VI",
+   "idx": 13,
+   "action": "strip_prefix",
+   "reason": "merged subheading/stray fragment",
+   "text": "Các khu vực"
+  },
+  {
+   "lang": "VI",
+   "idx": 16,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "Nguyên nhân đằng sau cuộc khủng hoảng vô gia cư ở thanh niên"
+  },
+  {
+   "lang": "VI",
+   "idx": 30,
+   "action": "strip_prefix",
+   "reason": "merged subheading/stray fragment",
+   "text": "‘Không còn nơi nào để đi’"
+  },
+  {
+   "lang": "VI",
+   "idx": 35,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "Chính phủ đang làm gì?"
+  }
+ ]
+}

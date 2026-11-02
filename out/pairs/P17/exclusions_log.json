@@ -1,0 +1,59 @@
+{
+ "pair": "P17",
+ "titles": [
+  "Southeast Asia's Rubber Farmers Hope for Rebound",
+  "Nông gia trồng cao su hy vọng phục hồi trở lại"
+ ],
+ "extractor_dropped": [
+  {
+   "page": 75,
+   "kind": "above-table headline",
+   "text": "Southeast Asia's Rubber Farmers Hope for Rebound"
+  },
+  {
+   "page": 75,
+   "kind": "above-table headline",
+   "text": "Nông gia trồng cao su hy vọng phục hồi trở lại"
+  },
+  {
+   "page": 75,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 76,
+   "kind": "none-cell",
+   "text": "none"
+  }
+ ],
+ "manual": [
+  {
+   "lang": "EN",
+   "idx": 0,
+   "action": "exclude",
+   "reason": "title row",
+   "text": "Southeast Asia's Rubber Farmers Hope for Rebound"
+  },
+  {
+   "lang": "EN",
+   "idx": 6,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "Supply and demand"
+  },
+  {
+   "lang": "EN",
+   "idx": 13,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "Helping farmers"
+  },
+  {
+   "lang": "VI",
+   "idx": 0,
+   "action": "exclude",
+   "reason": "title row",
+   "text": "Nông gia trồng cao su hy vọng phục hồi trở lại"
+  }
+ ]
+}

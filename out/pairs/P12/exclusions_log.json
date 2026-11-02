@@ -1,0 +1,40 @@
+{
+ "pair": "P12",
+ "titles": [
+  "RFK Jr. endorses Donald Trump",
+  "Ứng cử viên tổng thống độc lập ủng hộ Donald Trump"
+ ],
+ "extractor_dropped": [
+  {
+   "page": 58,
+   "kind": "above-table headline",
+   "text": "RFK Jr. endorses Donald Trump"
+  },
+  {
+   "page": 58,
+   "kind": "above-table headline",
+   "text": "Ứng cử viên tổng thống độc lập ủng hộ Donald"
+  },
+  {
+   "page": 58,
+   "kind": "above-table headline",
+   "text": "Trump"
+  }
+ ],
+ "manual": [
+  {
+   "lang": "EN",
+   "idx": 0,
+   "action": "exclude",
+   "reason": "title row",
+   "text": "RFK Jr. endorses Donald Trump"
+  },
+  {
+   "lang": "VI",
+   "idx": 0,
+   "action": "exclude",
+   "reason": "title row",
+   "text": "Ứng cử viên tổng thống độc lập ủng hộ Donald Trump"
+  }
+ ]
+}

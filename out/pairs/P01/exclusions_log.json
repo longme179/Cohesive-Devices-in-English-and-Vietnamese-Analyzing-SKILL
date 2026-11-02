@@ -1,0 +1,48 @@
+{
+ "pair": "P01",
+ "titles": [
+  "Beer made from recycled wastewater? Some want to see it on Australian bottle-o shelves",
+  "Bia làm từ nước thải tái chế: Bạn có dám thử?"
+ ],
+ "extractor_dropped": [
+  {
+   "page": 0,
+   "kind": "url",
+   "text": "https://www.sbs.com.au/news/article/beer-m"
+  },
+  {
+   "page": 0,
+   "kind": "url",
+   "text": "https://www.sbs.com.au/language/vietname"
+  },
+  {
+   "page": 5,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 7,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 8,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 8,
+   "kind": "none-cell",
+   "text": "none"
+  }
+ ],
+ "manual": [
+  {
+   "lang": "EN",
+   "idx": 17,
+   "action": "exclude",
+   "reason": "pull-quote attribution (caption)",
+   "text": "James Harrington, Sydney Water project manager"
+  }
+ ]
+}

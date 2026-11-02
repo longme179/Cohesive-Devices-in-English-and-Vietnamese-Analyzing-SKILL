@@ -1,0 +1,45 @@
+{
+ "pair": "P19",
+ "titles": [
+  "Trans-Pacific Air Passengers to Divy Up $40M in Price-fixing Settlement",
+  "Hành khách sẽ chia tiền thắng kiện vụ ‘lũng đoạn giá vé’ máy bay"
+ ],
+ "extractor_dropped": [
+  {
+   "page": 81,
+   "kind": "above-table headline",
+   "text": "Trans-Pacific Air Passengers to Divvy Up $40M in Price-fixing Settlement"
+  },
+  {
+   "page": 81,
+   "kind": "above-table headline",
+   "text": "Hành khách sẽ chia tiền thắng kiện vụ 'lũng đoạn giá vé' máy bay"
+  },
+  {
+   "page": 81,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 82,
+   "kind": "none-cell",
+   "text": "none"
+  }
+ ],
+ "manual": [
+  {
+   "lang": "EN",
+   "idx": 0,
+   "action": "exclude",
+   "reason": "title row",
+   "text": "Trans-Pacific Air Passengers to Divvy Up $40M in Price-fixing Settlement"
+  },
+  {
+   "lang": "VI",
+   "idx": 0,
+   "action": "exclude",
+   "reason": "title row",
+   "text": "Hành khách sẽ chia tiền thắng kiện vụ 'lũng đoạn giá vé' máy bay"
+  }
+ ]
+}

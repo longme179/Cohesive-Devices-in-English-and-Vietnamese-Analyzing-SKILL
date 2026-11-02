@@ -1,0 +1,27 @@
+{
+ "en": [
+  "RFK Jr. endorses Donald Trump",
+  "Robert F. Kennedy Jr. announced his endorsement of former President Donald Trump, the Republican presidential nominee, on Friday. VOA's Carolyn Presutti reports from Glendale, Arizona, where the two politicians campaigned together for the first time."
+ ],
+ "vi": [
+  "Ứng cử viên tổng thống độc lập ủng hộ Donald Trump",
+  "Cựu Tổng thống Mỹ Donald Trump có thể sẽ thu hút được phiếu bầu của một nhóm cử tri ủng hộ một ứng viên khác. Robert F. Kennedy Jr. mới đây tuyên bố ủng hộ Trump, ứng cử viên tổng thống của Đảng Cộng hòa."
+ ],
+ "dropped": [
+  {
+   "page": 58,
+   "kind": "above-table headline",
+   "text": "RFK Jr. endorses Donald Trump"
+  },
+  {
+   "page": 58,
+   "kind": "above-table headline",
+   "text": "Ứng cử viên tổng thống độc lập ủng hộ Donald"
+  },
+  {
+   "page": 58,
+   "kind": "above-table headline",
+   "text": "Trump"
+  }
+ ]
+}

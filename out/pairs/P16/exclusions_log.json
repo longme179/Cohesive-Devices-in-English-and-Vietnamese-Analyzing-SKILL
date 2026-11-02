@@ -1,0 +1,35 @@
+{
+ "pair": "P16",
+ "titles": [
+  "Tanking Ruble Hits Russian Tourists, Thai Hotels",
+  "Đồng rúp tuột giá tác động đến du khách Nga và khách sạn Thái Lan"
+ ],
+ "extractor_dropped": [
+  {
+   "page": 73,
+   "kind": "above-table headline",
+   "text": "Tanking Ruble Hits Russian Tourists, Thai Hotels"
+  },
+  {
+   "page": 73,
+   "kind": "above-table headline",
+   "text": "Đồng rúp tuột giá tác động đến du khách Nga và khách sạn Thái Lan"
+  }
+ ],
+ "manual": [
+  {
+   "lang": "EN",
+   "idx": 0,
+   "action": "exclude",
+   "reason": "title row (merged EN+VI title)",
+   "text": "Tanking Ruble Hits Russian Tourists, Thai Hotels Đồng rúp tuột giá tác động đến du khách Nga và"
+  },
+  {
+   "lang": "VI",
+   "idx": 0,
+   "action": "exclude",
+   "reason": "title row (VI title continuation)",
+   "text": "khách sạn Thái Lan"
+  }
+ ]
+}

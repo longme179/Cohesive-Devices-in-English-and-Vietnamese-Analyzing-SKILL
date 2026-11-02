@@ -1,0 +1,40 @@
+{
+ "pair": "P14",
+ "titles": [
+  "Trump administration launches new 'self-deportation' app",
+  "Chính quyền Trump ra mắt ứng dụng ‘tự động trục xuất’"
+ ],
+ "extractor_dropped": [
+  {
+   "page": 62,
+   "kind": "above-table headline",
+   "text": "SL:"
+  },
+  {
+   "page": 62,
+   "kind": "above-table headline",
+   "text": "Trump administration launches new 'self-deportation' app | Reuters"
+  },
+  {
+   "page": 62,
+   "kind": "above-table headline",
+   "text": "TL:"
+  },
+  {
+   "page": 62,
+   "kind": "above-table headline",
+   "text": "Chính quyền Trump ra mắt ứng dụng ‘tự động trục xuất’"
+  },
+  {
+   "page": 62,
+   "kind": "table-header",
+   "text": "Eng"
+  },
+  {
+   "page": 62,
+   "kind": "table-header",
+   "text": "Vie"
+  }
+ ],
+ "manual": []
+}

@@ -1,0 +1,135 @@
+{
+ "pair": "P03",
+ "titles": [
+  "Who are the biggest donors to Australia's political parties?",
+  "Từ tỷ phú đến các công ty cá cược: Danh sách những nhà tài trợ lớn nhất cho các đảng chính trị được tiết lộ"
+ ],
+ "extractor_dropped": [
+  {
+   "page": 15,
+   "kind": "above-table headline",
+   "text": "Who are the biggest donors to Australia's political parties?"
+  },
+  {
+   "page": 15,
+   "kind": "above-table headline",
+   "text": "Từ tỷ phú đến các công ty cá cược: Danh sách những nhà tài trợ lớn nhất cho các đảng"
+  },
+  {
+   "page": 15,
+   "kind": "above-table headline",
+   "text": "chính trị được tiết lộ | SBS Tiếng Việt"
+  },
+  {
+   "page": 15,
+   "kind": "table-header",
+   "text": "en"
+  },
+  {
+   "page": 15,
+   "kind": "table-header",
+   "text": "vi"
+  },
+  {
+   "page": 15,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 15,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 16,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 16,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 17,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 17,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 17,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 17,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 17,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 17,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 18,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 18,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 18,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 18,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 19,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 19,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 19,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 19,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 19,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 20,
+   "kind": "none-cell",
+   "text": "none"
+  }
+ ],
+ "manual": []
+}

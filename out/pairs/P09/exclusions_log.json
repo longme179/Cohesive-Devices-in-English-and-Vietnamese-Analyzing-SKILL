@@ -1,0 +1,116 @@
+{
+ "pair": "P09",
+ "titles": [
+  "Bulk billing rates across Australia — and where you're most likely to find a fee-free GP",
+  "Nơi nào ở Úc có chi phí khám bác sĩ gia đình thấp, được Medicare thanh toán nhiều hơn?"
+ ],
+ "extractor_dropped": [
+  {
+   "page": 43,
+   "kind": "above-table headline",
+   "text": "Bulk billing rates across Australia — and where you're most likely to find a fee-free GP |"
+  },
+  {
+   "page": 43,
+   "kind": "above-table headline",
+   "text": "SBS News"
+  },
+  {
+   "page": 43,
+   "kind": "above-table headline",
+   "text": "Nơi nào ở Úc có chi phí khám bác sĩ gia đình thấp, được Medicare thanh toán nhiều hơn? |"
+  },
+  {
+   "page": 43,
+   "kind": "above-table headline",
+   "text": "SBS Tiếng Việt"
+  },
+  {
+   "page": 46,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 47,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 47,
+   "kind": "none-cell",
+   "text": "none"
+  }
+ ],
+ "manual": [
+  {
+   "lang": "EN",
+   "idx": 0,
+   "action": "exclude",
+   "reason": "title row",
+   "text": "Bulk billing rates across Australia — and where you're most likely to find a fee-free GP"
+  },
+  {
+   "lang": "EN",
+   "idx": 10,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "Government says bulk billing rates rising"
+  },
+  {
+   "lang": "EN",
+   "idx": 16,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "Paying more out-of-pocket"
+  },
+  {
+   "lang": "EN",
+   "idx": 24,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "Bulk billing incentives"
+  },
+  {
+   "lang": "EN",
+   "idx": 27,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "GPs call for rebate increase"
+  },
+  {
+   "lang": "VI",
+   "idx": 0,
+   "action": "exclude",
+   "reason": "title row",
+   "text": "Nơi nào ở Úc có chi phí khám bác sĩ gia đình thấp, được Medicare thanh toán nhiều hơn?"
+  },
+  {
+   "lang": "VI",
+   "idx": 10,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "Chính phủ cho biết tỷ lệ thanh toán bulk-billing tăng"
+  },
+  {
+   "lang": "VI",
+   "idx": 16,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "Trả nhiều tiền hơn"
+  },
+  {
+   "lang": "VI",
+   "idx": 24,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "Ưu đãi thanh toán hoàn toàn"
+  },
+  {
+   "lang": "VI",
+   "idx": 27,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "Các bác sĩ yêu cầu chính phủ tăng trợ giá"
+  }
+ ]
+}

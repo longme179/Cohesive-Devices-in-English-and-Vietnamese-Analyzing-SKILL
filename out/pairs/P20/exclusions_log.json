@@ -1,0 +1,128 @@
+{
+ "pair": "P20",
+ "titles": [
+  "EU Rolls Out Trade Bans in Global Crackdown on Illegal Fishing",
+  "EU xúc tiến việc cấm buôn bán hải sản đánh bắt bất hợp pháp"
+ ],
+ "extractor_dropped": [
+  {
+   "page": 83,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 84,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 84,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 84,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 84,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 86,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 86,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 86,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 86,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 86,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 87,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 87,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 87,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 87,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 87,
+   "kind": "none-cell",
+   "text": "none"
+  }
+ ],
+ "manual": [
+  {
+   "lang": "EN",
+   "idx": 0,
+   "action": "exclude",
+   "reason": "title row",
+   "text": "EU Rolls Out Trade Bans in Global Crackdown on Illegal Fishing"
+  },
+  {
+   "lang": "EN",
+   "idx": 6,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "EU Aims for Public Shaming in Crackdown on Illegal Fishing"
+  },
+  {
+   "lang": "EN",
+   "idx": 10,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "Illegal Foreign Catches Still Enter US Seafood Market"
+  },
+  {
+   "lang": "EN",
+   "idx": 16,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "Campaign Against Illegal Catches Finds Industry Allies"
+  },
+  {
+   "lang": "EN",
+   "idx": 24,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "Chinese Regulators Expected to Determine Global Approach"
+  },
+  {
+   "lang": "VI",
+   "idx": 0,
+   "action": "exclude",
+   "reason": "title row",
+   "text": "EU xúc tiến việc cấm buôn bán hải sản đánh bắt bất hợp pháp"
+  }
+ ]
+}

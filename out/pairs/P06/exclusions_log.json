@@ -1,0 +1,75 @@
+{
+ "pair": "P06",
+ "titles": [
+  "Visa rules, airfares and hot trends: How travel is changing in 2025",
+  "Những thay đổi về du lịch trong năm 2025"
+ ],
+ "extractor_dropped": [
+  {
+   "page": 31,
+   "kind": "above-table headline",
+   "text": "Visa rules, airfares and hot trends: How travel is changing in 2025 | SBS News"
+  },
+  {
+   "page": 31,
+   "kind": "above-table headline",
+   "text": "Những thay đổi về du lịch trong năm 2025 | SBS Tiếng Việt"
+  },
+  {
+   "page": 33,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 33,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 33,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 33,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 34,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 34,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 34,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 34,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 34,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 34,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 34,
+   "kind": "none-cell",
+   "text": "none"
+  }
+ ],
+ "manual": []
+}

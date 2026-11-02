@@ -1,0 +1,119 @@
+{
+ "pair": "P07",
+ "titles": [
+  "Is Australian English different from English?",
+  "Tiếng Anh Úc có khác với tiếng Anh không?"
+ ],
+ "extractor_dropped": [
+  {
+   "page": 35,
+   "kind": "above-table headline",
+   "text": "Is Australian English different from English? | SBS"
+  },
+  {
+   "page": 35,
+   "kind": "above-table headline",
+   "text": "Tiếng Anh Úc có khác với tiếng Anh không? | SBS Tiếng Việt"
+  }
+ ],
+ "manual": [
+  {
+   "lang": "EN",
+   "idx": 0,
+   "action": "exclude",
+   "reason": "title row",
+   "text": "Is Australian English different from English?"
+  },
+  {
+   "lang": "EN",
+   "idx": 3,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "What is “grouse”? (it means very good)"
+  },
+  {
+   "lang": "EN",
+   "idx": 6,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "The limits of “English” and its stories"
+  },
+  {
+   "lang": "EN",
+   "idx": 13,
+   "action": "strip_prefix",
+   "reason": "merged subheading/stray fragment",
+   "text": "Embracing and creating Australia’s English stories"
+  },
+  {
+   "lang": "EN",
+   "idx": 22,
+   "action": "strip_prefix",
+   "reason": "merged subheading/stray fragment",
+   "text": "The future of Australian English"
+  },
+  {
+   "lang": "EN",
+   "idx": 29,
+   "action": "exclude",
+   "reason": "series credit note",
+   "text": "(Weird and Wonderful Aussie English is a 5-part video series exploring the history, meaning, and evolution of Australian"
+  },
+  {
+   "lang": "EN",
+   "idx": 30,
+   "action": "exclude",
+   "reason": "author bio (byline)",
+   "text": "Dr Howie Manns is linguist who studies what happens when people who do not share the same language and culture come into"
+  },
+  {
+   "lang": "VI",
+   "idx": 0,
+   "action": "exclude",
+   "reason": "title row",
+   "text": "Tiếng Anh Úc có khác với tiếng Anh không?"
+  },
+  {
+   "lang": "VI",
+   "idx": 3,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "\"Grouse\" là gì? (nghĩa là rất tốt)"
+  },
+  {
+   "lang": "VI",
+   "idx": 6,
+   "action": "exclude",
+   "reason": "subheading",
+   "text": "Những hạn chế của tiếng Anh và các câu chuyện"
+  },
+  {
+   "lang": "VI",
+   "idx": 13,
+   "action": "strip_prefix",
+   "reason": "merged subheading/stray fragment",
+   "text": "Nắm bắt và tạo ra những câu chuyện tiếng Anh của Úc"
+  },
+  {
+   "lang": "VI",
+   "idx": 22,
+   "action": "strip_prefix",
+   "reason": "merged subheading/stray fragment",
+   "text": "Tương lai của tiếng Anh Úc"
+  },
+  {
+   "lang": "VI",
+   "idx": 29,
+   "action": "exclude",
+   "reason": "series credit note",
+   "text": "Tiếng Anh Úc Độc lạ và Thú vị là loạt phim gồm 5 phần khám phá lịch sử, ý nghĩa và sự phát triển của tiếng lóng Úc, do T"
+  },
+  {
+   "lang": "VI",
+   "idx": 30,
+   "action": "exclude",
+   "reason": "author bio (byline)",
+   "text": "Tiến sĩ Howie Manns là nhà ngôn ngữ học chuyên nghiên cứu những gì xảy ra khi những người không nói cùng ngôn ngữ và văn"
+  }
+ ]
+}

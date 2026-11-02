@@ -1,0 +1,55 @@
+{
+ "pair": "P13",
+ "titles": [
+  "Seoul working for pope visit to N.Korea, Vatican agency says",
+  "Hàn Quốc tìm cách thu xếp cho chuyến thăm của Giáo hoàng"
+ ],
+ "extractor_dropped": [
+  {
+   "page": 59,
+   "kind": "above-table headline",
+   "text": "SL:"
+  },
+  {
+   "page": 59,
+   "kind": "above-table headline",
+   "text": "Seoul working for pope visit to N.Korea, Vatican agency says | Reuters"
+  },
+  {
+   "page": 59,
+   "kind": "above-table headline",
+   "text": "TL:"
+  },
+  {
+   "page": 59,
+   "kind": "above-table headline",
+   "text": "Hàn Quốc tìm cách thu xếp cho chuyến thăm của Giáo hoàng tới Triều Tiên"
+  },
+  {
+   "page": 59,
+   "kind": "table-header",
+   "text": "Eng"
+  },
+  {
+   "page": 59,
+   "kind": "table-header",
+   "text": "Vie"
+  },
+  {
+   "page": 61,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 61,
+   "kind": "none-cell",
+   "text": "none"
+  },
+  {
+   "page": 61,
+   "kind": "none-cell",
+   "text": "none"
+  }
+ ],
+ "manual": []
+}
