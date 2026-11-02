@@ -43,11 +43,17 @@ def _mk():
             A.append((st_id, f'P07-VI-{spec[0]:03d}', spec[1], spec[2], spec[3]))
             continue
         A.append((st_id, f'P07-VI-{tt_n:03d}', 'kept', None, None))
-    # EN ties never mapped -> omitted
-    mapped = {p[0] for p in pairs} | set(specials)
-    for st_n in range(1, 122):
-        if st_n not in mapped:
-            A.append((f'P07-EN-{st_n:03d}', None, 'omitted', 'L>zero', 'no TT counterpart'))
+    # specials not covered by the pairs loop -> append their rows directly
+    in_pairs = {p[0] for p in pairs}
+    for st_n, spec in specials.items():
+        if st_n in in_pairs:
+            continue
+        st_id = f'P07-EN-{st_n:03d}'
+        if spec[0] is None:
+            A.append((st_id, None, spec[1], spec[2], spec[3]))
+        else:
+            A.append((st_id, f'P07-VI-{spec[0]:03d}', spec[1], spec[2], spec[3]))
+    A.sort(key=lambda r: r[0])
     return A
 
 A = _mk()

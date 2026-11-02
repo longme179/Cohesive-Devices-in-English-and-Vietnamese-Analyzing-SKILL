@@ -23,6 +23,20 @@
    "note": null
   },
   {
+   "st_tie": "P07-EN-004",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "E>zero",
+   "note": "TT renders the fragment as a full question (Mate là ai?), no ellipsis"
+  },
+  {
+   "st_tie": "P07-EN-005",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "This is confusing -> Đúng là khó hiểu thật (no demonstrative in TT)"
+  },
+  {
    "st_tie": "P07-EN-006",
    "tt_tie": "P07-VI-005",
    "outcome": "kept",
@@ -163,6 +177,13 @@
    "note": null
   },
   {
+   "st_tie": "P07-EN-026",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "merged in TT marking (tiếng Anh Úc covers words + English)"
+  },
+  {
    "st_tie": "P07-EN-027",
    "tt_tie": "P07-VI-026",
    "outcome": "kept",
@@ -182,6 +203,13 @@
    "outcome": "kept",
    "shift": null,
    "note": null
+  },
+  {
+   "st_tie": "P07-EN-030",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "TT drops possessive (Cách nói chuyện của người Úc gắn liền với lịch sử)"
   },
   {
    "st_tie": "P07-EN-031",
@@ -464,6 +492,13 @@
    "note": null
   },
   {
+   "st_tie": "P07-EN-070",
+   "tt_tie": "P07-VI-069",
+   "outcome": "shifted",
+   "shift": "R>L",
+   "note": "it -> từ này (pronoun becomes demonstrative NP)"
+  },
+  {
    "st_tie": "P07-EN-071",
    "tt_tie": "P07-VI-070",
    "outcome": "kept",
@@ -476,6 +511,13 @@
    "outcome": "kept",
    "shift": null,
    "note": null
+  },
+  {
+   "st_tie": "P07-EN-073",
+   "tt_tie": "P07-VI-072",
+   "outcome": "shifted",
+   "shift": "R>L",
+   "note": "it -> từ này (pronoun becomes demonstrative NP)"
   },
   {
    "st_tie": "P07-EN-074",
@@ -597,6 +639,13 @@
    "note": null
   },
   {
+   "st_tie": "P07-EN-091",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "merged in TT marking (Những thành ngữ hài hước này covers These + idioms)"
+  },
+  {
    "st_tie": "P07-EN-092",
    "tt_tie": "P07-VI-090",
    "outcome": "kept",
@@ -644,6 +693,13 @@
    "outcome": "kept",
    "shift": null,
    "note": null
+  },
+  {
+   "st_tie": "P07-EN-099",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "merged in TT marking (kiểu cách Anh overlapped, removed)"
   },
   {
    "st_tie": "P07-EN-100",
@@ -812,20 +868,6 @@
    "outcome": "added",
    "shift": null,
    "note": "TT ngôn ngữ này (general word + demonstrative) where EN its words is unmarked"
-  },
-  {
-   "st_tie": null,
-   "tt_tie": "P07-VI-069",
-   "outcome": "added",
-   "shift": null,
-   "note": "no ST counterpart"
-  },
-  {
-   "st_tie": null,
-   "tt_tie": "P07-VI-072",
-   "outcome": "added",
-   "shift": null,
-   "note": "no ST counterpart"
   },
   {
    "st_tie": null,

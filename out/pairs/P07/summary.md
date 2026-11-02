@@ -10,11 +10,13 @@
 | ST | 66 | 31 | 0 | 1 | 5 | 84 | 121 | 27 |
 | TT | 66 | 27 | 0 | 0 | 6 | 86 | 119 | 30 |
 
-Alignment: kept 114, shifted 0,
-omitted 0, added 5.
+Alignment: kept 114, shifted 2,
+omitted 6, added 3.
 
 ## Most informative examples
 
+- **shifted / R>L**: ST S042 “it” (R/personal) → TT S042 “từ này” (L/repetition) — it -> từ này (pronoun becomes demonstrative NP)
+- **shifted / R>L**: ST S043 “it” (R/personal) → TT S043 “từ này” (L/repetition) — it -> từ này (pronoun becomes demonstrative NP)
 - **kept**: ST S002 “this” (R/demonstrative) → TT S002 “đây” (R/demonstrative) — None
 
 ## Notes
