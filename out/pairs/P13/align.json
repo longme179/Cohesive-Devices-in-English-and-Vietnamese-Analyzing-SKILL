@@ -1,0 +1,222 @@
+{
+ "pair": "P13",
+ "alignments": [
+  {
+   "st_tie": "P13-EN-001",
+   "tt_tie": "P13-VI-001",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Any visit -> Bất kỳ chuyến thăm nào"
+  },
+  {
+   "st_tie": "P13-EN-002",
+   "tt_tie": "P13-VI-002",
+   "outcome": "kept",
+   "shift": null,
+   "note": "a pope -> một vị giáo hoàng"
+  },
+  {
+   "st_tie": "P13-EN-003",
+   "tt_tie": "P13-VI-003",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the reclusive state -> Triều Tiên (TT keeps the name)"
+  },
+  {
+   "st_tie": "P13-EN-004",
+   "tt_tie": "P13-VI-004",
+   "outcome": "kept",
+   "shift": null,
+   "note": "its -> (TT repeats Triều Tiên)"
+  },
+  {
+   "st_tie": "P13-EN-005",
+   "tt_tie": "P13-VI-005",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P13-EN-006",
+   "tt_tie": "P13-VI-006",
+   "outcome": "kept",
+   "shift": null,
+   "note": "the announcement -> thông báo này"
+  },
+  {
+   "st_tie": "P13-EN-007",
+   "tt_tie": "P13-VI-007",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P13-EN-008",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT S004 has no prior Fides mention (chain anchor removed)"
+  },
+  {
+   "st_tie": "P13-EN-009",
+   "tt_tie": "P13-VI-009",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P13-EN-010",
+   "tt_tie": "P13-VI-010",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P13-EN-011",
+   "tt_tie": "P13-VI-011",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P13-EN-012",
+   "tt_tie": "P13-VI-012",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P13-EN-013",
+   "tt_tie": "P13-VI-013",
+   "outcome": "kept",
+   "shift": null,
+   "note": "a possible papal visit -> Giáo hoàng Francis ... tới Bình Nhưỡng"
+  },
+  {
+   "st_tie": "P13-EN-014",
+   "tt_tie": "P13-VI-014",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P13-EN-015",
+   "tt_tie": "P13-VI-015",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P13-EN-016",
+   "tt_tie": "P13-VI-016",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P13-EN-017",
+   "tt_tie": "P13-VI-017",
+   "outcome": "kept",
+   "shift": null,
+   "note": "his attendance -> sự tham dự của ông"
+  },
+  {
+   "st_tie": "P13-EN-018",
+   "tt_tie": "P13-VI-018",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P13-EN-019",
+   "tt_tie": "P13-VI-019",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P13-EN-020",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S009-S013 (2018 background) unrendered in TT"
+  },
+  {
+   "st_tie": "P13-EN-021",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S009 unrendered"
+  },
+  {
+   "st_tie": "P13-EN-022",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S010 unrendered"
+  },
+  {
+   "st_tie": "P13-EN-023",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S011 unrendered"
+  },
+  {
+   "st_tie": "P13-EN-024",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S011 unrendered"
+  },
+  {
+   "st_tie": "P13-EN-025",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "EN S012 unrendered"
+  },
+  {
+   "st_tie": "P13-EN-026",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S012 unrendered"
+  },
+  {
+   "st_tie": "P13-EN-027",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "EN S013 unrendered"
+  },
+  {
+   "st_tie": "P13-EN-028",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S013 unrendered"
+  },
+  {
+   "st_tie": "P13-EN-029",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "EN S013 unrendered"
+  },
+  {
+   "st_tie": "P13-EN-030",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "EN S013 unrendered"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P13-VI-008",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT Fides first mention at S005 (EN S004 tie has prior S001-S002 links TT lacks)"
+  }
+ ]
+}

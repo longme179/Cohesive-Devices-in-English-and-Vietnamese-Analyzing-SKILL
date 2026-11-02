@@ -1,0 +1,4 @@
+QC P12 EN (ST): PASS
+(e) counts: {'R': 1}
+confidence: {'med': 1}
+sentences: 2, ties: 1

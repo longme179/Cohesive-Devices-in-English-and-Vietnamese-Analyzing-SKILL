@@ -1,0 +1,4 @@
+QC P14 VI (TT): PASS
+(e) counts: {'C': 1, 'L': 22, 'R': 4}
+confidence: {'high': 23, 'med': 4}
+sentences: 12, ties: 27

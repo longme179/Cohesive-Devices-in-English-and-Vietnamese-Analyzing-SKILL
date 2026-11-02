@@ -33,7 +33,8 @@ def main(pid):
                 f"- **{r['outcome']}{' / ' + r['shift'] if r['shift'] else ''}**: "
                 f"ST {s['sent']} “{s['text']}” ({s['cat']}/{s['sub']}) → no TT tie — {r['note']}")
     examples = [fmt(r) for r in ex_rows[:5]]
-    examples.append(fmt(kept_rows[0]))
+    if kept_rows:
+        examples.append(fmt(kept_rows[0]))
 
     md = f'''# {pid} — Pair summary
 

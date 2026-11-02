@@ -1,0 +1,4 @@
+QC P13 EN (ST): PASS
+(e) counts: {'L': 25, 'R': 5}
+confidence: {'high': 26, 'low': 1, 'med': 3}
+sentences: 13, ties: 30

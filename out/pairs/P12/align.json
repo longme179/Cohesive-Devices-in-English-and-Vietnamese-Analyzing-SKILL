@@ -1,0 +1,19 @@
+{
+ "pair": "P12",
+ "alignments": [
+  {
+   "st_tie": "P12-EN-001",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "R>zero",
+   "note": "the two politicians -> TT has no counterpart (VOA dateline sentence reworked)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P12-VI-001",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT reorders: Trump named first (S001), Kennedy second (S002); Trump tie added"
+  }
+ ]
+}

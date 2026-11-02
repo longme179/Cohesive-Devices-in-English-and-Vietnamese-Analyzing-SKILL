@@ -1,0 +1,215 @@
+{
+ "pair": "P14",
+ "alignments": [
+  {
+   "st_tie": "P14-EN-001",
+   "tt_tie": "P14-VI-001",
+   "outcome": "kept",
+   "shift": null,
+   "note": "The U.S. Customs and Border Protection app -> Ứng dụng của Cơ quan Bảo vệ Biên giới và Hải quan Mỹ"
+  },
+  {
+   "st_tie": "P14-EN-002",
+   "tt_tie": "P14-VI-002",
+   "outcome": "kept",
+   "shift": null,
+   "note": "The CBP Home app -> Ứng dụng CBP Home"
+  },
+  {
+   "st_tie": "P14-EN-003",
+   "tt_tie": "P14-VI-003",
+   "outcome": "kept",
+   "shift": null,
+   "note": "aliens -> người nhập cư (synonym kept in both)"
+  },
+  {
+   "st_tie": "P14-EN-004",
+   "tt_tie": "P14-VI-004",
+   "outcome": "kept",
+   "shift": null,
+   "note": "they -> họ"
+  },
+  {
+   "st_tie": "P14-EN-005",
+   "tt_tie": "P14-VI-005",
+   "outcome": "kept",
+   "shift": null,
+   "note": "we -> chúng tôi"
+  },
+  {
+   "st_tie": "P14-EN-006",
+   "tt_tie": "P14-VI-006",
+   "outcome": "kept",
+   "shift": null,
+   "note": "them -> họ"
+  },
+  {
+   "st_tie": "P14-EN-007",
+   "tt_tie": "P14-VI-007",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P14-EN-008",
+   "tt_tie": "P14-VI-008",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P14-EN-009",
+   "tt_tie": "P14-VI-009",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P14-EN-010",
+   "tt_tie": "P14-VI-010",
+   "outcome": "kept",
+   "shift": null,
+   "note": "migrants -> di dân"
+  },
+  {
+   "st_tie": "P14-EN-011",
+   "tt_tie": "P14-VI-012",
+   "outcome": "kept",
+   "shift": null,
+   "note": "Trump's -> ông Trump"
+  },
+  {
+   "st_tie": "P14-EN-012",
+   "tt_tie": "P14-VI-011",
+   "outcome": "kept",
+   "shift": null,
+   "note": "deportation -> Số liệu trục xuất"
+  },
+  {
+   "st_tie": "P14-EN-013",
+   "tt_tie": "P14-VI-013",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P14-EN-014",
+   "tt_tie": "P14-VI-015",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P14-EN-015",
+   "tt_tie": "P14-VI-016",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P14-EN-016",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT drops legal status tie (không có địa vị hợp pháp fresh)"
+  },
+  {
+   "st_tie": "P14-EN-017",
+   "tt_tie": "P14-VI-017",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P14-EN-018",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT ứng dụng chain starts S002 (no prior at S009)"
+  },
+  {
+   "st_tie": "P14-EN-019",
+   "tt_tie": "P14-VI-018",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P14-EN-020",
+   "tt_tie": "P14-VI-019",
+   "outcome": "kept",
+   "shift": null,
+   "note": "The Biden-era app -> Ứng dụng CBP One"
+  },
+  {
+   "st_tie": "P14-EN-021",
+   "tt_tie": "P14-VI-021",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P14-EN-022",
+   "tt_tie": "P14-VI-022",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P14-EN-023",
+   "tt_tie": "P14-VI-023",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P14-EN-024",
+   "tt_tie": null,
+   "outcome": "omitted",
+   "shift": "L>zero",
+   "note": "TT drops the United States item in S011 (Mỹ fresh)"
+  },
+  {
+   "st_tie": "P14-EN-025",
+   "tt_tie": "P14-VI-025",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P14-EN-026",
+   "tt_tie": "P14-VI-026",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": "P14-EN-027",
+   "tt_tie": "P14-VI-027",
+   "outcome": "kept",
+   "shift": null,
+   "note": null
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P14-VI-014",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT adds additive cũng (S007); EN S007 has no additive"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P14-VI-020",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT thời Biden chain (S010)"
+  },
+  {
+   "st_tie": null,
+   "tt_tie": "P14-VI-024",
+   "outcome": "added",
+   "shift": null,
+   "note": "TT di cư echoes di dân (morphological reiteration)"
+  }
+ ]
+}

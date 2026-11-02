@@ -1,0 +1,19 @@
+{
+ "pair": "P12",
+ "lang": "VI",
+ "ties": [
+  {
+   "id": "P12-VI-001",
+   "sent": "S002",
+   "text": "Trump",
+   "occ": 1,
+   "cat": "L",
+   "sub": "repetition",
+   "dir": "ana",
+   "ante": "S001: Donald Trump",
+   "conf": "high",
+   "alt": null,
+   "note": null
+  }
+ ]
+}

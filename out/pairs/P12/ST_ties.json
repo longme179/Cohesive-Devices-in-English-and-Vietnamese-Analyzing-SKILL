@@ -1,0 +1,19 @@
+{
+ "pair": "P12",
+ "lang": "EN",
+ "ties": [
+  {
+   "id": "P12-EN-001",
+   "sent": "S002",
+   "text": "the two politicians",
+   "occ": 1,
+   "cat": "R",
+   "sub": "quantified",
+   "dir": "ana",
+   "ante": "S001: Robert F. Kennedy Jr. and Donald Trump",
+   "conf": "med",
+   "alt": null,
+   "note": "general word + numeral; quantified reference"
+  }
+ ]
+}

@@ -1,0 +1,4 @@
+QC P14 EN (ST): PASS
+(e) counts: {'L': 23, 'R': 4}
+confidence: {'high': 23, 'med': 4}
+sentences: 12, ties: 27
