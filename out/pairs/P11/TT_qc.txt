@@ -1,0 +1,4 @@
+QC P11 VI (TT): PASS
+(e) counts: {'C': 2, 'L': 111, 'R': 5}
+confidence: {'high': 93, 'low': 3, 'med': 22}
+sentences: 58, ties: 118
