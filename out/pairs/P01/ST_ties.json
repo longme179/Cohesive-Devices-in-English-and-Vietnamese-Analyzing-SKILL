@@ -26,7 +26,8 @@
    "ante": "S003: Singapore",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P01-EN-003",
@@ -156,7 +157,8 @@
    "ante": "S006: Professor Stuart Khan / University of Sydney (institutional we)",
    "conf": "med",
    "alt": null,
-   "note": "institutional we of quoted speaker"
+   "note": "institutional we of quoted speaker",
+   "ref": "A"
   },
   {
    "id": "P01-EN-013",
@@ -169,7 +171,8 @@
    "ante": "S006: treated sewage / water",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P01-EN-014",
@@ -195,7 +198,8 @@
    "ante": "S006: treated sewage / water",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P01-EN-016",
@@ -221,7 +225,8 @@
    "ante": "S006: treated sewage / water",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P01-EN-018",
@@ -234,7 +239,8 @@
    "ante": "S006: treated sewage / water",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P01-EN-019",
@@ -260,7 +266,8 @@
    "ante": "S005-S007: the purified recycled water practice",
    "conf": "high",
    "alt": null,
-   "note": "summary anaphor"
+   "note": "summary anaphor",
+   "ref": "A"
   },
   {
    "id": "P01-EN-021",
@@ -312,7 +319,8 @@
    "ante": "S009: the country / Singapore",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P01-EN-025",
@@ -351,7 +359,8 @@
    "ante": "S011: Singapore",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P01-EN-028",
@@ -364,7 +373,8 @@
    "ante": "S011: Singapore",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P01-EN-029",
@@ -390,7 +400,8 @@
    "ante": "S010: Khan",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P01-EN-031",
@@ -403,7 +414,8 @@
    "ante": "S012: They (Singapore)",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P01-EN-032",
@@ -702,7 +714,8 @@
    "ante": "S018: Sydney Water (speaker institution)",
    "conf": "med",
    "alt": null,
-   "note": "institutional our"
+   "note": "institutional our",
+   "ref": "A"
   },
   {
    "id": "P01-EN-055",
@@ -767,7 +780,8 @@
    "ante": "S018: Sydney Water",
    "conf": "med",
    "alt": null,
-   "note": "institutional our"
+   "note": "institutional our",
+   "ref": "A"
   },
   {
    "id": "P01-EN-060",
@@ -793,7 +807,8 @@
    "ante": "S021: Harrington",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P01-EN-062",
@@ -806,7 +821,8 @@
    "ante": "S018: Sydney Water",
    "conf": "med",
    "alt": null,
-   "note": "institutional we"
+   "note": "institutional we",
+   "ref": "A"
   },
   {
    "id": "P01-EN-063",
@@ -832,7 +848,8 @@
    "ante": "S021: Purified Recycled Water Discovery Centre",
    "conf": "med",
    "alt": null,
-   "note": "place deixis to centre"
+   "note": "place deixis to centre",
+   "ref": "A"
   },
   {
    "id": "P01-EN-065",
@@ -962,7 +979,8 @@
    "ante": "S026: Khan",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P01-EN-075",
@@ -975,7 +993,8 @@
    "ante": "S028: an example of one",
    "conf": "high",
    "alt": null,
-   "note": "comparative reference"
+   "note": "comparative reference",
+   "ref": "A"
   },
   {
    "id": "P01-EN-076",
@@ -1261,7 +1280,8 @@
    "ante": "S036: Khan",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P01-EN-098",
@@ -1300,7 +1320,8 @@
    "ante": "S039: a scheme",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P01-EN-101",
@@ -1378,7 +1399,8 @@
    "ante": "S038: people in Perth",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P01-EN-107",
@@ -1469,7 +1491,8 @@
    "ante": "S043: the Western Corridor Recycled Water Scheme",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P01-EN-114",
@@ -1508,7 +1531,8 @@
    "ante": "S044: It (the scheme)",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P01-EN-117",
@@ -1521,7 +1545,8 @@
    "ante": "S044: It (the scheme)",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P01-EN-118",
@@ -1599,7 +1624,8 @@
    "ante": "S045: it (the scheme)",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P01-EN-124",
@@ -1625,7 +1651,8 @@
    "ante": "S045: it (the scheme)",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P01-EN-126",
@@ -1638,7 +1665,8 @@
    "ante": "S046: 80 gigalitres a year",
    "conf": "high",
    "alt": null,
-   "note": "pronominal demonstrative"
+   "note": "pronominal demonstrative",
+   "ref": "A"
   },
   {
    "id": "P01-EN-127",
@@ -1664,7 +1692,8 @@
    "ante": "S047: south-east Queensland 3.8 million residents",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P01-EN-129",
@@ -1690,7 +1719,8 @@
    "ante": "S047: south-east Queensland residents",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P01-EN-131",

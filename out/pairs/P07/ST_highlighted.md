@@ -6,6 +6,8 @@
 
 **Legend:** 🟨 Reference (`R`) | 🟩 Substitution (`S`) | 🟦 Ellipsis (`E`) | 🟧 Conjunction (`C`) | 🟪 Lexical cohesion (`L`) — ellipsis gap: 🟦⟦∅⟧
 
+**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric.
+
 ---
 
 This article explores how Aussie slang and idioms reflect national identity and challenge traditional ideas of what counts as “English”. From “larrikin” to “dinkum”, 🟨⟦this⟧ is the tale of how Australians have made the English language their own.

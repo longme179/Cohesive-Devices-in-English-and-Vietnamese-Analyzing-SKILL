@@ -1,4 +1,5 @@
 QC P19 VI (TT): PASS
 (e) counts: {'C': 1, 'L': 44, 'R': 3}
+(f) R direction: {'A': 3}
 confidence: {'high': 32, 'low': 7, 'med': 9}
 sentences: 22, ties: 48

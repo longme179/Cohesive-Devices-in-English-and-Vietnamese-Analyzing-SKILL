@@ -104,7 +104,8 @@
    "ante": "S005: Nicola Powell (quoted speaker)",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P08-EN-009",
@@ -130,7 +131,8 @@
    "ante": "S006: a pullback in buyer demand",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P08-EN-011",
@@ -299,7 +301,8 @@
    "ante": "S010: Sydney",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P08-EN-024",
@@ -364,7 +367,8 @@
    "ante": "S010-S011: Sydney",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P08-EN-029",
@@ -507,7 +511,8 @@
    "ante": "S018: Melbourne",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P08-EN-040",
@@ -533,7 +538,8 @@
    "ante": "S017: Powell",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P08-EN-042",
@@ -559,7 +565,8 @@
    "ante": "S019: growth in the final quarter of 2024",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P08-EN-044",
@@ -624,7 +631,8 @@
    "ante": "S021: Sydney and Melbourne price cycles",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P08-EN-049",
@@ -637,7 +645,8 @@
    "ante": "S021: strong relationship between the cycles",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P08-EN-050",
@@ -780,7 +789,8 @@
    "ante": "S023-S025: price falls",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P08-EN-061",
@@ -949,7 +959,8 @@
    "ante": "S026-S031: the market changes",
    "conf": "med",
    "alt": null,
-   "note": "a buyer’s market"
+   "note": "a buyer’s market",
+   "ref": "A"
   },
   {
    "id": "P08-EN-074",
@@ -1066,7 +1077,8 @@
    "ante": "S036: Powell",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P08-EN-083",
@@ -1118,7 +1130,8 @@
    "ante": "S019: we (Powell)",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   }
  ]
 }

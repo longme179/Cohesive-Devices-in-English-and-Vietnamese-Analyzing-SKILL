@@ -6,6 +6,8 @@
 
 **Legend:** 🟨 Reference (`R`) | 🟩 Substitution (`S`) | 🟦 Ellipsis (`E`) | 🟧 Conjunction (`C`) | 🟪 Lexical cohesion (`L`) — ellipsis gap: 🟦⟦∅⟧
 
+**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric.
+
 ---
 
 Khi áp lực cải cách quyên góp bầu cử gia tăng trước thềm cuộc tổng tuyển cử liên bang, hàng chục triệu đô la đã được chuyển vào các quỹ của các đảng chính trị lớn.

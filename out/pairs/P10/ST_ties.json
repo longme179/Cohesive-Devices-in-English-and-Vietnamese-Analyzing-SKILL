@@ -26,7 +26,8 @@
    "ante": "S002: The Australian dollar",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P10-EN-003",
@@ -52,7 +53,8 @@
    "ante": "S002: The Australian dollar",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P10-EN-005",
@@ -143,7 +145,8 @@
    "ante": "S007: fewer interest rate cuts in the US",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P10-EN-012",
@@ -182,7 +185,8 @@
    "ante": "S006: Graeme Hughes",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P10-EN-015",
@@ -247,7 +251,8 @@
    "ante": "S012: tariffs raising prices",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P10-EN-020",
@@ -273,7 +278,8 @@
    "ante": "S011: Greg Jericho",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P10-EN-022",
@@ -312,7 +318,8 @@
    "ante": "S011: Greg Jericho (authorial our)",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P10-EN-025",
@@ -364,7 +371,8 @@
    "ante": "S015: imports more expensive",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P10-EN-029",
@@ -403,7 +411,8 @@
    "ante": "S016: Jericho",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P10-EN-032",

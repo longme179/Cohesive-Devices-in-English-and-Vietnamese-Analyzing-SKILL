@@ -6,6 +6,8 @@
 
 **Legend:** 🟨 Reference (`R`) | 🟩 Substitution (`S`) | 🟦 Ellipsis (`E`) | 🟧 Conjunction (`C`) | 🟪 Lexical cohesion (`L`) — ellipsis gap: 🟦⟦∅⟧
 
+**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric.
+
 ---
 
 WASHINGTON — In July, Keir Starmer became British prime minister just one day after his party swept parliamentary elections.

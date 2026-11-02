@@ -6,6 +6,8 @@
 
 **Legend:** 🟨 Reference (`R`) | 🟩 Substitution (`S`) | 🟦 Ellipsis (`E`) | 🟧 Conjunction (`C`) | 🟪 Lexical cohesion (`L`) — ellipsis gap: 🟦⟦∅⟧
 
+**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric.
+
 ---
 
 Ngoài việc làm tăng chi phí đi lại quốc tế, đồng đô la Úc giảm giá có thể ảnh hưởng đến mọi lĩnh vực của nền kinh tế nước này phụ thuộc vào nhập khẩu, bao gồm thực phẩm, đồ dùng, quần áo và xăng dầu.

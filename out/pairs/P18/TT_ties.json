@@ -260,7 +260,8 @@
    "ante": "S011: Bà Carmen van Heese (quoted)",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P18-VI-021",
@@ -273,7 +274,8 @@
    "ante": "S011: Bà Carmen van Heese",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P18-VI-022",
@@ -299,7 +301,8 @@
    "ante": "S012: Chúng tôi",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P18-VI-024",
@@ -364,7 +367,8 @@
    "ante": "S015: (we implied in quote)",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P18-VI-029",
@@ -377,7 +381,8 @@
    "ante": "S016: chúng tôi",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P18-VI-030",
@@ -390,7 +395,8 @@
    "ante": "S017: chúng tôi",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P18-VI-031",
@@ -494,7 +500,8 @@
    "ante": "S020-S021: recovery struggles and conflict",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P18-VI-039",

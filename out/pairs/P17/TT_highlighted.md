@@ -6,6 +6,8 @@
 
 **Legend:** 🟨 Reference (`R`) | 🟩 Substitution (`S`) | 🟦 Ellipsis (`E`) | 🟧 Conjunction (`C`) | 🟪 Lexical cohesion (`L`) — ellipsis gap: 🟦⟦∅⟧
 
+**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric.
+
 ---
 
 BANGKOK — Một sự sụt giảm về lượng nhập cao su vào Trung Quốc và các nước khác đang bị quy một phần cho vụ khủng hoảng trong công nghiệp cao su ở Đông Nam Á. 🟪⟦Giá⟧ đã sụt xuống dưới giá thành, theo bài tường thuật từ Bangkok của thông tín viên VOA Steve Herman.

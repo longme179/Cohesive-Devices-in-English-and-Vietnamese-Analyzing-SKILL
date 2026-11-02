@@ -6,6 +6,8 @@
 
 **Legend:** 🟨 Reference (`R`) | 🟩 Substitution (`S`) | 🟦 Ellipsis (`E`) | 🟧 Conjunction (`C`) | 🟪 Lexical cohesion (`L`) — ellipsis gap: 🟦⟦∅⟧
 
+**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric.
+
 ---
 
 Bài viết này khám phá cách mà tiếng lóng và thành ngữ Úc phản ánh bản sắc dân tộc cũng như thách thức những quan niệm truyền thống về những gì được xem là "tiếng Anh". Từ "larrikin" đến "dinkum", 🟨⟦đây⟧ là câu chuyện về người Úc đã biến tiếng Anh thành ngôn ngữ của riêng mình ra sao.

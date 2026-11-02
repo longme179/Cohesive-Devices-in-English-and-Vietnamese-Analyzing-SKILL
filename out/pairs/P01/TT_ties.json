@@ -143,7 +143,8 @@
    "ante": "S006: Giáo sư Stuart Khan (institutional chúng tôi)",
    "conf": "med",
    "alt": null,
-   "note": "institutional chúng tôi of quoted speaker"
+   "note": "institutional chúng tôi of quoted speaker",
+   "ref": "A"
   },
   {
    "id": "P01-VI-012",
@@ -208,7 +209,8 @@
    "ante": "S005-S007: quá trình tái chế nước",
    "conf": "high",
    "alt": null,
-   "note": "hệ thống = general word for the process; demonstrative marked"
+   "note": "hệ thống = general word for the process; demonstrative marked",
+   "ref": "A"
   },
   {
    "id": "P01-VI-017",
@@ -221,7 +223,8 @@
    "ante": "S008: Người dân Singapore",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P01-VI-018",
@@ -299,7 +302,8 @@
    "ante": "S011: Singapore",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P01-VI-024",
@@ -312,7 +316,8 @@
    "ante": "S010: Giáo sư Khan",
    "conf": "high",
    "alt": null,
-   "note": "kinship term as pronoun"
+   "note": "kinship term as pronoun",
+   "ref": "A"
   },
   {
    "id": "P01-VI-025",
@@ -325,7 +330,8 @@
    "ante": "S012: Họ",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P01-VI-026",
@@ -338,7 +344,8 @@
    "ante": "S012: một trung tâm giới thiệu",
    "conf": "high",
    "alt": null,
-   "note": "nơi = general word (place)"
+   "note": "nơi = general word (place)",
+   "ref": "A"
   },
   {
    "id": "P01-VI-027",
@@ -520,7 +527,8 @@
    "ante": "S018: Chúng ta",
    "conf": "med",
    "alt": null,
-   "note": "referent exophoric (generic) but chain continues textually; no ST counterpart (EN pull quote excluded as display element)"
+   "note": "referent exophoric (generic) but chain continues textually; no ST counterpart (EN pull quote excluded as display element)",
+   "ref": "A"
   },
   {
    "id": "P01-VI-041",
@@ -585,7 +593,8 @@
    "ante": "S020: Nước thải tái chế",
    "conf": "high",
    "alt": null,
-   "note": "công nghệ = general word for the process"
+   "note": "công nghệ = general word for the process",
+   "ref": "A"
   },
   {
    "id": "P01-VI-046",
@@ -702,7 +711,8 @@
    "ante": "S022: ông Harrington / Sydney Water",
    "conf": "med",
    "alt": null,
-   "note": "institutional chúng tôi"
+   "note": "institutional chúng tôi",
+   "ref": "A"
   },
   {
    "id": "P01-VI-055",
@@ -728,7 +738,8 @@
    "ante": "S022: ông Harrington",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P01-VI-057",
@@ -741,7 +752,8 @@
    "ante": "S025: chúng tôi",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P01-VI-058",
@@ -780,7 +792,8 @@
    "ante": "S025: chúng tôi",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P01-VI-061",
@@ -910,7 +923,8 @@
    "ante": "S027: Giáo sư Khan",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P01-VI-071",
@@ -1053,7 +1067,8 @@
    "ante": "S032: ông Harrington",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P01-VI-082",
@@ -1118,7 +1133,8 @@
    "ante": "S036: Perth",
    "conf": "high",
    "alt": null,
-   "note": "Thành phố = general word for Perth"
+   "note": "Thành phố = general word for Perth",
+   "ref": "A"
   },
   {
    "id": "P01-VI-087",
@@ -1157,7 +1173,8 @@
    "ante": "S033-S034: tái chế nước thải (lĩnh vực = general word)",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P01-VI-090",
@@ -1235,7 +1252,8 @@
    "ante": "S039: Người dân Perth",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P01-VI-096",
@@ -1417,7 +1435,8 @@
    "ante": "S044: dự án",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P01-VI-110",
@@ -1508,7 +1527,8 @@
    "ante": "S044: dự án",
    "conf": "high",
    "alt": null,
-   "note": "hệ thống = general word for the scheme"
+   "note": "hệ thống = general word for the scheme",
+   "ref": "A"
   },
   {
    "id": "P01-VI-117",

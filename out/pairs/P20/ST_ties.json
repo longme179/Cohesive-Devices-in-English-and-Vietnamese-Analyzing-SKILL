@@ -91,7 +91,8 @@
    "ante": "S004: Belize, Cambodia and Guinea",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-EN-008",
@@ -143,7 +144,8 @@
    "ante": "S005: The red card (the system)",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-EN-012",
@@ -156,7 +158,8 @@
    "ante": "S007: showing its teeth",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-EN-013",
@@ -182,7 +185,8 @@
    "ante": "S006: the EJF (quoted speaker)",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-EN-015",
@@ -208,7 +212,8 @@
    "ante": "S009: you haven’t done enough",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-EN-017",
@@ -221,7 +226,8 @@
    "ante": "S010: you",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-EN-018",
@@ -312,7 +318,8 @@
    "ante": "S013: The organization",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-EN-025",
@@ -377,7 +384,8 @@
    "ante": "S015: repercussions beyond maritime commerce",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-EN-030",
@@ -403,7 +411,8 @@
    "ante": "S016: brand Korea gets some damage",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-EN-032",
@@ -416,7 +425,8 @@
    "ante": "S017: This (a red card)",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-EN-033",
@@ -442,7 +452,8 @@
    "ante": "S006: Steve Trent",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-EN-035",
@@ -455,7 +466,8 @@
    "ante": "S018: It (the red card)",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-EN-036",
@@ -468,7 +480,8 @@
    "ante": "S019: can’t look after their own responsibilities",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-EN-037",
@@ -507,7 +520,8 @@
    "ante": "S021: A new study",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-EN-040",
@@ -546,7 +560,8 @@
    "ante": "S022: 40 percent of the tuna ... illegal",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-EN-043",
@@ -624,7 +639,8 @@
    "ante": "S024: (importing countries implied)",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-EN-049",
@@ -728,7 +744,8 @@
    "ante": "S030: the Port States Measures Agreement",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-EN-057",
@@ -793,7 +810,8 @@
    "ante": "S031: It (the agreement)",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-EN-062",
@@ -871,7 +889,8 @@
    "ante": "S033: illegal fish",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-EN-068",
@@ -884,7 +903,8 @@
    "ante": "S034: bring it to port",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-EN-069",
@@ -910,7 +930,8 @@
    "ante": "S033: The agreement",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-EN-071",
@@ -1066,7 +1087,8 @@
    "ante": "S041: conscientious (evidence implied)",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-EN-083",
@@ -1079,7 +1101,8 @@
    "ante": "S041: Long (quoted speaker)",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-EN-084",
@@ -1157,7 +1180,8 @@
    "ante": "S045: The distributors are the bottleneck",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-EN-090",
@@ -1183,7 +1207,8 @@
    "ante": "S028: the United States",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-EN-092",
@@ -1196,7 +1221,8 @@
    "ante": "S040: the U.S., the European Union, Japan",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-EN-093",
@@ -1209,7 +1235,8 @@
    "ante": "S040: the shape of fishing",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-EN-094",
@@ -1235,7 +1262,8 @@
    "ante": "S024: a researcher",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-EN-096",
@@ -1313,7 +1341,8 @@
    "ante": "S049-S051: depletion and rising demand",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-EN-102",
@@ -1326,7 +1355,8 @@
    "ante": "S051: they’re",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-EN-103",
@@ -1469,7 +1499,8 @@
    "ante": "S055: other nations",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-EN-114",
@@ -1547,7 +1578,8 @@
    "ante": "S059: a global satellite vessel monitoring system",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-EN-120",

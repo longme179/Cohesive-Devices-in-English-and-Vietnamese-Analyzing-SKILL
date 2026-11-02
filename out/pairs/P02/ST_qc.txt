@@ -1,4 +1,5 @@
 QC P02 EN (ST): PASS
 (e) counts: {'C': 7, 'L': 113, 'R': 37}
+(f) R direction: {'A': 37}
 confidence: {'high': 100, 'low': 1, 'med': 56}
 sentences: 43, ties: 157

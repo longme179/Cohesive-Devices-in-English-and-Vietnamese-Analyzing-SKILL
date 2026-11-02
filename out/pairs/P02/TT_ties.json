@@ -26,7 +26,8 @@
    "ante": "S002: Tyrah Chan-Hampton",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-VI-003",
@@ -39,7 +40,8 @@
    "ante": "S003: cô ... dì",
    "conf": "med",
    "alt": null,
-   "note": "quantified reference (both = she and her aunt)"
+   "note": "quantified reference (both = she and her aunt)",
+   "ref": "A"
   },
   {
    "id": "P02-VI-004",
@@ -65,7 +67,8 @@
    "ante": "S003: Cô (Tyrah)",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-VI-006",
@@ -91,7 +94,8 @@
    "ante": "S004: cô (Tyrah)",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-VI-008",
@@ -130,7 +134,8 @@
    "ante": "S002: Tyrah Chan-Hampton (quoted speaker)",
    "conf": "med",
    "alt": null,
-   "note": "first person in quote"
+   "note": "first person in quote",
+   "ref": "A"
   },
   {
    "id": "P02-VI-011",
@@ -156,7 +161,8 @@
    "ante": "S005: cô (Tyrah)",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-VI-013",
@@ -182,7 +188,8 @@
    "ante": "S006: cô (Tyrah)",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-VI-015",
@@ -247,7 +254,8 @@
    "ante": "S007: cô (Tyrah)",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-VI-020",
@@ -624,7 +632,8 @@
    "ante": "S016: thất nghiệp ... hoàn thành trung học (các thách thức)",
    "conf": "med",
    "alt": null,
-   "note": "những thách thức này; head is new lexis"
+   "note": "những thách thức này; head is new lexis",
+   "ref": "A"
   },
   {
    "id": "P02-VI-049",
@@ -650,7 +659,8 @@
    "ante": "S016: Corin Moffatt",
    "conf": "high",
    "alt": null,
-   "note": "kinship term as pronoun"
+   "note": "kinship term as pronoun",
+   "ref": "A"
   },
   {
    "id": "P02-VI-051",
@@ -832,7 +842,8 @@
    "ante": "S019: Corin Moffatt",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-VI-065",
@@ -858,7 +869,8 @@
    "ante": "S021: chỗ ở an toàn và ổn định",
    "conf": "high",
    "alt": null,
-   "note": "TT splits the EN sentence, making this cross-sentential"
+   "note": "TT splits the EN sentence, making this cross-sentential",
+   "ref": "A"
   },
   {
    "id": "P02-VI-067",
@@ -871,7 +883,8 @@
    "ante": "S021: thanh niên",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-VI-068",
@@ -1170,7 +1183,8 @@
    "ante": "S026: Corin Moffatt",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-VI-091",
@@ -1248,7 +1262,8 @@
    "ante": "S029: David MacKenzie",
    "conf": "high",
    "alt": null,
-   "note": "kinship term as pronoun"
+   "note": "kinship term as pronoun",
+   "ref": "A"
   },
   {
    "id": "P02-VI-097",
@@ -1287,7 +1302,8 @@
    "ante": "S029: vô gia cư ở thanh niên",
    "conf": "med",
    "alt": null,
-   "note": "tình trạng này; head is a frame word"
+   "note": "tình trạng này; head is a frame word",
+   "ref": "A"
   },
   {
    "id": "P02-VI-100",
@@ -1313,7 +1329,8 @@
    "ante": "S030: Ông (MacKenzie)",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-VI-102",
@@ -1365,7 +1382,8 @@
    "ante": "S029: vấn đề vô gia cư ở thanh niên",
    "conf": "med",
    "alt": null,
-   "note": "vấn đề này"
+   "note": "vấn đề này",
+   "ref": "A"
   },
   {
    "id": "P02-VI-106",
@@ -1456,7 +1474,8 @@
    "ante": "S033: MacKenzie",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-VI-113",
@@ -1482,7 +1501,8 @@
    "ante": "S035: Tyrah Chan-Hampton",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-VI-115",
@@ -1534,7 +1554,8 @@
    "ante": "S035: Tyrah Chan-Hampton",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-VI-119",
@@ -1638,7 +1659,8 @@
    "ante": "S037: Tyrah Chan-Hampton",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-VI-127",

@@ -136,6 +136,13 @@ def fill_cell(cell, side, cats, size=9.5):
             c = cats[cat]
             shade_run(run, c['bg'].lstrip('#'), c['fg'].lstrip('#'))
             run.font.bold = True
+            if cat == 'R' and seg.get('ref'):
+                sup = para.add_run(seg['ref'])
+                sup.font.name = BODY_FONT
+                sup.font.size = Pt(size)
+                sup.font.superscript = True
+                shade_run(sup, c['bg'].lstrip('#'), c['fg'].lstrip('#'))
+                sup.font.bold = True
 
 
 # ---------------------------------------------------------------- document
@@ -200,6 +207,61 @@ def build():
         drun = desc.add_run(f"{c['en']} — {c['vi']}")
         drun.font.name = BODY_FONT
         drun.font.size = Pt(9.5)
+
+    # ---- R direction note ----
+    refn = doc.add_paragraph()
+    rr = refn.add_run(
+        'Hướng tham chiếu (R): mỗi khối R kèm chữ mũ — A = anaphoric '
+        '(hồi quy: tiền trạm nằm trước trong văn bản), C = cataphoric '
+        '(tiến chỉ: tiền trạm nằm sau), E = exophoric (ngoại văn bản: tiền '
+        'trạm trong bối cảnh phát ngôn — người viết / độc giả). Toàn ngữ '
+        'liệu không có trường hợp C liên-câu. (Chữ mũ E này khác ký hiệu '
+        'danh mục E = lược bỏ.)')
+    rr.font.size = Pt(8.5)
+    rr.font.italic = True
+    rr.font.color.rgb = RGBColor.from_string('555555')
+
+    # ---- framework correspondence table ----
+    fw_head = doc.add_paragraph()
+    fwr = fw_head.add_run('Khung lý thuyết / đối chiếu danh mục '
+                          '(EN: Halliday & Hasan 1976 — VI: Trần Ngọc Thêm 2006)')
+    fwr.font.name = HEAD_FONT
+    fwr.font.size = Pt(11)
+    fwr.font.bold = True
+
+    fw_map = ir.get('framework_map') or []
+    fwt = doc.add_table(rows=len(fw_map), cols=3)
+    fwt.style = 'Table Grid'
+    fwt.alignment = WD_TABLE_ALIGNMENT.CENTER
+    set_cell_margins(fwt)
+    for i, row in enumerate(fw_map):
+        cells = fwt.rows[i].cells
+        cells[0].width, cells[1].width, cells[2].width = \
+            Cm(1.4), Cm(7.6), Cm(9.0)
+        kcell = cells[0].paragraphs[0]
+        kcell.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        krun = kcell.add_run(row['key'])
+        krun.font.name = HEAD_FONT
+        krun.font.bold = True
+        cat = ir['cats'].get(row['key'])
+        if cat:
+            shade_run(krun, cat['bg'].lstrip('#'), cat['fg'].lstrip('#'))
+            shade_cell(cells[0], cat['bg'].lstrip('#'))
+        for fname, idx in (('en', 1), ('vi', 2)):
+            pcell = cells[idx].paragraphs[0]
+            prun = pcell.add_run(row[fname])
+            prun.font.name = BODY_FONT
+            prun.font.size = Pt(9)
+
+    fw_note = doc.add_paragraph()
+    fnr = fw_note.add_run(
+        'Đối chiếu gần đúng giữa hai khung: phép thế đại từ ≈ reference + '
+        'substitution; phép tỉnh lược ≈ ellipsis; phép nối ≈ conjunction; '
+        'phép lặp, phép đối, phép thế đồng nghĩa, phép liên tưởng ≈ lexical '
+        'cohesion.')
+    fnr.font.size = Pt(8.5)
+    fnr.font.italic = True
+    fnr.font.color.rgb = RGBColor.from_string('555555')
 
     note = doc.add_paragraph()
     nrun = note.add_run(

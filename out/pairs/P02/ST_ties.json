@@ -26,7 +26,8 @@
    "ante": "S002: Tyrah Chan-Hampton",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-EN-003",
@@ -39,7 +40,8 @@
    "ante": "S002: Tyrah Chan-Hampton",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-EN-004",
@@ -52,7 +54,8 @@
    "ante": "S002: Tyrah Chan-Hampton",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-EN-005",
@@ -65,7 +68,8 @@
    "ante": "S003: she ... her aunt",
    "conf": "high",
    "alt": null,
-   "note": "plural: Tyrah and her aunt"
+   "note": "plural: Tyrah and her aunt",
+   "ref": "A"
   },
   {
    "id": "P02-EN-006",
@@ -91,7 +95,8 @@
    "ante": "S003: She (Tyrah)",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-EN-008",
@@ -104,7 +109,8 @@
    "ante": "S002: Tyrah Chan-Hampton",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-EN-009",
@@ -117,7 +123,8 @@
    "ante": "S004: she (Tyrah)",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-EN-010",
@@ -130,7 +137,8 @@
    "ante": "S004: she (Tyrah)",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-EN-011",
@@ -169,7 +177,8 @@
    "ante": "S005: felt embarrassed (the feeling)",
    "conf": "low",
    "alt": null,
-   "note": "vague it"
+   "note": "vague it",
+   "ref": "A"
   },
   {
    "id": "P02-EN-014",
@@ -182,7 +191,8 @@
    "ante": "S002: the word homeless",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-EN-015",
@@ -195,7 +205,8 @@
    "ante": "S005: She said (Tyrah, quoted speaker)",
    "conf": "med",
    "alt": null,
-   "note": "first person in quote"
+   "note": "first person in quote",
+   "ref": "A"
   },
   {
    "id": "P02-EN-016",
@@ -208,7 +219,8 @@
    "ante": "S005: She (Tyrah)",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-EN-017",
@@ -247,7 +259,8 @@
    "ante": "S006: she (Tyrah)",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-EN-020",
@@ -260,7 +273,8 @@
    "ante": "S002: Tyrah Chan-Hampton (quoted speaker)",
    "conf": "med",
    "alt": null,
-   "note": "first person in quote; my/me/us same chain, one mark"
+   "note": "first person in quote; my/me/us same chain, one mark",
+   "ref": "A"
   },
   {
    "id": "P02-EN-021",
@@ -559,7 +573,8 @@
    "ante": "S015: Corin Moffatt (quoted speaker)",
    "conf": "med",
    "alt": null,
-   "note": "institutional we"
+   "note": "institutional we",
+   "ref": "A"
   },
   {
    "id": "P02-EN-044",
@@ -572,7 +587,8 @@
    "ante": "S015: Corin Moffatt",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-EN-045",
@@ -611,7 +627,8 @@
    "ante": "S015: unemployment and school-completion rates",
    "conf": "med",
    "alt": null,
-   "note": "that combination of challenges"
+   "note": "that combination of challenges",
+   "ref": "A"
   },
   {
    "id": "P02-EN-048",
@@ -637,7 +654,8 @@
    "ante": "S015: Corin Moffatt",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-EN-050",
@@ -650,7 +668,8 @@
    "ante": "S016: we (Moffat)",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-EN-051",
@@ -676,7 +695,8 @@
    "ante": "S016: that list",
    "conf": "med",
    "alt": null,
-   "note": "what it shows"
+   "note": "what it shows",
+   "ref": "A"
   },
   {
    "id": "P02-EN-053",
@@ -819,7 +839,8 @@
    "ante": "S018: Moffat",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-EN-064",
@@ -1105,7 +1126,8 @@
    "ante": "S023: Moffat",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-EN-086",
@@ -1131,7 +1153,8 @@
    "ante": "S024: she (Moffat)",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-EN-088",
@@ -1209,7 +1232,8 @@
    "ante": "S026: David MacKenzie",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-EN-094",
@@ -1287,7 +1311,8 @@
    "ante": "S027: He (MacKenzie)",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-EN-100",
@@ -1300,7 +1325,8 @@
    "ante": "S028: he (MacKenzie, quoted speaker)",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-EN-101",
@@ -1326,7 +1352,8 @@
    "ante": "S026: youth homelessness",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-EN-103",
@@ -1430,7 +1457,8 @@
    "ante": "S030: MacKenzie",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-EN-111",
@@ -1456,7 +1484,8 @@
    "ante": "S032: Chan-Hampton",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-EN-113",
@@ -1469,7 +1498,8 @@
    "ante": "S032: Chan-Hampton",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-EN-114",
@@ -1508,7 +1538,8 @@
    "ante": "S032: Chan-Hampton",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-EN-117",
@@ -1534,7 +1565,8 @@
    "ante": "S033: She (Tyrah)",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-EN-119",
@@ -1599,7 +1631,8 @@
    "ante": "S034: she (Tyrah)",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-EN-124",
@@ -1716,7 +1749,8 @@
    "ante": "S038: reform agenda",
    "conf": "high",
    "alt": null,
-   "note": "As part of this"
+   "note": "As part of this",
+   "ref": "A"
   },
   {
    "id": "P02-EN-133",
@@ -1781,7 +1815,8 @@
    "ante": "S039: significant investments",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-EN-138",
@@ -1885,7 +1920,8 @@
    "ante": "S041: The spokesperson",
    "conf": "high",
    "alt": null,
-   "note": "plural for singular (source usage)"
+   "note": "plural for singular (source usage)",
+   "ref": "A"
   },
   {
    "id": "P02-EN-146",
@@ -1950,7 +1986,8 @@
    "ante": "S042: They (the spokesperson)",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P02-EN-151",

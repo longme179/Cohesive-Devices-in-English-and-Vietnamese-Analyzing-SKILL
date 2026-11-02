@@ -130,7 +130,8 @@
    "ante": "S007: ít cắt giảm lãi suất hơn",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P10-VI-011",
@@ -169,7 +170,8 @@
    "ante": "S006: Graeme Hughes",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P10-VI-014",
@@ -234,7 +236,8 @@
    "ante": "S012: thuế đẩy giá lên",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P10-VI-019",
@@ -260,7 +263,8 @@
    "ante": "S011: Greg Jericho",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P10-VI-021",
@@ -299,7 +303,8 @@
    "ante": "S011: Greg Jericho (authorial chúng ta)",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P10-VI-024",
@@ -351,7 +356,8 @@
    "ante": "S015: hàng nhập khẩu đắt hơn",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P10-VI-028",
@@ -377,7 +383,8 @@
    "ante": "S016: Ông Jericho",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P10-VI-030",

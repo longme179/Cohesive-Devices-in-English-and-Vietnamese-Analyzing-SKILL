@@ -1,0 +1,237 @@
+
+===== P01 =====
+[P01-EN-002] personal 'it' S004 ante='S003: Singapore'
+[P01-EN-013] personal 'it' S007 ante='S006: treated sewage / water'
+[P01-EN-015] personal 'it' S007 ante='S006: treated sewage / water'
+[P01-EN-017] personal 'it' S007 ante='S006: treated sewage / water'
+[P01-EN-018] personal 'it' S007 ante='S006: treated sewage / water'
+[P01-EN-020] personal 'It' S008 ante='S005-S007: the purified recycled water practice' | note: summary anaphor
+[P01-EN-024] personal 'its' S010 ante='S009: the country / Singapore'
+[P01-EN-027] personal 'They' S012 ante='S011: Singapore'
+[P01-EN-028] personal 'their' S012 ante='S011: Singapore'
+[P01-EN-030] personal 'he' S012 ante='S010: Khan'
+[P01-EN-031] personal 'They' S013 ante='S012: They (Singapore)'
+[P01-EN-061] personal 'he' S024 ante='S021: Harrington'
+[P01-EN-074] personal 'he' S028 ante='S026: Khan'
+[P01-EN-097] personal 'he' S038 ante='S036: Khan'
+[P01-EN-100] personal 'It' S040 ante='S039: a scheme'
+[P01-EN-106] personal 'their' S041 ante='S038: people in Perth'
+[P01-EN-113] personal 'It' S044 ante='S043: the Western Corridor Recycled Water Scheme'
+[P01-EN-116] personal 'it' S045 ante='S044: It (the scheme)'
+[P01-EN-117] personal 'it' S045 ante='S044: It (the scheme)'
+[P01-EN-123] personal 'it' S046 ante='S045: it (the scheme)'
+[P01-EN-125] personal 'it' S046 ante='S045: it (the scheme)'
+[P01-EN-128] personal 'their' S048 ante='S047: south-east Queensland 3.8 million residents'
+[P01-EN-130] personal 'their' S048 ante='S047: south-east Queensland residents'
+[P01-VI-017] personal 'Họ' S009 ante='S008: Người dân Singapore'
+[P01-VI-023] personal 'Họ' S012 ante='S011: Singapore'
+[P01-VI-024] personal 'ông' S012 ante='S010: Giáo sư Khan' | note: kinship term as pronoun
+[P01-VI-025] personal 'Họ' S013 ante='S012: Họ'
+[P01-VI-056] personal 'ông' S025 ante='S022: ông Harrington'
+[P01-VI-070] personal 'ông' S029 ante='S027: Giáo sư Khan'
+[P01-VI-081] personal 'ông' S034 ante='S032: ông Harrington'
+[P01-VI-095] personal 'họ' S040 ante='S039: Người dân Perth'
+[P01-VI-109] personal 'nó' S045 ante='S044: dự án'
+
+===== P02 =====
+[P02-EN-002] personal 'She' S003 ante='S002: Tyrah Chan-Hampton'
+[P02-EN-003] personal 'she' S003 ante='S002: Tyrah Chan-Hampton'
+[P02-EN-004] personal 'her' S003 ante='S002: Tyrah Chan-Hampton'
+[P02-EN-005] personal 'They' S004 ante='S003: she ... her aunt' | note: plural: Tyrah and her aunt
+[P02-EN-007] personal 'she' S004 ante='S003: She (Tyrah)'
+[P02-EN-008] personal 'her' S004 ante='S002: Tyrah Chan-Hampton'
+[P02-EN-009] personal 'She' S005 ante='S004: she (Tyrah)'
+[P02-EN-010] personal 'she' S005 ante='S004: she (Tyrah)'
+[P02-EN-013] personal 'it' S006 ante='S005: felt embarrassed (the feeling)' | note: vague it
+[P02-EN-014] personal 'it' S006 ante='S002: the word homeless'
+[P02-EN-016] personal 'she' S006 ante='S005: She (Tyrah)'
+[P02-EN-019] personal 'she' S007 ante='S006: she (Tyrah)'
+[P02-EN-049] personal 'she' S016 ante='S015: Corin Moffatt'
+[P02-EN-052] personal 'it' S017 ante='S016: that list' | note: what it shows
+[P02-EN-063] personal 'she' S019 ante='S018: Moffat'
+[P02-EN-085] personal 'she' S024 ante='S023: Moffat'
+[P02-EN-093] personal 'He' S027 ante='S026: David MacKenzie'
+[P02-EN-099] personal 'he' S028 ante='S027: He (MacKenzie)'
+[P02-EN-102] personal 'it' S029 ante='S026: youth homelessness'
+[P02-EN-110] personal 'he' S031 ante='S030: MacKenzie'
+[P02-EN-112] personal 'She' S033 ante='S032: Chan-Hampton'
+[P02-EN-113] personal 'her' S033 ante='S032: Chan-Hampton'
+[P02-EN-116] personal 'her' S033 ante='S032: Chan-Hampton'
+[P02-EN-118] personal 'she' S034 ante='S033: She (Tyrah)'
+[P02-EN-123] personal 'she' S035 ante='S034: she (Tyrah)'
+[P02-EN-145] personal 'They' S042 ante='S041: The spokesperson' | note: plural for singular (source usage)
+[P02-EN-150] personal 'They' S043 ante='S042: They (the spokesperson)'
+[P02-VI-002] personal 'Cô' S003 ante='S002: Tyrah Chan-Hampton'
+[P02-VI-003] personal 'Cả hai' S004 ante='S003: cô ... dì' | note: quantified reference (both = she and her aunt)
+[P02-VI-005] personal 'cô' S004 ante='S003: Cô (Tyrah)'
+[P02-VI-007] personal 'cô' S005 ante='S004: cô (Tyrah)'
+[P02-VI-012] personal 'cô' S006 ante='S005: cô (Tyrah)'
+[P02-VI-014] personal 'cô' S007 ante='S006: cô (Tyrah)'
+[P02-VI-019] personal 'cô' S008 ante='S007: cô (Tyrah)'
+[P02-VI-050] personal 'bà' S017 ante='S016: Corin Moffatt' | note: kinship term as pronoun
+[P02-VI-064] personal 'bà' S020 ante='S019: Corin Moffatt'
+[P02-VI-067] personal 'họ' S022 ante='S021: thanh niên'
+[P02-VI-090] personal 'bà' S027 ante='S026: Corin Moffatt'
+[P02-VI-096] personal 'Ông' S030 ante='S029: David MacKenzie' | note: kinship term as pronoun
+[P02-VI-101] personal 'ông' S031 ante='S030: Ông (MacKenzie)'
+[P02-VI-112] personal 'ông' S034 ante='S033: MacKenzie'
+[P02-VI-114] personal 'Cô' S036 ante='S035: Tyrah Chan-Hampton'
+[P02-VI-118] personal 'cô' S036 ante='S035: Tyrah Chan-Hampton'
+[P02-VI-126] personal 'cô' S038 ante='S037: Tyrah Chan-Hampton'
+
+===== P03 =====
+[P03-EN-027] personal 'he' S013 ante='S011: Prime Minister Anthony Albanese'
+[P03-EN-043] personal 'she' S018 ante='S016: Melissa McIntosh'
+[P03-EN-048] personal 'it' S019 ante='S017: a bill to stop gambling ads' | note: calling for it
+[P03-EN-108] personal 'It' S036 ante='S035: Climate200'
+[P03-VI-032] personal 'ông' S009 ante='S007: Thủ tướng Anthony Albanese'
+[P03-VI-062] personal 'bà' S014 ante='S013: Larissa Waters'
+[P03-VI-077] personal 'Ông' S019 ante='S018: Jonathan Sriranganathan'
+
+===== P04 =====
+[P04-EN-024] personal 'she' S010 ante='S009: Shriane'
+[P04-EN-039] personal 'she' S014 ante='S012: Shriane'
+[P04-EN-040] personal 'She' S015 ante='S014: she'
+[P04-EN-043] personal 'she' S016 ante='S015: She'
+[P04-EN-056] personal 'They' S023 ante='S022: women'
+[P04-EN-072] personal 'she' S028 ante='S027: Shriane'
+[P04-EN-090] personal 'she' S036 ante='S035: Shriane'
+[P04-VI-018] personal 'bà' S007 ante='S006: bà Alexandra Shriane'
+[P04-VI-029] personal 'bà' S012 ante='S011: Bà Shriane'
+[P04-VI-030] personal 'họ' S013 ante='S012: Một số người'
+[P04-VI-055] personal 'bà' S027 ante='S026: bà Shriane'
+
+===== P05 =====
+[P05-EN-055] personal 'It' S031 ante='S030: A ban on the importation'
+
+===== P06 =====
+[P06-EN-013] personal 'It' S009 ante='S008: The ETIAS process'
+[P06-EN-061] personal 'It' S031 ante='S030: the driving force' | note: It’s the ability
+[P06-EN-062] personal 'their' S031 ante='S030: Content creators'
+
+===== P07 =====
+[P07-EN-007] personal 'it' S009 ante='S008: This (the way Australians communicate)'
+[P07-EN-037] personal 'them' S025 ante='S024: those born in the Australian colony'
+[P07-EN-047] personal 'it’s' S032 ante='S031: The word Australian'
+[P07-EN-070] personal 'it' S042 ante='S041: dinkum' | note: links it to
+[P07-EN-073] personal 'it' S043 ante='S042: it (dinkum)' | note: attributes it to
+[P07-EN-081] personal 'we’ve' S045 ante='S039: we'
+[P07-EN-103] personal 'my' S056 ante='S022: our history (authorial voice)' | note: authorial my
+[P07-EN-104] personal 'He' S057 ante='S056: my young son'
+[P07-EN-108] personal 'He' S059 ante='S057: He (my son)'
+[P07-EN-110] personal 'Most of them' S060 ante='S059: Americans' | note: them
+[P07-EN-111] personal 'My' S061 ante='S056: my young son'
+[P07-EN-113] personal 'They’re' S062 ante='S061: Australian words'
+[P07-EN-115] personal 'he' S063 ante='S059: He (my son)'
+[P07-VI-036] personal 'họ' S025 ante='S024: những người sinh ra ở thuộc địa Úc'
+[P07-VI-101] personal 'của tôi' S056 ante='S022: (authorial voice)' | note: authorial của tôi
+[P07-VI-102] personal 'Nó' S057 ante='S056: con trai nhỏ của tôi'
+[P07-VI-106] personal 'Nó' S059 ante='S057: Nó (my son)'
+[P07-VI-108] personal 'Hầu hết họ' S060 ante='S059: Người Mỹ'
+[P07-VI-109] personal 'của tôi' S061 ante='S056: con trai nhỏ của tôi'
+[P07-VI-112] personal 'của chúng ta' S062 ante='S061: của tôi (family/authorial voice)'
+[P07-VI-113] personal 'nó' S063 ante='S059: Nó (my son)'
+
+===== P08 =====
+[P08-EN-023] personal "It's" S011 ante='S010: Sydney'
+[P08-EN-028] personal "the city's" S012 ante='S010-S011: Sydney'
+[P08-EN-039] personal "It's" S019 ante='S018: Melbourne'
+[P08-EN-073] personal 'it' S032 ante='S026-S031: the market changes' | note: a buyer’s market
+[P08-EN-082] personal 'she' S037 ante='S036: Powell'
+[P08-VI-010] personal 'họ' S007 ante='S006: người mua'
+[P08-VI-011] personal 'bà' S007 ante='S005: bà Nicola Powell'
+[P08-VI-073] personal 'bà' S035 ante='S034: Bà Powell'
+
+===== P09 =====
+[P09-EN-027] personal 'It' S008 ante='S007: Cleanbill'
+[P09-EN-028] personal 'its data' S008 ante='S007: this data'
+[P09-EN-096] personal 'he' S029 ante='S028: Breadon'
+[P09-VI-066] personal 'Ông' S024 ante='S023: bác sĩ Michael Wright'
+[P09-VI-089] personal 'cô' S031 ante='S030: bác sĩ Rebekah Hoffman'
+
+===== P10 =====
+[P10-EN-002] personal 'Its' S003 ante='S002: The Australian dollar'
+[P10-EN-004] personal "it's" S003 ante='S002: The Australian dollar'
+[P10-EN-014] personal 'he' S008 ante='S006: Graeme Hughes'
+[P10-EN-021] personal 'he' S013 ante='S011: Greg Jericho'
+[P10-EN-031] personal 'he' S017 ante='S016: Jericho'
+[P10-VI-013] personal 'ông' S008 ante='S006: Graeme Hughes'
+[P10-VI-020] personal 'ông' S013 ante='S011: Greg Jericho'
+[P10-VI-029] personal 'ông' S017 ante='S016: Ông Jericho'
+
+===== P11 =====
+[P11-EN-066] personal 'their' S032 ante='S031: Biden and Trump'
+[P11-EN-094] personal 'your job' S046 ante='S045: people in the vital elements of the government' | note: quoted question
+[P11-VI-015] personal 'họ' S009 ante='S008: chính quyền (the incoming teams)'
+[P11-VI-088] personal 'Công việc của bạn' S044 ante='S043: những người trong cuộc' | note: quoted question
+
+===== P13 =====
+[P13-EN-004] personal 'its' S003 ante='S002: the reclusive state'
+[P13-EN-025] personal 'It' S012 ante='S011: an official written invitation'
+[P13-EN-027] personal 'They' S013 ante='S011: Vatican officials'
+[P13-VI-017] personal 'của ông' S007 ante='S006: Ông Park' | note: sự tham dự của ông
+
+===== P14 =====
+[P14-EN-004] personal 'they' S004 ante='S003: aliens'
+[P14-EN-006] personal 'them' S004 ante='S003: aliens'
+[P14-EN-007] personal 'they' S004 ante='S003: aliens'
+[P14-VI-004] personal 'họ' S004 ante='S003: người nhập cư'
+[P14-VI-006] personal 'họ' S004 ante='S003: người nhập cư'
+[P14-VI-007] personal 'họ' S004 ante='S003: người nhập cư'
+
+===== P15 =====
+[P15-EN-001] personal 'his' S002 ante='S001: a Palestinian activist (Mahmoud Khalil)'
+[P15-EN-015] personal 'Khalil’s role' S008 ante='S002: Mahmoud Khalil'
+[P15-EN-018] personal 'Khalil’s' S009 ante='S008: Khalil'
+[P15-EN-020] personal 'he' S010 ante='S009: Khalil'
+[P15-EN-021] personal 'his wife' S011 ante='S010: he (Khalil)'
+[P15-EN-022] personal 'he' S011 ante='S010: he (Khalil)'
+[P15-EN-024] personal 'Khalil’s whereabouts' S012 ante='S011: he was not there'
+[P15-EN-026] personal 'he' S013 ante='S012: Khalil'
+[P15-EN-032] personal 'Khalil’s detention' S017 ante='S010: he was being held'
+[P15-EN-044] personal 'him' S023 ante='S022: Khalil'
+[P15-EN-050] personal 'The university’s' S026 ante='S024: a new Columbia University office'
+[P15-EN-053] personal 'He' S027 ante='S026: Khalil'
+[P15-EN-054] personal 'They' S030 ante='S024: a new Columbia University office (investigators)'
+[P15-EN-055] personal 'It’s' S031 ante='S024: a new Columbia University office'
+[P15-VI-006] personal 'bà Greer' S004 ante='S003: bà'
+[P15-VI-024] personal 'anh ấy' S010 ante='S009: Khalil'
+[P15-VI-046] personal 'Họ' S025 ante='S019: văn phòng mới (investigators)'
+
+===== P16 =====
+[P16-EN-011] personal 'it’s' S006 ante='S005: the Russian market'
+[P16-EN-025] personal 'they' S014 ante='S013: they (operators and hoteliers)'
+[P16-VI-028] personal 'họ' S014 ante='S013: họ'
+
+===== P17 =====
+[P17-EN-010] personal 'They' S006 ante='S005: rubber farmers'
+[P17-EN-012] personal 'he' S007 ante='S005: Yium'
+[P17-EN-022] personal 'he' S012 ante='S011: a key industry broker'
+[P17-EN-034] personal 'he' S016 ante='S015: the CEO'
+[P17-VI-011] personal 'Họ' S006 ante='S005: nhà trồng cao su'
+
+===== P19 =====
+[P19-EN-019] personal 'our case' S010 ante='S006: the case (Zapala’s)'
+[P19-VI-023] personal 'vụ kiện của chúng tôi' S011 ante='S007: vụ kiện này (Zapala’s)'
+
+===== P20 =====
+[P20-EN-011] personal "It's" S007 ante='S005: The red card (the system)'
+[P20-EN-016] personal 'What you have done' S010 ante='S009: you haven’t done enough'
+[P20-EN-024] personal 'It' S014 ante='S013: The organization'
+[P20-EN-032] personal 'It' S018 ante='S017: This (a red card)'
+[P20-EN-034] personal 'he' S018 ante='S006: Steve Trent'
+[P20-EN-035] personal "It's" S019 ante='S018: It (the red card)'
+[P20-EN-039] personal 'It' S022 ante='S021: A new study'
+[P20-EN-048] personal 'they' S027 ante='S024: (importing countries implied)'
+[P20-EN-056] personal 'It' S031 ante='S030: the Port States Measures Agreement'
+[P20-EN-061] personal 'it' S032 ante='S031: It (the agreement)'
+[P20-EN-067] personal 'it' S034 ante='S033: illegal fish'
+[P20-EN-070] personal "It's" S036 ante='S033: The agreement'
+[P20-EN-083] personal "We're" S043 ante='S041: Long (quoted speaker)'
+[P20-EN-092] personal 'they' S047 ante='S040: the U.S., the European Union, Japan'
+[P20-EN-093] personal 'it' S047 ante='S040: the shape of fishing'
+[P20-EN-095] personal 'his research' S048 ante='S024: a researcher'
+[P20-EN-102] personal "they're" S052 ante='S051: they’re'
+[P20-EN-119] personal 'It' S060 ante='S059: a global satellite vessel monitoring system'
+[P20-VI-034] personal 'Ông' S021 ante='S020: ông Pramod Ganapathiraju'
+[P20-VI-069] personal 'họ' S038 ante='S036: Các nhà phân phối'

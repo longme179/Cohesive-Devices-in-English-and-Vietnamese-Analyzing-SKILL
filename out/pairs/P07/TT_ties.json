@@ -13,7 +13,8 @@
    "ante": "S001: Bài viết này",
    "conf": "high",
    "alt": null,
-   "note": "đây là câu chuyện"
+   "note": "đây là câu chuyện",
+   "ref": "A"
   },
   {
    "id": "P07-VI-002",
@@ -39,7 +40,8 @@
    "ante": "S003: Tiếng Anh Úc có thực sự là tiếng Anh không?",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P07-VI-004",
@@ -78,7 +80,8 @@
    "ante": "S008: cách người Úc dùng từ (the examples)",
    "conf": "med",
    "alt": null,
-   "note": "chắc chắn đó là tiếng Anh"
+   "note": "chắc chắn đó là tiếng Anh",
+   "ref": "A"
   },
   {
    "id": "P07-VI-007",
@@ -117,7 +120,9 @@
    "ante": "S001: Bài viết này (authorial chúng ta)",
    "conf": "med",
    "alt": null,
-   "note": "authorial chúng ta"
+   "note": "authorial chúng ta",
+   "ref": "E",
+   "ref_reason": "authorial chúng ta (author + readers)"
   },
   {
    "id": "P07-VI-010",
@@ -143,7 +148,9 @@
    "ante": "S011: chúng ta",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "E",
+   "ref_reason": "authorial chúng ta chain"
   },
   {
    "id": "P07-VI-012",
@@ -156,7 +163,9 @@
    "ante": "S012: Chúng ta",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "E",
+   "ref_reason": "authorial chúng ta chain"
   },
   {
    "id": "P07-VI-013",
@@ -234,7 +243,9 @@
    "ante": "S011: chúng ta",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "E",
+   "ref_reason": "authorial chúng ta chain"
   },
   {
    "id": "P07-VI-019",
@@ -260,7 +271,9 @@
    "ante": "S016: chúng ta",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "E",
+   "ref_reason": "authorial chúng ta chain"
   },
   {
    "id": "P07-VI-021",
@@ -468,7 +481,8 @@
    "ante": "S024: những người sinh ra ở thuộc địa Úc",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P07-VI-037",
@@ -559,7 +573,8 @@
    "ante": "S027: tự hào về địa vị currency lads",
    "conf": "high",
    "alt": null,
-   "note": "nỗi ám ảnh ... này"
+   "note": "nỗi ám ảnh ... này",
+   "ref": "A"
   },
   {
    "id": "P07-VI-044",
@@ -598,7 +613,9 @@
    "ante": "S029-S031: implicit speakers of Australian English",
    "conf": "med",
    "alt": null,
-   "note": "generic ta; weak chain to authorial voice"
+   "note": "generic ta; weak chain to authorial voice",
+   "ref": "E",
+   "ref_reason": "generic ta (Aussie speakers incl. reader)"
   },
   {
    "id": "P07-VI-047",
@@ -741,7 +758,8 @@
    "ante": "S037: các câu chuyện về những kẻ yếu",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P07-VI-058",
@@ -780,7 +798,9 @@
    "ante": "S011: chúng ta (authorial)",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "E",
+   "ref_reason": "authorial chúng ta chain"
   },
   {
    "id": "P07-VI-061",
@@ -1040,7 +1060,9 @@
    "ante": "S039: chúng ta",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "E",
+   "ref_reason": "authorial chúng ta chain"
   },
   {
    "id": "P07-VI-081",
@@ -1170,7 +1192,8 @@
    "ante": "S049: các thành ngữ fair",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P07-VI-091",
@@ -1287,7 +1310,9 @@
    "ante": "S045: chúng ta",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "E",
+   "ref_reason": "authorial chúng ta - người Úc mới và cũ"
   },
   {
    "id": "P07-VI-100",
@@ -1313,7 +1338,9 @@
    "ante": "S022: (authorial voice)",
    "conf": "med",
    "alt": null,
-   "note": "authorial của tôi"
+   "note": "authorial của tôi",
+   "ref": "E",
+   "ref_reason": "authorial của tôi (author unnamed in text)"
   },
   {
    "id": "P07-VI-102",
@@ -1326,7 +1353,8 @@
    "ante": "S056: con trai nhỏ của tôi",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P07-VI-103",
@@ -1365,7 +1393,9 @@
    "ante": "S056: của tôi (the author)",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "E",
+   "ref_reason": "authorial tôi (anecdote, author unnamed)"
   },
   {
    "id": "P07-VI-106",
@@ -1378,7 +1408,8 @@
    "ante": "S057: Nó (my son)",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P07-VI-107",
@@ -1391,7 +1422,8 @@
    "ante": "S057: galah có nghĩa là ngớ ngẩn",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P07-VI-108",
@@ -1404,7 +1436,8 @@
    "ante": "S059: Người Mỹ",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P07-VI-109",
@@ -1417,7 +1450,8 @@
    "ante": "S056: con trai nhỏ của tôi",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P07-VI-110",
@@ -1443,7 +1477,8 @@
    "ante": "S061: các từ ngữ Úc",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P07-VI-112",
@@ -1456,7 +1491,9 @@
    "ante": "S061: của tôi (family/authorial voice)",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "E",
+   "ref_reason": "family/authorial của chúng ta inside the author's anecdote"
   },
   {
    "id": "P07-VI-113",
@@ -1469,7 +1506,8 @@
    "ante": "S059: Nó (my son)",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P07-VI-114",
@@ -1495,7 +1533,9 @@
    "ante": "S058: Tôi",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "E",
+   "ref_reason": "authorial tôi chain"
   },
   {
    "id": "P07-VI-116",

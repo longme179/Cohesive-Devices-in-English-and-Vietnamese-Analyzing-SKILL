@@ -100,7 +100,11 @@ def render_side(pid, pref, lang):
                 fail = True
 
     # ---- antecedent direction check (d) ----
+    # For R ties with ref='E' (exophoric) the ante field is informational only
+    # (chain anchor or extra-textual description): no S-id is required.
     for t in ties:
+        if t['cat'] == 'R' and t.get('ref') == 'E':
+            continue
         nums = [int(n) for n in SENT_RE.findall(t.get('ante') or '')]
         if not nums:
             qc.append(f'FAIL (d): {t["id"]}: ante has no sentence id: {t.get("ante")!r}')
@@ -112,6 +116,16 @@ def render_side(pid, pref, lang):
         if t.get('dir') == 'cata' and min(nums) <= tnum:
             qc.append(f'FAIL (d): {t["id"]}: cata antecedent {t["ante"]!r} not after {t["sent"]}')
             fail = True
+
+    # ---- reference direction check (f) ----
+    refs = Counter()
+    for t in ties:
+        if t['cat'] == 'R':
+            if t.get('ref') not in ('A', 'C', 'E'):
+                qc.append(f'FAIL (f): {t["id"]}: R tie without valid ref (A/C/E)')
+                fail = True
+            else:
+                refs[t['ref']] += 1
 
     # ---- insert markers (build marked flow) ----
     # insert from the end to keep positions valid; ties at same start: text first
@@ -146,7 +160,9 @@ def render_side(pid, pref, lang):
     title = meta['title_en'] if lang == 'EN' else meta['title_vi']
     legend = ('**Legend:** ' + ' | '.join(
         f"{c['emoji']} {c['name']} (`{k}`)" for k, c in CATS.items()) +
-        ' — ellipsis gap: \U0001F7E6\u27E6\u2205\u27E7')
+        ' — ellipsis gap: \U0001F7E6\u27E6\u2205\u27E7' +
+        '\n\n**Reference direction (A/C/E):** each R tie carries a superscript '
+        'letter — A = anaphoric, C = cataphoric, E = exophoric.')
     header = (f'# {pid} — {"Source text (ST, English)" if lang=="EN" else "Target text (TT, Vietnamese)"}\n\n'
               f'**Title:** {title}\n\n'
               f'**Framework:** ' + ('Halliday & Hasan (1976)' if lang == 'EN'
@@ -174,15 +190,24 @@ def render_side(pid, pref, lang):
             last = a
         else:
             parts.append(htmlmod.escape(flow[last:a]))
-            tip = f"{CATS[t['cat']]['name']} ({t['cat']}/{t['sub']}) | {t.get('ante','')} | conf={t['conf']}"
+            tip = f"{CATS[t['cat']]['name']} ({t['cat']}/{t['sub']})"
+            if t['cat'] == 'R':
+                refname = {'A': 'anaphoric', 'C': 'cataphoric',
+                           'E': 'exophoric'}.get(t.get('ref'), '?')
+                tip += f" | dir: {refname} ({t.get('ref')})"
+            tip += f" | ante: {t.get('ante','')} | conf={t['conf']}"
             if t.get('alt'): tip += f" | alt: {t['alt']}"
-            parts.append(f'<span class="tie" style="background-color:{CATS[t['cat']]['color']}" title="{htmlmod.escape(tip)}">{htmlmod.escape(flow[a:b])}</span>')
+            sup = (f"<sup>{t['ref']}</sup>"
+                   if t['cat'] == 'R' and t.get('ref') else '')
+            parts.append(f'<span class="tie" style="background-color:{CATS[t['cat']]['color']}" title="{htmlmod.escape(tip)}">{htmlmod.escape(flow[a:b])}{sup}</span>')
             last = b
     parts.append(htmlmod.escape(flow[last:]))
     body = ''.join(parts).replace('\n', '<br>\n')
-    legend_html = '<p class="legend">' + ' '.join(
+    legend_html = ('<p class="legend">' + ' '.join(
         f'<span class="tie" style="background-color:{c["color"]}">{c["emoji"]} {c["name"]}</span>'
-        for k, c in CATS.items()) + '</p>'
+        for k, c in CATS.items()) + '</p>' +
+        '<p class="legend">Reference (R) direction: <b>A</b> = anaphoric, '
+        '<b>C</b> = cataphoric, <b>E</b> = exophoric (superscript letter on each R tie).</p>')
     html_doc = f'''<!DOCTYPE html>
 <html lang="{'en' if lang=='EN' else 'vi'}">
 <head>
@@ -216,6 +241,8 @@ span.tie {{ padding: 0 1px; border-radius: 3px; cursor: help; }}
     status = 'PASS' if not fail else 'FAIL'
     qc.insert(0, f'QC {pid} {lang} ({pref}): {status}')
     qc.append(f'(e) counts: {dict(sorted(counts.items()))}')
+    if refs:
+        qc.append(f'(f) R direction: {dict(sorted(refs.items()))}')
     qc.append(f'confidence: {dict(sorted(confs.items()))}')
     qc.append(f'sentences: {len(seg["sentences"])}, ties: {len(ties)}')
     with open(f'{d}/{pref}_qc.txt', 'w') as f:

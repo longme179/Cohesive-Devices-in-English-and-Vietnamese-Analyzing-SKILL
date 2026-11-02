@@ -1,4 +1,5 @@
 QC P17 EN (ST): PASS
 (e) counts: {'C': 3, 'L': 41, 'R': 5}
+(f) R direction: {'A': 5}
 confidence: {'high': 36, 'low': 2, 'med': 11}
 sentences: 22, ties: 49

@@ -6,6 +6,8 @@
 
 **Legend:** 🟨 Reference (`R`) | 🟩 Substitution (`S`) | 🟦 Ellipsis (`E`) | 🟧 Conjunction (`C`) | 🟪 Lexical cohesion (`L`) — ellipsis gap: 🟦⟦∅⟧
 
+**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric.
+
 ---
 
 Các quan chức di trú liên bang Mỹ đã bắt giữ một sinh viên sau đại học người Palestine, vốn đóng vai trò nổi bật trong các cuộc biểu tình chống Israel vào mùa xuân năm ngoái tại Đại học Columbia, theo luật sư của anh cho biết.

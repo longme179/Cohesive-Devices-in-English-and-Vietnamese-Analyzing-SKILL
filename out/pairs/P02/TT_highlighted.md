@@ -6,6 +6,8 @@
 
 **Legend:** 🟨 Reference (`R`) | 🟩 Substitution (`S`) | 🟦 Ellipsis (`E`) | 🟧 Conjunction (`C`) | 🟪 Lexical cohesion (`L`) — ellipsis gap: 🟦⟦∅⟧
 
+**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric.
+
 ---
 
 Phân tích mới đây đã xác định 20 "điểm nóng" trên khắp cả nước, nơi thanh niên đang đối mặt với tình trạng vô gia cư hoặc chật vật tìm kiếm một nơi ở.

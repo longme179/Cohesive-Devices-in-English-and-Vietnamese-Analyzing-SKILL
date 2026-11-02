@@ -234,7 +234,8 @@
    "ante": "S006: bà Alexandra Shriane",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P04-VI-019",
@@ -260,7 +261,8 @@
    "ante": "S008: 7 đến 9 tiếng",
    "conf": "high",
    "alt": null,
-   "note": "Con số này"
+   "note": "Con số này",
+   "ref": "A"
   },
   {
    "id": "P04-VI-021",
@@ -377,7 +379,8 @@
    "ante": "S011: Bà Shriane",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P04-VI-030",
@@ -390,7 +393,8 @@
    "ante": "S012: Một số người",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P04-VI-031",
@@ -715,7 +719,8 @@
    "ante": "S026: bà Shriane",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P04-VI-056",

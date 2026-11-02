@@ -78,7 +78,8 @@
    "ante": "S005: bà Nicola Powell (quoted speaker)",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P08-VI-007",
@@ -104,7 +105,8 @@
    "ante": "S006: nhu cầu của người mua giảm",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P08-VI-009",
@@ -130,7 +132,8 @@
    "ante": "S006: người mua",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P08-VI-011",
@@ -143,7 +146,8 @@
    "ante": "S005: bà Nicola Powell",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P08-VI-012",
@@ -494,7 +498,8 @@
    "ante": "S017: Bà Powell",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P08-VI-039",
@@ -949,7 +954,8 @@
    "ante": "S034: Bà Powell",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P08-VI-074",
@@ -1001,7 +1007,8 @@
    "ante": "S019: chúng tôi (Powell)",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   }
  ]
 }

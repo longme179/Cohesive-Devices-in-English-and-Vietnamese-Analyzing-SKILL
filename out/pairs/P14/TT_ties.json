@@ -52,7 +52,8 @@
    "ante": "S003: người nhập cư",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P14-VI-005",
@@ -65,7 +66,8 @@
    "ante": "S003: (the administration speaker)",
    "conf": "med",
    "alt": null,
-   "note": "institutional chúng tôi"
+   "note": "institutional chúng tôi",
+   "ref": "A"
   },
   {
    "id": "P14-VI-006",
@@ -78,7 +80,8 @@
    "ante": "S003: người nhập cư",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P14-VI-007",
@@ -91,7 +94,8 @@
    "ante": "S003: người nhập cư",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P14-VI-008",

@@ -234,7 +234,8 @@
    "ante": "S009: a very large class action",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P19-EN-019",
@@ -247,7 +248,8 @@
    "ante": "S006: the case (Zapala’s)",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P19-EN-020",
@@ -572,7 +574,8 @@
    "ante": "S001: Travelers who flew",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P19-EN-045",

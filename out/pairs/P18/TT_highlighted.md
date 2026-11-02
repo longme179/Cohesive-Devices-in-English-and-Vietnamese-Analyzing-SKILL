@@ -6,6 +6,8 @@
 
 **Legend:** 🟨 Reference (`R`) | 🟩 Substitution (`S`) | 🟦 Ellipsis (`E`) | 🟧 Conjunction (`C`) | 🟪 Lexical cohesion (`L`) — ellipsis gap: 🟦⟦∅⟧
 
+**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric.
+
 ---
 
 BANGKOK — Quĩ Nhi đồng Liên hiệp quốc (UNICEF) cho biết gần 250.000 trẻ em tại một số tiểu bang của Myanmar vẫn còn cần tới sự hỗ trợ nhân đạo. Trong lời kêu gọi quyên góp lớn nhất từ trước tới nay của 🟪⟦UNICEF⟧, 🟪⟦tổ chức này⟧ nói rằng 🟪⟦Myanmar⟧ nằm trong số các quốc gia ưu tiên trong khu vực cần được giúp đỡ trong năm 2015. Từ Bangkok, thông tín viên Steve Herman gởi về bài tường thuật.

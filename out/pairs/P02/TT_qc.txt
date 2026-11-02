@@ -1,4 +1,5 @@
 QC P02 VI (TT): PASS
 (e) counts: {'C': 4, 'L': 127, 'R': 22}
+(f) R direction: {'A': 22}
 confidence: {'high': 105, 'low': 2, 'med': 46}
 sentences: 45, ties: 153

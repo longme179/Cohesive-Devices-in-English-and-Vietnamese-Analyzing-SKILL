@@ -338,7 +338,8 @@
    "ante": "S007: Thủ tướng Anthony Albanese",
    "conf": "med",
    "alt": null,
-   "note": "institutional chúng tôi"
+   "note": "institutional chúng tôi",
+   "ref": "A"
   },
   {
    "id": "P03-VI-027",
@@ -364,7 +365,8 @@
    "ante": "S008: Chúng tôi",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P03-VI-029",
@@ -416,7 +418,8 @@
    "ante": "S007: Thủ tướng Anthony Albanese",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P03-VI-033",
@@ -806,7 +809,8 @@
    "ante": "S013: Larissa Waters",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P03-VI-063",
@@ -1001,7 +1005,8 @@
    "ante": "S018: Jonathan Sriranganathan",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P03-VI-078",
@@ -1248,7 +1253,8 @@
    "ante": "S022-S024: Những thay đổi được đề xuất / Giới hạn",
    "conf": "high",
    "alt": null,
-   "note": "Những đề xuất này"
+   "note": "Những đề xuất này",
+   "ref": "A"
   },
   {
    "id": "P03-VI-097",
@@ -1430,7 +1436,8 @@
    "ante": "S026-S028: dự luật / giới hạn chi tiêu",
    "conf": "high",
    "alt": null,
-   "note": "đề xuất này"
+   "note": "đề xuất này",
+   "ref": "A"
   },
   {
    "id": "P03-VI-111",

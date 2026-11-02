@@ -169,7 +169,8 @@
    "ante": "S007: aid organizations (UNICEF)",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P18-EN-014",
@@ -221,7 +222,8 @@
    "ante": "S008: We",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P18-EN-018",
@@ -234,7 +236,8 @@
    "ante": "S008: We",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P18-EN-019",
@@ -260,7 +263,8 @@
    "ante": "S009: We",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P18-EN-021",
@@ -364,7 +368,8 @@
    "ante": "S013: we (UNICEF, quoted)",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P18-EN-029",
@@ -377,7 +382,8 @@
    "ante": "S013: we",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P18-EN-030",
@@ -403,7 +409,8 @@
    "ante": "S014: we",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P18-EN-032",
@@ -442,7 +449,8 @@
    "ante": "S015: we",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P18-EN-035",
@@ -455,7 +463,8 @@
    "ante": "S015: the same thing",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P18-EN-036",
@@ -598,7 +607,8 @@
    "ante": "S018-S019: recovery struggles and conflict",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P18-EN-047",
@@ -637,7 +647,8 @@
    "ante": "S004-S020: the country appeals",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P18-EN-050",

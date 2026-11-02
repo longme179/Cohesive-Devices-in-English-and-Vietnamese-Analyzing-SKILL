@@ -13,7 +13,8 @@
    "ante": "S001: bị cấm bán hải sản",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-VI-002",
@@ -39,7 +40,8 @@
    "ante": "S001-S002: the EU crackdown",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-VI-004",
@@ -169,7 +171,8 @@
    "ante": "S009: đưa ra những lời đe dọa",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-VI-014",
@@ -195,7 +198,8 @@
    "ante": "S008: Ông Steve Trent (quoted speaker)",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-VI-016",
@@ -218,10 +222,11 @@
    "cat": "R",
    "sub": "personal",
    "dir": "ana",
-   "ante": "S011: Chúng ta",
+   "ante": "S011: Ủy hội Âu châu (lời trích dẫn gián tiếp trong câu Trent)",
    "conf": "med",
    "alt": null,
-   "note": "speaker chain"
+   "note": "trích dẫn gián tiếp: chúng tôi = Ủy hội Âu châu",
+   "ref": "A"
   },
   {
    "id": "P20-VI-018",
@@ -403,7 +408,8 @@
    "ante": "S018: 40% cá ngừ bất hợp pháp",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-VI-032",
@@ -442,7 +448,8 @@
    "ante": "S020: ông Pramod Ganapathiraju",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-VI-035",
@@ -533,7 +540,8 @@
    "ante": "S021: thị trường nhập khẩu (countries)",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-VI-042",
@@ -780,7 +788,8 @@
    "ante": "S031: đưa cá vào cảng",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-VI-061",
@@ -806,7 +815,8 @@
    "ante": "S032: nguồn lực tốn kém",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-VI-063",
@@ -858,7 +868,8 @@
    "ante": "S036: nơi gây tắc nghẽn",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-VI-067",
@@ -884,7 +895,8 @@
    "ante": "S021: Hoa Kỳ",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-VI-069",
@@ -897,7 +909,8 @@
    "ante": "S036: Các nhà phân phối",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-VI-070",
@@ -910,7 +923,8 @@
    "ante": "S036: tắc nghẽn (the bottleneck)",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P20-VI-071",

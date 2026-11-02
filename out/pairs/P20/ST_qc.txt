@@ -1,4 +1,5 @@
 QC P20 EN (ST): PASS
 (e) counts: {'L': 88, 'R': 32}
+(f) R direction: {'A': 32}
 confidence: {'high': 89, 'med': 31}
 sentences: 60, ties: 120

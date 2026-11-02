@@ -322,10 +322,12 @@
    "cat": "R",
    "sub": "personal",
    "dir": "ana",
-   "ante": "S008: bạn (the reader addressed)",
+   "ante": "ngoài văn bản: người đọc (bối cảnh phát ngôn)",
    "conf": "high",
    "alt": null,
-   "note": "same addressee chain"
+   "note": "địa chỉ hoá người đọc (exophoric); EN counterpart \"you\" không đánh dấu theo quy ước gộp của phép liên kết",
+   "ref": "E",
+   "ref_reason": "reader-addressing bạn (bối cảnh phát ngôn)"
   },
   {
    "id": "P09-VI-026",
@@ -858,7 +860,8 @@
    "ante": "S023: bác sĩ Michael Wright",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P09-VI-067",
@@ -1157,7 +1160,8 @@
    "ante": "S030: bác sĩ Rebekah Hoffman",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P09-VI-090",

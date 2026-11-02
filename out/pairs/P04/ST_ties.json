@@ -13,7 +13,8 @@
    "ante": "S002: Almost 3 in 4 (71 per cent) Australians",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P04-EN-002",
@@ -312,7 +313,8 @@
    "ante": "S009: Shriane",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P04-EN-025",
@@ -325,7 +327,8 @@
    "ante": "S009: the Finder study",
    "conf": "high",
    "alt": null,
-   "note": "other than the Finder study"
+   "note": "other than the Finder study",
+   "ref": "A"
   },
   {
    "id": "P04-EN-026",
@@ -403,7 +406,8 @@
    "ante": "S012: seven to nine hours of quality sleep",
    "conf": "high",
    "alt": null,
-   "note": "This figure"
+   "note": "This figure",
+   "ref": "A"
   },
   {
    "id": "P04-EN-032",
@@ -507,7 +511,8 @@
    "ante": "S012: Shriane",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P04-EN-040",
@@ -520,7 +525,8 @@
    "ante": "S014: she",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P04-EN-041",
@@ -559,7 +565,8 @@
    "ante": "S015: She",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P04-EN-044",
@@ -728,7 +735,8 @@
    "ante": "S022: women",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P04-EN-057",
@@ -793,7 +801,8 @@
    "ante": "S018: other groups",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P04-EN-062",
@@ -936,7 +945,8 @@
    "ante": "S027: Shriane",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P04-EN-073",
@@ -1040,7 +1050,8 @@
    "ante": "S031: effects on immune system, brain, mood",
    "conf": "med",
    "alt": null,
-   "note": "these impacts; impacts ~ effects synonym"
+   "note": "these impacts; impacts ~ effects synonym",
+   "ref": "A"
   },
   {
    "id": "P04-EN-081",
@@ -1170,7 +1181,8 @@
    "ante": "S035: Shriane",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P04-EN-091",

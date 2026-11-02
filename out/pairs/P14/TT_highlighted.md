@@ -6,6 +6,8 @@
 
 **Legend:** 🟨 Reference (`R`) | 🟩 Substitution (`S`) | 🟦 Ellipsis (`E`) | 🟧 Conjunction (`C`) | 🟪 Lexical cohesion (`L`) — ellipsis gap: 🟦⟦∅⟧
 
+**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric.
+
 ---
 
 Chính quyền Trump ngày 10/3 ra mắt một ứng dụng mới, cho phép những người nhập cư đang ở Mỹ trái phép ‘tự trục xuất’ thay vì đối mặt với khả năng bị bắt giam, mở rộng chính sách trục xuất của Tổng thống Donald Trump.

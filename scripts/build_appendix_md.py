@@ -45,6 +45,21 @@ CATS = {
 CAT_EMOJI = {c['emoji']: k for k, c in CATS.items()}
 EMOJI_CLASS = ''.join(CAT_EMOJI)
 
+REF_NAMES = {'A': 'anaphoric', 'C': 'cataphoric', 'E': 'exophoric'}
+
+# H&H (1976) category <-> Trần Ngọc Thêm (2006) device correspondence
+FRAMEWORK_MAP = [
+    ('R', 'reference (personal, demonstrative, comparative, quantified)',
+     'phép thế đại từ (đại từ / chỉ từ) — cùng nhóm với S'),
+    ('S', 'substitution (nominal, verbal, clausal)',
+     'phép thế đại từ (phần thế danh từ / động từ / mệnh đề)'),
+    ('E', 'ellipsis', 'phép tỉnh lược'),
+    ('C', 'conjunction (adversative, additive, temporal, causal)',
+     'phép nối'),
+    ('L', 'lexical cohesion (repetition, synonymy, antonymy, collocation)',
+     'phép lặp, phép đối, phép thế đồng nghĩa, phép liên tưởng'),
+]
+
 DOC_TITLE = 'Appendix 1 — 20 cặp bài báo EN–VI (có đánh dấu ngữ nghĩa)'
 INTRO = ('Bản tiếng Anh (EN) đánh dấu theo Halliday & Hasan (1976); bản tiếng Việt (VI) '
          'đánh dấu theo Trần Ngọc Thêm (2006, dẫn theo Nguyễn Thanh Tùng 2020), quy về '
@@ -149,12 +164,17 @@ def tie_tip(t):
     if t is None:
         return None
     c = CATS[t['cat']]
+    dirbit = ''
+    if t['cat'] == 'R':
+        r = t.get('ref')
+        if r in REF_NAMES:
+            dirbit = f" | dir: {REF_NAMES[r]} ({r})"
     if t.get('text') is None:
         tip = (f"{c['en']} ({t['cat']}/{t.get('sub', '')}) | gap after: "
                f"{t.get('gap_after', '')} | recovered: {t.get('recovered', '')} | "
                f"ante: {t.get('ante', '')}")
     else:
-        tip = (f"{c['en']} ({t['cat']}/{t.get('sub', '')}) | ante: "
+        tip = (f"{c['en']} ({t['cat']}/{t.get('sub', '')}){dirbit} | ante: "
                f"{t.get('ante', '')} | conf={t.get('conf', '')}")
         if t.get('alt'):
             tip += f" | alt: {t['alt']}"
@@ -556,6 +576,8 @@ class HighlightExtractor:
                 text = self.plain[m['fa']:min(m['fb'], pe)]
                 segs.append({'t': text, 'cat': m['cat'], 'point': False,
                              'tip': tie_tip(tie),
+                             'ref': (tie.get('ref') if tie and tie['cat'] == 'R'
+                                     else None),
                              'id': tie['id'] if tie else None})
             last = max(last, m['fb'])
             self.rendered += 1
@@ -743,7 +765,9 @@ def md_side(side):
     parts = []
     for s in side['segs']:
         if s.get('cat'):
-            parts.append(span_open_md(s['cat']) + s['t'] + '</span>')
+            sup = (f"<sup>{s['ref']}</sup>"
+                   if s['cat'] == 'R' and s.get('ref') else '')
+            parts.append(span_open_md(s['cat']) + s['t'] + sup + '</span>')
         else:
             parts.append(s['t'])
     return clean_cell(''.join(parts))
@@ -783,7 +807,9 @@ def html_side(side):
                      f'color:{c["fg"]}"')
             if s.get('tip'):
                 attrs += f' title="{H.escape(s["tip"], quote=True)}"'
-            parts.append(f'<span {attrs}>{H.escape(s["t"])}</span>')
+            sup = (f'<sup>{s["ref"]}</sup>'
+                   if s['cat'] == 'R' and s.get('ref') else '')
+            parts.append(f'<span {attrs}>{H.escape(s["t"])}{sup}</span>')
         else:
             parts.append(H.escape(s['t']))
     return ''.join(parts).replace('\n', ' ')
@@ -807,6 +833,9 @@ th, td { border: 1px solid #c9c9c9; vertical-align: top; padding: 6px 10px;
 th { background: #efefef; text-align: center; font-family: Arial, sans-serif; }
 tr.titles td { background: #fafafa; }
 span.tie { padding: 0 3px; border-radius: 3px; cursor: help; }
+span.tie sup { font-size: .75em; font-weight: bold; }
+table.framework { font-size: .92em; }
+table.framework th, table.framework td { width: auto; }
 .legend { margin: 1.2em 0; }
 .legend span.tie { margin-right: .6em; padding: 1px 6px; }
 a { color: #0b57d0; }
@@ -824,11 +853,30 @@ def build_html_doc(pair_sections):
         f'<span class="tie" style="background-color:{c["bg"]};color:{c["fg"]}">'
         f'{k} — {c["en"]} ({c["vi"]})</span>'
         for k, c in CATS.items())
+    ref_note = ('<p class="note"><b>Hướng tham chiếu (R):</b> mỗi khối R kèm '
+                'chữ mũ — <b>A</b> = anaphoric (hồi quy: tiền trạm nằm trước '
+                'trong văn bản), <b>C</b> = cataphoric (tiến chỉ: tiền trạm nằm '
+                'sau), <b>E</b> = exophoric (ngoại văn bản: tiền trạm trong bối '
+                'cảnh phát ngôn — người viết / độc giả). Toàn ngữ liệu không có '
+                'trường hợp C liên-câu. Chữ mũ E này khác ký hiệu danh mục '
+                '<span class="tie" style="background-color:#BBDEFB;color:#1E3A8A">'
+                'E</span> = lược bỏ.</p>')
+    fw_rows = '\n'.join(
+        f'<tr><td style="text-align:center"><b>{k}</b></td>'
+        f'<td>{H.escape(en)}</td><td>{H.escape(vi)}</td></tr>'
+        for k, en, vi in FRAMEWORK_MAP)
+    fw_table = ('<p class="note"><b>Khung lý thuyết / đối chiếu danh mục '
+                '(EN: Halliday &amp; Hasan 1976 — VI: Trần Ngọc Thêm 2006):</b></p>'
+                '<table class="framework"><tr><th>Ký hiệu</th>'
+                '<th>Tiếng Anh — Halliday &amp; Hasan (1976)</th>'
+                '<th>Tiếng Việt — Trần Ngọc Thêm (2006)</th></tr>'
+                f'{fw_rows}</table>')
     head = (HTML_CSS
             .replace('__TITLE__', H.escape(DOC_TITLE))
             .replace('__INTRO__', H.escape(INTRO))
             .replace('__LEGEND__', legend))
-    return head + '\n'.join(pair_sections) + '\n</body>\n</html>\n'
+    return (head + ref_note + fw_table + '\n' + '\n'.join(pair_sections)
+            + '\n</body>\n</html>\n')
 
 
 # ============================================================
@@ -892,7 +940,29 @@ def main():
         swatch = (f'<span style="background-color:{c["bg"]};color:{c["fg"]};'
                   f'padding:1px 8px;border-radius:3px">&nbsp;{k}&nbsp;</span>')
         md_out.append(f'| {swatch} | {k} {c["emoji"]} | {c["en"]} — {c["vi"]} |')
-    md_out += ['', MD_NOTE, '']
+    md_out += ['',
+               '**Hướng tham chiếu (R — A/C/E):** mỗi khối R kèm chữ mũ: '
+               '<sup>A</sup> = anaphoric (hồi quy — tiền trạm nằm trước trong '
+               'văn bản), <sup>C</sup> = cataphoric (tiến chỉ — tiền trạm nằm '
+               'sau), <sup>E</sup> = exophoric (ngoại văn bản — tiền trạm trong '
+               'bối cảnh phát ngôn: người viết / độc giả). Toàn ngữ liệu không '
+               'có trường hợp C liên-câu. (Chữ mũ <sup>E</sup> này khác ký hiệu '
+               'danh mục E = lược bỏ.)',
+               '',
+               '**Khung lý thuyết / đối chiếu danh mục** (EN: Halliday & Hasan '
+               '1976 — VI: Trần Ngọc Thêm 2006, dẫn theo Nguyễn Thanh Tùng '
+               '2020):',
+               '',
+               '| Ký hiệu | Tiếng Anh — Halliday & Hasan (1976) | Tiếng Việt — Trần Ngọc Thêm (2006) |',
+               '| :--- | :--- | :--- |']
+    for k, en, vi in FRAMEWORK_MAP:
+        md_out.append(f'| **{k}** | {en} | {vi} |')
+    md_out += ['',
+               '> Đối chiếu gần đúng giữa hai khung: phép thế đại từ ≈ reference '
+               '+ substitution; phép tỉnh lược ≈ ellipsis; phép nối ≈ '
+               'conjunction; phép lặp, phép đối, phép thế đồng nghĩa, phép liên '
+               'tưởng ≈ lexical cohesion.',
+               '', MD_NOTE, '']
 
     html_sections = []
     all_pairs_ir = []
@@ -1038,6 +1108,9 @@ def main():
         'title': DOC_TITLE, 'intro': INTRO,
         'cats': {k: {'bg': c['bg'], 'fg': c['fg'], 'en': c['en'], 'vi': c['vi']}
                  for k, c in CATS.items()},
+        'ref_names': REF_NAMES,
+        'framework_map': [
+            {'key': k, 'en': en, 'vi': vi} for k, en, vi in FRAMEWORK_MAP],
         'totals': grand,
         'pairs': all_pairs_ir,
     }

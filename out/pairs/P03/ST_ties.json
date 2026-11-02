@@ -299,7 +299,8 @@
    "ante": "S011: Prime Minister Anthony Albanese",
    "conf": "med",
    "alt": null,
-   "note": "institutional we of the government"
+   "note": "institutional we of the government",
+   "ref": "A"
   },
   {
    "id": "P03-EN-024",
@@ -312,7 +313,8 @@
    "ante": "S012: We",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P03-EN-025",
@@ -351,7 +353,8 @@
    "ante": "S011: Prime Minister Anthony Albanese",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P03-EN-028",
@@ -559,7 +562,8 @@
    "ante": "S016: Melissa McIntosh",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P03-EN-044",
@@ -624,7 +628,8 @@
    "ante": "S017: a bill to stop gambling ads",
    "conf": "med",
    "alt": null,
-   "note": "calling for it"
+   "note": "calling for it",
+   "ref": "A"
   },
   {
    "id": "P03-EN-049",
@@ -1404,7 +1409,8 @@
    "ante": "S035: Climate200",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P03-EN-109",

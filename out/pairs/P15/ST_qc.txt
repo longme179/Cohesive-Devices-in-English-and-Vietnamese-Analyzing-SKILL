@@ -1,4 +1,5 @@
 QC P15 EN (ST): PASS
 (e) counts: {'C': 1, 'L': 38, 'R': 16}
+(f) R direction: {'A': 16}
 confidence: {'high': 46, 'low': 1, 'med': 8}
 sentences: 31, ties: 55

@@ -1,4 +1,5 @@
 QC P07 EN (ST): PASS
 (e) counts: {'C': 5, 'E': 1, 'L': 84, 'R': 31}
+(f) R direction: {'A': 19, 'E': 12}
 confidence: {'high': 94, 'low': 2, 'med': 25}
 sentences: 66, ties: 121

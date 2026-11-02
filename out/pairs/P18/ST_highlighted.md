@@ -6,6 +6,8 @@
 
 **Legend:** 🟨 Reference (`R`) | 🟩 Substitution (`S`) | 🟦 Ellipsis (`E`) | 🟧 Conjunction (`C`) | 🟪 Lexical cohesion (`L`) — ellipsis gap: 🟦⟦∅⟧
 
+**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric.
+
 ---
 
 BANGKOK — The United Nations Childrens' Fund says nearly a quarter of a million children in several states in Myanmar remain in need of humanitarian support. 🟪⟦UNICEF⟧ says 🟪⟦Myanmar⟧, also known as Burma, is among its regional priorities in 2015, part of 🟪⟦the U.N. organization’s⟧ largest-ever funding appeal.

@@ -143,7 +143,8 @@
    "ante": "S005: thị trường Nga (implied)",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P16-VI-012",
@@ -195,7 +196,8 @@
    "ante": "S005: Bà Suladda (quoted speaker)",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P16-VI-016",
@@ -364,7 +366,8 @@
    "ante": "S013: họ",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P16-VI-029",

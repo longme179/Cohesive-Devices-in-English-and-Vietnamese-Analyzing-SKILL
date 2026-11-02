@@ -286,7 +286,8 @@
    "ante": "S010: một vụ kiện tập thể",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P19-VI-023",
@@ -299,7 +300,8 @@
    "ante": "S007: vụ kiện này (Zapala’s)",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P19-VI-024",
@@ -585,7 +587,8 @@
    "ante": "S003: Hành khách",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P19-VI-046",

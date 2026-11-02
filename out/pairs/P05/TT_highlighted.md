@@ -6,6 +6,8 @@
 
 **Legend:** 🟨 Reference (`R`) | 🟩 Substitution (`S`) | 🟦 Ellipsis (`E`) | 🟧 Conjunction (`C`) | 🟪 Lexical cohesion (`L`) — ellipsis gap: 🟦⟦∅⟧
 
+**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric.
+
 ---
 
 Những người sử dụng lao động cố tình trả lương thấp hơn cho nhân viên của mình sẽ có nguy cơ phải đối mặt với các cáo buộc hình sự theo luật có hiệu lực vào ngày 1 tháng 1.

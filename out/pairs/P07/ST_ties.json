@@ -13,7 +13,8 @@
    "ante": "S001: This article",
    "conf": "high",
    "alt": null,
-   "note": "this is the tale"
+   "note": "this is the tale",
+   "ref": "A"
   },
   {
    "id": "P07-EN-002",
@@ -39,7 +40,8 @@
    "ante": "S003: Is Australian English really English?",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P07-EN-004",
@@ -67,7 +69,8 @@
    "ante": "S005-S007: mate / Crikey examples",
    "conf": "high",
    "alt": null,
-   "note": "This is confusing"
+   "note": "This is confusing",
+   "ref": "A"
   },
   {
    "id": "P07-EN-006",
@@ -93,7 +96,8 @@
    "ante": "S008: This (the way Australians communicate)",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P07-EN-008",
@@ -132,7 +136,9 @@
    "ante": "S001: This article (authorial we)",
    "conf": "med",
    "alt": null,
-   "note": "authorial we"
+   "note": "authorial we",
+   "ref": "E",
+   "ref_reason": "authorial we (author + readers), no in-text NP"
   },
   {
    "id": "P07-EN-011",
@@ -158,7 +164,9 @@
    "ante": "S011: We",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "E",
+   "ref_reason": "authorial we chain"
   },
   {
    "id": "P07-EN-013",
@@ -171,7 +179,9 @@
    "ante": "S012: We",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "E",
+   "ref_reason": "authorial we chain"
   },
   {
    "id": "P07-EN-014",
@@ -236,7 +246,9 @@
    "ante": "S011: we (English speakers)",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "E",
+   "ref_reason": "authorial us (English speakers incl. reader)"
   },
   {
    "id": "P07-EN-019",
@@ -262,7 +274,9 @@
    "ante": "S016: us",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "E",
+   "ref_reason": "authorial us chain"
   },
   {
    "id": "P07-EN-021",
@@ -392,7 +406,9 @@
    "ante": "S001: This article (authorial we)",
    "conf": "med",
    "alt": null,
-   "note": "authorial our"
+   "note": "authorial our",
+   "ref": "E",
+   "ref_reason": "authorial our"
   },
   {
    "id": "P07-EN-031",
@@ -483,7 +499,8 @@
    "ante": "S024: those born in the Australian colony",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P07-EN-038",
@@ -574,7 +591,8 @@
    "ante": "S027: pride in being currency lads",
    "conf": "high",
    "alt": null,
-   "note": "this obsession"
+   "note": "this obsession",
+   "ref": "A"
   },
   {
    "id": "P07-EN-045",
@@ -613,7 +631,8 @@
    "ante": "S031: The word Australian",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P07-EN-048",
@@ -756,7 +775,8 @@
    "ante": "S037: an underdog story",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P07-EN-059",
@@ -795,7 +815,9 @@
    "ante": "S022: our history (authorial we)",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "E",
+   "ref_reason": "authorial we chain"
   },
   {
    "id": "P07-EN-062",
@@ -912,7 +934,8 @@
    "ante": "S041: dinkum",
    "conf": "high",
    "alt": null,
-   "note": "links it to"
+   "note": "links it to",
+   "ref": "A"
   },
   {
    "id": "P07-EN-071",
@@ -951,7 +974,8 @@
    "ante": "S042: it (dinkum)",
    "conf": "high",
    "alt": null,
-   "note": "attributes it to"
+   "note": "attributes it to",
+   "ref": "A"
   },
   {
    "id": "P07-EN-074",
@@ -1055,7 +1079,8 @@
    "ante": "S039: we",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P07-EN-082",
@@ -1185,7 +1210,8 @@
    "ante": "S049: fair go idioms",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P07-EN-092",
@@ -1315,7 +1341,9 @@
    "ante": "S039: we",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "E",
+   "ref_reason": "authorial us - new Australians and old"
   },
   {
    "id": "P07-EN-102",
@@ -1341,7 +1369,9 @@
    "ante": "S022: our history (authorial voice)",
    "conf": "med",
    "alt": null,
-   "note": "authorial my"
+   "note": "authorial my",
+   "ref": "E",
+   "ref_reason": "authorial my (author unnamed in text)"
   },
   {
    "id": "P07-EN-104",
@@ -1354,7 +1384,8 @@
    "ante": "S056: my young son",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P07-EN-105",
@@ -1393,7 +1424,9 @@
    "ante": "S056: my (the author)",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "E",
+   "ref_reason": "authorial I (anecdote, author unnamed)"
   },
   {
    "id": "P07-EN-108",
@@ -1406,7 +1439,8 @@
    "ante": "S057: He (my son)",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P07-EN-109",
@@ -1419,7 +1453,8 @@
    "ante": "S057: galah means stupid",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P07-EN-110",
@@ -1432,7 +1467,8 @@
    "ante": "S059: Americans",
    "conf": "high",
    "alt": null,
-   "note": "them"
+   "note": "them",
+   "ref": "A"
   },
   {
    "id": "P07-EN-111",
@@ -1445,7 +1481,8 @@
    "ante": "S056: my young son",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P07-EN-112",
@@ -1471,7 +1508,8 @@
    "ante": "S061: Australian words",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P07-EN-114",
@@ -1484,7 +1522,9 @@
    "ante": "S061: my ... (the family/authorial voice)",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "E",
+   "ref_reason": "family/authorial our inside the author's own anecdote"
   },
   {
    "id": "P07-EN-115",
@@ -1497,7 +1537,8 @@
    "ante": "S059: He (my son)",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P07-EN-116",
@@ -1523,7 +1564,9 @@
    "ante": "S058: I",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "E",
+   "ref_reason": "authorial I chain"
   },
   {
    "id": "P07-EN-118",

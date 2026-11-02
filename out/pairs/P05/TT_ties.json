@@ -65,7 +65,8 @@
    "ante": "S002: luật trộm cắp tiền lương mới",
    "conf": "med",
    "alt": null,
-   "note": "new code referring back to the laws"
+   "note": "new code referring back to the laws",
+   "ref": "A"
   },
   {
    "id": "P05-VI-006",
@@ -325,7 +326,8 @@
    "ante": "S010-S014: payment change details",
    "conf": "low",
    "alt": null,
-   "note": "thêm thông tin; quantity reference"
+   "note": "thêm thông tin; quantity reference",
+   "ref": "A"
   },
   {
    "id": "P05-VI-026",
@@ -390,7 +392,8 @@
    "ante": "S017: 412 đô la hộ chiếu",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P05-VI-031",
@@ -754,7 +757,8 @@
    "ante": "S036: chủ sở hữu bất động sản",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P05-VI-059",

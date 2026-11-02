@@ -1,4 +1,5 @@
 QC P08 VI (TT): PASS
 (e) counts: {'C': 8, 'L': 62, 'R': 7}
+(f) R direction: {'A': 7}
 confidence: {'high': 61, 'med': 16}
 sentences: 37, ties: 77

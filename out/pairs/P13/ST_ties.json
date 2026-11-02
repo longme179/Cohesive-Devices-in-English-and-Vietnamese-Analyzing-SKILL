@@ -52,7 +52,8 @@
    "ante": "S002: the reclusive state",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P13-EN-005",
@@ -221,7 +222,8 @@
    "ante": "S006: Park (director of the NIS)",
    "conf": "med",
    "alt": null,
-   "note": "his = Park (person who answered disambiguated)"
+   "note": "his = Park (person who answered disambiguated)",
+   "ref": "A"
   },
   {
    "id": "P13-EN-018",
@@ -325,7 +327,8 @@
    "ante": "S011: an official written invitation",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P13-EN-026",
@@ -351,7 +354,8 @@
    "ante": "S011: Vatican officials",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P13-EN-028",
@@ -390,7 +394,8 @@
    "ante": "S001-S002: the possible visit",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   }
  ]
 }

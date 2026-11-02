@@ -6,6 +6,8 @@
 
 **Legend:** 🟨 Reference (`R`) | 🟩 Substitution (`S`) | 🟦 Ellipsis (`E`) | 🟧 Conjunction (`C`) | 🟪 Lexical cohesion (`L`) — ellipsis gap: 🟦⟦∅⟧
 
+**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric.
+
 ---
 
 Giám đốc cơ quan tình báo Hàn Quốc cho biết ông đang làm việc về khả năng Giáo hoàng Francis thực hiện chuyến thăm tới Triều Tiên, một hãng thông tấn Công giáo có liên hệ với Vatican cho biết.

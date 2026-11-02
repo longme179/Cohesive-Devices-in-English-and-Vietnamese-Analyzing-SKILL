@@ -104,7 +104,8 @@
    "ante": "S004: too-low prices",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P17-EN-009",
@@ -130,7 +131,8 @@
    "ante": "S005: rubber farmers",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P17-EN-011",
@@ -156,7 +158,8 @@
    "ante": "S005: Yium",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P17-EN-013",
@@ -286,7 +289,8 @@
    "ante": "S011: a key industry broker",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P17-EN-023",
@@ -442,7 +446,8 @@
    "ante": "S015: the CEO",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P17-EN-035",

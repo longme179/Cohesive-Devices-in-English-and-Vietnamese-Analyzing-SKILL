@@ -312,7 +312,8 @@
    "ante": "S011: Youth Allowance ... recipients",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P05-EN-025",
@@ -364,7 +365,8 @@
    "ante": "S011-S015: details of the changes",
    "conf": "low",
    "alt": null,
-   "note": "More details; quantity reference"
+   "note": "More details; quantity reference",
+   "ref": "A"
   },
   {
    "id": "P05-EN-029",
@@ -442,7 +444,8 @@
    "ante": "S018: $412 passport cost",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P05-EN-035",
@@ -650,7 +653,8 @@
    "ante": "S027: six months",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P05-EN-051",
@@ -663,7 +667,8 @@
    "ante": "S028: progression to higher classifications",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P05-EN-052",
@@ -715,7 +720,8 @@
    "ante": "S030: A ban on the importation",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P05-EN-056",
@@ -910,7 +916,8 @@
    "ante": "S035: welfare recipient groups implied",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P05-EN-071",
@@ -1261,7 +1268,8 @@
    "ante": "S053: Victorian property owners",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P05-EN-098",

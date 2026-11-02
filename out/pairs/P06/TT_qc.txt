@@ -1,4 +1,5 @@
 QC P06 VI (TT): PASS
 (e) counts: {'C': 5, 'L': 46, 'R': 2}
+(f) R direction: {'A': 2}
 confidence: {'high': 33, 'med': 20}
 sentences: 24, ties: 53

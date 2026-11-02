@@ -6,6 +6,8 @@
 
 **Legend:** 🟨 Reference (`R`) | 🟩 Substitution (`S`) | 🟦 Ellipsis (`E`) | 🟧 Conjunction (`C`) | 🟪 Lexical cohesion (`L`) — ellipsis gap: 🟦⟦∅⟧
 
+**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric.
+
 ---
 
 Cựu Tổng thống Mỹ Donald Trump có thể sẽ thu hút được phiếu bầu của một nhóm cử tri ủng hộ một ứng viên khác. Robert F. Kennedy Jr. mới đây tuyên bố ủng hộ 🟪⟦Trump⟧, ứng cử viên tổng thống của Đảng Cộng hòa.

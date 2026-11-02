@@ -6,6 +6,8 @@
 
 **Legend:** 🟨 Reference (`R`) | 🟩 Substitution (`S`) | 🟦 Ellipsis (`E`) | 🟧 Conjunction (`C`) | 🟪 Lexical cohesion (`L`) — ellipsis gap: 🟦⟦∅⟧
 
+**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric.
+
 ---
 
 Chỉ tệ Nga tuột giá đang gây ra quan ngại nghiêm trọng cho công nghiệp du lịch trị giá nhiều tỷ đôla của Thái Lan, vốn đã bị thiệt hại trong năm vừa qua vì tình hình chính trị đảo lộn với cao điểm là vụ đảo chính không đổ máu ngày 22 tháng 5.

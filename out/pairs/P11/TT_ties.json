@@ -65,7 +65,8 @@
    "ante": "S003: chính phủ lập sẵn",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P11-VI-006",
@@ -195,7 +196,8 @@
    "ante": "S008: chính quyền (the incoming teams)",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P11-VI-016",
@@ -1144,7 +1146,8 @@
    "ante": "S043: những người trong cuộc",
    "conf": "med",
    "alt": null,
-   "note": "quoted question"
+   "note": "quoted question",
+   "ref": "A"
   },
   {
    "id": "P11-VI-089",
@@ -1261,7 +1264,8 @@
    "ante": "S048: Ông Muller (addressing the team)",
    "conf": "med",
    "alt": null,
-   "note": "generic bạn in quote"
+   "note": "generic bạn in quote",
+   "ref": "A"
   },
   {
    "id": "P11-VI-098",
@@ -1339,7 +1343,8 @@
    "ante": "S050-S051: vịt què limits",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P11-VI-104",

@@ -221,7 +221,8 @@
    "ante": "S009: Quy trình ETIAS",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P06-VI-018",
@@ -676,7 +677,8 @@
    "ante": "S020: một phát ngôn viên của ACCC",
    "conf": "med",
    "alt": null,
-   "note": "institutional chúng tôi"
+   "note": "institutional chúng tôi",
+   "ref": "A"
   },
   {
    "id": "P06-VI-053",

@@ -338,7 +338,8 @@
    "ante": "S006: a new adult patient without concessions",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P09-EN-027",
@@ -351,7 +352,8 @@
    "ante": "S007: Cleanbill",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P09-EN-028",
@@ -364,7 +366,8 @@
    "ante": "S007: this data",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P09-EN-029",
@@ -1248,7 +1251,8 @@
    "ante": "S028: Breadon",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P09-EN-097",

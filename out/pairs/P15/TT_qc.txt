@@ -1,4 +1,5 @@
 QC P15 VI (TT): PASS
 (e) counts: {'C': 1, 'L': 40, 'R': 6}
+(f) R direction: {'A': 6}
 confidence: {'high': 35, 'low': 7, 'med': 5}
 sentences: 26, ties: 47

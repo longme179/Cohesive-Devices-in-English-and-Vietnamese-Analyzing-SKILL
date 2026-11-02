@@ -52,7 +52,8 @@
    "ante": "S003: aliens",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P14-EN-005",
@@ -65,7 +66,8 @@
    "ante": "S003: (the administration speaker)",
    "conf": "med",
    "alt": null,
-   "note": "institutional we"
+   "note": "institutional we",
+   "ref": "A"
   },
   {
    "id": "P14-EN-006",
@@ -78,7 +80,8 @@
    "ante": "S003: aliens",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P14-EN-007",
@@ -91,7 +94,8 @@
    "ante": "S003: aliens",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P14-EN-008",

@@ -6,6 +6,8 @@
 
 **Legend:** 🟨 Reference (`R`) | 🟩 Substitution (`S`) | 🟦 Ellipsis (`E`) | 🟧 Conjunction (`C`) | 🟪 Lexical cohesion (`L`) — ellipsis gap: 🟦⟦∅⟧
 
+**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric.
+
 ---
 
 BANGKOK — Hành khách của 8 hãng hàng không bay xuyên Thái Bình Dương trong khoảng thời gian từ năm 2000 đến nay sẽ được chia tiền thắng kiện từ một vụ kiện tập thể liên quan đến vụ lũng đoạn giá vé. Từ Bangkok, thông tín viên Steve Herman của đài VOA tường trình rằng 🟪⟦vụ kiện⟧ đang tiếp tục với 🟪⟦5 hãng máy bay⟧ khác về một hành vi tương tự.

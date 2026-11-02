@@ -6,6 +6,8 @@
 
 **Legend:** 🟨 Reference (`R`) | 🟩 Substitution (`S`) | 🟦 Ellipsis (`E`) | 🟧 Conjunction (`C`) | 🟪 Lexical cohesion (`L`) — ellipsis gap: 🟦⟦∅⟧
 
+**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric.
+
 ---
 
 Một nhà kinh tế học dự đoán rằng năm 2025 sẽ là “một năm thú vị” đối với thị trường địa ốc Úc. Liệu tình hình sẽ có lợi cho người mua nhà trong năm nay?

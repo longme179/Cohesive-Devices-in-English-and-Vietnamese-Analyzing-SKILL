@@ -104,7 +104,8 @@
    "ante": "S004: giá quá thấp",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P17-VI-009",
@@ -143,7 +144,8 @@
    "ante": "S005: nhà trồng cao su",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P17-VI-012",

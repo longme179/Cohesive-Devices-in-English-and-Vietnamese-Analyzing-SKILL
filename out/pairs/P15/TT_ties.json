@@ -78,7 +78,8 @@
    "ante": "S003: bà",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P15-VI-007",
@@ -182,7 +183,8 @@
    "ante": "S004: Hoa Kỳ",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P15-VI-015",
@@ -299,7 +301,8 @@
    "ante": "S008: Luật sư Greer (quoted)",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P15-VI-024",
@@ -312,7 +315,8 @@
    "ante": "S009: Khalil",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P15-VI-025",
@@ -546,7 +550,8 @@
    "ante": "S020: cáo buộc kỷ luật",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P15-VI-043",
@@ -598,7 +603,8 @@
    "ante": "S019: văn phòng mới (investigators)",
    "conf": "med",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P15-VI-047",

@@ -6,6 +6,8 @@
 
 **Legend:** 🟨 Reference (`R`) | 🟩 Substitution (`S`) | 🟦 Ellipsis (`E`) | 🟧 Conjunction (`C`) | 🟪 Lexical cohesion (`L`) — ellipsis gap: 🟦⟦∅⟧
 
+**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric.
+
 ---
 
 BANGKOK — Travelers who flew on eight airlines across the Pacific between 2000 and this year are eligible for benefits from a class action lawsuit involving ticket price-fixing. 🟪⟦A lawsuit⟧ continues against 🟪⟦five more air carriers⟧ accused of the same thing.

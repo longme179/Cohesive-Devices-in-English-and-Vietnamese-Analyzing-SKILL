@@ -169,7 +169,8 @@
    "ante": "S008: The ETIAS process",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P06-EN-014",
@@ -546,7 +547,8 @@
    "ante": "S019: an ACCC spokesperson",
    "conf": "med",
    "alt": null,
-   "note": "institutional our"
+   "note": "institutional our",
+   "ref": "A"
   },
   {
    "id": "P06-EN-043",
@@ -793,7 +795,8 @@
    "ante": "S030: the driving force",
    "conf": "med",
    "alt": null,
-   "note": "It’s the ability"
+   "note": "It’s the ability",
+   "ref": "A"
   },
   {
    "id": "P06-EN-062",
@@ -806,7 +809,8 @@
    "ante": "S030: Content creators",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P06-EN-063",
@@ -871,7 +875,8 @@
    "ante": "S032: community-driven travel and human connection",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P06-EN-068",
@@ -923,7 +928,8 @@
    "ante": "S034: demanding eco-conscious options",
    "conf": "high",
    "alt": null,
-   "note": null
+   "note": null,
+   "ref": "A"
   },
   {
    "id": "P06-EN-072",

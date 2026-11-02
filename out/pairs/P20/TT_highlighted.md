@@ -6,6 +6,8 @@
 
 **Legend:** 🟨 Reference (`R`) | 🟩 Substitution (`S`) | 🟦 Ellipsis (`E`) | 🟧 Conjunction (`C`) | 🟪 Lexical cohesion (`L`) — ellipsis gap: 🟦⟦∅⟧
 
+**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric.
+
 ---
 
 BANGKOK — Tháng tới, Nam Triều Tiên có thể trở thành quốc gia đã phát triển đầu tiên bị cấm bán hải sản cho Châu Âu. 🟨⟦Điều này⟧ xảy ra giữa lúc có sự truy dẹp chưa từng có từ trước đến nay, do 🟪⟦Liên hiệp Châu Âu⟧ lãnh đạo nhắm vào nạn đánh bắt cá bất hợp pháp. 🟨⟦Vấn đề này⟧ đang gây chú ý nhiều hơn tại 🟪⟦Hoa Kỳ⟧, nơi một cuộc nghiên cứu mới cho thấy một phần 3 hải sản nhập khẩu được đánh bắt bất hợp pháp hay không có giấy tờ hợp lệ.Thông tín viên Steve Herman thuộc văn phòng Đông Nam Á của Đài VOA ở Bangkok tường trình chi tiết.

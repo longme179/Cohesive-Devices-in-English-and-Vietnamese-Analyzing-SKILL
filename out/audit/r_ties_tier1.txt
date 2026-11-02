@@ -1,0 +1,582 @@
+[P01-EN-012] personal | item='we' | S007 | ante='S006: Professor Stuart Khan / University of Sydney (institutional we)' | conf=med | note=institutional we of quoted speaker
+    SENT: "But instead of discharging it to the environment, we take it through an advanced water treatment plant where it is purified to a very high degree so that it can be safely and reliably put back into drinking water supplies."
+
+[P01-EN-054] personal | item='our' | S022 | ante='S018: Sydney Water (speaker institution)' | conf=med | note=institutional our
+    SENT: "Firstly, to test the technology and prove how well it works in our scenario.
+
+[P01-EN-059] personal | item='our' | S024 | ante='S018: Sydney Water' | conf=med | note=institutional our
+    SENT: And lastly, to give our operations team the opportunity to train and learn on a testing facility," he says.
+
+[P01-EN-062] personal | item='We' | S025 | ante='S018: Sydney Water' | conf=med | note=institutional we
+    SENT: "We love having the public come out here and have the conversation with us about what the technology is, and all the work that goes into it to ensure that the water is safe and reliable."
+
+[P01-EN-064] demonstrative | item='here' | S025 | ante='S021: Purified Recycled Water Discovery Centre' | conf=med | note=place deixis to centre
+    SENT: "We love having the public come out here and have the conversation with us about what the technology is, and all the work that goes into it to ensure that the water is safe and reliable."
+
+[P01-EN-075] comparative | item='other' | S029 | ante='S028: an example of one' | conf=high | note=comparative reference
+    SENT: "There are other examples in San Diego [in California] going back 20 years as well: There was a lack of support that led to a project not going ahead.
+
+[P01-EN-126] demonstrative | item='That' | S047 | ante='S046: 80 gigalitres a year' | conf=high | note=pronominal demonstrative
+    SENT: That's more than a quarter of the water used by south-east Queensland's 3.8 million residents.
+
+[P02-EN-015] personal | item='I' | S006 | ante='S005: She said (Tyrah, quoted speaker)' | conf=med | note=first person in quote
+    SENT: "I struggled a lot with shame for a long time ... it still sometimes stings just to say it," she said.
+
+[P02-EN-020] personal | item='we' | S008 | ante='S002: Tyrah Chan-Hampton (quoted speaker)' | conf=med | note=first person in quote; my/me/us same chain, one mark
+    SENT: "Even when my mum struggled with domestic violence and had to leave her house with me and my siblings, we never thought that was experiencing homelessness ... there's so much stigma around it and so much shame [surrounding] the word homelessness that many of us didn't want to identify with that."
+
+[P02-EN-043] personal | item='we' | S016 | ante='S015: Corin Moffatt (quoted speaker)' | conf=med | note=institutional we
+    SENT: "What we see when we look at that list is quite a diversity of areas that are experiencing that combination of challenges for young people," she said.
+
+[P02-EN-044] personal | item='we' | S016 | ante='S015: Corin Moffatt' | conf=med
+    SENT: "What we see when we look at that list is quite a diversity of areas that are experiencing that combination of challenges for young people," she said.
+
+[P02-EN-047] demonstrative | item='that' | S016 | ante='S015: unemployment and school-completion rates' | conf=med | note=that combination of challenges
+    SENT: "What we see when we look at that list is quite a diversity of areas that are experiencing that combination of challenges for young people," she said.
+
+[P02-EN-050] personal | item='We' | S017 | ante='S016: we (Moffat)' | conf=med
+    SENT: "We see a mix of regional centres, some more remote communities, and some inner metropolitan areas ... so I think what it shows is that the problem is very widespread and young people across the country are facing these challenges."
+
+[P02-EN-087] personal | item='we' | S025 | ante='S024: she (Moffat)' | conf=med
+    SENT: "And so what we see too often is young people cycling through crisis services because there's no pathway for them out of the system."
+
+[P02-EN-100] personal | item='we' | S029 | ante='S028: he (MacKenzie, quoted speaker)' | conf=med
+    SENT: "If we don't act to prevent it and to reduce the flow of people and young people in particular into homelessness, then the problem continues."
+
+[P02-EN-132] demonstrative | item='this' | S039 | ante='S038: reform agenda' | conf=high | note=As part of this
+    SENT: "As part of this, the government is making significant investments to support people who are homeless or at risk of homelessness.
+
+[P02-EN-137] demonstrative | item='This' | S040 | ante='S039: significant investments' | conf=high
+    SENT: This includes young people who are at risk of, or who are experiencing, homelessness."
+
+[P03-EN-023] personal | item='We' | S012 | ante='S011: Prime Minister Anthony Albanese' | conf=med | note=institutional we of the government
+    SENT: "We've introduced BetStop, which has helped people substantially.
+
+[P03-EN-024] personal | item='We' | S013 | ante='S012: We' | conf=high
+    SENT: We've banned the use of credit cards online as well, which was a big issue of sport gambling," he told the Daily Aus podcast.
+
+[P04-EN-001] demonstrative | item='That' | S003 | ante='S002: Almost 3 in 4 (71 per cent) Australians' | conf=high
+    SENT: That's an estimated 14.8 million adults who are struggling with their sleep.
+
+[P04-EN-025] comparative | item='Other' | S011 | ante='S009: the Finder study' | conf=high | note=other than the Finder study
+    SENT: Other research from the Australian Institute of Health and Welfare (AIHW) suggests a more conservative number, with a 2016 study estimating that 66 per cent of adults had at least one sleep problem, and almost half (48 per cent) had at least two sleep-related problems.
+
+[P04-EN-031] demonstrative | item='This' | S013 | ante='S012: seven to nine hours of quality sleep' | conf=high | note=This figure
+    SENT: This figure is based on thousands of studies from across the world, which have found people who regularly get less than seven hours of sleep are much more likely to develop a wide range of poor health and wellbeing outcomes.
+
+[P04-EN-061] demonstrative | item='Those' | S024 | ante='S018: other groups' | conf=med
+    SENT: Those with some health conditions that cause fatigue will likely need more hours too.
+
+[P04-EN-080] demonstrative | item='these' | S032 | ante='S031: effects on immune system, brain, mood' | conf=med | note=these impacts; impacts ~ effects synonym
+    SENT: For those who are chronically deprived, these impacts can build up over time and can be hard to reverse.
+
+[P05-EN-024] demonstrative | item='Those' | S014 | ante='S011: Youth Allowance ... recipients' | conf=med
+    SENT: Those on the Disability Support Pension will receive an increase of up to $30.10 a fortnight.
+
+[P05-EN-028] comparative | item='More' | S016 | ante='S011-S015: details of the changes' | conf=low | note=More details; quantity reference
+    SENT: More details can be found here.
+
+[P05-EN-034] demonstrative | item='This' | S019 | ante='S018: $412 passport cost' | conf=high
+    SENT: This would further solidify Australia's status as having one of the most expensive passports in the world.
+
+[P05-EN-050] demonstrative | item='this period' | S028 | ante='S027: six months' | conf=high
+    SENT: Employees must progress to higher classifications with increased pay once this period ends, based on demonstrated competencies.
+
+[P05-EN-051] demonstrative | item='This' | S029 | ante='S028: progression to higher classifications' | conf=high
+    SENT: This is expected to help prevent employees from being paid under the minimum wage.
+
+[P05-EN-070] demonstrative | item='those' | S036 | ante='S035: welfare recipient groups implied' | conf=med
+    SENT: The change applies to those in select welfare recipient groups and will mean fewer trips to the doctor for medical certificates if you're sick or injured and unable to work.
+
+[P05-EN-097] demonstrative | item='Those' | S055 | ante='S053: Victorian property owners' | conf=high
+    SENT: Those renting out their principal place of residence will be excluded.
+
+[P06-EN-042] personal | item='our' | S023 | ante='S019: an ACCC spokesperson' | conf=med | note=institutional our
+    SENT: However, our November 2024 report notes that the price of jet fuel in September 2024 was at its lowest since September 2021."
+
+[P06-EN-067] demonstrative | item='That' | S033 | ante='S032: community-driven travel and human connection' | conf=high
+    SENT: That's going to be the new standard, much like how sustainability used to be a buzzword, it's now a non-negotiable.
+
+[P06-EN-071] demonstrative | item='that' | S035 | ante='S034: demanding eco-conscious options' | conf=high
+    SENT: Destinations are going to need to respond to that by prioritising regenerative tourism, protecting the local environments and cultures while supporting local communities."
+
+[P07-EN-001] demonstrative | item='this' | S002 | ante='S001: This article' | conf=high | note=this is the tale
+    SENT: From “larrikin” to “dinkum”, this is the tale of how Australians have made the English language their own.
+
+[P07-EN-003] demonstrative | item='this question' | S004 | ante='S003: Is Australian English really English?' | conf=high
+    SENT: The unique way Australians communicate has led to many people, particularly new Australians, asking this question.
+
+[P07-EN-005] demonstrative | item='This' | S008 | ante='S005-S007: mate / Crikey examples' | conf=high | note=This is confusing
+    SENT: This is confusing.
+
+[P07-EN-010] personal | item='we' | S011 | ante='S001: This article (authorial we)' | conf=med | note=authorial we
+    SENT: If we listen closely enough to English, we hear the clashing and clanging of Viking axes and swords.
+
+[P07-EN-012] personal | item='We' | S012 | ante='S011: We' | conf=high
+    SENT: We hear the rowdy revelry of fancy French feasts.
+
+[P07-EN-013] personal | item='We' | S013 | ante='S012: We' | conf=high
+    SENT: We hear a galloping American cowboy yell “hee-haw”.
+
+[P07-EN-018] personal | item='us' | S016 | ante='S011: we (English speakers)' | conf=med
+    SENT: “Fancy” French “nobles” gave us “cuisine” (all French words).
+
+[P07-EN-020] personal | item='us' | S017 | ante='S016: us' | conf=med
+    SENT: American cowboys gave us “tall tales” - colourful stories too outlandish to be true.
+
+[P07-EN-030] personal | item='our' | S022 | ante='S001: This article (authorial we)' | conf=med | note=authorial our
+    SENT: Aussie ways of speaking are wrapped up in our history and our relationships.
+
+[P07-EN-044] demonstrative | item='this' | S028 | ante='S027: pride in being currency lads' | conf=high | note=this obsession
+    SENT: Over the next 100 years, this obsession with being informal was embedded in Australia.
+
+[P07-EN-058] demonstrative | item='These stories' | S038 | ante='S037: an underdog story' | conf=high
+    SENT: These stories - or yarns - have been key to the Aussie experience.
+
+[P07-EN-061] personal | item='We' | S039 | ante='S022: our history (authorial we)' | conf=med
+    SENT: We even tell yarns about our English words to give them a more Aussie feel.
+
+[P07-EN-091] demonstrative | item='These' | S050 | ante='S049: fair go idioms' | conf=high
+    SENT: These humorous idioms are important to the way Aussies interact.
+
+[P07-EN-101] personal | item='us' | S055 | ante='S039: we' | conf=med
+    SENT: And, yet, Australian English is also defined by us - new Australians and old, and the way we relate to one another.
+
+[P07-EN-107] personal | item='I' | S058 | ante='S056: my (the author)' | conf=high
+    SENT: I laughed and said, “Yep”.
+
+[P07-EN-109] demonstrative | item='that' | S059 | ante='S057: galah means stupid' | conf=high
+    SENT: He asked, “Do Americans know that?”.
+
+[P07-EN-114] personal | item='our' | S062 | ante='S061: my ... (the family/authorial voice)' | conf=med
+    SENT: They’re our words and other people don’t know them”.
+
+[P07-EN-117] personal | item='I' | S065 | ante='S058: I' | conf=high
+    SENT: I am not sure that “pink-atoo” will ever catch on.
+
+[P08-EN-008] personal | item='we' | S006 | ante='S005: Nicola Powell (quoted speaker)' | conf=med
+    SENT: "What we have seen is a pullback in buyer demand.
+
+[P08-EN-010] demonstrative | item='That' | S007 | ante='S006: a pullback in buyer demand' | conf=high
+    SENT: That doesn't mean demand goes away — it means people delay their decisions," Powell said.
+
+[P08-EN-041] personal | item='we' | S019 | ante='S017: Powell' | conf=med
+    SENT: It's underperformed as a market since 2020, but in the final quarter of 2024, we saw growth," Powell said.
+
+[P08-EN-043] demonstrative | item='This' | S020 | ante='S019: growth in the final quarter of 2024' | conf=high
+    SENT: "This reflects value building up over time and activating buyers, particularly first-home buyers.
+
+[P08-EN-048] demonstrative | item='those two movements in price' | S022 | ante='S021: Sydney and Melbourne price cycles' | conf=high
+    SENT: There is a strong relationship between those two movements in price but this hasn't been the case really since 2020 and we've seen Melbourne really struggle to move into an established recovery."
+
+[P08-EN-049] demonstrative | item='this' | S022 | ante='S021: strong relationship between the cycles' | conf=high
+    SENT: There is a strong relationship between those two movements in price but this hasn't been the case really since 2020 and we've seen Melbourne really struggle to move into an established recovery."
+
+[P08-EN-060] demonstrative | item='these changes' | S026 | ante='S023-S025: price falls' | conf=high
+    SENT: Regional and smaller markets have not been immune to these changes either.
+
+[P08-EN-086] personal | item='we' | S039 | ante='S019: we (Powell)' | conf=med
+    SENT: But what could be the change is when we start to see a rate-lifting cycle from the RBA (Reserve Bank of Australia)."
+
+[P09-EN-026] demonstrative | item='such patients' | S007 | ante='S006: a new adult patient without concessions' | conf=high
+    SENT: Cleanbill collects this data by calling clinics and asking whether they provide bulk billing to such patients.
+
+[P10-EN-011] demonstrative | item='This' | S008 | ante='S007: fewer interest rate cuts in the US' | conf=high
+    SENT: This has led to an appreciation of the US dollar against other currencies, including the Australian dollar," he said.
+
+[P10-EN-019] demonstrative | item='That' | S013 | ante='S012: tariffs raising prices' | conf=high
+    SENT: That in turn will affect the value of the Australian dollar," he explained.
+
+[P10-EN-024] personal | item='our' | S014 | ante='S011: Greg Jericho (authorial our)' | conf=med
+    SENT: "The Australian dollar is often viewed as a bit of a proxy for the Chinese economy due to our exports."
+
+[P10-EN-028] demonstrative | item='this' | S016 | ante='S015: imports more expensive' | conf=high
+    SENT: Jericho said this most significantly affects petrol prices, which are entirely dependent on global markets.
+
+[P11-EN-004] comparative | item='such' | S005 | ante='S004: shadow government system' | conf=high | note=no such system
+    SENT: The United States has no such system.
+
+[P11-EN-028] comparative | item='Other' | S019 | ante='S015-S018: symbolic traditions' | conf=high
+    SENT: Other practices are more consequential.
+
+[P11-EN-033] comparative | item='Neither' | S021 | ante='S016-S020: the two traditions' | conf=high
+    SENT: Neither practice is written into law, but much else about the transition is legally mandated.
+
+[P11-EN-045] demonstrative | item='these' | S026 | ante='S022-S025: legal provisions' | conf=high
+    SENT: Although these are recent additions to the law, an orderly presidential succession has been the norm through most of American history.
+
+[P11-EN-059] demonstrative | item='this year’s election' | S030 | ante='S002: the November 5 U.S. election' | conf=high
+    SENT: With Trump swiftly declared the winner of this year’s election, the pendulum has swung back toward established protocol.
+
+[P11-EN-076] demonstrative | item='This' | S037 | ante='S035: fill more than 4,000 positions' | conf=high
+    SENT: This massive recruitment effort takes time and resources.
+
+[P11-EN-086] demonstrative | item='these announcements' | S042 | ante='S041: personnel announcements' | conf=high
+    SENT: But while these announcements dominate the news cycle, the real work of presidential succession often takes place behind closed doors.
+
+[P11-EN-104] personal | item='you' | S051 | ante='S050: Muller (addressing the transition team)' | conf=med | note=generic you in quote
+    SENT: “If you’re not able to access those federal agencies, you might come in a step slow about how you’re supposed to take over the apparatus of the federal government,” Muller said in an interview.
+
+[P11-EN-111] demonstrative | item='This' | S054 | ante='S052-S053: lame duck limits' | conf=high
+    SENT: This creates a high-stakes chess game in domestic and global affairs.
+
+[P12-EN-001] quantified | item='the two politicians' | S002 | ante='S001: Robert F. Kennedy Jr. and Donald Trump' | conf=med | note=general word + numeral; quantified reference
+    SENT: VOA's Carolyn Presutti reports from Glendale, Arizona, where the two politicians campaigned together for the first time.
+
+[P13-EN-017] personal | item='his attendance' | S007 | ante='S006: Park (director of the NIS)' | conf=med | note=his = Park (person who answered disambiguated)
+    SENT: On Thursday, a person who answered a call to the church where Park spoke confirmed his attendance but would not confirm any of his comments.
+
+[P13-EN-030] comparative | item='such a trip' | S013 | ante='S001-S002: the possible visit' | conf=high
+    SENT: They said the pope, who has made many appeals for rapprochement between the two Koreas, would consider such a trip under certain conditions if it could help the cause of peace.
+
+[P14-EN-005] personal | item='we' | S004 | ante='S003: (the administration speaker)' | conf=med | note=institutional we
+    SENT: "If they don’t, we will find them, we will deport them, and they will never return.”
+
+[P15-EN-025] personal | item='We' | S013 | ante='S012: she (Greer, quoted)' | conf=med
+    SENT: “We have not been able to get any more details about why he is being detained,” Greer told the AP.
+
+[P15-EN-039] demonstrative | item='This' | S021 | ante='S020: the detention of a legal permanent resident' | conf=high
+    SENT: “This has the appearance of a retaliatory action against someone who expressed an opinion the Trump administration didn’t like,” said Camille Mackler, founder of Immigrant ARC, a coalition of legal service providers in New York.
+
+[P17-EN-008] demonstrative | item='that' | S005 | ante='S004: too-low prices' | conf=high
+    SENT: Yium says that has forced some rubber farmers to put away their tapping knives.
+
+[P18-EN-013] personal | item='We' | S008 | ante='S007: aid organizations (UNICEF)' | conf=med
+    SENT: “We have, at times, on various sites of the communities, challenges on access because emotions run high.
+
+[P18-EN-017] personal | item='We' | S009 | ante='S008: We' | conf=high
+    SENT: We need to remind everyone we are there providing life-saving support.
+
+[P18-EN-018] personal | item='we' | S009 | ante='S008: We' | conf=high
+    SENT: We need to remind everyone we are there providing life-saving support.
+
+[P18-EN-020] personal | item='We' | S010 | ante='S009: We' | conf=high
+    SENT: We do not take sides,” said van Heese.
+
+[P18-EN-028] personal | item='you' | S014 | ante='S013: we (UNICEF, quoted)' | conf=med
+    SENT: But you need to continue to look for the avenues and the dialogue by which we can deliver this life-saving support that we as an organization commit ourselves to provide to children.
+
+[P18-EN-029] personal | item='we' | S014 | ante='S013: we' | conf=high
+    SENT: But you need to continue to look for the avenues and the dialogue by which we can deliver this life-saving support that we as an organization commit ourselves to provide to children.
+
+[P18-EN-031] personal | item='we' | S015 | ante='S014: we' | conf=high
+    SENT: And we are happy that there are fortunately also still some other agencies that are doing the same thing.
+
+[P18-EN-034] personal | item='we' | S016 | ante='S015: we' | conf=high
+    SENT: So we do this also in a joint fashion,” said van Heese.
+
+[P18-EN-035] demonstrative | item='this' | S016 | ante='S015: the same thing' | conf=high
+    SENT: So we do this also in a joint fashion,” said van Heese.
+
+[P18-EN-046] demonstrative | item='those concerns' | S020 | ante='S018-S019: recovery struggles and conflict' | conf=high
+    SENT: Together, those concerns have UNICEF looking to raise $11 million this year for the Philippines to prevent child morbidity and mortality, allow children access to education and to protect them from violence.
+
+[P18-EN-049] demonstrative | item='This' | S021 | ante='S004-S020: the country appeals' | conf=high
+    SENT: This is all part of a global appeal totaling $3.1 billion, the largest ever by UNICEF and a $1 billion jump in funding needs since last year.
+
+[P19-EN-018] demonstrative | item='that case' | S010 | ante='S009: a very large class action' | conf=high
+    SENT: And many of the defendants in that case are defendants in our case, as well,” said Zapala.
+
+[P19-EN-044] demonstrative | item='Those' | S020 | ante='S001: Travelers who flew' | conf=high
+    SENT: Those who believe they may be eligible for benefits can file a claim form online or by mail.
+
+[P20-EN-007] demonstrative | item='those countries' | S005 | ante='S004: Belize, Cambodia and Guinea' | conf=high
+    SENT: The red card means those countries cannot sell their seafood in EU countries nor fish in member countries' waters.
+
+[P20-EN-012] demonstrative | item='that' | S008 | ante='S007: showing its teeth' | conf=high
+    SENT: And that is what is happening with regard to [South] Korea.
+
+[P20-EN-014] personal | item='We' | S009 | ante='S006: the EJF (quoted speaker)' | conf=med
+    SENT: We are seeing the European Commission saying, 'you haven't done enough," he said.
+
+[P20-EN-017] personal | item='you' | S011 | ante='S010: you' | conf=high
+    SENT: And unless you do more there will be penalties.'"
+
+[P20-EN-029] demonstrative | item='that' | S016 | ante='S015: repercussions beyond maritime commerce' | conf=med
+    SENT: "The other thing that happens is brand Korea gets some damage.
+
+[P20-EN-031] demonstrative | item='This' | S017 | ante='S016: brand Korea gets some damage' | conf=high
+    SENT: This would be an international rebuke.
+
+[P20-EN-036] demonstrative | item='that' | S020 | ante='S019: can’t look after their own responsibilities' | conf=high
+    SENT: And I think in some respects that is perhaps even more damaging for the country than the relatively modest embargo on trade exports."
+
+[P20-EN-042] demonstrative | item='That' | S023 | ante='S022: 40 percent of the tuna ... illegal' | conf=high
+    SENT: That was also the case with 70 percent of salmon imports and 45 percent of pollock, both from China.
+
+[P20-EN-068] demonstrative | item='that' | S035 | ante='S034: bring it to port' | conf=high
+    SENT: Therefore to focus on that rather than the expensive resources that you need to patrol out at sea or draw in space [satellite] surveillance, the ports are the obvious place," said Anthony Long, who runs the Ending Illegal Fishing Project for the Pew Charitable Trust.
+
+[P20-EN-082] demonstrative | item='that evidence' | S042 | ante='S041: conscientious (evidence implied)' | conf=med
+    SENT: "Different suppliers are now getting very interested in the supply chain and providing that evidence to make their product a prime product that isn't going to be linked to bonded labor or tax evasion or over-fishing or any other illegal entity that tends to be linked to these illegal fishermen," said Long.
+
+[P20-EN-089] demonstrative | item="That's" | S046 | ante='S045: The distributors are the bottleneck' | conf=high
+    SENT: "That's where most of the (sea)food comes into this country.
+
+[P20-EN-091] demonstrative | item='this country' | S046 | ante='S028: the United States' | conf=high
+    SENT: "That's where most of the (sea)food comes into this country.
+
+[P20-EN-101] demonstrative | item="That's" | S052 | ante='S049-S051: depletion and rising demand' | conf=high
+    SENT: "That's the reason they're so open to discuss that."
+
+[P20-EN-113] demonstrative | item='all these other countries' | S056 | ante='S055: other nations' | conf=high
+    SENT: "There's an incentive for China and for all these other countries to change and to change fast because at this point 85 percent of all fisheries are at or beyond their biological limits," he said.
+
+[P01-VI-011] personal | item='chúng tôi' | S007 | ante='S006: Giáo sư Stuart Khan (institutional chúng tôi)' | conf=med | note=institutional chúng tôi of quoted speaker
+    SENT: “Nhưng thay vì thải ra môi trường, chúng tôi đưa nước qua một nhà máy xử lý nước tiên tiến, nơi nước được lọc kỹ càng để có thể đưa trở lại nguồn cung cấp nước uống một cách an toàn và đáng tin cậy.”
+
+[P01-VI-016] demonstrative | item='này' | S008 | ante='S005-S007: quá trình tái chế nước' | conf=high | note=hệ thống = general word for the process; demonstrative marked
+    SENT: Người dân Singapore từ lâu đã quen với hệ thống này.
+
+[P01-VI-026] demonstrative | item='này' | S013 | ante='S012: một trung tâm giới thiệu' | conf=high | note=nơi = general word (place)
+    SENT: “Họ có kế hoạch đưa mọi học sinh ở Singapore đến thăm nơi này để tìm hiểu về tái chế nước và tầm quan trọng của việc sử dụng nước bền vững ở Singapore.”
+
+[P01-VI-040] personal | item='Chúng ta' | S019 | ante='S018: Chúng ta' | conf=med | note=referent exophoric (generic) but chain continues textually; no ST counterpart (EN pull quote excluded as display element)
+    SENT: “Chúng ta cần phải chuẩn bị và chủ động trong việc quản lý nguồn cung cấp nước để không còn phụ thuộc vào lượng mưa và nhà máy khử muối duy nhất ở Sydney nữa.”
+
+[P01-VI-045] demonstrative | item='này' | S021 | ante='S020: Nước thải tái chế' | conf=high | note=công nghệ = general word for the process
+    SENT: Công nghệ này hiện được thử nghiệm tại nhà máy xử lý nước thải Quakers Hill ở phía tây bắc Sydney, nơi công chúng được mời đến tham quan.
+
+[P01-VI-054] personal | item='chúng tôi' | S025 | ante='S022: ông Harrington / Sydney Water' | conf=med | note=institutional chúng tôi
+    SENT: Và cuối cùng, để nhóm vận hành của chúng tôi có cơ hội đào tạo và học hỏi tại một cơ sở thử nghiệm,” ông nói.
+
+[P01-VI-057] personal | item='Chúng tôi' | S026 | ante='S025: chúng tôi' | conf=high
+    SENT: “Chúng tôi hoan nghênh người dân đến tham quan và trò chuyện với chúng tôi về công nghệ này, cũng như quy trình bảo đảm nước được xử lý an toàn và đáng tin cậy.”
+
+[P01-VI-060] personal | item='chúng tôi' | S026 | ante='S025: chúng tôi' | conf=high
+    SENT: “Chúng tôi hoan nghênh người dân đến tham quan và trò chuyện với chúng tôi về công nghệ này, cũng như quy trình bảo đảm nước được xử lý an toàn và đáng tin cậy.”
+
+[P01-VI-086] demonstrative | item='này' | S037 | ante='S036: Perth' | conf=high | note=Thành phố = general word for Perth
+    SENT: Thành phố này chủ yếu dựa vào nguồn nước ngầm, nhưng nguồn nước này đã suy giảm trong suốt 30 năm qua.
+
+[P01-VI-089] demonstrative | item='này' | S038 | ante='S033-S034: tái chế nước thải (lĩnh vực = general word)' | conf=med
+    SENT: “Tây Úc là nơi tiên phong trong lĩnh vực này vì nhu cầu cấp bách.
+
+[P01-VI-116] demonstrative | item='này' | S046 | ante='S044: dự án' | conf=high | note=hệ thống = general word for the scheme
+    SENT: Nếu đưa vào sử dụng cho nước uống và công nghiệp, hệ thống này có thể bổ sung thêm 80 gigalitre nước mỗi năm – tương đương 25% tổng lượng nước mà 3,8 triệu cư dân ở đông nam Queensland đang sử dụng.
+
+[P02-VI-010] personal | item='Tôi' | S006 | ante='S002: Tyrah Chan-Hampton (quoted speaker)' | conf=med | note=first person in quote
+    SENT: "Tôi đã vật lộn rất nhiều với cảm giác xấu hổ trong suốt một thời gian dài... đến bây giờ, đôi khi chỉ cần nói ra thôi cũng khiến tôi nhói lòng," cô bộc bạch.
+
+[P02-VI-048] demonstrative | item='này' | S017 | ante='S016: thất nghiệp ... hoàn thành trung học (các thách thức)' | conf=med | note=những thách thức này; head is new lexis
+    SENT: "Khi nhìn vào danh sách này, chúng ta thấy một sự đa dạng về các khu vực đang đối mặt với những thách thức này đối với thanh niên," bà nói.
+
+[P02-VI-066] demonstrative | item='điều đó' | S022 | ante='S021: chỗ ở an toàn và ổn định' | conf=high | note=TT splits the EN sentence, making this cross-sentential
+    SENT: Nếu không có điều đó, họ không thể hoàn thành việc học, không thể tiếp tục học lên, cũng không thể giữ được công việc lâu dài... Khi những yếu tố này kết hợp lại, nó khiến quá nhiều thanh niên rơi vào tình cảnh bế tắc."
+
+[P02-VI-099] demonstrative | item='này' | S030 | ante='S029: vô gia cư ở thanh niên' | conf=med | note=tình trạng này; head is a frame word
+    SENT: Ông nhấn mạnh rằng hỗ trợ nhà ở, chăm sóc sức khỏe tâm thần và hợp tác với các trường học để giúp đỡ học sinh có nguy cơ cao là những biện pháp quan trọng để ngăn chặn tình trạng này từ sớm.
+
+[P02-VI-105] demonstrative | item='này' | S032 | ante='S029: vấn đề vô gia cư ở thanh niên' | conf=med | note=vấn đề này
+    SENT: "Nếu chúng ta không hành động để ngăn chặn và giảm bớt số lượng thanh niên rơi vào cảnh vô gia cư, thì vấn đề này sẽ tiếp tục kéo dài."
+
+[P03-VI-026] personal | item='Chúng tôi' | S008 | ante='S007: Thủ tướng Anthony Albanese' | conf=med | note=institutional chúng tôi
+    SENT: "Chúng tôi đã triển khai BetStop, giúp nhiều người kiểm soát vấn đề cờ bạc.
+
+[P03-VI-028] personal | item='Chúng tôi' | S009 | ante='S008: Chúng tôi' | conf=high
+    SENT: Chúng tôi cũng đã cấm sử dụng thẻ tín dụng trực tuyến cho các hoạt động cá cược – một vấn đề lớn trong cờ bạc thể thao," ông nói trên podcast của Daily Aus.
+
+[P03-VI-096] demonstrative | item='này' | S025 | ante='S022-S024: Những thay đổi được đề xuất / Giới hạn' | conf=high | note=Những đề xuất này
+    SENT: Những đề xuất này nhằm tăng cường tính minh bạch trong tài chính bầu cử, nhưng vẫn đang là chủ đề tranh luận gay gắt giữa các đảng phái trước thềm cuộc bầu cử sắp tới.
+
+[P03-VI-110] demonstrative | item='này' | S029 | ante='S026-S028: dự luật / giới hạn chi tiêu' | conf=high | note=đề xuất này
+    SENT: Các ứng viên độc lập chỉ trích mạnh mẽ đề xuất này, cho rằng đây là "một sự dàn xếp có lợi cho các đảng lớn" (Labor và Liberal), giúp họ có thêm tiền công từ ngân sách nhà nước để tài trợ cho chiến dịch tranh cử.
+
+[P04-VI-020] demonstrative | item='này' | S009 | ante='S008: 7 đến 9 tiếng' | conf=high | note=Con số này
+    SENT: Con số này được dựa trên hàng ngàn nghiên cứu trên thế giới, cho thấy những người ngủ dưới 7 tiếng dễ gặp các vấn đề sức khỏe nghiêm trọng.
+
+[P05-VI-005] demonstrative | item='mới' | S004 | ante='S002: luật trộm cắp tiền lương mới' | conf=med | note=new code referring back to the laws
+    SENT: Các doanh nghiệp nhỏ tuân thủ Bộ luật Tuân thủ Tiền lương Doanh nghiệp nhỏ Tự nguyện mới sẽ được miễn hình phạt đối với hành vi trả thiếu tiền lương không cố ý.
+
+[P05-VI-025] comparative | item='thêm' | S015 | ante='S010-S014: payment change details' | conf=low | note=thêm thông tin; quantity reference
+    SENT: Bạn có thể tìm thấy thêm thông tin chi tiết tại đây.
+
+[P05-VI-030] demonstrative | item='Điều này' | S018 | ante='S017: 412 đô la hộ chiếu' | conf=high
+    SENT: Điều này đưa nước Úc trở thành một trong những quốc gia có hộ chiếu đắt đỏ nhất thế giới.
+
+[P05-VI-058] demonstrative | item='Những người' | S038 | ante='S036: chủ sở hữu bất động sản' | conf=med
+    SENT: Những người cho thuê nơi cư trú chính của họ sẽ không phải trả thuế.
+
+[P06-VI-017] demonstrative | item='Đây' | S010 | ante='S009: Quy trình ETIAS' | conf=high
+    SENT: Đây là một quy trình bổ sung nhằm mục đích giúp việc đi lại qua biên giới châu Âu hiệu quả hơn và đơn giản hóa thủ tục nhập cảnh cho khách du lịch.
+
+[P06-VI-052] personal | item='chúng tôi' | S024 | ante='S020: một phát ngôn viên của ACCC' | conf=med | note=institutional chúng tôi
+    SENT: Tuy nhiên, báo cáo tháng 11 năm 2024 của chúng tôi lưu ý rằng giá nhiên liệu máy bay vào tháng 9 năm 2024 là mức thấp nhất kể từ tháng 9 năm 2021.”
+
+[P07-VI-001] demonstrative | item='đây' | S002 | ante='S001: Bài viết này' | conf=high | note=đây là câu chuyện
+    SENT: Từ "larrikin" đến "dinkum", đây là câu chuyện về người Úc đã biến tiếng Anh thành ngôn ngữ của riêng mình ra sao.
+
+[P07-VI-003] demonstrative | item='câu hỏi này' | S004 | ante='S003: Tiếng Anh Úc có thực sự là tiếng Anh không?' | conf=high
+    SENT: Cách giao tiếp độc đáo của người Úc đã khiến nhiều người, đặc biệt là những người Úc mới đến, hỏi câu hỏi này.
+
+[P07-VI-006] demonstrative | item='đó' | S009 | ante='S008: cách người Úc dùng từ (the examples)' | conf=med | note=chắc chắn đó là tiếng Anh
+    SENT: Nhưng chắc chắn đó là tiếng Anh.
+
+[P07-VI-009] personal | item='chúng ta' | S011 | ante='S001: Bài viết này (authorial chúng ta)' | conf=med | note=authorial chúng ta
+    SENT: Nếu lắng nghe tiếng Anh kỹ lưỡng, chúng ta sẽ nghe thấy tiếng va chạm leng keng của rìu và kiếm Viking.
+
+[P07-VI-011] personal | item='Chúng ta' | S012 | ante='S011: chúng ta' | conf=high
+    SENT: Chúng ta nghe thấy tiếng ồn ào náo nhiệt của những bữa tiệc xa hoa kiểu Pháp.
+
+[P07-VI-012] personal | item='Chúng ta' | S013 | ante='S012: Chúng ta' | conf=high
+    SENT: Chúng ta nghe thấy tiếng một chàng cao bồi Mỹ vừa phi nước đại vừa hét lên "hee-haw".
+
+[P07-VI-018] personal | item='chúng ta' | S016 | ante='S011: chúng ta' | conf=med
+    SENT: Những "quý tộc" (nobles) Pháp "sang trọng" (fancy) đã mang đến cho chúng ta "ẩm thực" (cuisine) (tất cả các từ này đều là từ tiếng Pháp).
+
+[P07-VI-020] personal | item='chúng ta' | S017 | ante='S016: chúng ta' | conf=med
+    SENT: Những chàng cao bồi Mỹ đã mang đến cho chúng ta "những câu chuyện cổ tích" (tall tales) - tức là những câu chuyện đầy màu sắc, quá đỗi kỳ quặc khó có thể là sự thật.
+
+[P07-VI-043] demonstrative | item='này' | S028 | ante='S027: tự hào về địa vị currency lads' | conf=high | note=nỗi ám ảnh ... này
+    SENT: Trong 100 năm tiếp theo sau đó, nỗi ám ảnh về tính cách bất cần trang trọng này đã ăn sâu vào nước Úc.
+
+[P07-VI-046] personal | item='Ta' | S032 | ante='S029-S031: implicit speakers of Australian English' | conf=med | note=generic ta; weak chain to authorial voice
+    SENT: – Ta nói “Aussie” thôi.
+
+[P07-VI-057] demonstrative | item='Những câu chuyện này' | S038 | ante='S037: các câu chuyện về những kẻ yếu' | conf=high
+    SENT: Những câu chuyện này - hay còn gọi là “yarns” - những chuyện kể - là chìa khóa giúp bạn hiểu về trải nghiệm của người Úc.
+
+[P07-VI-060] personal | item='Chúng ta' | S039 | ante='S011: chúng ta (authorial)' | conf=med
+    SENT: Chúng ta thậm chí còn kể các câu chuyện về các từ ngữ tiếng Anh của riêng mình để mang lại cảm giác kiểu Úc hơn.
+
+[P07-VI-080] personal | item='chúng ta' | S045 | ante='S039: chúng ta' | conf=med
+    SENT: Tuy nhiên, chúng ta đã học được rằng đôi khi tính chính xác của một câu chuyện không quá quan trọng.
+
+[P07-VI-090] demonstrative | item='Những thành ngữ hài hước này' | S050 | ante='S049: các thành ngữ fair' | conf=high
+    SENT: Những thành ngữ hài hước này rất quan trọng đối với cách người Úc trò chuyện.
+
+[P07-VI-099] personal | item='chúng ta' | S055 | ante='S045: chúng ta' | conf=med
+    SENT: Tuy nhiên, tiếng Anh Úc cũng được định nghĩa bởi chính chúng ta - những người Úc mới và cũ, và cách chúng ta giao tiếp với nhau.
+
+[P07-VI-105] personal | item='Tôi' | S058 | ante='S056: của tôi (the author)' | conf=high
+    SENT: Tôi cười và nói: "Phải".
+
+[P07-VI-107] demonstrative | item='điều này' | S059 | ante='S057: galah có nghĩa là ngớ ngẩn' | conf=high
+    SENT: Nó hỏi: "Người Mỹ có biết điều này không?".
+
+[P07-VI-111] personal | item='Chúng' | S062 | ante='S061: các từ ngữ Úc' | conf=high
+    SENT: Chúng là từ của chúng ta và người khác không biết chúng".
+
+[P07-VI-115] personal | item='Tôi' | S065 | ante='S058: Tôi' | conf=high
+    SENT: Tôi không chắc từ "pink-atoo" sẽ bao giờ được ưa chuộng.
+
+[P08-VI-006] personal | item='chúng tôi' | S006 | ante='S005: bà Nicola Powell (quoted speaker)' | conf=med
+    SENT: “Những gì chúng tôi thấy là nhu cầu của người mua giảm.
+
+[P08-VI-008] demonstrative | item='Điều đó' | S007 | ante='S006: nhu cầu của người mua giảm' | conf=high
+    SENT: Điều đó không có nghĩa là nhu cầu biến mất – họ chỉ đang trì hoãn việc ra quyết định,” bà nói.
+
+[P08-VI-038] personal | item='chúng tôi' | S019 | ante='S017: Bà Powell' | conf=med
+    SENT: Thị trường ở đây hoạt động kém từ năm 2020, nhưng trong quý cuối năm 2024, chúng tôi lại ghi nhận sự tăng trưởng,” bà Powell nhận xét.
+
+[P08-VI-077] personal | item='chúng ta' | S037 | ante='S019: chúng tôi (Powell)' | conf=med
+    SENT: Tuy nhiên, điều có thể thay đổi là khi chúng ta bắt đầu thấy RBA giảm lãi suất.”
+
+[P09-VI-025] personal | item='bạn' | S009 | ante='S008: bạn (the reader addressed)' | conf=high | note=same addressee chain
+    SENT: Báo cáo cho biết dữ liệu của họ “nhằm cung cấp sự hiểu biết tốt nhất về những gì mà phòng khám gia đình xung quanh bạn sẽ không tính phí thêm cho bệnh nhân trưởng thành, không có thẻ ưu đãi, gặp bác sĩ vào giờ hành chính”.
+
+[P10-VI-010] demonstrative | item='Điều này' | S008 | ante='S007: ít cắt giảm lãi suất hơn' | conf=high
+    SENT: Điều này đã dẫn đến việc đồng đô la Mỹ tăng giá so với các loại tiền tệ khác, bao gồm cả đồng đô la Úc", ông cho biết.
+
+[P10-VI-018] demonstrative | item='Điều đó' | S013 | ante='S012: thuế đẩy giá lên' | conf=high
+    SENT: Điều đó sẽ ảnh hưởng đến giá trị của đồng đô la Úc", ông giải thích.
+
+[P10-VI-023] personal | item='chúng ta' | S014 | ante='S011: Greg Jericho (authorial chúng ta)' | conf=med
+    SENT: "Đồng đô la Úc thường được coi là đại diện cho nền kinh tế Trung Quốc do hoạt động xuất khẩu của chúng ta."
+
+[P10-VI-027] demonstrative | item='điều này' | S016 | ante='S015: hàng nhập khẩu đắt hơn' | conf=high
+    SENT: Ông Jericho cho biết điều này ảnh hưởng đáng kể nhất đến giá xăng, vốn hoàn toàn phụ thuộc vào thị trường toàn cầu.
+
+[P11-VI-005] comparative | item='hệ thống như vậy' | S004 | ante='S003: chính phủ lập sẵn' | conf=high
+    SENT: Hoa Kỳ không có hệ thống như vậy.
+
+[P11-VI-097] personal | item='bạn' | S049 | ante='S048: Ông Muller (addressing the team)' | conf=med | note=generic bạn in quote
+    SENT: “Nếu bạn không thể tiếp cận các cơ quan liên bang đó, bạn có thể chậm một bước về cách bạn được cho là sẽ tiếp quản bộ máy của chính phủ liên bang”, ông Muller nói trong một cuộc phỏng vấn.
+
+[P11-VI-103] demonstrative | item='Điều này' | S052 | ante='S050-S051: vịt què limits' | conf=high
+    SENT: Điều này tạo ra một ván cờ đầy cam go trong các vấn đề quốc nội và quốc tế.
+
+[P14-VI-005] personal | item='chúng tôi' | S004 | ante='S003: (the administration speaker)' | conf=med | note=institutional chúng tôi
+    SENT: “Nếu họ không làm vậy, chúng tôi sẽ truy tìm, chúng tôi sẽ trục xuất họ, và họ sẽ không bao giờ được quay lại.”
+
+[P15-VI-014] demonstrative | item='đất nước này' | S006 | ante='S004: Hoa Kỳ' | conf=high
+    SENT: Chính quyền của ông Trump tuyên bố những người tham gia đã mất quyền được ở lại đất nước này vì ủng hộ Hamas, một tổ chức khủng bố.
+
+[P15-VI-023] personal | item='Chúng tôi' | S010 | ante='S008: Luật sư Greer (quoted)' | conf=med
+    SENT: "Chúng tôi không thể biết thêm thông tin chi tiết về lý do tại sao anh ấy bị giam giữ," luật sư Greer nói với AP.
+
+[P15-VI-042] demonstrative | item='Những cuộc điều tra đó' | S021 | ante='S020: cáo buộc kỷ luật' | conf=high
+    SENT: Những cuộc điều tra đó diễn ra khi chính quyền Trump tăng cường giám sát Đại học Columbia vì những gì chính phủ mô tả là trường đại học thuộc nhóm Ivy League đã không dập tắt được chủ nghĩa bài Do Thái trong khuôn viên trường.
+
+[P16-VI-011] demonstrative | item='đó' | S006 | ante='S005: thị trường Nga (implied)' | conf=med
+    SENT: “Thực vậy, đó là một thị trường lớn và chủ yếu cho Pattaya.
+
+[P16-VI-015] personal | item='chúng tôi' | S008 | ante='S005: Bà Suladda (quoted speaker)' | conf=med
+    SENT: Năm ngoái, chúng tôi tiếp đón khoảng 1,7 triệu du khách Nga đến Pattaya.”
+
+[P17-VI-008] demonstrative | item='điều đó' | S005 | ante='S004: giá quá thấp' | conf=high
+    SENT: Ông Yium nói điều đó buộc một số nhà trồng cao su phải ngưng hoạt động cạo mủ.
+
+[P18-VI-020] personal | item='Chúng tôi' | S012 | ante='S011: Bà Carmen van Heese (quoted)' | conf=med
+    SENT: Chúng tôi cần nhắc nhở mọi người là chúng tôi tới đó để cung cấp những sự trợ giúp để cứu sống mạng người.
+
+[P18-VI-021] personal | item='chúng tôi' | S012 | ante='S011: Bà Carmen van Heese' | conf=high
+    SENT: Chúng tôi cần nhắc nhở mọi người là chúng tôi tới đó để cung cấp những sự trợ giúp để cứu sống mạng người.
+
+[P18-VI-023] personal | item='Chúng tôi' | S013 | ante='S012: Chúng tôi' | conf=high
+    SENT: Chúng tôi không nghiêng về bên nào."
+
+[P18-VI-028] personal | item='chúng tôi' | S016 | ante='S015: (we implied in quote)' | conf=med
+    SENT: Nhưng chúng tôi cần phải tiếp tục tìm kiếm những phương thức và tiến hành những cuộc đối thoại để qua đó chúng tôi có thể cung cấp sự giúp đỡ vô cùng cần thiết mà chúng tôi, trong tư cách là một tổ chức, đã cam kết sẽ cung cấp cho các em bé.
+
+[P18-VI-029] personal | item='chúng tôi' | S017 | ante='S016: chúng tôi' | conf=high
+    SENT: Và chúng tôi vui mừng khi có những cơ quan khác cũng làm những việc như vậy.
+
+[P18-VI-030] personal | item='Chúng tôi' | S018 | ante='S017: chúng tôi' | conf=high
+    SENT: Chúng tôi cùng nhau thực hiện việc này."
+
+[P18-VI-038] demonstrative | item='Những mối quan tâm đó' | S022 | ante='S020-S021: recovery struggles and conflict' | conf=high
+    SENT: Những mối quan tâm đó khiến UNICEF kêu gọi quyên góp 11 triệu đô la trong năm nay để giúp Philippines giảm tử suất trẻ em, tăng tỉ lệ trẻ em tới trường và bảo vệ cho các em trước những hành vi bạo lực.
+
+[P19-VI-022] demonstrative | item='vụ này' | S011 | ante='S010: một vụ kiện tập thể' | conf=high
+    SENT: Và nhiều bị cáo trong vụ này lại cũng chính là các bị cáo trong vụ kiện của chúng tôi."
+
+[P19-VI-045] demonstrative | item='Những hành khách' | S021 | ante='S003: Hành khách' | conf=high
+    SENT: Những hành khách nào tin có thể đủ điều kiện để nhận bồi thường có thể nộp hồ sơ đòi bồi thường trên mạng hoặc gởi qua bưu điện.
+
+[P20-VI-001] demonstrative | item='Điều này' | S002 | ante='S001: bị cấm bán hải sản' | conf=high
+    SENT: Điều này xảy ra giữa lúc có sự truy dẹp chưa từng có từ trước đến nay, do Liên hiệp Châu Âu lãnh đạo nhắm vào nạn đánh bắt cá bất hợp pháp.
+
+[P20-VI-003] demonstrative | item='Vấn đề này' | S003 | ante='S001-S002: the EU crackdown' | conf=high
+    SENT: Vấn đề này đang gây chú ý nhiều hơn tại Hoa Kỳ, nơi một cuộc nghiên cứu mới cho thấy một phần 3 hải sản nhập khẩu được đánh bắt bất hợp pháp hay không có giấy tờ hợp lệ.Thông tín viên Steve Herman thuộc văn phòng Đông Nam Á của Đài VOA ở Bangkok tường trình chi tiết.
+
+[P20-VI-013] demonstrative | item='đó' | S010 | ante='S009: đưa ra những lời đe dọa' | conf=high
+    SENT: Và đó là điều đang xảy ra đối với Nam Triều Tiên.
+
+[P20-VI-015] personal | item='Chúng ta' | S011 | ante='S008: Ông Steve Trent (quoted speaker)' | conf=med
+    SENT: Chúng ta đang thấy Ủy hội Âu châu nói rằng ‘Các ông làm không đủ.
+
+[P20-VI-017] personal | item='chúng tôi' | S012 | ante='S011: Chúng ta' | conf=med | note=speaker chain
+    SENT: Những gì các ông làm không thỏa mãn chúng tôi.
+
+[P20-VI-031] demonstrative | item='Đây' | S019 | ante='S018: 40% cá ngừ bất hợp pháp' | conf=high
+    SENT: Đây cũng là trường hợp của 70% cá hồi nhập khẩu và 45% cá pôlắc, cả hai đều xuất xứ từ Trung Quốc.
+
+[P20-VI-041] demonstrative | item='những quốc gia này' | S024 | ante='S021: thị trường nhập khẩu (countries)' | conf=high
+    SENT: Do đó những quốc gia này cần phải tăng cường nhân lực để cải thiện việc theo dõi, kiểm soát và giám sát tại các cảng.”
+
+[P20-VI-060] demonstrative | item='việc này' | S032 | ante='S031: đưa cá vào cảng' | conf=high
+    SENT: Do đó cần chú trọng vào việc này hơn là sử dụng các nguồn lực tốn kém cần thiết để tuần tra ngoài biển hay theo dõi bằng vệ tinh, các cảng là nơi dễ thấy nhất.
+
+[P20-VI-062] demonstrative | item='Việc này' | S033 | ante='S032: nguồn lực tốn kém' | conf=med
+    SENT: Việc này chắc chắc là giảm bớt tốn kém.
+
+[P20-VI-066] demonstrative | item='Đó' | S037 | ante='S036: nơi gây tắc nghẽn' | conf=high
+    SENT: Đó là nơi hầu hết những hải sản vào nước này.
+
+[P20-VI-068] demonstrative | item='nước này' | S037 | ante='S021: Hoa Kỳ' | conf=high
+    SENT: Đó là nơi hầu hết những hải sản vào nước này.
+
+[P20-VI-070] demonstrative | item='ấy' | S038 | ante='S036: tắc nghẽn (the bottleneck)' | conf=med
+    SENT: Và họ là những người có thể chấm dứt tình trạng ấy bằng cách nhấn mạnh rằng là tất cả hàng hóa đều có thể tìm ra được đầu mối và tất cả đều hợp pháp.”
+
