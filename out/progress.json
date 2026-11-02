@@ -188,6 +188,29 @@
     "added": 8
    },
    "qc": "PASS"
+  },
+  "P09": {
+   "status": "done",
+   "st_sentences": 36,
+   "tt_sentences": 33,
+   "st_ties": 122,
+   "tt_ties": 98,
+   "st_counts": {
+    "L": 116,
+    "C": 2,
+    "R": 4
+   },
+   "tt_counts": {
+    "L": 93,
+    "C": 2,
+    "R": 3
+   },
+   "alignment": {
+    "kept": 91,
+    "omitted": 31,
+    "added": 15
+   },
+   "qc": "PASS"
   }
  },
  "last_updated": "auto"
