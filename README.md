@@ -98,7 +98,7 @@ out/appendix1/            the 20-pair Appendix 1 (v7, 5 colours, no tags)
 
 ## The example first
 
-A four-sentence worked pair lives in `examples/mini/`:
+A five-row worked pair lives in `examples/mini/`:
 
 ```bash
 python -m pipeline.ingest --input examples/mini/input.md --work examples/mini/work
