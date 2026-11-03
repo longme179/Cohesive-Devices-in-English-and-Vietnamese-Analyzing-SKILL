@@ -11,3 +11,5 @@ page*.png
 # skill work trees
 /work/
 /work_test/
+
+.env
