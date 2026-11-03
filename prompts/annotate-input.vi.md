@@ -9,8 +9,7 @@
 ## Prompt copy-paste
 
 ```text
-Bạn đang ở repo skill COHESION EN–VI:
-/home/kimhoanglong/Documents/BDNC/Cohesive-Devices-in-English-and-Vietnamese-Analyzing-SKILL
+Bạn đang ở repo skill COHESION EN–VI (thư mục repo đã clone, nơi có SKILL.md).
 
 File đính kèm: [TÊN_FILE_ĐÍNH_KÈM] — bảng markdown 2 cột EN | VI.
 

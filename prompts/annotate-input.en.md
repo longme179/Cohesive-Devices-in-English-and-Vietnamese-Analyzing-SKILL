@@ -4,8 +4,7 @@
 > replace `[ATTACHED_FILE]`, and send.
 
 ```text
-You are in the COHESION EN–VI skill repository:
-/home/kimhoanglong/Documents/BDNC/Cohesive-Devices-in-English-and-Vietnamese-Analyzing-SKILL
+You are in the COHESION EN–VI skill repository (the cloned folder containing SKILL.md).
 
 Attached file: [ATTACHED_FILE] — a two-column EN | VI markdown table.
 
