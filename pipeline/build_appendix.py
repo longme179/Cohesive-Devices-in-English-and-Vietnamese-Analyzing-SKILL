@@ -149,6 +149,17 @@ def build(work: Path, out: Path):
             html_rows.append(f"<tr><td>{html_side(en)}</td>"
                              f"<td>{html_side(vi)}</td></tr>")
 
+        used = Counter()
+        for row in rows_ir:
+            for side_key in ("en", "vi"):
+                for seg in row[side_key].get("segs", []):
+                    if seg.get("id"):
+                        used[seg["id"]] += 1
+        all_ids = {t["id"] for _, _, t in st_m} | {t["id"] for _, _, t in tt_m}
+        lost = sorted(all_ids - set(used))
+        if lost:
+            raise SystemExit(f"{pid}: {len(lost)} tie(s) fell outside every "
+                             f"row: {lost[:5]}")
         for side, markers in (("en", st_m), ("vi", tt_m)):
             c = Counter(t["cat"] for _, _, t in markers)
             grand.update({side: len(markers)})
@@ -240,8 +251,9 @@ tr {{ break-inside: avoid; page-break-inside: avoid; }}
     print(f"Wrote {out}/Appendix1.md ({len(md)} chars)")
     print(f"Wrote {out}/Appendix1.html ({len(html)} chars)")
     print(f"Wrote {out}/appendix1_segments.json")
-    print(f"Markers: EN {grand.get('en',0)} / VI {grand.get('vi',0)} = "
-          f"{grand.get('en',0)+grand.get('vi',0)}")
+    total = grand.get("en", 0) + grand.get("vi", 0)
+    print(f"Markers: EN {grand.get('en',0)} / VI {grand.get('vi',0)} = {total}")
+    print("Marker coverage: 100% (every tie mapped back to a source row)")
     return 0
 
 
