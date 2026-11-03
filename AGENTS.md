@@ -6,6 +6,8 @@ Short version:
 
 1. The user supplies a 2-column EN|VI markdown/PDF.  For PDF, convert with
    `python -m pipeline.pdf_to_md` and repair the markdown by hand.
+   Theory digests for the category decisions: `references/` (read before
+   annotating; `references/en-vi-mapping.md` has the decision tests).
 2. Run `python -m pipeline.ingest --input input.md --work work` and
    `python -m pipeline.segment --work work`.
 3. For **each pair**, read the text and write:

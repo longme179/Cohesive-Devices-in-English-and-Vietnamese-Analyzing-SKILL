@@ -78,6 +78,7 @@ outcome tags (`→ » ~ × +`) and no seven-outcome legend.
 ```
 SKILL.md                  operating contract for the agent (read first)
 AGENTS.md                 short pointer for agent runtimes
+references/               theory digests + EN–VI decision tests (read before annotating)
 templates/                input, analysis and tie-table templates
 pipeline/                 mechanical stages:
   ingest.py               markdown 2-column parser
@@ -135,7 +136,7 @@ and annotated from scratch.
 > Linking is a relation of meaning between sentences, not a repeated character
 > string.  The decision “is this a tie, what type, where is the antecedent?”
 > must be made by reading.  Scripts only parse, locate, validate, render, count
-> and package.
+> and package.  Category decisions follow `references/`, not the surface form.
 
 If a script ever defaults a label (for example `ref="A"`), replace that default
 with the analyst's explicit decision in the tie table.  This repository's

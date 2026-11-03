@@ -4,10 +4,13 @@
 > và Appendix 1. Không dùng regex / danh sách đại từ / đếm chuỗi để quyết định
 > tie. Mỗi quyết định phải đọc được trong ngữ cảnh.
 >
-> **Khung:** EN — Halliday & Hasan (1976): reference, substitution, ellipsis,
-> conjunction, lexical cohesion. VI — Trần Ngọc Thêm (2006, dẫn theo Nguyễn
-> Thanh Tùng 2020): phép thế đại từ, phép tỉnh lược, phép nối, phép lặp, phép
-> đối, phép thế đồng nghĩa, phép liên tưởng.
+> **Khung:** EN — Halliday & Hasan (1976), *Cohesion in English*: reference,
+> substitution, ellipsis, conjunction, lexical cohesion. VI — Trần Ngọc Thêm,
+> *Hệ thống liên kết văn bản tiếng Việt* (1985; tái bản 2006): liên kết hình
+> thức/nội dung; phép lặp, phép đối, phép thế đẳng nghĩa, phép liên tưởng,
+> phép tuyến tính; phép thế đại từ (khiếm diện/dự báo/hồi quy), phép tỉnh lược,
+> phép nối. Đọc `references/` trước khi phân tích; quyết định mã R/S/E/C/L theo
+> `references/en-vi-mapping.md`.
 >
 > **Quy ước:** `[LC]` = liên câu (đơn vị chính của nghiên cứu); `[TC]` = trong
 > câu (lớp bổ sung cho S/E); `[TD]` = tiêu đề. `∅` = thành phần bị lược;

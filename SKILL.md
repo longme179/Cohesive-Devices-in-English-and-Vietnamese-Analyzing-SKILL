@@ -37,14 +37,35 @@ tables, five background colours, Reference superscripts A/C/E, no outcome tags.
 
 ## 2. Theoretical framing
 
-- **English** — Halliday & Hasan (1976): reference (personal, demonstrative,
-  comparative, quantified), substitution (nominal, verbal, clausal), ellipsis,
-  conjunction (adversative, additive, temporal, causal), lexical cohesion
-  (repetition, synonymy, antonymy, collocation).
-- **Vietnamese** — Trần Ngọc Thêm (2006, as cited in Nguyễn Thanh Tùng 2020):
-  phép thế đại từ ≈ reference + substitution; phép tỉnh lược ≈ ellipsis;
-  phép nối ≈ conjunction; phép lặp, phép đối, phép thế đồng nghĩa, phép liên
-  tưởng ≈ lexical cohesion.
+Read the digests in `references/` before annotating; they are the authority for
+category decisions and record the exact chapters/sections they summarize.
+
+- **English — Halliday & Hasan (1976)**, *Cohesion in English*. Five resources:
+  **reference** (personal, demonstrative, comparative, and the definite article
+  `the`), **substitution** (nominal, verbal, clausal), **ellipsis** (substitution
+  by zero), **conjunction** (additive, adversative, causal, temporal, plus
+  continuatives), and **lexical cohesion** (reiteration — repetition, synonym,
+  superordinate, general word — and collocation). Reference is *identity of a
+  referent*; substitution and ellipsis are *wording* relations. See
+  `references/halliday-hasan-1976.md`.
+- **Vietnamese — Trần Ngọc Thêm**, *Hệ thống liên kết văn bản tiếng Việt*
+  (1st ed. 1985; 3rd ed. 2006). The system is built on the **phát ngôn**
+  (utterance), not the sentence, and separates **liên kết hình thức** (formal)
+  from **liên kết nội dung** (topic + logic); both are required for a text. Three
+  utterance types — *câu tự nghĩa*, *câu hợp nghĩa*, *ngữ trực thuộc* — condition
+  which devices are normal. Devices: *phép lặp*, *phép đối*, *phép thế đẳng
+  nghĩa*, *phép liên tưởng*, *phép tuyến tính* (all utterance types);
+  *phép thế đại từ* (khiếm diện / dự báo / hồi quy), *phép tỉnh lược yếu*,
+  *phép nối lỏng* (câu hợp nghĩa); *phép tỉnh lược mạnh*, *phép nối chặt*
+  (ngữ trực thuộc). See `references/tran-ngoc-them-2006.md`.
+- **No one-to-one mapping.** *Phép thế đại từ* covers both H&H reference and
+  pro-form substitution; *phép thế đẳng nghĩa* and *phép liên tưởng* are lexical
+  (L), not S; *phép tuyến tính* and *phép đối* are not ties by themselves. Use
+  the decision tests in `references/en-vi-mapping.md` §3 before writing a row.
+- **Translation evidence.** Nguyễn Thanh Tùng (2020) documents the systematic
+  EN↔VI shifts (pronoun ↔ repetition, *the* ↔ demonstrative/zero, ellipsis
+  difficulty) that make form-by-form comparison wrong; see
+  `references/translation-en-vi-2020.md`.
 - **Unit of analysis:** the tie that crosses a sentence boundary (`[LC]`).  The
   Appendix also carries a **supplementary S/E layer** (`[TC]`) because Vietnamese
   ellipsis and substitution are often intra-sentential and would otherwise be
@@ -52,6 +73,22 @@ tables, five background colours, Reference superscripts A/C/E, no outcome tags.
   intersentential claim.
 - **Reference direction:** `A` anaphoric (antecedent before), `C` cataphoric
   (antecedent after; rare in news), `E` exophoric (writer/reader/context).
+  `ref=E` is a **direction**, not the E (ellipsis) category: a row with `cat="E"`
+  has `ref=None`, and a row with `ref="E"` is an R tie. Never mix the two.
+
+### 2.1 Four rules that prevent most coding errors
+
+1. **Identity vs wording.** Same referent → R. Pro-form replacing wording → S.
+   Missing wording → E. A connector word alone does not make a C tie; a repeated
+   topic does not make an L tie.
+2. **One form, one row.** Never code the same zero as both E and R. A Vietnamese
+   zero that tracks a participant is *thế đại từ khiếm diện* in the analysis
+   (§2/§4) and E in the table; the note carries the other reading.
+3. **Repetition is L, not R.** When English uses a pronoun and Vietnamese repeats
+   the noun, code the Vietnamese noun as L and record the R→L shift; do not mark
+   the Vietnamese side as a missing R.
+4. **Judge translation by target norms.** A legitimate Vietnamese repetition or
+   zero is not an error; see `references/translation-en-vi-2020.md` §3.
 
 ## 3. Input contract
 
@@ -197,9 +234,12 @@ Rules:
   For `[TC]`, cite the same sentence and say “(trong câu)”.
 - Do not add a row that is not in the analysis.  Do not add a row for a
   first-mention noun that has no antecedent.
-- Vietnamese pro-drop: distinguish **zero anaphora** (E if a slot is empty;
-  R if a pronoun is present) from **lexical realization** (L), and from
-  **substitution** by a pro-form such as `như vậy` / `làm vậy` (S).
+- Vietnamese pro-drop: a zero slot is **E**; when it tracks a participant, record
+  *thế đại từ khiếm diện* in the analysis and keep the single E row. A pro-form
+  such as `như vậy` / `làm vậy` is **S**; a repeated noun is **L**.
+- Before writing a row, run the decision tests in
+  `references/en-vi-mapping.md` §3; §6 there lists the recurring
+  misclassifications and the fix.
 - English `one/those` realized as a full NP in Vietnamese is not an S tie in
   Vietnamese; record the English S and note the realization.
 
