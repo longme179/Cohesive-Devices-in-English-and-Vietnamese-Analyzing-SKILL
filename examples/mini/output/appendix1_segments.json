@@ -1,0 +1,264 @@
+{
+ "title": "Appendix 1 — 1 cặp bài báo EN–VI (đánh dấu ngữ nghĩa)",
+ "intro": "Bản tiếng Anh (EN) đánh dấu theo Halliday & Hasan (1976); bản tiếng Việt (VI) đánh dấu theo Trần Ngọc Thêm (2006, dẫn theo Nguyễn Thanh Tùng 2020), quy về cùng thang 5 màu. Trọng tâm là COHESION BEYOND THE SENTENCE LEVEL: các tie liên-câu (R/C/L) được phân tích thủ công từng cặp; lớp S/E bổ sung các vị trí phép thế / tỉnh lược đã đọc và quyết định bằng tay, gồm cả [LC] liên câu và [TC] trong câu. Mỗi khối chỉ gồm nền màu 5 danh mục và — với Reference — chữ mũ hướng A/C/E. Không có tag kết quả căn cặp.",
+ "cats": {
+  "R": {
+   "bg": "#FFFF00",
+   "fg": "#000000",
+   "emoji": "🟨",
+   "en": "Reference",
+   "vi": "tham chiếu (đại từ, chỉ từ)"
+  },
+  "S": {
+   "bg": "#00FF00",
+   "fg": "#000000",
+   "emoji": "🟩",
+   "en": "Substitution",
+   "vi": "thay thế"
+  },
+  "E": {
+   "bg": "#0000FF",
+   "fg": "#FFFFFF",
+   "emoji": "🟦",
+   "en": "Ellipsis",
+   "vi": "lược bỏ (∅ = vị trí trống)"
+  },
+  "C": {
+   "bg": "#FF9900",
+   "fg": "#000000",
+   "emoji": "🟧",
+   "en": "Conjunction",
+   "vi": "liên kết"
+  },
+  "L": {
+   "bg": "#9900FF",
+   "fg": "#FFFFFF",
+   "emoji": "🟪",
+   "en": "Lexical cohesion",
+   "vi": "liên kết từ vựng"
+  }
+ },
+ "ref_names": {
+  "A": "anaphoric",
+  "C": "cataphoric",
+  "E": "exophoric"
+ },
+ "framework_map": [
+  {
+   "key": "R",
+   "en": "reference (personal, demonstrative, comparative, quantified)",
+   "vi": "phép thế đại từ (đại từ / chỉ từ) — cùng nhóm với S"
+  },
+  {
+   "key": "S",
+   "en": "substitution (nominal, verbal, clausal)",
+   "vi": "phép thế đại từ (phần thế danh từ / động từ / mệnh đề)"
+  },
+  {
+   "key": "E",
+   "en": "ellipsis",
+   "vi": "phép tỉnh lược"
+  },
+  {
+   "key": "C",
+   "en": "conjunction (adversative, additive, temporal, causal)",
+   "vi": "phép nối"
+  },
+  {
+   "key": "L",
+   "en": "lexical cohesion (repetition, synonymy, antonymy, collocation)",
+   "vi": "phép lặp, phép đối, phép thế đồng nghĩa, phép liên tưởng"
+  }
+ ],
+ "totals": {
+  "en_markers": 5,
+  "vi_markers": 5
+ },
+ "pairs": [
+  {
+   "id": "P01",
+   "num": 1,
+   "en_url": "https://example.com/shelter-en",
+   "vi_url": "https://example.com/shelter-vi",
+   "title_en": "City opens a new shelter as demand rises",
+   "title_vi": "Thành phố mở nơi trú ẩn mới khi nhu cầu tăng",
+   "rows": [
+    {
+     "en": {
+      "kind": "segs",
+      "segs": [
+       {
+        "t": "The city opened a new shelter on Monday."
+       }
+      ]
+     },
+     "vi": {
+      "kind": "segs",
+      "segs": [
+       {
+        "t": "Thành phố đã mở một nơi trú ẩn mới vào thứ Hai."
+       }
+      ]
+     }
+    },
+    {
+     "en": {
+      "kind": "segs",
+      "segs": [
+       {
+        "t": "It",
+        "cat": "R",
+        "id": "P01-EN-001",
+        "ref": "A",
+        "level": "LC"
+       },
+       {
+        "t": " has forty beds."
+       }
+      ]
+     },
+     "vi": {
+      "kind": "segs",
+      "segs": [
+       {
+        "t": "Nơi này",
+        "cat": "R",
+        "id": "P01-VI-001",
+        "ref": "A",
+        "level": "LC"
+       },
+       {
+        "t": " có bốn mươi giường."
+       }
+      ]
+     }
+    },
+    {
+     "en": {
+      "kind": "segs",
+      "segs": [
+       {
+        "t": "But",
+        "cat": "C",
+        "id": "P01-EN-002",
+        "ref": null,
+        "level": "LC"
+       },
+       {
+        "t": " demand is already high."
+       }
+      ]
+     },
+     "vi": {
+      "kind": "segs",
+      "segs": [
+       {
+        "t": "Nhưng",
+        "cat": "C",
+        "id": "P01-VI-002",
+        "ref": null,
+        "level": "LC"
+       },
+       {
+        "t": " nhu cầu đã cao."
+       }
+      ]
+     }
+    },
+    {
+     "en": {
+      "kind": "segs",
+      "segs": [
+       {
+        "t": "Officials said "
+       },
+       {
+        "t": "they",
+        "cat": "R",
+        "id": "P01-EN-004",
+        "ref": "A",
+        "level": "TC"
+       },
+       {
+        "t": " would add more"
+       },
+       {
+        "t": "∅",
+        "cat": "E",
+        "id": "P01-EN-003",
+        "level": "LC",
+        "point": true
+       },
+       {
+        "t": "."
+       }
+      ]
+     },
+     "vi": {
+      "kind": "segs",
+      "segs": [
+       {
+        "t": "Các quan chức cho biết "
+       },
+       {
+        "t": "họ",
+        "cat": "R",
+        "id": "P01-VI-004",
+        "ref": "A",
+        "level": "TC"
+       },
+       {
+        "t": " sẽ bổ sung thêm"
+       },
+       {
+        "t": "∅",
+        "cat": "E",
+        "id": "P01-VI-003",
+        "level": "LC",
+        "point": true
+       },
+       {
+        "t": "."
+       }
+      ]
+     }
+    },
+    {
+     "en": {
+      "kind": "segs",
+      "segs": [
+       {
+        "t": "One",
+        "cat": "S",
+        "id": "P01-EN-005",
+        "ref": null,
+        "level": "LC"
+       },
+       {
+        "t": " is already full."
+       }
+      ]
+     },
+     "vi": {
+      "kind": "segs",
+      "segs": [
+       {
+        "t": "Một "
+       },
+       {
+        "t": "nơi",
+        "cat": "L",
+        "id": "P01-VI-005",
+        "ref": null,
+        "level": "LC"
+       },
+       {
+        "t": " đã chật kín."
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

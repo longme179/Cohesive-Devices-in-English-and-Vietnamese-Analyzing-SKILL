@@ -1,5 +1,11 @@
 # HƯỚNG DẪN TÁI LẬP (REPLICATION GUIDE) — GÁN NHÃN LIÊN KẾT NGỮ PHÁP EN–VI
 
+> **Skill v1 (generic pipeline):** để chạy một input mới, đọc `SKILL.md` và dùng
+> `pipeline/` (`ingest → segment → annotate/render → build_appendix → export`).
+> Hướng dẫn dài dưới đây là giao thức 20 cặp của bộ benchmark, dùng để hiệu
+> chuẩn mức độ chi tiết — không phải template copy tie.
+
+
 Tài liệu này giúp một AI agent (hoặc người) **tái lập toàn bộ quy trình** của repo này với **20 cặp bài báo khác** để ra sản phẩm tương đương **Appendix 1** (phụ lục highlight 5 màu + chữ mũ A/C/E, 20 bảng 2 cột EN|VI).
 
 > **Phạm vi vòng này: APPENDIX 1.** Phần Appendix 2 (báo cáo phát hiện + `stats.csv` / `shifts.csv` / `spot_check.csv`) **chưa được tái lập trong vòng này**; tuy nhiên **bảng align đã được DỰNG LẠI theo giao thức mới** (Giai đoạn D hoàn tất, cổng kiểm 13 PASS 20/20 — xem §9 và `out/align_v2/`) và **Appendix 1 đã được TÔ LẠI từ align v2** (Giai đoạn E v2: giữ nguyên định dạng 2 cột E–V + marking 5 màu + mũ A/C/E, cộng annotation kết quả căn cặp + 2.996 comment Word — xem Bước 15 và §9; **v7 đã bỏ toàn bộ tag kết quả căn cặp (→ » ~ × +) và bảng chú giải 7 kết quả, chỉ giữ 5 màu + mũ A/C/E + comment**). **Vòng v6 (2026-11): bổ sung thủ công toàn bộ S/E từ 20 bản semantic_analysis** — 184 tie mới (EN 92 / VI 92), nâng tổng lên 3.180; 5 màu hiện đủ trên 20 cặp, S/E có level `[LC]/[TC]` trong comment; quy ước ở `scripts/tie_tables/MANUAL_S_E_CONVENTIONS.md`, tie table viết tay, không sinh bằng regex/script. Sản phẩm giao người dùng: `download/BDNC/Appendix1.docx|.pdf` (bản chuẩn) và `download/BDNC/Appendix1_Align.docx|.pdf` (bảng căn cặp chi tiết). Appendix 2 sẽ dựng từ dữ liệu align v2 này ở vòng sau.

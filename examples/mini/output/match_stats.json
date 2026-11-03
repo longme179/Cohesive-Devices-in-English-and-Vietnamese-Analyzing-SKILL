@@ -1,0 +1,28 @@
+{
+ "grand": {
+  "en_markers": 5,
+  "vi_markers": 5
+ },
+ "pairs": {
+  "P01": {
+   "en": {
+    "markers": 5,
+    "by_cat": {
+     "C": 1,
+     "E": 1,
+     "R": 2,
+     "S": 1
+    }
+   },
+   "vi": {
+    "markers": 5,
+    "by_cat": {
+     "C": 1,
+     "E": 1,
+     "L": 1,
+     "R": 2
+    }
+   }
+  }
+ }
+}

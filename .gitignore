@@ -1,4 +1,4 @@
-skills/
+/skills/
 node_modules/
 tool-results/
 temp/
@@ -7,3 +7,7 @@ temp/
 .uvcache/
 __pycache__/
 page*.png
+
+# skill work trees
+/work/
+/work_test/

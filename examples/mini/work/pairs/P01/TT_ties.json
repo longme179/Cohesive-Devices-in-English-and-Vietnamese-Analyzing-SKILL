@@ -1,0 +1,80 @@
+{
+ "pair": "P01",
+ "lang": "VI",
+ "ties": [
+  {
+   "id": "P01-VI-001",
+   "sent": "S002",
+   "text": "Nơi này",
+   "occ": 1,
+   "cat": "R",
+   "sub": "demonstrative",
+   "dir": "ana",
+   "level": "LC",
+   "ante": "S001: nơi trú ẩn",
+   "conf": "high",
+   "alt": null,
+   "note": "danh ngữ demonstrative hồi quy",
+   "ref": "A"
+  },
+  {
+   "id": "P01-VI-002",
+   "sent": "S003",
+   "text": "Nhưng",
+   "occ": 1,
+   "cat": "C",
+   "sub": "adversative",
+   "dir": "ana",
+   "level": "LC",
+   "ante": "S002: bốn mươi giường",
+   "conf": "high",
+   "alt": null,
+   "note": "nối tương phản liên câu"
+  },
+  {
+   "id": "P01-VI-003",
+   "sent": "S004",
+   "text": null,
+   "occ": 1,
+   "gap_after": "bổ sung thêm",
+   "recovered": "{giường}",
+   "cat": "E",
+   "sub": "nominal",
+   "dir": "ana",
+   "level": "LC",
+   "ante": "S002: bốn mươi giường",
+   "conf": "high",
+   "alt": null,
+   "note": "[LC] lược {giường} sau “bổ sung thêm”"
+  },
+  {
+   "id": "P01-VI-004",
+   "sent": "S004",
+   "text": "họ",
+   "occ": 1,
+   "cat": "R",
+   "sub": "personal",
+   "dir": "ana",
+   "level": "TC",
+   "ante": "S004: Các quan chức (trong câu)",
+   "conf": "high",
+   "alt": null,
+   "note": "[TC] họ ← Các quan chức trong cùng câu",
+   "ref": "A"
+  },
+  {
+   "id": "P01-VI-005",
+   "sent": "S005",
+   "text": "nơi",
+   "occ": 1,
+   "cat": "L",
+   "sub": "repetition",
+   "dir": "ana",
+   "level": "LC",
+   "ante": "S001: nơi trú ẩn",
+   "conf": "med",
+   "alt": null,
+   "note": "lặp danh từ chung"
+  }
+ ]
+}

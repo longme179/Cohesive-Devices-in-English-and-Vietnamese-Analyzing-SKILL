@@ -1,0 +1,47 @@
+{
+ "paras": [
+  "The city opened a new shelter on Monday.",
+  "It has forty beds.",
+  "But demand is already high.",
+  "Officials said they would add more.",
+  "One is already full."
+ ],
+ "flow": "The city opened a new shelter on Monday.\nIt has forty beds.\nBut demand is already high.\nOfficials said they would add more.\nOne is already full.",
+ "sentences": [
+  {
+   "para": 0,
+   "text": "The city opened a new shelter on Monday.",
+   "fa": 0,
+   "fb": 40,
+   "id": "S001"
+  },
+  {
+   "para": 1,
+   "text": "It has forty beds.",
+   "fa": 41,
+   "fb": 59,
+   "id": "S002"
+  },
+  {
+   "para": 2,
+   "text": "But demand is already high.",
+   "fa": 60,
+   "fb": 87,
+   "id": "S003"
+  },
+  {
+   "para": 3,
+   "text": "Officials said they would add more.",
+   "fa": 88,
+   "fb": 123,
+   "id": "S004"
+  },
+  {
+   "para": 4,
+   "text": "One is already full.",
+   "fa": 124,
+   "fb": 144,
+   "id": "S005"
+  }
+ ]
+}

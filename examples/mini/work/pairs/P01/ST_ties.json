@@ -1,0 +1,80 @@
+{
+ "pair": "P01",
+ "lang": "EN",
+ "ties": [
+  {
+   "id": "P01-EN-001",
+   "sent": "S002",
+   "text": "It",
+   "occ": 1,
+   "cat": "R",
+   "sub": "personal",
+   "dir": "ana",
+   "level": "LC",
+   "ante": "S001: a new shelter",
+   "conf": "high",
+   "alt": null,
+   "note": "đại từ hồi quy",
+   "ref": "A"
+  },
+  {
+   "id": "P01-EN-002",
+   "sent": "S003",
+   "text": "But",
+   "occ": 1,
+   "cat": "C",
+   "sub": "adversative",
+   "dir": "ana",
+   "level": "LC",
+   "ante": "S002: forty beds",
+   "conf": "high",
+   "alt": null,
+   "note": "nối tương phản liên câu"
+  },
+  {
+   "id": "P01-EN-003",
+   "sent": "S004",
+   "text": null,
+   "occ": 1,
+   "gap_after": "add more",
+   "recovered": "{beds}",
+   "cat": "E",
+   "sub": "nominal",
+   "dir": "ana",
+   "level": "LC",
+   "ante": "S002: forty beds",
+   "conf": "high",
+   "alt": null,
+   "note": "[LC] lược {beds} sau “add more”"
+  },
+  {
+   "id": "P01-EN-004",
+   "sent": "S004",
+   "text": "they",
+   "occ": 1,
+   "cat": "R",
+   "sub": "personal",
+   "dir": "ana",
+   "level": "TC",
+   "ante": "S004: Officials (trong câu)",
+   "conf": "high",
+   "alt": null,
+   "note": "[TC] they ← Officials trong cùng câu",
+   "ref": "A"
+  },
+  {
+   "id": "P01-EN-005",
+   "sent": "S005",
+   "text": "One",
+   "occ": 1,
+   "cat": "S",
+   "sub": "nominal",
+   "dir": "ana",
+   "level": "LC",
+   "ante": "S001: a new shelter",
+   "conf": "high",
+   "alt": null,
+   "note": "[LC] One ← a new shelter"
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "paras": [
+  "Thành phố đã mở một nơi trú ẩn mới vào thứ Hai.",
+  "Nơi này có bốn mươi giường.",
+  "Nhưng nhu cầu đã cao.",
+  "Các quan chức cho biết họ sẽ bổ sung thêm.",
+  "Một nơi đã chật kín."
+ ],
+ "flow": "Thành phố đã mở một nơi trú ẩn mới vào thứ Hai.\nNơi này có bốn mươi giường.\nNhưng nhu cầu đã cao.\nCác quan chức cho biết họ sẽ bổ sung thêm.\nMột nơi đã chật kín.",
+ "sentences": [
+  {
+   "para": 0,
+   "text": "Thành phố đã mở một nơi trú ẩn mới vào thứ Hai.",
+   "fa": 0,
+   "fb": 47,
+   "id": "S001"
+  },
+  {
+   "para": 1,
+   "text": "Nơi này có bốn mươi giường.",
+   "fa": 48,
+   "fb": 75,
+   "id": "S002"
+  },
+  {
+   "para": 2,
+   "text": "Nhưng nhu cầu đã cao.",
+   "fa": 76,
+   "fb": 97,
+   "id": "S003"
+  },
+  {
+   "para": 3,
+   "text": "Các quan chức cho biết họ sẽ bổ sung thêm.",
+   "fa": 98,
+   "fb": 140,
+   "id": "S004"
+  },
+  {
+   "para": 4,
+   "text": "Một nơi đã chật kín.",
+   "fa": 141,
+   "fb": 161,
+   "id": "S005"
+  }
+ ]
+}
