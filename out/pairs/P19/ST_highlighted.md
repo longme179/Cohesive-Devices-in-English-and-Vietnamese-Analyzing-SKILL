@@ -6,18 +6,18 @@
 
 **Legend:** 🟨 Reference (`R`) | 🟩 Substitution (`S`) | 🟦 Ellipsis (`E`) | 🟧 Conjunction (`C`) | 🟪 Lexical cohesion (`L`) — ellipsis gap: 🟦⟦∅⟧
 
-**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric.
+**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric. Levels: LC = intersentential, TC = intra-sentential, TD = title.
 
 ---
 
-BANGKOK — Travelers who flew on eight airlines across the Pacific between 2000 and this year are eligible for benefits from a class action lawsuit involving ticket price-fixing. 🟪⟦A lawsuit⟧ continues against 🟪⟦five more air carriers⟧ accused of the same thing.
-🟪⟦The case⟧ involves 🟪⟦tickets⟧ purchased from a total of 26 🟪⟦airlines⟧. 🟪⟦Settlements⟧ have been reached with eight 🟪⟦airlines⟧ and 🟪⟦a lawsuit⟧ continues against five more.
+BANGKOK — Travelers who flew on eight airlines across the Pacific between 2000 and this year are eligible for benefits from a class action lawsuit involving ticket price-fixing. 🟪⟦A lawsuit⟧ continues against five more🟦⟦∅⟧ 🟪⟦air carriers⟧ accused of 🟩⟦the same thing⟧.
+🟪⟦The case⟧ involves 🟪⟦tickets⟧ purchased from a total of 26 🟪⟦airlines⟧. 🟪⟦Settlements⟧ have been reached with eight 🟪⟦airlines⟧ and 🟪⟦a lawsuit⟧ continues against five more🟦⟦∅⟧.
 🟪⟦The carriers which have settled⟧ - Air France, Cathay Pacific, Japan Airlines, Malaysia Airlines, Qantas, Singapore Airlines, Thai Airways and Vietnam Airlines - have agreed to refund nearly $40 million.
 Attorney Adam Zapala, who has been working on 🟪⟦the case⟧, explains it grew out of numerous 🟪⟦U.S. government⟧ investigations into price-fixing in the air cargo industry.
-“Many of the same players in 🟪⟦the air passenger industry⟧ also are 🟪⟦air cargo carriers⟧. In fact a lot of 🟪⟦the cargo⟧ that's carried day to day throughout 🟪⟦the world⟧ is carried in the belly of air passenger planes. And there is 🟪⟦a very large class action [lawsuit]⟧ pending in the eastern district of New York that pertains to the air cargo price-fixing case. And 🟪⟦many of the defendants⟧ in 🟨⟦that case⟧ are defendants in 🟨⟦our case⟧, as well,” said 🟪⟦Zapala⟧.
+“Many of 🟩⟦the same players⟧ in 🟪⟦the air passenger industry⟧ also are 🟪⟦air cargo carriers⟧. In fact a lot of 🟪⟦the cargo⟧ that's carried day to day throughout 🟪⟦the world⟧ is carried in the belly of air passenger planes. And there is 🟪⟦a very large class action [lawsuit]⟧ pending in the eastern district of New York that pertains to the air cargo price-fixing case. And 🟪⟦many of the defendants⟧ in 🟨⟦that case⟧ are defendants in 🟨⟦our case⟧, as well,” said 🟪⟦Zapala⟧.
 🟪⟦Zapala⟧ said how much money 🟪⟦passengers⟧ potentially can get depends on how many of them file 🟪⟦applications⟧ for claims.
 “🟪⟦People⟧ will be paid out on a pro rata basis according to 🟪⟦the number of flights⟧ they had during the period of time. If only 20 percent of 🟪⟦the class⟧ file 🟪⟦claims⟧ then that 20 percent of the class will be divvying up the $40 million,” he exaplined.
 🟪⟦The attorney⟧ said that uncovering 🟪⟦price-fixing⟧ takes a lot of time and money but hopefully 🟪⟦such legal actions⟧ dissuade businesses from engaging in this anti-competitive behavior.
 🟪⟦The class action suit⟧ claims 🟪⟦airlines⟧ colluded to 🟪⟦fix prices⟧ on 🟪⟦trans-Pacific travel⟧, resulting in 🟪⟦passengers⟧ paying more than was necessary. 🟪⟦The routes⟧ involved were between 🟪⟦the United States⟧ and Asia, Australia, New Zealand and some Pacific islands.
-🟪⟦The eight airlines which settled⟧ deny 🟪⟦the allegation⟧ and any liability. 🟪⟦Those still being sued⟧ - Air New Zealand, All Nippon Airways (ANA), China Airlines (of Taiwan), Eva Airways and Philippines Airlines - also deny liability. 🟧⟦However⟧, 🟪⟦ANA⟧ has pled guilty to 🟪⟦fixing the prices⟧ of certain discounted tickets.
-🟨⟦Those⟧ who believe they may be eligible for benefits can file 🟪⟦a claim form⟧ online or by mail. 🟪⟦Information⟧ on how to do that can be obtained by visiting 🟪⟦the website⟧ www.AirlineSettlement.com.
+🟪⟦The eight airlines which settled⟧ deny 🟪⟦the allegation⟧ and any liability. 🟦⟦∅⟧🟪⟦Those still being sued⟧ - Air New Zealand, All Nippon Airways (ANA), China Airlines (of Taiwan), Eva Airways and Philippines Airlines - also deny liability. 🟧⟦However⟧, 🟪⟦ANA⟧ has pled guilty to 🟪⟦fixing the prices⟧ of certain discounted tickets.
+🟦⟦∅⟧🟨⟦Those⟧ who believe they may be eligible for benefits can file 🟪⟦a claim form⟧ online or by mail. 🟪⟦Information⟧ on how to do that can be obtained by visiting 🟪⟦the website⟧ www.AirlineSettlement.com.

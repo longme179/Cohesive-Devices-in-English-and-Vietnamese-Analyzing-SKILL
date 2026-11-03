@@ -1,5 +1,5 @@
 QC P07 VI (TT): PASS
-(e) counts: {'C': 6, 'L': 86, 'R': 27}
+(e) counts: {'C': 6, 'E': 9, 'L': 86, 'R': 27}
 (f) R direction: {'A': 14, 'E': 13}
-confidence: {'high': 89, 'low': 2, 'med': 28}
-sentences: 66, ties: 119
+confidence: {'high': 97, 'low': 3, 'med': 28}
+sentences: 66, ties: 128

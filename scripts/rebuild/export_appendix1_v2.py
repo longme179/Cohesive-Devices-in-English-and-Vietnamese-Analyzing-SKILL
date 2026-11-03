@@ -34,7 +34,8 @@ from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from docx.shared import Cm, Pt, RGBColor
 
-BASE = '/home/z/my-project'
+import os as _os
+BASE = _os.path.dirname(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
 IR_PATH = os.path.join(BASE, 'out', 'appendix1', 'appendix1_segments.json')
 OUT_DL = os.path.join(BASE, 'download', 'BDNC', 'Appendix1.docx')
 OUT_ARTIFACT = os.path.join(BASE, 'out', 'appendix1', 'Appendix1.docx')
@@ -245,8 +246,9 @@ def tie_head(side, tid, tie):
     txt = tie.get('text') or '∅'
     ref = (f' · hướng {tie["ref"]}'
            if tie.get('cat') == 'R' and tie.get('ref') else '')
+    lvl = f' · {tie.get("level", "LC")}'
     return (f'{side}·{tid} “{txt}” — {tie["cat"]}/{tie.get("sub", "")}'
-            f'{ref} · câu {tie.get("sent", "?")}')
+            f'{ref}{lvl} · câu {tie.get("sent", "?")}')
 
 
 def tie_ante_line(tie):
@@ -270,12 +272,19 @@ def _q(t):
 def build_comment_en(d, tid):
     tie = d['st'].get(tid)
     row = d['en_row'].get(tid)
-    if not tie or not row:
+    if not tie:
         return None
     lines = [tie_head('EN', tid, tie)]
     al = tie_ante_line(tie)
     if al:
         lines.append(al)
+    if not row:
+        lines.append('Bổ sung thủ công từ semantic_analysis (S/E) — '
+                     'chưa có dòng trong bảng align v2; màu và level theo '
+                     'tie table.')
+        if tie.get('note'):
+            lines.append(f'note: {tie["note"]}')
+        return '\n'.join(lines)
     k = outcome_key(row)
     tt = d['tt'].get(row.get('tt_tie')) if row.get('tt_tie') else None
     if k == 'kept':
@@ -303,12 +312,19 @@ def build_comment_en(d, tid):
 def build_comment_vi(d, tid):
     tie = d['tt'].get(tid)
     rows = d['vi_rows'].get(tid)
-    if not tie or not rows:
+    if not tie:
         return None
     lines = [tie_head('VI', tid, tie)]
     al = tie_ante_line(tie)
     if al:
         lines.append(al)
+    if not rows:
+        lines.append('Bổ sung thủ công từ semantic_analysis (S/E) — '
+                     'chưa có dòng trong bảng align v2; màu và level theo '
+                     'tie table.')
+        if tie.get('note'):
+            lines.append(f'note: {tie["note"]}')
+        return '\n'.join(lines)
     if rows[0]['outcome'] == 'added':
         k = outcome_key(rows[0])
         if k == 'added_real':
@@ -432,8 +448,11 @@ def build():
     irun = intro.add_run(
         'Bản tiếng Anh (EN) đánh dấu theo Halliday & Hasan (1976); bản tiếng '
         'Việt (VI) đánh dấu theo Trần Ngọc Thêm (2006, dẫn theo Nguyễn Thanh '
-        'Tùng 2020), quy về cùng thang 5 màu. Chỉ đánh dấu các liên kết '
-        'liên-câu (intersentential ties). Bản này được TÔ LẠI dựa vào bảng '
+        'Tùng 2020), quy về cùng thang 5 màu. Bản này đánh dấu các tie '
+        'liên-câu (R/C/L) và BỔ SUNG THỦ CÔNG các vị trí phép thế (S) / phép '
+        'tỉnh lược (E) đã phân tích trong download/BDNC/semantic_analysis — '
+        'gồm cả [LC] liên câu và [TC] trong câu; level ghi trong comment. '
+        'Bản này được TÔ LẠI dựa vào bảng '
         'căn cặp (align v2) dựng theo giao thức mới — từ bản đồ câu của 20 '
         'bản phân tích thủ công, đã qua cổng kiểm ngữ nghĩa (bước 13): mỗi '
         'khối đánh dấu kèm (i) nền màu 5 danh mục; (ii) với Reference (R), '
@@ -672,7 +691,7 @@ def build():
           f'(1 legend + 1 outcome + 1 framework + 20 pairs)')
     print(f'Shaded runs by fill: {n_shd}')
     print(f'Superscript runs: {n_sup} (395 ref letters + 2996 outcome tags)')
-    print(f'Word comments: {n_cmt} (expect 2996)')
+    print(f'Word comments: {n_cmt} (expect 3180)')
 
 
 if __name__ == '__main__':

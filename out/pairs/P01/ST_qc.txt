@@ -1,5 +1,5 @@
 QC P01 EN (ST): PASS
-(e) counts: {'C': 10, 'L': 95, 'R': 30}
+(e) counts: {'C': 10, 'E': 2, 'L': 95, 'R': 30, 'S': 3}
 (f) R direction: {'A': 30}
-confidence: {'high': 88, 'low': 1, 'med': 46}
-sentences: 49, ties: 135
+confidence: {'high': 91, 'low': 1, 'med': 48}
+sentences: 49, ties: 140

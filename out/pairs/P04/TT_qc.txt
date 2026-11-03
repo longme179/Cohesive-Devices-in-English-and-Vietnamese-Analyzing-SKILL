@@ -1,5 +1,5 @@
 QC P04 VI (TT): PASS
-(e) counts: {'C': 7, 'L': 53, 'R': 5}
+(e) counts: {'C': 7, 'E': 5, 'L': 53, 'R': 5}
 (f) R direction: {'A': 5}
-confidence: {'high': 52, 'med': 13}
-sentences: 35, ties: 65
+confidence: {'high': 56, 'low': 1, 'med': 13}
+sentences: 35, ties: 70

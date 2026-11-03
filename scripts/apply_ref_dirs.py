@@ -20,6 +20,9 @@ Also fixes two ante fields found incorrect during the audit:
 """
 import json
 import glob
+import os
+
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # ---- ties to label E (exophoric), with documented reasons -------------
 E_SET = {
@@ -67,8 +70,8 @@ ANTE_FIXES = {
 }
 
 changed = {'E': 0, 'A': 0}
-for path in sorted(glob.glob('/home/z/my-project/out/pairs/P*/ST_ties.json')) + \
-             sorted(glob.glob('/home/z/my-project/out/pairs/P*/TT_ties.json')):
+for path in sorted(glob.glob(os.path.join(BASE, 'out/pairs/P*/ST_ties.json'))) + \
+             sorted(glob.glob(os.path.join(BASE, 'out/pairs/P*/TT_ties.json'))):
     d = json.load(open(path))
     ids_seen = set()
     for t in d['ties']:

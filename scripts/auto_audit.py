@@ -16,7 +16,9 @@ import glob
 import re
 from collections import Counter, defaultdict
 
-AUD = '/home/z/my-project/out/audit'
+import os as _os
+BASE = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
+AUD = _os.path.join(BASE, 'out', 'audit')
 
 R_SUBS = {'personal', 'demonstrative', 'comparative', 'quantified'}
 L_SUBS = {'repetition', 'synonym', 'antonym', 'collocation', 'superordinate',
@@ -66,8 +68,8 @@ low_conf = []
 conj_unknown = Counter()
 conj_items = Counter()
 
-for path in sorted(glob.glob('/home/z/my-project/out/pairs/P*/ST_ties.json')) + \
-             sorted(glob.glob('/home/z/my-project/out/pairs/P*/TT_ties.json')):
+for path in sorted(glob.glob(_os.path.join(BASE, 'out/pairs/P*/ST_ties.json'))) + \
+             sorted(glob.glob(_os.path.join(BASE, 'out/pairs/P*/TT_ties.json'))):
     d = json.load(open(path))
     pid, lang = d['pair'], d['lang']
     for t in d['ties']:
@@ -102,7 +104,7 @@ for path in sorted(glob.glob('/home/z/my-project/out/pairs/P*/ST_ties.json')) + 
             if t.get('sub') not in L_SUBS:
                 flagged.append(f"{t['id']}: L sub={t.get('sub')!r} outside taxonomy")
         elif cat == 'E':
-            if t['text'] is not None or not t.get('gap_after') \
+            if t['text'] is not None or t.get('gap_after') is None \
                     or not t.get('recovered'):
                 flagged.append(f"{t['id']}: ellipsis shape invalid: "
                                f"text={t['text']!r} gap={t.get('gap_after')!r} "
@@ -136,8 +138,8 @@ json_stats['grand'] = {'EN': dict(grand['EN']), 'VI': dict(grand['VI'])}
 # R direction stats
 ref_stats = {}
 tot = Counter()
-for path in sorted(glob.glob('/home/z/my-project/out/pairs/P*/ST_ties.json')) + \
-             sorted(glob.glob('/home/z/my-project/out/pairs/P*/TT_ties.json')):
+for path in sorted(glob.glob(_os.path.join(BASE, 'out/pairs/P*/ST_ties.json'))) + \
+             sorted(glob.glob(_os.path.join(BASE, 'out/pairs/P*/TT_ties.json'))):
     d = json.load(open(path))
     pid, lang = d['pair'], d['lang']
     for t in d['ties']:

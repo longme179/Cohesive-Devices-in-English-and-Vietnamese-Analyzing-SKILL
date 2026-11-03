@@ -17,7 +17,9 @@ Usage: python3 render.py P01
 import json, os, re, sys, html as htmlmod
 from collections import Counter
 
-OUT = '/home/z/my-project/out'
+import os as _os
+BASE = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
+OUT = _os.path.join(BASE, 'out')
 
 CATS = {
  'R': {'emoji': '\U0001F7E8', 'color': '#FFF176', 'name': 'Reference'},
@@ -103,6 +105,15 @@ def render_side(pid, pref, lang):
     # For R ties with ref='E' (exophoric) the ante field is informational only
     # (chain anchor or extra-textual description): no S-id is required.
     for t in ties:
+        # LC = intersentential (antecedent must sit in another sentence).
+        # TC = intra-sentential and TD = title-level: this appendix now also
+        # renders the manually analysed S/E positions at those levels, so the
+        # cross-sentence direction gate does not apply to them.
+        if t.get('level') in ('TC', 'TD'):
+            if not (t.get('ante') or '').strip():
+                qc.append(f'FAIL (d): {t["id"]}: {t.get("level")} tie without ante')
+                fail = True
+            continue
         if t['cat'] == 'R' and t.get('ref') == 'E':
             continue
         nums = [int(n) for n in SENT_RE.findall(t.get('ante') or '')]
@@ -162,7 +173,8 @@ def render_side(pid, pref, lang):
         f"{c['emoji']} {c['name']} (`{k}`)" for k, c in CATS.items()) +
         ' — ellipsis gap: \U0001F7E6\u27E6\u2205\u27E7' +
         '\n\n**Reference direction (A/C/E):** each R tie carries a superscript '
-        'letter — A = anaphoric, C = cataphoric, E = exophoric.')
+        'letter — A = anaphoric, C = cataphoric, E = exophoric. '
+        'Levels: LC = intersentential, TC = intra-sentential, TD = title.')
     header = (f'# {pid} — {"Source text (ST, English)" if lang=="EN" else "Target text (TT, Vietnamese)"}\n\n'
               f'**Title:** {title}\n\n'
               f'**Framework:** ' + ('Halliday & Hasan (1976)' if lang == 'EN'
@@ -185,7 +197,7 @@ def render_side(pid, pref, lang):
     for a, b, t, kind in events:
         if kind == 'point':
             parts.append(htmlmod.escape(flow[last:a]))
-            tip = f"{CATS[t['cat']]['name']} ({t['cat']}/{t['sub']}) | gap after: {t.get('gap_after')} | recovered: {t.get('recovered')} | {t.get('ante','')}"
+            tip = f"{CATS[t['cat']]['name']} ({t['cat']}/{t['sub']}) | level: {t.get('level','LC')} | gap after: {t.get('gap_after')} | recovered: {t.get('recovered')} | {t.get('ante','')}"
             parts.append(f'<span class="tie" style="background-color:{CATS["E"]["color"]}" title="{htmlmod.escape(tip)}">\u2205</span>')
             last = a
         else:
@@ -195,7 +207,7 @@ def render_side(pid, pref, lang):
                 refname = {'A': 'anaphoric', 'C': 'cataphoric',
                            'E': 'exophoric'}.get(t.get('ref'), '?')
                 tip += f" | dir: {refname} ({t.get('ref')})"
-            tip += f" | ante: {t.get('ante','')} | conf={t['conf']}"
+            tip += f" | level: {t.get('level','LC')} | ante: {t.get('ante','')} | conf={t['conf']}"
             if t.get('alt'): tip += f" | alt: {t['alt']}"
             sup = (f"<sup>{t['ref']}</sup>"
                    if t['cat'] == 'R' and t.get('ref') else '')

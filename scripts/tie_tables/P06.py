@@ -117,6 +117,15 @@ ST = [
  ('S038', 'At the same time', 'C', 'additive', 'S037: AI adoption', 'med', None, None, 1),
  ('S038', 'airlines', 'L', 'repetition', 'S037: airlines', 'high', None, None, 1),
  ('S038', 'routes', 'L', 'repetition', 'S021: route', 'med', None, None, 1),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_06 (§2–§3) ----
+ # [TC] = trong câu. Chỉ các mục phân tích có ghi; bỏ các mục trong khối bị cắt
+ # nếu không tìm được vị trí nguyên văn.
+ ('S003', None, 'E', 'clausal', 'S003: {is} (trong câu)', 'med', None, '[TC] biên: “with work {is} underway”; chọn chỗ trống hệ từ', 1, 'frequently travel to the US, with work', '{is}', 'TC'),
+ ('S008', None, 'E', 'nominal', 'S008: {for an authorisation valid} (trong câu)', 'med', None, '[TC] biên: tọa hợp bất đối xứng “for a three-year authorisation or ∅ until…”', 1, 'for a three-year authorisation or ', '{for an authorisation valid}', 'TC'),
+ ('S011', None, 'E', 'nominal', 'S011: {flights} (trong câu)', 'high', None, '[TC] lược đầu ngữ danh từ: “to {flights} daily”', 1, 'from four per week to ', '{flights}', 'TC'),
+ ('S012', None, 'E', 'verbal', 'S012: {will} (trong câu)', 'high', None, '[TC] gapping trợ động từ: “and {will} replace it”', 1, 'route from 30 March and ', '{will}', 'TC'),
+ ('S033', None, 'E', 'nominal', 'S033: {requirement} (trong câu)', 'med', None, '[TC] lược đầu ngữ: “a non-negotiable {requirement}” (khối EN bị VI cắt)', 1, "a buzzword, it's now a non-negotiable", '{requirement}', 'TC'),
+
 ]
 
 TT = [
@@ -195,4 +204,12 @@ TT = [
  ('S024', 'báo cáo', 'L', 'repetition', 'S018: Báo cáo', 'med', None, 'genre echo', 1),
  ('S024', 'chúng tôi', 'R', 'personal', 'S020: một phát ngôn viên của ACCC', 'med', None, 'institutional chúng tôi', 1),
  ('S024', 'giá nhiên liệu máy bay', 'L', 'repetition', 'S023: giá nhiên liệu máy bay', 'high', None, 'verbatim', 1),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_06 (§2–§3) ----
+ ('S003', None, 'E', 'nominal', 'S003: {chương trình} (trong câu)', 'high', None, '[TC] VI tự sinh: lược chủ ngữ vế “nhưng {chương trình} chỉ dành cho…”', 1, 'Chương trình sẽ được bắt đầu từ tháng này nhưng ', '{chương trình}', 'TC'),
+ ('S007', None, 'E', 'nominal', 'S007: {họ} (trong câu)', 'med', None, '[TC] biên: chủ ngữ vế “trước khi {họ} lên máy bay” được điều khiển', 1, 'phải được chấp thuận trước khi ', '{họ}', 'TC'),
+ ('S009', None, 'E', 'nominal', 'S009: {giấy phép có thời hạn} (trong câu)', 'med', None, '[TC] biên: tọa hợp bất đối xứng “ba năm ∅ hoặc cho đến khi…”', 1, 'cho giấy phép có thời hạn ba năm hoặc cho đến khi', '{giấy phép có thời hạn}', 'TC'),
+ ('S012', None, 'E', 'nominal', 'S012: {chuyến bay} (trong câu)', 'high', None, '[TC] lược đầu ngữ: “lên {chuyến bay} hàng ngày”', 1, 'từ bốn chuyến một tuần lên ', '{chuyến bay}', 'TC'),
+ ('S013', None, 'E', 'nominal', 'S013: {Emirates} (trong câu)', 'high', None, '[TC] lược chủ ngữ: “và {Emirates} thay vào đó là…”', 1, 'năm 2025 và ', '{Emirates}', 'TC'),
+ ('S013', 'thay vào đó', 'S', 'verbal', 'S013: chuyến Singapore–Melbourne (trong câu)', 'low', None, '[TC] biên: pro-form phương vị “thay vào đó” ← chuyến bay bị thay; EN dùng quy chiếu “replace it”', 1, None, None, 'TC'),
+
 ]

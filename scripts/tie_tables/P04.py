@@ -134,6 +134,17 @@ ST = [
  ('S041', 'bed', 'L', 'repetition', 'S010: the time you spend in bed', 'med', None, None, 1),
  # S044
  ('S044', 'struggling with sleep', 'L', 'repetition', 'S003: struggling with their sleep', 'high', None, 'verbatim echo', 1),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_04 (§2–§3) ----
+ # [LC] = liên câu; [TC] = trong câu. Các dòng này KHÔNG do script sinh:
+ # người đọc bản phân tích ngữ nghĩa rồi chọn đúng vị trí/tiền trạm.
+ # E-EN1 — danh sách 8 mệnh lệnh S036–S043: marker = mục đầu, các mục còn lại trong note.
+ ('S036', None, 'E', 'nominal', 'S035: Shriane said many gadgets are not backed by science → khung “Instead, she recommends simpler measures” (câu kế) mở danh sách; ∅ = you (generic)', 'high', None, '[LC] danh sách 8 mệnh lệnh S036–S043, chủ ngữ ∅ (you) ở mọi mục — 8/8 mục; marker = mục đầu “Go to bed…”', 1, 'she recommends simpler measures: ', '{you}', 'LC'),
+ # E-EN2 — vùng giao thời S/E (biên), đi kèm dòng S “do” bên dưới.
+ ('S037', None, 'E', 'verbal', 'S037: Try not to nap during the day (trong câu)', 'low', None, '[TC] biên: “if you do” = V-ellipsis với toán tử do (do ← nap during the day); vùng giao thời lược/thế, xếp kèm dòng S “do”', 1, 'and if you do', '{nap during the day}', 'TC'),
+ # E-EN3 — tọa hợp so sánh, bổ ngữ “sleep” hiểu ngầm ở vế sau.
+ ('S020', None, 'E', 'nominal', 'S020: Toddlers need 11 to 14 hours (trong câu)', 'med', None, '[TC] tọa hợp so sánh lặp need; bổ ngữ sleep hiểu ngầm — EN hiểu “eight to 10 hours {of sleep} a night”; VI lược cả động từ ngủ (E-VI3)', 1, 'while teenagers need', '{sleep}', 'TC'),
+ # S-EN1 — 1 trường hợp biên duy nhất của EN (pro-verb do).
+ ('S037', 'do', 'S', 'verbal', 'S037: Try not to nap during the day (trong câu)', 'low', None, '[TC] biên: pro-verb do ← “nap during the day” (thế/lược động từ); “do it” — it quy chiếu hoạt động; cùng vị trí với E-EN2, vùng giao thời S/E', 1, None, None, 'TC'),
 ]
 
 TT = [
@@ -235,4 +246,16 @@ TT = [
  ('S034', 'giường', 'L', 'repetition', 'S032: giường', 'high', None, 'ra khỏi giường', 1),
  # S035
  ('S035', 'khó ngủ', 'L', 'repetition', 'S003: khó ngủ', 'high', None, 'verbatim echo of the earlier survey sentence', 1),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_04 (§2–§3) ----
+ # [LC] = liên câu; [TC] = trong câu. Các dòng này KHÔNG do script sinh.
+ # E-VI1 — danh sách 8 mệnh lệnh S027–S034: marker = mục đầu, các mục còn lại trong note.
+ ('S027', None, 'E', 'nominal', 'S026: bà Shriane cho biết đa số thiết bị không có bằng chứng khoa học → khung “Thay vào đó, bà gợi ý…” (câu kế) mở danh sách; ∅ = bạn', 'high', None, '[LC] danh sách 8 mệnh lệnh S027–S034, chủ ngữ ∅ (bạn) ở mọi mục — 8/8 mục; tương ứng 1–1 với E-EN1', 1, 'các biện pháp đơn giản sau: ', '{bạn}', 'LC'),
+ # E-VI2 — lược kép: chủ ngữ {bạn} + động từ {ngủ}.
+ ('S028', None, 'E', 'nominal', 'S028: {bạn} ngủ (trong câu)', 'high', None, '[TC] lược kép: chủ ngữ {bạn} sau “nếu”; gap thứ hai sau “thì” = {ngủ} (“nếu [bạn] ngủ thì [ngủ] chỉ 15-20 phút”); EN: if you do, do it', 1, 'hoặc nếu', '{bạn}', 'TC'),
+ # E-VI3 — gapping động từ “ngủ” ở vế sau.
+ ('S015', None, 'E', 'verbal', 'S015: Trẻ nhỏ cần ngủ (trong câu)', 'high', None, '[TC] gapping VI: lược động từ “ngủ” ở vế sau (“cần ∅ 8-10 tiếng”); EN giữ need (E-EN3)', 1, 'thanh thiếu niên cần', '{ngủ}', 'TC'),
+ # E-VI4 — bridging + câu không chủ ngữ (biên, nghiêng về quy chiếu cầu nối).
+ ('S023', None, 'E', 'nominal', 'S022: Thiếu ngủ trong ngắn hạn (dòng 20)', 'low', None, '[LC] biên: bridging + câu không chủ ngữ — “tình trạng” ← {thiếu ngủ} (S022), “hậu quả” ← {các ảnh hưởng}; nghiêng về quy chiếu cầu nối hơn tỉnh lược', 1, 'Nếu tình trạng', '{thiếu ngủ}', 'LC'),
+ # E-VI5 — chủ ngữ nghe giả định dùng chung vế tọa hợp.
+ ('S034', None, 'E', 'nominal', 'S034: hãy ra khỏi giường (trong câu)', 'high', None, '[TC] chủ ngữ nghe giả định {bạn} dùng chung vế tọa hợp: “hãy ra khỏi giường và ∅ làm điều gì đó thư giãn”', 1, 'ra khỏi giường và ', '{bạn}', 'TC'),
 ]

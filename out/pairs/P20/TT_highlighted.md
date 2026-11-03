@@ -6,7 +6,7 @@
 
 **Legend:** 🟨 Reference (`R`) | 🟩 Substitution (`S`) | 🟦 Ellipsis (`E`) | 🟧 Conjunction (`C`) | 🟪 Lexical cohesion (`L`) — ellipsis gap: 🟦⟦∅⟧
 
-**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric.
+**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric. Levels: LC = intersentential, TC = intra-sentential, TD = title.
 
 ---
 
@@ -20,7 +20,7 @@ EU đã đưa ra 🟪⟦thẻ đỏ⟧ đầu tiên từ trước đến nay và
 “Khối lượng khá cao. Nhưng đồng thời, số nhân lực cần thiết để đảm bảo là 🟪⟦hải sản đánh bắt bất hợp pháp⟧ không vào những 🟪⟦thị trường⟧ này thì lại khá thấp trong tất cả những nước nhập khẩu. Do đó 🟨⟦những quốc gia này⟧ cần phải tăng cường 🟪⟦nhân lực⟧ để cải thiện việc theo dõi, kiểm soát và giám sát tại các cảng.”
 Một 🟪⟦phúc trình⟧ năm 2009 của chính phủ cho thấy chỉ có khoảng 2% 🟪⟦hải sản⟧ nhập vào 🟪⟦Hoa Kỳ⟧ được kiểm tra tại các cảng. Không có những dữ liệu công khai đối với hầu hết những 🟪⟦thị trường nhập khẩu⟧ khác.
 Tháng trước, 🟪⟦Thượng viện Hoa Kỳ⟧ đã chấp thuận thỏa thuận các Biện pháp tại Cảng của các Quốc gia của Tổ chức Lương Nông Liên hiệp quốc. 🟪⟦Thỏa thuận này⟧ nhắm mục đích loại trừ các 🟪⟦tàu thuyền nước ngoài⟧ bị nghi 🟪⟦đánh bắt bất hợp pháp⟧ ra khỏi 🟪⟦cảng⟧ của các quốc gia ký thỏa thuận. 10 nước ven biển và 🟪⟦EU⟧ đã 🟪⟦phê chuẩn⟧ nhưng còn cần thêm sự phê chuẩn của 14 nước khác để 🟪⟦hiệp ước⟧ có hiệu lực.
-Ông Anthony Long, điều hành Dự án Chấm dứt 🟪⟦Đánh bắt bất hợp pháp⟧ cho Quỹ Từ thiện Pew, xem 🟪⟦thỏa thuận⟧ như là một phương cách có thể ngăn chặn cá được đánh bắt bất hợp pháp nhập vào thị trường toàn cầu. “🟪⟦Ngư dân⟧ phải đưa 🟪⟦cá⟧ vào 🟪⟦cảng⟧. Do đó cần chú trọng vào 🟨⟦việc này⟧ hơn là sử dụng các nguồn lực tốn kém cần thiết để 🟪⟦tuần tra⟧ ngoài biển hay theo dõi bằng vệ tinh, các cảng là nơi dễ thấy nhất. 🟨⟦Việc này⟧ chắc chắc là giảm bớt tốn kém. Do đó các nước đang phát triển sẽ được lợi nhiều do 🟪⟦thỏa thuận⟧ về các 🟪⟦Biện pháp tại Cảng các Quốc gia⟧ mang lại.”
+Ông Anthony Long, điều hành Dự án Chấm dứt 🟪⟦Đánh bắt bất hợp pháp⟧ cho Quỹ Từ thiện Pew, xem 🟪⟦thỏa thuận⟧ như là một phương cách có thể ngăn chặn cá được đánh bắt bất hợp pháp nhập vào thị trường toàn cầu. “🟪⟦Ngư dân⟧ phải đưa 🟪⟦cá⟧ vào 🟪⟦cảng⟧. Do đó 🟦⟦∅⟧cần chú trọng vào 🟨⟦việc này⟧ hơn là sử dụng các nguồn lực tốn kém cần thiết để 🟪⟦tuần tra⟧ ngoài biển hay theo dõi bằng vệ tinh, các cảng là nơi dễ thấy nhất. 🟨⟦Việc này⟧ chắc chắc là giảm bớt tốn kém. Do đó các nước đang phát triển sẽ được lợi nhiều do 🟪⟦thỏa thuận⟧ về các 🟪⟦Biện pháp tại Cảng các Quốc gia⟧ mang lại.”
 Ông Richard Conniff, 🟪⟦người Mỹ⟧, tác giả của cuốn “Người tìm các Chủng loại” và những cuốn sách khác về các loại động vật, nói cần có thêm nhiều áp lực để áp dụng vào những nơi phân phối. “Các nhà phân phối là nơi gây tắc nghẽn. 🟨⟦Đó⟧ là nơi hầu hết những 🟪⟦hải sản⟧ vào 🟨⟦nước này⟧. Và 🟨⟦họ⟧ là những người có thể chấm dứt tình trạng 🟨⟦ấy⟧ bằng cách nhấn mạnh rằng là tất cả hàng hóa đều có thể tìm ra được đầu mối và tất cả đều hợp pháp.”
 Các nhà hoạt động như ông Steve Trent của 🟪⟦Tổ chức Tư pháp Môi trường⟧ cho rằng 🟪⟦Trung Quốc⟧ với nhu cầu tiêu thụ 🟪⟦hải sản⟧ khổng lồ và ngày càng tăng- sẽ đóng một vai trò quan trọng trong việc chống lại qui định đánh bắt của IUU.
 “Cách thức 🟪⟦chính phủ Trung Quốc⟧ và nhà cầm quyền hành động về việc 🟪⟦đánh cá⟧ theo một cương lĩnh toàn cầu trong tương lai sẽ quyết định phần lớn chính sách của tất cả các nước.”

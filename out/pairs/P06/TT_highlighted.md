@@ -6,20 +6,20 @@
 
 **Legend:** 🟨 Reference (`R`) | 🟩 Substitution (`S`) | 🟦 Ellipsis (`E`) | 🟧 Conjunction (`C`) | 🟪 Lexical cohesion (`L`) — ellipsis gap: 🟦⟦∅⟧
 
-**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric.
+**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric. Levels: LC = intersentential, TC = intra-sentential, TD = title.
 
 ---
 
 Nếu bạn đang có kế hoạch đi du lịch đến Hoa Kỳ vào năm sau, bạn có thể đủ điều kiện để bỏ qua việc xếp hàng lúc nhập cảnh.
 Vào năm 2025, Úc sẽ tham gia cùng hơn 20 quốc gia khác trong chương trình Nhập cảnh Toàn cầu ưu tiên - Global Entry - của 🟪⟦Hoa Kỳ⟧, giúp việc làm thủ tục nhập cư và thông quan hợp lý hơn cho những du khách Úc đủ điều kiện khi đến Hoa Kỳ.
-🟪⟦Chương trình⟧ sẽ được bắt đầu từ tháng này nhưng chỉ dành cho một số lượng hạn chế 🟪⟦người Úc⟧ thường xuyên đến 🟪⟦Hoa Kỳ⟧. 🟧⟦Tuy nhiên⟧ kế hoạch đang được tiến hành để mở rộng 🟪⟦chương trình⟧ này cho tất cả những người Úc đủ điều kiện muốn nộp đơn vào cuối năm nay.
+🟪⟦Chương trình⟧ sẽ được bắt đầu từ tháng này nhưng 🟦⟦∅⟧chỉ dành cho một số lượng hạn chế 🟪⟦người Úc⟧ thường xuyên đến 🟪⟦Hoa Kỳ⟧. 🟧⟦Tuy nhiên⟧ kế hoạch đang được tiến hành để mở rộng 🟪⟦chương trình⟧ này cho tất cả những người Úc đủ điều kiện muốn nộp đơn vào cuối năm nay.
 Các thành viên của 🟪⟦chương trình Global Entry⟧ sẽ tự động đủ điều kiện tham gia chương trình Kiểm tra trước của Cục An ninh Giao thông, nghĩa là quy trình kiểm tra sẽ nhanh hơn đối với những 🟪⟦người Úc⟧ đi du lịch trên các chuyến bay nội địa của 🟪⟦Hoa Kỳ⟧.
 Một trong những thay đổi quan trọng nhất vào năm nay, 🟪⟦người Úc⟧ giờ sẽ cần Giấy phép du lịch điện tử (Electronic Travel Authorisation - ETA) trước khi nhập cảnh vào Vương quốc Anh.
-Bắt đầu từ ngày 8 tháng 1, người mang 🟪⟦hộ chiếu Úc⟧ nhập cảnh vào Vương quốc Anh phải nộp đơn xin 🟪⟦ETA⟧ và đơn xin của họ phải được chấp thuận trước khi lên máy bay.
-Từ ngày 1 tháng 5 năm 2025, 🟪⟦người Úc⟧ đi du lịch đến Khu vực Schengen của châu Âu sẽ cần phải nộp 🟪⟦đơn xin⟧ miễn thị thực ETIAS (Hệ thống thông tin và ủy quyền du lịch châu Âu). Quy trình 🟪⟦ETIAS⟧ rất đơn giản, yêu cầu 🟪⟦du khách⟧ phải điền vào biểu mẫu trực tuyến và trả phí 7 euro (11,7 đô la) cho giấy phép có thời hạn ba năm hoặc cho đến khi hộ chiếu của họ hết hạn.
+Bắt đầu từ ngày 8 tháng 1, người mang 🟪⟦hộ chiếu Úc⟧ nhập cảnh vào Vương quốc Anh phải nộp đơn xin 🟪⟦ETA⟧ và đơn xin của họ phải được chấp thuận trước khi 🟦⟦∅⟧lên máy bay.
+Từ ngày 1 tháng 5 năm 2025, 🟪⟦người Úc⟧ đi du lịch đến Khu vực Schengen của châu Âu sẽ cần phải nộp 🟪⟦đơn xin⟧ miễn thị thực ETIAS (Hệ thống thông tin và ủy quyền du lịch châu Âu). Quy trình 🟪⟦ETIAS⟧ rất đơn giản, yêu cầu 🟪⟦du khách⟧ phải điền vào biểu mẫu trực tuyến và trả phí 7 euro (11,7 đô la) cho giấy phép có thời hạn ba năm hoặc cho đến khi🟦⟦∅⟧ hộ chiếu của họ hết hạn.
 🟨⟦Đây⟧ là một 🟪⟦quy trình⟧ bổ sung nhằm mục đích giúp việc đi lại qua biên giới 🟪⟦châu Âu⟧ hiệu quả hơn và đơn giản hóa thủ tục nhập cảnh cho 🟪⟦khách du lịch⟧.
-Từ tháng 2 năm 2025, Qantas sẽ mở rộng mạng lưới quốc tế của mình với 220.000 ghế bổ sung trên các tuyến bay phổ biến. 🟪⟦Hãng hàng không⟧ sẽ ngừng bay giữa Sydney và Seoul, trong khi Jetstar sẽ tăng chuyến bay từ bốn chuyến một tuần lên hàng ngày.
-🟧⟦Trong khi đó⟧, Emirates sẽ 🟪⟦cắt giảm⟧ các chuyến bay giữa Singapore và Melbourne từ ngày 30 tháng 3 năm 2025 và thay vào đó là dịch vụ bay thẳng thứ ba từ Melbourne đến Dubai.
+Từ tháng 2 năm 2025, Qantas sẽ mở rộng mạng lưới quốc tế của mình với 220.000 ghế bổ sung trên các tuyến bay phổ biến. 🟪⟦Hãng hàng không⟧ sẽ ngừng bay giữa Sydney và Seoul, trong khi Jetstar sẽ tăng chuyến bay từ bốn chuyến một tuần lên 🟦⟦∅⟧hàng ngày.
+🟧⟦Trong khi đó⟧, Emirates sẽ 🟪⟦cắt giảm⟧ các chuyến bay giữa Singapore và Melbourne từ ngày 30 tháng 3 năm 2025 và 🟦⟦∅⟧🟩⟦thay vào đó⟧ là dịch vụ bay thẳng thứ ba từ Melbourne đến Dubai.
 Virgin Australia 🟧⟦cũng⟧ sẽ 🟪⟦cắt giảm⟧ dịch vụ hàng ngày từ Cairns đến Tokyo vào năm tới. 🟪⟦Hãng hàng không⟧ này lần đầu tiên khai trương 🟪⟦dịch vụ⟧ 🟪⟦từ Cairns đến Tokyo⟧ vào tháng 6 năm 2023.
 "Sự phục hồi dưới mức dự báo của lượng 🟪⟦du khách⟧ đi từ Nhật Bản đến 🟪⟦Úc⟧ do đồng yên Nhật suy yếu kéo dài đã tác động đến nhu cầu về các dịch vụ, khiến tuyến bay này trở nên không bền vững về mặt thương mại", một tuyên bố từ hãng hàng không cho biết.
 Theo báo cáo thường niên của Amex Air Monitor, giá vé máy bay trong và ngoài nước 🟪⟦Úc⟧ sẽ tăng vọt vào 🟪⟦năm 2025⟧.

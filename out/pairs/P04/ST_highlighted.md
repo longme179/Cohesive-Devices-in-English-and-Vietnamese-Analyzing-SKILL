@@ -6,7 +6,7 @@
 
 **Legend:** 🟨 Reference (`R`) | 🟩 Substitution (`S`) | 🟦 Ellipsis (`E`) | 🟧 Conjunction (`C`) | 🟪 Lexical cohesion (`L`) — ellipsis gap: 🟦⟦∅⟧
 
-**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric.
+**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric. Levels: LC = intersentential, TC = intra-sentential, TD = title.
 
 ---
 
@@ -27,7 +27,7 @@ The general recommendation is that healthy 🟪⟦adults⟧ aim for seven to nin
 Sometimes we glorify 🟪⟦sleep deprivation⟧, and you'll hear people say that they get by just fine on five hours a night, 🟨⟦she⟧ said. "The likelihood that the 🟪⟦seven to nine-hour recommendation⟧ doesn't apply to these 🟪⟦people⟧ and that their bodies and brains aren't negatively impacted by chronic 🟪⟦sleep deprivation⟧ is slim to none."
 If the magical 🟪⟦seven to nine-hour recommendation⟧ applies to 🟪⟦healthy adults⟧, what about other groups?
 Children need more 🟪⟦sleep⟧ than 🟪⟦adults⟧, and this amount changes across their development stages, 🟪⟦Shriane⟧ said.
-Toddlers need 11 to 14 hours every 24 hours, while teenagers need eight to 10 hours a night.
+Toddlers need 11 to 14 hours every 24 hours, while teenagers need🟦⟦∅⟧ eight to 10 hours a night.
 If you're older than 65, 🟪⟦AIHW⟧ says you only need seven to eight hours of 🟪⟦sleep⟧. 🟪⟦Shriane⟧ said there's evidence suggesting women may need to 🟪⟦snooze⟧ more than men. "🟨⟦They⟧ may sit at the higher end of the 🟪⟦recommendation⟧ range towards 🟪⟦nine hours⟧ a night, while 🟪⟦men⟧ might sit more toward the lower end at 🟪⟦seven hours⟧ a night."
 🟨⟦Those⟧ with some 🟪⟦health⟧ conditions that cause fatigue will likely need more hours too.
 It can be easy to focus on the hours we're in bed and lose sight of the importance of 🟪⟦sleep quality⟧, which is just as crucial.
@@ -40,8 +40,8 @@ For those who are 🟪⟦chronically deprived⟧, 🟨⟦these⟧ impacts can bu
 🟪⟦Sleep⟧ is a pillar of 🟪⟦health⟧ alongside your nutrition and physical activity — when you don't look after it, it has 🟪⟦major flow-on effects⟧ for health and wellbeing.
 While there might be lots of gadgets and supplements on the market that claim to improve your 🟪⟦sleep⟧, 🟪⟦Shriane⟧ said many of these aren't backed by science and will only dent your hip pocket.
 🟧⟦Instead⟧, 🟨⟦she⟧ recommends simpler measures:
-Go to bed and wake up at roughly the same time each day (yes, even on weekends).
-Try not to nap during the day — and if you do, do it early and keep it to 15 to 20 minutes.
+🟦⟦∅⟧Go to bed and wake up at roughly the same time each day (yes, even on weekends).
+Try not to nap during the day — and if you 🟩⟦do⟧🟦⟦∅⟧, do it early and keep it to 15 to 20 minutes.
 Don't consume caffeine six to eight hours before 🟪⟦sleep⟧.
 Limit alcohol and nicotine as much as possible, and avoid them four hours before 🟪⟦sleep⟧.
 Practice a wind-down routine and avoid bright lights one to two hours before 🟪⟦sleep⟧.

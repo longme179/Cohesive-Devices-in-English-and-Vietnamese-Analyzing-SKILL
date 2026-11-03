@@ -1,5 +1,5 @@
 QC P20 VI (TT): PASS
-(e) counts: {'L': 69, 'R': 14}
+(e) counts: {'E': 1, 'L': 69, 'R': 14}
 (f) R direction: {'A': 14}
-confidence: {'high': 73, 'low': 1, 'med': 9}
-sentences: 44, ties: 83
+confidence: {'high': 73, 'low': 1, 'med': 10}
+sentences: 44, ties: 84

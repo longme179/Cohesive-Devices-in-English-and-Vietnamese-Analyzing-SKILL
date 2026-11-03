@@ -1,5 +1,5 @@
 QC P08 EN (ST): PASS
-(e) counts: {'C': 7, 'L': 66, 'R': 13}
+(e) counts: {'C': 7, 'E': 4, 'L': 66, 'R': 13, 'S': 1}
 (f) R direction: {'A': 13}
-confidence: {'high': 72, 'med': 14}
-sentences: 39, ties: 86
+confidence: {'high': 75, 'low': 2, 'med': 14}
+sentences: 39, ties: 91

@@ -12,11 +12,23 @@ Usage: python3 annotate.py P01   (imports tables from tie_tables/P01.py)
 """
 import json, os, sys, importlib
 
-OUT = '/home/z/my-project/out'
+import os as _os
+BASE = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
+OUT = _os.path.join(BASE, 'out')
 
 def build(pid, lang, pref, table):
     seg = json.load(open(f'{OUT}/pairs/{pid}/{pref}_seg.json'))
     sents = {s['id']: s['text'] for s in seg['sentences']}
+    # Preserve post-processing fields (notably the A/C/E reference direction
+    # added by apply_ref_dirs.py) for tie IDs that already existed. Appending
+    # manually reviewed rows never renumbers old ties, so ID matching is safe.
+    old_path = f'{OUT}/pairs/{pid}/{pref}_ties.json'
+    old_by_id = {}
+    if os.path.exists(old_path):
+        try:
+            old_by_id = {t['id']: t for t in json.load(open(old_path))['ties']}
+        except Exception:
+            old_by_id = {}
     ties, errors = [], []
     n = 0
     for row in table:
@@ -26,6 +38,12 @@ def build(pid, lang, pref, table):
             gap_after = row[9]
         if len(row) > 10 and row[10] is not None:
             recovered = row[10]
+        # row[11] = level: LC (liên câu) / TC (trong câu) / TD (tiêu đề).
+        # Default LC keeps every legacy row (all intersentential) unchanged.
+        level = row[11] if len(row) > 11 and row[11] else 'LC'
+        if level not in ('LC', 'TC', 'TD'):
+            errors.append(f'{tid}: invalid level {level!r}')
+            continue
         n += 1
         tid = f'{pid}-{lang}-{n:03d}'
         stext = sents.get(sent)
@@ -42,10 +60,15 @@ def build(pid, lang, pref, table):
                 if pos < 0:
                     errors.append(f'{tid}: gap_after {gap_after!r} occ {occ_g} not found in {sent}')
                     break
-            ties.append({'id': tid, 'sent': sent, 'text': None, 'occ': occ_g,
-                         'gap_after': gap_after, 'recovered': recovered,
-                         'cat': cat, 'sub': sub, 'dir': 'ana',
-                         'ante': ante, 'conf': conf, 'alt': alt, 'note': note})
+            tie = {'id': tid, 'sent': sent, 'text': None, 'occ': occ_g,
+                   'gap_after': gap_after, 'recovered': recovered,
+                   'cat': cat, 'sub': sub, 'dir': 'ana', 'level': level,
+                   'ante': ante, 'conf': conf, 'alt': alt, 'note': note}
+            if tid in old_by_id:
+                for k in ('ref', 'ref_reason'):
+                    if k in old_by_id[tid]:
+                        tie[k] = old_by_id[tid][k]
+            ties.append(tie)
             continue
         if text not in stext:
             errors.append(f'{tid}: text {text!r} not found in {sent}: {stext[:80]!r}...')
@@ -64,9 +87,14 @@ def build(pid, lang, pref, table):
             if found < occ:
                 errors.append(f'{tid}: occurrence {occ} of {text!r} not found in {sent}')
                 continue
-        ties.append({'id': tid, 'sent': sent, 'text': text, 'occ': occ,
-                     'cat': cat, 'sub': sub, 'dir': 'ana', 'ante': ante,
-                     'conf': conf, 'alt': alt, 'note': note})
+        tie = {'id': tid, 'sent': sent, 'text': text, 'occ': occ,
+               'cat': cat, 'sub': sub, 'dir': 'ana', 'level': level,
+               'ante': ante, 'conf': conf, 'alt': alt, 'note': note}
+        if tid in old_by_id:
+            for k in ('ref', 'ref_reason'):
+                if k in old_by_id[tid]:
+                    tie[k] = old_by_id[tid][k]
+        ties.append(tie)
     if errors:
         print(f'== {pid} {lang}: {len(errors)} ERRORS ==')
         for e in errors: print('  ', e)

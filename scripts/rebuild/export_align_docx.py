@@ -30,7 +30,8 @@ from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from docx.shared import Cm, Pt, RGBColor
 
-BASE = '/home/z/my-project'
+import os as _os
+BASE = _os.path.dirname(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
 IR_PATH = os.path.join(BASE, 'out', 'appendix1', 'appendix1_segments.json')
 OUT_DIR = os.path.join(BASE, 'download', 'BDNC')
 OUT_PATH = os.path.join(OUT_DIR, 'Appendix1_Align.docx')

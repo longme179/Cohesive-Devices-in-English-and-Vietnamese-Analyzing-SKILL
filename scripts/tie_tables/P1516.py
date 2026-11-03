@@ -85,6 +85,13 @@ P15_ST = [
  ('S030', 'They', 'R', 'personal', 'S024: a new Columbia University office (investigators)', 'med', None, None, 1),
  # S031
  ('S031', 'It\u2019s', 'R', 'personal', 'S024: a new Columbia University office', 'high', None, None, 1),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_15 (§2–§3) ----
+ ('S002', None, 'E', 'nominal', 'S002: {who was} (trong câu)', 'med', None, '[TC] đồng vị rút gọn “Mahmoud Khalil, ∅ a graduate student…”; EN 15 nửa sau bị cắt', 1, 'Mahmoud Khalil, ', '{who was}', 'TC'),
+ ('S004', None, 'E', 'clausal', 'S004: {Having been} (trong câu)', 'med', None, '[TC] rút gọn bị động “∅ Informed by the attorney…”', 1, '', '{Having been}', 'TC'),
+ ('S016', 'one', 'S', 'nominal', 'S015: a warrant', 'high', None, '[TC] one ← a warrant; “if the school had received one”', 1, None, None, 'TC'),
+ ('S024', 'those', 'S', 'nominal', 'S023: students / activists', 'high', None, '[TC] those ← students; “among those under investigation”', 1, None, None, 'TC'),
+ ('S028', None, 'E', 'clausal', 'S027: He faced sanctions for', 'high', None, '[TC] tọa hợp lược khung: “∅ and playing a substantial role…”', 1, 'attack ', '{He faced sanctions for}', 'TC'),
+
 ]
 P15_TT = [
  # S002
@@ -159,6 +166,12 @@ P15_TT = [
  ('S025', 'Họ', 'R', 'personal', 'S019: văn phòng mới (investigators)', 'med', None, None, 1),
  # S026
  ('S026', 'công việc', 'L', 'repetition', 'S019: văn phòng (office work)', 'low', None, 'weak', 1),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_15 (§2) ----
+ ('S001', None, 'E', 'nominal', 'S001: {người} (trong câu)', 'med', None, '[TC] lược quan hệ từ: “sinh viên…, ∅ vốn đóng vai trò…”', 1, 'sinh viên sau đại học người Palestine, ', '{người}', 'TC'),
+ ('S004', None, 'E', 'clausal', 'S004: {bà ấy được} (trong câu)', 'med', None, '[TC] rút gọn bị động “khi ∅ được luật sư thông báo…”', 1, 'Theo bà Greer, ', '{bà ấy được}', 'TC'),
+ ('S007', None, 'E', 'nominal', 'S007: {người} (trong câu)', 'med', None, '[TC] control: “nhà hoạt động sinh viên ∅ sẵn sàng chia sẻ…”', 1, 'nhà hoạt động sinh viên ', '{người}', 'TC'),
+ ('S023', None, 'E', 'clausal', 'S022: {anh ta đã giúp tổ chức} (trong câu)', 'high', None, '[TC] tọa hợp song song “∅ và đóng vai trò đáng kể”; đối ứng 1–1 E-EN1', 1, 'vào ngày 7/10/2023 ', '{anh ta đã giúp tổ chức}', 'TC'),
+
 ]
 
 # ---- P16 ----
@@ -215,6 +228,15 @@ P16_ST = [
  # S018
  ('S018', 'Russian President Vladimir Putin', 'L', 'repetition', 'S017: Russian', 'high', None, None, 1),
  ('S018', 'the "unfavorable situation"', 'L', 'repetition', 'S001: plunging currency creating serious concerns', 'med', None, None, 1),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_16 (§2–§3) ----
+ ('S001', None, 'E', 'nominal', 'S001: {which is} (trong câu)', 'med', None, '[TC] quan hệ rút gọn “industry, ∅ already suffering…”', 1, 'tourism industry, ', '{which is}', 'TC'),
+ ('S011', None, 'E', 'nominal', 'S011: {which are} (trong câu)', 'med', None, '[TC] đồng vị rút gọn “Samui - ∅ all heavily reliant…”', 1, 'Phuket and Samui - ', '{which are}', 'TC'),
+ ('S011', None, 'E', 'nominal', 'S011: {who are} (trong câu)', 'med', None, '[TC] quan hệ rút gọn “visitors ∅ converting Russian rubles…”', 1, 'reliant on visitors ', '{who are}', 'TC'),
+ ('S015', None, 'E', 'nominal', 'S015: {which are} (trong câu)', 'med', None, '[TC] quan hệ rút gọn “islands ∅ dependent on the Russians”', 1, 'cities and islands ', '{which are}', 'TC'),
+ ('S017', 'those', 'S', 'nominal', 'S016: an affordable warm escape', 'high', None, '[TC] those + VP “still yearning”', 1, None, None, 'TC'),
+ ('S017', None, 'E', 'nominal', 'S017: {who are} (trong câu)', 'med', None, '[TC] quan hệ rút gọn “those ∅ still yearning…”', 1, 'As for those ', '{who are}', 'TC'),
+ ('S018', None, 'E', 'nominal', 'S018: {which is} (trong câu)', 'med', None, '[TC] quan hệ rút gọn “situation ∅ depreciating the ruble”', 1, 'unfavorable situation" ', '{which is}', 'TC'),
+
 ]
 P16_TT = [
  # S002
@@ -273,4 +295,11 @@ P16_TT = [
  # S018
  ('S018', 'Tổng thống Nga', 'L', 'repetition', 'S017: Nga', 'high', None, None, 1),
  ('S018', 'tình hình', 'L', 'repetition', 'S012: tình trạng này', 'med', None, None, 1),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_16 (§2) ----
+ ('S004', None, 'E', 'nominal', 'S004: {được} (trong câu)', 'med', None, '[TC] rút gọn “du khách Nga, ∅ nổi tiếng là chịu chi”', 1, 'mất đi du khách Nga, ', '{được}', 'TC'),
+ ('S004', None, 'E', 'nominal', 'S004: {diễn ra} (trong câu)', 'med', None, '[TC] quan hệ vị ngữ đầy đủ EN “which runs” → VI còn PP thời gian “mùa cao điểm ∅ sắp tới…”', 1, 'trong mùa cao điểm', '{diễn ra}', 'TC'),
+ ('S008', None, 'E', 'clausal', 'S007: said Suladda (khung dẫn mở)', 'low', None, '[LC] biên: lược khung dẫn đóng “said Suladda” lần 1 (P09 tái hiện)', 1, 'đến Pattaya.”', '{said Suladda}', 'LC'),
+ ('S014', None, 'E', 'clausal', 'S013: said Suladda (khung dẫn mở)', 'low', None, '[LC] biên: lược khung dẫn đóng “said Suladda” lần 2', 1, 'sụt giảm đến Pattaya.”', '{said Suladda}', 'LC'),
+ ('S017', None, 'E', 'nominal', 'S017: {người ta} (trong câu)', 'low', None, '[TC] biên: “∅ nghe nói họ đang chuyển kế hoạch…” — evidential ngữ pháp hóa', 1, 'của Nga, ', '{người ta}', 'TC'),
+
 ]

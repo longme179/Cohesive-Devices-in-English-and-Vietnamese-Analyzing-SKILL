@@ -25,7 +25,8 @@ import os
 import html as H
 import difflib
 
-BASE = '/home/z/my-project'
+import os as _os
+BASE = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
 RAW_MD = os.path.join(BASE, 'upload', 'Appendix 1 - 20 pairs.md')
 PAIRS_DIR = os.path.join(BASE, 'out', 'pairs')
 OUT_DIR = os.path.join(BASE, 'out', 'appendix1')
@@ -63,11 +64,16 @@ FRAMEWORK_MAP = [
 DOC_TITLE = 'Appendix 1 — 20 cặp bài báo EN–VI (có đánh dấu ngữ nghĩa)'
 INTRO = ('Bản tiếng Anh (EN) đánh dấu theo Halliday & Hasan (1976); bản tiếng Việt (VI) '
          'đánh dấu theo Trần Ngọc Thêm (2006, dẫn theo Nguyễn Thanh Tùng 2020), quy về '
-         'cùng thang 5 màu. Chỉ đánh dấu các liên kết liên-câu (intersentential ties).')
+         'cùng thang 5 màu. Bản này đánh dấu các tie liên-câu (R/C/L) và '
+         'BỔ SUNG THỦ CÔNG các vị trí phép thế (S) / phép tỉnh lược (E) đã được '
+         'phân tích trong download/BDNC/semantic_analysis — gồm cả [LC] liên câu '
+         'và [TC] trong câu; level được ghi trong tooltip/comment từng khối.')
 MD_NOTE = ('> **Lưu ý hiển thị:** GitHub lọc bỏ thuộc tính `style` inline nên trên GitHub '
            'các đoạn đánh dấu trong file `.md` có thể không hiện màu. Bản màu đầy đủ: xem '
            'file **`.html`** (rê chuột để xem chi tiết liên kết) hoặc **`.docx`** đính kèm. '
-           'Ký hiệu ∅ (nền xanh) = vị trí trống của phép lược bỏ (E).')
+           'Ký hiệu ∅ (nền xanh) = vị trí trống của phép lược bỏ (E). '
+           'S/E được bổ sung thủ công từ 20 bản phân tích ngữ nghĩa: [LC] = liên câu, '
+           '[TC] = trong câu (xem tooltip/comment).')
 
 
 # ============================================================
@@ -178,6 +184,7 @@ def tie_tip(t):
                f"{t.get('ante', '')} | conf={t.get('conf', '')}")
         if t.get('alt'):
             tip += f" | alt: {t['alt']}"
+    tip += f" | level: {t.get('level','LC')}"
     if t.get('note'):
         tip += f" | note: {t['note']}"
     return tip

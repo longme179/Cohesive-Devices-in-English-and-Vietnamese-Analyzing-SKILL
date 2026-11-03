@@ -1,5 +1,5 @@
 QC P09 EN (ST): PASS
-(e) counts: {'C': 2, 'L': 116, 'R': 4}
+(e) counts: {'C': 2, 'E': 5, 'L': 116, 'R': 4, 'S': 1}
 (f) R direction: {'A': 4}
-confidence: {'high': 104, 'low': 1, 'med': 17}
-sentences: 36, ties: 122
+confidence: {'high': 109, 'low': 2, 'med': 17}
+sentences: 36, ties: 128

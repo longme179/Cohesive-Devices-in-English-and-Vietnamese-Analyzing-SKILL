@@ -1,5 +1,5 @@
 QC P16 EN (ST): PASS
-(e) counts: {'C': 2, 'L': 32, 'R': 2}
+(e) counts: {'C': 2, 'E': 6, 'L': 32, 'R': 2, 'S': 1}
 (f) R direction: {'A': 2}
-confidence: {'high': 29, 'low': 3, 'med': 4}
-sentences: 18, ties: 36
+confidence: {'high': 30, 'low': 3, 'med': 10}
+sentences: 18, ties: 43

@@ -6,7 +6,7 @@
 
 **Legend:** 🟨 Reference (`R`) | 🟩 Substitution (`S`) | 🟦 Ellipsis (`E`) | 🟧 Conjunction (`C`) | 🟪 Lexical cohesion (`L`) — ellipsis gap: 🟦⟦∅⟧
 
-**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric.
+**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric. Levels: LC = intersentential, TC = intra-sentential, TD = title.
 
 ---
 
@@ -26,7 +26,7 @@ For example, there's 🟪⟦the post-election White House meeting⟧ between �
 🟨⟦Other⟧ 🟪⟦practices⟧ are more consequential.
 In 🟪⟦a tradition⟧ that dates to 1968, 🟪⟦the president⟧ shares a copy of his daily intelligence briefing document — the President’s Daily Brief — with 🟪⟦the incoming commander-in-chief⟧.
 🟨⟦Neither⟧ 🟪⟦practice⟧ is written into law, but much else about 🟪⟦the transition⟧ is legally mandated. 🟪⟦The Presidential Transition Act⟧ of 1963, 🟪⟦updated over the years⟧, formalizes some of the processes and mechanisms for a peaceful transfer of power.
-Among other things:
+Among other things:🟦⟦∅⟧
 Six months before 🟪⟦the election⟧, 🟪⟦the president⟧ establishes 🟪⟦a transition coordinating council⟧, while each federal agency designates a transition director.
 By September 15, agency heads must lock in 🟪⟦succession plans⟧ for noncareer employees.
 By October 1, 🟪⟦the General Services Administration⟧ — 🟪⟦the federal government’s⟧ landlord — enters into agreements with 🟪⟦transition⟧ teams before providing them with office space and other resources.
@@ -34,13 +34,13 @@ Although 🟨⟦these⟧ are recent additions to the law, an orderly 🟪⟦pres
 With 🟪⟦Trump⟧ swiftly declared the winner of 🟨⟦this year’s election⟧, the pendulum has swung back toward 🟪⟦established protocol⟧.
 On Wednesday, 🟪⟦Biden⟧ hosted 🟪⟦Trump⟧ at 🟪⟦the White House⟧, where they posed for the cameras and pledged 🟪⟦a smooth transition⟧. 🟪⟦The White House⟧ called 🟨⟦their⟧ two-hour 🟪⟦meeting⟧ “very cordial, very gracious and substantive."
 🟪⟦A White House meet-and-greet⟧ isn’t 🟪⟦the president-elect⟧’s main mission.
-Topping the list of priorities: 🟪⟦staffing⟧ 🟪⟦a new administration⟧. 🟪⟦The incoming administration⟧ must fill more than 4,000 positions, with 1,200 requiring Senate confirmation, according to 🟪⟦the Center for Presidential Transition⟧. Current political appointees typically resign before or on the day 🟪⟦the incoming president⟧ is 🟪⟦inaugurated⟧.
+Topping the list of priorities: 🟦⟦∅⟧🟪⟦staffing⟧ 🟪⟦a new administration⟧. 🟪⟦The incoming administration⟧ must fill more than 4,000 positions, with 1,200 requiring Senate confirmation, according to 🟪⟦the Center for Presidential Transition⟧. Current political appointees typically resign before or on the day 🟪⟦the incoming president⟧ is 🟪⟦inaugurated⟧.
 🟨⟦This⟧ massive 🟪⟦recruitment⟧ effort takes time and resources. 🟪⟦Candidates for political positions⟧ must be interviewed, 🟪⟦vetted⟧ and in some cases receive top-secret security clearances. While 🟪⟦presidents-elect⟧ typically name a few dozen key players by 🟪⟦Inauguration Day⟧, most 🟪⟦appointments⟧ come after they take office.
 🟪⟦Trump⟧ has already picked key 🟪⟦administration officials⟧: chief of staff, national security adviser, CIA director, director of national intelligence, attorney general, secretary of defense and secretary of state. More 🟪⟦top-level personnel announcements⟧ are expected in the coming days and weeks. But while 🟨⟦these announcements⟧ dominate the news cycle, the real work of 🟪⟦presidential succession⟧ often takes place behind closed doors. Agency-level teams from 🟪⟦both administrations⟧ work quietly to 🟪⟦share information⟧ and orchestrate the complex handover.
-“This is what’s happened 🟪⟦time and time again⟧, with 🟪⟦the Republican exception of 2020-2021⟧,” 🟪⟦Shurkin⟧ said in an interview with VOA. “The intention is to make sure that certainly people in, let’s say, the more vital elements of 🟪⟦the government⟧, particularly, say, Defense or CIA … don’t show up looking around and asking, 'What is this? What’s 🟨⟦your job⟧? How does anything work?' ”
+“This is what’s happened 🟪⟦time and time again⟧, with 🟪⟦the Republican exception of 2020-2021⟧,” 🟪⟦Shurkin⟧ said in an interview with VOA. 🟦⟦∅⟧“The intention is to make sure that certainly people in, let’s say, the more vital elements of 🟪⟦the government⟧, particularly, say, Defense or CIA … don’t show up looking around and asking, 'What is this? What’s 🟨⟦your job⟧? How does anything work?' ”
 The extent of ongoing coordination between 🟪⟦the Trump and Biden teams⟧ remains uncertain. 🟪⟦Biden⟧ has ordered his administration to facilitate 🟪⟦a smooth handover⟧, but 🟪⟦Trump's team⟧ has missed key deadlines for agreements with 🟪⟦the White House⟧ and 🟪⟦GSA⟧, making it difficult for 🟪⟦federal agencies⟧ to fully share information with it. 🟪⟦Muller⟧ said that while 🟪⟦Trump's team⟧ might have privacy concerns, these delays carry real risks.
 “If 🟨⟦you⟧’re not able to access those 🟪⟦federal agencies⟧, you might come in a step slow about how you’re supposed to take over the apparatus of the federal government,” Muller said in an interview.
-🟪⟦The presidential transition⟧ is sometimes called the “lame duck” period because 🟪⟦the outgoing president⟧ has diminished influence as he awaits 🟪⟦the incoming president⟧'s inauguration. While 🟪⟦the sitting president⟧ keeps full powers, including the pardon power, until 🟪⟦January 20⟧, the ability to implement major policies and decisions is limited. 🟨⟦This⟧ creates a high-stakes chess game in 🟪⟦domestic and global affairs⟧. 🟪⟦Allies and rivals⟧ alike must thread the needle between 🟪⟦current and future administrations⟧. 🟪⟦Foreign governments⟧, especially those with critical ties with 🟪⟦the U.S.⟧, must walk a diplomatic tightrope.
+🟪⟦The presidential transition⟧ is sometimes called the “lame duck” period because 🟪⟦the outgoing president⟧ has diminished influence as he awaits 🟪⟦the incoming president⟧'s inauguration. While 🟪⟦the sitting president⟧ keeps full powers, including the pardon power, until 🟪⟦January 20⟧, the ability to implement major policies and decisions is limited. 🟨⟦This⟧ creates a high-stakes chess game in 🟪⟦domestic and global affairs⟧. 🟪⟦Allies and rivals⟧ alike must thread the needle between 🟪⟦current and future administrations⟧. 🟪⟦Foreign governments⟧, especially 🟩⟦those⟧ with critical ties with 🟪⟦the U.S.⟧, must walk a diplomatic tightrope.
 🟪⟦The diplomatic dance⟧ has already begun. While 🟪⟦foreign governments⟧ maintain relations with 🟪⟦U.S. embassies⟧, 🟪⟦Muller⟧ noted that 🟪⟦foreign leaders⟧ are already reaching out to 🟪⟦Trump⟧ “to feel him out in some of his positions, to think about how things might look under 🟪⟦a new administration⟧.”
-🟧⟦Earlier this week⟧, Indonesian President Prabowo Subianto called 🟪⟦Trump⟧ and suggested the two meet in person.
+🟧⟦Earlier this week⟧, Indonesian President Prabowo Subianto called 🟪⟦Trump⟧ and suggested 🟩⟦the two⟧ meet in person.
 “You’re dealing with some significant changes about how 🟪⟦the United States⟧ is going to govern, and so it’s a delicate balancing act for those 🟪⟦foreign government leaders⟧ in the international context,” 🟪⟦Muller⟧ said.

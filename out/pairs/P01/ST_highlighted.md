@@ -6,7 +6,7 @@
 
 **Legend:** 🟨 Reference (`R`) | 🟩 Substitution (`S`) | 🟦 Ellipsis (`E`) | 🟧 Conjunction (`C`) | 🟪 Lexical cohesion (`L`) — ellipsis gap: 🟦⟦∅⟧
 
-**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric.
+**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric. Levels: LC = intersentential, TC = intra-sentential, TD = title.
 
 ---
 
@@ -14,7 +14,7 @@ There's growing pressure on the water
 supply in cities around the world,
 including Australia. One country has
 embraced recycled wastewater, and
-some says we should do the same.
+some says we should 🟩⟦do the same⟧.
 Singapore is a small nation with a big water problem. The densely populated island 🟪⟦city-state⟧ has few natural water resources and limited land for reservoirs, making 🟨⟦it⟧ one of the most water-stressed places in the world.
 🟧⟦But⟧ the 🟪⟦country⟧ is 🟧⟦also⟧ a global leader in the production of purified 🟪⟦recycled water⟧, which turns 🟪⟦sewage water⟧ into drinking water. Professor Stuart Khan, head of the School of Civil Engineering at the University of Sydney, explains: "🟪⟦Purified recycled water⟧ is the practice of taking water from 🟪⟦wastewater⟧ treatment plants, treated 🟪⟦sewage⟧ that would otherwise have been discharged to the environment."
 "🟧⟦But⟧ instead of discharging 🟨⟦it⟧ to the 🟪⟦environment⟧, 🟨⟦we⟧ take 🟨⟦it⟧ through an advanced 🟪⟦water treatment plant⟧ where 🟨⟦it⟧ is purified to a very high degree so that 🟨⟦it⟧ can be safely and reliably put back into 🟪⟦drinking water⟧ supplies."
@@ -24,17 +24,17 @@ Singapore is a small nation with a big water problem. The densely populated isla
 "🟨⟦They⟧ had a plan to bring every school child in Singapore through that 🟪⟦visitor centre⟧ to learn about 🟪⟦water recycling⟧, to learn about the need for sustainable water use in Singapore."
 🟧⟦Now⟧ efforts are underway in Sydney to 🟪⟦educate⟧ the public on the prospect of using 🟪⟦recycled wastewater⟧.
 The growing population and climate change are increasingly putting 🟪⟦pressure⟧ on the 🟪⟦water supply in cities around the world⟧, including Australia.
-🟪⟦Sydney⟧ relies on rainfall for around 85 per cent of its 🟪⟦supply⟧ and the other 15 per cent comes from desalination — the process of removing salt and other minerals from water to create fresh water.
+🟪⟦Sydney⟧ relies on rainfall for around 85 per cent of its 🟪⟦supply⟧ and the other 15 per cent🟦⟦∅⟧ comes from desalination — the process of removing salt and other minerals from water to create fresh water.
 During the most recent drought from 2017 to 2020, 🟪⟦dam⟧ levels in 🟪⟦Sydney⟧ dropped by 50 per cent of their full capacity.
 Sydney Water project manager James Harrington says: "We're at a tipping point where we need to start looking at what is the future of our 🟪⟦water supply⟧ … with our 🟪⟦dams⟧ depleting quite quickly in 🟪⟦drought⟧."
 🟪⟦Recycled purified water⟧ is being considered as a possible 🟪⟦future⟧ solution. The 🟪⟦process⟧ is being tried and tested at the Quakers Hill 🟪⟦sewage plant⟧ in north-west Sydney and the 🟪⟦public⟧ is being invited along for the journey.
-🟪⟦Harrington⟧ says the 🟪⟦Purified Recycled Water⟧ Discovery Centre, which opened at the end of 2023, has three main objectives. "🟧⟦Firstly⟧, to test the 🟪⟦technology⟧ and prove how well it works in 🟨⟦our⟧ scenario. 🟧⟦Secondly⟧, to allow stakeholders, community and customers to come in and understand what the 🟪⟦technology⟧ is. 🟧⟦And lastly⟧, to give 🟨⟦our⟧ operations team the opportunity to train and learn on a 🟪⟦testing⟧ facility," 🟨⟦he⟧ says.
+🟪⟦Harrington⟧ says the 🟪⟦Purified Recycled Water⟧ Discovery Centre, which opened at the end of 2023, has three main objectives. "🟧⟦Firstly⟧, 🟦⟦∅⟧to test the 🟪⟦technology⟧ and prove how well it works in 🟨⟦our⟧ scenario. 🟧⟦Secondly⟧, to allow stakeholders, community and customers to come in and understand what the 🟪⟦technology⟧ is. 🟧⟦And lastly⟧, to give 🟨⟦our⟧ operations team the opportunity to train and learn on a 🟪⟦testing⟧ facility," 🟨⟦he⟧ says.
 "🟨⟦We⟧ love having the 🟪⟦public⟧ come out 🟨⟦here⟧ and have the conversation with us about what the 🟪⟦technology⟧ is, and all the work that goes into it to ensure that the water is 🟪⟦safe and reliable⟧."
 🟪⟦Khan⟧ says proposals to implement 🟪⟦purified recycled water⟧ have been politicised in the past.
 In 2006, residents of Toowoomba, which was 🟪⟦drought-stricken⟧ at the time, voted no in a referendum over whether the regional Queensland city should use 🟪⟦recycled sewage⟧ for 🟪⟦drinking water⟧.
-"🟪⟦Toowoomba⟧ is an example of one that failed due to lack of 🟪⟦public⟧ support [and] lack of being able to build an understanding and support for the project in the community," 🟨⟦he⟧ says.
+"🟪⟦Toowoomba⟧ is an example of 🟩⟦one⟧ that failed due to lack of 🟪⟦public⟧ support [and] lack of being able to build an understanding and support for the project in the community," 🟨⟦he⟧ says.
 "There are 🟨⟦other⟧ examples in San Diego [in California] going back 20 years as well: There was a 🟪⟦lack of support⟧ that led to a 🟪⟦project⟧ not going ahead.
-"When you look at the differences between the 🟪⟦projects⟧ that have been successful and those that haven't been successful, generating 🟪⟦public support⟧ is a really important factor." 🟪⟦Harrington⟧ says the use of 🟪⟦purified recycled water⟧ is "new to [Sydney], but it's by no means new to the world".
+"When you look at the differences between the 🟪⟦projects⟧ that have been successful and 🟩⟦those⟧ that haven't been successful, generating 🟪⟦public support⟧ is a really important factor." 🟪⟦Harrington⟧ says the use of 🟪⟦purified recycled water⟧ is "new to [Sydney], but it's by no means new to the world".
 🟪⟦Harrington⟧ says the use of 🟪⟦purified recycled water⟧ is "new to [Sydney], but it's by no means new to the world".
 There's been 🟪⟦purified recycled water⟧ schemes operating since the 1960s. Currently, 35 cities (around the world) are already using this 🟪⟦technology⟧ and about 60 more cities are looking into it right now.
 Los Angeles, Barcelona, Cape Town and Perth are among the 🟪⟦cities⟧ that have already adopted the 🟪⟦process⟧.

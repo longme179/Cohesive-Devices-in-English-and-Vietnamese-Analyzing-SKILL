@@ -10,10 +10,43 @@
    "cat": "L",
    "sub": "repetition",
    "dir": "ana",
+   "level": "LC",
    "ante": "S001: Donald Trump",
    "conf": "high",
    "alt": null,
    "note": null
+  },
+  {
+   "id": "P12-VI-002",
+   "sent": "S001",
+   "text": null,
+   "occ": 1,
+   "gap_after": "một nhóm cử tri ",
+   "recovered": "{người}",
+   "cat": "E",
+   "sub": "nominal",
+   "dir": "ana",
+   "level": "TC",
+   "ante": "S001: {người} (trong câu)",
+   "conf": "med",
+   "alt": null,
+   "note": "[TC] lược quan hệ từ chủ ngữ “một nhóm cử tri {người} ủng hộ…”; ∅ tự sinh trong câu VI-only"
+  },
+  {
+   "id": "P12-VI-003",
+   "sent": "S002",
+   "text": null,
+   "occ": 1,
+   "gap_after": "tuyên bố ủng hộ ",
+   "recovered": "{Robert F. Kennedy Jr.}",
+   "cat": "E",
+   "sub": "nominal",
+   "dir": "ana",
+   "level": "TC",
+   "ante": "S002: {Robert F. Kennedy Jr.} (trong câu)",
+   "conf": "med",
+   "alt": null,
+   "note": "[TC] control: “tuyên bố ủng hộ ∅ Trump” — chủ ngữ của “ủng hộ” bị lược, hồi phục từ chủ ngữ “tuyên bố”; EN dùng “his endorsement”"
   }
  ]
 }

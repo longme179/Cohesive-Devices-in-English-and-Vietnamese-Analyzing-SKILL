@@ -6,7 +6,7 @@
 
 **Legend:** 🟨 Reference (`R`) | 🟩 Substitution (`S`) | 🟦 Ellipsis (`E`) | 🟧 Conjunction (`C`) | 🟪 Lexical cohesion (`L`) — ellipsis gap: 🟦⟦∅⟧
 
-**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric.
+**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric. Levels: LC = intersentential, TC = intra-sentential, TD = title.
 
 ---
 
@@ -14,17 +14,17 @@ Một nhà kinh tế học dự đoán rằng năm 2025 sẽ là “một năm t
 🟪⟦Thị trường nhà ở Úc⟧ đang trải qua những chuyển biến lớn khi áp lực tài chính và sự thay đổi nhu cầu định hình lại 🟪⟦giá nhà⟧ trên toàn quốc.
 Phúc trình quý 4/2024 của Domain đã tiết lộ những nơi 🟪⟦giá nhà⟧ giảm mạnh nhất trên toàn quốc.
 Theo bà Nicola Powell, trưởng bộ phận nghiên cứu và kinh tế của 🟪⟦Domain⟧, dữ liệu phản ảnh sự thay đổi trong hành vi của 🟪⟦người mua nhà⟧.
-“Những gì 🟨⟦chúng tôi⟧ thấy là nhu cầu của 🟪⟦người mua⟧ giảm. 🟨⟦Điều đó⟧ không có nghĩa là 🟪⟦nhu cầu⟧ biến mất – 🟨⟦họ⟧ chỉ đang trì hoãn việc ra quyết định,” 🟨⟦bà⟧ nói.
-“🟪⟦Sự trì hoãn này⟧ chủ yếu là do áp lực 🟪⟦giá nhà⟧, khi giá cả tăng cao khiến nhiều 🟪⟦người mua⟧ gặp khó khăn trong việc chi trả.”
+“Những gì 🟨⟦chúng tôi⟧ thấy là nhu cầu của 🟪⟦người mua⟧ giảm. 🟨⟦Điều đó⟧ không có nghĩa là 🟪⟦nhu cầu⟧ biến mất – 🟦⟦∅⟧🟨⟦họ⟧ chỉ đang trì hoãn việc ra quyết định,” 🟨⟦bà⟧ nói.
+“🟪⟦Sự trì hoãn này⟧ chủ yếu là do áp lực 🟪⟦giá nhà⟧, khi giá cả tăng cao khiến nhiều 🟪⟦người mua⟧ gặp khó khăn trong việc chi trả.”🟦⟦∅⟧
 Sydney vẫn là 🟪⟦thị trường nhà ở⟧ đắt đỏ nhất nước 🟪⟦Úc⟧, nhưng 🟪⟦giá nhà⟧ tại đây đã giảm 0,1% 🟪⟦trong quý⟧, với mức trung bình hiện tại là $1.645.444.
 Lần đầu tiên trong hai năm qua, 🟪⟦Sydney⟧ chứng kiến sự sụt giảm 🟪⟦giá nhà⟧ liên tiếp trong 🟪⟦hai quý⟧. 🟪⟦Dữ liệu⟧ từ 🟪⟦Domain⟧ cho thấy 🟪⟦giá căn hộ⟧ ở Crows Nest phía bắc 🟪⟦Sydney⟧ đã giảm 22,1% xuống còn $818.000.
 Một số khu vực ở Queensland cũng ghi nhận sự thay đổi lớn về 🟪⟦giá bất động sản⟧.
-Tại Biggera Waters, 🟪⟦giá nhà⟧ giảm 22,4% so với năm trước, còn $660.000.
+Tại Biggera Waters, 🟪⟦giá nhà⟧ giảm 22,4% so với năm trước, 🟦⟦∅⟧còn $660.000.
 🟧⟦Tương tự⟧, 🟪⟦giá nhà⟧ ở Clear Island Waters giảm 21,1% xuống còn $1.400.000.
-Giá 🟪⟦căn hộ⟧ ở Melbourne tăng mạnh nhất trong 1,5 năm qua, với mức tăng 2,1% trong 🟪⟦quý 4⟧. 🟪⟦Giá nhà⟧ cũng tăng 1,6% 🟪⟦trong cùng giai đoạn⟧.
+Giá 🟪⟦căn hộ⟧ ở Melbourne tăng mạnh nhất trong 1,5 năm qua, với mức tăng 🟦⟦∅⟧2,1% trong 🟪⟦quý 4⟧. 🟪⟦Giá nhà⟧ cũng tăng 1,6% 🟪⟦trong cùng giai đoạn⟧.
 🟪⟦Bà Powell⟧ cho rằng 🟪⟦sự gia tăng này⟧ là nhờ vào hoạt động tích cực của những người mua nhà lần đầu.
 “🟪⟦Melbourne⟧ thật sự gây bất ngờ. 🟪⟦Thị trường⟧ ở đây hoạt động kém từ năm 2020, nhưng trong quý cuối năm 2024, 🟨⟦chúng tôi⟧ lại ghi nhận sự tăng trưởng,” 🟪⟦bà Powell⟧ nhận xét.
-“🟪⟦Sự tăng trưởng này⟧ phản ảnh giá trị tích lũy theo thời gian, thu hút 🟪⟦người mua⟧, đặc biệt là những 🟪⟦người mua nhà lần đầu⟧.”
+“🟪⟦Sự tăng trưởng này⟧ phản ảnh giá trị tích lũy theo thời gian, 🟦⟦∅⟧thu hút 🟪⟦người mua⟧, đặc biệt là những 🟪⟦người mua nhà lần đầu⟧.”
 Về 🟪⟦khả năng chi trả nhà ở⟧, Chadstone chứng kiến sự cải thiện đáng kể nhất với 🟪⟦giá căn hộ⟧ giảm 33,3%xuống còn $505.000.
 Sunshine 🟧⟦cũng⟧ trải qua một đợt giảm 🟪⟦giá căn hộ⟧ 18,9% xuống còn $450.000 🟪⟦trong cùng giai đoạn⟧.
 🟧⟦Trong khi đó⟧, 🟪⟦giá nhà⟧ tại thị trấn ven biển Barwon Heads giảm 20,5%. Các 🟪⟦thị trường⟧ nhỏ hơn cũng không tránh khỏi 🟪⟦những thay đổi này⟧.
@@ -35,4 +35,4 @@ Liệu 🟪⟦năm 2025⟧ có phải là thị trường của 🟪⟦người 
 🟪⟦Nguồn cung gia tăng⟧, đặc biệt là ở các thành phố lớn, đang mang lại nhiều cơ hội để thương lượng về 🟪⟦giá⟧.
 🟧⟦Nhưng⟧ liệu 🟪⟦xu hướng này⟧ có tiếp diễn? Theo 🟪⟦bà Powell⟧, điều này còn phụ thuộc vào một số yếu tố.
 “Năm 2025 sẽ là 🟪⟦một năm thú vị⟧,” 🟨⟦bà⟧ nói.
-“Các 🟪⟦điều kiện yếu⟧ đã tích lũy trong năm 2024 và sẽ ảnh hưởng đến đầu 🟪⟦năm 2025⟧. 🟧⟦Tuy nhiên⟧, điều có thể thay đổi là khi 🟨⟦chúng ta⟧ bắt đầu thấy RBA giảm lãi suất.”
+“Các 🟪⟦điều kiện yếu⟧ đã tích lũy trong năm 2024 và 🟦⟦∅⟧sẽ ảnh hưởng đến đầu 🟪⟦năm 2025⟧. 🟧⟦Tuy nhiên⟧, điều có thể thay đổi là khi 🟨⟦chúng ta⟧ bắt đầu thấy RBA giảm lãi suất.”

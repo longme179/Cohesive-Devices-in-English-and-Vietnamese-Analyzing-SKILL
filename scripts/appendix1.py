@@ -2,7 +2,9 @@
 """Assemble Appendix1.md and Appendix1.html from per-pair outputs."""
 import json, os, html as H
 
-OUT = '/home/z/my-project/out'
+import os as _os
+BASE = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
+OUT = _os.path.join(BASE, 'out')
 
 def read(p):
     return open(p).read()

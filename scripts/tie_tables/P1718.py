@@ -72,6 +72,12 @@ P17_ST = [
  ('S021', 'Thailand', 'L', 'repetition', 'S015: Thailand', 'high', None, None, 1),
  # S022
  ('S022', 'reduced output', 'L', 'repetition', 'S014: supply surplus', 'med', None, None, 1),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_17 (§2) ----
+ ('S007', None, 'E', 'nominal', 'S007: {farmers} (trong câu)', 'high', None, '[TC] lượng từ + ∅ danh: “Some ∅ are cutting down…”', 1, 'Some ', '{farmers}', 'TC'),
+ ('S013', None, 'E', 'clausal', 'S013: {if they don’t cut down / control} (trong câu)', 'high', None, '[TC] “Otherwise ∅ they will keep on producing…” — lược mệnh đề điều kiện', 1, 'Otherwise ', '{if they don’t cut down / control}', 'TC'),
+ ('S017', None, 'E', 'nominal', 'S017: {farmers} (trong câu)', 'low', None, '[TC] biên: control “assist farmers ∅ to be more sustainable”', 1, 'to assist farmers ', '{farmers}', 'TC'),
+ ('S022', None, 'E', 'clausal', 'S022: {which is still leaving / the situation} (trong câu)', 'low', None, '[TC] biên: vế rút không chủ ngữ “∅ though still leaving a modest surplus”', 1, 'the global appetite for rubber will increase, ', '{which is still leaving / the situation}', 'TC'),
+
 ]
 P17_TT = [
  # S002
@@ -141,6 +147,15 @@ P17_TT = [
  ('S021', 'Thái Lan', 'L', 'repetition', 'S015: Thái Lan', 'high', None, None, 1),
  # S022
  ('S022', 'sản lượng giảm sút', 'L', 'repetition', 'S014: cung thặng dư', 'med', None, None, 1),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_17 (§2) ----
+ ('S007', None, 'E', 'nominal', 'S007: {nông dân} (trong câu)', 'high', None, '[TC] “Một số ∅ chặt tất cả các cây cao su” — đối ứng 1–1 E-EN1', 1, 'Một số ', '{nông dân}', 'TC'),
+ ('S009', None, 'E', 'clausal', 'S009: {rằng} (trong câu)', 'med', None, '[TC] lược liên từ bổ ngữ “nói ∅ các nhà buôn…”', 1, 'hôm thứ Hai nói ', '{rằng}', 'TC'),
+ ('S011', None, 'E', 'clausal', 'S011: {rằng} (trong câu)', 'med', None, '[TC] lược “rằng” trong “nói ∅ một hành động can thiệp…” (VI 12 lại giữ “rằng”)', 1, 'chính phủ Thái, ', '{rằng}', 'TC'),
+ ('S013', None, 'E', 'clausal', 'S013: {nếu không chặt / kiểm soát} (trong câu)', 'high', None, '[TC] “Nếu không thì ∅ họ sẽ tiếp tục…” — song song 1–1 E-EN2', 1, 'Nếu không thì ', '{nếu không chặt / kiểm soát}', 'TC'),
+ ('S020', None, 'E', 'nominal', 'S020: {sự hỗ trợ} (trong câu)', 'low', None, '[TC] biên: control “giúp ∅ tạm thời đẩy giá lên”', 1, 'của chính phủ Thái giúp ', '{sự hỗ trợ}', 'TC'),
+ ('S021', None, 'E', 'nominal', 'S021: {Trung Quốc} (trong câu)', 'high', None, '[TC] control: “Trung Quốc thông báo ∅ sẽ tăng gấp đôi…” — hút đại từ “it” của EN 21', 1, 'Trung Quốc thông báo ', '{Trung Quốc}', 'TC'),
+ ('S022', None, 'E', 'clausal', 'S022: {which is still leaving / the situation} (trong câu)', 'low', None, '[TC] biên: vế không chủ ngữ “∅ tuy vẫn còn một mức thặng dư nhỏ”', 1, 'nhu cầu nội địa của Thái Lan sẽ giúp hạ giảm kho dự trữ vào năm tới khi các dự báo gợi ý rằng nhu cần về cao su sẽ gia tăng ', '{which is still leaving / the situation}', 'TC'),
+
 ]
 
 # ---- P18 ----
@@ -219,6 +234,12 @@ P18_ST = [
  # S022
  ('S022', 'The organization', 'L', 'general word', 'S021: UNICEF', 'high', None, None, 1),
  ('S022', 'children', 'L', 'repetition', 'S019: children', 'high', None, None, 1),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_18 (§2–§3) ----
+ ('S009', None, 'E', 'clausal', 'S009: {that} (trong câu)', 'med', None, '[TC] lược liên từ bổ ngữ “remind everyone ∅ we are there”', 1, 'remind everyone', '{that}', 'TC'),
+ ('S015', 'doing the same thing', 'S', 'verbal', 'S014: the same kind of support work', 'high', None, '[TC] thế vị ngữ do + the same + thing', 1, None, None, 'TC'),
+ ('S016', 'do', 'S', 'verbal', 'S015: doing the same thing', 'high', None, '[TC] pro-động từ “do” + chỉ định “this” (this đã là R riêng, không tô trùng)', 1, None, None, 'TC'),
+ ('S020', None, 'E', 'clausal', 'S020: {to} (trong câu)', 'high', None, '[TC] tọa hợp to-V: “to prevent…, ∅ allow children…, and to protect…”', 1, 'morbidity and mortality, ', '{to}', 'TC'),
+
 ]
 P18_TT = [
  # S002
@@ -287,4 +308,7 @@ P18_TT = [
  # S024
  ('S024', 'tổ chức này', 'L', 'general word', 'S022: UNICEF', 'high', 'R: này', None, 1),
  ('S024', 'em bé', 'L', 'repetition', 'S005: trẻ em', 'med', None, None, 1),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_18 (§2) ----
+ ('S016', None, 'E', 'nominal', 'S016: {chính mình} (trong câu)', 'low', None, '[TC] biên: phản thân “đã cam kết ∅ sẽ cung cấp” — EN “commit ourselves”', 1, 'trong tư cách là một tổ chức, đã cam kết', '{chính mình}', 'TC'),
+
 ]

@@ -6,20 +6,20 @@
 
 **Legend:** 🟨 Reference (`R`) | 🟩 Substitution (`S`) | 🟦 Ellipsis (`E`) | 🟧 Conjunction (`C`) | 🟪 Lexical cohesion (`L`) — ellipsis gap: 🟦⟦∅⟧
 
-**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric.
+**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric. Levels: LC = intersentential, TC = intra-sentential, TD = title.
 
 ---
 
 Khi áp lực cải cách quyên góp bầu cử gia tăng trước thềm cuộc tổng tuyển cử liên bang, hàng chục triệu đô la đã được chuyển vào các quỹ của các đảng chính trị lớn.
-Theo báo cáo của Ủy ban Bầu cử Úc (AEC) năm 2023-24, tổng số tiền 🟪⟦tài trợ⟧ cho 🟪⟦các đảng liên bang⟧ bao gồm: Đảng Lao động Liên bang: hơn 15 triệu AUD Đảng Tự do Liên bang: hơn 11 triệu AUD Đảng Quốc gia Liên bang: 2,5 triệu AUD Đảng Xanh Liên bang: hơn 4,8 triệu AUD
+Theo báo cáo của Ủy ban Bầu cử Úc (AEC) năm 2023-24, tổng số tiền 🟪⟦tài trợ⟧ cho 🟪⟦các đảng liên bang⟧ bao gồm: Đảng Lao động Liên bang: 🟦⟦∅⟧hơn 15 triệu AUD Đảng Tự do Liên bang: hơn 11 triệu AUD Đảng Quốc gia Liên bang: 2,5 triệu AUD Đảng Xanh Liên bang: hơn 4,8 triệu AUD
 Ngoài ra, các chi nhánh tiểu bang của các đảng này cũng nhận được hàng chục triệu đô la từ các khoản quyên góp khác.
 Trong số những 🟪⟦nhà tài trợ⟧ lớn nhất: Pratt Holdings, tập đoàn thuộc sở hữu của tỷ phú Anthony Pratt, đã 🟪⟦quyên góp⟧ 1 triệu AUD cho 🟪⟦Đảng Lao động Liên bang⟧.
-Hancock Prospecting, 🟪⟦tập đoàn⟧ khai khoáng do 🟪⟦tỷ phú⟧ Gina Rinehart đứng đầu, đã 🟪⟦tài trợ⟧:325.000 AUD cho 🟪⟦Đảng Tự do⟧ Quốc gia Queensland75.000 AUD cho Đảng Tự do Quốc gia Lãnh thổ Bắc Úc100.000 AUD cho Đảng Tự do Nam Úc
-Việc công bố các khoản 🟪⟦quyên góp⟧ này đang làm gia tăng 🟪⟦áp lực⟧ đối với chính phủ trong việc 🟪⟦cải cách⟧ luật tài trợ chính trị nhằm đảm bảo tính minh bạch và công bằng trong các chiến dịch bầu cử. Các công ty cá cược đã 🟪⟦quyên góp⟧ 🟪⟦hàng chục nghìn đô la⟧ cho 🟪⟦Đảng Lao động⟧, trong bối cảnh 🟪⟦chính phủ⟧ xem xét 🟪⟦cải cách⟧ luật cá cược thể thao trước khi quyết định tạm hoãn bất kỳ dự luật nào.
-Theo 🟪⟦báo cáo⟧ tài chính, các khoản 🟪⟦tài trợ⟧ bao gồm: Sportsbet: 88.000 AUD Tabcorp: 60.500 AUD Responsible Wagering Australia (Hiệp hội các nhà cung cấp dịch vụ 🟪⟦cá cược⟧ được cấp phép tại Úc): 66.000 AUD
+Hancock Prospecting, 🟪⟦tập đoàn⟧ khai khoáng do 🟪⟦tỷ phú⟧ Gina Rinehart đứng đầu, đã 🟪⟦tài trợ⟧:325.000 AUD cho 🟪⟦Đảng Tự do⟧ Quốc gia Queensland🟦⟦∅⟧75.000 AUD cho Đảng Tự do Quốc gia Lãnh thổ Bắc Úc100.000 AUD cho Đảng Tự do Nam Úc
+Việc công bố các khoản 🟪⟦quyên góp⟧ này đang làm gia tăng 🟪⟦áp lực⟧ đối với chính phủ trong việc 🟪⟦cải cách⟧ luật tài trợ chính trị nhằm đảm bảo tính minh bạch và công bằng trong các chiến dịch bầu cử. Các công ty cá cược đã 🟪⟦quyên góp⟧ 🟪⟦hàng chục nghìn đô la⟧ cho 🟪⟦Đảng Lao động⟧, trong bối cảnh 🟪⟦chính phủ⟧ xem xét 🟪⟦cải cách⟧ luật cá cược thể thao trước khi 🟦⟦∅⟧quyết định tạm hoãn bất kỳ dự luật nào.
+Theo 🟪⟦báo cáo⟧ tài chính, các khoản 🟪⟦tài trợ⟧ bao gồm: Sportsbet: 🟦⟦∅⟧88.000 AUD Tabcorp: 60.500 AUD Responsible Wagering Australia (Hiệp hội các nhà cung cấp dịch vụ 🟪⟦cá cược⟧ được cấp phép tại Úc): 66.000 AUD
 Đáng chú ý, khoản 🟪⟦quyên góp⟧ của Sportsbet cho 🟪⟦Đảng Lao động⟧ vào ngày 26/6/2024 diễn ra chỉ vài tuần trước khi có tin rò rỉ rằng 🟪⟦chính phủ⟧ đã quyết định từ chối lệnh cấm quảng cáo cá cược toàn diện, thay vào đó chỉ áp dụng các giới hạn nhất định.
 Khi được hỏi về lý do từ chối đề xuất 🟪⟦cấm hoàn toàn quảng cáo cá cược⟧, Thủ tướng Anthony Albanese khẳng định 🟪⟦chính phủ⟧ của ông đã có những hành động mạnh mẽ nhất đối với vấn đề cờ bạc kể từ khi Liên bang Úc được thành lập.
-"🟨⟦Chúng tôi⟧ đã triển khai BetStop, giúp nhiều người kiểm soát vấn đề 🟪⟦cờ bạc⟧. 🟨⟦Chúng tôi⟧ 🟧⟦cũng⟧ đã cấm sử dụng thẻ tín dụng trực tuyến cho các hoạt động 🟪⟦cá cược⟧ – một vấn đề lớn trong 🟪⟦cờ bạc⟧ thể thao," 🟨⟦ông⟧ nói trên podcast của Daily Aus.
+"🟨⟦Chúng tôi⟧ đã triển khai BetStop, 🟦⟦∅⟧giúp nhiều người kiểm soát vấn đề 🟪⟦cờ bạc⟧. 🟨⟦Chúng tôi⟧ 🟧⟦cũng⟧ đã cấm sử dụng thẻ tín dụng trực tuyến cho các hoạt động 🟪⟦cá cược⟧ – một vấn đề lớn trong 🟪⟦cờ bạc⟧ thể thao," 🟨⟦ông⟧ nói trên podcast của Daily Aus.
 Dù 🟪⟦chính phủ⟧ tuyên bố đã thực hiện các biện pháp mạnh tay để giảm thiểu tác hại của 🟪⟦cờ bạc⟧, quyết định không áp dụng 🟪⟦lệnh cấm quảng cáo toàn diện⟧ vẫn đang gây tranh cãi, đặc biệt khi có những khoản 🟪⟦quyên góp⟧ đáng kể từ các 🟪⟦công ty cá cược⟧ vào quỹ của 🟪⟦đảng cầm quyền⟧.
 🟧⟦Bên cạnh⟧ 🟪⟦Đảng Lao động⟧, các đảng phái khác 🟧⟦cũng⟧ nhận được những khoản tài trợ đáng kể từ các 🟪⟦công ty cá cược⟧:
 🟪⟦Sportsbet⟧ đã 🟪⟦tài trợ⟧ 60.000 AUD cho 🟪⟦Đảng Tự do⟧ và 15.000 AUD cho 🟪⟦Đảng Quốc gia⟧. 🟪⟦Tabcorp⟧ 🟧⟦cũng⟧ đã 🟪⟦đóng góp⟧ 🟪⟦hàng chục nghìn đô la⟧ cho các 🟪⟦chi nhánh⟧ tiểu bang của 🟪⟦Đảng Lao động⟧, bên cạnh hơn 90.000 AUD cho 🟪⟦Đảng Tự do và Đảng Quốc gia⟧, cũng như các chi nhánh liên quan của họ.

@@ -2,3 +2,8 @@ skills/
 node_modules/
 tool-results/
 temp/
+
+.venv/
+.uvcache/
+__pycache__/
+page*.png

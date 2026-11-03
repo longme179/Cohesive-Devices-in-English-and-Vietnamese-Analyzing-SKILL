@@ -124,6 +124,30 @@ ST = [
  # S039
  ('S039', 'the change', 'L', 'repetition', 'S035: will this trend hold', 'med', None, None, 1),
  ('S039', 'we', 'R', 'personal', 'S019: we (Powell)', 'med', None, None, 1),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_08 (§2–§3, §9) ----
+ # [LC] = liên câu; [TC] = trong câu. Các dòng này KHÔNG do script sinh:
+ # người đọc bản phân tích ngữ nghĩa rồi chọn đúng vị trí/tiền trạm.
+ # E-EN1: bổ ngữ “with” + vị ngữ trần, lược hệ từ.
+ ('S014', None, 'E', 'clausal', 'S014: {being} (trong câu)', 'high', None,
+  '[TC] E-EN1: vị ngữ trần trong bổ ngữ “with” — “with houses prices {being} at $660,000”, lược hệ từ', 1,
+  'affordable, with houses prices ', '{being}', 'TC'),
+ # E-EN2: cùng khuôn with + ∅ hệ từ.
+ ('S030', None, 'E', 'clausal', 'S030: {there being} (trong câu)', 'high', None,
+  '[TC] E-EN2: cùng khuôn “with” + ∅ hệ từ — “with {there being} no change in house or unit prices”', 1,
+  'the same period, with ', '{there being}', 'TC'),
+ # E-EN3: vị ngữ rút sau gạch ngang (biên).
+ ('S016', None, 'E', 'clausal', 'S016: {it was} (trong câu)', 'low', None,
+  '[TC] biên E-EN3: vị ngữ rút sau gạch ngang — “— {it was} up 2.1 per cent over the December quarter”', 1,
+  'increase in 1.5 years — ', '{it was}', 'TC'),
+ # E-EN4: trích dẫn kéo dài không khung dẫn (biên, liên câu). EN 7 = S008;
+ # các vị trí còn lại: EN 17 = S020, EN 30 = S038 (cùng hiện tượng).
+ ('S008', None, 'E', 'clausal', 'S007: Powell said (khung dẫn khối mở đầu)', 'low', None,
+  '[LC] biên E-EN4: trích dẫn kéo dài không khung dẫn — lược {she said} ở cuối khối; cùng hiện tượng ở EN 17 (S020) và EN 30 (S038)', 1,
+  'keep up."', '{she said}', 'LC'),
+ # S-EN1: thế “one” trong standfirst (VI hiện thực hóa “một năm”, không thêm S cho VI).
+ ('S001', 'one', 'S', 'nominal', 'S001: a year (within sentence)', 'high', None,
+  '[TC] S-EN1: one thế danh từ ← year trong standfirst; VI hiện thực hóa “một năm”', 1,
+  None, None, 'TC'),
 ]
 
 TT = [
@@ -239,4 +263,32 @@ TT = [
  # S037
  ('S037', 'Tuy nhiên', 'C', 'adversative', 'S036: weak conditions flowing into 2025', 'high', None, None, 1),
  ('S037', 'chúng ta', 'R', 'personal', 'S019: chúng tôi (Powell)', 'med', None, None, 1),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_08 (§2–§3, §9) ----
+ # [LC] = liên câu; [TC] = trong câu. Các dòng này KHÔNG do script sinh:
+ # người đọc bản phân tích ngữ nghĩa rồi chọn đúng vị trí/tiền trạm.
+ # E-VI1: VI cắt cả cụm “it means” của EN, chuyển thẳng sang chủ ngữ mới.
+ ('S007', None, 'E', 'clausal', 'S007: “it means” (EN 6) (trong câu)', 'high', None,
+  '[TC] E-VI1: lược cả cụm {nó có nghĩa là} — EN giữ “it means”, VI cắt bỏ rồi sang chủ ngữ mới “họ”', 1,
+  'biến mất – ', '{nó có nghĩa là}', 'TC'),
+ # E-VI2: lược liên từ “và” khi nối vế.
+ ('S020', None, 'E', 'clausal', 'S020: {và} (trong câu)', 'high', None,
+  '[TC] E-VI2: lược liên từ {và} — “theo thời gian, ∅ thu hút người mua”; EN: and activating buyers', 1,
+  'theo thời gian, ', '{và}', 'TC'),
+ # E-VI3: VI lược chủ ngữ “that/đó”, chia sẻ chủ ngữ cho hai vế.
+ ('S036', None, 'E', 'nominal', 'S036: {đó} (trong câu)', 'high', None,
+  '[TC] E-VI3: lược chủ ngữ {đó} — EN “that is going to flow”, VI chia sẻ chủ ngữ “Các điều kiện yếu”', 1,
+  '2024 và ', '{đó}', 'TC'),
+ # E-VI4: vị ngữ trần “còn $660.000”, song song E-EN1.
+ ('S013', None, 'E', 'nominal', 'S013: {giá} (trong câu)', 'med', None,
+  '[TC] E-VI4: vị ngữ trần “còn $660.000”, lược chủ ngữ {giá}; song song E-EN1', 1,
+  'so với năm trước, ', '{giá}', 'TC'),
+ # E-VI5: cụm “với” không vị ngữ (biên), song song E-EN3.
+ ('S015', None, 'E', 'verbal', 'S015: {là} (trong câu)', 'low', None,
+  '[TC] biên E-VI5: cụm “với” không vị ngữ — “với mức tăng {là} 2,1% trong quý 4”, song song E-EN3', 1,
+  'với mức tăng ', '{là}', 'TC'),
+ # E-VI6: trích dẫn kéo dài không khung dẫn (biên, liên câu). VI 7 = S008;
+ # các vị trí còn lại: VI 17 = S020, VI 30 = S036 (cùng hiện tượng).
+ ('S008', None, 'E', 'clausal', 'S007: bà nói (khung dẫn khối mở đầu)', 'low', None,
+  '[LC] biên E-VI6: trích dẫn kéo dài không khung dẫn — lược {bà nói} ở cuối khối; cùng hiện tượng ở VI 17 (S020) và VI 30 (S036)', 1,
+  'trong việc chi trả.”', '{bà nói}', 'LC'),
 ]

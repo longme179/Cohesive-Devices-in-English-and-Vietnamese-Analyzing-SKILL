@@ -6,7 +6,7 @@
 
 **Legend:** 🟨 Reference (`R`) | 🟩 Substitution (`S`) | 🟦 Ellipsis (`E`) | 🟧 Conjunction (`C`) | 🟪 Lexical cohesion (`L`) — ellipsis gap: 🟦⟦∅⟧
 
-**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric.
+**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric. Levels: LC = intersentential, TC = intra-sentential, TD = title.
 
 ---
 
@@ -16,4 +16,4 @@ Hiện có ít thông tin về số lượng công dân 🟪⟦Triều Tiên⟧ 
 Fides, hãng tin chính thức của Hiệp hội Truyền giáo Giáo hoàng, cho biết rằng ông Park Jie-won đã đưa ra 🟪⟦thông báo này⟧ trong một thánh lễ ở Mokpo, 🟪⟦Hàn Quốc⟧, hôm 5/7.
 🟪⟦Fides⟧ đưa tin rằng 🟪⟦ông Park⟧ nói với những người tham dự 🟪⟦Thánh lễ⟧ rằng ông sẽ gặp Tổng giám mục Kim Hee-jung của thành phố Gwangju và đại sứ của 🟪⟦Vatican⟧ tại 🟪⟦Hàn Quốc⟧, Tổng giám mục Alfred Xuereb, để thảo luận về khả năng 🟪⟦Giáo hoàng Francis⟧ tới Bình Nhưỡng.
 🟪⟦Ông Park⟧ là giám đốc của 🟪⟦Cơ quan Tình báo Quốc gia⟧.
-Hôm 8/7, một người đã trả lời cuộc gọi đến nhà thờ nơi 🟪⟦ông Park⟧ nói chuyện và đã xác nhận sự tham dự 🟨⟦của ông⟧ nhưng không xác nhận bất kỳ bình luận nào của ông. 🟪⟦Cơ quan tình báo⟧ ở Seoul chưa xác nhận công khai bình luận của 🟪⟦ông Park⟧.
+Hôm 8/7, một người đã trả lời cuộc gọi đến nhà thờ nơi 🟪⟦ông Park⟧ nói chuyện và đã xác nhận sự tham dự 🟨⟦của ông⟧ nhưng 🟦⟦∅⟧không xác nhận bất kỳ bình luận nào của ông. 🟪⟦Cơ quan tình báo⟧ ở Seoul chưa xác nhận công khai bình luận của 🟪⟦ông Park⟧.

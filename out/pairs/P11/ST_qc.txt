@@ -1,5 +1,5 @@
 QC P11 EN (ST): PASS
-(e) counts: {'C': 2, 'L': 115, 'R': 11}
+(e) counts: {'C': 2, 'E': 3, 'L': 115, 'R': 11, 'S': 2}
 (f) R direction: {'A': 11}
-confidence: {'high': 102, 'low': 5, 'med': 21}
-sentences: 60, ties: 128
+confidence: {'high': 104, 'low': 8, 'med': 21}
+sentences: 60, ties: 133

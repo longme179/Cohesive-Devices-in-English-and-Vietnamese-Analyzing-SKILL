@@ -1,5 +1,5 @@
 QC P04 EN (ST): PASS
-(e) counts: {'C': 4, 'L': 79, 'R': 12}
+(e) counts: {'C': 4, 'E': 3, 'L': 79, 'R': 12, 'S': 1}
 (f) R direction: {'A': 12}
-confidence: {'high': 68, 'med': 27}
-sentences: 44, ties: 95
+confidence: {'high': 69, 'low': 2, 'med': 28}
+sentences: 44, ties: 99

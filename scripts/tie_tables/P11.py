@@ -186,6 +186,13 @@ ST = [
  ('S060', 'the United States', 'L', 'repetition', 'S058: U.S. embassies', 'high', None, 'expansion of abbreviation', 1),
  ('S060', 'foreign government leaders', 'L', 'repetition', 'S058: foreign leaders', 'high', None, None, 1),
  ('S060', 'Muller', 'L', 'repetition', 'S058: Muller', 'high', None, None, 1),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_11 (§2–§3) ----
+ ('S023', None, 'E', 'clausal', 'S023: {the priorities are} (trong câu)', 'low', None, '[TC] biên: khung danh sách không vị ngữ “Among other things:”', 1, 'Among other things:', '{the priorities are}', 'TC'),
+ ('S034', None, 'E', 'clausal', 'S034: {is} (trong câu)', 'low', None, '[TC] biên: câu không hệ từ sau dấu hai chấm “Topping the list of priorities: staffing…”', 1, 'Topping the list of priorities: ', '{is}', 'TC'),
+ ('S045', None, 'E', 'clausal', 'S044: Shurkin said in an interview with VOA', 'low', None, '[LC] biên: phần 2 trích dẫn Shurkin lược khung dẫn (attribution continuation)', 1, '', '{Shurkin said in an interview with VOA}', 'LC'),
+ ('S056', 'those', 'S', 'nominal', 'S055: foreign governments (within sentence)', 'high', None, '[TC] those ← foreign governments; EN 56 “especially those with critical ties”', 1, None, None, 'TC'),
+ ('S059', 'the two', 'S', 'nominal', 'S058: Trump and Prabowo Subianto', 'high', None, '[TC] the two ← hai người; định lượng từ trần', 1, None, None, 'TC'),
+
 ]
 
 TT = [
@@ -363,4 +370,8 @@ TT = [
  # S058
  ('S058', 'Hoa Kỳ', 'L', 'repetition', 'S056: Hoa Kỳ', 'high', None, None, 1),
  ('S058', 'các nhà lãnh đạo', 'L', 'repetition', 'S056: các nhà lãnh đạo', 'high', None, None, 1),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_11 (§2–§3) ----
+ ('S032', None, 'E', 'clausal', 'S032: {is} (trong câu)', 'low', None, '[TC] biên: song song E-EN2 “Ưu tiên hàng đầu trong danh sách: tuyển dụng…”', 1, 'Ưu tiên hàng đầu trong danh sách: ', '{là}', 'TC'),
+ ('S043', None, 'E', 'clausal', 'S042: Ông Shurkin nói trong một cuộc phỏng vấn với VOA', 'low', None, '[LC] biên: phần 2 trích dẫn Shurkin lược khung dẫn', 1, '', '{Ông Shurkin nói trong một cuộc phỏng vấn với VOA rằng}', 'LC'),
+
 ]

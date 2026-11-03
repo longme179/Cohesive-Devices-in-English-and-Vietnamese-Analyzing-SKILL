@@ -185,6 +185,14 @@ ST = [
  ('S049', 'Brisbane', 'L', 'repetition', 'S048: Brisbane', 'med', None, None, 1),
  ('S049', 'storage', 'L', 'repetition', 'S048: storages', 'med', None, None, None),
  ('S049', 'drinking water', 'L', 'repetition', 'S046: drinking water', 'high', None, None, 1),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_01 (§2–§3) ----
+ # [LC] = liên câu; [TC] = trong câu. Các dòng này KHÔNG do script sinh:
+ # người đọc bản phân tích ngữ nghĩa rồi chọn đúng vị trí/tiền trạm.
+ ('S002', 'do the same', 'S', 'verbal', 'S002: recycled wastewater (within sentence)', 'high', None, '[TC] thế động từ do the same ← tái chế nước thải; EN dùng thế, VI dùng “làm như vậy”', None, None, None, 'TC'),
+ ('S016', None, 'E', 'nominal', 'S016: the other 15 per cent {of Sydney\'s supply}', 'med', None, '[TC] lược cụm sau lượng từ: “the other 15 per cent {…} comes from desalination”', 1, 'the other 15 per cent', '{of Sydney\'s water supply}', 'TC'),
+ ('S022', None, 'E', 'clausal', 'S021: three main objectives', 'high', None, '[LC] ba vế phi hữu hạn “to test / to allow / to give” lược chủ ngữ + động từ chính, bám vào “has three main objectives”', 1, 'Firstly, ', '{the first objective is} to test the technology …', 'LC'),
+ ('S028', 'one', 'S', 'nominal', 'S027: a referendum / the project', 'med', None, '[LC] one ← một dự án trưng cầu dân ý ở câu trước', 1, None, None, 'LC'),
+ ('S030', 'those', 'S', 'nominal', 'S030: the projects (within sentence)', 'high', None, '[TC] those ← the projects trong cùng câu', 1, None, None, 'TC'),
 ]
 
 TT = [
@@ -350,4 +358,13 @@ TT = [
  ('S046', 'Queensland', 'L', 'repetition', 'S045: Queensland', 'med', None, None, None),
  ('S046', 'sử dụng', 'L', 'repetition', 'S034: đang sử dụng', 'med', None, None, None),
  ('S046', 'cư dân', 'L', 'repetition', 'S028: cư dân thành phố Toowoomba', 'med', None, 'same lexical item, different referent', None),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_01 (§2–§3) ----
+ ('S002', 'làm như vậy', 'S', 'clausal', 'S002: tái chế nước thải làm nước uống (within sentence)', 'high', None, '[TC] thế mệnh đề “như vậy” ← tái chế nước thải; đối ứng 1–1 với “do the same”', 1, None, None, 'TC'),
+ ('S007', None, 'E', 'nominal', 'S007: {nước} (within sentence)', 'high', None, '[TC] lược tân ngữ {nước} của “đưa … trở lại”; EN: put it back', 1, 'để có thể đưa', '{nước}', 'TC'),
+ ('S013', None, 'E', 'verbal', 'S013: {tìm hiểu về} (within sentence)', 'high', None, '[TC] lược động từ lặp ở vế tọa hợp: “tìm hiểu về X và ∅ Y”; EN lặp to learn about', 1, 'tái chế nước và ', '{tìm hiểu về}', 'TC'),
+ ('S018', None, 'E', 'nominal', 'S018: {chúng ta} (within sentence)', 'high', None, '[TC] lược chủ ngữ chuỗi mệnh đề: “Chúng ta …, ∅ cần suy nghĩ…”', 1, 'quan trọng, ', '{chúng ta}', 'TC'),
+ ('S025', None, 'E', 'verbal', 'S025: {là} (within sentence)', 'med', None, '[TC] lược hệ từ ở vế liệt kê thứ ba: “Và cuối cùng, ∅ để…”', 1, 'Và cuối cùng, ', '{là}', 'TC'),
+ ('S034', None, 'E', 'nominal', 'S034: {công nghệ này} (within sentence)', 'high', None, '[TC] lược tân ngữ của “xem xét áp dụng ∅”; EN: looking into it', 1, 'đang xem xét áp dụng', '{công nghệ này}', 'TC'),
+ ('S045', None, 'E', 'nominal', 'S045: {nó} (within sentence)', 'high', None, '[TC] lược chủ ngữ vế sau “nhưng ∅ vẫn là…”; EN lặp it’s', 1, 'nhưng ', '{nó}', 'TC'),
+ ('S046', None, 'E', 'nominal', 'S046: {nó được} (within sentence)', 'high', None, '[TC] lược chủ ngữ + khâu bị động: “Nếu ∅ đưa vào sử dụng”; EN: if it was used', 1, 'Nếu ', '{nó được}', 'TC'),
 ]

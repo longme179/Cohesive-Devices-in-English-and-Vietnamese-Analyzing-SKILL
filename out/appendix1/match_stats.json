@@ -1,9 +1,9 @@
 {
   "grand": {
-    "en_markers": 1605,
-    "en_rendered": 1605,
-    "vi_markers": 1391,
-    "vi_rendered": 1391,
+    "en_markers": 1697,
+    "en_rendered": 1697,
+    "vi_markers": 1483,
+    "vi_rendered": 1483,
     "en_straddle": 0,
     "vi_straddle": 0,
     "en_orphan": 0,
@@ -18,19 +18,23 @@
       "en_matched": 35,
       "vi_total": 35,
       "vi_matched": 32,
-      "en_markers": 135,
-      "en_rendered": 135,
+      "en_markers": 140,
+      "en_rendered": 140,
       "en_rendered_by_cat": {
+        "S": 3,
         "L": 95,
         "R": 30,
-        "C": 10
+        "C": 10,
+        "E": 2
       },
-      "vi_markers": 119,
-      "vi_rendered": 119,
+      "vi_markers": 127,
+      "vi_rendered": 127,
       "vi_rendered_by_cat": {
+        "S": 1,
         "L": 90,
         "C": 9,
-        "R": 20
+        "R": 20,
+        "E": 7
       },
       "straddles": 0,
       "orphan_markers": 0,
@@ -42,18 +46,20 @@
       "en_matched": 40,
       "vi_total": 46,
       "vi_matched": 42,
-      "en_markers": 157,
-      "en_rendered": 157,
+      "en_markers": 162,
+      "en_rendered": 162,
       "en_rendered_by_cat": {
         "L": 113,
         "R": 37,
+        "E": 5,
         "C": 7
       },
-      "vi_markers": 153,
-      "vi_rendered": 153,
+      "vi_markers": 162,
+      "vi_rendered": 162,
       "vi_rendered_by_cat": {
         "L": 127,
         "R": 22,
+        "E": 9,
         "C": 4
       },
       "straddles": 0,
@@ -66,17 +72,19 @@
       "en_matched": 33,
       "vi_total": 39,
       "vi_matched": 39,
-      "en_markers": 115,
-      "en_rendered": 115,
+      "en_markers": 120,
+      "en_rendered": 120,
       "en_rendered_by_cat": {
+        "E": 5,
         "L": 101,
         "C": 8,
         "R": 6
       },
-      "vi_markers": 126,
-      "vi_rendered": 126,
+      "vi_markers": 131,
+      "vi_rendered": 131,
       "vi_rendered_by_cat": {
         "L": 110,
+        "E": 5,
         "R": 7,
         "C": 9
       },
@@ -90,19 +98,22 @@
       "en_matched": 42,
       "vi_total": 35,
       "vi_matched": 35,
-      "en_markers": 95,
-      "en_rendered": 95,
+      "en_markers": 99,
+      "en_rendered": 99,
       "en_rendered_by_cat": {
         "R": 12,
         "L": 79,
-        "C": 4
+        "C": 4,
+        "E": 3,
+        "S": 1
       },
-      "vi_markers": 65,
-      "vi_rendered": 65,
+      "vi_markers": 70,
+      "vi_rendered": 70,
       "vi_rendered_by_cat": {
         "C": 7,
         "L": 53,
-        "R": 5
+        "R": 5,
+        "E": 5
       },
       "straddles": 0,
       "orphan_markers": 0,
@@ -114,17 +125,20 @@
       "en_matched": 58,
       "vi_total": 46,
       "vi_matched": 39,
-      "en_markers": 102,
-      "en_rendered": 102,
+      "en_markers": 111,
+      "en_rendered": 111,
       "en_rendered_by_cat": {
         "L": 90,
-        "R": 8,
-        "C": 4
+        "E": 7,
+        "S": 5,
+        "C": 4,
+        "R": 5
       },
-      "vi_markers": 64,
-      "vi_rendered": 64,
+      "vi_markers": 71,
+      "vi_rendered": 71,
       "vi_rendered_by_cat": {
         "L": 57,
+        "E": 7,
         "R": 4,
         "C": 3
       },
@@ -138,19 +152,22 @@
       "en_matched": 30,
       "vi_total": 19,
       "vi_matched": 19,
-      "en_markers": 81,
-      "en_rendered": 81,
+      "en_markers": 86,
+      "en_rendered": 86,
       "en_rendered_by_cat": {
         "L": 70,
+        "E": 5,
         "R": 6,
         "C": 5
       },
-      "vi_markers": 53,
-      "vi_rendered": 53,
+      "vi_markers": 59,
+      "vi_rendered": 59,
       "vi_rendered_by_cat": {
         "L": 46,
+        "E": 5,
         "C": 5,
-        "R": 2
+        "R": 2,
+        "S": 1
       },
       "straddles": 0,
       "orphan_markers": 0,
@@ -162,19 +179,21 @@
       "en_matched": 29,
       "vi_total": 33,
       "vi_matched": 29,
-      "en_markers": 121,
-      "en_rendered": 121,
+      "en_markers": 129,
+      "en_rendered": 129,
       "en_rendered_by_cat": {
         "R": 31,
         "L": 84,
-        "E": 1,
-        "C": 5
+        "E": 8,
+        "C": 5,
+        "S": 1
       },
-      "vi_markers": 119,
-      "vi_rendered": 119,
+      "vi_markers": 128,
+      "vi_rendered": 128,
       "vi_rendered_by_cat": {
         "R": 27,
         "L": 86,
+        "E": 9,
         "C": 6
       },
       "straddles": 0,
@@ -187,18 +206,21 @@
       "en_matched": 29,
       "vi_total": 29,
       "vi_matched": 28,
-      "en_markers": 86,
-      "en_rendered": 86,
+      "en_markers": 91,
+      "en_rendered": 91,
       "en_rendered_by_cat": {
+        "S": 1,
         "L": 66,
         "R": 13,
+        "E": 4,
         "C": 7
       },
-      "vi_markers": 77,
-      "vi_rendered": 77,
+      "vi_markers": 83,
+      "vi_rendered": 83,
       "vi_rendered_by_cat": {
         "L": 62,
         "R": 7,
+        "E": 6,
         "C": 8
       },
       "straddles": 0,
@@ -211,19 +233,22 @@
       "en_matched": 35,
       "vi_total": 36,
       "vi_matched": 32,
-      "en_markers": 122,
-      "en_rendered": 122,
+      "en_markers": 128,
+      "en_rendered": 128,
       "en_rendered_by_cat": {
         "L": 116,
         "C": 2,
-        "R": 4
+        "R": 4,
+        "E": 5,
+        "S": 1
       },
-      "vi_markers": 98,
-      "vi_rendered": 98,
+      "vi_markers": 104,
+      "vi_rendered": 104,
       "vi_rendered_by_cat": {
         "L": 93,
         "C": 2,
-        "R": 3
+        "R": 3,
+        "E": 6
       },
       "straddles": 0,
       "orphan_markers": 0,
@@ -235,17 +260,19 @@
       "en_matched": 23,
       "vi_total": 39,
       "vi_matched": 23,
-      "en_markers": 45,
-      "en_rendered": 45,
+      "en_markers": 48,
+      "en_rendered": 48,
       "en_rendered_by_cat": {
         "L": 33,
         "R": 9,
+        "E": 3,
         "C": 3
       },
-      "vi_markers": 45,
-      "vi_rendered": 45,
+      "vi_markers": 50,
+      "vi_rendered": 50,
       "vi_rendered_by_cat": {
         "L": 34,
+        "E": 5,
         "R": 7,
         "C": 4
       },
@@ -259,19 +286,22 @@
       "en_matched": 39,
       "vi_total": 39,
       "vi_matched": 36,
-      "en_markers": 128,
-      "en_rendered": 128,
+      "en_markers": 133,
+      "en_rendered": 133,
       "en_rendered_by_cat": {
         "L": 115,
         "R": 11,
-        "C": 2
+        "E": 3,
+        "C": 2,
+        "S": 2
       },
-      "vi_markers": 118,
-      "vi_rendered": 118,
+      "vi_markers": 120,
+      "vi_rendered": 120,
       "vi_rendered_by_cat": {
         "L": 111,
         "R": 5,
-        "C": 2
+        "C": 2,
+        "E": 2
       },
       "straddles": 0,
       "orphan_markers": 0,
@@ -288,9 +318,10 @@
       "en_rendered_by_cat": {
         "R": 1
       },
-      "vi_markers": 1,
-      "vi_rendered": 1,
+      "vi_markers": 3,
+      "vi_rendered": 3,
       "vi_rendered_by_cat": {
+        "E": 2,
         "L": 1
       },
       "straddles": 0,
@@ -303,17 +334,19 @@
       "en_matched": 11,
       "vi_total": 8,
       "vi_matched": 8,
-      "en_markers": 30,
-      "en_rendered": 30,
+      "en_markers": 31,
+      "en_rendered": 31,
       "en_rendered_by_cat": {
         "L": 25,
-        "R": 5
+        "R": 5,
+        "E": 1
       },
-      "vi_markers": 19,
-      "vi_rendered": 19,
+      "vi_markers": 20,
+      "vi_rendered": 20,
       "vi_rendered_by_cat": {
         "L": 18,
-        "R": 1
+        "R": 1,
+        "E": 1
       },
       "straddles": 0,
       "orphan_markers": 0,
@@ -325,17 +358,20 @@
       "en_matched": 9,
       "vi_total": 9,
       "vi_matched": 9,
-      "en_markers": 27,
-      "en_rendered": 27,
+      "en_markers": 29,
+      "en_rendered": 29,
       "en_rendered_by_cat": {
         "L": 23,
+        "E": 2,
         "R": 4
       },
-      "vi_markers": 27,
-      "vi_rendered": 27,
+      "vi_markers": 30,
+      "vi_rendered": 30,
       "vi_rendered_by_cat": {
         "L": 22,
+        "E": 2,
         "R": 4,
+        "S": 1,
         "C": 1
       },
       "straddles": 0,
@@ -348,16 +384,19 @@
       "en_matched": 19,
       "vi_total": 21,
       "vi_matched": 17,
-      "en_markers": 55,
-      "en_rendered": 55,
+      "en_markers": 60,
+      "en_rendered": 60,
       "en_rendered_by_cat": {
+        "E": 3,
         "R": 16,
         "L": 38,
+        "S": 2,
         "C": 1
       },
-      "vi_markers": 47,
-      "vi_rendered": 47,
+      "vi_markers": 51,
+      "vi_rendered": 51,
       "vi_rendered_by_cat": {
+        "E": 4,
         "L": 40,
         "R": 6,
         "C": 1
@@ -372,17 +411,20 @@
       "en_matched": 12,
       "vi_total": 12,
       "vi_matched": 12,
-      "en_markers": 36,
-      "en_rendered": 36,
+      "en_markers": 43,
+      "en_rendered": 43,
       "en_rendered_by_cat": {
+        "E": 6,
         "L": 32,
         "R": 2,
-        "C": 2
+        "C": 2,
+        "S": 1
       },
-      "vi_markers": 39,
-      "vi_rendered": 39,
+      "vi_markers": 44,
+      "vi_rendered": 44,
       "vi_rendered_by_cat": {
         "L": 34,
+        "E": 5,
         "R": 3,
         "C": 2
       },
@@ -396,18 +438,20 @@
       "en_matched": 17,
       "vi_total": 17,
       "vi_matched": 17,
-      "en_markers": 49,
-      "en_rendered": 49,
+      "en_markers": 53,
+      "en_rendered": 53,
       "en_rendered_by_cat": {
         "L": 41,
         "R": 5,
+        "E": 4,
         "C": 3
       },
-      "vi_markers": 46,
-      "vi_rendered": 46,
+      "vi_markers": 53,
+      "vi_rendered": 53,
       "vi_rendered_by_cat": {
         "L": 41,
         "R": 2,
+        "E": 7,
         "C": 3
       },
       "straddles": 0,
@@ -420,18 +464,21 @@
       "en_matched": 12,
       "vi_total": 12,
       "vi_matched": 12,
-      "en_markers": 53,
-      "en_rendered": 53,
+      "en_markers": 57,
+      "en_rendered": 57,
       "en_rendered_by_cat": {
         "L": 41,
         "R": 11,
+        "E": 2,
+        "S": 2,
         "C": 1
       },
-      "vi_markers": 44,
-      "vi_rendered": 44,
+      "vi_markers": 45,
+      "vi_rendered": 45,
       "vi_rendered_by_cat": {
         "L": 37,
-        "R": 7
+        "R": 7,
+        "E": 1
       },
       "straddles": 0,
       "orphan_markers": 0,
@@ -443,10 +490,12 @@
       "en_matched": 12,
       "vi_total": 12,
       "vi_matched": 12,
-      "en_markers": 47,
-      "en_rendered": 47,
+      "en_markers": 53,
+      "en_rendered": 53,
       "en_rendered_by_cat": {
         "L": 43,
+        "E": 4,
+        "S": 2,
         "R": 3,
         "C": 1
       },
@@ -467,17 +516,19 @@
       "en_matched": 30,
       "vi_total": 21,
       "vi_matched": 21,
-      "en_markers": 120,
-      "en_rendered": 120,
+      "en_markers": 123,
+      "en_rendered": 123,
       "en_rendered_by_cat": {
         "L": 88,
-        "R": 32
+        "R": 32,
+        "E": 3
       },
-      "vi_markers": 83,
-      "vi_rendered": 83,
+      "vi_markers": 84,
+      "vi_rendered": 84,
       "vi_rendered_by_cat": {
         "R": 14,
-        "L": 69
+        "L": 69,
+        "E": 1
       },
       "straddles": 0,
       "orphan_markers": 0,

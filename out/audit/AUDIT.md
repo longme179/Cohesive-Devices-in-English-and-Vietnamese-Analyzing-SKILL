@@ -2,7 +2,11 @@
 
 **Ngày audit:** 2026-11-02 · **Phạm vi:** 20 cặp bài báo EN–VI · **Đơn vị:** liên kết liên-câu (intersentential ties)
 
-**Tổng số tie:** 2.996 (EN 1.605 / VI 1.391) — *không thay đổi so với bản v3* (audit không thêm/bớt tie, chỉ gắn nhãn hướng quy chiếu và đính chính 2 lỗi dữ liệu).
+**Tổng số tie:** 2.996 (EN 1.605 / VI 1.391) — *số của bản audit v3.1*.
+> **Cập nhật v6 (2026-11):** sau audit này, 184 tie S/E đã được bổ sung thủ công
+> từ 20 bản `semantic_analysis`; tổng hiện hành là **3.180** (EN 1.697 / VI 1.483),
+> S 21/3, E 75/89, R 243/149. Các số 2.996/1.605/1.391 trong file này là hồ sơ
+> lịch sử của tầng R/C/L trước khi bổ sung S/E.
 
 ---
 

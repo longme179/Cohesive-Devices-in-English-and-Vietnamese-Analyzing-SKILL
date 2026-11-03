@@ -6,7 +6,7 @@
 
 **Legend:** 🟨 Reference (`R`) | 🟩 Substitution (`S`) | 🟦 Ellipsis (`E`) | 🟧 Conjunction (`C`) | 🟪 Lexical cohesion (`L`) — ellipsis gap: 🟦⟦∅⟧
 
-**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric.
+**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric. Levels: LC = intersentential, TC = intra-sentential, TD = title.
 
 ---
 
@@ -22,23 +22,23 @@ Con số 🟨⟦này⟧ được dựa trên hàng ngàn nghiên cứu trên th�
 🟪⟦Bà Shriane⟧ 🟧⟦cũng⟧ tỏ ra hoài nghi về những người nói rằng họ chỉ cần 🟪⟦ngủ⟧ 5 tiếng mỗi đêm.
 “Một số người tự hào nói rằng họ chỉ cần 🟪⟦ngủ⟧ năm tiếng là đủ,” 🟨⟦bà⟧ nói. “Tuy nhiên, cơ thể và não của 🟨⟦họ⟧ có thể bị ảnh hưởng xấu bởi tình trạng 🟪⟦thiếu ngủ⟧ mãn tính.”
 “Trẻ em cần 🟪⟦ngủ⟧ nhiều hơn người lớn, và thời gian ngủ thay đổi tuỳ thuộc vào giai đoạn phát triển,” 🟪⟦bà Shriane⟧ nói.
-🟪⟦Trẻ nhỏ⟧ cần 🟪⟦ngủ⟧ 11-14 tiếng mỗi ngày, trong khi thanh thiếu niên cần 8-10 tiếng.
+🟪⟦Trẻ nhỏ⟧ cần 🟪⟦ngủ⟧ 11-14 tiếng mỗi ngày, trong khi thanh thiếu niên cần🟦⟦∅⟧ 8-10 tiếng.
 Người cao niên trên 65 tuổi thường chỉ cần 7-8 tiếng. 🟧⟦Ngoài ra⟧, phụ nữ có thể cần 🟪⟦ngủ⟧ nhiều hơn nam giới.
 Những người mắc một số tình trạng sức khỏe nhất định 🟧⟦cũng⟧ có thể cần 🟪⟦ngủ⟧ nhiều giờ hơn.
 Ngoài số giờ 🟪⟦ngủ⟧, chất lượng 🟪⟦giấc ngủ⟧ cũng rất quan trọng.
 “Nếu bạn thường xuyên mệt mỏi, thiếu năng lượng, hay 🟪⟦buồn ngủ⟧ vào buổi chiều, điều đó có nghĩa là chất lượng 🟪⟦giấc ngủ⟧ của bạn có vấn đề,” 🟪⟦bà Shriane⟧ nói.
 “Ngay cả những dấu hiệu nhỏ như thường xuyên bị cảm, thèm ăn bất thường, hoặc thay đổi tâm trạng liên tục, cũng có thể cho thấy cơ thể bạn 🟪⟦ngủ⟧ chưa đủ giấc.”
 🟪⟦Thiếu ngủ⟧ trong ngắn hạn có thể ảnh hưởng đến hệ miễn dịch, khả năng xử lý thông tin, kiểm soát cảm xúc, và thậm chí gây thèm ăn dữ dội.
-Nếu 🟪⟦tình trạng⟧ kéo dài, hậu quả có thể tích tụ và khó đảo ngược. “Nếu bạn thường xuyên bị 🟪⟦thiếu ngủ⟧, bạn sẽ khó duy trì cân nặng khỏe mạnh, nhiều khả năng mắc bệnh tiểu đường, bệnh tim, cao huyết áp, các vấn đề về nhận thức như chứng sa sút trí tuệ, và thậm chí là một số dạng ung thư,” 🟪⟦bà Shriane⟧ nói.
+Nếu 🟪⟦tình trạng⟧🟦⟦∅⟧ kéo dài, hậu quả có thể tích tụ và khó đảo ngược. “Nếu bạn thường xuyên bị 🟪⟦thiếu ngủ⟧, bạn sẽ khó duy trì cân nặng khỏe mạnh, nhiều khả năng mắc bệnh tiểu đường, bệnh tim, cao huyết áp, các vấn đề về nhận thức như chứng sa sút trí tuệ, và thậm chí là một số dạng ung thư,” 🟪⟦bà Shriane⟧ nói.
 “🟪⟦Giấc ngủ⟧ đóng vai trò trọng yếu đối với 🟪⟦sức khỏe⟧, bên cạnh dinh dưỡng và hoạt động thể chất – khi bạn không chăm sóc giấc ngủ, nó sẽ có những tác động lớn đến sức khỏe của bạn.”
 Mặc dù có nhiều thiết bị và thuốc bổ trên thị trường được quảng cáo là giúp cải thiện 🟪⟦giấc ngủ⟧, 🟪⟦bà Shriane⟧ cho biết đa số không có bằng chứng khoa học rõ ràng và có thể không hiệu quả.
 🟧⟦Thay vào đó⟧, 🟨⟦bà⟧ gợi ý áp dụng các biện pháp đơn giản sau:
-🟪⟦Đi ngủ⟧ và thức dậy vào cùng giờ mỗi ngày, kể cả cuối tuần.
-Tránh 🟪⟦ngủ trưa⟧, hoặc nếu ngủ thì chỉ 15-20 phút vào đầu giờ trưa.
+🟦⟦∅⟧🟪⟦Đi ngủ⟧ và thức dậy vào cùng giờ mỗi ngày, kể cả cuối tuần.
+Tránh 🟪⟦ngủ trưa⟧, hoặc nếu🟦⟦∅⟧ ngủ thì chỉ 15-20 phút vào đầu giờ trưa.
 Không uống cà phê 6-8 tiếng trước khi 🟪⟦ngủ⟧.
 Hạn chế rượu và thuốc lá, đặc biệt trong 4 tiếng trước khi 🟪⟦ngủ⟧.
 Thư giãn trước giờ 🟪⟦ngủ⟧ và tránh ánh sáng mạnh 1-2 tiếng trước khi ngủ.
 Chỉ sử dụng 🟪⟦giường⟧ để 🟪⟦ngủ⟧ hoặc cho các hoạt động thân mật.
 Giữ 🟪⟦phòng ngủ⟧ tối, yên tĩnh, thoáng mát, nhiệt độ lý tưởng là 16-20oC.
-Nếu vẫn trằn trọc sau 20 phút, hãy ra khỏi 🟪⟦giường⟧ và làm điều gì đó thư giãn trong không gian ánh sáng dịu nhẹ.
+Nếu vẫn trằn trọc sau 20 phút, hãy ra khỏi 🟪⟦giường⟧ và 🟦⟦∅⟧làm điều gì đó thư giãn trong không gian ánh sáng dịu nhẹ.
 Nếu bạn vẫn bị 🟪⟦khó ngủ⟧, hãy tìm đến chuyên gia y tế để được hỗ trợ.

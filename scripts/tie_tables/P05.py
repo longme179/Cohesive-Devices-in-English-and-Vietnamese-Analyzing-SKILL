@@ -37,7 +37,7 @@ ST = [
  ('S013', 'ABSTUDY', 'L', 'repetition', 'S011: ABSTUDY', 'high', None, None, 1),
  ('S013', 'a fortnight', 'L', 'repetition', 'S012: a fortnight', 'med', None, None, 1),
  # S014
- ('S014', 'Those', 'R', 'demonstrative', 'S011: Youth Allowance ... recipients', 'med', None, None, 1),
+ ('S014', 'Those', 'S', 'nominal', 'S011-S013: người hưởng Youth Allowance/Austudy/ABSTUDY (câu trước)', 'high', None, '[LC] those ← người hưởng các khoản trợ cấp ở S011–S013; đánh dấu lại thành S (nhãn R cũ bị thay theo §3)', 1, None, None, 'LC'),
  ('S014', 'a fortnight', 'L', 'repetition', 'S013: a fortnight', 'med', None, None, 1),
  # S015
  ('S015', 'also', 'C', 'additive', 'S012-S014: payment rises', 'med', None, None, 1),
@@ -104,7 +104,7 @@ ST = [
  # S036
  ('S036', 'The change', 'L', 'general word', 'S035: Centrelink medical exemption extension', 'high', 'R: the', None, 1),
  ('S036', 'welfare', 'L', 'repetition', 'S002: welfare payment hikes', 'high', None, 'cross-section echo', 1),
- ('S036', 'those', 'R', 'demonstrative', 'S035: welfare recipient groups implied', 'med', None, None, 1),
+ ('S036', 'those', 'S', 'nominal', 'S036: in select welfare recipient groups (trong câu)', 'high', None, '[TC] those ← nhóm người hưởng phúc lợi trong cùng câu; đánh dấu lại thành S (nhãn R cũ bị thay theo §3)', 1, None, None, 'TC'),
  # S037
  ('S037', 'applicants', 'L', 'repetition', 'S006-S009: Applicants ... applicants', 'med', None, 'cross-section echo (visa section)', 1),
  # S038
@@ -150,7 +150,7 @@ ST = [
  # S054
  ('S054', 'The levy', 'L', 'repetition', 'S053: pay a levy', 'high', None, None, 1),
  # S055
- ('S055', 'Those', 'R', 'demonstrative', 'S053: Victorian property owners', 'high', None, None, 1),
+ ('S055', 'Those', 'S', 'nominal', 'S055: chủ sở hữu bất động sản cho thuê (trong câu; nối về EN 48)', 'high', None, '[TC] those ← chủ bất động sản; đánh dấu lại thành S (nhãn R cũ bị thay theo §3)', 1, None, None, 'TC'),
  # S056
  ('S056', "Victoria's", 'L', 'repetition', 'S053: Victorian property owners', 'high', None, None, 1),
  # S057
@@ -160,6 +160,19 @@ ST = [
  ('S058', 'holiday houses', 'L', 'repetition', 'S056: vacant residential land', 'med', None, 'associated term (phép liên tưởng)', 1),
  # S059
  ('S059', 'cost of living relief', 'L', 'repetition', 'S002: welfare payment hikes', 'low', None, 'cross-section echo; weak', 1),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_05 (§2–§3) ----
+ # [LC] = liên câu; [TC] = trong câu. Người đọc bản phân tích chọn vị trí;
+ # không dùng regex/đếm chuỗi để sinh tie. S-EN1/2/5 đã đánh dấu lại tại chỗ
+ # (S014, S036, S055) nên khối này chỉ thêm S-EN3/4 cùng 7 dòng E.
+ ('S046', 'those', 'S', 'nominal', 'S046: several awards (trong câu)', 'high', None, '[TC] those ← người lao động theo các award; tiền ngữ lỏng lẻo “awards… those working” (nguồn §8.7)', 1, None, None, 'TC'),
+ ('S047', 'those', 'S', 'nominal', 'S047: Aged Care Award, Nurses Award… (trong câu)', 'high', None, '[TC] those ← người lao động trong các ngành/award', 1, None, None, 'TC'),
+ ('S003', None, 'E', 'clausal', 'S003: vế “or … $7.82 million” (trong câu)', 'high', None, '[TC] gapping vế hoặc: “or {companies could be fined up to} $7.82 million”; EN 4', 1, 'amount, or ', '{companies could be fined up to}', 'TC'),
+ ("S036", None, 'E', 'nominal', 'S036: vế “and unable to work” (trong câu)', 'high', None, "[TC] lược chủ ngữ + hệ từ vế tọa hợp: “and {you're} unable to work”; EN 34", 1, 'sick or injured and ', "{you're}", 'TC'),
+ ('S050', None, 'E', 'nominal', 'S050: mệnh lệnh “Check with your health fund” (trong câu)', 'high', None, '[TC] mệnh lệnh lược chủ ngữ {you}: “∅ Check with your health fund”; EN 45 (khối bị VI lược)', 1, '', '{you}', 'TC'),
+ ('S058', None, 'E', 'nominal', 'S058: vế “if used for at least four weeks” (trong câu)', 'high', None, '[TC] lược chủ ngữ + trợ động từ bị động vế if: “if {they are} used”; EN 52', 1, 'exempt if ', '{they are}', 'TC'),
+ ('S018', None, 'E', 'clausal', 'S018: vế “up $14 from 2024” (trong câu)', 'low', None, '[TC] biên: vế bổ trợ rút gọn “{which is} up $14 from 2024”; EN 18', 1, 'hit $412, ', '{which is}', 'TC'),
+ ('S030', None, 'E', 'clausal', 'S030: vế “commonly used for kitchen benches” (trong câu)', 'low', None, '[TC] biên: quan hệ từ rút gọn “{which are} commonly used…”; EN 29 (khối bị VI lược)', 1, 'panels and slabs — ', '{which are}', 'TC'),
+ ('S028', None, 'E', 'clausal', 'S028: vế “based on demonstrated competencies” (trong câu)', 'low', None, '[TC] biên: vế bổ trợ phi hữu hạn “{which is} based on…”; EN 27 (khối bị VI lược)', 1, 'once this period ends, ', '{which is}', 'TC'),
 ]
 
 TT = [
@@ -267,4 +280,14 @@ TT = [
  ('S040', 'bất động sản', 'L', 'repetition', 'S036: chủ sở hữu bất động sản', 'high', None, None, 1),
  # S041
  ('S041', 'nhà nghỉ', 'L', 'repetition', 'S039: đất ở bỏ trống', 'med', None, 'associated term (phép liên tưởng)', 1),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_05 (§2–§3) ----
+ # [TC] = trong câu. Chỉ E: VI không có S (5 vị trí “those” đều được hiện thực
+ # hóa bằng “những người + VP”, §3 S-VI) nên không thêm dòng S nào.
+ ('S002', None, 'E', 'verbal', 'S002: vế “hoặc … 7,82 triệu đô la” (trong câu)', 'high', None, '[TC] lược vị ngữ vế hoặc “hoặc {bị phạt tới} 7,82 triệu đô la”; VI 2; song song E-EN1', 1, 'hoặc ', '{bị phạt tới}', 'TC'),
+ ('S025', None, 'E', 'nominal', 'S025: vế “và không thể làm việc” (trong câu)', 'high', None, '[TC] lược chủ ngữ vế tọa hợp “và {bạn} không thể làm việc”; VI 22; song song E-EN2', 1, 'bị thương và ', '{bạn}', 'TC'),
+ ('S041', None, 'E', 'nominal', 'S041: vế “nếu được sử dụng” (trong câu)', 'high', None, '[TC] lược chủ ngữ + dấu bị động “nếu {chúng} được sử dụng”; VI 35; song song E-EN4', 1, 'miễn nếu ', '{chúng}', 'TC'),
+ ('S017', None, 'E', 'clausal', 'S017: vế “tăng 14 đô la so với năm 2024” (trong câu)', 'low', None, '[TC] biên: vế bổ trợ rút gọn “{và} tăng 14 đô la so với năm 2024”; VI 16; song song E-EN5', 1, '412 đô la, ', '{và}', 'TC'),
+ ('S007', None, 'E', 'verbal', 'S007: cụm “nơi … đang tìm cách” (trong câu)', 'high', None, '[TC] VI tự sinh: “nơi ∅ đang tìm cách” ← EN “which is looking”; lược hệ từ {là}; VI 7', 1, 'ADF, nơi ', '{là}', 'TC'),
+ ('S006', None, 'E', 'nominal', 'S006: vế “trước khi nộp đơn” (trong câu)', 'low', None, '[TC] biên: chủ ngữ vế “trước khi” được điều khiển, lược {họ}; VI 6', 1, 'trước khi ', '{họ}', 'TC'),
+ ('S026', None, 'E', 'nominal', 'S026: cụm “tại thời điểm nộp đơn” (trong câu)', 'low', None, '[TC] biên: bất đối xứng hình thái EN “at the time of application” ↔ VI “tại thời điểm ∅ nộp đơn”; VI 23', 1, 'tại thời điểm ', '{người nộp đơn}', 'TC'),
 ]

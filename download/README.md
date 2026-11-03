@@ -11,6 +11,25 @@ EN: Halliday & Hasan (1976) · VI: Trần Ngọc Thêm (2006) · 5 colour-coded 
 | 🟧 cam | C | Conjunction (liên kết) |
 | 🟪 tím | L | Lexical cohesion (liên kết từ vựng) |
 
+## Appendix 1 — bản v6 (2026-11): bổ sung thủ công toàn bộ S/E từ semantic_analysis
+
+- **Thay đổi cốt lõi so với v5:** 20 bảng `tie_tables/PXX.py` được đọc lại cùng
+  20 bản `BDNC/semantic_analysis/Pair_XX/PXX_phan-tich-ngu-nghia.md`; toàn bộ
+  vị trí **phép thế (S)** và **phép tỉnh lược (E)** mà bản phân tích thủ công
+  đã xác định được thêm tay vào bảng (không sinh bằng regex/script), gồm cả
+  `[LC]` liên câu và `[TC]` trong câu. Kết quả: **184 tie mới** (EN 92 / VI 92),
+  nâng tổng từ 2.996 lên **3.180** tie; 5 màu hiện đủ trên toàn bộ 20 cặp
+  (trước đây S = 0, E = 1 ở EN và 0 ở VI).
+- **Số mới:** EN 1.697 (R 243 · S 21 · E 75 · C 65 · L 1.293) / VI 1.483
+  (R 149 · S 3 · E 89 · C 67 · L 1.175). Marker coverage **3.180/3.180 (100%)**,
+  0 straddle / 0 orphan / 0 deferred; `render.py` PASS 40/40.
+- **Định dạng:** 2 cột EN|VI, marker màu + mũ A/C/E; mỗi khối S/E mới có
+  comment Word ghi id, danh mục, `[LC]/[TC]`, tiền trạm, phần bù `{…}` và ghi
+  chú. Các khối R/C/L cũ vẫn giữ annotation kết quả căn cặp từ align v2.
+- **File:** `BDNC/Appendix1.{md,html,docx,pdf}` (bản chuẩn hiện hành);
+  `out/appendix1/Appendix1.*` là bản artifact tương ứng. PDF 112 trang,
+  xuất từ HTML bằng WeasyPrint; DOCX 3.180 comment.
+
 ## Appendix 1 — highlighted parallel texts (v3.1, đa màu + hướng tham chiếu A/C/E)
 
 - `BDNC/Appendix1.html` — bản tương tác vòng v3.1: 20 bảng 2 cột EN|VI,
@@ -26,8 +45,9 @@ EN: Halliday & Hasan (1976) · VI: Trần Ngọc Thêm (2006) · 5 colour-coded 
 P09-VI). Trang đầu mỗi định dạng có bảng đối chiếu khung lý thuyết
 Halliday & Hasan (1976) ↔ Trần Ngọc Thêm (2006).
 
-Độ phủ: **2996/2996 liên kết liên-câu đã render (EN 1605 + VI 1391, 100%)**,
+Độ phủ bản v6: **3180/3180 tie đã render (EN 1697 + VI 1483, 100%)**,
 0 straddle / 0 orphan / 0 deferred (xem `out/appendix1/match_stats.json`).
+Số 2.996 của v3.1/v5 là tầng R/C/L liên-câu trước khi bổ sung S/E thủ công.
 
 ## Appendix 1 — bản TÔ LẠI theo align v2 (v5, thay thế docx/pdf)
 

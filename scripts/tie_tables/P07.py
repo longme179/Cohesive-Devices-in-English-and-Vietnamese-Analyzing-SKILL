@@ -6,8 +6,8 @@ ST = [
  # S004
  ('S004', 'Australians', 'L', 'repetition', 'S002: Australians', 'high', None, None, 1),
  ('S004', 'this question', 'R', 'demonstrative', 'S003: Is Australian English really English?', 'high', None, None, 1),
- # S005
- ('S005', None, 'E', 'nominal', 'S004: asking this question', 'high', None, 'fragment answering S003/S004; no omitted NP recoverable — see note', 1, 'Who’s a “mate”?', 'a mate (the addressee)'),
+ # S005-S006 (dòng E cũ tại S005 được thay tại chỗ bằng E-EN1, S006 — xem khối cuối)
+ ('S006', None, 'E', 'nominal', 'S006: anyone can be {a mate} (trong câu)', 'high', None, '[TC] lược bổ ngữ: “anyone can be {a mate}” — cấu trúc hỏi–đáp ngay trong ngoặc (E-EN1)', 1, 'anyone can be', '{a mate}', 'TC'),
  # S008
  ('S008', 'This', 'R', 'demonstrative', 'S005-S007: mate / Crikey examples', 'high', None, 'This is confusing', 1),
  # S009
@@ -181,6 +181,18 @@ ST = [
  ('S066', 'But', 'C', 'adversative', 'S065: pink-atoo may not catch on', 'high', None, None, 1),
  ('S066', 'Australia English', 'L', 'repetition', 'S055: Australian English', 'high', None, None, 1),
  ('S066', 'stories', 'L', 'repetition', 'S054: past stories', 'high', None, 'collection of stories', 1),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_07 (§2–§3) ----
+ # [LC] = liên câu; [TC] = trong câu. Các dòng này KHÔNG do script sinh:
+ # người đọc bản phân tích ngữ nghĩa rồi chọn đúng vị trí/tiền trạm.
+ # E-EN1 nằm trong khối trên (thay tại chỗ dòng E cũ P07-EN-004 để ID cũ không đổi).
+ ('S019', None, 'E', 'clausal', 'S019: stretched the credibility of English more than most (trong câu)', 'low', None, '[TC] biên — lược vế so sánh: “more than most {words/languages have}”; VI 19 hiện thực hóa “hơn bất kỳ ngôn ngữ nào khác”', 1, 'more than most', '{words/languages have}', 'TC'),
+ ('S024', 'those', 'S', 'nominal', 'S024: the British mocked those {people} (trong câu)', 'high', None, '[TC] thế danh từ those ← {người dân/người}; VI 24 hiện thực hóa “những người sinh ra ở thuộc địa Úc”', 1, None, None, 'TC'),
+ ('S030', None, 'E', 'clausal', 'S030: {It is} too long (trong câu)', 'high', None, '[TC] câu không động từ: “{It is} too long” — đáp cho câu hỏi dạng danh từ S029', 1, '', '{It is}', 'TC'),
+ ('S041', None, 'E', 'clausal', 'S041: {Aussies} not content with these British origins (trong câu)', 'low', None, '[TC] biên — phân từ lược chủ ngữ, điều khiển bởi “Aussies” ở mệnh đề chính: “{Aussies} not content …, Aussies made up…”', 1, '', '{Aussies}', 'TC'),
+ ('S051', None, 'E', 'verbal', 'S051: “Tim Tams” {is} a classic Aussie product (trong câu)', 'high', None, '[TC] lược hệ từ trong cặp chú giải song song: “sanger” is …; “Tim Tams” {is} …', 1, '“Tim Tams”', '{is}', 'TC'),
+ ('S053', None, 'E', 'clausal', 'S052: Is Australian English really English?', 'high', None, '[LC] đáp từ lược toàn mệnh đề: “{Australian English is} almost certainly {English}” — hỏi–đáp liên câu', 1, '', '{Australian English is} almost certainly {English}', 'LC'),
+ ('S055', None, 'E', 'nominal', 'S055: new Australians and old {Australians} (trong câu)', 'high', None, '[TC] lược đầu ngữ vế sau: “new Australians and old {Australians}”; VI 21 “mới và cũ” song song', 1, 'new Australians and old', '{Australians}', 'TC'),
+ ('S060', None, 'E', 'verbal', 'S059: Do Americans know that?', 'high', None, '[LC] lược động từ nguyên mẫu sau modal: “Most of them wouldn’t {know that}” — đáp liên câu', 1, 'Most of them wouldn’t', '{know that}', 'LC'),
 ]
 
 TT = [
@@ -361,4 +373,15 @@ TT = [
  ('S066', 'Nhưng', 'C', 'adversative', 'S065: không chắc được ưa chuộng', 'high', None, None, 1),
  ('S066', 'tiếng Anh Úc', 'L', 'repetition', 'S055: Tiếng Anh Úc', 'high', None, None, 1),
  ('S066', 'câu chuyện', 'L', 'repetition', 'S054: câu chuyện', 'high', None, 'bộ sưu tập các câu chuyện', 1),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_07 (§2–§3) ----
+ # [LC] = liên câu; [TC] = trong câu. VI S = 0 (S-VI1 chỉ là hiện thực hóa “those” của EN).
+ ('S008', None, 'E', 'clausal', 'S007: “Crikey” (Trời ơi)! (EN 4 “This is confusing”)', 'high', None, '[LC] VI tự sinh tỉnh lược: lược chủ ngữ + hệ từ “{Nó/Điều đó} đúng là khó hiểu thật”; EN 4 đầy đủ “This is confusing”', 1, '', '{Nó/Điều đó} đúng là khó hiểu thật', 'LC'),
+ ('S022', None, 'E', 'nominal', 'S022: gắn liền với lịch sử và các mối quan hệ (trong câu)', 'high', None, '[TC] lược tính từ sở hữu our ×2: “gắn liền với {của chúng ta} lịch sử và {của chúng ta} các mối quan hệ”; chỗ lược thứ hai trước “các mối quan hệ”', 1, 'gắn liền với ', '{của chúng ta}', 'TC'),
+ ('S030', None, 'E', 'clausal', 'S030: {Nó} quá dài (trong câu)', 'high', None, '[TC] giữ câu không động từ: “{Nó} quá dài” — song song E-EN3', 1, '', '{Nó}', 'TC'),
+ ('S039', None, 'E', 'nominal', 'S039: mang lại {chúng} cảm giác kiểu Úc hơn (trong câu)', 'high', None, '[TC] lược tân ngữ {chúng} của “mang lại”: EN “to give them a more Aussie feel”', 1, 'để mang lại', '{chúng}', 'TC'),
+ ('S041', None, 'E', 'clausal', 'S041: {người Úc} không bằng lòng với nguồn gốc Anh này (trong câu)', 'low', None, '[TC] biên — phân từ lược chủ ngữ, điều khiển bởi “người Úc”: “{người Úc} không bằng lòng …, người Úc đã bịa ra…”', 1, 'Thế nhưng ', '{người Úc}', 'TC'),
+ ('S053', None, 'E', 'clausal', 'S052: Tiếng Anh Úc có thực sự là tiếng Anh không?', 'high', None, '[LC] giữ nguyên tỉnh lược mệnh đề: “{Nó gần như chắc chắn là tiếng Anh}”; tiểu từ “rồi” làm câu rút gọn tự nhiên', 1, '', '{Nó gần như chắc chắn là tiếng Anh}', 'LC'),
+ ('S054', None, 'E', 'nominal', 'S054: những câu chuyện trong quá khứ {của nó} {mà là} vui nhộn … (trong câu)', 'high', None, '[TC] lược its + quan hệ từ + hệ từ: “its past stories which are fun, fair and funny” → chuỗi tính từ trần', 1, 'những câu chuyện trong quá khứ', '{của nó} {mà là}', 'TC'),
+ ('S055', None, 'E', 'nominal', 'S055: những người Úc mới và cũ {người Úc} (trong câu)', 'high', None, '[TC] lược đầu ngữ vế sau: “những người Úc mới và cũ {người Úc}”; song song E-EN7', 1, 'những người Úc mới và cũ', '{người Úc}', 'TC'),
+ ('S060', None, 'E', 'nominal', 'S059: Người Mỹ có biết điều này không?', 'high', None, '[LC] hiện thực hóa một phần: “Hầu hết họ đều không biết {điều này}” — EN “Most of them wouldn’t {know that}”', 1, 'Hầu hết họ đều không biết', '{điều này}', 'LC'),
 ]

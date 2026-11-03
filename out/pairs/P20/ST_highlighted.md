@@ -6,13 +6,13 @@
 
 **Legend:** 🟨 Reference (`R`) | 🟩 Substitution (`S`) | 🟦 Ellipsis (`E`) | 🟧 Conjunction (`C`) | 🟪 Lexical cohesion (`L`) — ellipsis gap: 🟦⟦∅⟧
 
-**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric.
+**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric. Levels: LC = intersentential, TC = intra-sentential, TD = title.
 
 ---
 
 BANGKOK — Observers say the European Union is poised to hand South Korea a so-called "red card" next month unless Seoul is able to convince the EU fisheries commissioner that it is cracking down on illegal fishing by boats flying its flag.
 🟪⟦South Korea⟧, along with Ghana and Curacao, last year was handed 🟪⟦a "yellow card" warning⟧. 🟪⟦Continuing violations⟧ by 🟪⟦South Korean-flagged ships⟧, many in waters off the coast of West Africa, could bring further sanctions this year.
-Belize, Cambodia and Guinea, in March of this year, were penalized with the first-ever 🟪⟦EU red cards⟧ for pirate fishing. 🟪⟦The red card⟧ means 🟨⟦those countries⟧ cannot sell their seafood in 🟪⟦EU countries⟧ nor fish in member countries' waters.
+Belize, Cambodia and Guinea, in March of this year, were penalized with the first-ever 🟪⟦EU red cards⟧ for pirate fishing. 🟪⟦The red card⟧ means 🟨⟦those countries⟧ cannot sell their seafood in 🟪⟦EU countries⟧ nor 🟦⟦∅⟧fish in member countries' waters.
 Steve Trent of the Environmental Justice Foundation, which tracks 🟪⟦illegally caught fish⟧ heading to 🟪⟦EU markets⟧, praised the new tough regulation for Europe/.
 "🟨⟦It's⟧ beginning to show its teeth. And 🟨⟦that⟧ is what is happening with regard to 🟪⟦[South] Korea⟧. 🟨⟦We⟧ are seeing 🟪⟦the European Commission⟧ saying, 'you haven't done enough," he said. "🟨⟦What you have done⟧ doesn't satisfy us. And unless 🟨⟦you⟧ do more there will be 🟪⟦penalties⟧.'"
 Since 2010, 🟪⟦the EJF⟧ has documented more than 200 cases of 🟪⟦South Korean ships⟧ allegedly targeting high-value fish species in waters off West Africa. 🟪⟦The organization⟧ says 🟪⟦South Korean pirates⟧ routinely 🟪⟦fish⟧ in protected areas, flee fisheries patrols, refuse to pay fines, cover their identification markings, transship fish illegally at sea and attack local fishermen. 🟨⟦It⟧ says on some of 🟪⟦the vessels⟧, workers as young as 14 are forced to live and work at sea in deplorable conditions for months at a time.
@@ -22,7 +22,7 @@ A new study, published in the journal Marine Policy, on 🟪⟦illegal, unreport
 "The volumes are quite high. But, at the same time, 🟪⟦the amount of manpower⟧ that is needed to make sure that 🟪⟦illegal catches⟧ don't enter these markets is quite low in most of these importing countries," explained Ganapathiraju. "So 🟨⟦they⟧ need to increase 🟪⟦the manpower⟧ to improve 🟪⟦monitoring, control and surveillance⟧ at their ports."
 🟪⟦A 2009 government report⟧ found that only about two percent of 🟪⟦seafood imports⟧ in the United States were being inspected at the ports. There is no 🟪⟦public data⟧ for most 🟪⟦other major import markets⟧.
 The U.S. Senate last month gave its approval to 🟪⟦the 2009 U.N. Food and Agriculture Organization's Port State Measures agreement⟧. 🟨⟦It⟧ is designed to keep 🟪⟦foreign vessels⟧ suspected of 🟪⟦illegal fishing⟧ out of 🟪⟦the ports of nations⟧ which have signed the pact. 🟪⟦Ten coastal countries and the EU⟧ have already ratified 🟨⟦it⟧ but 🟪⟦similar approval⟧ from 14 others is still needed for the treaty to take effect.
-🟪⟦The agreement⟧ as an affordable way to stop 🟪⟦illegal fish⟧ from entering 🟪⟦the global market⟧, Long argues. "🟪⟦The fisherman⟧ have to bring 🟨⟦it⟧ to port. Therefore to focus on 🟨⟦that⟧ rather than 🟪⟦the expensive resources⟧ that you need to patrol out at sea or draw in space [satellite] surveillance, the ports are the obvious place," said Anthony Long, who runs the Ending Illegal Fishing Project for the Pew Charitable Trust. "🟨⟦It's⟧ definitely cost effective. So 🟪⟦the developing countries⟧ will get a lot of benefit from 🟪⟦the Port States Measures agreement⟧."
+🟪⟦The agreement⟧ as an affordable way to stop 🟪⟦illegal fish⟧ from entering 🟪⟦the global market⟧, Long argues. "🟪⟦The fisherman⟧ have to bring 🟨⟦it⟧ to port. Therefore 🟦⟦∅⟧to focus on 🟨⟦that⟧ rather than 🟪⟦the expensive resources⟧ that you need to patrol out at sea or draw in space [satellite] surveillance, the ports are the obvious place," said Anthony Long, who runs the Ending Illegal Fishing Project for the Pew Charitable Trust. "🟨⟦It's⟧ definitely cost effective. So 🟪⟦the developing countries⟧ will get a lot of benefit from 🟪⟦the Port States Measures agreement⟧."
 🟪⟦Long⟧ explains there are problems all along 🟪⟦the seafood supply chain⟧.
 "I was surprised to find just how easy it is to manipulate 🟪⟦the system⟧," he said. "🟪⟦The U.S., the European Union, Japan, all big markets⟧ can start to change the shape of 🟪⟦fishing⟧ by demanding clearer understanding of the chain of supply -- that supply from the moment the fish is caught to the moment it arrives on your plate."
 🟪⟦Long⟧, a retired British Royal Navy commander, noted that some 🟪⟦seafood suppliers⟧ are becoming conscientious.
@@ -33,7 +33,7 @@ American Richard Conniff, 🟪⟦the author of Species Seekers⟧: Heroes, Fools
 Activists, such as 🟪⟦the EJF's Steve Trent⟧, predict 🟪⟦China⟧ -- with a huge and growing appetite for 🟪⟦seafood⟧ -- will eventually be the most critical player when it comes to combating IUU fishing.
 "The way 🟪⟦the Chinese government⟧ and authorities act towards 🟪⟦fisheries⟧ on a 🟪⟦global platform⟧ in the future will determine much of everyone's policy," said Trent.
 🟪⟦Conniff⟧ said 🟪⟦China and other nations⟧ have little choice but to make 🟪⟦changes⟧ or face dire ecological consequences.
-"There's an incentive for 🟪⟦China⟧ and for 🟨⟦all these other countries⟧ to 🟪⟦change⟧ and to change fast because at this point 85 percent of all fisheries are at or beyond their biological limits," he said.
+"There's an incentive for 🟪⟦China⟧ and for 🟨⟦all these other countries⟧ to 🟪⟦change⟧ and 🟦⟦∅⟧to change fast because at this point 85 percent of all fisheries are at or beyond their biological limits," he said.
 Additional 🟪⟦regulatory changes⟧ are being implemented to try to stem the tide.
 Fishing 🟪⟦vessels⟧ larger than 100 tons will have to acquire a unique identification number that will remain the same even if the boat changes names or flags.
 There are also plans for a global satellite 🟪⟦vessel⟧ 🟪⟦monitoring⟧ system. 🟨⟦It⟧ would be able to track 🟪⟦vessels⟧ which switch off existing beacons identifying themselves and their positions when fishing in illegal waters or handing off their illicit catches.

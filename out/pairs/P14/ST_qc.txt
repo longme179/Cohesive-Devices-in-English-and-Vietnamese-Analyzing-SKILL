@@ -1,5 +1,5 @@
 QC P14 EN (ST): PASS
-(e) counts: {'L': 23, 'R': 4}
+(e) counts: {'E': 2, 'L': 23, 'R': 4}
 (f) R direction: {'A': 4}
-confidence: {'high': 23, 'med': 4}
-sentences: 12, ties: 27
+confidence: {'high': 24, 'med': 5}
+sentences: 12, ties: 29

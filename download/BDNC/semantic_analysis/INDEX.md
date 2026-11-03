@@ -6,6 +6,12 @@
 
 **Quy ước chung:** [LC] liên câu · [TC] trong câu · [TD] tựa đề; `∅` = thành phần bị lược; `{…}` = phần bù hồi.
 
+> **Cập nhật v6 (2026-11):** toàn bộ mục S/E trong 20 bản phân tích đã được
+> đưa vào Appendix 1 bằng tie table viết tay (`scripts/tie_tables/PXX.py`,
+> quy ước `MANUAL_S_E_CONVENTIONS.md`) — 184 tie mới, tổng 3.180
+> (EN 1.697 / VI 1.483). Bảng §9 dưới đây vẫn là đối chiếu cũ pipeline ↔ đọc
+> tay, giữ nguyên làm hồ sơ phương pháp.
+
 ---
 
 ## Tiến độ

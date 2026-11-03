@@ -151,6 +151,15 @@ ST = [
  ('S037', 'Chaney', 'L', 'repetition', 'S036: Kate Chaney', 'high', None, None, 1),
  ('S037', 'Steggall', 'L', 'repetition', 'S036: Zali Steggall', 'high', None, None, 1),
  ('S037', 'Ryan', 'L', 'repetition', 'S036: Monique Ryan', 'high', None, None, 1),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_03 (§2.1, §3) ----
+ # [TC] = trong câu; §3 kết luận EN S = 0 nên KHÔNG có dòng S ở phía EN.
+ # Các dòng này KHÔNG do script sinh: người đọc bảng §2.1 rồi chọn đúng
+ # vị trí gap (một dòng / một mục E-ENk, gap đầu làm marker, gap khác ở note).
+ ('S002', None, 'E', 'verbal', 'S002: the Greens {banked} $17 million (within sentence)', 'high', None, '[TC] gapping chuẩn: “the Coalition banked … and the Greens ∅ $17 million” — lược {banked/raked in}; E-EN1', 1, 'and the Greens ', '{banked}', 'TC'),
+ ('S007', None, 'E', 'verbal', 'S007: {donated} $75,000 / $100,000 (within sentence)', 'high', None, '[TC] lược “donated” ở vế 2–3 của danh sách số–địa điểm: ∅ $75,000 … and ∅ $100,000 …; E-EN2', 1, 'Queensland, ', '{donated}', 'TC'),
+ ('S009', None, 'E', 'verbal', 'S009: Tabcorp {donated} $60,500 (within sentence)', 'high', None, '[TC] gapping ×3: Tabcorp ∅ $60,500, the Lottery Corporation ∅ $44,000, Responsible Wagering Australia ∅ $66,000; E-EN3', 1, 'Tabcorp ', '{donated}', 'TC'),
+ ('S037', None, 'E', 'verbal', 'S037: Spender {declared} $567,000 (within sentence)', 'high', None, '[TC] gapping ×5 liên hoàn: Spender ∅ $567,000, Chaney ∅ $116,000, Steggall ∅ $264,000, Ryan ∅ $681,000, Dr Scamps ∅ $145,000; E-EN4', 1, 'Spender ', '{declared}', 'TC'),
+ ('S015', None, 'E', 'verbal', 'S015: on top of {donated} more than $90,000 (within sentence)', 'med', None, '[TC] lược “donated” sau cụm giới từ bổ thêm “on top of …” — kém điển hình hơn 4 vị trí gapping trên; E-EN5', 1, 'on top of ', '{donated}', 'TC'),
 ]
 
 TT = [
@@ -312,4 +321,12 @@ TT = [
  # S033
  ('S033', 'Trong khi đó', 'C', 'adversative', 'S032: bill to Senate', 'med', None, 'meanwhile-contrast', 1),
  ('S033', 'Đảng Lao động và Đảng Tự do', 'L', 'repetition', 'S014: Đảng Lao động và Đảng Tự do', 'high', None, None, 1),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_03 (§2.2, §3) ----
+ # [TC] = trong câu; §3 kết luận VI S = 0 nên KHÔNG có dòng S ở phía VI.
+ # ∅ đặt ngay sau dấu hai chấm / chủ ngữ, đúng chỗ vị ngữ bị lược.
+ ('S002', None, 'E', 'verbal', 'S002: Đảng Lao động Liên bang: {nhận được} hơn 15 triệu AUD (trong câu)', 'high', None, '[TC] danh sách không vị từ sau “bao gồm:” — lược {nhận được}; các mục còn lại: Đảng Tự do ∅ hơn 11 triệu, Đảng Quốc gia ∅ 2,5 triệu, Đảng Xanh ∅ hơn 4,8 triệu; E-VI1', 1, 'Đảng Lao động Liên bang: ', '{nhận được}', 'TC'),
+ ('S004', None, 'E', 'verbal', 'S004: Queensland {đã tài trợ} 75.000 AUD (trong câu)', 'high', None, '[TC] vế 2–3 chỉ còn Số–Đối đích, lược toàn bộ vị ngữ: ∅ 75.000 AUD cho … / ∅ 100.000 AUD cho …; đối ứng trực tiếp E-EN2 (E-VI2)', 1, 'Queensland', '{đã tài trợ}', 'TC'),
+ ('S006', None, 'E', 'verbal', 'S006: Sportsbet: {đã tài trợ} 88.000 AUD (trong câu)', 'high', None, '[TC] danh sách sau “bao gồm:” không vị từ: Sportsbet ∅ 88.000, Tabcorp ∅ 60.500, Responsible Wagering Australia (…) ∅ 66.000; mục Lottery Corporation 44.000 bị lược mất do lỗi dữ liệu, không tính là tỉnh lược; E-VI3', 1, 'Sportsbet: ', '{đã tài trợ}', 'TC'),
+ ('S005', None, 'E', 'nominal', 'S005: trước khi {chính phủ} quyết định tạm hoãn (trong câu)', 'med', None, '[TC] chủ ngữ “chính phủ” dùng chung chuỗi vị ngữ: “trước khi ∅ quyết định tạm hoãn…”; E-VI4', 1, 'trước khi ', '{chính phủ}', 'TC'),
+ ('S008', None, 'E', 'nominal', 'S008: BetStop, {điều này} giúp nhiều người (trong câu)', 'med', None, '[TC] lược chủ ngữ tương quan: “BetStop, ∅ giúp…” (EN: which has helped); gap 2 ở S009 “– ∅ là một vấn đề lớn” (EN: which was); E-VI5', 1, 'BetStop, ', '{điều này}', 'TC'),
 ]

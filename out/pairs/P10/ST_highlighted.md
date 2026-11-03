@@ -6,7 +6,7 @@
 
 **Legend:** 🟨 Reference (`R`) | 🟩 Substitution (`S`) | 🟦 Ellipsis (`E`) | 🟧 Conjunction (`C`) | 🟪 Lexical cohesion (`L`) — ellipsis gap: 🟦⟦∅⟧
 
-**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric.
+**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric. Levels: LC = intersentential, TC = intra-sentential, TD = title.
 
 ---
 
@@ -16,8 +16,8 @@ Beyond making overseas travel more expensive, a weaker Aussie dollar can impact 
 On the flipside, 🟪⟦Australian⟧ exporters generally enjoy 🟪⟦a weaker dollar⟧ as this can make prices more competitive to international buyers.
 A number of elements have contributed to 🟪⟦the weakening of the Australian dollar⟧.
 Consumer expert and director of executive education at Griffith University Graeme Hughes said several 🟪⟦factors⟧ influence 🟪⟦the dollar's value⟧ against other currencies.
-"The market now expects fewer interest rate cuts in 🟪⟦the US⟧, making US assets more attractive to investors. 🟨⟦This⟧ has led to an appreciation of 🟪⟦the US dollar⟧ against other currencies, including 🟪⟦the Australian dollar⟧," 🟨⟦he⟧ said.
-"Secondly, concerns are growing that China's economic stimulus efforts may not be effective, weakening 🟪⟦the Chinese yuan⟧ and consequently impacting the Australian dollar.
+"The market now expects fewer interest rate cuts in 🟪⟦the US⟧, making US assets more attractive to investors. 🟨⟦This⟧ has led to an appreciation of 🟪⟦the US dollar⟧ against ot🟨⟦he⟧r currencies, including 🟪⟦the Australian dollar⟧," he said.
+🟦⟦∅⟧"Secondly, concerns are growing that China's economic stimulus efforts may not be effective, weakening 🟪⟦the Chinese yuan⟧ and consequently impacting the Australian dollar.
 "And 🟪⟦declining prices⟧ for key commodities like iron ore and coal, coupled with rising geopolitical risks and the potential for trade wars, have also weighed on the Australian dollar."
 Chief economist at the Australia Institute Greg Jericho 🟪⟦agreed⟧.
 "The prospect of Donald Trump raising tariffs on Chinese imports to 🟪⟦the US⟧ means that for those products to maintain the same price, the value of the Chinese currency needs to fall. 🟨⟦That⟧ in turn will affect 🟪⟦the value of the Australian dollar⟧," 🟨⟦he⟧ explained.
@@ -29,7 +29,7 @@ Chief economist at the Australia Institute Greg Jericho 🟪⟦agreed⟧.
 "So 🟪⟦a falling dollar⟧ will hurt 🟪⟦the cost of living⟧ of 🟪⟦households⟧ that consume a high level of 🟪⟦imports⟧, but it won't have an impact on things like fees and charges, rent and childcare."
 If you have an upcoming overseas trip, 🟪⟦a falling dollar⟧ could impact how far your money will go.
 "It might be worth considering exchanging some currency now to lock in a better rate," 🟪⟦Hughes⟧ said.
-"🟧⟦However⟧, if you're not travelling soon, it might be wise to wait and see how 🟪⟦the dollar⟧ performs."
+🟦⟦∅⟧"🟧⟦However⟧, if you're not travelling soon, it might be wise to wait and see how 🟪⟦the dollar⟧ performs."
 🟪⟦Hughes⟧ said predicting 🟪⟦currency⟧ movements is "tricky business" but there are indicators to look out for.
 “The Reserve Bank of Australia's interest rate decisions, the performance of the global economy, and the strength of 🟪⟦the US dollar⟧ will all play a role," he said.
-"While 🟪⟦the dollar⟧ has weakened, 🟪⟦the situation⟧ remains relatively stable, but there's a risk of further decline."
+🟦⟦∅⟧"While 🟪⟦the dollar⟧ has weakened, 🟪⟦the situation⟧ remains relatively stable, but there's a risk of further decline."

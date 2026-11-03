@@ -1,5 +1,5 @@
 QC P11 VI (TT): PASS
-(e) counts: {'C': 2, 'L': 111, 'R': 5}
+(e) counts: {'C': 2, 'E': 2, 'L': 111, 'R': 5}
 (f) R direction: {'A': 5}
-confidence: {'high': 93, 'low': 3, 'med': 22}
-sentences: 58, ties: 118
+confidence: {'high': 93, 'low': 5, 'med': 22}
+sentences: 58, ties: 120

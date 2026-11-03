@@ -1,7 +1,7 @@
 # BDNC Group 9 — Gán nhãn liên kết ngôn bản EN–VI (20 cặp bài báo song song)
 
 Corpus linguistics working session: annotation of grammatical cohesion over
-20 English–Vietnamese parallel news pairs (2.996 intersentential ties).
+20 English–Vietnamese parallel news pairs (3.180 marked ties: 2.996 R/C/L intersentential + 184 S/E bổ sung thủ công từ 20 bản phân tích ngữ nghĩa).
 
 - **EN** theo Halliday & Hasan (1976): reference · substitution · ellipsis ·
   conjunction · lexical cohesion.
@@ -9,8 +9,11 @@ Corpus linguistics working session: annotation of grammatical cohesion over
   phép thế đại từ ≈ reference + substitution; phép tỉnh lược ≈ ellipsis;
   phép nối ≈ conjunction; phép lặp, phép đối, phép thế đồng nghĩa,
   phép liên tưởng ≈ lexical cohesion.
-- Reference (R) được tách hướng quy chiếu: **A** anaphoric (369) ·
+- Reference (R) được tách hướng quy chiếu: **A** anaphoric (366) ·
   **C** cataphoric (0) · **E** exophoric (26).
+- Lớp **S/E** được bổ sung thủ công từ 20 bản phân tích ngữ nghĩa: gồm cả
+  `[LC]` liên câu và `[TC]` trong câu; marker E dùng ký hiệu `∅`, level ghi
+  trong tooltip/comment từng khối.
 
 ## Điểm bắt đầu
 
@@ -46,9 +49,10 @@ download/BDNC/semantic_analysis/  20 bản phân tích thủ công từng cặp 
 
 | Chỉ số | Giá trị |
 | :--- | :--- |
-| Tie liên-câu (EN / VI) | 1.605 / 1.391 |
-| R (EN / VI) | 246 / 149 — A 234/135, E 12/14, C 0/0 |
-| S · Ellipsis · C · L (EN) | 0 · 1 · 65 · 1.293 |
-| S · Ellipsis · C · L (VI) | 0 · 0 · 67 · 1.175 |
-| Marker coverage khi render | 100% (2.996/2.996), 0 straddle/orphan |
+| Tie đã đánh dấu (EN / VI) | 1.697 / 1.483 = **3.180** |
+| R (EN / VI) | 243 / 149 — A 231/135, E 12/14, C 0/0 |
+| S · Ellipsis · C · L (EN) | 21 · 75 · 65 · 1.293 |
+| S · Ellipsis · C · L (VI) | 3 · 89 · 67 · 1.175 |
+| Marker coverage khi render | 100% (3.180/3.180), 0 straddle/orphan |
 | QC từng pair | 40/40 PASS |
+| Nguồn lớp S/E | 20 bản `semantic_analysis` — thêm tay vào `tie_tables/PXX.py`, không sinh bằng regex/script |

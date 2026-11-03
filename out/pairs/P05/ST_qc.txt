@@ -1,5 +1,5 @@
 QC P05 EN (ST): PASS
-(e) counts: {'C': 4, 'L': 90, 'R': 8}
-(f) R direction: {'A': 8}
-confidence: {'high': 60, 'low': 5, 'med': 37}
-sentences: 59, ties: 102
+(e) counts: {'C': 4, 'E': 7, 'L': 90, 'R': 5, 'S': 5}
+(f) R direction: {'A': 5}
+confidence: {'high': 68, 'low': 8, 'med': 35}
+sentences: 59, ties: 111

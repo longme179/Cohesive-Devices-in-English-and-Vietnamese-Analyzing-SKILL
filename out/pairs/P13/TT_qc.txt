@@ -1,5 +1,5 @@
 QC P13 VI (TT): PASS
-(e) counts: {'L': 18, 'R': 1}
+(e) counts: {'E': 1, 'L': 18, 'R': 1}
 (f) R direction: {'A': 1}
-confidence: {'high': 15, 'low': 2, 'med': 2}
-sentences: 8, ties: 19
+confidence: {'high': 15, 'low': 2, 'med': 3}
+sentences: 8, ties: 20

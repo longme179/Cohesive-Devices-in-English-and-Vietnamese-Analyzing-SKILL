@@ -6,13 +6,13 @@
 
 **Legend:** 🟨 Reference (`R`) | 🟩 Substitution (`S`) | 🟦 Ellipsis (`E`) | 🟧 Conjunction (`C`) | 🟪 Lexical cohesion (`L`) — ellipsis gap: 🟦⟦∅⟧
 
-**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric.
+**Reference direction (A/C/E):** each R tie carries a superscript letter — A = anaphoric, C = cataphoric, E = exophoric. Levels: LC = intersentential, TC = intra-sentential, TD = title.
 
 ---
 
 The Trump administration rolled out a new app on Monday that will allow immigrants in the United States illegally to "self deport" rather than face possible arrest and detention, building on President Donald Trump's deportation push.
-🟪⟦The U.S. Customs and Border Protection app⟧, called CBP Home, will offer an option for someone to signal their "intent to depart," the agency said.
-“🟪⟦The CBP Home app⟧ gives 🟪⟦aliens⟧ the option to leave now and self-deport, so they may still have the opportunity to return legally in the future and live the American dream," Homeland Security Secretary Kristi Noem said in a statement. "If 🟨⟦they⟧ don’t, 🟨⟦we⟧ will find 🟨⟦them⟧, we will deport them, and 🟨⟦they⟧ will never return.”
+🟪⟦The U.S. Customs and Border Protection app⟧, 🟦⟦∅⟧called CBP Home, will offer an option for someone to signal their "intent to depart," the agency said.
+“🟪⟦The CBP Home app⟧ gives 🟪⟦aliens⟧ the option to leave now and self-deport, so they may still have the opportunity to return legally in the future and live the American dream," Homeland Security Secretary Kristi Noem said in a statement. "If 🟨⟦they⟧ don’t🟦⟦∅⟧, 🟨⟦we⟧ will find 🟨⟦them⟧, we will deport them, and 🟨⟦they⟧ will never return.”
 🟪⟦Trump⟧, a Republican, has vowed to 🟪⟦deport⟧ record numbers of 🟪⟦migrants in the U.S. illegally⟧. 🟪⟦Trump's⟧ initial 🟪⟦deportation⟧ numbers lagged the monthly average in fiscal year 2024 under Democrat Joe Biden, although Biden's deportations included many recent border crossers.
 🟪⟦The Trump administration⟧ has taken other steps that could pressure 🟪⟦immigrants in the United States illegally⟧ to leave.
 🟪⟦A Trump administration regulation⟧ set to take effect April 11 would require people lacking 🟪⟦legal status⟧ to register with the federal government or face fines or jail time. 🟪⟦CBP Home⟧ replaces 🟪⟦an app⟧ known as CBP One that was launched under 🟪⟦Biden⟧. 🟪⟦The Biden-era app⟧ included a feature that allowed some one million 🟪⟦migrants⟧ in Mexico to schedule an appointment to request entry at a legal border crossing.

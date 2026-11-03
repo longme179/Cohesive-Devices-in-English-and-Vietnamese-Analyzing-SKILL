@@ -200,6 +200,14 @@ ST = [
  ('S043', 'domestic violence', 'L', 'repetition', 'S018: domestic violence', 'high', None, None, None),
  ('S043', 'youth', 'L', 'repetition', 'S042: youth homelessness', 'med', None, None, None),
  ('S043', 'homelessness', 'L', 'repetition', 'S042: youth homelessness', 'high', None, None, None),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_02 (§2–§3) ----
+ # [LC] = liên câu; [TC] = trong câu. Các dòng này KHÔNG do script sinh:
+ # người đọc bản phân tích ngữ nghĩa rồi chọn đúng vị trí/tiền trạm.
+ ('S003', None, 'E', 'nominal', 'S003: {she} (trong câu)', 'high', None, '[TC] lược chủ ngữ vế tọa hợp thứ hai: “she was 11 and ∅ was placed…”; EN verb coordination', 1, 'when she was 11 and ', '{she}', 'TC'),
+ ('S019', None, 'E', 'clausal', 'S019: {are struggling to afford housing} (trong câu)', 'high', None, '[TC] “let alone” stripping: lược vị ngữ {are struggling to afford housing}, chỉ giữ NP đối chiếu', 1, 'let alone young people', '{are struggling to afford housing}', 'TC'),
+ ('S031', None, 'E', 'verbal', 'S031: {there’s} (trong câu)', 'high', None, '[TC] lược “there’s” ở vế 2 của chuỗi điệp “no one…”; gap còn lại trước “no one to help you get…”', 1, 'there to help you, ', '{there’s}', 'TC'),
+ ('S032', None, 'E', 'nominal', 'S002: Tyrah Chan-Hampton (người được nhắc lại ở đầu câu)', 'high', None, '[LC] đồng vị ngữ rút gọn: {She is} now 23; chỗ trống ở đầu câu nên gap_after rỗng', 1, '', '{She is}', 'LC'),
+ ('S036', None, 'E', 'nominal', 'S036: {a place} (trong câu)', 'low', None, '[TC] biên tỉnh lược/quy chiếu: lược bổ ngữ địa điểm của “to go to ∅”; EN: nothing available … to go to', 1, 'to go to', '{a place}', 'TC'),
 ]
 
 TT = [
@@ -400,4 +408,16 @@ TT = [
  ('S045', 'khẩn cấp', 'L', 'repetition', 'S028: hỗ trợ khẩn cấp', 'med', None, 'chỗ ở khẩn cấp', None),
  ('S045', 'bạo lực gia đình', 'L', 'repetition', 'S019: bạo lực gia đình', 'high', None, None, None),
  ('S045', 'thanh niên vô gia cư', 'L', 'repetition', 'S044: tình trạng vô gia cư ở thanh niên', 'high', None, None, None),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_02 (§2–§3) ----
+ # [LC] = liên câu; [TC] = trong câu. Các dòng này KHÔNG do script sinh:
+ # người đọc bản phân tích ngữ nghĩa rồi chọn đúng vị trí/tiền trạm.
+ ('S003', None, 'E', 'nominal', 'S003: {cô} (trong câu)', 'high', None, '[TC] lược chủ ngữ trong vế thời gian “khi ∅ mới 11 tuổi”; hệ từ [là] trước “11 tuổi” cũng lược', 1, 'khi ', '{cô}', 'TC'),
+ ('S003', None, 'E', 'nominal', 'S003: {cô} (trong câu)', 'high', None, '[TC] lược chủ ngữ {cô} trước “được đưa đến” ở vế tọa hợp; EN: and was placed', 1, 'và ', '{cô}', 'TC'),
+ ('S004', None, 'E', 'nominal', 'S004: {cả hai} (trong câu)', 'high', None, '[TC] chủ ngữ dùng chung cho chuỗi 3 mệnh đề; gap còn lại trước “ở nhờ nhà người thân”', 1, 'cảnh vô gia cư, ', '{cả hai}', 'TC'),
+ ('S006', None, 'E', 'nominal', 'S002: từ “vô gia cư” (tân ngữ bị lược)', 'high', None, '[LC] lược tân ngữ {từ “vô gia cư”} sau “nói ra”; EN dùng đại từ it (“say it”) — cặp đối lập quy chiếu ↔ tỉnh lược', 1, 'chỉ cần nói ra', '{từ “vô gia cư”}', 'LC'),
+ ('S022', None, 'E', 'nominal', 'S022: {họ} (trong câu)', 'high', None, '[TC] lược chủ ngữ vế 2, 3 của chuỗi liệt kê; gap còn lại trước “cũng không thể giữ…”', 1, 'hoàn thành việc học, ', '{họ}', 'TC'),
+ ('S028', None, 'E', 'nominal', 'S028: {thanh niên} (trong câu)', 'high', None, '[TC] lược chủ ngữ {thanh niên} sau liên từ “mà”: “mà ∅ không có lối thoát…”', 1, 'hệ thống hỗ trợ khẩn cấp ', '{thanh niên}', 'TC'),
+ ('S039', None, 'E', 'nominal', 'S039: {những thanh niên} (trong câu)', 'high', None, '[TC] chủ ngữ dùng chung cho chuỗi 3 vị ngữ; gap còn lại trước “nỗ lực hết sức…”', 1, 'phải ngủ trong xe hơi, ', '{những thanh niên}', 'TC'),
+ ('S043', None, 'E', 'verbal', 'S043: {được} (trong câu)', 'high', None, '[TC] danh sách không vị từ do bản dịch tự tạo: lược “được” trước “dành cho”; các gap sau: S044 “đầu tư vào”, S045 “bổ sung vào”', 1, '9,3 tỷ AUD ', '{được}', 'TC'),
+ ('S035', None, 'E', 'nominal', 'S002: Tyrah Chan-Hampton (người được nhắc lại ở đầu câu)', 'high', None, '[LC] đồng vị ngữ rút gọn “Hiện 23 tuổi” = {cô} 23 tuổi, giữ nguyên tỉnh lược của E-EN4; gap_after rỗng vì chỗ trống ở đầu câu', 1, '', '{cô}', 'LC'),
 ]

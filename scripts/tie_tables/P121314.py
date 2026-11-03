@@ -3,9 +3,16 @@
 # ---- P12 ----
 P12_ST = [
  ('S002', 'the two politicians', 'R', 'quantified', 'S001: Robert F. Kennedy Jr. and Donald Trump', 'med', None, 'general word + numeral; quantified reference', 1),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_12 (§2) ----
+ # EN không có E/S (2 câu bão hòa); "the two politicians" là R, không phải S.
+
 ]
 P12_TT = [
  ('S002', 'Trump', 'L', 'repetition', 'S001: Donald Trump', 'high', None, None, 1),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_12 (§2) ----
+ ('S001', None, 'E', 'nominal', 'S001: {người} (trong câu)', 'med', None, '[TC] lược quan hệ từ chủ ngữ “một nhóm cử tri {người} ủng hộ…”; ∅ tự sinh trong câu VI-only', 1, 'một nhóm cử tri ', '{người}', 'TC'),
+ ('S002', None, 'E', 'nominal', 'S002: {Robert F. Kennedy Jr.} (trong câu)', 'med', None, '[TC] control: “tuyên bố ủng hộ ∅ Trump” — chủ ngữ của “ủng hộ” bị lược, hồi phục từ chủ ngữ “tuyên bố”; EN dùng “his endorsement”', 1, 'tuyên bố ủng hộ ', '{Robert F. Kennedy Jr.}', 'TC'),
+
 ]
 
 # ---- P13 ----
@@ -52,6 +59,9 @@ P13_ST = [
  ('S013', 'the pope', 'L', 'repetition', 'S009: the pope', 'high', None, None, 1),
  ('S013', 'the two Koreas', 'L', 'repetition', 'S001: North Korea + S009: South Korean President', 'high', None, None, 1),
  ('S013', 'such a trip', 'R', 'comparative', 'S001-S002: the possible visit', 'high', None, None, 1),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_13 (§2) ----
+ ('S007', None, 'E', 'nominal', 'S007: {a person} (trong câu)', 'med', None, '[TC] chủ ngữ “a person” chia sẻ qua chuỗi vị ngữ “confirmed … but would not confirm”; ∅ đặt ở vế tọa hợp thứ hai', 1, 'confirmed his attendance but ', '{a person}', 'TC'),
+
 ]
 P13_TT = [
  # S002
@@ -80,6 +90,9 @@ P13_TT = [
  # S008
  ('S008', 'Cơ quan tình báo', 'L', 'repetition', 'S006: Cơ quan Tình báo Quốc gia', 'high', None, None, 1),
  ('S008', 'ông Park', 'L', 'repetition', 'S007: ông Park', 'high', None, None, 1),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_13 (§2) ----
+ ('S007', None, 'E', 'nominal', 'S007: {một người} (trong câu)', 'med', None, '[TC] chủ ngữ “một người” chia sẻ qua 3 vị ngữ tọa hợp; ∅ đặt ở vế “nhưng không xác nhận…”', 1, 'sự tham dự của ông nhưng ', '{một người}', 'TC'),
+
 ]
 
 # ---- P14 ----
@@ -122,6 +135,10 @@ P14_ST = [
  ('S012', 'Trump', 'L', 'repetition', 'S008: A Trump administration regulation', 'high', None, None, 1),
  ('S012', 'CBP One', 'L', 'repetition', 'S009: CBP One', 'high', None, None, 1),
  ('S012', 'migrants', 'L', 'repetition', 'S010: migrants', 'high', None, None, 1),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_14 (§2) ----
+ ('S002', None, 'E', 'nominal', 'S002: {which is} (trong câu)', 'med', None, '[TC] quan hệ rút gọn “app, ∅ called CBP Home”; 3 vị trí còn lại: known as CBP One, set to take effect, after taking office', 1, 'Border Protection app, ', '{which is}', 'TC'),
+ ('S004', None, 'E', 'verbal', 'S004: {self-deport / leave} (trong câu)', 'high', None, '[TC] do-ellipsis “If they don’t ∅, we will find them”', 1, 'If they don’t', '{self-deport / leave}', 'TC'),
+
 ]
 P14_TT = [
  # S002
@@ -162,4 +179,9 @@ P14_TT = [
  ('S012', 'Ông Trump', 'L', 'repetition', 'S008: chính quyền Trump', 'high', None, None, 1),
  ('S012', 'CBP One', 'L', 'repetition', 'S010: Ứng dụng CBP One', 'high', None, None, 1),
  ('S012', 'di dân', 'L', 'repetition', 'S010: di dân', 'high', None, None, 1),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_14 (§2–§3) ----
+ ('S002', None, 'E', 'nominal', 'S002: {tự} (trong câu)', 'med', None, '[TC] control “để người dùng ∅ thông báo ý định rời đi”; 2 vị trí còn lại: ∅ phải đăng ký, buộc ∅ phải rời', 1, 'để người dùng ', '{tự}', 'TC'),
+ ('S004', None, 'E', 'nominal', 'S004: {họ} (trong câu)', 'high', None, '[TC] bổ ngữ “truy tìm ∅” bị lược; đối lập “trục xuất họ” giữ tân ngữ', 1, 'chúng tôi sẽ truy tìm', '{họ}', 'TC'),
+ ('S004', 'không làm vậy', 'S', 'verbal', 'S004: EN do-ellipsis “don’t”', 'high', None, '[TC] E→S chéo loại: pro-động từ “làm vậy” hiện thực hóa chỗ trống “don’t” của EN', 1, None, None, 'TC'),
+
 ]

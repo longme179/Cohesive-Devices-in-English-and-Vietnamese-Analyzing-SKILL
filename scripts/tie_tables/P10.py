@@ -70,6 +70,11 @@ ST = [
  # S027
  ('S025', 'the dollar', 'L', 'repetition', 'S022: the dollar', 'high', None, None, 1),
  ('S025', 'the situation', 'L', 'general word', 'S023-S024: indicators and conditions', 'med', None, None, 1),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_10 (§2–§3) ----
+ # [LC] biên = khung dẫn bị lược (attribution continuation); [TC] = trong câu.
+ ('S009', None, 'E', 'clausal', 'S008: “This has led to an appreciation…,” he said', 'low', None, '[LC] biên: EN 11, 12 — trích dẫn Hughes kéo dài, khung dẫn chỉ ở EN 10 (“he said”); lược khung dẫn (attribution continuation), ∅ ở đầu khối trích tiếp theo', 1, '', '{he said}', 'LC'),
+ ('S022', None, 'E', 'clausal', 'S021: “It might be worth considering…,” Hughes said', 'low', None, '[LC] biên: EN 36 — khối trích Hughes tiếp sau khung “Hughes said” ở EN 35; lược khung dẫn (attribution continuation)', 1, '', '{Hughes said}', 'LC'),
+ ('S025', None, 'E', 'clausal', 'S024: “The Reserve Bank…,” he said', 'low', None, '[LC] biên: EN 41 — khối trích cuối tiếp sau khung “he said” ở EN 40; lược khung dẫn (attribution continuation)', 1, '', '{he said}', 'LC'),
 ]
 
 TT = [
@@ -142,4 +147,11 @@ TT = [
  # S025
  ('S025', 'đồng đô la', 'L', 'repetition', 'S022: đồng AUD', 'high', None, None, 1),
  ('S025', 'tình hình', 'L', 'general word', 'S023-S024: các chỉ số', 'med', None, None, 1),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_10 (§2–§3) ----
+ # [TC] = trong câu; [LC] biên = khung dẫn bị lược (attribution continuation).
+ ('S018', None, 'E', 'nominal', 'S018: {nó/đồng đô la} chủ ngữ vế “nhưng ∅ sẽ không ảnh hưởng” (trong câu)', 'high', None, '[TC] lược chủ ngữ {nó/đồng đô la} của “sẽ không ảnh hưởng”; EN 22 dùng đại từ it', 1, 'nhưng ', '{nó}', 'TC'),
+ ('S021', None, 'E', 'nominal', 'S021: {nó} chủ ngữ “∅ có thể nên chờ” (trong câu)', 'high', None, '[TC] lược it-chủ từ hình thức + khung “be wise”: “∅ có thể nên chờ”; EN 36 “it might be wise to wait”', 1, 'sớm, ', '{nó}', 'TC'),
+ ('S020', None, 'E', 'nominal', 'S020: {nó} chủ ngữ “∅ có thể cân nhắc” (trong câu)', 'high', None, '[TC] lược it-chủ từ + “be worth”: “∅ có thể cân nhắc đổi…”; EN 35 “It might be worth considering”', 1, '"', '{nó}', 'TC'),
+ ('S004', None, 'E', 'nominal', 'S004: {điều này} (trong câu)', 'med', None, '[TC] lược this tình huống — vế “vì” mượn chủ ngữ từ ngữ cảnh; EN 6 “as this can make prices more competitive”', 1, 'giảm giá ', '{điều này}', 'TC'),
+ ('S009', None, 'E', 'clausal', 'S008: “Điều này đã dẫn đến…”, ông cho biết', 'low', None, '[LC] biên: VI 11, 12 (sau khung “ông cho biết” ở VI 10), VI 36 (sau khung “ông Hughes nói” ở VI 35), VI 41 (sau khung “ông nói” ở VI 40) — lược khung dẫn (attribution continuation), ∅ ở đầu khối trích tiếp theo', 1, '', '{ông cho biết}', 'LC'),
 ]

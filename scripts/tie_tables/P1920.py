@@ -4,7 +4,7 @@
 P19_ST = [
  # S002
  ('S002', 'A lawsuit', 'L', 'repetition', 'S001: (lawsuit implied in settlement)', 'med', None, None, 1),
- ('S002', 'five more air carriers', 'L', 'repetition', 'S001: eight airlines', 'med', None, 'carrier chain', 1),
+ ('S002', 'air carriers', 'L', 'repetition', 'S001: eight airlines', 'med', None, 'carrier chain; “five more” is the ellipsis site, marked E', 1),
  # S003
  ('S003', 'The case', 'L', 'general word', 'S001-S002: the lawsuit', 'high', None, None, 1),
  ('S003', 'tickets', 'L', 'repetition', 'S001: (tickets implied)', 'low', None, 'weak', 1),
@@ -69,6 +69,14 @@ P19_ST = [
  # S021
  ('S021', 'Information', 'L', 'repetition', 'S020: a claim form (info implied)', 'low', None, 'weak', 1),
  ('S021', 'the website', 'L', 'repetition', 'S020: online', 'med', None, None, 1),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_19 (§2–§3) ----
+ ('S002', None, 'E', 'nominal', 'S002: {air carriers} (trong câu)', 'high', None, '[TC] lượng từ + ∅ danh: “five more ∅ air carriers”; vị trí 2 ở S004', 1, 'against five more', '{air carriers}', 'TC'),
+ ('S002', 'the same thing', 'S', 'nominal', 'S001-S002: price-fixing', 'high', None, '[TC] the same + ∅ {price-fixing}; VI “một hành vi tương tự” (hạ đồng nhất → tương tự)', 1, None, None, 'TC'),
+ ('S007', 'the same players', 'S', 'nominal', 'S006: the airlines', 'high', None, '[TC] the same + ∅ {players}; VI “Nhiều dịch vụ hàng không” (mất đồng nhất + khử tác nhân)', 1, None, None, 'TC'),
+ ('S018', None, 'E', 'nominal', 'S018: {airlines who are} (trong câu)', 'high', None, '[TC] headless relative “Those ∅ still being sued”', 1, '', '{Airlines who are} (Those ∅ still being sued)', 'TC'),
+ ('S020', None, 'E', 'nominal', 'S020: {people} (trong câu)', 'high', None, '[TC] headless relative “Those ∅ who believe they may be eligible”', 1, '', '{people} (Those ∅ who believe…)', 'TC'),
+
+ ('S004', None, 'E', 'nominal', 'S004: {air carriers} (trong câu)', 'high', None, '[TC] lượng từ + ∅ danh lần 2: “continues against five more ∅”', 1, 'a lawsuit continues against five more', '{air carriers}', 'TC'),
 ]
 P19_TT = [
  # S002
@@ -279,6 +287,7 @@ P20_ST = [
  ('S046', "That's", 'R', 'demonstrative', 'S045: The distributors are the bottleneck', 'high', None, None, 1),
  ('S046', 'most of the (sea)food', 'L', 'repetition', 'S045: distributors (seafood chain)', 'med', None, None, 1),
  ('S046', 'this country', 'R', 'demonstrative', 'S028: the United States', 'high', None, None, 1),
+
 ]
 
 P20_ST = P20_ST + [
@@ -324,6 +333,10 @@ P20_ST = P20_ST + [
  # S060
  ('S060', 'It', 'R', 'personal', 'S059: a global satellite vessel monitoring system', 'high', None, None, 1),
  ('S060', 'vessels', 'L', 'repetition', 'S059: vessel', 'high', None, None, 1),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_20 (§2) ----
+ ('S005', None, 'E', 'verbal', 'S005: {can they sell} (trong câu)', 'high', None, '[TC] nor + ∅ trợ động từ: “nor ∅ fish in member countries’ waters”', 1, 'in EU countries nor ', '{can they sell}', 'TC'),
+ ('S035', None, 'E', 'nominal', 'S035: {we need} (trong câu)', 'med', None, '[TC] chủ ngữ rỗng trong quote: “Therefore ∅ to focus on that…”', 1, 'Therefore ', '{we need}', 'TC'),
+ ('S056', None, 'E', 'verbal', 'S056: {they need} (trong câu)', 'med', None, '[TC] lặp to + ∅: “to change and ∅ to change fast” (khối EN bị VI cắt)', 1, 'to change and ', '{they need}', 'TC'),
 ]
 
 P20_TT = [
@@ -451,4 +464,7 @@ P20_TT = [
  ('S044', 'theo dõi', 'L', 'repetition', 'S043: theo dõi', 'high', None, None, 1),
  ('S044', 'tàu', 'L', 'repetition', 'S043: tàu thuyền', 'high', None, None, 1),
  ('S044', 'nhận diện', 'L', 'repetition', 'S042: số hiệu nhận diện', 'high', None, None, 1),
+ # ---- S/E bổ sung thủ công từ semantic_analysis/Pair_20 (§2) ----
+ ('S032', None, 'E', 'nominal', 'S032: {chúng ta} (trong câu)', 'med', None, '[TC] chủ ngữ rỗng trong quote: “Do đó ∅ cần chú trọng…” — copy 1–1 E-EN2', 1, 'Do đó ', '{chúng ta}', 'TC'),
+
 ]
