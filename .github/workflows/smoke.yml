@@ -1,0 +1,22 @@
+name: skill-smoke
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  mini-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Run the mini pair through the mechanical pipeline
+        run: |
+          rm -rf /tmp/mini
+          cp -r examples/mini /tmp/mini
+          python -m pipeline.annotate --work /tmp/mini/work --pair P01
+          python -m pipeline.render   --work /tmp/mini/work --pair P01
+          python -m pipeline.build_appendix --work /tmp/mini/work --out /tmp/mini/output
+          python -m pipeline.validate --work /tmp/mini/work --out /tmp/mini/output
