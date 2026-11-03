@@ -29,7 +29,7 @@ Start with **[SKILL.md](SKILL.md)**.  It is the operating contract for the agent
 ## Quick start
 
 ```bash
-git clone <this-repo> cohesion-en-vi
+git clone https://github.com/longme179/Cohesive-Devices-in-English-and-Vietnamese-Analyzing-SKILL.git cohesion-en-vi
 cd cohesion-en-vi
 
 # 1. input: a 2-column markdown table (see templates/input_template.md)
