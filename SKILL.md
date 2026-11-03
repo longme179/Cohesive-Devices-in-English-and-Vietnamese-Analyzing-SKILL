@@ -116,6 +116,17 @@ uv pip install --python .venv/bin/python -r requirements.txt
 The ingest/segment/annotate/render/build stages need only the Python standard
 library.
 
+## 4b. User-facing prompt templates
+
+A user who only attaches a two-column markdown can paste one of:
+
+- `prompts/annotate-input.vi.md` (Vietnamese)
+- `prompts/annotate-input.en.md` (English)
+
+Both prompts tell the agent to read this SKILL.md, run ingest/segment, do the
+manual analysis + tie table for each pair, render/QC, build Appendix 1 and
+export DOCX/PDF.
+
 ## 5. Per-pair manual analysis — the scientific core
 
 Create `work/analysis/PXX_semantic.md` from
