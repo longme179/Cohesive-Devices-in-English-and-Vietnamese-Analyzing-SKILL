@@ -5,11 +5,11 @@ EN: Halliday & Hasan (1976) · VI: Trần Ngọc Thêm (2006) · 5 colour-coded 
 
 | Màu | Ký hiệu | Danh mục |
 | :--- | :--- | :--- |
-| 🟨 vàng | R | Reference (tham chiếu) |
-| 🟩 xanh lá | S | Substitution (thay thế) |
-| 🟦 xanh dương | E | Ellipsis (lược bỏ, ∅ = vị trí trống) |
-| 🟧 cam | C | Conjunction (liên kết) |
-| 🟪 tím | L | Lexical cohesion (liên kết từ vựng) |
+| 🟨 vàng `#FFFF00` | R | Reference (tham chiếu) |
+| 🟩 xanh lá `#00FF00` | S | Substitution (thay thế) |
+| 🟦 xanh dương `#0000FF` | E | Ellipsis (lược bỏ, ∅ = vị trí trống) |
+| 🟧 cam `#FF9900` | C | Conjunction (liên kết) |
+| 🟪 tím `#9900FF` | L | Lexical cohesion (liên kết từ vựng) |
 
 ## Appendix 1 — bản v6 (2026-11): bổ sung thủ công toàn bộ S/E từ semantic_analysis
 
@@ -23,9 +23,10 @@ EN: Halliday & Hasan (1976) · VI: Trần Ngọc Thêm (2006) · 5 colour-coded 
 - **Số mới:** EN 1.697 (R 243 · S 21 · E 75 · C 65 · L 1.293) / VI 1.483
   (R 149 · S 3 · E 89 · C 67 · L 1.175). Marker coverage **3.180/3.180 (100%)**,
   0 straddle / 0 orphan / 0 deferred; `render.py` PASS 40/40.
-- **Định dạng:** 2 cột EN|VI, marker màu + mũ A/C/E; mỗi khối S/E mới có
-  comment Word ghi id, danh mục, `[LC]/[TC]`, tiền trạm, phần bù `{…}` và ghi
-  chú. Các khối R/C/L cũ vẫn giữ annotation kết quả căn cặp từ align v2.
+- **Định dạng:** 2 cột EN|VI, marker 5 màu + mũ A/C/E trên Reference; **đã bỏ
+  toàn bộ tag kết quả căn cặp (→ » ~ × +) và bảng chú giải 7 kết quả**. Mỗi
+  khối S/E mới có comment Word ghi id, danh mục, `[LC]/[TC]`, tiền trạm,
+  phần bù `{…}` và ghi chú.
 - **File:** `BDNC/Appendix1.{md,html,docx,pdf}` (bản chuẩn hiện hành);
   `out/appendix1/Appendix1.*` là bản artifact tương ứng. PDF 112 trang,
   xuất từ HTML bằng WeasyPrint; DOCX 3.180 comment.
@@ -49,9 +50,9 @@ Halliday & Hasan (1976) ↔ Trần Ngọc Thêm (2006).
 0 straddle / 0 orphan / 0 deferred (xem `out/appendix1/match_stats.json`).
 Số 2.996 của v3.1/v5 là tầng R/C/L liên-câu trước khi bổ sung S/E thủ công.
 
-## Appendix 1 — bản TÔ LẠI theo align v2 (v5, thay thế docx/pdf)
+## Appendix 1 — bản TÔ LẠI theo align v2 (v5, LỊCH SỬ — v7 đã bỏ tag kết quả)
 
-- `BDNC/Appendix1.docx` / `.pdf` — **bản chuẩn hiện hành**, dựng lại từ bảng
+- `BDNC/Appendix1.docx` / `.pdf` — **bản v5 lịch sử** (v7 hiện hành đã bỏ tag), dựng lại từ bảng
   align v2 (đã qua cổng kiểm 13): giữ nguyên định dạng 2 cột E–V mỗi cặp như
   vòng trước (20 bảng, header EN|VI kèm link nguồn, lặp header khi sang trang)
   và toàn bộ marking 5 màu + chữ mũ A/C/E (đối chiếu ký tự với bản cũ: 606/606

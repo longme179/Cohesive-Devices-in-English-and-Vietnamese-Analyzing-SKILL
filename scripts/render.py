@@ -22,11 +22,11 @@ BASE = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
 OUT = _os.path.join(BASE, 'out')
 
 CATS = {
- 'R': {'emoji': '\U0001F7E8', 'color': '#FFF176', 'name': 'Reference'},
- 'S': {'emoji': '\U0001F7E9', 'color': '#A5D6A7', 'name': 'Substitution'},
- 'E': {'emoji': '\U0001F7E6', 'color': '#90CAF9', 'name': 'Ellipsis'},
- 'C': {'emoji': '\U0001F7E7', 'color': '#FFCC80', 'name': 'Conjunction'},
- 'L': {'emoji': '\U0001F7EA', 'color': '#CE93D8', 'name': 'Lexical cohesion'},
+ 'R': {'emoji': '\U0001F7E8', 'color': '#FFFF00', 'name': 'Reference'},
+ 'S': {'emoji': '\U0001F7E9', 'color': '#00FF00', 'name': 'Substitution'},
+ 'E': {'emoji': '\U0001F7E6', 'color': '#0000FF', 'name': 'Ellipsis'},
+ 'C': {'emoji': '\U0001F7E7', 'color': '#FF9900', 'name': 'Conjunction'},
+ 'L': {'emoji': '\U0001F7EA', 'color': '#9900FF', 'name': 'Lexical cohesion'},
 }
 SENT_RE = re.compile(r'S(\d{3})')
 

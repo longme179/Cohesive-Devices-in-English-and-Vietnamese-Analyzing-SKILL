@@ -32,15 +32,15 @@ PAIRS_DIR = os.path.join(BASE, 'out', 'pairs')
 OUT_DIR = os.path.join(BASE, 'out', 'appendix1')
 
 CATS = {
-    'R': {'bg': '#FFF3B0', 'fg': '#664D03', 'emoji': '🟨', 'en': 'Reference',
+    'R': {'bg': '#FFFF00', 'fg': '#000000', 'emoji': '🟨', 'en': 'Reference',
           'vi': 'tham chiếu (đại từ, chỉ từ)'},
-    'S': {'bg': '#C8E6C9', 'fg': '#14532D', 'emoji': '🟩', 'en': 'Substitution',
+    'S': {'bg': '#00FF00', 'fg': '#000000', 'emoji': '🟩', 'en': 'Substitution',
           'vi': 'thay thế'},
-    'E': {'bg': '#BBDEFB', 'fg': '#1E3A8A', 'emoji': '🟦', 'en': 'Ellipsis',
+    'E': {'bg': '#0000FF', 'fg': '#FFFFFF', 'emoji': '🟦', 'en': 'Ellipsis',
           'vi': 'lược bỏ (∅ = vị trí trống)'},
-    'C': {'bg': '#FFE0B2', 'fg': '#7C2D12', 'emoji': '🟧', 'en': 'Conjunction',
+    'C': {'bg': '#FF9900', 'fg': '#000000', 'emoji': '🟧', 'en': 'Conjunction',
           'vi': 'liên kết'},
-    'L': {'bg': '#E1BEE7', 'fg': '#581C87', 'emoji': '🟪', 'en': 'Lexical cohesion',
+    'L': {'bg': '#9900FF', 'fg': '#FFFFFF', 'emoji': '🟪', 'en': 'Lexical cohesion',
           'vi': 'liên kết từ vựng'},
 }
 CAT_EMOJI = {c['emoji']: k for k, c in CATS.items()}

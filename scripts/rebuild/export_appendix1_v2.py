@@ -280,28 +280,8 @@ def build_comment_en(d, tid):
         lines.append(al)
     if not row:
         lines.append('Bổ sung thủ công từ semantic_analysis (S/E) — '
-                     'chưa có dòng trong bảng align v2; màu và level theo '
-                     'tie table.')
-        if tie.get('note'):
-            lines.append(f'note: {tie["note"]}')
-        return '\n'.join(lines)
-    k = outcome_key(row)
-    tt = d['tt'].get(row.get('tt_tie')) if row.get('tt_tie') else None
-    if k == 'kept':
-        lines.append(f'Căn cặp: giữ → VI {row["tt_tie"]} '
-                     f'{_q(tt["text"]) if tt else ""}')
-    elif k == 'shifted':
-        lines.append(f'Căn cặp: dịch chuyển [{row.get("shift")}] → VI '
-                     f'{row["tt_tie"]} {_q(tt["text"]) if tt else ""}')
-    elif k == 'kept_unmarked':
-        lines.append('Căn cặp: giữ, không đánh dấu — phía VI hiện thực hóa '
-                     'bằng cụm không được đánh dấu (first-mention / quy ước)')
-    elif k == 'omitted_cut':
-        lines.append('Căn cặp: bỏ — khối cắt (câu EN không có bản dịch)')
-    elif k == 'omitted_drop':
-        lines.append('Căn cặp: bỏ — vi-lược (câu có dịch nhưng item không '
-                     'được render)')
-    note = row.get('note') or ''
+                     'màu và level theo tie table.')
+    note = (row or {}).get('note') or ''
     if tie.get('note'):
         note = (note + ' · ' if note else '') + f'note: {tie["note"]}'
     if note:
@@ -320,35 +300,8 @@ def build_comment_vi(d, tid):
         lines.append(al)
     if not rows:
         lines.append('Bổ sung thủ công từ semantic_analysis (S/E) — '
-                     'chưa có dòng trong bảng align v2; màu và level theo '
-                     'tie table.')
-        if tie.get('note'):
-            lines.append(f'note: {tie["note"]}')
-        return '\n'.join(lines)
-    if rows[0]['outcome'] == 'added':
-        k = outcome_key(rows[0])
-        if k == 'added_real':
-            lines.append('Căn cặp: thêm — tự sinh (câu VI tự sinh / trùng '
-                         'nguồn / quy chiếu tự sinh trong câu đã dịch)')
-        else:
-            lines.append('Căn cặp: thêm — bất đối xứng kiểm kê (đối ứng EN '
-                         'tồn tại nhưng không được đánh dấu theo quy ước)')
-    else:
-        parts = []
-        for r in rows:
-            en_t = d['st'].get(r['st_tie'])
-            en_txt = _q(en_t['text']) if en_t else ''
-            if r['outcome'] == 'kept':
-                parts.append(f'EN {r["st_tie"]} {en_txt} (giữ)')
-            elif r['outcome'] == 'shifted':
-                parts.append(f'EN {r["st_tie"]} {en_txt} (dịch chuyển '
-                             f'{r.get("shift")})')
-        head = 'giữ' if any(r['outcome'] == 'kept' for r in rows) \
-            else 'dịch chuyển'
-        lines.append(f'Căn cặp: {head} ← ' + ' + '.join(parts)
-                     + (' (nhiều tie EN gộp về khối này)' if len(parts) > 1
-                        else ''))
-    note = rows[0].get('note') or ''
+                     'màu và level theo tie table.')
+    note = (rows[0] if rows else {}).get('note') or ''
     if tie.get('note'):
         note = (note + ' · ' if note else '') + f'note: {tie["note"]}'
     if note:
@@ -358,7 +311,7 @@ def build_comment_vi(d, tid):
 
 # ---------------------------------------------------------------- cell fill
 def fill_cell_marked(cell, side_ir, cats, d, size=9.5):
-    """Ô văn bản: đánh dấu 5 màu + mũ A/C/E + tag kết quả + comment."""
+    """Ô văn bản: đánh dấu 5 màu + mũ A/C/E + comment."""
     para = cell.paragraphs[0]
     para.paragraph_format.space_after = Pt(0)
     if side_ir['kind'] in ('none', 'dup'):
@@ -391,27 +344,14 @@ def fill_cell_marked(cell, side_ir, cats, d, size=9.5):
             shade_run(sup, c['bg'].lstrip('#'), c['fg'].lstrip('#'))
             sup.font.bold = True
             anchor.append(sup)
-        # annotation kết quả căn cặp (align v2)
-        oc = None
-        if tid:
-            if tid.split('-')[1] == 'EN':
-                oc = en_outcome(d, tid)
-            else:
-                oc = vi_outcome(d, tid)
-        if oc:
-            st = OUT_STYLE[oc]
-            tag = para.add_run(st['tag'])
-            tag.font.name = BODY_FONT
-            tag.font.size = Pt(max(size - 2.0, 7.0))
-            tag.font.superscript = True
-            tag.font.bold = True
-            tag.font.color.rgb = RGBColor.from_string(st['tag_fg'])
-            anchor.append(tag)
         # comment Word: note đầy đủ của tie
         if tid:
             ctext = build_comment_en(d, tid) if tid.split('-')[1] == 'EN' \
                 else build_comment_vi(d, tid)
             if ctext:
+                for ch, repl in (('→', ' sang '), ('»', ''), ('~', ''),
+                                 ('×', ''), ('+', '')):
+                    ctext = ctext.replace(ch, repl)
                 para.part.document.add_comment(
                     runs=anchor, text=ctext,
                     author=COMMENT_AUTHOR, initials=COMMENT_INITIALS)
@@ -438,7 +378,7 @@ def build():
     h = doc.add_paragraph()
     hr = h.add_run(
         'Appendix 1 — 20 cặp bài báo EN–VI '
-        '(đánh dấu ngữ nghĩa + annotation căn cặp)')
+        '(đánh dấu ngữ nghĩa 5 màu)')
     hr.font.name = HEAD_FONT
     hr.font.size = Pt(15)
     hr.font.bold = True
@@ -451,16 +391,10 @@ def build():
         'Tùng 2020), quy về cùng thang 5 màu. Bản này đánh dấu các tie '
         'liên-câu (R/C/L) và BỔ SUNG THỦ CÔNG các vị trí phép thế (S) / phép '
         'tỉnh lược (E) đã phân tích trong download/BDNC/semantic_analysis — '
-        'gồm cả [LC] liên câu và [TC] trong câu; level ghi trong comment. '
-        'Bản này được TÔ LẠI dựa vào bảng '
-        'căn cặp (align v2) dựng theo giao thức mới — từ bản đồ câu của 20 '
-        'bản phân tích thủ công, đã qua cổng kiểm ngữ nghĩa (bước 13): mỗi '
-        'khối đánh dấu kèm (i) nền màu 5 danh mục; (ii) với Reference (R), '
-        'chữ mũ một trong 3 hướng quy chiếu A/C/E; (iii) annotation kết quả '
-        'căn cặp dạng mũ nhỏ ngay sau khối (→ » ~ × +); (iv) comment Word '
-        'chứa note đầy đủ của tie (danh mục, tiền trạm, độ tin cậy, kết quả '
-        'căn cặp, đối tác EN/VI, ghi chú) — rê chuột lên khối đánh dấu hoặc '
-        'mở Review → Comments để xem.')
+        'gồm cả [LC] liên câu và [TC] trong câu. Mỗi khối đánh dấu chỉ gồm '
+        '(i) nền màu 5 danh mục; (ii) với Reference (R), chữ mũ một trong 3 '
+        'hướng quy chiếu A/C/E. Không còn tag kết quả căn cặp. '
+        'Comment Word (nếu cần tra cứu) vẫn chứa note của tie.')
     irun.font.size = Pt(9.5)
     irun.font.color.rgb = RGBColor.from_string('333333')
 
@@ -498,58 +432,6 @@ def build():
         'bối cảnh phát ngôn — người viết / độc giả). Toàn ngữ liệu không có '
         'trường hợp C liên-câu. (Chữ mũ E này khác ký hiệu danh mục E = '
         'lược bỏ.)')
-
-    # ---- legend kết quả căn cặp ----
-    add_heading(doc, 'Chú giải annotation kết quả căn cặp (mũ nhỏ ngay sau '
-                     'mỗi khối đánh dấu — từ bảng align v2)')
-    ot = doc.add_table(rows=len(OUT_STYLE) + 1, cols=3)
-    ot.style = 'Table Grid'
-    ot.alignment = WD_TABLE_ALIGNMENT.CENTER
-    set_cell_margins(ot, top=30, bottom=30, left=70, right=70)
-    hdr = ot.rows[0]
-    for j, (w, txt) in enumerate(((Cm(1.3), 'Ký hiệu'),
-                                  (Cm(4.6), 'Kết quả'),
-                                  (Cm(12.1), 'Ý nghĩa'))):
-        hdr.cells[j].width = w
-        shade_cell(hdr.cells[j], 'EFEFEF')
-        p = hdr.cells[j].paragraphs[0]
-        r = p.add_run(txt)
-        r.font.name = HEAD_FONT
-        r.font.bold = True
-        r.font.size = Pt(9)
-    for i, (k, st) in enumerate(OUT_STYLE.items(), start=1):
-        row = ot.rows[i]
-        row.cells[0].width, row.cells[1].width, row.cells[2].width = \
-            Cm(1.3), Cm(4.6), Cm(12.1)
-        shade_cell(row.cells[0], st['bg'])
-        p0 = row.cells[0].paragraphs[0]
-        p0.alignment = WD_ALIGN_PARAGRAPH.CENTER
-        r0 = p0.add_run(st['tag'])
-        r0.font.name = BODY_FONT
-        r0.font.bold = True
-        r0.font.size = Pt(11)
-        r0.font.color.rgb = RGBColor.from_string(st['tag_fg'])
-        p1 = row.cells[1].paragraphs[0]
-        r1 = p1.add_run(st['vi'])
-        r1.font.name = BODY_FONT
-        r1.font.size = Pt(8.5)
-        r1.font.bold = True
-        r1.font.color.rgb = RGBColor.from_string(st['fg'])
-        p2 = row.cells[2].paragraphs[0]
-        r2 = p2.add_run(OUT_MEANING[k])
-        r2.font.name = BODY_FONT
-        r2.font.size = Pt(8.5)
-
-    add_note_para(
-        doc,
-        'Cách đọc ví dụ: “itᴬ→” = Reference hồi quy, có tie VI đối dịch cùng '
-        'referent; “Weᴱ+” (phía VI) = quy chiếu ngoại văn bản, tie VI tự '
-        'sinh; “thoseᴬ×” = đại từ hồi quy rơi vào khối cắt. Trên khối VI: '
-        'nếu nhiều tie EN cùng đáp về một khối VI (điểm gộp) thì ưu tiên '
-        'hiển thị → (giữ); danh sách đầy đủ các tie EN nằm trong comment. '
-        'Phân biệt × (bỏ — khối cắt: câu không dịch) và × (bỏ — vi-lược: '
-        'câu có dịch nhưng item mất) xem màu nền ở bảng trên và nội dung '
-        'comment. Bảng căn cặp chi tiết từng tie: file Appendix1_Align.docx.')
 
     # ---- framework correspondence table ----
     add_heading(doc, 'Khung lý thuyết / đối chiếu danh mục '
@@ -654,12 +536,11 @@ def build():
             fill_cell_marked(cells[1], row_ir['vi'], cats, d)
 
     doc.core_properties.title = (
-        'Appendix 1 — 20 cặp bài báo EN–VI (đánh dấu ngữ nghĩa + annotation '
-        'căn cặp)')
+        'Appendix 1 — 20 cặp bài báo EN–VI (đánh dấu ngữ nghĩa 5 màu)')
     doc.core_properties.author = 'BDNC Group 9'
     doc.core_properties.subject = (
         'Cohesion annotation — Halliday & Hasan (1976) / Trần Ngọc Thêm '
-        '(2006); outcome annotations từ align v2 (gate 13)')
+        '(2006); 5-colour marking + A/C/E reference direction')
 
     doc.save(OUT_DL)
     shutil.copyfile(OUT_DL, OUT_ARTIFACT)
@@ -688,9 +569,9 @@ def build():
             n_cmt = rel.target_part.blob.decode('utf-8').count('<w:comment ')
     print(f'Output: {OUT_DL} ({os.path.getsize(OUT_DL)} bytes)')
     print(f'Pairs: {len(ir["pairs"])}, tables: {len(chk.tables)} '
-          f'(1 legend + 1 outcome + 1 framework + 20 pairs)')
+          f'(1 legend + 1 framework + 20 pairs)')
     print(f'Shaded runs by fill: {n_shd}')
-    print(f'Superscript runs: {n_sup} (395 ref letters + 2996 outcome tags)')
+    print(f'Superscript runs: {n_sup} (A/C/E reference letters only)')
     print(f'Word comments: {n_cmt} (expect 3180)')
 
 

@@ -31,8 +31,8 @@ for i in range(1, 21):
 
 legend_html = ('<p class="legend">' + ' '.join(
     f'<span class="tie" style="background-color:{c}">{n}</span>'
-    for c, n in (('#FFF176','Reference'),('#A5D6A7','Substitution'),('#90CAF9','Ellipsis'),
-                 ('#FFCC80','Conjunction'),('#CE93D8','Lexical cohesion'))) + '</p>')
+    for c, n in (('#FFFF00','Reference'),('#00FF00','Substitution'),('#0000FF','Ellipsis'),
+                 ('#FF9900','Conjunction'),('#9900FF','Lexical cohesion'))) + '</p>')
 doc = f'''<!DOCTYPE html>
 <html lang="en">
 <head><meta charset="utf-8"><title>Appendix 1 — Highlighted texts (20 pairs)</title>
