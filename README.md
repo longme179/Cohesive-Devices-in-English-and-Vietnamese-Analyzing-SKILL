@@ -96,6 +96,14 @@ download/BDNC/semantic_analysis/   20 hand-written analyses (B1–B28 ledger)
 out/appendix1/            the 20-pair Appendix 1 (v7, 5 colours, no tags)
 ```
 
+## Prompt mẫu
+
+Người dùng chỉ cần đính kèm file markdown 2 cột EN|VI và dán prompt trong
+[`prompts/annotate-input.vi.md`](prompts/annotate-input.vi.md) (hoặc bản
+[`annotate-input.en.md`](prompts/annotate-input.en.md)). Prompt đã bao gồm:
+đọc SKILL.md, chạy ingest/segment, phân tích thủ công từng cặp, viết tie table,
+render/QC, build Appendix 1 và export DOCX/PDF.
+
 ## The example first
 
 A five-row worked pair lives in `examples/mini/`:
